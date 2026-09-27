@@ -1,0 +1,17 @@
+{
+  "auto-allow-and-no-emdash-guardrail": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:\\Users\\MeenaDavin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe scripts\\no_emdash_hook.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

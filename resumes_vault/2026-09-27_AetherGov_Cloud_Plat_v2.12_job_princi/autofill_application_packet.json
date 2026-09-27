@@ -1,0 +1,32 @@
+{
+  "candidate": {
+    "first_name": "Meena",
+    "last_name": "Kannan",
+    "full_name": "Meena Kannan",
+    "email": "meenakannan92@gmail.com",
+    "phone": "+91 97893 02084",
+    "location": "Chennai, India (100% Remote Worldwide / Global B2B or India EOR)",
+    "linkedin_url": "https://www.linkedin.com/in/meena-kannan-mk",
+    "github_url": "https://github.com/meenak95",
+    "years_of_experience": 9,
+    "notice_period": "Immediate / 15 Days",
+    "engagement_models": [
+      "Global B2B Contractor (USD/EUR/GBP via Deel/Invoicing)",
+      "Full-Time Remote India (EOR)"
+    ]
+  },
+  "job_target": {
+    "job_id": "job_principal_govtech_architect_02",
+    "title": "Principal Backend & Event-Driven Platform Engineer",
+    "company": "AetherGov Cloud Platforms",
+    "portal_url": "https://example.com/jobs/principal-event-driven-02",
+    "estimated_b2b_monthly_in_hand_inr": 553616,
+    "estimated_eor_monthly_in_hand_inr": 473175
+  },
+  "files_prepared": {
+    "employer_upload_pdf": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-27_AetherGov_Cloud_Plat_v2.12_job_princi\\Meena_Kannan_Principal_Backend_Event.pdf",
+    "ats_safe_filename": "Meena_Kannan_Principal_Backend_Event.pdf",
+    "cover_note_file": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-27_AetherGov_Cloud_Plat_v2.12_job_princi\\cover_note.txt",
+    "recruiter_dm_file": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-27_AetherGov_Cloud_Plat_v2.12_job_princi\\recruiter_linkedin_dm.txt"
+  }
+}

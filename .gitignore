@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+otp_relay_config.json
+wallet/
+
+# Local SQLite / Oracle mirror databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Runtime logs, tunnel configs, and temporary status files
+*.log
+empty_cf_config.yml
+greenhouse_live_status.txt
+appfire_cover_note.txt
+
+# Browser automation screenshots
+*.png

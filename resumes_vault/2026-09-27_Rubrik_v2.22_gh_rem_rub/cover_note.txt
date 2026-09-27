@@ -1,0 +1,11 @@
+Hi Hiring Team at Rubrik,
+
+Applying for the Architect, AI Data Platform & Engineering position. I'm a Lead Software Engineer with 9+ years of experience in Java 21, Spring Boot 3, Apache Kafka, and AWS Kubernetes architectures, combined with hands-on delivery in Spring AI, RAG pipelines, and MCP tool orchestration.
+
+In my current lead role on VRLS 2.0 (NCS / LTA) and prior engineering roles at BlackStraw.AI and Wolters Kluwer, I've owned end-to-end monolith-to-microservices migrations, Istio service mesh security, and real-time Kafka event pipelines that cut reporting latency from 15+ minutes down to seconds.
+
+I am based in India and available for 100% remote work globally (B2B contractor or full-time). Looking forward to discussing how I can contribute to the Rubrik engineering team.
+
+Warm regards,
+Meena Kannan
++91 97893 02084 | meenakannan92@gmail.com | linkedin.com/in/meena-kannan-mk

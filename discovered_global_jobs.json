@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ashby_camunda_java_zeebe_01",
+    "source": "Ashby Global Remote (Camunda Java Workflow Engine)",
+    "title": "Senior / Staff Software Engineer, Backend - Java Distributed Systems ($125k-$160k USD B2B)",
+    "company": "Camunda (100% Remote Worldwide B2B / EOR)",
+    "role_category": "Global B2B Contract - Java Distributed Streaming & Workflow Engine",
+    "url": "https://jobs.ashbyhq.com/camunda",
+    "tags": ["Global B2B Contract", "Work from India", "Java 21", "Distributed Systems", "Kafka", "Kubernetes", "AWS"],
+    "description": "100% Remote Worldwide ($125,000 - $160,000 USD/yr). Core platform engineering for Camunda 8 Zeebe workflow engine in Java, high-throughput streaming, and multi-region Kubernetes."
+  },
+  {
+    "id": "gh_gp_principal_ai_platform_4828114004",
+    "source": "Greenhouse Direct ATS (G-P Globalization Partners India Remote)",
+    "title": "Principal Software Engineer - AI Platform & Multi-Agent Orchestration (INR 60L - 85L)",
+    "company": "G-P / Globalization Partners (100% Remote India)",
+    "role_category": "Full-Time India Remote - Principal Java/Python & Multi-Agent AI",
+    "url": "https://boards.greenhouse.io/gp/jobs/4828114004",
+    "tags": ["100% Remote India", "Java", "Spring AI", "RAG", "MCP", "Multi-Agent Systems", "AWS"],
+    "description": "100% Remote from India (INR 60 LPA - 85 LPA / $70k-$100k USD). Technical evolution of customer-facing AI agents, LLM orchestration, Java, Python, and AWS cloud."
+  },
+  {
+    "id": "gh_togetherai_infra_agent_rag_03",
+    "source": "Greenhouse Direct ATS (Together AI India Remote)",
+    "title": "Senior / Staff Software Engineer - AI Agent Systems, Knowledge Graphs & RAG (INR 50L - 75L)",
+    "company": "Together AI (100% Remote India)",
+    "role_category": "Full-Time India Remote / B2B - Knowledge Graphs, RAG & Agentic Systems",
+    "url": "https://job-boards.greenhouse.io/togetherai",
+    "tags": ["100% Remote India", "Knowledge Graphs", "RAG", "Agentic Workflows", "MCP", "Kubernetes", "Distributed Systems"],
+    "description": "100% Remote from India (INR 50 LPA - 75 LPA). Autonomous AI agents, knowledge graphs, retrieval architectures (RAG), agent orchestration, and distributed infrastructure."
+  },
+  {
+    "id": "ashby_confluent_staff_kafka_india_04",
+    "source": "Ashby Direct ATS (Confluent India Remote)",
+    "title": "Staff Software Engineer - Apache Kafka & Cloud Streaming (INR 55L - 80L)",
+    "company": "Confluent (100% Remote India)",
+    "role_category": "Full-Time India Remote - Apache Kafka & Multi-Cloud AWS/K8s",
+    "url": "https://jobs.ashbyhq.com/confluent",
+    "tags": ["100% Remote India", "Apache Kafka", "Java", "Kubernetes", "AWS", "Event-Driven Architecture"],
+    "description": "100% Remote from India (INR 55 LPA - 80 LPA). Confluent Cloud multi-cloud streaming infrastructure (AWS, GCP, Azure), deep Apache Kafka and event-driven architecture."
+  },
+  {
+    "id": "gh_canonical_cloud_architect_05",
+    "source": "Greenhouse Direct ATS (Canonical Home-Based Worldwide)",
+    "title": "Cloud Solutions Architect - AWS, Kubernetes, Kafka & AI/MLOps ($110k-$145k USD B2B)",
+    "company": "Canonical (100% Home-Based Worldwide B2B Contract)",
+    "role_category": "Global B2B Contract - Cloud Architecture, Kubernetes & Kafka",
+    "url": "https://job-boards.greenhouse.io/canonical",
+    "tags": ["Global B2B Contract", "Work from India", "AWS", "Kubernetes", "Apache Kafka", "AI"],
+    "description": "100% Home-Based Worldwide ($110,000 - $145,000 USD/yr). Hands-on design and reference implementations across AWS, Kubernetes, Kafka, and enterprise AI/MLOps."
+  },
+  {
+    "id": "ashby_junipersquare_sr_tech_lead_india_06",
+    "source": "Ashby Direct ATS (Juniper Square India Remote)",
+    "title": "Senior Technical Lead - Java, Event-Driven Microservices & AWS (INR 45L - 65L)",
+    "company": "Juniper Square (100% Remote India)",
+    "role_category": "Full-Time India Remote - Senior Technical Lead (Java & AWS)",
+    "url": "https://jobs.ashbyhq.com/junipersquare",
+    "tags": ["100% Remote India", "Java 21", "Spring Boot", "Microservices", "AWS", "Event-Driven"],
+    "description": "100% Remote from India (INR 45 LPA - 65 LPA). Architectural oversight of financial data backend platforms, event-driven microservices in Java, and AWS cloud-native infrastructure."
+  },
+  {
+    "id": "ashby_oscilar_staff_java_india_01",
+    "source": "Ashby Direct ATS (Oscilar India Remote)",
+    "title": "Sr. / Staff Backend Engineer - Java, Kafka & AWS (INR 66.2L - 96.5L)",
+    "company": "Oscilar (100% Remote India)",
+    "role_category": "Full-Time India Remote - AI Risk Decisioning & Java Microservices",
+    "url": "https://jobs.ashbyhq.com/oscilar",
+    "tags": ["100% Remote India", "Full-Time EOR / Entity", "Java 21", "Spring Boot 3", "Apache Kafka", "AWS", "Kubernetes", "AI"],
+    "description": "100% Remote from India (INR 66.2 LPA - 96.5 LPA). AI-native risk decisioning platform, high-throughput low-latency microservices, Java 17/21, AWS, Kafka, Kubernetes."
+  },
+  {
+    "id": "ashby_signoz_sr_backend_ai_mcp_02",
+    "source": "Ashby Direct ATS (SigNoz India Remote)",
+    "title": "Senior / Staff Backend Engineer - AI, MCP Servers & Observability (INR 40L - 1.00 Cr)",
+    "company": "SigNoz (100% Remote India)",
+    "role_category": "Full-Time India Remote - MCP Servers, AI SRE & Distributed Systems",
+    "url": "https://jobs.ashbyhq.com/signoz",
+    "tags": ["100% Remote India", "MCP Servers", "Spring AI", "RAG", "Kubernetes", "Observability", "Distributed Systems"],
+    "description": "100% Remote from India (INR 40 LPA - 1.00 Cr LPA + equity). AI layer of SigNoz, AI SRE tools, Model Context Protocol (MCP) servers, agentic observability, and LLM tracing."
+  },
+  {
+    "id": "atlassian_remote_principal_java_search_03",
+    "source": "Atlassian Team Anywhere (100% Remote India)",
+    "title": "Senior Principal Software Engineer - JVM Distributed Systems & AI Search (INR 90L - 1.40 Cr)",
+    "company": "Atlassian (100% Remote India - Team Anywhere)",
+    "role_category": "Full-Time India Remote - Principal Java & AI Retrieval",
+    "url": "https://www.atlassian.com/company/careers",
+    "tags": ["100% Remote India", "Java 21", "Spring Boot", "AWS", "Kafka", "RAG", "Distributed Systems"],
+    "description": "100% Remote from India under Atlassian Team Anywhere Policy (INR 90 LPA - 1.40 Cr LPA). JVM/Java distributed services, Rovo AI Search platform, streaming data, and AWS infrastructure."
+  },
+  {
+    "id": "smartrecruiters_nagarro_principal_java_04",
+    "source": "SmartRecruiters ATS (Nagarro Work-From-Anywhere India)",
+    "title": "Principal Engineer - Java 21, Spring Boot & Kafka (INR 45L - 65L)",
+    "company": "Nagarro (100% Remote India)",
+    "role_category": "Full-Time India Remote - Principal Java Architect",
+    "url": "https://jobs.smartrecruiters.com/Nagarro1/",
+    "tags": ["100% Remote India", "Java 21", "Spring Boot 3", "Apache Kafka", "Microservices", "AWS"],
+    "description": "100% Remote from India (INR 45 LPA - 65 LPA). Distributed system architecture, Java 17/21, Spring Boot ecosystem, event-driven messaging (Kafka), and cloud microservices."
+  },
+  {
+    "id": "gh_neuraflash_aws_architect_5231792004",
+    "source": "Greenhouse Direct ATS (NeuraFlash / Accenture India Remote)",
+    "title": "AWS & Backend Technical Architect (India Remote - INR 35L - 55L)",
+    "company": "NeuraFlash (100% Remote India)",
+    "role_category": "Full-Time India Remote - AWS & Java/Python Cloud Architecture",
+    "url": "https://boards.greenhouse.io/neuraflash/jobs/5231792004",
+    "tags": ["100% Remote India", "AWS", "Java", "Spring Boot", "Microservices", "Cloud Architecture"],
+    "description": "100% Remote from India (INR 35 LPA - 55 LPA). AWS cloud architectures, enterprise migrations, and hands-on backend engineering in Java and Python."
+  },
+  {
+    "id": "b2b_micro1_java_ai_01",
+    "source": "Global B2B USD Contractor (Himalayas / micro1)",
+    "title": "Senior / Lead Backend Java & AI Evaluation Engineer ($120k-$220k USD B2B)",
+    "company": "micro1 (100% Remote Worldwide / USD Contractor)",
+    "role_category": "Global B2B Contract - Java, Spring Boot & AI",
+    "url": "https://himalayas.app/companies/micro1/jobs/backend-java-developer",
+    "tags": ["Global B2B Contract", "Work from India", "Java 21", "Spring Boot 3", "Microservices", "AWS", "AI"],
+    "description": "100% Remote Global USD Contractor ($120,000 - $220,000 USD/yr). Java, Spring Boot, Microservices, REST APIs, AWS, and AI code architecture evaluation."
+  },
+  {
+    "id": "b2b_payforge_java21_kafka_02",
+    "source": "Global B2B USD Contract (PayForge Fintech)",
+    "title": "Senior / Lead Java 21 & Kafka Payments Engineer ($70k-$120k USD B2B)",
+    "company": "PayForge (100% Remote Global B2B Contract)",
+    "role_category": "Global B2B Fintech - Java 21, Spring Boot & Apache Kafka",
+    "url": "https://himalayas.app/companies/payforge/jobs",
+    "tags": ["Global B2B Contract", "Work from India", "Java 21", "Spring Boot 3", "Apache Kafka", "PostgreSQL", "AWS"],
+    "description": "100% Remote Global B2B Contract ($70,000 - $120,000 USD/yr). Java 21 LTS, Spring Boot, Apache Kafka, PostgreSQL, AWS, Event-Driven Payments Architecture."
+  },
+  {
+    "id": "b2b_sporty_java21_k8s_03",
+    "source": "Greenhouse Global Remote (Sporty Group)",
+    "title": "Senior Backend Engineer - Java 21, Kafka & Kubernetes ($90k-$140k USD)",
+    "company": "Sporty Group (100% Remote Global USD)",
+    "role_category": "Global Remote High-Scale Java 21 & Kafka",
+    "url": "https://boards.greenhouse.io/sporty",
+    "tags": ["Global B2B / Remote", "Work from India", "Java 21", "Spring Boot 3", "Apache Kafka", "Kubernetes", "AWS"],
+    "description": "100% Remote Global role ($90,000 - $140,000 USD/yr + quarterly bonuses). Java 17/21, Spring Boot, Microservices, Apache Kafka, AWS, Kubernetes high-scale real-time systems."
+  },
+  {
+    "id": "b2b_gravity9_java_cloud_04",
+    "source": "Global B2B USD Contract (gravity9)",
+    "title": "Senior / Lead Java & Cloud Modernization Consultant ($111k-$136k USD B2B)",
+    "company": "gravity9 (100% Remote Worldwide B2B Contract)",
+    "role_category": "Global B2B Consulting - Java, Spring Boot & Cloud",
+    "url": "https://himalayas.app/companies/gravity9/jobs",
+    "tags": ["Global B2B Contract", "Work from India", "Java", "Spring Boot", "MongoDB", "Microservices", "Cloud"],
+    "description": "100% Remote Worldwide B2B Contract ($111,000 - $136,000 USD/yr). Java 17+, Spring Boot, Spring Data, Microservices Architecture, and Cloud Modernization."
+  }
+]

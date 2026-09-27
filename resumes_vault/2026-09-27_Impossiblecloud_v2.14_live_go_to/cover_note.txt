@@ -1,0 +1,4 @@
+**Target Role Alignment (Go-to-Market Champion (GPU & AI) @ Impossiblecloud)**
+- **Graph-Verified Architecture Experience**: Designed and deployed *Self-Improving 24/7 Job Search Agent with Oracle AI Database* (USES_SKILL -> RAG & Memory Engineering, USES_SKILL -> Google Antigravity SDK & Tool Orchestration, SOLVES_DOMAIN -> LLM Orchestration, SOLVES_DOMAIN -> Enterprise AI), operating in <50 MB RAM via `python-oracledb` Thin Mode and Google Antigravity SDK.
+- **Self-Improving & Memory-Aware Systems**: Implemented Oracle AI Vector Search (`VECTOR` cosine similarity) and SQL Property Graph traversal with Andrew Ng's Generator-Critic-Refiner loops for continual behavioral adaptation.
+- **Direct Impact for Impossiblecloud**: Ready to accelerate Sales workflows from Day 1 with zero hallucination context retrieval.

@@ -1,0 +1,67 @@
+{
+  "candidate_name": "Meena Kannan",
+  "headline": "Lead Software Engineer (9+ Yrs) | 100% Remote from India (Full-Time or Global B2B Contract) | Java 21, Spring Boot 3, Cloud-Native (AWS/K8s/Kafka) & AI-Augmented Engineering (Spring AI, RAG, MCP)",
+  "contact": {
+    "email": "meenakannan92@gmail.com",
+    "phone_in": "+91 97893 02084",
+    "phone_sg": "+65 87373057",
+    "linkedin": "linkedin.com/in/meena-kannan-mk",
+    "github": "github.com/meenak95",
+    "availability": "Based in India | Strictly Targeting 100% Remote Roles Eligible from India (Global B2B Contracts or Full-Time Remote)"
+  },
+  "target_roles": [
+    "Lead / Staff Software Engineer — Remote from India (Full-Time or B2B Contract)",
+    "Principal Java 21 & Spring Boot 3 Microservices Consultant (Global B2B / Remote)",
+    "Lead AI-Augmented Engineer — Spring AI, RAG, MCP & Claude API (Remote Worldwide)",
+    "Cloud-Native & Event-Driven Platform Architect — AWS, Kubernetes & Kafka (Remote)"
+  ],
+  "preferred_locations": [
+    "Remote - India",
+    "Remote - Worldwide / Anywhere",
+    "Remote - APAC (Work from India)",
+    "Global B2B Contract (Remote from India)",
+    "Remote US / EU / UK / SG (Contractor / EOR from India)"
+  ],
+  "min_match_score": 75,
+  "dealbreakers": [
+    "Singapore onsite or Singapore hybrid requiring physical presence in Singapore",
+    "Onsite-only or Hybrid requiring relocation outside India",
+    "US-only / EU-only remote restricted by citizenship/tax residence excluding India B2B/EOR",
+    "Junior / Entry-level / Unpaid internship"
+  ],
+  "knowledge_graph": {
+    "skills": [
+      {"id": "skill_java_spring", "name": "Java 21 & Spring Boot 3.x / WebFlux / Security", "category": "Backend", "proficiency": "Expert"},
+      {"id": "skill_k8s_cloud", "name": "AWS (EKS, ECS, ALB, S3, RDS, Lambda), Kubernetes, Helm, Istio Service Mesh", "category": "Cloud", "proficiency": "Expert"},
+      {"id": "skill_event_driven", "name": "Apache Kafka, Kafka Streams, KEDA Autoscaling, Redis, Outbox & Saga", "category": "Event-Driven", "proficiency": "Expert"},
+      {"id": "skill_ai_agents", "name": "Spring AI, RAG Pipelines, MCP Servers, Claude API, Agentic Workflows", "category": "AI", "proficiency": "Advanced"},
+      {"id": "skill_databases", "name": "Oracle DB, PostgreSQL, MySQL, MongoDB, Redis, Flyway", "category": "Database", "proficiency": "Expert"},
+      {"id": "skill_frontend", "name": "Angular 18, NgRx, RxJS, TypeScript, React, Next.js, GraphQL", "category": "Frontend", "proficiency": "Advanced"},
+      {"id": "skill_devsecops", "name": "ArgoCD GitOps, Jenkins, GitHub Actions, Terraform, Vault, Keycloak, OpenTelemetry", "category": "DevSecOps", "proficiency": "Advanced"},
+      {"id": "skill_leadership", "name": "Remote Technical Scrum Lead (PSM I / PSPO I), Global B2B Delivery, ADRs", "category": "Leadership", "proficiency": "Expert"}
+    ],
+    "projects": [
+      {
+        "id": "proj_lta_vrls2",
+        "title": "VRLS 2.0 Cloud-Native Microservices & AI Modernisation (NCS / LTA)",
+        "summary": "Architected Spring Boot 3 + Java 21 microservices on AWS (EKS, Istio mTLS, Kafka, KEDA, Redis, ArgoCD) serving millions of users; led Angular 13->18 migration (-40% redundant API calls) and rolled out Spring AI, MCP, and Claude API agentic workflows.",
+        "uses_skills": ["skill_java_spring", "skill_k8s_cloud", "skill_event_driven", "skill_ai_agents", "skill_databases", "skill_frontend", "skill_devsecops", "skill_leadership"],
+        "solves_domains": ["Cloud-Native Modernisation", "Microservices Architecture", "Distributed Remote Delivery", "Event-Driven Scaling", "Spring AI & MCP Integration"]
+      },
+      {
+        "id": "proj_blackstraw_ai",
+        "title": "Real-Time AI Retail Promotion Forecasting Platform (BlackStraw.AI - India)",
+        "summary": "Built Spring Boot microservices connecting CPG retail feeds to AI/ML inference endpoints; replaced batch polling with Apache Kafka streams, slashing execution-reporting latency from 15+ mins to near real-time.",
+        "uses_skills": ["skill_java_spring", "skill_event_driven", "skill_ai_agents", "skill_databases"],
+        "solves_domains": ["AI/ML Inference Integration", "Real-Time Streaming", "High-Throughput Backend", "Latency Optimization"]
+      },
+      {
+        "id": "proj_wolters_kluwer_legal_ai",
+        "title": "Legal View Bill Analyzer AI + Drools BRMS Engine (Wolters Kluwer - Global LegalTech)",
+        "summary": "Built Spring Boot microservice combining AI model predictions with Drools BRMS rule evaluation for multi-jurisdiction legal billing compliance at sub-500 ms production latency.",
+        "uses_skills": ["skill_java_spring", "skill_ai_agents", "skill_databases"],
+        "solves_domains": ["LegalTech AI", "Rule Engine & Compliance", "Low-Latency Microservices", "Fintech & Billing"]
+      }
+    ]
+  }
+}
