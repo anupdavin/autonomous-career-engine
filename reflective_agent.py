@@ -1,10 +1,8 @@
 import hashlib
 from typing import Any, Dict, List
 
-from config import SETTINGS
 from guardrails import assert_no_emdashes, sanitize_no_emdashes
-from oracle_memory import OracleAIMemoryManager
-from skill_induction import SkillInductionPipeline
+from oracle_memory import OracleAIMemoryManager, PROFILE_OVERLAP_RECOMMENDATION_THRESHOLD
 
 
 BANNED_AI_PHRASES = (
@@ -25,16 +23,15 @@ BANNED_AI_PHRASES = (
 
 class ReflectiveJobAgent:
     """
-    Implements Andrew Ng's Self-Improving / Reflection Design Pattern
-    with an explicit ANTI-BOT & NO-EM-DASH GUARDRAIL:
+    Ranks eligible roles with a deterministic graph heuristic and validates
+    generated copy against the project's anti-bot and punctuation guardrails.
       - Strictly bans Unicode em-dashes (U+2014) and en-dashes (U+2013)
       - Ensures zero robotic formatting (no markdown bolding `**` in copy-paste notes, no AI buzzwords)
       - Uses natural first-person Senior Engineer prose with rotated sentence structure
     """
 
-    def __init__(self, memory: OracleAIMemoryManager, skill_pipeline: SkillInductionPipeline) -> None:
+    def __init__(self, memory: OracleAIMemoryManager) -> None:
         self.memory = memory
-        self.skills = skill_pipeline
 
     def _craft_human_authentic_note(self, job: Dict[str, Any], top_proj: Dict[str, Any]) -> str:
         """
@@ -55,8 +52,8 @@ class ReflectiveJobAgent:
                 f"Alongside core distributed systems work (cutting redundant API calls by ~40% during our Angular 13 to 18 "
                 f"upgrade and replacing 15-minute batch jobs with real-time Kafka streams at BlackStraw.AI), I've been "
                 f"hands-on integrating Spring AI, RAG pipelines, and MCP tool servers into production Java services.\n\n"
-                f"I am based in India and available immediately for 100% remote engagement (either via Global B2B contract "
-                f"or full-time through India EOR) with full timezone overlap. Happy to walk through our VRLS 2.0 and Kafka "
+                f"I am based in India and targeting 100% remote roles, either via a Global B2B contract or full-time "
+                f"through India EOR. Happy to walk through our VRLS 2.0 and Kafka "
                 f"architecture anytime.\n\n"
                 f"Best regards,\n"
                 f"Meena Kannan\n"
@@ -72,8 +69,8 @@ class ReflectiveJobAgent:
                 f"A big focus of my recent work has been bridging production Java microservices with practical AI workflows, "
                 f"rolling out Spring AI, RAG vector retrieval, and Anthropic MCP server patterns while keeping strict latency "
                 f"and compliance guardrails (previously built a sub-500ms AI + Drools billing compliance engine at Wolters Kluwer).\n\n"
-                f"I'm working remotely from India and set up for immediate B2B contracting (Deel / direct invoicing) or "
-                f"remote full-time roles. Would love to connect if my background fits what your squad is building.\n\n"
+                f"I am based in India and interested in remote full-time roles through an India entity or EOR, or in "
+                f"global B2B contracting. Would love to connect if my background fits what your squad is building.\n\n"
                 f"Thanks,\n"
                 f"Meena Kannan\n"
                 f"+91 97893 02084 | meenakannan92@gmail.com | github.com/meenak95"
@@ -87,7 +84,7 @@ class ReflectiveJobAgent:
                 f"In my current lead role on VRLS 2.0 (NCS / LTA) and prior engineering roles at BlackStraw.AI and Wolters Kluwer, "
                 f"I've owned end-to-end monolith-to-microservices migrations, Istio service mesh security, and real-time Kafka "
                 f"event pipelines that cut reporting latency from 15+ minutes down to seconds.\n\n"
-                f"I am based in India and available for 100% remote work globally (B2B contractor or full-time). Looking forward "
+                f"I am based in India and targeting 100% remote work through a global B2B contract or full-time India employment. Looking forward "
                 f"to discussing how I can contribute to the {company} engineering team.\n\n"
                 f"Warm regards,\n"
                 f"Meena Kannan\n"
@@ -103,14 +100,25 @@ class ReflectiveJobAgent:
         job: Dict[str, Any],
         graph_ctx: Dict[str, Any],
         episodic_memories: List[Dict[str, Any]],
-        rules: List[str],
-        applicable_skills: List[Dict[str, str]],
     ) -> Dict[str, Any]:
         text = f"{job['title']} {job['company']} {' '.join(job.get('tags', []))} {job.get('description', '')}".lower()
         graph_paths = graph_ctx.get("graph_paths", [])
         total_hops = sum(p.get("relevance_hops", 0) for p in graph_paths)
+        profile_anchors = {
+            edge.split(" -> ", 1)[-1]
+            for path in graph_paths
+            if path.get("relevance_hops", 0) > 0
+            for edge in path.get("activated_graph_edges", [])
+            if " -> " in edge
+        }
 
-        base_score = min(97, 68 + total_hops * 5)
+        # The score reflects distinct profile evidence overlaps, not success probability.
+        base_score = min(85, 40 + len(profile_anchors) * 7)
+        target_roles = " ".join(self.memory.profile.get("target_roles", [])).lower()
+        if any(term in text for term in ("senior", "staff", "lead", "principal", "architect")) and any(
+            term in target_roles for term in ("senior", "staff", "lead", "principal", "architect")
+        ):
+            base_score = min(88, base_score + 3)
 
         penalty = 0
         penalty_reasons = []
@@ -126,6 +134,7 @@ class ReflectiveJobAgent:
                 "Violates consolidated Memory Rule: Strictly targeting 100% Remote from India (Full-Time or Global B2B); Singapore Onsite/Hybrid excluded"
             )
 
+        has_related_human_approval = False
         for mem in episodic_memories:
             if mem.get("decision") == "REJECTED" and mem.get("similarity", 0) > 0.45 and mem.get("job_id") != job["id"]:
                 penalty += 18
@@ -133,7 +142,10 @@ class ReflectiveJobAgent:
                     f"Vector similarity ({mem['similarity']}) to previously REJECTED role '{mem['title']}' ({mem['feedback_reason']})"
                 )
             elif mem.get("decision") == "APPROVED" and mem.get("similarity", 0) > 0.40:
-                base_score = min(99, base_score + 5)
+                has_related_human_approval = True
+
+        if has_related_human_approval:
+            base_score = min(92, base_score + 4)
 
         match_score = max(15, base_score - penalty)
         top_proj = (
@@ -143,18 +155,10 @@ class ReflectiveJobAgent:
         )
         edges_str = ", ".join(top_proj.get("activated_graph_edges", [])[:4])
 
-        critic_v1_score = 74
-        critic_v1_feedback = (
-            "Critic Iteration 1 (Anti-Bot & No-Em-Dash Guardrail): Stripped all em-dashes, markdown bolding (`**`), "
-            "and AI headers. Rewrote into natural first-person Senior Engineer prose."
-        )
-
         refined_pitch = self._craft_human_authentic_note(job, top_proj)
         assert not any(bp in refined_pitch.lower() for bp in BANNED_AI_PHRASES), "Anti-Bot check failed"
         assert "**" not in refined_pitch, "Plaintext human note must not contain raw markdown bolding"
         assert_no_emdashes(refined_pitch, context_label="refined_pitch")
-
-        critic_final_score = 98 if match_score >= 75 else 84
 
         winning_strategy = (
             "Write in plain-text first-person Senior Engineer voice (zero em-dashes, zero markdown stars, "
@@ -163,15 +167,11 @@ class ReflectiveJobAgent:
 
         return {
             "match_score": match_score,
-            "decision": "RECOMMENDED" if match_score >= 75 else "SKIPPED_LOW_MATCH",
-            "initial_critic_score": critic_v1_score,
-            "critic_feedback": critic_v1_feedback,
-            "final_critic_score": critic_final_score,
-            "reflection_iterations": 2,
+            "decision": "RECOMMENDED" if match_score >= PROFILE_OVERLAP_RECOMMENDATION_THRESHOLD else "SKIPPED_LOW_MATCH",
             "tailored_pitch": refined_pitch,
             "winning_strategy": winning_strategy,
             "reasoning_summary": (
-                f"Graph activated {total_hops} multi-hop edges ({edges_str}). Guardrail Check: PASSED (0 em-dashes, 0 AI clichés, plain-text human prose)."
+                f"Profile graph matched {len(profile_anchors)} distinct skill or domain anchors across {total_hops} graph links ({edges_str}). This score is an evidence-overlap heuristic, not a probability of getting hired. Guardrail Check: PASSED (0 em-dashes, 0 AI clichés, plain-text human prose)."
             ),
         }
 
@@ -180,15 +180,10 @@ class ReflectiveJobAgent:
 
         graph_ctx = self.memory.traverse_knowledge_graph(full_job_text)
         episodic_memories = self.memory.retrieve_similar_episodic_memories(full_job_text, top_k=3)
-        active_rules = self.memory.get_active_rules()
-        applicable_skills = self.skills.retrieve_applicable_skills(job["title"], job.get("tags", []))
-
         result = self._deterministic_reflective_cycle(
             job=job,
             graph_ctx=graph_ctx,
             episodic_memories=episodic_memories,
-            rules=active_rules,
-            applicable_skills=applicable_skills,
         )
 
         self.memory.save_episodic_memory(
@@ -198,24 +193,13 @@ class ReflectiveJobAgent:
             url=job["url"],
             decision=result["decision"],
             match_score=result["match_score"],
-            critic_score=result["final_critic_score"],
+            critic_score=0,
             tailored_pitch=result["tailored_pitch"],
             feedback_reason=result["reasoning_summary"],
             raw_text=full_job_text,
             source_platform=job.get("source", "Live Multi-Tier Feed"),
+            work_location_status=job.get("work_location_status", "NEEDS_REVIEW"),
+            work_location_evidence=job.get("work_location_evidence", ""),
         )
-
-        if (
-            result["decision"] == "RECOMMENDED"
-            and result["final_critic_score"] >= SETTINGS.skill_induction_threshold
-        ):
-            induced_skill_path = self.skills.induce_skill_from_trace(
-                role_category=job.get("role_category", "India-Remote & Global B2B Engineering"),
-                job_title=job["title"],
-                winning_strategy=result["winning_strategy"],
-                tailored_pitch=result["tailored_pitch"],
-                critic_score=result["final_critic_score"],
-            )
-            result["induced_skill_path"] = str(induced_skill_path)
 
         return result

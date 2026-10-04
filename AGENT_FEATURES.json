@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-28",
+  "features": [
+    {
+      "id": "job-discovery",
+      "status": "implemented",
+      "source_of_truth": ["eligibility.py", "job_sources.py", "job_collector.py", "lever_postings.py", "oracle_ai_local_mirror.db"],
+      "acceptance": ["Persist source and listing URL", "Reject roles without India remote evidence", "Normalize public Lever feeds using explicit workplace type and India location"]
+    },
+    {
+      "id": "evidence-backed-application-ledger",
+      "status": "partial",
+      "source_of_truth": ["oracle_memory.py", "application_timeline_events"],
+      "acceptance": ["Submission requires receipt text and evidence reference", "Acknowledgement is separately recorded"]
+    },
+    {
+      "id": "candidate-fact-review",
+      "status": "blocked-on-candidate-confirmation",
+      "source_of_truth": ["candidate_profile.json", "candidate_fact_review.json", "candidate_fact_review.py", "application_drafts/2026-09-28_meena_master_resume_candidate_review.md"],
+      "acceptance": ["Identity, contact details, employment dates, location, work authorization, education, and resume claims have reviewed sources", "The application material writer refuses to run while any required fact lacks a source reference"]
+    },
+    {
+      "id": "operator-run-observability",
+      "status": "implemented",
+      "source_of_truth": ["agent_run_ledger.py", "scheduler_24_7.py", "job_collector.py", "app_server.py", "dashboard_ui.html"],
+      "acceptance": ["Each discovery run has a durable ID and lifecycle", "Only one instrumented discovery run may be active", "Dashboard and read-only API show the current phase, heartbeat, source outcomes, and recent failures", "Expired heartbeats block new runs until the operator inspects the owner process and explicitly records recovery"]
+    },
+    {
+      "id": "safe-application-preparation",
+      "status": "partial",
+      "source_of_truth": ["application_preparation.py", "scheduler_24_7.py", "auto_applicator.py", "resume_vault.py"],
+      "acceptance": ["Discovery and packet preparation are separate commands", "The CLI rejects packet preparation in daemon mode", "Candidate fact review is complete before packet generation", "Only approved roles with verified India eligibility pass the preparation filter", "External submission remains a person action"]
+    },
+    {
+      "id": "ranker-evaluation",
+      "status": "partial",
+      "source_of_truth": ["reflective_agent.py", "oracle_memory.py", "adaptive_evaluation.py", "human_feedback_events"],
+      "acceptance": ["Preserve the original ranker decision and score when a person reviews a role", "Report confusion counts and accuracy, precision, recall, and specificity against the latest human role-fit label", "Exclude reviewed examples without a saved original ranker snapshot", "Do not adjust ranking weights without measured evidence and explicit review"]
+    },
+    {
+      "id": "verified-role-review-band",
+      "status": "implemented-initial",
+      "source_of_truth": ["oracle_memory.py", "app_server.py", "application_timeline_events"],
+      "acceptance": ["Keep India-verified roles scoring 60-74 in shortlist review", "Preserve the original ranker decision and score", "Never change role approval or application evidence during triage"]
+    },
+    {
+      "id": "repository-knowledge-graph",
+      "status": "implemented-initial",
+      "source_of_truth": ["tools/repo_graph.py", "architecture/repo_graph.json"],
+      "acceptance": ["Generate a deterministic local graph from Python AST", "Every edge records source location and provenance", "Support query, explain, and path commands"]
+    },
+    {
+      "id": "agent-control-plane",
+      "status": "implemented-initial",
+      "source_of_truth": ["agent_system/system_manifest.json", "agent_system/contracts.py", "agent_system/control_plane.py", "app_server.py", "AGENT_SYSTEM_ARCHITECTURE.md"],
+      "acceptance": ["Control-plane responses use the observation contract", "Agent-callable capabilities are read-only", "Runtime inspection uses a read-only SQLite connection", "External submission and recruiter messaging are disabled in the agent workflow"]
+    },
+    {
+      "id": "adaptive-workflow-readiness",
+      "status": "implemented-initial",
+      "source_of_truth": ["agent_system/control_plane.py", "agent_system/system_manifest.json", "oracle_ai_local_mirror.db"],
+      "acceptance": ["Expose aggregate job, receipt, acknowledgement, lifecycle, and ranking-feedback counts without candidate content", "Flag APPLIED records that lack receipt evidence", "Recommend next gated operator actions from current readiness and partial run state", "Surface ranker evaluator next steps without tuning weights", "Never execute recommendations or change workflow state"]
+    }
+  ]
+}

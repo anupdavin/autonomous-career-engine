@@ -1,0 +1,15 @@
+RapidCanvas application review
+
+Official listing: https://www.rapidcanvas.ai/careers/senior-software-engineer---backend
+Role location: Remote - India
+Application route: Email careers@rapidcanvas.ai and name the role in the subject.
+Application status: Draft prepared, not sent.
+
+Confirm before sending:
+
+- The posting requires a bachelor's degree or equivalent in computer science. Meena's current profile does not include education details.
+- Confirm which candidate email account to send from. The current profile lists meenakannan92@gmail.com, while a prior application artifact appears to show a different address.
+- Confirm notice period and compensation expectations if the employer asks.
+- Review the master resume and confirm the security, testing, and CI examples that should support the role requirements.
+
+The official posting aligns with the profile's Java, Spring Boot, REST API, microservices, Kubernetes, and cloud experience. The listed compensation is not published, so the dashboard's compensation numbers are model estimates only.

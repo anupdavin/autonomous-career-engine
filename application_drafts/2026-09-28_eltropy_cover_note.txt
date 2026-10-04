@@ -1,0 +1,8 @@
+Hello Eltropy hiring team,
+
+I am applying for the Senior Backend Engineer role. I have 9+ years of experience building Java and Spring Boot services, REST APIs, and cloud-native systems. My recent work uses AWS, Kafka, Kubernetes, PostgreSQL, MongoDB, and Redis across production backend services.
+
+On a retail forecasting platform, I connected backend services to AI/ML inference endpoints and replaced batch polling with Kafka streams, reducing reporting latency from more than 15 minutes to near real time. I would bring that mix of backend engineering, data integration, and production ownership to Eltropy.
+
+Regards,
+Meena Kannan

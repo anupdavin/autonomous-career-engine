@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "system_name": "Remote India Job Search Agent",
+  "objective": "Find and assess roles that are fully remote and can be worked from India, prepare accurate materials after review, and track outcomes with evidence.",
+  "operating_model": {
+    "execution_style": "deterministic_workflows_with_human_review",
+    "autonomous_policy_changes": false,
+    "external_submission_enabled": false,
+    "arbitrary_shell_tool_enabled": false,
+    "observation_contract": "agent-system-observation-v1"
+  },
+  "policies": {
+    "target_work_location": "100% remote and eligible from India",
+    "candidate_facts": "Use only source-backed facts reviewed by the candidate",
+    "application_preparation": "Require verified candidate facts, role approval, and verified India eligibility",
+    "application_submission": "Disabled in the agent workflow. A person submits directly and records receipt evidence.",
+    "recruiter_messages": "Disabled in the agent workflow. A person reviews and sends any message.",
+    "adaptive_updates": "Evaluation can inform a proposed change. A person reviews changes before they affect ranking.",
+    "network_access": "Public listing discovery only. No authenticated external actions are available to the control plane."
+  },
+  "agent_capabilities": [
+    {
+      "id": "inspect_runtime",
+      "description": "Read local run, aggregate job progress, ranker feedback readiness, candidate-review completion, and graph health, then recommend gated next actions.",
+      "risk": "read_only",
+      "agent_callable": true,
+      "entrypoint": "python -m agent_system.control_plane inspect"
+    },
+    {
+      "id": "list_capabilities",
+      "description": "Return the versioned capability and workflow catalog.",
+      "risk": "read_only",
+      "agent_callable": true,
+      "entrypoint": "python -m agent_system.control_plane capabilities"
+    },
+    {
+      "id": "query_code_graph",
+      "description": "Search the local Python AST graph for symbols and source paths.",
+      "risk": "read_only",
+      "agent_callable": true,
+      "entrypoint": "python tools/repo_graph.py query <term>"
+    }
+  ],
+  "operator_workflows": [
+    {
+      "id": "discover_and_rank",
+      "entrypoint": "scheduler_24_7.py",
+      "side_effects": ["local_database_write"],
+      "quality_gates": ["india_eligibility_evidence", "run_ledger_recorded", "source_outcomes_recorded"]
+    },
+    {
+      "id": "prepare_application_materials",
+      "entrypoint": "scheduler_24_7.py --prepare-approved-materials",
+      "side_effects": ["local_file_write"],
+      "quality_gates": ["candidate_fact_review_complete", "role_approved", "india_eligibility_verified"]
+    },
+    {
+      "id": "prepare_and_stage_application",
+      "entrypoint": "python tools/apply_engine/run_application.py <job_url> --job-id <job_id>",
+      "side_effects": ["local_file_write"],
+      "quality_gates": ["candidate_fact_review_complete", "role_approved", "india_eligibility_verified"]
+    },
+    {
+      "id": "submit_application",
+      "entrypoint": "python tools/apply_engine/run_application.py <job_url> --job-id <job_id> --auto-submit",
+      "enabled": false,
+      "side_effects": ["external_submission"],
+      "quality_gates": ["explicit_per_role_user_action"]
+    },
+    {
+      "id": "send_recruiter_message",
+      "enabled": false,
+      "side_effects": ["external_message"],
+      "quality_gates": ["explicit_per_message_user_action"]
+    }
+  ],
+  "context_sources": {
+    "instructions": ["AGENTS.md", "AGENT_SYSTEM_ARCHITECTURE.md"],
+    "code_graph": "architecture/repo_graph.json",
+    "run_history": "oracle_ai_local_mirror.db:agent_runs",
+    "ranking_feedback": "oracle_ai_local_mirror.db:human_feedback_events",
+    "candidate_fact_review": "candidate_fact_review.json"
+  },
+  "evaluation": {
+    "ranker_metrics": ["accuracy", "precision", "recall", "specificity"],
+    "minimum_labeled_examples_for_measured_status": 10,
+    "automatic_weight_tuning": false,
+    "job_outcome_prediction": false,
+    "workflow_recommendations": "Deterministic and read-only. Recommendations never execute or approve actions."
+  }
+}

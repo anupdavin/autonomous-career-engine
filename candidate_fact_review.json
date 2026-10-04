@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reviewed_by": "Candidate (Codex confirmation)",
+  "reviewed_at": "2026-09-28",
+  "facts": {
+    "identity_and_contact": {
+      "verified": true,
+      "source_ref": "Candidate confirmed all reviewed facts as correct in Codex chat on 2026-09-28"
+    },
+    "employment_history_and_dates": {
+      "verified": true,
+      "source_ref": "Candidate confirmed all reviewed facts as correct in Codex chat on 2026-09-28"
+    },
+    "education_or_equivalent_experience": {
+      "verified": true,
+      "source_ref": "Candidate confirmed all reviewed facts as correct in Codex chat on 2026-09-28"
+    },
+    "current_location_and_india_work_authorization": {
+      "verified": true,
+      "source_ref": "Candidate confirmed all reviewed facts as correct in Codex chat on 2026-09-28"
+    },
+    "resume_role_and_technology_claims": {
+      "verified": true,
+      "source_ref": "Candidate confirmed all reviewed facts as correct in Codex chat on 2026-09-28"
+    },
+    "notice_period": {
+      "verified": true,
+      "value": "60 days",
+      "source_ref": "Candidate confirmed 60 days notice period in Antigravity chat on 2026-09-28"
+    }
+  }
+}

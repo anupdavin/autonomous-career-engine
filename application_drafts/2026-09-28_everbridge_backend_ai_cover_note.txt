@@ -1,0 +1,6 @@
+Hello Everbridge team,
+
+I am interested in the Senior Software Engineer - Backend & AI-Enabled role. I have 9+ years in software engineering, with hands-on work in Java, Spring Boot, AWS, Kubernetes, Kafka, and production microservices. Recent projects include RAG and MCP workflows alongside existing services. I focus on building reliable systems and checking changes carefully before they reach production.
+
+Thank you,
+Meena Kannan

@@ -1,0 +1,11 @@
+Hello Lingaro Engineering Team,
+
+I am applying for the Backend Developer (and Backend Developer - Contract) role based remotely in India. Over the past 9+ years I have designed and delivered distributed Java and cloud backend systems, currently serving as Lead Software Engineer on the VRLS 2.0 platform at NCS / Land Transport Authority (Java 21, Spring Boot 3, AWS EKS/ECS, Apache Kafka, Redis, PostgreSQL, and Kubernetes).
+
+Across my roles at NCS, BlackStraw.AI, and Wolters Kluwer, I have led monolith-to-microservices migrations, replaced 15-minute batch pipelines with real-time Kafka event streams, reduced redundant API traffic by 40%, and built production Spring AI, RAG, and MCP tool integrations with sub-500ms latency compliance.
+
+I am based in Chennai, Tamil Nadu, India with full work authorization and can engage either via a global B2B contract or full-time India employment.
+
+Best regards,
+Meena Kannan
++91 97893 02084 | meenakannan92@gmail.com | https://www.linkedin.com/in/meena-kannan-mk | https://github.com/meenak95

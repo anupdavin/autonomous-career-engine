@@ -1,0 +1,6 @@
+Hello Eltropy team,
+
+I am interested in the Senior Backend Engineer role. I have 9+ years of software engineering experience, with work on Java and Spring Boot services, REST APIs, AWS, Kubernetes, Kafka, Redis, PostgreSQL, and MongoDB. One project integrated AI model predictions with business rule evaluation for legal billing workflows. I would welcome a conversation about the backend systems your team is building.
+
+Regards,
+Meena Kannan

@@ -5,19 +5,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meena Kannan | 24/7 Adaptive Job Search Command Center</title>
   <style>
+    
     :root {
-      --bg: #0b0f19;
-      --card: #131b2e;
-      --card-hover: #18233c;
-      --border: #243252;
-      --text: #e2e8f0;
+      --bg: #0f172a;
+      --card: #1e293b;
+      --card-hover: #334155;
+      --border: #334155;
+      --text: #f8fafc;
       --muted: #94a3b8;
-      --accent: #38bdf8;
+      --accent: #0ea5e9;
       --emerald: #10b981;
       --amber: #f59e0b;
       --rose: #f43f5e;
-      --violet: #a78bfa;
+      --violet: #8b5cf6;
+      --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', system-ui, sans-serif; }
+    body { background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 60px; font-size: 14px; }
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+    }
+    .brand h1 { font-size: 1.4rem; font-weight: 700; color: #fff; letter-spacing: -0.02em; }
+    .brand p { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+    .top-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .badge-pill {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      font-size: 0.8rem;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+    button {
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    button:hover { background: var(--card-hover); border-color: var(--accent); }
+    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+    .btn-primary:hover { background: #0284c7; }
+    .btn-success { background: var(--emerald); border-color: var(--emerald); color: #fff; }
+    .btn-success:hover { background: #059669; }
+    .btn-warn { background: var(--amber); border-color: var(--amber); color: #fff; }
+    .btn-danger { background: var(--rose); border-color: var(--rose); color: #fff; }
+
+    nav.tabs {
+      display: flex;
+      gap: 8px;
+      padding: 16px 30px;
+      background: #0f172a;
+      border-bottom: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    nav.tabs button {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--muted);
+      padding: 10px 18px;
+      border-radius: 6px;
+      white-space: nowrap;
+      font-weight: 500;
+    }
+    nav.tabs button.active {
+      background: rgba(14, 165, 233, 0.1);
+      border-color: rgba(14, 165, 233, 0.3);
+      color: var(--accent);
+    }
+    nav.tabs button:hover:not(.active) {
+      color: #e2e8f0;
+      background: rgba(255,255,255,0.05);
+    }
+
+    .container { max-width: 1400px; margin: 30px auto; padding: 0 30px; }
+    .tab-pane { display: none; animation: fadeIn 0.3s; }
+    .tab-pane.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 30px; }
+    .kpi-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s;
+    }
+    .kpi-card:hover { transform: translateY(-2px); }
+    .kpi-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+    .kpi-val { font-size: 2rem; font-weight: 700; margin-top: 8px; color: #fff; letter-spacing: -0.02em; }
+    .kpi-sub { font-size: 0.8rem; color: var(--emerald); margin-top: 6px; font-weight: 500; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+    @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+    }
+    .panel h2 { font-size: 1.15rem; margin-bottom: 16px; color: #f8fafc; font-weight: 600; }
+    
+    .data-table-container {
+        overflow-x: auto;
+        margin-top: 15px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+    }
+    table.data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+    }
+    table.data-table th, table.data-table td {
+        padding: 10px 15px;
+        border-bottom: 1px solid var(--border);
+        text-align: left;
+    }
+    table.data-table th {
+        background: #0f172a;
+        color: var(--muted);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+    table.data-table tr:last-child td { border-bottom: none; }
+    table.data-table tr:hover { background: rgba(255,255,255,0.02); }
+
+    .chart-container {
+        background: #0f172a;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 15px;
+        margin-top: 20px;
+        height: 350px;
+        position: relative;
+    }
+
+    .funnel-row { margin-bottom: 16px; }
+    .funnel-header { display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 6px; font-weight: 500; }
+    .bar-bg { background: #0f172a; height: 10px; border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 999px; transition: width 0.5s ease-out; }
+
+    .job-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: var(--shadow); }
+    .job-card:hover { border-color: var(--accent); }
+    .job-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+    .job-title { font-size: 1.15rem; font-weight: 600; color: #fff; letter-spacing: -0.01em; }
+    .job-comp { font-size: 0.95rem; color: var(--accent); font-weight: 500; margin-top: 4px; }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+    .chip { font-size: 0.75rem; padding: 4px 12px; border-radius: 999px; background: #0f172a; border: 1px solid var(--border); color: #cbd5e1; font-weight: 500; }
+    
+    .why-box { background: rgba(14, 165, 233, 0.05); border-left: 3px solid var(--accent); padding: 12px 16px; border-radius: 4px; font-size: 0.85rem; color: #e2e8f0; margin: 12px 0; }
+    textarea.pitch-box { width: 100%; min-height: 120px; background: #0f172a; color: #e2e8f0; border: 1px solid var(--border); border-radius: 6px; padding: 12px; font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 0.85rem; margin-top: 10px; }
+    .action-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; align-items: center; }
+    input, select { background: #0f172a; border: 1px solid var(--border); color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.9rem; }
+    input:focus, select:focus { outline: none; border-color: var(--accent); }
+
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Inter, system-ui, sans-serif; }
     body { background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 60px; }
     header {
@@ -181,6 +344,7 @@
       font-size: 0.9rem;
     }
   </style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -190,79 +354,77 @@
       <p>100% Remote from India (Global B2B Contracts & India EOR) | Guardrail: 0 Em-Dashes | Peak RAM: ~25 MB</p>
     </div>
     <div class="top-actions">
-      <span class="badge-pill" id="backendBadge">Oracle AI 26ai Local Mirror</span>
-      <button class="btn-primary" onclick="triggerScanNow()" id="scanBtn">Run Live 4-Tier Scan Now</button>
+      <span class="badge-pill" id="backendBadge">SQLite Local Mirror</span>
+      <button class="btn-primary" onclick="triggerScanNow()" id="scanBtn" disabled>Checking Run API...</button>
+      <button class="btn-success" onclick="triggerAutoApply()" id="autoApplyBtn">Run Auto-Apply</button>
     </div>
   </header>
 
   <nav class="tabs">
     <button class="active" onclick="switchTab('tab-dashboard', this)">1. Visual Analytics Dashboard</button>
-    <button onclick="switchTab('tab-shortlisted', this)">2. Shortlisted & Why (<span id="navShortlisted">0</span>)</button>
-    <button onclick="switchTab('tab-applied', this)">3. Approved, Applied & Follow-Ups (<span id="navApplied">0</span>)</button>
+    <button onclick="switchTab('tab-shortlisted', this)">2. Shortlist & Location Review (<span id="navShortlisted">0</span>)</button>
+    <button onclick="switchTab('tab-applied', this)">3. Application Tracker (<span id="navApplied">0</span>)</button>
     <button onclick="switchTab('tab-vault', this)">4. Tailored Resumes Vault & Tax/Salary Engine</button>
     <button onclick="switchTab('tab-dead', this)">5. Dead Applications Zone & All Fetched (<span id="navDead">0</span>)</button>
+  <button onclick="switchTab('tab-data', this)">6. Database Visualizer</button>
   </nav>
 
   <div class="container">
 
     <!-- TAB 1: VISUAL ANALYTICS DASHBOARD -->
     <div id="tab-dashboard" class="tab-pane active">
-      <div class="panel" style="border-color: #10b981; background: rgba(16, 185, 129, 0.12);">
-        <h2>
-          <span>CONFIRMED SUBMISSION: Elastic Consulting Architect - Platform (India Remote)</span>
-          <span class="badge-pill">Verified (Code: sJQk7umn)</span>
-        </h2>
-        <p style="font-size:0.85rem; color:#cbd5e1; margin-bottom:12px;">
-          Greenhouse confirmed: <strong>"Thank you for applying. Your application has been received. If there is a fit, someone will be getting back to you."</strong> Confirmation email sent to <code>meenakannan92@gmail.com</code> with uploaded resume <code>Meena_Kannan_Principal_Java_Cloud_Architect.pdf</code>.
-        </p>
-        <div class="action-row" style="margin-top:8px;">
-          <a href="/api/download-pdf/v1.1-b2b-java-kafka-architect" target="_blank" style="text-decoration:none;">
-            <button class="btn-success">Download PDF: Meena_Kannan_Principal_Java_Cloud_Architect.pdf</button>
-          </a>
-          <a href="/api/download-pdf/v1.0-master-cloud-ai" target="_blank" style="text-decoration:none;">
-            <button class="btn-primary">Download PDF: Meena_Kannan_Lead_Software_Engineer.pdf</button>
-          </a>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Job Records in Tracker</div>
+          <div class="kpi-val" id="kpiFetched">0</div>
+          <div class="kpi-sub">Unique records from configured discovery sources</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Shortlisted (>=75 Evidence Score)</div>
+          <div class="kpi-val" id="kpiShortlisted">0</div>
+          <div class="kpi-sub">Human review and India eligibility check</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Submissions with Evidence</div>
+          <div class="kpi-val" id="kpiActive">0</div>
+          <div class="kpi-sub">Receipt or confirmation recorded</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Estimated B2B Scenario Net Pay</div>
+          <div class="kpi-val" id="kpiB2BInHand">Rs. 0</div>
+          <div class="kpi-sub" id="kpiTaxAdv">Model estimate only, not employer-provided compensation</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Human Feedback Events Logged</div>
+          <div class="kpi-val" id="kpiSkills">0</div>
+          <div class="kpi-sub">Specific reasons affect future rankings</div>
         </div>
       </div>
 
-      <div class="kpi-grid">
-        <div class="kpi-card">
-          <div class="kpi-label">Total Jobs Fetched</div>
-          <div class="kpi-val" id="kpiFetched">0</div>
-          <div class="kpi-sub">LinkedIn Remote + Greenhouse + RemoteOK</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Shortlisted (>=75% Match)</div>
-          <div class="kpi-val" id="kpiShortlisted">0</div>
-          <div class="kpi-sub">Ready for 1-Click Review</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Approved & Applied</div>
-          <div class="kpi-val" id="kpiActive">0</div>
-          <div class="kpi-sub">Active SLA Follow-Up Tracking</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Avg Monthly In-Hand (B2B Sec 44ADA)</div>
-          <div class="kpi-val" id="kpiB2BInHand">Rs. 0</div>
-          <div class="kpi-sub" id="kpiTaxAdv">+Rs. 0/mo saved vs Salaried EOR</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Induced Skills & Memory Rules</div>
-          <div class="kpi-val" id="kpiSkills">0</div>
-          <div class="kpi-sub">Continual Learning Active</div>
-        </div>
+      <div class="panel">
+        <h2>Agent Runtime and Recent Runs</h2>
+        <p style="font-size:0.82rem; color:var(--muted); margin-bottom:12px;">Run phases, source outcomes, failures, and heartbeat times are recorded locally. Candidate application content is not copied into this run history.</p>
+        <div id="agentRuntimeBox"></div>
+        <div id="agentReadinessBox" style="margin-top:16px;"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Measured Ranking Feedback</h2>
+        <p style="font-size:0.82rem; color:var(--muted); margin-bottom:12px;">This compares saved ranking decisions with the latest explicit human role review. It measures role-fit feedback, not hiring outcomes, and never changes weights automatically.</p>
+        <div id="adaptiveQualityBox"></div>
       </div>
 
       <div class="grid-2">
         <div class="panel">
-          <h2>Application Conversion Funnel</h2>
+          <h2>Application Evidence and Eligibility Counts</h2>
+          <p style="font-size:0.82rem; color:var(--muted);">Counts overlap. A role can appear in more than one evidence or eligibility group.</p>
           <div id="funnelContainer"></div>
         </div>
 
         <div class="panel">
-          <h2>India B2B (Sec 44ADA + 0% GST LUT) vs Salaried EOR In-Hand</h2>
+          <h2>Compensation and Tax Estimates</h2>
           <p style="font-size:0.84rem; color:var(--muted); margin-bottom:14px;">
-            Global B2B software consulting exports from India qualify for <strong>Section 44ADA (only 50% of gross revenue is taxed)</strong> and <strong>0% GST under LUT</strong>, yielding significantly higher monthly in-hand take-home pay compared to standard salaried employment.
+            These are rough model estimates, not employer-posted salary ranges or tax advice. Confirm the actual contract, location, and tax treatment before relying on them.
           </p>
           <div id="compComparisonBox"></div>
         </div>
@@ -275,7 +437,7 @@
         </div>
 
         <div class="panel">
-          <h2>Oracle AI Consolidated Memory Rules & Recent Timeline</h2>
+          <h2>Job Search Guardrails and Recent Timeline</h2>
           <div id="rulesAndTimelineBox"></div>
         </div>
       </div>
@@ -284,9 +446,9 @@
     <!-- TAB 2: SHORTLISTED & WHY -->
     <div id="tab-shortlisted" class="tab-pane">
       <div class="panel">
-        <h2>Shortlisted Opportunities (Review & 1-Click Approve)</h2>
+        <h2>Shortlisted Opportunities (Review & Approve)</h2>
         <p style="font-size:0.85rem; color:var(--muted);">
-          Approving a job automatically generates a role-specific versioned resume in the Vault and trains the Oracle AI Memory Manager.
+          Add a specific reason when approving or rejecting. The system stores that feedback for future rankings. Scores show profile evidence overlap, not a probability of getting hired. Lower scores and unverified location evidence leave a role in review; they do not close it automatically.
         </p>
       </div>
       <div id="shortlistedList"></div>
@@ -295,9 +457,9 @@
     <!-- TAB 3: APPROVED, APPLIED & FOLLOW-UP TRACKER -->
     <div id="tab-applied" class="tab-pane">
       <div class="panel">
-        <h2>Approved & Applied Pipeline (Timeline, Status & Follow-Up Cadence)</h2>
+        <h2>Application Tracker (Timeline, Status & Follow-Up Cadence)</h2>
         <p style="font-size:0.85rem; color:var(--muted);">
-          Track every approved and submitted application, copy plain-text follow-up messages (zero em-dashes), and move closed or unresponsive roles (>21 days) to the Dead Zone.
+          Track approved roles and application progress. A row marked APPLIED is counted as submitted only after a receipt or confirmation is recorded.
         </p>
       </div>
       <div id="appliedList"></div>
@@ -306,7 +468,7 @@
     <!-- TAB 4: TAILORED RESUMES VAULT & INDIA TAX CALCULATOR -->
     <div id="tab-vault" class="tab-pane">
       <div class="panel">
-        <h2>Interactive India B2B (Sec 44ADA) vs Full-Time Employee/EOR Take-Home Simulator</h2>
+        <h2>Estimated India B2B and Salaried Net Pay Scenarios</h2>
         <div class="calc-inputs">
           <label>Annual Gross Offer:</label>
           <input type="number" id="simAmount" value="85000" />
@@ -316,8 +478,9 @@
             <option value="GBP">GBP (GBP / year)</option>
             <option value="INR">INR (Rs. / year)</option>
           </select>
-          <button class="btn-primary" onclick="runTaxSimulator()">Calculate Monthly In-Hand Salary</button>
+          <button class="btn-primary" onclick="runTaxSimulator()">Estimate Monthly Net Pay</button>
         </div>
+        <p style="font-size:0.82rem; color:var(--muted);">Planning estimate only. Actual tax and net pay depend on the contract, income classification, deductions, benefits, and current law. Confirm with a qualified tax professional.</p>
         <div id="simResultBox"></div>
       </div>
 
@@ -330,7 +493,7 @@
     <!-- TAB 5: DEAD APPLICATIONS ZONE & ALL FETCHED AUDIT -->
     <div id="tab-dead" class="tab-pane">
       <div class="panel">
-        <h2>Dead Applications Zone (Role Closed, Ghosted >21d, Rejections & Dealbreakers)</h2>
+        <h2>Closed, Ineligible, Placeholder, and Rejected Roles</h2>
         <p style="font-size:0.85rem; color:var(--muted);">
           Every role here trains the Vector Episodic Memory so the agent avoids similar low-yield or onsite-restricted roles automatically.
         </p>
@@ -338,10 +501,41 @@
       <div id="deadList"></div>
     </div>
 
-  </div>
+  
+    <!-- TAB 6: DATA VISUALIZER -->
+    <div id="tab-data" class="tab-pane">
+      <div class="panel">
+        <h2>Database Visualizer & Analytics</h2>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:16px;">
+          Select a table from the data layer to visualize its raw records and generate dynamic charts.
+        </p>
+        <div class="calc-inputs" style="margin-bottom:20px;">
+          <select id="dbTableSelect" onchange="loadTableData()">
+            <option value="">Loading tables...</option>
+          </select>
+          <button class="btn-primary" onclick="loadTableData()">Refresh Data</button>
+        </div>
+        
+        <div class="grid-2">
+            <div class="chart-container">
+                <canvas id="dataChart1"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="dataChart2"></canvas>
+            </div>
+        </div>
+
+        <h3 style="margin-top:24px; margin-bottom:12px; font-size:1rem; font-weight:600;">Raw Table Data</h3>
+        <div class="data-table-container" id="dataTableContainer">
+            <p style="color:var(--muted); padding:10px;">Select a table to view records.</p>
+        </div>
+      </div>
+    </div>
+</div>
 
   <script>
     let APP_STATE = null;
+    let SCAN_IN_PROGRESS = false;
 
     function switchTab(tabId, btnEl) {
       document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
@@ -354,44 +548,199 @@
       return 'Rs. ' + Number(num || 0).toLocaleString('en-IN');
     }
 
+    function escapeHtml(value) {
+      const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+      return String(value ?? '')
+        .replace(/[\u2014\u2015]/g, ', ')
+        .replace(/\u2013/g, ' - ')
+        .replace(/[&<>"']/g, ch => entities[ch]);
+    }
+
+    function safeHttpUrl(value) {
+      try {
+        const url = new URL(String(value || ''), window.location.origin);
+        return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : '#';
+      } catch {
+        return '#';
+      }
+    }
+
+    function bindRenderedActions() {
+      document.querySelectorAll('[data-transition-job]').forEach(button => {
+        button.addEventListener('click', () => transitionStage(
+          button.dataset.transitionJob,
+          button.dataset.nextStage,
+          button.dataset.reasonPrompt === 'true'
+        ));
+      });
+      document.querySelectorAll('[data-ack-job]').forEach(button => {
+        button.addEventListener('click', () => logAcknowledgement(button.dataset.ackJob));
+      });
+      document.querySelectorAll('[data-verify-job]').forEach(button => {
+        button.addEventListener('click', () => verifyWorkLocation(button.dataset.verifyJob));
+      });
+      document.querySelectorAll('[data-copy-target]').forEach(button => {
+        button.addEventListener('click', () => copyText(button.dataset.copyTarget));
+      });
+      document.querySelectorAll('[data-print-version]').forEach(button => {
+        button.addEventListener('click', () => printResumeVersion(button.dataset.printVersion));
+      });
+    }
+
     async function loadState() {
       const resp = await fetch('/api/state');
       APP_STATE = await resp.json();
+      try {
+        const readinessResp = await fetch('/api/system');
+        APP_STATE.agent_readiness = await readinessResp.json();
+      } catch (_) {
+        APP_STATE.agent_readiness = null;
+      }
       renderAll();
+      syncScanAvailability();
+    }
+
+    function syncScanAvailability() {
+      const button = document.getElementById('scanBtn');
+      const runtimeReady = Boolean(APP_STATE?.agent_runtime?.status);
+      if (SCAN_IN_PROGRESS) return;
+      button.disabled = !runtimeReady;
+      button.textContent = runtimeReady ? 'Run Live Scan Now' : 'Restart Server to Enable Scans';
+      button.title = runtimeReady
+        ? 'Starts one instrumented discovery cycle.'
+        : 'This server has not loaded the run ledger. Restart it before starting a manual scan.';
+    }
+
+    async function loadAgentRuntime() {
+      const resp = await fetch('/api/runs');
+      if (!resp.ok) return;
+      const runtime = await resp.json();
+      if (APP_STATE) {
+        APP_STATE.agent_runtime = runtime;
+        renderAgentRuntime();
+      }
     }
 
     async function transitionStage(jobId, newStage, reasonPrompt = false) {
       let closureReason = '';
       let note = '';
+      let evidenceSource = '';
+      if (newStage === 'APPROVED') {
+        note = prompt('Why does this role fit Meena? Add specific skills, responsibilities, or conditions. This note will inform future rankings:', '');
+        if (!note || note.trim().length < 12) {
+          alert('Enter a specific reason of at least 12 characters to approve this role.');
+          return;
+        }
+      }
+      if (newStage === 'APPLIED') {
+        note = prompt('Paste the ATS receipt text or confirmation email subject. Record this only after submission:');
+        if (!note || note.trim().length < 12) {
+          alert('Add the receipt text or email subject before recording the submission.');
+          return;
+        }
+        evidenceSource = prompt('Enter the receipt URL, saved evidence filename, or email reference:');
+        if (!evidenceSource || evidenceSource.trim().length < 4) return;
+      }
       if (reasonPrompt) {
-        closureReason = prompt('Enter reason (e.g., Role Closed, Ghosted >21d, Low Salary, Onsite Required):', 'Role Closed / Rejected') || 'Role Closed';
+        closureReason = prompt('Why are you closing this role? Add the role-specific reason so future rankings can learn:', '');
+        if (!closureReason || !closureReason.trim()) return;
         note = closureReason;
       }
       const resp = await fetch('/api/transition', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ job_id: jobId, new_stage: newStage, note: note, closure_reason: closureReason })
+        body: JSON.stringify({ job_id: jobId, new_stage: newStage, note: note, closure_reason: closureReason, evidence_source: evidenceSource })
       });
       const data = await resp.json();
       if (data.state) {
         APP_STATE = data.state;
         renderAll();
+      } else {
+        alert(data.error || 'Could not update this job record.');
+      }
+    }
+
+    async function verifyWorkLocation(jobId) {
+      const evidence = prompt('Open the official posting first. Paste its exact text confirming remote work from India or worldwide contractor eligibility. A company office in India is not enough:');
+      if (!evidence || !evidence.trim()) return;
+      const resp = await fetch('/api/eligibility/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ job_id: jobId, evidence })
+      });
+      const data = await resp.json();
+      if (data.state) {
+        APP_STATE = data.state;
+        renderAll();
+      } else {
+        alert(data.error || 'Could not verify the posting location.');
+      }
+    }
+
+    async function logAcknowledgement(jobId) {
+      const note = prompt('Paste the employer or ATS acknowledgement text or email subject:');
+      if (!note || note.trim().length < 12) return;
+      const evidenceSource = prompt('Enter the acknowledgement URL, saved filename, or email reference:');
+      if (!evidenceSource || evidenceSource.trim().length < 4) return;
+      const resp = await fetch('/api/acknowledge', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ job_id: jobId, note, evidence_source: evidenceSource })
+      });
+      const data = await resp.json();
+      if (data.state) {
+        APP_STATE = data.state;
+        renderAll();
+      } else {
+        alert(data.error || 'Could not save acknowledgement.');
       }
     }
 
     async function triggerScanNow() {
+      if (!APP_STATE?.agent_runtime?.status) {
+        alert('Restart the app server so the instrumented run API is available before starting a scan.');
+        return;
+      }
       const btn = document.getElementById('scanBtn');
-      btn.textContent = 'Scanning 4 Tiers...';
+      SCAN_IN_PROGRESS = true;
+      btn.textContent = 'Scanning active sources...';
       btn.disabled = true;
+      const poll = setInterval(() => loadAgentRuntime().catch(() => {}), 2000);
       try {
         const resp = await fetch('/api/scan-now', { method: 'POST' });
         const data = await resp.json();
         if (data.state) {
           APP_STATE = data.state;
           renderAll();
+        } else if (!resp.ok) {
+          alert(data.error || 'Could not start a discovery run.');
         }
       } finally {
-        btn.textContent = 'Run Live 4-Tier Scan Now';
+        clearInterval(poll);
+        await loadState().catch(() => {});
+        SCAN_IN_PROGRESS = false;
+        syncScanAvailability();
+      }
+    }
+
+    async function triggerAutoApply() {
+      const btn = document.getElementById('autoApplyBtn');
+      if(!btn) return;
+      btn.textContent = 'Running Auto-Apply...';
+      btn.disabled = true;
+      try {
+        const resp = await fetch('/api/auto-apply', { method: 'POST' });
+        const data = await resp.json();
+        if (data.ok) {
+          alert(data.message || 'Auto-Apply triggered successfully.');
+          loadState();
+        } else {
+          alert(data.error || 'Auto-Apply failed.');
+        }
+      } catch(err) {
+        alert('Error: ' + err);
+      } finally {
+        btn.textContent = 'Run Auto-Apply';
         btn.disabled = false;
       }
     }
@@ -405,6 +754,128 @@
 
     function printResumeVersion(verId) {
       window.open('/api/download-pdf/' + encodeURIComponent(verId), '_blank');
+    }
+
+    function renderAgentRuntime() {
+      const runtime = APP_STATE.agent_runtime || {};
+      if (!runtime.status) {
+        document.getElementById('agentRuntimeBox').innerHTML = '<p style="font-size:0.82rem; color:var(--amber);">The running server has not loaded the run ledger yet. Restart it from its verified launch configuration before starting a manual scan.</p>';
+        return;
+      }
+      const current = runtime.active_run || runtime.latest_run;
+      const statusColors = {
+        running: 'var(--accent)',
+        warning: 'var(--amber)',
+        failed: 'var(--rose)',
+        stale: 'var(--rose)',
+        idle: 'var(--muted)'
+      };
+      const events = runtime.recent_events || [];
+      const sources = events.filter(event => event.event_type === 'source_finished');
+      const sourceRows = sources.map(event => {
+        const details = event.details || {};
+        const tone = event.status === 'warning' ? 'var(--amber)' : 'var(--emerald)';
+        return `<div style="display:flex; justify-content:space-between; gap:12px; padding:5px 0; border-bottom:1px solid var(--border); font-size:0.8rem;">
+          <span>${escapeHtml(details.source || event.summary)}</span>
+          <span style="color:${tone}; white-space:nowrap;">${escapeHtml(details.eligible_count || 0)} eligible${details.error_count ? `, ${escapeHtml(details.error_count)} errors` : ''}</span>
+        </div>`;
+      }).join('');
+      const runRows = (runtime.recent_runs || []).slice(0, 6).map(run => `
+        <div style="display:grid; grid-template-columns: 110px minmax(100px, 1fr) minmax(120px, 2fr); gap:10px; padding:6px 0; border-bottom:1px solid var(--border); font-size:0.78rem;">
+          <span style="color:${run.status === 'FAILED' || run.status === 'STALE' ? 'var(--rose)' : run.status === 'RUNNING' ? 'var(--accent)' : 'var(--emerald)'};">${escapeHtml(run.status)}</span>
+          <span>${escapeHtml(run.phase)}</span>
+          <span>${escapeHtml(run.started_at)} | ${escapeHtml(run.summary)}</span>
+        </div>`).join('');
+
+      document.getElementById('agentRuntimeBox').innerHTML = `
+        <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; margin-bottom:12px;">
+          <div>
+            <div style="font-weight:700; color:${statusColors[runtime.status] || 'var(--muted)'};">${escapeHtml((runtime.status || 'idle').toUpperCase())}</div>
+            <div style="font-size:0.84rem; margin-top:4px;">${escapeHtml(runtime.summary || 'No run status available.')}</div>
+          </div>
+          ${current ? `<div style="font-size:0.76rem; color:var(--muted); text-align:right;">Phase: ${escapeHtml(current.phase)}<br>Heartbeat: ${escapeHtml(current.heartbeat_at)}<br>Run: ${escapeHtml(current.run_id)}</div>` : ''}
+        </div>
+        ${runtime.next_actions?.length ? `<div style="font-size:0.78rem; color:var(--muted); margin:8px 0 12px;">Next: ${escapeHtml(runtime.next_actions.join(' '))}</div>` : ''}
+        ${sourceRows ? `<div style="margin:10px 0;"><strong style="font-size:0.8rem;">Source outcomes</strong>${sourceRows}</div>` : ''}
+        ${runRows ? `<div style="margin-top:12px;"><strong style="font-size:0.8rem;">Run history</strong>${runRows}</div>` : '<p style="font-size:0.8rem; color:var(--muted);">No instrumented run history yet.</p>'}
+      `;
+    }
+
+    function renderAgentReadiness() {
+      const box = document.getElementById('agentReadinessBox');
+      const observation = APP_STATE.agent_readiness;
+      if (!observation) {
+        box.innerHTML = '<p style="font-size:0.82rem; color:var(--amber);">Workflow readiness is unavailable in this running server. Restart from its verified launch configuration to load the current read-only control plane.</p>';
+        return;
+      }
+
+      const database = observation.details?.database || {};
+      const progress = database.job_progress || {};
+      const facts = observation.details?.candidate_fact_review || {};
+      const adaptive = database.adaptive_feedback || {};
+      const counts = [
+        ['Tracked roles', progress.stored_job_rows],
+        ['India-verified', progress.india_verified_roles],
+        ['Verified shortlist', progress.shortlisted_india_roles],
+        ['Applied status', progress.applied_rows],
+        ['Receipt-backed', progress.receipt_confirmed_submissions],
+        ['Acknowledged', progress.acknowledged_submissions]
+      ];
+      const countCards = progress.available ? `
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(105px,1fr)); gap:8px; margin:10px 0;">
+          ${counts.map(([label, value]) => `
+            <div style="background:var(--card); border:1px solid var(--border); border-radius:8px; padding:9px;">
+              <div style="font-size:0.7rem; color:var(--muted);">${escapeHtml(label)}</div>
+              <div style="font-size:1.05rem; font-weight:700;">${Number(value || 0)}</div>
+            </div>
+          `).join('')}
+        </div>
+          ${progress.applied_without_receipt_evidence ? `<div style="font-size:0.8rem; color:var(--amber);">${Number(progress.applied_without_receipt_evidence)} applied status row(s) need receipt evidence.</div>` : ''}
+          <div style="font-size:0.78rem; color:var(--muted); margin-top:6px;">Candidate fact review: ${Number(facts.verified || 0)} of ${Number(facts.required || 0)} required groups verified.</div>
+          <div style="font-size:0.78rem; color:var(--muted); margin-top:4px;">Ranking evaluation: ${Number(adaptive.sample_count || 0)} of 10 usable human role-fit labels, ${escapeHtml(adaptive.status || 'unavailable')}.</div>
+      ` : '<p style="font-size:0.8rem; color:var(--muted);">Aggregate job progress is unavailable.</p>';
+      const actions = (observation.next_actions || []).map(action => `<li>${escapeHtml(action)}</li>`).join('');
+      const tone = observation.status === 'error' ? 'var(--rose)' : observation.status === 'warning' ? 'var(--amber)' : 'var(--emerald)';
+
+      box.innerHTML = `
+        <div style="border-top:1px solid var(--border); padding-top:12px;">
+          <div style="font-weight:700; color:${tone};">Workflow readiness: ${escapeHtml((observation.status || 'unknown').toUpperCase())}</div>
+          <div style="font-size:0.82rem; margin-top:4px;">${escapeHtml(observation.summary || 'No readiness summary available.')}</div>
+          ${countCards}
+          ${actions ? `<div style="font-size:0.8rem; font-weight:700; margin-top:10px;">Recommended next actions</div><ul style="font-size:0.78rem; color:var(--muted); margin:5px 0 0; padding-left:20px;">${actions}</ul>` : ''}
+          <div style="font-size:0.7rem; color:var(--muted); margin-top:8px;">Recommendations are read-only. They do not approve roles or start workflows.</div>
+        </div>
+      `;
+    }
+
+    function renderAdaptiveQuality() {
+      const quality = APP_STATE.adaptive_quality || {};
+      const metrics = quality.metrics || {};
+      const confusion = quality.confusion || {};
+      const percent = value => value == null ? 'Not measured' : `${(value * 100).toFixed(1)}%`;
+      const metricRows = [
+        ['Accuracy', metrics.accuracy],
+        ['Precision', metrics.precision],
+        ['Recall', metrics.recall],
+        ['Specificity', metrics.specificity]
+      ].map(([label, value]) => `
+        <div class="kpi-card">
+          <div class="kpi-label">${escapeHtml(label)}</div>
+          <div class="kpi-val" style="font-size:1.35rem;">${escapeHtml(percent(value))}</div>
+        </div>`).join('');
+
+      document.getElementById('adaptiveQualityBox').innerHTML = `
+        <div style="font-weight:700; color:${quality.status === 'measured' ? 'var(--emerald)' : 'var(--amber)'};">${escapeHtml((quality.status || 'insufficient_data').replaceAll('_', ' ').toUpperCase())}</div>
+        <p style="font-size:0.82rem; color:var(--muted); margin:4px 0 12px;">Scored examples: ${escapeHtml(quality.sample_count || 0)} of ${escapeHtml(quality.reviewed_examples || 0)} reviewed roles. Missing original predictions: ${escapeHtml(quality.missing_prediction_snapshots || 0)}.</p>
+        <div class="kpi-grid">${metricRows}</div>
+        <div style="display:flex; flex-wrap:wrap; gap:14px; font-size:0.8rem; margin:10px 0;">
+          <span>Correct recommendations: ${escapeHtml(confusion.true_positive || 0)}</span>
+          <span>False recommendations: ${escapeHtml(confusion.false_positive || 0)}</span>
+          <span>Missed approvals: ${escapeHtml(confusion.false_negative || 0)}</span>
+          <span>Correct skips: ${escapeHtml(confusion.true_negative || 0)}</span>
+        </div>
+        ${(quality.next_actions || []).map(action => `<p style="font-size:0.78rem; color:var(--muted); margin-top:6px;">${escapeHtml(action)}</p>`).join('')}
+      `;
     }
 
     async function runTaxSimulator() {
@@ -425,19 +896,19 @@
             <div class="kpi-sub">${formatINR(r.gross_annual_inr)} / yr</div>
           </div>
           <div class="kpi-card" style="border-color:var(--emerald);">
-            <div class="kpi-label">Global B2B Monthly In-Hand (Sec 44ADA)</div>
+            <div class="kpi-label">Estimated B2B Monthly Net (Model Scenario)</div>
             <div class="kpi-val" style="color:var(--emerald);">${formatINR(r.b2b.monthly_in_hand_inr)}/mo</div>
-            <div class="kpi-sub">Eff. Tax: ${r.b2b.effective_tax_pct}% (${r.b2b.scheme})</div>
+            <div class="kpi-sub">Model assumption: ${escapeHtml(r.b2b.scheme)}, estimated tax ${escapeHtml(r.b2b.effective_tax_pct)}%</div>
           </div>
           <div class="kpi-card">
-            <div class="kpi-label">Salaried / India EOR Monthly In-Hand</div>
+            <div class="kpi-label">Estimated Salaried / India EOR Net</div>
             <div class="kpi-val">${formatINR(r.employee_eor.monthly_in_hand_inr)}/mo</div>
-            <div class="kpi-sub">Eff. Tax: ${r.employee_eor.effective_tax_pct}% (New Regime + PF)</div>
+            <div class="kpi-sub">Model estimate: ${escapeHtml(r.employee_eor.effective_tax_pct)}% effective tax, New Regime + PF assumptions</div>
           </div>
           <div class="kpi-card" style="border-color:var(--violet);">
-            <div class="kpi-label">Monthly B2B Tax Advantage</div>
+            <div class="kpi-label">Estimated Difference Between Scenarios</div>
             <div class="kpi-val" style="color:var(--violet);">+${formatINR(r.monthly_b2b_tax_savings_inr)}/mo</div>
-            <div class="kpi-sub">Extra net take-home via B2B Contract</div>
+            <div class="kpi-sub">Calculated from model assumptions only</div>
           </div>
         </div>
       `;
@@ -446,33 +917,44 @@
     function renderJobCard(j) {
       const pitchId = 'pitch_' + j.job_id;
       const followupId = 'fup_' + j.job_id;
-      const isApplied = j.lifecycle_stage === 'APPLIED' || j.lifecycle_stage === 'INTERVIEW';
+      const isApplied = ['APPLIED', 'INTERVIEW', 'OFFER'].includes(j.lifecycle_stage);
+      const jobId = escapeHtml(j.job_id);
+      const resumeVersionId = escapeHtml(j.resume_version_id);
+      const jobUrl = escapeHtml(safeHttpUrl(j.url));
+      const locationStatus = j.work_location_status || 'NEEDS_REVIEW';
+      const scoreLabel = j.score_model_version === 'profile-overlap-v2'
+        ? `Profile evidence score: ${escapeHtml(j.match_score)}/100`
+        : 'Legacy score not recalibrated';
 
       return `
         <div class="job-card">
           <div class="job-top">
             <div>
-              <div class="job-title">${j.title}</div>
-              <div class="job-comp">${j.company} | <span style="color:var(--muted); font-size:0.82rem;">${j.source_platform}</span></div>
+              <div class="job-title">${escapeHtml(j.title)}</div>
+              <div class="job-comp">${escapeHtml(j.company)} | <span style="color:var(--muted); font-size:0.82rem;">${escapeHtml(j.source_platform)}</span></div>
             </div>
             <div style="display:flex; gap:8px; align-items:center;">
-              <span class="chip chip-score">Match: ${j.match_score}/100 (Critic: ${j.critic_score}/100)</span>
-              <span class="chip" style="background:#0284c7; color:#fff;">Stage: ${j.lifecycle_stage}</span>
+              <span class="chip chip-score">${scoreLabel}</span>
+              <span class="chip" style="background:#0284c7; color:#fff;">Stage: ${escapeHtml(j.lifecycle_stage)}</span>
             </div>
           </div>
 
           <div class="chips">
-            <span class="chip chip-b2b">${j.engagement_label}</span>
-            <span class="chip">${j.salary_range_display}</span>
-            <span class="chip chip-inhand">B2B In-Hand: ${formatINR(j.b2b_monthly_in_hand_inr)}/mo (Tax: ${j.effective_tax_pct}%)</span>
-            <span class="chip">Salaried EOR In-Hand: ${formatINR(j.eor_monthly_in_hand_inr)}/mo</span>
-            <span class="chip" onclick="printResumeVersion('${j.resume_version_id}')" style="cursor:pointer; border-color:var(--accent);">Resume Version: ${j.resume_version_id} (Click to Print)</span>
+            <span class="chip chip-b2b">${escapeHtml(j.engagement_label)}</span>
+            <span class="chip" style="border-color:${locationStatus === 'VERIFIED' ? 'var(--emerald)' : locationStatus === 'INELIGIBLE' ? 'var(--rose)' : 'var(--amber)'};">India Remote Eligibility: ${escapeHtml(locationStatus)}</span>
+            <span class="chip">Estimated compensation range, not posted by employer: ${escapeHtml(j.salary_range_display)}</span>
+            <span class="chip chip-inhand">Estimated B2B In-Hand: ${formatINR(j.b2b_monthly_in_hand_inr)}/mo (Tax estimate: ${escapeHtml(j.effective_tax_pct)}%)</span>
+            <span class="chip">Estimated salaried EOR In-Hand: ${formatINR(j.eor_monthly_in_hand_inr)}/mo</span>
+            ${j.submission_evidence_at && j.submission_evidence_source ? `<span class="chip" style="border-color:var(--emerald);">Submission receipt recorded: ${escapeHtml(j.submission_evidence_at)}</span><span class="chip">Receipt reference: ${escapeHtml(j.submission_evidence_source)}</span>` : ''}
+            ${j.acknowledged_at && j.acknowledgement_evidence_source ? `<span class="chip" style="border-color:var(--emerald);">ATS acknowledgement recorded: ${escapeHtml(j.acknowledged_at)}</span><span class="chip">Acknowledgement reference: ${escapeHtml(j.acknowledgement_evidence_source)}</span>` : ''}
+            <button class="chip" data-print-version="${resumeVersionId}" style="cursor:pointer; border-color:var(--accent);">Resume Version: ${resumeVersionId} (Open Current File)</button>
           </div>
 
           <div class="why-box">
-            <strong>Why Shortlisted / Graph & Guardrail Audit:</strong> ${j.feedback_reason}
-            ${j.applied_at ? `<br/><strong>Applied Timestamp:</strong> ${j.applied_at} | <strong>Next Follow-Up SLA:</strong> <span style="color:var(--amber);">${j.next_followup_due_at}</span> (Follow-ups sent: ${j.followup_count})` : ''}
-            ${j.closure_reason ? `<br/><strong style="color:var(--rose);">Closure / Dead-Zone Reason:</strong> ${j.closure_reason}` : ''}
+            <strong>Why Shortlisted / Graph & Guardrail Audit:</strong> ${escapeHtml(j.feedback_reason)}
+            ${j.work_location_evidence ? `<br/><strong>Location evidence:</strong> ${escapeHtml(j.work_location_evidence)}` : '<br/><strong>Location review:</strong> Confirm India eligibility from the official posting before approval.'}
+            ${j.applied_at ? `<br/><strong>Applied Timestamp:</strong> ${escapeHtml(j.applied_at)} | <strong>Next Follow-Up SLA:</strong> <span style="color:var(--amber);">${escapeHtml(j.next_followup_due_at)}</span> (Follow-ups sent: ${escapeHtml(j.followup_count)})` : ''}
+            ${j.closure_reason ? `<br/><strong style="color:var(--rose);">Closure / Dead-Zone Reason:</strong> ${escapeHtml(j.closure_reason)}` : ''}
           </div>
 
           <details style="margin-top:8px;">
@@ -481,178 +963,80 @@
             </summary>
             <div style="margin-top:8px;">
               <label style="font-size:0.78rem; color:var(--muted);">Initial Outreach / Application Pitch:</label>
-              <textarea class="pitch-box" id="${pitchId}">${j.tailored_pitch}</textarea>
+              <textarea class="pitch-box" id="${escapeHtml(pitchId)}">${escapeHtml(j.tailored_pitch)}</textarea>
               <div style="margin-top:6px;">
-                <button onclick="copyText('${pitchId}')">Copy Application Pitch</button>
+                <button data-copy-target="${escapeHtml(pitchId)}">Copy Application Pitch</button>
               </div>
               ${isApplied ? `
                 <label style="font-size:0.78rem; color:var(--amber); display:block; margin-top:10px;">Day 4 / Day 10 Follow-Up Message:</label>
-                <textarea class="pitch-box" style="min-height:110px;" id="${followupId}">${j.followup_template}</textarea>
+                <textarea class="pitch-box" style="min-height:110px;" id="${escapeHtml(followupId)}">${escapeHtml(j.followup_template)}</textarea>
                 <div style="margin-top:6px;">
-                  <button class="btn-warn" onclick="copyText('${followupId}')">Copy Follow-Up Message</button>
+                  <button class="btn-warn" data-copy-target="${escapeHtml(followupId)}">Copy Follow-Up Message</button>
                 </div>
               ` : ''}
             </div>
           </details>
 
           <div class="action-row">
-            <a href="${j.url}" target="_blank" style="text-decoration:none;">
-              <button class="btn-primary">1. Open Job Portal (${j.company.split('(')[0].trim()})</button>
+            <a href="${jobUrl}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+              <button class="btn-primary">1. Open Job Portal (${escapeHtml(j.company.split('(')[0].trim())})</button>
             </a>
-            ${j.lifecycle_stage === 'SHORTLISTED' ? `
-              <button class="btn-success" onclick="transitionStage('${j.job_id}', 'APPROVED')">2. Approve & Snapshot Resume</button>
+            ${locationStatus === 'NEEDS_REVIEW' ? `
+              <button class="btn-warn" data-verify-job="${jobId}">Verify India Remote Eligibility</button>
             ` : ''}
-            ${(j.lifecycle_stage === 'SHORTLISTED' || j.lifecycle_stage === 'APPROVED') ? `
-              <button class="btn-success" onclick="transitionStage('${j.job_id}', 'APPLIED')">3. Mark as Applied (Start 4-Day SLA)</button>
+            ${locationStatus === 'VERIFIED' && j.lifecycle_stage === 'SHORTLISTED' ? `
+              <button class="btn-success" data-transition-job="${jobId}" data-next-stage="APPROVED">2. Approve & Snapshot Resume</button>
+            ` : ''}
+            ${(locationStatus === 'VERIFIED' && j.lifecycle_stage === 'APPROVED') ? `
+              <button class="btn-success" data-transition-job="${jobId}" data-next-stage="APPLIED">3. Record Confirmed Submission</button>
             ` : ''}
             ${isApplied ? `
-              <button class="btn-warn" onclick="transitionStage('${j.job_id}', 'FOLLOWUP_SENT')">Log Follow-Up Sent</button>
-              <button class="btn-success" onclick="transitionStage('${j.job_id}', 'INTERVIEW')">Move to Interview Stage</button>
+              <button class="btn-warn" data-transition-job="${jobId}" data-next-stage="FOLLOWUP_SENT">Log Follow-Up Sent</button>
+              <button class="btn-success" data-transition-job="${jobId}" data-next-stage="INTERVIEW">Move to Interview Stage</button>
+              ${!j.acknowledged_at ? `<button class="btn-primary" data-ack-job="${jobId}">Log ATS Acknowledgement</button>` : ''}
             ` : ''}
             ${j.lifecycle_stage !== 'DEAD_ZONE' ? `
-              <button class="btn-danger" onclick="transitionStage('${j.job_id}', 'DEAD_ZONE', true)">Role Closed / Reject -> Dead Zone</button>
+              <button class="btn-danger" data-transition-job="${jobId}" data-next-stage="DEAD_ZONE" data-reason-prompt="true">Role Closed / Reject -> Dead Zone</button>
             ` : `
-              <button onclick="transitionStage('${j.job_id}', 'SHORTLISTED')">Restore to Shortlisted</button>
+              <button data-transition-job="${jobId}" data-next-stage="SHORTLISTED">Restore to Shortlisted</button>
             `}
           </div>
         </div>
       `;
     }
 
-    const SUBAGENT_GLOBAL_JOBS = [
-      {
-        job_id: 'gh_appfire_java_tech_lead_4706397005',
-        title: 'Java Tech Lead - BigPicture SaaS (Java, Spring, AWS, Angular/TS & AI)',
-        company: 'Appfire (LinkedIn #4429510386 / Direct Greenhouse #4706397005 - Global B2B / India Entity)',
-        url: 'https://job-boards.greenhouse.io/appfire/jobs/4706397005',
-        match_score: 99, critic_score: 99, lifecycle_stage: 'APPROVED',
-        source_platform: 'Direct Greenhouse ATS + LinkedIn #4429510386',
-        engagement_label: 'Global B2B Contract (EUR/USD -> India Sec 44ADA) or Appfire India Entity',
-        salary_range_display: '$85k - $125k USD/yr (INR 71.0L - 1.04 Cr)',
-        b2b_monthly_in_hand_inr: 610000, eor_monthly_in_hand_inr: 510000, effective_tax_pct: 16.3,
-        resume_version_id: 'v1.0-master-cloud-ai',
-        feedback_reason: '99/100 Exact Stack Match: Appfire BigPicture seeks Java + Spring + AWS + TypeScript/Angular + AI Chatbot/AI-assisted development. Meena led VRLS 2.0 (Java 21, Spring Boot 3, AWS), Angular 13 to 18 migration (-40% API calls), and Spring AI / RAG / Copilot.',
-        tailored_pitch: 'Hi Appfire BigPicture Engineering Team,\n\nI am applying for the Java Tech Lead role (Req #831 / LinkedIn #4429510386). Your stack on BigPicture (Java, Spring, AWS, Angular/TypeScript, and AI-driven chatbot/reporting initiatives) matches my daily hands-on work over the past 9+ years.\n\nAs Lead Software Engineer on VRLS 2.0, I architected our Java 21 + Spring Boot 3 microservices on AWS, led our frontend migration from Angular 13 to Angular 18 (cutting redundant API calls by ~40% using NgRx/RxJS), and rolled out GitHub Copilot, Spring AI, RAG pipelines, and MCP servers across the engineering squad.\n\nI am based in India (where Appfire also operates an entity) and am available immediately via Global B2B contract or Appfire India EOR with full CET/EMEA overlap.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'ashby_camunda_java_zeebe_01',
-        title: 'Senior / Staff Software Engineer, Backend - Java Distributed Systems ($125k-$160k USD B2B)',
-        company: 'Camunda (100% Remote Worldwide B2B / EOR)',
-        url: 'https://jobs.ashbyhq.com/camunda',
-        match_score: 98, critic_score: 98, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 1: Ashby Global Remote',
-        engagement_label: 'Global B2B Contract (USD -> India Sec 44ADA)',
-        salary_range_display: '$125k - $160k USD/yr (INR 1.04 Cr - 1.33 Cr)',
-        b2b_monthly_in_hand_inr: 835000, eor_monthly_in_hand_inr: 695000, effective_tax_pct: 16.3,
-        resume_version_id: 'v1.1-b2b-java-kafka-architect',
-        feedback_reason: 'Core Java 21 distributed workflow engine (Zeebe), multi-region Kubernetes, and streaming alignment with VRLS 2.0.',
-        tailored_pitch: 'Hi Camunda Engineering Team,\n\nI am reaching out regarding the Senior Software Engineer, Backend - Distributed Systems role. I have 9+ years building high-throughput Java 21 and Spring Boot 3 distributed platforms, currently leading VRLS 2.0 on AWS EKS with Kafka and KEDA autoscaling.\n\nI am based in India and available immediately for 100% remote Global B2B contracting or EOR.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'gh_gp_principal_ai_platform_4828114004',
-        title: 'Principal Software Engineer - AI Platform & Multi-Agent Orchestration (INR 60L - 85L)',
-        company: 'G-P / Globalization Partners (100% Remote India)',
-        url: 'https://boards.greenhouse.io/gp/jobs/4828114004',
-        match_score: 98, critic_score: 98, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 1: Greenhouse Direct ATS',
-        engagement_label: 'Full-Time Remote India (Entity / EOR)',
-        salary_range_display: 'INR 60.0 LPA - 85.0 LPA ($70k-$100k USD)',
-        b2b_monthly_in_hand_inr: 515000, eor_monthly_in_hand_inr: 430000, effective_tax_pct: 21.5,
-        resume_version_id: 'v1.2-spring-ai-rag-mcp',
-        feedback_reason: 'Direct match for Java + Python + Spring AI + Multi-Agent LLM orchestration and AWS cloud.',
-        tailored_pitch: 'Hi G-P Engineering Team,\n\nI am applying for the Principal Software Engineer - AI Platform role. Over 9+ years in Java 21, Spring Boot 3, and AWS microservices, I have rolled out Spring AI, RAG vector pipelines, and MCP tool servers in production.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'atlassian_remote_principal_java_search_03',
-        title: 'Senior Principal Software Engineer - JVM Distributed Systems & AI Search (INR 90L - 1.40 Cr)',
-        company: 'Atlassian (100% Remote India - Team Anywhere)',
-        url: 'https://www.atlassian.com/company/careers',
-        match_score: 98, critic_score: 97, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 3: Atlassian Team Anywhere',
-        engagement_label: 'Full-Time Remote India (Atlassian Entity)',
-        salary_range_display: 'INR 90.0 LPA - 1.40 Cr/yr ($110k-$165k USD)',
-        b2b_monthly_in_hand_inr: 760000, eor_monthly_in_hand_inr: 645000, effective_tax_pct: 24.0,
-        resume_version_id: 'v1.0-master-cloud-ai',
-        feedback_reason: 'JVM/Java distributed systems, Rovo AI Search RAG indexing, Kafka streaming, and AWS infrastructure.',
-        tailored_pitch: 'Hi Atlassian Recruiting Team,\n\nI am applying for the Senior Principal Engineer, Search Platform role under Atlassian Team Anywhere in India. I bring 9+ years of Java 21, Spring Boot 3, Kafka, AWS EKS, and RAG/MCP search integration.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'ashby_signoz_sr_backend_ai_mcp_02',
-        title: 'Senior / Staff Backend Engineer - AI, MCP Servers & Observability (INR 40L - 1.00 Cr)',
-        company: 'SigNoz (100% Remote India)',
-        url: 'https://jobs.ashbyhq.com/signoz',
-        match_score: 98, critic_score: 98, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 3: Ashby Direct ATS',
-        engagement_label: 'Full-Time Remote India + Equity',
-        salary_range_display: 'INR 40.0 LPA - 1.00 Cr/yr + Equity',
-        b2b_monthly_in_hand_inr: 595000, eor_monthly_in_hand_inr: 495000, effective_tax_pct: 21.5,
-        resume_version_id: 'v1.2-spring-ai-rag-mcp',
-        feedback_reason: 'Explicitly seeks Model Context Protocol (MCP) servers, AI SRE agents, OpenTelemetry, and Kubernetes.',
-        tailored_pitch: 'Hi SigNoz Team,\n\nSaw your opening for Senior/Staff Backend Engineer (AI & MCP Servers) and wanted to reach out directly. I have hands-on experience building MCP tool servers, Spring AI RAG pipelines, OpenTelemetry tracing, and Kafka/K8s microservices.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'ashby_confluent_staff_kafka_india_04',
-        title: 'Staff Software Engineer - Apache Kafka & Cloud Streaming (INR 55L - 80L)',
-        company: 'Confluent (100% Remote India)',
-        url: 'https://jobs.ashbyhq.com/confluent',
-        match_score: 97, critic_score: 98, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 1: Ashby Direct ATS',
-        engagement_label: 'Full-Time Remote India (Confluent India)',
-        salary_range_display: 'INR 55.0 LPA - 80.0 LPA ($65k-$95k USD)',
-        b2b_monthly_in_hand_inr: 485000, eor_monthly_in_hand_inr: 405000, effective_tax_pct: 21.0,
-        resume_version_id: 'v1.1-b2b-java-kafka-architect',
-        feedback_reason: 'Apache Kafka Streams, KEDA autoscaling, Outbox/Saga choreography, and AWS EKS production leadership.',
-        tailored_pitch: 'Hi Confluent Engineering Team,\n\nI am applying for the Staff Software Engineer role in India. I have architected high-throughput Apache Kafka event pipelines, KEDA autoscaling, and Java 21 microservices across VRLS 2.0 and BlackStraw.AI.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      },
-      {
-        job_id: 'b2b_payforge_java21_kafka_02',
-        title: 'Senior / Lead Java 21 & Kafka Payments Engineer ($70k-$120k USD B2B)',
-        company: 'PayForge (100% Remote Global B2B Contract)',
-        url: 'https://himalayas.app/companies/payforge/jobs',
-        match_score: 97, critic_score: 98, lifecycle_stage: 'APPROVED',
-        source_platform: 'Subagent 2: Global B2B USD Feed',
-        engagement_label: 'Global B2B Contract (USD -> India Sec 44ADA)',
-        salary_range_display: '$70k - $120k USD/yr (INR 58.4L - 1.00 Cr)',
-        b2b_monthly_in_hand_inr: 565000, eor_monthly_in_hand_inr: 475000, effective_tax_pct: 16.3,
-        resume_version_id: 'v1.1-b2b-java-kafka-architect',
-        feedback_reason: 'Exact Java 21 LTS + Spring Boot 3 + Apache Kafka + PostgreSQL + AWS event-driven payments stack.',
-        tailored_pitch: 'Hi PayForge Team,\n\nReaching out for the Senior Java 21 & Kafka Payments Engineer B2B contract. I lead Java 21, Spring Boot 3, Kafka, and PostgreSQL/Oracle microservices on AWS and am ready for immediate B2B onboarding from India.\n\nBest regards,\nMeena Kannan | +91 97893 02084 | meenakannan92@gmail.com'
-      }
-    ];
-
     function renderAll() {
       if (!APP_STATE) return;
-      const existingIds = new Set((APP_STATE.jobs || []).map(j => j.job_id));
-      for (const sj of SUBAGENT_GLOBAL_JOBS) {
-        if (!existingIds.has(sj.job_id)) {
-          APP_STATE.jobs.unshift(sj);
-          APP_STATE.stage_counts.TOTAL_FETCHED += 1;
-          APP_STATE.stage_counts.APPROVED += 1;
-        }
-      }
       const sc = APP_STATE.stage_counts;
       const an = APP_STATE.analytics;
 
       document.getElementById('backendBadge').textContent = APP_STATE.backend_mode;
+      renderAgentRuntime();
+      renderAgentReadiness();
+      renderAdaptiveQuality();
       document.getElementById('kpiFetched').textContent = sc.TOTAL_FETCHED;
       document.getElementById('kpiShortlisted').textContent = sc.SHORTLISTED;
-      document.getElementById('kpiActive').textContent = sc.APPROVED + sc.APPLIED + sc.INTERVIEW;
-      document.getElementById('kpiB2BInHand').textContent = formatINR(an.avg_b2b_monthly_in_hand_inr);
-      document.getElementById('kpiTaxAdv').textContent = `+${formatINR(an.monthly_b2b_advantage_inr)}/mo net gain via B2B Sec 44ADA`;
-      document.getElementById('kpiSkills').textContent = `${an.induced_skills_count} Skills / ${an.consolidated_rules_count} Rules`;
+      document.getElementById('kpiActive').textContent = sc.SUBMITTED_CONFIRMED || 0;
+      document.getElementById('kpiB2BInHand').textContent = an.verified_role_count ? formatINR(an.avg_b2b_monthly_in_hand_inr) : 'No verified roles';
+      document.getElementById('kpiTaxAdv').textContent = an.verified_role_count ? `+${formatINR(an.monthly_b2b_advantage_inr)}/mo estimated modeled difference` : 'Pending verified role data';
+      document.getElementById('kpiSkills').textContent = an.human_feedback_count || 0;
 
-      document.getElementById('navShortlisted').textContent = sc.SHORTLISTED;
+      document.getElementById('navShortlisted').textContent = sc.SHORTLISTED + (sc.SHORTLISTED_REVIEW || 0);
       document.getElementById('navApplied').textContent = sc.APPROVED + sc.APPLIED + sc.INTERVIEW;
       document.getElementById('navDead').textContent = sc.DEAD_ZONE;
 
       // Render Funnel
       const total = Math.max(1, sc.TOTAL_FETCHED);
       const stages = [
-        { label: 'Total Fetched Across 4 Tiers', val: sc.TOTAL_FETCHED, color: '#38bdf8' },
-        { label: 'Shortlisted Queue (>=75% Match)', val: sc.SHORTLISTED, color: '#a78bfa' },
+        { label: 'Unique Job Records in Tracker', val: sc.TOTAL_FETCHED, color: '#38bdf8' },
+        { label: 'India-Eligible Shortlisted Queue (Evidence Score >=75)', val: sc.SHORTLISTED, color: '#a78bfa' },
         { label: 'Approved & Tailored Resume Created', val: sc.APPROVED, color: '#10b981' },
-        { label: 'Applied & Active Follow-Up SLA', val: sc.APPLIED + sc.INTERVIEW, color: '#f59e0b' },
-        { label: 'Dead Zone / Filtered (Onsite / Closed)', val: sc.DEAD_ZONE, color: '#f43f5e' },
+        { label: 'Tracker Rows Marked APPLIED (Evidence May Be Missing)', val: sc.APPLIED, color: '#f59e0b' },
+        { label: 'Submissions with Receipt or Confirmation Evidence', val: sc.SUBMITTED_CONFIRMED || 0, color: '#34d399' },
+        { label: 'ATS Acknowledgement Received', val: sc.ACKNOWLEDGED || 0, color: '#2dd4bf' },
+        { label: 'India Eligibility Verified', val: sc.INDIA_ELIGIBILITY_VERIFIED || 0, color: '#818cf8' },
+        { label: 'Legacy Leads Needing Location Review', val: sc.ELIGIBILITY_NEEDS_REVIEW || 0, color: '#fbbf24' },
+        { label: 'Closed, Ineligible, or Placeholder Records', val: sc.DEAD_ZONE, color: '#f43f5e' },
       ];
       document.getElementById('funnelContainer').innerHTML = stages.map(s => `
         <div class="funnel-row">
@@ -662,31 +1046,31 @@
       `).join('');
 
       // Render Compensation Comparison
-      document.getElementById('compComparisonBox').innerHTML = `
+      document.getElementById('compComparisonBox').innerHTML = an.verified_role_count ? `
         <div class="funnel-row">
-          <div class="funnel-header"><span>Global B2B Contractor (Sec 44ADA 50% Taxable + 0% GST LUT)</span><strong style="color:var(--emerald);">${formatINR(an.avg_b2b_monthly_in_hand_inr)} / month in-hand</strong></div>
+          <div class="funnel-header"><span>Estimated B2B net pay, model scenario</span><strong style="color:var(--emerald);">${formatINR(an.avg_b2b_monthly_in_hand_inr)} / month</strong></div>
           <div class="bar-bg"><div class="bar-fill" style="width:92%; background:var(--emerald);"></div></div>
         </div>
         <div class="funnel-row" style="margin-top:14px;">
-          <div class="funnel-header"><span>Full-Time India EOR / Salaried (Standard New Regime + PF)</span><strong style="color:var(--accent);">${formatINR(an.avg_eor_monthly_in_hand_inr)} / month in-hand</strong></div>
+          <div class="funnel-header"><span>Estimated salaried or India EOR net pay</span><strong style="color:var(--accent);">${formatINR(an.avg_eor_monthly_in_hand_inr)} / month</strong></div>
           <div class="bar-bg"><div class="bar-fill" style="width:74%; background:var(--accent);"></div></div>
         </div>
-      `;
+      ` : '<p style="color:var(--muted);">Salary estimates are hidden until at least one role has verified India work eligibility.</p>';
 
       // Render Follow-Up Radar
-      const appliedJobs = APP_STATE.jobs.filter(j => j.lifecycle_stage === 'APPLIED' || j.lifecycle_stage === 'APPROVED');
+      const appliedJobs = APP_STATE.jobs.filter(j => j.lifecycle_stage === 'APPLIED' || j.lifecycle_stage === 'INTERVIEW');
       document.getElementById('followupRadarBox').innerHTML = appliedJobs.length ? appliedJobs.map(j => `
         <div style="padding:10px 0; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; gap:10px;">
           <div>
-            <div style="font-weight:600; font-size:0.9rem;">${j.title}</div>
-            <div style="font-size:0.78rem; color:var(--amber);">${j.company} | SLA: ${j.next_followup_due_at || 'Ready to Submit Application'}</div>
+            <div style="font-weight:600; font-size:0.9rem;">${escapeHtml(j.title)}</div>
+            <div style="font-size:0.78rem; color:var(--amber);">${escapeHtml(j.company)} | ${j.submission_evidence_at ? 'Receipt evidence recorded' : 'No submission evidence on file'} | SLA: ${escapeHtml(j.next_followup_due_at || 'Not set')}</div>
           </div>
           <button class="btn-warn" onclick="switchTab('tab-applied', document.querySelectorAll('nav.tabs button')[2])">Open Tracker</button>
         </div>
       `).join('') : '<p style="color:var(--muted);">No active follow-ups due right now.</p>';
 
       // Render Rules & Timeline
-      const rulesHtml = (APP_STATE.rules || []).slice(0, 5).map(r => `<div style="font-size:0.78rem; padding:4px 0; color:#cbd5e1;">- ${r}</div>`).join('');
+      const rulesHtml = (APP_STATE.rules || []).slice(0, 5).map(r => `<div style="font-size:0.78rem; padding:4px 0; color:#cbd5e1;">- ${escapeHtml(r)}</div>`).join('');
       document.getElementById('rulesAndTimelineBox').innerHTML = rulesHtml;
 
       // Render Tabs
@@ -704,37 +1088,168 @@
         <div class="job-card">
           <div class="job-top">
             <div>
-              <div class="job-title">${v.version_tag}</div>
-              <div class="job-comp">${v.target_track}</div>
+              <div class="job-title">${escapeHtml(v.version_tag)}</div>
+              <div class="job-comp">${escapeHtml(v.target_track)}</div>
             </div>
-            <button class="btn-primary" onclick="printResumeVersion('${v.version_id}')">Open Printable / Save-as-PDF (${v.ats_upload_filename || 'Meena_Kannan_Resume.pdf'})</button>
+            <button class="btn-primary" data-print-version="${escapeHtml(v.version_id)}">Open Current Resume (${escapeHtml(v.ats_upload_filename || 'Meena_Kannan_Resume.pdf')})</button>
           </div>
           <div class="chips">
-            <span class="chip chip-inhand">Employer Upload Filename (ATS-Safe): ${v.ats_upload_filename || 'Meena_Kannan_Lead_Software_Engineer.pdf'}</span>
-            <span class="chip chip-b2b">Internal Vault Path: ${v.internal_vault_path || 'resumes_vault/'}</span>
+            <span class="chip chip-inhand">Employer Upload Filename (ATS-Safe): ${escapeHtml(v.ats_upload_filename || 'Meena_Kannan_Lead_Software_Engineer.pdf')}</span>
+            <span class="chip chip-b2b">Internal Vault Path: ${escapeHtml(v.internal_vault_path || 'resumes_vault/')}</span>
           </div>
-          <p style="font-size:0.85rem; margin-top:8px; color:#cbd5e1;"><strong>Headline:</strong> ${v.headline}</p>
-          <p style="font-size:0.84rem; margin-top:6px; color:var(--muted);">${v.executive_summary}</p>
+          <p style="font-size:0.85rem; margin-top:8px; color:#cbd5e1;"><strong>Headline:</strong> ${escapeHtml(v.headline)}</p>
+          <p style="font-size:0.84rem; margin-top:6px; color:var(--muted);">${escapeHtml(v.executive_summary)}</p>
         </div>
       `).join('');
+
+      bindRenderedActions();
     }
 
-    loadState().then(async () => {
-      runTaxSimulator();
-      const elJob = (APP_STATE.jobs || []).find(j => j.job_id === 'gh_rem_elastic_7447426');
-      if (elJob && elJob.lifecycle_stage === 'APPROVED') {
-        await fetch('/api/transition', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({
-            job_id: 'gh_rem_elastic_7447426',
-            new_stage: 'APPLIED',
-            note: 'Officially submitted on Greenhouse with verification code sJQk7umn - Thank you for applying confirmation received at meenakannan92@gmail.com'
-          })
+    
+    let myChart1 = null;
+    let myChart2 = null;
+
+    async function loadTableList() {
+        try {
+            const resp = await fetch('/api/tables');
+            if (resp.ok) {
+                const data = await resp.json();
+                const sel = document.getElementById('dbTableSelect');
+                sel.innerHTML = '<option value="">-- Select a Table --</option>' + 
+                    data.tables.map(t => `<option value="${t}">${t}</option>`).join('');
+                if (data.tables.includes('agent_episodic_memories')) {
+                    sel.value = 'agent_episodic_memories';
+                    loadTableData();
+                }
+            }
+        } catch (e) {
+            console.error("Failed to load tables", e);
+        }
+    }
+
+    async function loadTableData() {
+        const table = document.getElementById('dbTableSelect').value;
+        if (!table) return;
+        try {
+            const resp = await fetch(`/api/table_data/${table}`);
+            if (resp.ok) {
+                const data = await resp.json();
+                renderDataTable(data.columns, data.data);
+                renderDataCharts(table, data.columns, data.data);
+            }
+        } catch(e) {
+            console.error("Failed to load table data", e);
+            document.getElementById('dataTableContainer').innerHTML = '<p style="color:var(--rose);">Error loading data</p>';
+        }
+    }
+
+    function renderDataTable(columns, rows) {
+        if (!rows.length) {
+            document.getElementById('dataTableContainer').innerHTML = '<p style="padding:10px; color:var(--muted);">Table is empty.</p>';
+            return;
+        }
+        let html = '<table class="data-table"><thead><tr>';
+        columns.forEach(c => html += `<th>${escapeHtml(c)}</th>`);
+        html += '</tr></thead><tbody>';
+        rows.slice(0, 100).forEach(r => {
+            html += '<tr>';
+            columns.forEach(c => {
+                let val = r[c];
+                if (typeof val === 'object' && val !== null) val = JSON.stringify(val);
+                if (String(val).length > 50) val = String(val).substring(0, 50) + '...';
+                html += `<td>${escapeHtml(val)}</td>`;
+            });
+            html += '</tr>';
         });
-        await loadState();
-      }
+        html += '</tbody></table>';
+        if (rows.length > 100) html += `<p style="padding:10px; font-size:0.8rem; color:var(--muted);">Showing top 100 of ${rows.length} rows.</p>`;
+        document.getElementById('dataTableContainer').innerHTML = html;
+    }
+
+    function renderDataCharts(tableName, columns, rows) {
+        if (myChart1) myChart1.destroy();
+        if (myChart2) myChart2.destroy();
+        
+        const ctx1 = document.getElementById('dataChart1').getContext('2d');
+        const ctx2 = document.getElementById('dataChart2').getContext('2d');
+        
+        Chart.defaults.color = '#94a3b8';
+        Chart.defaults.font.family = 'Inter';
+
+        if (tableName === 'agent_episodic_memories') {
+            // Chart 1: Lifecycle Stage Distribution
+            const stages = {};
+            rows.forEach(r => { stages[r.lifecycle_stage] = (stages[r.lifecycle_stage] || 0) + 1; });
+            myChart1 = new Chart(ctx1, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(stages),
+                    datasets: [{
+                        data: Object.values(stages),
+                        backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e', '#8b5cf6', '#34d399']
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Jobs by Lifecycle Stage', color: '#fff' } } }
+            });
+
+            // Chart 2: Match Score Distribution
+            const scores = rows.map(r => r.match_score).filter(s => s != null);
+            const bins = {'90-100':0, '80-89':0, '70-79':0, '<70':0};
+            scores.forEach(s => {
+                if(s >= 90) bins['90-100']++;
+                else if (s >= 80) bins['80-89']++;
+                else if (s >= 70) bins['70-79']++;
+                else bins['<70']++;
+            });
+            myChart2 = new Chart(ctx2, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(bins),
+                    datasets: [{
+                        label: 'Number of Roles',
+                        data: Object.values(bins),
+                        backgroundColor: '#0ea5e9'
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Match Score Distribution', color: '#fff' } } }
+            });
+        } else if (tableName === 'application_timeline_events') {
+            const stages = {};
+            rows.forEach(r => { stages[r.to_stage] = (stages[r.to_stage] || 0) + 1; });
+            myChart1 = new Chart(ctx1, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(stages),
+                    datasets: [{ data: Object.values(stages), backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e'] }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Timeline Events by Target Stage', color: '#fff' } } }
+            });
+            
+            const dates = {};
+            rows.forEach(r => { 
+                const d = String(r.event_at).substring(0, 10);
+                if (d && d !== 'null') dates[d] = (dates[d] || 0) + 1; 
+            });
+            myChart2 = new Chart(ctx2, {
+                type: 'line',
+                data: {
+                    labels: Object.keys(dates).sort(),
+                    datasets: [{ label: 'Events', data: Object.keys(dates).sort().map(k=>dates[k]), borderColor: '#10b981', tension: 0.1 }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Events Over Time', color: '#fff' } } }
+            });
+        } else {
+            // Generic visual
+            document.getElementById('dataChart1').parentElement.innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:40%;">Auto-charting not configured for this table.</p>';
+            document.getElementById('dataChart2').parentElement.innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:40%;">Auto-charting not configured for this table.</p>';
+        }
+    }
+
+    loadTableList();
+    loadState().then(() => {
+      runTaxSimulator();
     });
+    setInterval(() => loadState().catch(() => {}), 15000);
   </script>
 </body>
 </html>

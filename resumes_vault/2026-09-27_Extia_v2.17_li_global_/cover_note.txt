@@ -4,7 +4,7 @@ I'm reaching out regarding the Tech Lead JAVA Confirmé role. Over the past 9+ y
 
 Alongside core distributed systems work (cutting redundant API calls by ~40% during our Angular 13 to 18 upgrade and replacing 15-minute batch jobs with real-time Kafka streams at BlackStraw.AI), I've been hands-on integrating Spring AI, RAG pipelines, and MCP tool servers into production Java services.
 
-I am based in India and available immediately for 100% remote engagement (either via Global B2B contract or full-time through India EOR) with full timezone overlap. Happy to walk through our VRLS 2.0 and Kafka architecture anytime.
+I am based in India and targeting 100% remote work through a Global B2B contract or full-time India employment. Happy to walk through our VRLS 2.0 and Kafka architecture anytime.
 
 Best regards,
 Meena Kannan

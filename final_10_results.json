@@ -1,0 +1,52 @@
+[
+  {
+    "job_id": "gh_final_mongodb_8065483",
+    "company": "MongoDB",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_final_cribl_backend",
+    "company": "Cribl",
+    "outcome": "FAILED_NO_MATCHING_ROLE"
+  },
+  {
+    "job_id": "gh_final_launchdarkly_swe",
+    "company": "LaunchDarkly",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "gh_final_vercel_swe",
+    "company": "Vercel",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "gh_final_tailscale_swe",
+    "company": "Tailscale",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "gh_final_databricks_swe",
+    "company": "Databricks",
+    "outcome": "FAILED_NO_MATCHING_ROLE"
+  },
+  {
+    "job_id": "gh_final_datadog_swe",
+    "company": "Datadog",
+    "outcome": "FAILED_NO_MATCHING_ROLE"
+  },
+  {
+    "job_id": "lever_final_gohighlevel_workflow",
+    "company": "HighLevel",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_final_lingarogroup_aidevops",
+    "company": "Lingaro",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_final_lingarogroup_aiops",
+    "company": "Lingaro",
+    "outcome": "APPLIED"
+  }
+]

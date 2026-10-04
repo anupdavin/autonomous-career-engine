@@ -1,0 +1,4 @@
+**Target Role Alignment (Senior AI Agent Engineer (Oracle 26ai & Adaptive Workflows) @ ApexAutonomous Labs)**
+- **Graph-Verified Architecture Experience**: Designed and deployed *Self-Improving 24/7 Job Search Agent with Oracle AI Database* (USES_SKILL -> Python, USES_SKILL -> Agentic Workflows & Multi-Agent Systems, USES_SKILL -> Oracle AI Database 23ai/26ai (Vector & Property Graph), USES_SKILL -> RAG & Memory Engineering), operating in <50 MB RAM via `python-oracledb` Thin Mode and Google Antigravity SDK.
+- **Self-Improving & Memory-Aware Systems**: Implemented Oracle AI Vector Search (`VECTOR` cosine similarity) and SQL Property Graph traversal with Andrew Ng's Generator-Critic-Refiner loops for continual behavioral adaptation.
+- **Direct Impact for ApexAutonomous Labs**: Ready to accelerate Python, Oracle AI Database, Agentic Workflows workflows from Day 1 with zero hallucination context retrieval.

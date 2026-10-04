@@ -2,6 +2,7 @@ import array
 import hashlib
 import json
 import math
+import re
 import sqlite3
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
@@ -15,6 +16,19 @@ try:
     import oracledb
 except ImportError:
     oracledb = None
+
+
+PROFILE_OVERLAP_RECOMMENDATION_THRESHOLD = 75
+PROFILE_OVERLAP_REVIEW_THRESHOLD = 60
+
+
+def initial_lifecycle_stage(decision: str, match_score: int, work_location_status: str) -> str:
+    """Keep plausible, India-verified roles visible for review without approving them."""
+    if decision == "RECOMMENDED" and match_score >= PROFILE_OVERLAP_RECOMMENDATION_THRESHOLD:
+        return "SHORTLISTED"
+    if work_location_status == "VERIFIED" and match_score >= PROFILE_OVERLAP_REVIEW_THRESHOLD:
+        return "SHORTLISTED"
+    return "DEAD_ZONE"
 
 
 def compute_lightweight_embedding(text: str, dim: int = 64) -> List[float]:
@@ -67,7 +81,7 @@ class OracleAIMemoryManager:
 
     @property
     def backend_mode(self) -> str:
-        return "Oracle AI Database 26ai (Thin Client)" if self.oracle_conn else "Oracle 26ai Local Mirror (Zero-RAM Mode)"
+        return "Oracle AI Database 26ai" if self.oracle_conn else "SQLite Local Mirror"
 
     def _init_storage(self) -> None:
         cur = self.local_conn.cursor()
@@ -94,6 +108,15 @@ class OracleAIMemoryManager:
                 confidence REAL,
                 source_count INTEGER DEFAULT 1,
                 updated_at TEXT
+            );
+
+            CREATE TABLE IF NOT EXISTS human_feedback_events (
+                feedback_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                job_id TEXT NOT NULL,
+                decision TEXT NOT NULL,
+                reason TEXT NOT NULL,
+                source TEXT NOT NULL,
+                created_at TEXT NOT NULL
             );
 
             CREATE TABLE IF NOT EXISTS kg_vertices (
@@ -136,7 +159,15 @@ class OracleAIMemoryManager:
             ("applied_at", "TEXT DEFAULT ''"),
             ("next_followup_due_at", "TEXT DEFAULT ''"),
             ("followup_count", "INTEGER DEFAULT 0"),
+            ("score_model_version", "TEXT DEFAULT 'legacy-v1'"),
+            ("ranker_decision", "TEXT DEFAULT ''"),
             ("closure_reason", "TEXT DEFAULT ''"),
+            ("acknowledged_at", "TEXT DEFAULT ''"),
+            ("submission_evidence_at", "TEXT DEFAULT ''"),
+            ("submission_evidence_source", "TEXT DEFAULT ''"),
+            ("acknowledgement_evidence_source", "TEXT DEFAULT ''"),
+            ("work_location_status", "TEXT DEFAULT 'NEEDS_REVIEW'"),
+            ("work_location_evidence", "TEXT DEFAULT ''"),
         ]
         existing_cols = {
             r[1] for r in cur.execute("PRAGMA table_info(agent_episodic_memories)").fetchall()
@@ -144,6 +175,15 @@ class OracleAIMemoryManager:
         for col_name, col_def in crm_columns:
             if col_name not in existing_cols:
                 cur.execute(f"ALTER TABLE agent_episodic_memories ADD COLUMN {col_name} {col_def}")
+        if "ranker_decision" not in existing_cols:
+            cur.execute(
+                """
+                UPDATE agent_episodic_memories
+                SET ranker_decision = decision
+                WHERE COALESCE(ranker_decision, '') = ''
+                  AND decision IN ('RECOMMENDED', 'SKIPPED_LOW_MATCH')
+                """
+            )
 
         now = datetime.now(timezone.utc).isoformat()
         for db_rule in self.profile.get("dealbreakers", []):
@@ -184,24 +224,6 @@ class OracleAIMemoryManager:
             next_followup = r["next_followup_due_at"] or ""
             closure_reason = r["closure_reason"] or ""
 
-            # Assign realistic initial lifecycle distribution if still default
-            if r["decision"] in ("SKIPPED_LOW_MATCH", "REJECTED") or r["match_score"] < 75:
-                stage = "DEAD_ZONE"
-                closure_reason = closure_reason or sanitize_no_emdashes(
-                    f"Auto-Filtered / Dealbreaker ({r['match_score']}/100): {reason[:140]}"
-                )
-            elif stage == "SHORTLISTED" and not applied_at:
-                # Seed a couple of high-conviction roles into APPROVED / APPLIED so all pipeline tabs are live
-                if "mastercard" in job_id or "job_b2b_global_java_ai_01" in job_id:
-                    stage = "APPLIED"
-                    applied_dt = now_dt - timedelta(days=4)
-                    applied_at = applied_dt.strftime("%Y-%m-%d %H:%M UTC")
-                    next_followup = (applied_dt + timedelta(days=4)).strftime("%Y-%m-%d (Due Today - Day 4 SLA)")
-                elif "elastic_7447426" in job_id or "geekyants" in job_id:
-                    stage = "APPROVED"
-                else:
-                    stage = "SHORTLISTED"
-
             cur.execute(
                 """
                 UPDATE agent_episodic_memories
@@ -232,6 +254,82 @@ class OracleAIMemoryManager:
                     next_followup,
                     closure_reason,
                     job_id,
+                ),
+            )
+        # Undo the legacy demo-only APPLIED status if it has no submission event.
+        cur.execute(
+            """
+            UPDATE agent_episodic_memories
+            SET lifecycle_stage = 'SHORTLISTED', applied_at = '',
+                next_followup_due_at = '', followup_count = 0
+            WHERE job_id = 'job_b2b_global_java_ai_01'
+              AND lifecycle_stage = 'APPLIED'
+              AND NOT EXISTS (
+                  SELECT 1 FROM application_timeline_events
+                  WHERE application_timeline_events.job_id = agent_episodic_memories.job_id
+                    AND application_timeline_events.to_stage IN ('APPLIED', 'INTERVIEW', 'OFFER')
+              )
+            """
+        )
+
+        legacy_approvals = cur.execute(
+            """
+            SELECT job.job_id
+            FROM agent_episodic_memories AS job
+            WHERE job.lifecycle_stage = 'APPROVED'
+              AND EXISTS (
+                  SELECT 1
+                  FROM application_timeline_events AS event
+                  WHERE event.job_id = job.job_id
+                    AND event.to_stage = 'APPROVED'
+                    AND event.note LIKE 'Autopilot auto-approved%'
+              )
+            """
+        ).fetchall()
+        reconcile_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        for row in legacy_approvals:
+            cur.execute(
+                "UPDATE agent_episodic_memories SET lifecycle_stage = 'SHORTLISTED' WHERE job_id = ?",
+                (row["job_id"],),
+            )
+            cur.execute(
+                """
+                INSERT INTO application_timeline_events (job_id, from_stage, to_stage, note, event_at)
+                VALUES (?, 'APPROVED', 'SHORTLISTED', ?, ?)
+                """,
+                (
+                    row["job_id"],
+                    "Reconciled legacy automated approval. Requires human approval and India location review.",
+                    reconcile_at,
+                ),
+            )
+        approvals_without_events = cur.execute(
+            """
+            SELECT job.job_id
+            FROM agent_episodic_memories AS job
+            WHERE job.lifecycle_stage = 'APPROVED'
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM application_timeline_events AS event
+                  WHERE event.job_id = job.job_id
+                    AND event.to_stage = 'APPROVED'
+              )
+            """
+        ).fetchall()
+        for row in approvals_without_events:
+            cur.execute(
+                "UPDATE agent_episodic_memories SET lifecycle_stage = 'SHORTLISTED' WHERE job_id = ?",
+                (row["job_id"],),
+            )
+            cur.execute(
+                """
+                INSERT INTO application_timeline_events (job_id, from_stage, to_stage, note, event_at)
+                VALUES (?, 'APPROVED', 'SHORTLISTED', ?, ?)
+                """,
+                (
+                    row["job_id"],
+                    "Reconciled approval with no human approval event. Requires explicit review.",
+                    reconcile_at,
                 ),
             )
         self.local_conn.commit()
@@ -278,7 +376,7 @@ class OracleAIMemoryManager:
             proj_meta = json.loads(proj_row["metadata_json"])
             edges = cur.execute(
                 """
-                SELECT e.relation, v.vertex_type, v.name, v.metadata_json
+                SELECT e.relation, v.vertex_id, v.vertex_type, v.name, v.metadata_json
                 FROM kg_edges e
                 JOIN kg_vertices v ON e.target_id = v.vertex_id
                 WHERE e.source_id = ?
@@ -289,8 +387,37 @@ class OracleAIMemoryManager:
             activated_nodes = []
             for edge in edges:
                 node_name = edge["name"]
-                keywords = [w for w in node_name.lower().replace("/", " ").split() if len(w) > 2]
-                if any(k in lower_job for k in keywords):
+                skill_terms = {
+                    "skill_java_spring": ("java", "java 21", "java 18", "spring boot", "springboot", "webflux"),
+                    "skill_k8s_cloud": ("aws", "eks", "ecs", "kubernetes", "k8s", "docker", "helm", "istio"),
+                    "skill_event_driven": ("kafka", "kafka streams", "event-driven", "event driven", "event stream", "keda", "redis", "outbox", "saga"),
+                    "skill_ai_agents": ("spring ai", "rag", "retrieval augmented generation", "mcp", "model context protocol", "claude api", "agentic workflow"),
+                    "skill_databases": ("oracle database", "oracle db", "postgresql", "mysql", "mongodb", "redis", "flyway"),
+                    "skill_frontend": ("angular", "react", "next.js", "ngrx", "rxjs", "typescript", "graphql"),
+                    "skill_devsecops": ("argocd", "jenkins", "github actions", "terraform", "vault", "keycloak", "opentelemetry"),
+                    "skill_leadership": ("technical lead", "engineering lead", "lead engineer", "solution architect", "solutions architect", "scrum master", "architecture decision record"),
+                }
+                domain_terms = {
+                    "cloud-native modernisation": ("cloud-native", "cloud native", "cloud modernisation", "cloud modernization"),
+                    "microservices architecture": ("microservices", "microservice", "service architecture"),
+                    "distributed remote delivery": ("distributed systems", "distributed system", "remote engineering teams"),
+                    "event-driven scaling": ("event-driven", "event driven", "event streams", "kafka"),
+                    "spring ai & mcp integration": ("spring ai", "mcp server", "model context protocol", "rag pipeline"),
+                    "real-time streaming": ("real-time", "real time", "kafka streams", "event streams"),
+                    "ai/ml inference integration": ("inference", "model serving", "AI model"),
+                    "latency optimization": ("latency", "low-latency", "response time"),
+                    "high-throughput backend": ("high-throughput", "high throughput", "backend platform"),
+                }
+                if edge["vertex_type"] == "SKILL":
+                    terms = skill_terms.get(edge["vertex_id"], ())
+                elif edge["vertex_type"] == "DOMAIN":
+                    terms = domain_terms.get(node_name.lower(), ())
+                else:
+                    terms = (node_name,)
+                if any(
+                    re.search(r"(?<![a-z0-9])" + re.escape(term.lower()) + r"(?![a-z0-9])", lower_job)
+                    for term in terms
+                ):
                     activated_nodes.append(f"{edge['relation']} -> {node_name}")
 
             matched_graph_paths.append(
@@ -310,12 +437,42 @@ class OracleAIMemoryManager:
             "graph_paths": matched_graph_paths,
         }
 
+    def _qualifying_human_feedback_note(self, cur, job_id: str, decision: str) -> Optional[str]:
+        decision = decision.upper()
+        rows = cur.execute(
+            "SELECT reason FROM human_feedback_events WHERE job_id = ? AND decision = ? ORDER BY feedback_id DESC",
+            (job_id, decision),
+        ).fetchall()
+        for row in rows:
+            note = sanitize_no_emdashes(str(row["reason"] or "")).strip()
+            if len(note) >= 12:
+                return note
+        return None
+
     def retrieve_similar_episodic_memories(self, job_text: str, top_k: int = 3) -> List[Dict[str, Any]]:
         query_vec = compute_lightweight_embedding(job_text)
         cur = self.local_conn.cursor()
-        rows = cur.execute("SELECT * FROM agent_episodic_memories").fetchall()
+        rows = cur.execute(
+            """
+            SELECT job.*, feedback.decision AS human_decision, feedback.reason AS human_reason
+            FROM agent_episodic_memories AS job
+            JOIN (
+                SELECT job_id, MAX(feedback_id) AS latest_feedback_id
+                FROM human_feedback_events
+                GROUP BY job_id
+            ) AS latest ON latest.job_id = job.job_id
+            JOIN human_feedback_events AS feedback
+              ON feedback.feedback_id = latest.latest_feedback_id
+            WHERE feedback.decision IN ('APPROVED', 'REJECTED')
+            """
+        ).fetchall()
         scored = []
         for r in rows:
+            human_note = sanitize_no_emdashes(str(r["human_reason"] or "")).strip()
+            if len(human_note) < 12:
+                continue
+            if not r["embedding_json"]:
+                continue
             emb = json.loads(r["embedding_json"])
             sim = cosine_similarity(query_vec, emb)
             scored.append(
@@ -323,9 +480,9 @@ class OracleAIMemoryManager:
                     "job_id": r["job_id"],
                     "title": r["title"],
                     "company": r["company"],
-                    "decision": r["decision"],
+                    "decision": r["human_decision"],
                     "match_score": r["match_score"],
-                    "feedback_reason": r["feedback_reason"],
+                    "feedback_reason": human_note,
                     "similarity": round(sim, 3),
                 }
             )
@@ -344,7 +501,28 @@ class OracleAIMemoryManager:
         rows = cur.execute(
             "SELECT rule_type, rule_text, confidence FROM consolidated_memory_rules ORDER BY confidence DESC"
         ).fetchall()
-        return [sanitize_no_emdashes(f"[{r['rule_type']} | conf={r['confidence']:.2f}] {r['rule_text']}") for r in rows]
+        profile_dealbreakers = {
+            sanitize_no_emdashes(f"Avoid roles that match dealbreaker: {reason}")
+            for reason in self.profile.get("dealbreakers", [])
+        }
+        active_rules = []
+        for row in rows:
+            rule_type = row["rule_type"]
+            rule_text = row["rule_text"]
+            if rule_type == "DEALBREAKER" and rule_text not in profile_dealbreakers:
+                continue
+            if rule_type in {"PREFERENCE_BOOST", "LEARNED_AVOIDANCE"}:
+                prefix = "When evaluating jobs similar to "
+                if not rule_text.startswith(prefix):
+                    continue
+                job_id = rule_text[len(prefix):].split(", enforce ", 1)[0].strip()
+                decision = "APPROVED" if rule_type == "PREFERENCE_BOOST" else "REJECTED"
+                if not self._qualifying_human_feedback_note(cur, job_id, decision):
+                    continue
+            active_rules.append(
+                sanitize_no_emdashes(f"[{rule_type} | conf={row['confidence']:.2f}] {rule_text}")
+            )
+        return active_rules
 
     def save_episodic_memory(
         self,
@@ -359,6 +537,8 @@ class OracleAIMemoryManager:
         feedback_reason: str,
         raw_text: str,
         source_platform: str = "Live Multi-Tier Feed",
+        work_location_status: str = "NEEDS_REVIEW",
+        work_location_evidence: str = "",
     ) -> None:
         clean_title = sanitize_no_emdashes(title)
         clean_comp = sanitize_no_emdashes(company)
@@ -371,19 +551,71 @@ class OracleAIMemoryManager:
             {"title": clean_title, "company": clean_comp, "source": source_platform, "tags": []}
         )
         ver_id = self.vault.select_best_version_for_job(clean_title, [])
-        stage = "SHORTLISTED" if decision == "RECOMMENDED" and match_score >= 75 else "DEAD_ZONE"
+        stage = initial_lifecycle_stage(decision, match_score, work_location_status)
         closure_reason = "" if stage == "SHORTLISTED" else f"Auto-Filtered ({match_score}/100): {clean_reason[:120]}"
 
         cur = self.local_conn.cursor()
         cur.execute(
             """
-            INSERT OR REPLACE INTO agent_episodic_memories
-            (job_id, title, company, url, decision, match_score, critic_score, tailored_pitch,
+            INSERT INTO agent_episodic_memories
+            (job_id, title, company, url, decision, ranker_decision, match_score, score_model_version, critic_score, tailored_pitch,
              feedback_reason, embedding_json, created_at, lifecycle_stage, source_platform,
              engagement_type, engagement_label, salary_range_display, primary_monthly_in_hand_inr,
              b2b_monthly_in_hand_inr, eor_monthly_in_hand_inr, effective_tax_pct, tax_summary,
-             resume_version_id, closure_reason)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             resume_version_id, closure_reason, work_location_status, work_location_evidence)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(job_id) DO UPDATE SET
+                title = excluded.title,
+                company = excluded.company,
+                url = excluded.url,
+                decision = CASE
+                    WHEN EXISTS (
+                        SELECT 1 FROM human_feedback_events
+                        WHERE human_feedback_events.job_id = excluded.job_id
+                    ) THEN agent_episodic_memories.decision
+                    ELSE excluded.decision
+                END,
+                ranker_decision = CASE
+                    WHEN EXISTS (
+                        SELECT 1 FROM human_feedback_events
+                        WHERE human_feedback_events.job_id = excluded.job_id
+                    ) THEN agent_episodic_memories.ranker_decision
+                    ELSE excluded.ranker_decision
+                END,
+                match_score = CASE
+                    WHEN EXISTS (
+                        SELECT 1 FROM human_feedback_events
+                        WHERE human_feedback_events.job_id = excluded.job_id
+                    ) THEN agent_episodic_memories.match_score
+                    ELSE excluded.match_score
+                END,
+                score_model_version = CASE
+                    WHEN EXISTS (
+                        SELECT 1 FROM human_feedback_events
+                        WHERE human_feedback_events.job_id = excluded.job_id
+                    ) THEN agent_episodic_memories.score_model_version
+                    ELSE excluded.score_model_version
+                END,
+                critic_score = excluded.critic_score,
+                tailored_pitch = excluded.tailored_pitch,
+                feedback_reason = CASE
+                    WHEN EXISTS (
+                        SELECT 1 FROM human_feedback_events
+                        WHERE human_feedback_events.job_id = excluded.job_id
+                    ) THEN agent_episodic_memories.feedback_reason
+                    ELSE excluded.feedback_reason
+                END,
+                embedding_json = excluded.embedding_json,
+                created_at = excluded.created_at,
+                source_platform = excluded.source_platform,
+                work_location_status = CASE
+                    WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_status
+                    ELSE agent_episodic_memories.work_location_status
+                END,
+                work_location_evidence = CASE
+                    WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_evidence
+                    ELSE agent_episodic_memories.work_location_evidence
+                END
             """,
             (
                 job_id,
@@ -391,7 +623,9 @@ class OracleAIMemoryManager:
                 clean_comp,
                 url,
                 decision,
+                decision,
                 match_score,
+                "profile-overlap-v2",
                 critic_score,
                 clean_pitch,
                 clean_reason,
@@ -409,6 +643,8 @@ class OracleAIMemoryManager:
                 comp_info["tax_summary"],
                 ver_id,
                 sanitize_no_emdashes(closure_reason),
+                work_location_status,
+                sanitize_no_emdashes(work_location_evidence),
             ),
         )
         self.local_conn.commit()
@@ -419,6 +655,7 @@ class OracleAIMemoryManager:
         new_stage: str,
         note: str = "",
         closure_reason: str = "",
+        evidence_source: str = "",
     ) -> Dict[str, Any]:
         """
         Transitions a job across lifecycle stages:
@@ -431,10 +668,30 @@ class OracleAIMemoryManager:
             raise ValueError(f"Job {job_id} not found")
 
         old_stage = row["lifecycle_stage"]
+        if new_stage == "APPROVED" and row["work_location_status"] != "VERIFIED":
+            raise ValueError("Verify India remote eligibility from the official posting before approval")
+        if new_stage == "APPROVED" and len(note.strip()) < 12:
+            raise ValueError("Add a specific reason for approving this role so future rankings learn from your decision")
+        if new_stage == "APPROVED" and old_stage != "SHORTLISTED":
+            raise ValueError("Only a shortlisted role can be approved for application")
+        if new_stage == "DEAD_ZONE" and not note.strip():
+            raise ValueError("Add a reason for closing this role")
+        if new_stage == "APPLIED":
+            if row["work_location_status"] != "VERIFIED":
+                raise ValueError("Verify India remote eligibility from the official posting before recording an application")
+            if old_stage != "APPROVED":
+                raise ValueError("Approve the role after eligibility review before recording an application")
+            if len(note.strip()) < 12:
+                raise ValueError("Paste the ATS receipt text or confirmation email subject")
+            if len(evidence_source.strip()) < 4:
+                raise ValueError("Record the receipt URL, saved evidence filename, or email reference")
+
         now_dt = datetime.now(timezone.utc)
         now_str = now_dt.strftime("%Y-%m-%d %H:%M UTC")
 
         applied_at = row["applied_at"] or ""
+        submission_evidence_at = row["submission_evidence_at"] or ""
+        submission_evidence_source = row["submission_evidence_source"] or ""
         next_followup = row["next_followup_due_at"] or ""
         followup_count = int(row["followup_count"] or 0)
         ver_id = row["resume_version_id"]
@@ -447,9 +704,11 @@ class OracleAIMemoryManager:
                 company=row["company"],
                 pitch=row["tailored_pitch"],
             )
-            self.consolidate_user_feedback(job_id, "APPROVED", note or f"Approved {row['title']} for application")
+            self.consolidate_user_feedback(job_id, "APPROVED", note, source="application_review")
         elif new_stage == "APPLIED":
             applied_at = now_str
+            submission_evidence_at = now_str
+            submission_evidence_source = sanitize_no_emdashes(evidence_source.strip())[:500]
             due_dt = now_dt + timedelta(days=4)
             next_followup = f"{due_dt.strftime('%Y-%m-%d')} (Day 4 Follow-Up SLA)"
         elif new_stage == "FOLLOWUP_SENT":
@@ -460,24 +719,45 @@ class OracleAIMemoryManager:
             next_followup = f"{due_dt.strftime('%Y-%m-%d')} (Follow-Up #{followup_count + 1} / 21d Dead-Zone Guard)"
         elif new_stage == "DEAD_ZONE":
             closure_reason = sanitize_no_emdashes(closure_reason or note or "Role Closed / Moved to Dead Applications Zone")
-            if "reject" in closure_reason.lower():
-                self.consolidate_user_feedback(job_id, "REJECTED", closure_reason)
+            if "reject" in closure_reason.lower() and closure_reason.lower() not in {"role closed / rejected", "rejected"}:
+                self.consolidate_user_feedback(job_id, "REJECTED", closure_reason, source="application_review")
 
         cur.execute(
             """
             UPDATE agent_episodic_memories
             SET lifecycle_stage = ?, applied_at = ?, next_followup_due_at = ?,
+                submission_evidence_at = ?, submission_evidence_source = ?,
                 followup_count = ?, closure_reason = ?, resume_version_id = ?
             WHERE job_id = ?
             """,
-            (new_stage, applied_at, next_followup, followup_count, sanitize_no_emdashes(closure_reason), ver_id, job_id),
+            (
+                new_stage,
+                applied_at,
+                next_followup,
+                submission_evidence_at,
+                submission_evidence_source,
+                followup_count,
+                sanitize_no_emdashes(closure_reason),
+                ver_id,
+                job_id,
+            ),
         )
         cur.execute(
             """
             INSERT INTO application_timeline_events (job_id, from_stage, to_stage, note, event_at)
             VALUES (?, ?, ?, ?, ?)
             """,
-            (job_id, old_stage, new_stage, sanitize_no_emdashes(note or f"Transitioned {old_stage} -> {new_stage}"), now_str),
+            (
+                job_id,
+                old_stage,
+                new_stage,
+                sanitize_no_emdashes(
+                    f"Submission receipt: {note.strip()} | Evidence reference: {evidence_source.strip()}"
+                    if new_stage == "APPLIED"
+                    else note or f"Transitioned {old_stage} -> {new_stage}"
+                ),
+                now_str,
+            ),
         )
         self.local_conn.commit()
         return {"job_id": job_id, "old_stage": old_stage, "new_stage": new_stage, "resume_version_id": ver_id}
@@ -485,7 +765,14 @@ class OracleAIMemoryManager:
     def get_all_crm_jobs(self) -> List[Dict[str, Any]]:
         cur = self.local_conn.cursor()
         rows = cur.execute(
-            "SELECT * FROM agent_episodic_memories ORDER BY match_score DESC, created_at DESC"
+            """
+            SELECT * FROM agent_episodic_memories
+            ORDER BY
+                CASE WHEN lifecycle_stage != 'DEAD_ZONE' AND work_location_status = 'VERIFIED' THEN 0 ELSE 1 END,
+                CASE WHEN score_model_version = 'profile-overlap-v2' THEN 0 ELSE 1 END,
+                match_score DESC,
+                created_at DESC
+            """
         ).fetchall()
         result = []
         for r in rows:
@@ -498,7 +785,7 @@ class OracleAIMemoryManager:
                 f"Hi {clean_comp} Hiring Team,\n\n"
                 f"Following up on my application for the {clean_title} role submitted on {r['applied_at'] or 'recently'}. "
                 f"I remain very interested in bringing my 9+ years of Java 21, Spring Boot 3, AWS/Kubernetes, Kafka, "
-                f"and Spring AI / MCP production experience to your team (available immediately from India via Global B2B contract or India EOR).\n\n"
+                f"and Spring AI / MCP production experience to your team. I am based in India and interested in a 100% remote role through India EOR or a global B2B contract.\n\n"
                 f"Please let me know if any additional technical details or architecture walkthroughs would be helpful.\n\n"
                 f"Best regards,\n"
                 f"Meena Kannan | +91 97893 02084 | meenakannan92@gmail.com"
@@ -506,21 +793,34 @@ class OracleAIMemoryManager:
             result.append(item)
         return result
 
-    def consolidate_user_feedback(self, job_id: str, decision: str, reason: str) -> str:
+    def consolidate_user_feedback(
+        self, job_id: str, decision: str, reason: str, source: str = "explicit_user_input"
+    ) -> str:
+        decision = decision.upper().strip()
+        if decision not in {"APPROVED", "REJECTED"}:
+            raise ValueError("Feedback decision must be APPROVED or REJECTED")
         now = datetime.now(timezone.utc).isoformat()
-        clean_reason = sanitize_no_emdashes(reason)
+        clean_reason = sanitize_no_emdashes(reason).strip()
+        if len(clean_reason) < 12:
+            raise ValueError("Add a specific reason of at least 12 characters")
         cur = self.local_conn.cursor()
+        if not cur.execute("SELECT 1 FROM agent_episodic_memories WHERE job_id = ?", (job_id,)).fetchone():
+            raise ValueError(f"Job {job_id} not found")
         cur.execute(
             """
             UPDATE agent_episodic_memories
             SET decision = ?, feedback_reason = ?
             WHERE job_id = ?
             """,
-            (decision.upper(), clean_reason, job_id),
+            (decision, clean_reason, job_id),
         )
-        rule_type = "PREFERENCE_BOOST" if decision.upper() == "APPROVED" else "LEARNED_AVOIDANCE"
+        cur.execute(
+            "INSERT INTO human_feedback_events (job_id, decision, reason, source, created_at) VALUES (?, ?, ?, ?, ?)",
+            (job_id, decision, clean_reason, source, now),
+        )
+        rule_type = "PREFERENCE_BOOST" if decision == "APPROVED" else "LEARNED_AVOIDANCE"
         consolidated_rule = sanitize_no_emdashes(
-            f"When evaluating jobs similar to {job_id}, enforce {decision.upper()} pattern: {clean_reason}"
+            f"When evaluating jobs similar to {job_id}, enforce {decision} pattern: {clean_reason}"
         )
         cur.execute(
             """

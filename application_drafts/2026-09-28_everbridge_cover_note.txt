@@ -1,0 +1,8 @@
+Hello Everbridge hiring team,
+
+I am applying for the Senior Software Engineer, Backend and AI-Enabled role. I have 9+ years of experience building Java and Spring Boot services, REST APIs, and event-driven systems on AWS and Kubernetes. In my current role, I lead cloud-native modernization work using Kafka, AWS EKS, and observability tools, and mentor engineers through delivery and production support.
+
+Recent projects include integrating Spring AI, RAG, MCP, and Claude API workflows into backend services. I would bring a strong backend foundation and practical AI integration experience to Everbridge's mission-critical services.
+
+Regards,
+Meena Kannan

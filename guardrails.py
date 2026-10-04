@@ -32,3 +32,29 @@ def assert_no_emdashes(text: str, context_label: str = "output") -> None:
             raise AssertionError(
                 f"[Guardrail Violation] Forbidden dash character ({repr(ch)}) detected in {context_label}!"
             )
+
+SLOPPY_AI_CLICHES = (
+    "delve", "testament to", "thrilled to", "seamless", 
+    "game-changer", "synergy", "moreover", "furthermore",
+    "in today's rapidly evolving", "look no further",
+    "you're absolutely right", "you are absolutely right",
+    "great point", "i completely agree", "that makes sense",
+    "i apologize for", "sorry about that", "without further ado",
+    "let's dive in", "hope this helps", "in conclusion"
+)
+
+def assert_no_sloppy_ai(text: str, context_label: str = "output") -> None:
+    """
+    Hook/Guardrail: Enforces absolute accountability and respect for client time by 
+    strictly rejecting any text that contains lazy, generic, or obvious AI cliches.
+    We must never be found using sloppy AI.
+    """
+    if not text:
+        return
+    text_lower = text.lower()
+    for cliche in SLOPPY_AI_CLICHES:
+        if cliche in text_lower:
+            raise AssertionError(
+                f"[Accountability Violation] Sloppy AI cliche '{cliche}' detected in {context_label}. "
+                "We do not waste the client's time with generic fluff."
+            )

@@ -1,0 +1,8 @@
+Hello Oportun hiring team,
+
+I am applying for Senior Software Engineer, R14037. I have 9+ years of experience building Java and Spring Boot backend services, including distributed systems on AWS and Kubernetes with Kafka, PostgreSQL, and Redis.
+
+In my current role, I lead cloud-native modernization work, contribute to architecture, support production services, and mentor engineers. I have also worked on CI/CD and observability practices across backend services. Oportun's focus on reliable platform services and engineering quality matches the kind of systems I have built and operated.
+
+Regards,
+Meena Kannan

@@ -1,0 +1,13 @@
+To: careers@rapidcanvas.ai
+Subject: Application for Senior Software Engineer, Remote - India
+
+Hello RapidCanvas hiring team,
+
+I am interested in the Senior Software Engineer role listed as Remote - India. I have more than nine years of backend engineering experience, with Java 21, Spring Boot 3, REST APIs, AWS, Kubernetes, and Kafka.
+
+On the VRLS 2.0 program at NCS for LTA, I have led cloud-native Java services on AWS EKS and ECS using Istio, Kafka, KEDA, and Redis. I also led an Angular 13 to 18 migration that reduced redundant API calls by about 40%. At BlackStraw.AI, I built Kafka event pipelines that moved AI inference reporting from 15-minute batches to near real time.
+
+I would welcome a conversation about building secure, scalable services for the RapidCanvas data science platform.
+
+Regards,
+Meena Kannan

@@ -1,32 +1,30 @@
 {
   "candidate_name": "Meena Kannan",
-  "headline": "Lead Software Engineer (9+ Yrs) | 100% Remote from India (Full-Time or Global B2B Contract) | Java 21, Spring Boot 3, Cloud-Native (AWS/K8s/Kafka) & AI-Augmented Engineering (Spring AI, RAG, MCP)",
+  "headline": "Lead Software Engineer (9+ Yrs) | 100% Remote from India (Full-Time Remote or Global B2B) | Java 21, Spring Boot 3, Cloud-Native (AWS/K8s/Kafka) & AI-Augmented Engineering (Spring AI, RAG, MCP)",
   "contact": {
     "email": "meenakannan92@gmail.com",
     "phone_in": "+91 97893 02084",
     "phone_sg": "+65 87373057",
     "linkedin": "linkedin.com/in/meena-kannan-mk",
     "github": "github.com/meenak95",
-    "availability": "Based in India | Strictly Targeting 100% Remote Roles Eligible from India (Global B2B Contracts or Full-Time Remote)"
+    "availability": "Based in India | Strictly Targeting 100% Remote Roles Eligible from India (Full-Time Remote via India Entity/EOR or Global B2B Contracts in USD/EUR/GBP). All Singapore onsite and hybrid roles are strictly excluded."
   },
   "target_roles": [
-    "Lead / Staff Software Engineer — Remote from India (Full-Time or B2B Contract)",
+    "Lead / Staff Software Engineer - Remote from India (Full-Time or B2B Contract)",
     "Principal Java 21 & Spring Boot 3 Microservices Consultant (Global B2B / Remote)",
-    "Lead AI-Augmented Engineer — Spring AI, RAG, MCP & Claude API (Remote Worldwide)",
-    "Cloud-Native & Event-Driven Platform Architect — AWS, Kubernetes & Kafka (Remote)"
+    "Lead AI-Augmented Engineer - Spring AI, RAG, MCP & Claude API (Remote Worldwide)",
+    "Cloud-Native & Event-Driven Platform Architect - AWS, Kubernetes & Kafka (Remote)"
   ],
   "preferred_locations": [
     "Remote - India",
-    "Remote - Worldwide / Anywhere",
-    "Remote - APAC (Work from India)",
-    "Global B2B Contract (Remote from India)",
-    "Remote US / EU / UK / SG (Contractor / EOR from India)"
+    "Remote - Worldwide / Anywhere (Eligible from India)",
+    "Global B2B Contract (Work from India in USD / EUR / GBP)"
   ],
   "min_match_score": 75,
   "dealbreakers": [
-    "Singapore onsite or Singapore hybrid requiring physical presence in Singapore",
-    "Onsite-only or Hybrid requiring relocation outside India",
-    "US-only / EU-only remote restricted by citizenship/tax residence excluding India B2B/EOR",
+    "All Singapore onsite and Singapore hybrid roles",
+    "Any onsite or hybrid roles requiring physical presence outside India",
+    "Country-restricted remote roles (US-only, EU-only, UK-only, Poland-only) excluding applicants based in India",
     "Junior / Entry-level / Unpaid internship"
   ],
   "knowledge_graph": {

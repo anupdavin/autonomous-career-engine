@@ -1,0 +1,11 @@
+Hello YipitData Engineering Team,
+
+I am writing to apply for the Senior Staff Software Engineer role (Remote - India). I have 9+ years of experience architecting high-volume backend platforms and distributed data pipelines, currently serving as Lead Software Engineer on the VRLS 2.0 programme at NCS / Land Transport Authority.
+
+My core work centers on Java 21, Spring Boot 3, Python-backed AI/RAG workflows, Apache Kafka event streaming, AWS (EKS, ECS, RDS, S3, Lambda), Redis, PostgreSQL, and Kubernetes with ArgoCD GitOps. Previously at BlackStraw.AI and Wolters Kluwer, I built real-time Kafka streaming architectures that replaced 15-minute batch jobs and engineered a sub-500ms AI and rule-evaluation engine for enterprise legal billing.
+
+I am based in Chennai, India with full India work authorization and am available for 100% remote engineering leadership from India.
+
+Best regards,
+Meena Kannan
++91 97893 02084 | meenakannan92@gmail.com | https://www.linkedin.com/in/meena-kannan-mk | https://github.com/meenak95

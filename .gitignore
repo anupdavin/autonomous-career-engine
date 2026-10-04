@@ -16,6 +16,11 @@ wallet/
 *.db-shm
 *.db-wal
 
+# Local code knowledge graph output
+graphify-out/
+.uv-cache/
+.uv-tools/
+
 # Runtime logs, tunnel configs, and temporary status files
 *.log
 empty_cf_config.yml

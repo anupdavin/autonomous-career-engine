@@ -50,7 +50,7 @@ BASE_RESUME_VERSIONS: List[Dict[str, Any]] = [
             "Lead Software Engineer with 9+ years delivering production systems across fintech, legaltech, enterprise SaaS, "
             "and high-scale citizen platforms. Currently leading VRLS 2.0 (Java 21, Spring Boot 3, AWS EKS/ECS, Istio mTLS, "
             "Kafka, KEDA, Redis, ArgoCD) and rolling out Spring AI, RAG pipelines, MCP tool servers, and Claude API workflows. "
-            "Available immediately from India for Global B2B Contracts (USD/EUR/GBP) or Full-Time Remote (India EOR)."
+            "Based in India and targeting 100% remote work through Global B2B Contracts (USD/EUR/GBP) or Full-Time Remote (India EOR)."
         ),
         "highlighted_bullets": [
             "Architected Spring Boot 3 + Java 21 microservices backbone for VRLS 2.0 across registration, road tax, and permits on AWS.",
@@ -257,7 +257,7 @@ class TailoredResumeVault:
         )
         summary = sanitize_no_emdashes(
             f"Lead Software Engineer (9+ Yrs) tailored for {clean_title} at {clean_comp}. Proven ownership of cloud-native Java 21 & Spring Boot 3 microservices "
-            f"(VRLS 2.0 on AWS EKS/Istio/Kafka) and AI-augmented backend engineering (Spring AI, RAG, MCP). Available immediately from India for Global B2B Contract or Remote Full-Time."
+            f"(VRLS 2.0 on AWS EKS/Istio/Kafka) and AI-augmented backend engineering (Spring AI, RAG, MCP). Based in India and targeting 100% remote work through Global B2B Contract or full-time India employment."
         )
         bullets = [
             sanitize_no_emdashes(f"Direct Stack Alignment ({clean_comp}): Architected VRLS 2.0 microservices (Java 21, Spring Boot 3, AWS EKS, Istio mTLS, Kafka, KEDA, Redis)."),

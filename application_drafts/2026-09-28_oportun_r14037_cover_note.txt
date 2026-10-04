@@ -1,0 +1,6 @@
+Hello Oportun team,
+
+I am interested in the Senior Software Engineer role, R14037. I have 9+ years of software engineering experience, including Java and Spring Boot backend services, distributed systems, AWS, Kafka, and Kubernetes. My recent work has included modernizing production services, contributing to architecture decisions, and mentoring engineers while staying hands on. I would welcome a conversation about the platform services and engineering productivity work on your team.
+
+Regards,
+Meena Kannan

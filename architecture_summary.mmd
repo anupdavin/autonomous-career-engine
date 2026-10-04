@@ -1,41 +1,45 @@
-flowchart TD
-    subgraph Step1["1. Hardware Audit & Lightweight Stack (~38 MB RAM)"]
-        HW["Laptop: Intel i7-1165G7, 16GB RAM (~8.5GB Free), Iris Xe"]
-        Decision["Skipped 6GB Local Ollama Model -> Chose Python 3.12 + google-antigravity SDK + oracledb Thin Mode"]
-        HW --> Decision
+flowchart LR
+    Sources[Public job sources] --> Collect[job_collector.py]
+    Collect --> Policy[eligibility.py]
+    Policy -->|India remote evidence| Rank[reflective_agent.py]
+    Rank --> Memory[oracle_memory.py]
+    Memory --> SQLite[(SQLite local mirror)]
+    Memory --> RankerEval[adaptive_evaluation.py]
+    Profile[candidate_profile.json] --> Memory
+    Profile --> Rank
+    FactReview[candidate_fact_review.json] --> FactGate[candidate_fact_review.py]
+    Feedback[Explicit human feedback] --> Memory
+
+    Scheduler[scheduler_24_7.py] --> Collect
+    Scheduler --> RunLedger[agent_run_ledger.py]
+    RunLedger --> SQLite
+    Scheduler --> PrepGate[application_preparation.py]
+    PrepGate -->|Only with --prepare-approved-materials| Prep[auto_applicator.py]
+    FactGate --> PrepGate
+    FactGate --> Prep
+    Prep --> Vault[resume_vault.py]
+    Vault --> SQLite
+
+    Browser[Local browser] --> API[Starlette app_server.py]
+    API --> SQLite
+    API --> RankerEval
+    API --> Vault
+    API --> UI[dashboard_ui.html]
+    API --> RunLedger
+
+    Review[Person reviews candidate facts and role] --> Draft[Role application draft]
+    Draft --> Manual[Person reviews and submits on employer site]
+    Manual --> Receipt[Receipt and acknowledgement evidence]
+    Receipt --> API
+
+    subgraph Runtime notes
+        PolicyNote[Phrase rules reject detected India exclusions and clear hybrid or onsite requirements]
+        RankNote[Ranking is deterministic; scores are evidence-overlap heuristics]
+        StoreNote[Workflow CRUD uses SQLite even when an Oracle connection opens]
+        UploadNote[Standalone browser helpers can upload resumes; they are not called by discovery]
     end
 
-    subgraph Step2["2. Meena Kannan Knowledge Graph & Memory (oracle_memory.py)"]
-        Resume["Meena Kannan Resume (9+ Yrs Lead Software Engineer)"]
-        KG["SQL Property Graph (candidate_profile.json)\nProjects: LTA VRLS 2.0, BlackStraw.AI, Wolters Kluwer\nSkills: Java 21, Spring Boot 3, AWS, K8s, Kafka, Spring AI, RAG, MCP"]
-        VecDB["Oracle AI Vector Memory (oracle_ai_local_mirror.db)\n27 Episodic Jobs + 12 Consolidated Rules\n(Strict India-Remote & Global B2B Only / No Singapore Onsite)"]
-        Resume --> KG
-        Resume --> VecDB
-    end
-
-    subgraph Step3["3. Multi-Tier Anti-Bot Job Discovery (job_collector.py)"]
-        Cron["24/7 Schedulers (Every 2 Hours)\n1. Windows Task Scheduler (AdaptiveJobSearchAgent_MeenaKannan)\n2. Antigravity Cron (0 */2 * * *)"]
-        T1["Tier 1: LinkedIn Guest API (f_WT=2 Strict 100% Remote India + Jitter)"]
-        T2["Tier 2: Greenhouse Direct Remote ATS (Elastic, GitLab, Canonical)"]
-        T3["Tier 3: RemoteOK Global B2B & Contractor Feeds (USD/EUR/GBP)"]
-        Cron --> T1 & T2 & T3
-    end
-
-    subgraph Step4["4. Andrew Ng Reflection & Anti-Bot Loop (reflective_agent.py)"]
-        Gen["Generator Agent\nMulti-Hop Graph Traversal + Vector Similarity Scoring"]
-        Critic["Critic Agent (Self-Reflection)\nChecks Metrics, Blocks Dealbreakers, Flags AI Cliches"]
-        Guard["3-Layer No-Em-Dash & Anti-Bot Guardrail\n1. guardrails.py (assert_no_emdashes)\n2. .agent/hooks.json (PreToolUse Hook)\n3. AGENTS.md (Workspace Rule)"]
-        Refiner["Refiner Agent\nPlain-Text First-Person Senior Engineer Pitch (Critic: 74 -> 98/100)"]
-        T1 & T2 & T3 --> Gen
-        KG & VecDB --> Gen
-        Gen --> Critic --> Guard --> Refiner
-    end
-
-    subgraph Step5["5. Continual Learning & Live Output"]
-        Skills["Induced Skills (.agent/skills/*/SKILL.md)\n14 Reusable Behavioral Skills Auto-Saved"]
-        Report["Live Curated Dashboard (job_matches_report.md)\nDirect Apply Links + Human-Authentic Pitches"]
-        Feedback["Human Feedback Loop (--feedback APPROVED/REJECTED)\nWrites Back Long-Term Rules to Oracle AI Memory"]
-        Refiner -->|"Critic >= 90"| Skills
-        Refiner --> Report
-        Report --> Feedback --> VecDB
-    end
+    Policy -.-> PolicyNote
+    Rank -.-> RankNote
+    SQLite -.-> StoreNote
+    Vault -.-> UploadNote

@@ -1,0 +1,41 @@
+{
+  "candidate": {
+    "first_name": "Meena",
+    "last_name": "Kannan",
+    "full_name": "Meena Kannan",
+    "email": "meenakannan92@gmail.com",
+    "phone": "+91 97893 02084",
+    "location": "India",
+    "linkedin_url": "https://www.linkedin.com/in/meena-kannan-mk",
+    "github_url": "https://github.com/meenak95",
+    "years_of_experience": 9,
+    "engagement_models": [
+      "Global B2B Contractor (USD/EUR/GBP via Deel/Invoicing)",
+      "Full-Time Remote India (EOR)"
+    ]
+  },
+  "job_target": {
+    "job_id": "lever_rem_lingarogroup_6193532e-90aa-42b9-b2d4-f01204229cdf",
+    "title": "Smart Manufacturing Consultant",
+    "company": "Lingaro",
+    "portal_url": "https://jobs.lever.co/lingarogroup/6193532e-90aa-42b9-b2d4-f01204229cdf",
+    "estimated_b2b_monthly_in_hand_inr": 271200,
+    "estimated_eor_monthly_in_hand_inr": 230045
+  },
+  "application_handoff": {
+    "platform": "Employer application portal",
+    "submission_status": "not_submitted",
+    "manual_review_required": true,
+    "steps": [
+      "Open the application link and confirm the role is 100% remote and eligible from India.",
+      "Review every profile field and employer question before answering.",
+      "Submit manually if you want to proceed, then record the confirmation."
+    ]
+  },
+  "files_prepared": {
+    "employer_upload_pdf": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-29_General_Master_v1.0_master_clou\\Meena_Kannan_Lead_Software_Engineer.pdf",
+    "ats_safe_filename": "Meena_Kannan_Lead_Software_Engineer.pdf",
+    "cover_note_file": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-29_General_Master_v1.0_master_clou\\cover_note.txt",
+    "recruiter_dm_file": "C:\\Users\\MeenaDavin\\Desktop\\Project 1\\resumes_vault\\2026-09-29_General_Master_v1.0_master_clou\\recruiter_linkedin_dm.txt"
+  }
+}

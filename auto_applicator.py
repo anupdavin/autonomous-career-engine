@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from config import BASE_DIR
+from candidate_fact_review import CandidateFactReviewRequired, ensure_candidate_facts_reviewed
 from guardrails import assert_no_emdashes, sanitize_no_emdashes
 from oracle_memory import OracleAIMemoryManager
 
@@ -45,33 +46,30 @@ def render_html_to_real_pdf(html_path: Path, pdf_path: Path) -> bool:
         return False
 
 
-def run_autonomous_autopilot(min_auto_score: int = 90) -> List[Dict[str, Any]]:
+def run_autonomous_autopilot(min_auto_score: int = 75) -> List[Dict[str, Any]]:
     """
-    Autonomous Job Application Autopilot for Meena Kannan:
-      1. Scans all SHORTLISTED / APPROVED jobs with Match Score >= min_auto_score (90/100).
-      2. Auto-approves them and generates role-specific tailored resume snapshots (`v2.x`).
+    Application preparation workflow for Meena Kannan:
+      1. Scans only person-approved, India-eligible jobs with Match Score >= min_auto_score (90/100).
+      2. Generates role-specific tailored resume snapshots (`v2.x`) for approved roles.
       3. Automatically compiles real `.pdf` files (`Meena_Kannan_<Clean_Role>.pdf`) via Edge Headless.
       4. Generates ready-to-send `cover_note.txt`, `recruiter_dm.txt`, `b2b_proposal.txt`, and `auto_fill_payload.json`.
-      5. Advances the job status so Meena has zero manual prep work.
+      5. Leaves application status unchanged until a person records a submission.
     """
+    ensure_candidate_facts_reviewed()
     memory = OracleAIMemoryManager()
     jobs = memory.get_all_crm_jobs()
     processed: List[Dict[str, Any]] = []
 
     for job in jobs:
-        if job["match_score"] < min_auto_score or job["lifecycle_stage"] == "DEAD_ZONE":
+        if (
+            job["match_score"] < min_auto_score
+            or job["lifecycle_stage"] != "APPROVED"
+            or job.get("work_location_status") != "VERIFIED"
+        ):
             continue
 
         job_id = job["job_id"]
-        # 1. Auto-Approve & Generate Tailored Resume Version in Vault if still SHORTLISTED
-        if job["lifecycle_stage"] == "SHORTLISTED":
-            memory.update_job_lifecycle_stage(
-                job_id=job_id,
-                new_stage="APPROVED",
-                note=f"Autopilot auto-approved ({job['match_score']}/100 match) & built PDF application kit",
-            )
-
-        # Reload updated job & its assigned vault version
+        # Generate application materials only after a person approves the role.
         cur = memory.local_conn.cursor()
         updated_job = dict(
             cur.execute("SELECT * FROM agent_episodic_memories WHERE job_id = ?", (job_id,)).fetchone()
@@ -98,10 +96,10 @@ def run_autonomous_autopilot(min_auto_score: int = 90) -> List[Dict[str, Any]]:
         pitch_text = sanitize_no_emdashes(updated_job["tailored_pitch"])
 
         recruiter_dm = sanitize_no_emdashes(
-            f"Hi {clean_comp} Recruiting Team, I just applied for the {clean_title} role. "
+            f"Hi {clean_comp} Recruiting Team, I am interested in the {clean_title} role. "
             f"I bring 9+ years of Java 21, Spring Boot 3, AWS/Kubernetes, Kafka, and Spring AI/MCP experience "
-            f"(currently Lead Engineer on VRLS 2.0) and am available immediately from India for 100% remote B2B or full-time work. "
-            f"Shared my resume ({ats_pdf_name}) and would love to connect!"
+            f"(currently Lead Engineer on VRLS 2.0). I am based in India and am seeking a remote role eligible from India. "
+            f"I would be glad to share my resume ({ats_pdf_name}) and discuss whether my background fits your needs."
         )
         assert_no_emdashes(recruiter_dm, "recruiter_dm")
 
@@ -112,11 +110,10 @@ def run_autonomous_autopilot(min_auto_score: int = 90) -> List[Dict[str, Any]]:
                 "full_name": "Meena Kannan",
                 "email": "meenakannan92@gmail.com",
                 "phone": "+91 97893 02084",
-                "location": "Chennai, India (100% Remote Worldwide / Global B2B or India EOR)",
+                "location": "India",
                 "linkedin_url": "https://www.linkedin.com/in/meena-kannan-mk",
                 "github_url": "https://github.com/meenak95",
                 "years_of_experience": 9,
-                "notice_period": "Immediate / 15 Days",
                 "engagement_models": ["Global B2B Contractor (USD/EUR/GBP via Deel/Invoicing)", "Full-Time Remote India (EOR)"],
             },
             "job_target": {
@@ -127,6 +124,32 @@ def run_autonomous_autopilot(min_auto_score: int = 90) -> List[Dict[str, Any]]:
                 "estimated_b2b_monthly_in_hand_inr": updated_job["b2b_monthly_in_hand_inr"],
                 "estimated_eor_monthly_in_hand_inr": updated_job["eor_monthly_in_hand_inr"],
             },
+            "application_handoff": (
+                {
+                    "platform": "LinkedIn",
+                    "method": "Easy Apply if available",
+                    "submission_status": "not_submitted",
+                    "manual_review_required": True,
+                    "steps": [
+                        "Open the LinkedIn job listing and confirm the role is 100% remote and eligible from India.",
+                        "Check that LinkedIn offers Easy Apply for this listing.",
+                        "Review every profile field and employer question before answering.",
+                        "Attach the prepared resume, then submit in LinkedIn manually if you want to proceed.",
+                        "Record the application only after LinkedIn confirms submission.",
+                    ],
+                }
+                if "linkedin.com/jobs/" in updated_job["url"].lower()
+                else {
+                    "platform": "Employer application portal",
+                    "submission_status": "not_submitted",
+                    "manual_review_required": True,
+                    "steps": [
+                        "Open the application link and confirm the role is 100% remote and eligible from India.",
+                        "Review every profile field and employer question before answering.",
+                        "Submit manually if you want to proceed, then record the confirmation.",
+                    ],
+                }
+            ),
             "files_prepared": {
                 "employer_upload_pdf": str(pdf_file) if pdf_ok else str(html_file),
                 "ats_safe_filename": ats_pdf_name,
@@ -157,7 +180,11 @@ def run_autonomous_autopilot(min_auto_score: int = 90) -> List[Dict[str, Any]]:
 
 
 if __name__ == "__main__":
-    results = run_autonomous_autopilot(min_auto_score=90)
+    try:
+        results = run_autonomous_autopilot(min_auto_score=90)
+    except CandidateFactReviewRequired as exc:
+        print(f"[Blocked] {exc}")
+        raise SystemExit(2) from exc
     print(f"[Autopilot Complete] Auto-prepared {len(results)} complete PDF application kits:")
     for r in results:
         print(f"  * {r['company']} - {r['title']} | PDF={r['pdf_generated']} -> {r['pdf_path']}")

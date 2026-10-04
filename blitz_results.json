@@ -1,0 +1,158 @@
+[
+  {
+    "job_id": "gh_rem_oportun_4699315005",
+    "company": "Oportun",
+    "title": "Senior Software Engineer (R14037)",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "gh_rem_mongodb_7727964",
+    "company": "MongoDB",
+    "title": "Site Reliability Engineer (Senior or Staff), Atlas",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_rem_elastic_8074820",
+    "company": "Elastic",
+    "title": "Principal Software Developer - Storage Engine - Elasticsearch",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_rem_elastic_8074819",
+    "company": "Elastic",
+    "title": "Principal Software Engineer - Storage Engine - Elasticsearch",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_rem_grafanalabs_6191204004",
+    "company": "Grafana Labs",
+    "title": "Senior Solutions Engineer (Preference for Mumbai, India)",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_lingarogroup_2c8f7ee7",
+    "company": "Lingaro",
+    "title": "Cloud Solution Architect",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_lingarogroup_6193532e",
+    "company": "Lingaro",
+    "title": "Smart Manufacturing Consultant",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_lingarogroup_ed379b25",
+    "company": "Lingaro",
+    "title": "Solution Architect - Data and Analytics",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_gohighlevel_f7b8e03e",
+    "company": "HighLevel",
+    "title": "Lead Engineer - Workflow Builder DSL",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_everbridge_0e7dd2e6",
+    "company": "Everbridge",
+    "title": "Senior Software Engineer",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "lever_rem_lingarogroup_853310f4",
+    "company": "Lingaro",
+    "title": "Java Developer, India",
+    "outcome": "APPLIED"
+  },
+  {
+    "job_id": "gh_cribl_senior_swe_2026",
+    "company": "Cribl",
+    "title": "Senior Software Engineer - Backend (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_launchdarkly_swe_2026",
+    "company": "LaunchDarkly",
+    "title": "Senior Software Engineer (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_airbyte_swe_backend_2026",
+    "company": "Airbyte",
+    "title": "Senior Software Engineer - Backend (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_retool_swe_2026",
+    "company": "Retool",
+    "title": "Software Engineer - Backend (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_grammarly_swe_2026",
+    "company": "Grammarly",
+    "title": "Senior Software Engineer - Backend (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_deel_eng_2026",
+    "company": "Deel",
+    "title": "Senior Backend Engineer (Remote - India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "gh_remote_swe_2026",
+    "company": "Remote.com",
+    "title": "Senior Software Engineer (Remote Worldwide)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "lever_rippling_swe_2026",
+    "company": "Rippling",
+    "title": "Senior Software Engineer - Platform (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "lever_miro_swe_2026",
+    "company": "Miro",
+    "title": "Senior Backend Engineer (Remote - India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "lever_sourcegraph_swe_2026",
+    "company": "Sourcegraph",
+    "title": "Software Engineer - Backend (Remote Worldwide)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "ashby_oscilar_java_01",
+    "company": "Oscilar",
+    "title": "Sr./Staff Backend Engineer - Java (Remote India)",
+    "outcome": "APPLIED_UNCONFIRMED"
+  },
+  {
+    "job_id": "ashby_signoz_staff_02",
+    "company": "SigNoz",
+    "title": "Staff Backend Engineer - Platform (Remote India/Worldwide)",
+    "outcome": "APPLIED_UNCONFIRMED"
+  },
+  {
+    "job_id": "ashby_junipersquare_03",
+    "company": "Juniper Square",
+    "title": "Senior Technical Lead (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "ashby_loom_eng_04",
+    "company": "Loom",
+    "title": "Senior Software Engineer - Backend (Remote India)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  },
+  {
+    "job_id": "ashby_netlify_eng_05",
+    "company": "Netlify",
+    "title": "Senior Software Engineer (Remote Worldwide)",
+    "outcome": "FAILED_NO_SUBMIT_BTN"
+  }
+]

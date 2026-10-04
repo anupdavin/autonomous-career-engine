@@ -1,0 +1,6 @@
+Hello Innovya hiring team,
+
+I’m applying for the Senior Java Developer role. I’m a Lead Software Engineer with 9+ years building Java and Spring Boot services, REST APIs, and Kafka-based microservices. My work includes Oracle and PostgreSQL databases, AWS, Kubernetes, CI/CD, and integrating AI model outputs into backend workflows. I’d welcome a conversation about the role.
+
+Regards,
+Meena Kannan
