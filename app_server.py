@@ -1,10 +1,17 @@
+import hmac
+import ipaddress
+import json
+import os
+import re
+import secrets
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, List, Set
 
 import uvicorn
 from starlette.applications import Starlette
+from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import FileResponse, HTMLResponse, JSONResponse
 from starlette.routing import Route
@@ -22,10 +29,142 @@ from tax_salary_engine import FX_TO_INR, calculate_b2b_vs_employee_takehome
 
 UI_FILE = Path(__file__).resolve().parent / "dashboard_ui.html"
 
+CURATED_TABLES: Dict[str, Dict[str, Any]] = {
+    "agent_episodic_memories": {
+        "display_name": "Tracked Opportunities and Episodic Memory",
+        "description": "Curated job records with lifecycle stage, eligibility, and operational timestamps.",
+        "columns": [
+            "job_id",
+            "title",
+            "company",
+            "lifecycle_stage",
+            "work_location_status",
+            "engagement_type",
+            "source_platform",
+            "match_score",
+            "created_at",
+            "applied_at",
+            "submission_evidence_at",
+            "acknowledged_at",
+            "next_followup_due_at",
+        ],
+        "default_order_by": "created_at DESC",
+    },
+    "application_timeline_events": {
+        "display_name": "Application Timeline Events",
+        "description": "Auditable log of role stage transitions and state changes.",
+        "columns": [
+            "event_id",
+            "job_id",
+            "from_stage",
+            "to_stage",
+            "event_at",
+        ],
+        "default_order_by": "event_id DESC",
+    },
+    "agent_runs": {
+        "display_name": "Agent Execution Runs",
+        "description": "Operational record of discovery and workflow execution phases.",
+        "columns": [
+            "run_id",
+            "workflow",
+            "status",
+            "phase",
+            "started_at",
+            "updated_at",
+            "finished_at",
+        ],
+        "default_order_by": "started_at DESC",
+    },
+    "schema_migrations": {
+        "display_name": "Applied Schema Migrations",
+        "description": "Versioned database schema migration history.",
+        "columns": [
+            "version",
+            "name",
+            "applied_at",
+        ],
+        "default_order_by": "version ASC",
+    },
+}
+
+URL_REDACTION_PATTERN = re.compile(
+    r"https?://[^\s<>\"']+|www\.[^\s<>\"']+|[a-zA-Z0-9.-]+\.trycloudflare\.com|[a-zA-Z0-9.-]+\.serveo\.net|[a-zA-Z0-9.-]+\.localtunnel\.me",
+    re.IGNORECASE,
+)
+EMAIL_REDACTION_PATTERN = re.compile(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+")
+
+
+def sanitize_curated_value(val: Any) -> Any:
+    if isinstance(val, str):
+        cleaned = URL_REDACTION_PATTERN.sub("[REDACTED_URL]", val)
+        cleaned = EMAIL_REDACTION_PATTERN.sub("[REDACTED_EMAIL]", cleaned)
+        return sanitize_no_emdashes(cleaned)
+    return val
+
+
+def resolve_curated_status_filter_column(
+    table_name: str,
+    status_value: str,
+    available_cols: List[str],
+) -> str:
+    """
+    Resolve the target column for status filtering.
+    For agent_episodic_memories:
+      - SHORTLISTED, APPROVED, APPLIED, INTERVIEW, OFFER, DEAD_ZONE filter lifecycle_stage.
+      - VERIFIED, NEEDS_REVIEW, INELIGIBLE filter work_location_status.
+    For agent_runs:
+      - Filters status.
+    For application_timeline_events:
+      - Filters to_stage.
+    """
+    val = status_value.strip().upper()
+    if table_name == "agent_episodic_memories":
+        lifecycle_stages = {
+            "SHORTLISTED",
+            "APPROVED",
+            "APPLIED",
+            "INTERVIEW",
+            "OFFER",
+            "DEAD_ZONE",
+        }
+        location_statuses = {"VERIFIED", "NEEDS_REVIEW", "INELIGIBLE"}
+        if val in lifecycle_stages and "lifecycle_stage" in available_cols:
+            return "lifecycle_stage"
+        if val in location_statuses and "work_location_status" in available_cols:
+            return "work_location_status"
+        return "lifecycle_stage" if "lifecycle_stage" in available_cols else ""
+
+    if table_name == "agent_runs" and "status" in available_cols:
+        return "status"
+
+    if table_name == "application_timeline_events" and "to_stage" in available_cols:
+        return "to_stage"
+
+    if "status" in available_cols:
+        return "status"
+    if "to_stage" in available_cols:
+        return "to_stage"
+    if "lifecycle_stage" in available_cols:
+        return "lifecycle_stage"
+    return ""
+
 
 def build_state_payload() -> Dict[str, Any]:
     memory = OracleAIMemoryManager()
     jobs = memory.get_all_crm_jobs()
+    applied_without_receipt = sum(
+        1
+        for job in jobs
+        if job.get("lifecycle_stage") == "APPLIED"
+        and not (job.get("submission_evidence_at") and job.get("submission_evidence_source"))
+    )
+    for job in jobs:
+        if (
+            job.get("lifecycle_stage") == "APPLIED"
+            and not (job.get("submission_evidence_at") and job.get("submission_evidence_source"))
+        ):
+            job["lifecycle_stage"] = "SUBMITTED_UNVERIFIED"
     existing_ids = {j.get("job_id") for j in jobs}
     existing_urls = {j.get("url") for j in jobs}
 
@@ -35,10 +174,28 @@ def build_state_payload() -> Dict[str, Any]:
         try:
             easy_items = json.loads(easy_results_path.read_text(encoding="utf-8"))
             for item in easy_items:
-                jid = f"easy_{item.get('platform', 'ats').lower()}_{item.get('index', 0)}"
+                jid = item.get("job_id") or f"easy_{item.get('platform', 'ats').lower()}_{item.get('index', 0)}"
                 if jid not in existing_ids and item.get("url") not in existing_urls:
                     status_str = item.get("status", "SUBMIT_CLICKED")
-                    is_applied = status_str in ("CONFIRMED_SUBMITTED", "SUBMIT_CLICKED", "FORM_PREFILLED")
+                    proof_ref = str(item.get("proof", "")).strip()
+                    proof_path = Path(__file__).parent / proof_ref if proof_ref else None
+                    has_receipt = (
+                        status_str == "CONFIRMED_SUBMITTED"
+                        and proof_path is not None
+                        and proof_path.is_file()
+                    )
+                    submit_attempted = status_str in (
+                        "SUBMIT_CLICKED",
+                        "SUBMITTED_UNVERIFIED",
+                        "CONFIRMED_SUBMITTED",
+                    )
+                    lifecycle_stage = (
+                        "APPLIED"
+                        if has_receipt
+                        else "SUBMITTED_UNVERIFIED"
+                        if submit_attempted
+                        else "SHORTLISTED"
+                    )
                     jobs.insert(0, {
                         "job_id": jid,
                         "title": sanitize_no_emdashes(item.get("title", "Senior Java / Backend Engineer")),
@@ -47,12 +204,13 @@ def build_state_payload() -> Dict[str, Any]:
                         "platform": f"{item.get('platform', 'Direct')} Easy-Apply",
                         "url": item.get("url", ""),
                         "match_score": 96,
-                        "lifecycle_stage": "APPLIED" if is_applied else "APPROVED",
-                        "work_location_status": "VERIFIED",
+                        "lifecycle_stage": lifecycle_stage,
+                        "work_location_status": item.get("work_location_status") or "NEEDS_REVIEW",
+                        "work_location_evidence": item.get("work_location_evidence", ""),
                         "b2b_monthly_in_hand_inr": 885000,
                         "eor_monthly_in_hand_inr": 365000,
-                        "submission_evidence_at": item.get("timestamp") if status_str == "CONFIRMED_SUBMITTED" else None,
-                        "submission_evidence_source": f"{item.get('platform')} Direct Application ({status_str})",
+                        "submission_evidence_at": item.get("timestamp") if has_receipt else None,
+                        "submission_evidence_source": proof_ref if has_receipt else None,
                         "notes": sanitize_no_emdashes(f"Direct Easy-Apply via {item.get('platform')} using meenakannan92@gmail.com ({status_str})"),
                     })
                     existing_ids.add(jid)
@@ -69,6 +227,17 @@ def build_state_payload() -> Dict[str, Any]:
                 jid = gitem.get("id") or f"global_b2b_{idx_g}"
                 if jid not in existing_ids and gitem.get("url") not in existing_urls:
                     st = gitem.get("status", "SHORTLISTED")
+                    evidence_at = gitem.get("submission_evidence_at")
+                    evidence_source = gitem.get("submission_evidence_source")
+                    has_receipt = bool(evidence_at and evidence_source) and st == "CONFIRMED_SUBMITTED"
+                    submit_attempted = st in ("APPLIED", "SUBMIT_CLICKED", "SUBMITTED", "SUBMITTED_UNVERIFIED")
+                    lifecycle_stage = (
+                        "APPLIED"
+                        if has_receipt
+                        else "SUBMITTED_UNVERIFIED"
+                        if submit_attempted or st == "CONFIRMED_SUBMITTED"
+                        else "SHORTLISTED"
+                    )
                     jobs.append({
                         "job_id": jid,
                         "title": sanitize_no_emdashes(gitem.get("title", "")),
@@ -77,12 +246,13 @@ def build_state_payload() -> Dict[str, Any]:
                         "platform": sanitize_no_emdashes(gitem.get("platform", "Global B2B / ATS")),
                         "url": gitem.get("url", ""),
                         "match_score": int(gitem.get("match_score", 95)),
-                        "lifecycle_stage": "APPLIED" if "SUBMITTED" in st or "APPLIED" in st else "SHORTLISTED",
-                        "work_location_status": "VERIFIED",
+                        "lifecycle_stage": lifecycle_stage,
+                        "work_location_status": gitem.get("work_location_status") or "NEEDS_REVIEW",
+                        "work_location_evidence": gitem.get("work_location_evidence", ""),
                         "b2b_monthly_in_hand_inr": 910000,
                         "eor_monthly_in_hand_inr": 375000,
-                        "submission_evidence_at": "2026-09-27T14:00:00Z" if "SUBMITTED" in st else None,
-                        "submission_evidence_source": st if "SUBMITTED" in st else None,
+                        "submission_evidence_at": evidence_at if has_receipt else None,
+                        "submission_evidence_source": evidence_source if has_receipt else None,
                         "notes": sanitize_no_emdashes(f"{gitem.get('compensation', '')} | {st}"),
                     })
                     existing_ids.add(jid)
@@ -120,6 +290,10 @@ def build_state_payload() -> Dict[str, Any]:
             if j["lifecycle_stage"] == "APPROVED" and j.get("work_location_status") == "VERIFIED"
         ),
         "APPLIED": sum(1 for j in jobs if j["lifecycle_stage"] == "APPLIED"),
+        "APPLIED_WITHOUT_RECEIPT": applied_without_receipt,
+        "SUBMITTED_UNVERIFIED": sum(
+            1 for j in jobs if j.get("lifecycle_stage") == "SUBMITTED_UNVERIFIED"
+        ),
         "SUBMITTED_CONFIRMED": sum(
             1 for j in jobs if j.get("submission_evidence_at") and j.get("submission_evidence_source")
         ),
@@ -339,14 +513,22 @@ async def api_tax_simulate(request: Request) -> JSONResponse:
     return JSONResponse({"ok": True, "input_amount": amount, "currency": currency, "fx_rate": fx, "result": calc})
 
 
-async def api_auto_apply(request: Request) -> JSONResponse:
+async def api_prepare_materials(request: Request) -> JSONResponse:
     import subprocess
     from config import BASE_DIR
     try:
-        subprocess.run(['uv', 'run', 'python', '-m', 'scheduler_24_7', '--prepare-approved-materials'], cwd=str(BASE_DIR), check=True)
-        return JSONResponse({'ok': True, 'message': 'Materials prepared successfully.'})
+        subprocess.run(
+            ['uv', 'run', 'python', '-m', 'scheduler_24_7', '--prepare-approved-materials'],
+            cwd=str(BASE_DIR),
+            check=True,
+        )
+        return JSONResponse({
+            'ok': True,
+            'message': 'Approved application materials prepared locally. Application submission remains human-controlled.',
+        })
     except subprocess.CalledProcessError as e:
         return JSONResponse({'error': str(e)}, status_code=500)
+
 
 async def api_scan_now(request: Request) -> JSONResponse:
     try:
@@ -400,28 +582,377 @@ async def api_download_pdf(request: Request):
 async def api_get_tables(request: Request) -> JSONResponse:
     memory = OracleAIMemoryManager()
     cur = memory.local_conn.cursor()
-    tables = cur.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
-    return JSONResponse({"tables": [t["name"] for t in tables]})
+    existing_tables = {
+        row["name"]
+        for row in cur.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
+    }
+    curated_list = []
+    for name, meta in CURATED_TABLES.items():
+        if name in existing_tables:
+            curated_list.append({
+                "table_name": name,
+                "display_name": meta["display_name"],
+                "description": meta["description"],
+                "columns": meta["columns"],
+            })
+    return JSONResponse({
+        "tables": [item["table_name"] for item in curated_list],
+        "catalog": curated_list,
+    })
 
 
 async def api_get_table_data(request: Request) -> JSONResponse:
-    table_name = request.path_params.get("table_name", "")
+    table_name = str(request.path_params.get("table_name", "")).strip()
+    if table_name not in CURATED_TABLES:
+        return JSONResponse(
+            {"error": "Access denied: table is not permitted in curated operational view"},
+            status_code=400,
+        )
+
+    meta = CURATED_TABLES[table_name]
+    allowed_cols = meta["columns"]
+
+    try:
+        limit = min(max(int(request.query_params.get("limit", 50)), 1), 200)
+    except (ValueError, TypeError):
+        limit = 50
+
+    search_query = sanitize_no_emdashes(str(request.query_params.get("search", "")).strip()[:100])
+    status_filter = sanitize_no_emdashes(str(request.query_params.get("status", "")).strip()[:50])
+
     memory = OracleAIMemoryManager()
     cur = memory.local_conn.cursor()
-    # Basic protection against SQL injection, ensure it's a valid table
-    tables = cur.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
-    valid_tables = [t["name"] for t in tables]
-    if table_name not in valid_tables:
-        return JSONResponse({"error": "Invalid table"}, status_code=400)
-    
-    rows = cur.execute(f"SELECT * FROM {table_name} LIMIT 1000").fetchall()
-    columns = [description[0] for description in cur.description] if cur.description else []
-    data = [dict(r) for r in rows]
-    return JSONResponse({"columns": columns, "data": data})
+
+    exists = cur.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name = ?",
+        (table_name,),
+    ).fetchone()
+    if not exists:
+        return JSONResponse({"error": "Table not found"}, status_code=404)
+
+    pragma_cols = {row["name"] for row in cur.execute(f"PRAGMA table_info({table_name})").fetchall()}
+    cols_to_query = [col for col in allowed_cols if col in pragma_cols]
+    if not cols_to_query:
+        return JSONResponse({"columns": [], "data": [], "count": 0, "total": 0, "limit": limit})
+
+    where_clauses: list[str] = []
+    params: list[Any] = []
+
+    if status_filter:
+        filter_col = resolve_curated_status_filter_column(table_name, status_filter, cols_to_query)
+        if filter_col:
+            where_clauses.append(f'"{filter_col}" = ?')
+            canonical = status_filter.strip().upper()
+            known_keywords = {
+                "SHORTLISTED", "APPROVED", "APPLIED", "INTERVIEW", "OFFER", "DEAD_ZONE",
+                "VERIFIED", "NEEDS_REVIEW", "INELIGIBLE",
+                "SUCCESS", "RUNNING", "FAILED", "STALE", "IDLE",
+            }
+            params.append(canonical if canonical in known_keywords else status_filter.strip())
+
+    if search_query:
+        search_cols = [
+            c for c in cols_to_query
+            if c in ("title", "company", "job_id", "name", "workflow", "source_platform")
+        ]
+        if search_cols:
+            search_clause = " OR ".join(f'"{c}" LIKE ?' for c in search_cols)
+            where_clauses.append(f"({search_clause})")
+            params.extend([f"%{search_query}%"] * len(search_cols))
+
+    where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+    order_by_sql = f"ORDER BY {meta.get('default_order_by', cols_to_query[0])}"
+
+    cols_sql = ", ".join(f'"{c}"' for c in cols_to_query)
+    query_sql = f"SELECT {cols_sql} FROM {table_name} {where_sql} {order_by_sql} LIMIT ?"
+    query_params = list(params) + [limit]
+
+    rows = cur.execute(query_sql, query_params).fetchall()
+
+    count_sql = f"SELECT COUNT(*) FROM {table_name} {where_sql}"
+    total = cur.execute(count_sql, params).fetchone()[0]
+
+    data = []
+    for r in rows:
+        row_dict = {}
+        for c in cols_to_query:
+            row_dict[c] = sanitize_curated_value(r[c])
+        data.append(row_dict)
+
+    return JSONResponse({
+        "table": table_name,
+        "display_name": meta["display_name"],
+        "columns": cols_to_query,
+        "data": data,
+        "count": len(data),
+        "total": total,
+        "limit": limit,
+    })
+
+
+FORBIDDEN_HOST_CHARS = set("/\\?#@;,%")
+
+
+def parse_host_header(raw_host: str) -> str:
+    """
+    Safely extract the hostname from a Host header, failing closed for malformed
+    syntax, invalid ports, or forbidden characters. Never trusts forwarded headers.
+    """
+    if not raw_host or not isinstance(raw_host, str):
+        return ""
+
+    # Reject whitespace and control characters anywhere in the host header
+    if any(c.isspace() or ord(c) < 32 or ord(c) == 127 for c in raw_host):
+        return ""
+
+    # Reject path, query, fragment, auth, and delimiter characters
+    if any(c in FORBIDDEN_HOST_CHARS for c in raw_host):
+        return ""
+
+    # Bracketed IPv6: [::1] or [::1]:8080
+    if raw_host.startswith("["):
+        end_idx = raw_host.find("]")
+        if end_idx == -1:
+            return ""
+        ip_inside = raw_host[1:end_idx]
+        if not ip_inside:
+            return ""
+        try:
+            normalized_ip = str(ipaddress.IPv6Address(ip_inside))
+        except ValueError:
+            return ""
+        remainder = raw_host[end_idx + 1 :]
+        if remainder:
+            if not remainder.startswith(":"):
+                return ""
+            port_str = remainder[1:]
+            if not port_str or len(port_str) > 5 or not re.fullmatch(r"^[0-9]+$", port_str):
+                return ""
+            try:
+                port_val = int(port_str)
+            except (ValueError, OverflowError):
+                return ""
+            if not (1 <= port_val <= 65535):
+                return ""
+        return normalized_ip
+
+    # Reject stray brackets
+    if "[" in raw_host or "]" in raw_host:
+        return ""
+
+    # IPv4 or hostname with optional port
+    if ":" in raw_host:
+        parts = raw_host.split(":")
+        if len(parts) != 2:
+            return ""
+        host_part, port_str = parts
+        if not port_str or len(port_str) > 5 or not re.fullmatch(r"^[0-9]+$", port_str):
+            return ""
+        try:
+            port_val = int(port_str)
+        except (ValueError, OverflowError):
+            return ""
+        if not (1 <= port_val <= 65535):
+            return ""
+    else:
+        host_part = raw_host
+
+    if not host_part or len(host_part) > 253:
+        return ""
+
+    labels = host_part.split(".")
+    for label in labels:
+        if not (1 <= len(label) <= 63):
+            return ""
+        if not re.fullmatch(r"^[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$", label):
+            return ""
+
+    return host_part.lower()
+
+
+def get_allowed_hosts() -> Set[str]:
+    """
+    Allowed hosts: restricted to loopback by default (127.0.0.1, localhost, ::1),
+    plus explicit comma-separated additions from APP_ALLOWED_HOSTS.
+    Forwarded host headers are not used for authorization.
+    """
+    hosts: Set[str] = {"127.0.0.1", "localhost", "::1"}
+    extra = os.environ.get("APP_ALLOWED_HOSTS", "").strip()
+    if extra:
+        for h in extra.split(","):
+            cleaned = parse_host_header(h.strip())
+            if cleaned:
+                hosts.add(cleaned)
+    return hosts
+
+
+def get_allowed_origins() -> Set[str]:
+    """
+    Allowed exact origins: local defaults plus comma-separated APP_ALLOWED_ORIGINS additions.
+    """
+    origins: Set[str] = {
+        "http://127.0.0.1:8080",
+        "http://localhost:8080",
+    }
+    extra = os.environ.get("APP_ALLOWED_ORIGINS", "").strip()
+    if extra:
+        for o in extra.split(","):
+            cleaned = o.strip()
+            if cleaned:
+                origins.add(cleaned)
+    return origins
+
+
+def _get_raw_asgi_header(headers: List[tuple[bytes, bytes]], key_name: str) -> str:
+    key_bytes = key_name.lower().encode("latin-1")
+    matching = [v.decode("latin-1") for k, v in headers if k.lower() == key_bytes]
+    if len(matching) == 1:
+        return matching[0]
+    return ""
+
+
+def _get_asgi_header(headers: List[tuple[bytes, bytes]], key_name: str) -> str:
+    key_bytes = key_name.lower().encode("latin-1")
+    for k, v in headers:
+        if k.lower() == key_bytes:
+            return v.decode("latin-1").strip()
+    return ""
+
+
+def _parse_cookie_header(cookie_str: str) -> Dict[str, str]:
+    cookies: Dict[str, str] = {}
+    for part in cookie_str.split(";"):
+        part = part.strip()
+        if not part:
+            continue
+        if "=" in part:
+            k, v = part.split("=", 1)
+            cookies[k.strip()] = v.strip()
+    return cookies
+
+
+def _extract_asgi_cookies(headers: List[tuple[bytes, bytes]]) -> Dict[str, str]:
+    cookies: Dict[str, str] = {}
+    for k, v in headers:
+        if k.lower() == b"cookie":
+            cookies.update(_parse_cookie_header(v.decode("latin-1")))
+    return cookies
+
+
+class PrivateAccessSecurityMiddleware:
+    """
+    Pure ASGI middleware enforcing:
+    1. Host header restriction to loopback (127.0.0.1, localhost, ::1) or APP_ALLOWED_HOSTS.
+       Fails closed for malformed host syntax and invalid ports. Bracketed IPv6 values are
+       validated with ipaddress and normalized. Forwarded headers (e.g. X-Forwarded-Host)
+       are never trusted for authorization.
+    2. Origin whitelist enforcement on all unsafe methods (methods outside GET, HEAD, OPTIONS).
+       Request Origin is read as raw unstripped value and compared exactly against the configured allowlist.
+    3. Double-submit CSRF token validation matching app_csrf cookie and X-CSRF-Token header
+       using constant-time comparison (hmac.compare_digest).
+    4. Cryptographically random app_csrf cookie issuance on GET / only after Host authorization passes,
+       with Path=/ and SameSite=Strict (plus Secure if APP_CSRF_COOKIE_SECURE=true).
+       Rejected Host responses never set app_csrf.
+    5. Injection of hardened security headers on all responses.
+    6. Note: Client-supplied Cloudflare Access headers (Cf-Access-Jwt-Assertion) are not
+       validated here; cryptographic JWT verification occurs at the tunnel connector/origin.
+    """
+
+    def __init__(self, app: Any) -> None:
+        self.app = app
+
+    async def __call__(self, scope: Dict[str, Any], receive: Any, send: Any) -> None:
+        if scope["type"] != "http":
+            await self.app(scope, receive, send)
+            return
+
+        method = scope.get("method", "GET").upper()
+        path = scope.get("path", "")
+        headers = scope.get("headers", [])
+
+        # Send security response headers without setting any CSRF cookie
+        async def send_security_headers_only(message: Dict[str, Any]) -> None:
+            if message["type"] == "http.response.start":
+                resp_headers = list(message.get("headers", []))
+                resp_headers.append((b"x-content-type-options", b"nosniff"))
+                resp_headers.append((b"x-frame-options", b"DENY"))
+                resp_headers.append((b"referrer-policy", b"strict-origin-when-cross-origin"))
+                resp_headers.append((b"permissions-policy", b"accelerometer=(), camera=(), geolocation=(), microphone=()"))
+                message = {**message, "headers": resp_headers}
+            await send(message)
+
+        # 1. Host authorization (safe parsing, loopback default, no trust in forwarded headers)
+        raw_host = _get_raw_asgi_header(headers, "host")
+        host_name = parse_host_header(raw_host)
+        allowed_hosts = get_allowed_hosts()
+        if not host_name or host_name not in allowed_hosts:
+            resp = JSONResponse(
+                {"error": "Forbidden: untrusted Host header"},
+                status_code=403,
+            )
+            # Rejected Host response must never set app_csrf cookie
+            await resp(scope, receive, send_security_headers_only)
+            return
+
+        # 2. Mutating method protection: every unsafe HTTP method (outside GET, HEAD, OPTIONS)
+        is_safe_method = method in ("GET", "HEAD", "OPTIONS")
+        if not is_safe_method:
+            origin = _get_raw_asgi_header(headers, "origin")
+            allowed_origins = get_allowed_origins()
+            # Compare request Origin exactly against configured allowlist (no stripping trailing slashes or padding)
+            if not origin or origin not in allowed_origins:
+                resp = JSONResponse(
+                    {"error": "Forbidden: invalid or missing Origin header"},
+                    status_code=403,
+                )
+                await resp(scope, receive, send_security_headers_only)
+                return
+
+            cookies = _extract_asgi_cookies(headers)
+            cookie_csrf = cookies.get("app_csrf", "")
+            header_csrf = _get_asgi_header(headers, "x-csrf-token")
+
+            if (
+                not cookie_csrf
+                or not header_csrf
+                or not hmac.compare_digest(cookie_csrf, header_csrf)
+            ):
+                resp = JSONResponse(
+                    {"error": "Forbidden: invalid or missing CSRF token"},
+                    status_code=403,
+                )
+                await resp(scope, receive, send_security_headers_only)
+                return
+
+        # 3. Issue CSRF cookie on GET / only after Host authorization passes
+        csrf_cookie_val = ""
+        if method == "GET" and path == "/":
+            csrf_token = secrets.token_urlsafe(32)
+            cookie_parts = [f"app_csrf={csrf_token}", "Path=/", "SameSite=Strict"]
+            if os.environ.get("APP_CSRF_COOKIE_SECURE", "").strip().lower() == "true":
+                cookie_parts.append("Secure")
+            csrf_cookie_val = "; ".join(cookie_parts)
+
+        async def send_with_security_headers(message: Dict[str, Any]) -> None:
+            if message["type"] == "http.response.start":
+                resp_headers = list(message.get("headers", []))
+                resp_headers.append((b"x-content-type-options", b"nosniff"))
+                resp_headers.append((b"x-frame-options", b"DENY"))
+                resp_headers.append((b"referrer-policy", b"strict-origin-when-cross-origin"))
+                resp_headers.append((b"permissions-policy", b"accelerometer=(), camera=(), geolocation=(), microphone=()"))
+                if csrf_cookie_val:
+                    resp_headers.append((b"set-cookie", csrf_cookie_val.encode("latin-1")))
+                message = {**message, "headers": resp_headers}
+            await send(message)
+
+        # Cloudflare Access JWT validation must occur at the tunnel connector/origin.
+        # Client-supplied headers are never trusted directly for authorization.
+        await self.app(scope, receive, send_with_security_headers)
 
 
 app = Starlette(
     debug=False,
+    middleware=[Middleware(PrivateAccessSecurityMiddleware)],
     routes=[
         Route("/", index_page, methods=["GET"]),
         Route("/api/state", api_get_state, methods=["GET"]),
@@ -435,7 +966,7 @@ app = Starlette(
         Route("/api/acknowledge", api_log_acknowledgement, methods=["POST"]),
         Route("/api/tax-simulate", api_tax_simulate, methods=["POST"]),
         Route("/api/scan-now", api_scan_now, methods=["POST"]),
-        Route("/api/auto-apply", api_auto_apply, methods=["POST"]),
+        Route("/api/prepare-materials", api_prepare_materials, methods=["POST"]),
         Route("/api/download-pdf/{version_id}", api_download_pdf, methods=["GET"]),
         Route("/api/tables", api_get_tables, methods=["GET"]),
         Route("/api/table_data/{table_name}", api_get_table_data, methods=["GET"]),

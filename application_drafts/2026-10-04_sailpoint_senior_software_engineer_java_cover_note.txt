@@ -1,0 +1,10 @@
+Hello SailPoint team,
+
+I am applying for the Senior Software Engineer - Java position, requisition R010906. I have more than nine years of experience building Java and Spring Boot services for enterprise platforms. In my current work at NCS, I build backend services for a government licensing platform, using Java, Spring Boot, AWS, Kafka, and Kubernetes to support distributed workflows and production operations. My earlier work includes backend systems and integrations for legal technology and AI-enabled products.
+
+I have delivered REST APIs, event-driven processing, and cloud deployment pipelines, with attention to reliability and production monitoring. I am interested in applying that experience to SailPoint's Java frameworks and developer experience platform.
+
+I am based in Chennai and authorized to work in India. My notice period is 60 days. I hold a Bachelor of Engineering from Anna University.
+
+Regards,
+Meena Kannan

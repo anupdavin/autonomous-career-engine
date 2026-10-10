@@ -5,27 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meena Kannan | 24/7 Adaptive Job Search Command Center</title>
   <style>
-    
     :root {
       --bg: #0f172a;
       --card: #1e293b;
       --card-hover: #334155;
       --border: #334155;
+      --border-focus: #0ea5e9;
       --text: #f8fafc;
       --muted: #94a3b8;
       --accent: #0ea5e9;
+      --accent-hover: #0284c7;
       --emerald: #10b981;
+      --emerald-hover: #059669;
       --amber: #f59e0b;
       --rose: #f43f5e;
       --violet: #8b5cf6;
       --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', system-ui, sans-serif; }
-    body { background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 60px; font-size: 14px; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 60px;
+      font-size: 14px;
+    }
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Header */
     header {
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
       border-bottom: 1px solid var(--border);
-      padding: 20px 30px;
+      padding: 16px 28px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -36,223 +55,150 @@
       z-index: 100;
       box-shadow: var(--shadow);
     }
-    .brand h1 { font-size: 1.4rem; font-weight: 700; color: #fff; letter-spacing: -0.02em; }
-    .brand p { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
-    .top-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-    .badge-pill {
-      background: rgba(16, 185, 129, 0.1);
-      border: 1px solid rgba(16, 185, 129, 0.2);
-      color: #34d399;
+    .brand h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+    .brand p {
       font-size: 0.8rem;
-      padding: 6px 14px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+    .top-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .badge-pill {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #34d399;
+      font-size: 0.78rem;
+      padding: 6px 12px;
       border-radius: 9999px;
       font-weight: 600;
     }
+    .badge-notice {
+      background: rgba(14, 165, 233, 0.12);
+      border: 1px solid rgba(14, 165, 233, 0.3);
+      color: #38bdf8;
+      font-size: 0.78rem;
+      padding: 6px 12px;
+      border-radius: 9999px;
+      font-weight: 500;
+    }
+
+    /* Buttons */
     button {
       cursor: pointer;
       border: 1px solid var(--border);
       background: var(--card);
       color: var(--text);
-      padding: 8px 16px;
+      padding: 8px 14px;
       border-radius: 6px;
-      font-size: 0.85rem;
+      font-size: 0.84rem;
       font-weight: 500;
-      transition: all 0.2s;
+      transition: background 0.15s, border-color 0.15s;
     }
-    button:hover { background: var(--card-hover); border-color: var(--accent); }
-    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-    .btn-primary:hover { background: #0284c7; }
-    .btn-success { background: var(--emerald); border-color: var(--emerald); color: #fff; }
-    .btn-success:hover { background: #059669; }
-    .btn-warn { background: var(--amber); border-color: var(--amber); color: #fff; }
-    .btn-danger { background: var(--rose); border-color: var(--rose); color: #fff; }
+    button:hover:not(:disabled) {
+      background: var(--card-hover);
+      border-color: var(--accent);
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: var(--accent-hover);
+    }
+    .btn-success {
+      background: var(--emerald);
+      border-color: var(--emerald);
+      color: #fff;
+      font-weight: 600;
+    }
+    .btn-success:hover:not(:disabled) {
+      background: var(--emerald-hover);
+    }
+    .btn-warn {
+      background: var(--amber);
+      border-color: var(--amber);
+      color: #1e293b;
+      font-weight: 600;
+    }
+    .btn-warn:hover:not(:disabled) {
+      background: #d97706;
+      color: #fff;
+    }
+    .btn-danger {
+      background: var(--rose);
+      border-color: var(--rose);
+      color: #fff;
+    }
+    .btn-danger:hover:not(:disabled) {
+      background: #e11d48;
+    }
 
+    /* Navigation Tabs */
     nav.tabs {
       display: flex;
-      gap: 8px;
-      padding: 16px 30px;
+      gap: 6px;
+      padding: 12px 28px;
       background: #0f172a;
       border-bottom: 1px solid var(--border);
       overflow-x: auto;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
     }
     nav.tabs button {
       background: transparent;
       border: 1px solid transparent;
       color: var(--muted);
-      padding: 10px 18px;
+      padding: 9px 15px;
       border-radius: 6px;
       white-space: nowrap;
       font-weight: 500;
+      font-size: 0.85rem;
     }
     nav.tabs button.active {
-      background: rgba(14, 165, 233, 0.1);
-      border-color: rgba(14, 165, 233, 0.3);
+      background: rgba(14, 165, 233, 0.15);
+      border-color: rgba(14, 165, 233, 0.4);
       color: var(--accent);
+      font-weight: 600;
     }
     nav.tabs button:hover:not(.active) {
       color: #e2e8f0;
-      background: rgba(255,255,255,0.05);
+      background: rgba(255, 255, 255, 0.04);
     }
 
-    .container { max-width: 1400px; margin: 30px auto; padding: 0 30px; }
-    .tab-pane { display: none; animation: fadeIn 0.3s; }
-    .tab-pane.active { display: block; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-
-    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 30px; }
-    .kpi-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: var(--shadow);
-      transition: transform 0.2s;
+    /* Container and Layout */
+    .container {
+      max-width: 1400px;
+      margin: 24px auto;
+      padding: 0 24px;
     }
-    .kpi-card:hover { transform: translateY(-2px); }
-    .kpi-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
-    .kpi-val { font-size: 2rem; font-weight: 700; margin-top: 8px; color: #fff; letter-spacing: -0.02em; }
-    .kpi-sub { font-size: 0.8rem; color: var(--emerald); margin-top: 6px; font-weight: 500; }
-
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
-    @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
-
-    .panel {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: var(--shadow);
+    .tab-pane {
+      display: none;
+      animation: fadeIn 0.2s ease-in-out;
     }
-    .panel h2 { font-size: 1.15rem; margin-bottom: 16px; color: #f8fafc; font-weight: 600; }
-    
-    .data-table-container {
-        overflow-x: auto;
-        margin-top: 15px;
-        border-radius: 8px;
-        border: 1px solid var(--border);
+    .tab-pane.active {
+      display: block;
     }
-    table.data-table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 0.85rem;
-    }
-    table.data-table th, table.data-table td {
-        padding: 10px 15px;
-        border-bottom: 1px solid var(--border);
-        text-align: left;
-    }
-    table.data-table th {
-        background: #0f172a;
-        color: var(--muted);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.02em;
-    }
-    table.data-table tr:last-child td { border-bottom: none; }
-    table.data-table tr:hover { background: rgba(255,255,255,0.02); }
-
-    .chart-container {
-        background: #0f172a;
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 15px;
-        margin-top: 20px;
-        height: 350px;
-        position: relative;
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    .funnel-row { margin-bottom: 16px; }
-    .funnel-header { display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 6px; font-weight: 500; }
-    .bar-bg { background: #0f172a; height: 10px; border-radius: 999px; overflow: hidden; }
-    .bar-fill { height: 100%; border-radius: 999px; transition: width 0.5s ease-out; }
-
-    .job-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: var(--shadow); }
-    .job-card:hover { border-color: var(--accent); }
-    .job-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
-    .job-title { font-size: 1.15rem; font-weight: 600; color: #fff; letter-spacing: -0.01em; }
-    .job-comp { font-size: 0.95rem; color: var(--accent); font-weight: 500; margin-top: 4px; }
-    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
-    .chip { font-size: 0.75rem; padding: 4px 12px; border-radius: 999px; background: #0f172a; border: 1px solid var(--border); color: #cbd5e1; font-weight: 500; }
-    
-    .why-box { background: rgba(14, 165, 233, 0.05); border-left: 3px solid var(--accent); padding: 12px 16px; border-radius: 4px; font-size: 0.85rem; color: #e2e8f0; margin: 12px 0; }
-    textarea.pitch-box { width: 100%; min-height: 120px; background: #0f172a; color: #e2e8f0; border: 1px solid var(--border); border-radius: 6px; padding: 12px; font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 0.85rem; margin-top: 10px; }
-    .action-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; align-items: center; }
-    input, select { background: #0f172a; border: 1px solid var(--border); color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.9rem; }
-    input:focus, select:focus { outline: none; border-color: var(--accent); }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Inter, system-ui, sans-serif; }
-    body { background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 60px; }
-    header {
-      background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
-      border-bottom: 1px solid var(--border);
-      padding: 18px 28px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 14px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .brand h1 { font-size: 1.25rem; font-weight: 700; color: #fff; }
-    .brand p { font-size: 0.82rem; color: var(--muted); margin-top: 2px; }
-    .top-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    .badge-pill {
-      background: rgba(16, 185, 129, 0.14);
-      border: 1px solid rgba(16, 185, 129, 0.4);
-      color: #34d399;
-      font-size: 0.78rem;
-      padding: 5px 12px;
-      border-radius: 999px;
-      font-weight: 600;
-    }
-    button {
-      cursor: pointer;
-      border: 1px solid var(--border);
-      background: #1e293b;
-      color: var(--text);
-      padding: 8px 14px;
-      border-radius: 8px;
-      font-size: 0.84rem;
-      font-weight: 600;
-      transition: all 0.15s;
-    }
-    button:hover { background: #334155; border-color: var(--accent); }
-    .btn-primary { background: #0284c7; border-color: #38bdf8; color: #fff; }
-    .btn-primary:hover { background: #0369a1; }
-    .btn-success { background: #059669; border-color: #10b981; color: #fff; }
-    .btn-success:hover { background: #047857; }
-    .btn-warn { background: #d97706; border-color: #f59e0b; color: #fff; }
-    .btn-danger { background: #be123c; border-color: #f43f5e; color: #fff; }
-
-    nav.tabs {
-      display: flex;
-      gap: 8px;
-      padding: 14px 28px;
-      background: #0f1626;
-      border-bottom: 1px solid var(--border);
-      overflow-x: auto;
-    }
-    nav.tabs button {
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--muted);
-      padding: 9px 16px;
-      border-radius: 8px;
-      white-space: nowrap;
-    }
-    nav.tabs button.active {
-      background: rgba(56, 189, 248, 0.15);
-      border-color: var(--accent);
-      color: #fff;
-    }
-
-    .container { max-width: 1400px; margin: 24px auto; padding: 0 24px; }
-    .tab-pane { display: none; }
-    .tab-pane.active { display: block; }
-
+    /* KPI Grid */
     .kpi-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -262,117 +208,312 @@
     .kpi-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      transition: transform 0.15s ease, border-color 0.15s ease;
     }
-    .kpi-label { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
-    .kpi-val { font-size: 1.75rem; font-weight: 700; margin-top: 6px; color: #fff; }
-    .kpi-sub { font-size: 0.78rem; color: var(--emerald); margin-top: 4px; }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .kpi-label {
+      font-size: 0.76rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    .kpi-val {
+      font-size: 1.85rem;
+      font-weight: 700;
+      margin-top: 6px;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+    .kpi-sub {
+      font-size: 0.78rem;
+      color: var(--emerald);
+      margin-top: 4px;
+      font-weight: 500;
+    }
 
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
-    @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
-
+    /* Panels and Grids */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
     .panel {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 10px;
       padding: 20px;
       margin-bottom: 20px;
+      box-shadow: var(--shadow);
     }
-    .panel h2 { font-size: 1.05rem; margin-bottom: 14px; color: #f8fafc; display: flex; justify-content: space-between; align-items: center; }
+    .panel h2 {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      color: #f8fafc;
+      font-weight: 600;
+    }
+    .panel p.panel-sub {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
 
-    .funnel-row { margin-bottom: 12px; }
-    .funnel-header { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 4px; }
-    .bar-bg { background: #1e293b; height: 12px; border-radius: 999px; overflow: hidden; }
-    .bar-fill { height: 100%; border-radius: 999px; transition: width 0.3s; }
+    /* Funnel */
+    .funnel-row {
+      margin-bottom: 12px;
+    }
+    .funnel-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+    .bar-bg {
+      background: #0f172a;
+      height: 10px;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      transition: width 0.4s ease-out;
+    }
 
+    /* Job Cards */
     .job-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 10px;
       padding: 20px;
       margin-bottom: 16px;
+      box-shadow: var(--shadow);
       transition: border-color 0.15s;
     }
-    .job-card:hover { border-color: #38bdf8; }
-    .job-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
-    .job-title { font-size: 1.1rem; font-weight: 700; color: #fff; }
-    .job-comp { font-size: 0.9rem; color: var(--accent); font-weight: 600; margin-top: 2px; }
-    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
-    .chip {
-      font-size: 0.75rem;
-      padding: 3px 10px;
-      border-radius: 6px;
-      background: #1e293b;
-      border: 1px solid #334155;
-      color: #cbd5e1;
+    .job-card:hover {
+      border-color: var(--accent);
     }
-    .chip-b2b { background: rgba(167, 139, 250, 0.15); border-color: var(--violet); color: #ddd6fe; }
-    .chip-inhand { background: rgba(16, 185, 129, 0.15); border-color: var(--emerald); color: #6ee7b7; font-weight: 600; }
-    .chip-score { background: rgba(56, 189, 248, 0.15); border-color: var(--accent); color: #bae6fd; font-weight: 700; }
+    .job-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .job-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .job-comp {
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-top: 3px;
+    }
+    .chips {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+    .chip {
+      font-size: 0.74rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      font-weight: 500;
+    }
+    .chip-b2b {
+      background: rgba(139, 92, 246, 0.12);
+      border-color: var(--violet);
+      color: #ddd6fe;
+    }
+    .chip-inhand {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: var(--emerald);
+      color: #6ee7b7;
+      font-weight: 600;
+    }
+    .chip-score {
+      background: rgba(14, 165, 233, 0.12);
+      border-color: var(--accent);
+      color: #bae6fd;
+      font-weight: 600;
+    }
 
     .why-box {
-      background: #0f172a;
+      background: rgba(14, 165, 233, 0.04);
       border-left: 3px solid var(--accent);
       padding: 10px 14px;
-      border-radius: 6px;
-      font-size: 0.84rem;
+      border-radius: 4px;
+      font-size: 0.83rem;
       color: #cbd5e1;
       margin: 10px 0;
     }
     textarea.pitch-box {
       width: 100%;
-      min-height: 145px;
-      background: #090d16;
+      min-height: 120px;
+      background: #0f172a;
       color: #e2e8f0;
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px;
-      font-family: 'Consolas', monospace;
+      border-radius: 6px;
+      padding: 10px;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
       font-size: 0.82rem;
-      margin-top: 8px;
+      margin-top: 6px;
       resize: vertical;
     }
-    .action-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
-    .calc-inputs { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
-    input, select {
+    .action-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      align-items: center;
+    }
+
+    /* Form Controls */
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 16px;
       background: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    input, select {
+      background: var(--card);
       border: 1px solid var(--border);
       color: #fff;
       padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    /* Table Styles */
+    .data-table-container {
+      overflow-x: auto;
+      margin-top: 14px;
       border-radius: 8px;
-      font-size: 0.9rem;
+      border: 1px solid var(--border);
+      background: #0f172a;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.83rem;
+      white-space: nowrap;
+    }
+    table.data-table th, table.data-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    table.data-table th {
+      background: #131d31;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.74rem;
+      letter-spacing: 0.04em;
+    }
+    table.data-table tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Chart Containers */
+    .chart-container {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      height: 320px;
+      position: relative;
+    }
+
+    /* Responsive Media Queries */
+    @media (max-width: 1024px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 768px) {
+      header {
+        padding: 14px 16px;
+      }
+      .brand h1 {
+        font-size: 1.1rem;
+      }
+      .container {
+        padding: 0 16px;
+        margin: 16px auto;
+      }
+      nav.tabs {
+        padding: 10px 16px;
+      }
+      .kpi-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .top-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+    }
+    @media (max-width: 480px) {
+      .kpi-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
   <header>
     <div class="brand">
-      <h1>Meena Kannan | Adaptive Job & B2B Command Center</h1>
-      <p>100% Remote from India (Global B2B Contracts & India EOR) | Guardrail: 0 Em-Dashes | Peak RAM: ~25 MB</p>
+      <h1>Meena Kannan | Adaptive Job Search Command Center</h1>
+      <p>100% Remote (Global B2B & India EOR) | Guardrail: 0 Em-Dashes | Local Prep Only (Submission Human-Controlled)</p>
     </div>
     <div class="top-actions">
       <span class="badge-pill" id="backendBadge">SQLite Local Mirror</span>
+      <span class="badge-pill" id="privateAccessBadge" style="background:rgba(56, 189, 248, 0.12); border-color:rgba(56, 189, 248, 0.3); color:#38bdf8;" title="Bound to loopback (127.0.0.1) / Cloudflare Zero Trust">Private Access (127.0.0.1)</span>
+      <span class="badge-notice" title="Local preparation only">Human-Controlled Submissions</span>
       <button class="btn-primary" onclick="triggerScanNow()" id="scanBtn" disabled>Checking Run API...</button>
-      <button class="btn-success" onclick="triggerAutoApply()" id="autoApplyBtn">Run Auto-Apply</button>
+      <button class="btn-success" onclick="triggerPrepareMaterials()" id="prepareMaterialsBtn" title="Prepares approved application materials locally. Application submission remains human-controlled.">Prepare Materials (Local Only)</button>
     </div>
   </header>
 
-  <nav class="tabs">
-    <button class="active" onclick="switchTab('tab-dashboard', this)">1. Visual Analytics Dashboard</button>
-    <button onclick="switchTab('tab-shortlisted', this)">2. Shortlist & Location Review (<span id="navShortlisted">0</span>)</button>
-    <button onclick="switchTab('tab-applied', this)">3. Application Tracker (<span id="navApplied">0</span>)</button>
-    <button onclick="switchTab('tab-vault', this)">4. Tailored Resumes Vault & Tax/Salary Engine</button>
-    <button onclick="switchTab('tab-dead', this)">5. Dead Applications Zone & All Fetched (<span id="navDead">0</span>)</button>
-  <button onclick="switchTab('tab-data', this)">6. Database Visualizer</button>
+  <nav class="tabs" role="tablist" aria-label="Dashboard Navigation">
+    <button class="active" id="tab-btn-dashboard" role="tab" aria-selected="true" aria-controls="tab-dashboard" tabindex="0" onclick="switchTab('tab-dashboard', this)">1. Visual Analytics Dashboard</button>
+    <button id="tab-btn-shortlisted" role="tab" aria-selected="false" aria-controls="tab-shortlisted" tabindex="-1" onclick="switchTab('tab-shortlisted', this)">2. Shortlist & Location Review (<span id="navShortlisted">0</span>)</button>
+    <button id="tab-btn-applied" role="tab" aria-selected="false" aria-controls="tab-applied" tabindex="-1" onclick="switchTab('tab-applied', this)">3. Application Tracker (<span id="navApplied">0</span>)</button>
+    <button id="tab-btn-vault" role="tab" aria-selected="false" aria-controls="tab-vault" tabindex="-1" onclick="switchTab('tab-vault', this)">4. Tailored Resumes Vault & Tax/Salary Engine</button>
+    <button id="tab-btn-dead" role="tab" aria-selected="false" aria-controls="tab-dead" tabindex="-1" onclick="switchTab('tab-dead', this)">5. Dead Applications Zone (<span id="navDead">0</span>)</button>
+    <button id="tab-btn-data" role="tab" aria-selected="false" aria-controls="tab-data" tabindex="-1" onclick="switchTab('tab-data', this)">6. Curated Memory & State Summary</button>
   </nav>
 
-  <div class="container">
+  <main class="container">
 
     <!-- TAB 1: VISUAL ANALYTICS DASHBOARD -->
-    <div id="tab-dashboard" class="tab-pane active">
+    <section id="tab-dashboard" class="tab-pane active" role="tabpanel" aria-labelledby="tab-btn-dashboard">
       <div class="kpi-grid">
         <div class="kpi-card">
           <div class="kpi-label">Job Records in Tracker</div>
@@ -397,35 +538,33 @@
         <div class="kpi-card">
           <div class="kpi-label">Human Feedback Events Logged</div>
           <div class="kpi-val" id="kpiSkills">0</div>
-          <div class="kpi-sub">Specific reasons affect future rankings</div>
+          <div class="kpi-sub">Specific reasons inform future rankings</div>
         </div>
       </div>
 
       <div class="panel">
         <h2>Agent Runtime and Recent Runs</h2>
-        <p style="font-size:0.82rem; color:var(--muted); margin-bottom:12px;">Run phases, source outcomes, failures, and heartbeat times are recorded locally. Candidate application content is not copied into this run history.</p>
+        <p class="panel-sub">Run phases, source outcomes, failures, and heartbeat times are recorded locally. Candidate application content is not copied into this run history.</p>
         <div id="agentRuntimeBox"></div>
         <div id="agentReadinessBox" style="margin-top:16px;"></div>
       </div>
 
       <div class="panel">
         <h2>Measured Ranking Feedback</h2>
-        <p style="font-size:0.82rem; color:var(--muted); margin-bottom:12px;">This compares saved ranking decisions with the latest explicit human role review. It measures role-fit feedback, not hiring outcomes, and never changes weights automatically.</p>
+        <p class="panel-sub">This compares saved ranking decisions with the latest explicit human role review. It measures role-fit feedback, not hiring outcomes, and never changes weights automatically.</p>
         <div id="adaptiveQualityBox"></div>
       </div>
 
       <div class="grid-2">
         <div class="panel">
           <h2>Application Evidence and Eligibility Counts</h2>
-          <p style="font-size:0.82rem; color:var(--muted);">Counts overlap. A role can appear in more than one evidence or eligibility group.</p>
+          <p class="panel-sub">Counts overlap. A role can appear in more than one evidence or eligibility group.</p>
           <div id="funnelContainer"></div>
         </div>
 
         <div class="panel">
           <h2>Compensation and Tax Estimates</h2>
-          <p style="font-size:0.84rem; color:var(--muted); margin-bottom:14px;">
-            These are rough model estimates, not employer-posted salary ranges or tax advice. Confirm the actual contract, location, and tax treatment before relying on them.
-          </p>
+          <p class="panel-sub">These are rough model estimates, not employer-posted salary ranges or tax advice. Confirm the actual contract, location, and tax treatment before relying on them.</p>
           <div id="compComparisonBox"></div>
         </div>
       </div>
@@ -441,38 +580,38 @@
           <div id="rulesAndTimelineBox"></div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- TAB 2: SHORTLISTED & WHY -->
-    <div id="tab-shortlisted" class="tab-pane">
+    <!-- TAB 2: SHORTLISTED & REVIEW -->
+    <section id="tab-shortlisted" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-shortlisted">
       <div class="panel">
         <h2>Shortlisted Opportunities (Review & Approve)</h2>
-        <p style="font-size:0.85rem; color:var(--muted);">
-          Add a specific reason when approving or rejecting. The system stores that feedback for future rankings. Scores show profile evidence overlap, not a probability of getting hired. Lower scores and unverified location evidence leave a role in review; they do not close it automatically.
+        <p class="panel-sub">
+          Add a specific reason when approving or rejecting. The system stores that feedback for future rankings. Scores show profile evidence overlap, not a probability of getting hired. Lower scores and unverified location evidence leave a role in review; they do not close it automatically. Material preparation is performed locally; all application submissions remain human-controlled.
         </p>
       </div>
       <div id="shortlistedList"></div>
-    </div>
+    </section>
 
-    <!-- TAB 3: APPROVED, APPLIED & FOLLOW-UP TRACKER -->
-    <div id="tab-applied" class="tab-pane">
+    <!-- TAB 3: APPROVED, APPLIED & TRACKER -->
+    <section id="tab-applied" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-applied">
       <div class="panel">
         <h2>Application Tracker (Timeline, Status & Follow-Up Cadence)</h2>
-        <p style="font-size:0.85rem; color:var(--muted);">
-          Track approved roles and application progress. A row marked APPLIED is counted as submitted only after a receipt or confirmation is recorded.
+        <p class="panel-sub">
+          Track approved roles and application progress. A row marked APPLIED is counted as submitted only after a receipt or confirmation is recorded. All application submissions remain strictly human-controlled.
         </p>
       </div>
       <div id="appliedList"></div>
-    </div>
+    </section>
 
-    <!-- TAB 4: TAILORED RESUMES VAULT & INDIA TAX CALCULATOR -->
-    <div id="tab-vault" class="tab-pane">
+    <!-- TAB 4: TAILORED RESUMES VAULT & TAX CALCULATOR -->
+    <section id="tab-vault" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-vault">
       <div class="panel">
         <h2>Estimated India B2B and Salaried Net Pay Scenarios</h2>
-        <div class="calc-inputs">
-          <label>Annual Gross Offer:</label>
-          <input type="number" id="simAmount" value="85000" />
-          <select id="simCurrency">
+        <div class="filter-bar">
+          <label for="simAmount" style="font-weight:500;">Annual Gross Offer:</label>
+          <input type="number" id="simAmount" value="85000" style="width:130px;" />
+          <select id="simCurrency" aria-label="Currency">
             <option value="USD">USD ($ / year)</option>
             <option value="EUR">EUR (EUR / year)</option>
             <option value="GBP">GBP (GBP / year)</option>
@@ -480,69 +619,145 @@
           </select>
           <button class="btn-primary" onclick="runTaxSimulator()">Estimate Monthly Net Pay</button>
         </div>
-        <p style="font-size:0.82rem; color:var(--muted);">Planning estimate only. Actual tax and net pay depend on the contract, income classification, deductions, benefits, and current law. Confirm with a qualified tax professional.</p>
+        <p class="panel-sub">Planning estimate only. Actual tax and net pay depend on the contract, income classification, deductions, benefits, and current law. Confirm with a qualified tax professional.</p>
         <div id="simResultBox"></div>
       </div>
 
       <div class="panel">
         <h2>Tailored Resumes Vault (Versioned Snapshots & Printable View)</h2>
+        <p class="panel-sub">Resume versions are prepared and maintained locally. Submission to job portals is never automated and remains human-controlled.</p>
         <div id="vaultList"></div>
       </div>
-    </div>
+    </section>
 
-    <!-- TAB 5: DEAD APPLICATIONS ZONE & ALL FETCHED AUDIT -->
-    <div id="tab-dead" class="tab-pane">
+    <!-- TAB 5: DEAD APPLICATIONS ZONE -->
+    <section id="tab-dead" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-dead">
       <div class="panel">
         <h2>Closed, Ineligible, Placeholder, and Rejected Roles</h2>
-        <p style="font-size:0.85rem; color:var(--muted);">
+        <p class="panel-sub">
           Every role here trains the Vector Episodic Memory so the agent avoids similar low-yield or onsite-restricted roles automatically.
         </p>
       </div>
       <div id="deadList"></div>
-    </div>
+    </section>
 
-  
-    <!-- TAB 6: DATA VISUALIZER -->
-    <div id="tab-data" class="tab-pane">
+    <!-- TAB 6: CURATED MEMORY & STATE SUMMARY -->
+    <section id="tab-data" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-data">
       <div class="panel">
-        <h2>Database Visualizer & Analytics</h2>
-        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:16px;">
-          Select a table from the data layer to visualize its raw records and generate dynamic charts.
+        <h2>Curated Memory & State Summary</h2>
+        <p class="panel-sub">
+          Curated operational view of tracked opportunities, timeline events, agent runs, and schema migrations. Sensitive fields (resumes, contact details, pitches, full feedback text, credentials, and raw URLs) are strictly omitted.
         </p>
-        <div class="calc-inputs" style="margin-bottom:20px;">
-          <select id="dbTableSelect" onchange="loadTableData()">
+
+        <div class="filter-bar">
+          <label for="curatedTableSelect" style="font-weight:500;">Operational Table:</label>
+          <select id="curatedTableSelect" onchange="loadCuratedTableData()" aria-label="Select Curated Table">
             <option value="">Loading tables...</option>
           </select>
-          <button class="btn-primary" onclick="loadTableData()">Refresh Data</button>
-        </div>
-        
-        <div class="grid-2">
-            <div class="chart-container">
-                <canvas id="dataChart1"></canvas>
-            </div>
-            <div class="chart-container">
-                <canvas id="dataChart2"></canvas>
-            </div>
+
+          <label for="curatedStatusSelect" style="font-weight:500;">Stage / Status:</label>
+          <select id="curatedStatusSelect" onchange="loadCuratedTableData()" aria-label="Filter by Status or Stage">
+            <option value="">All Stages / Statuses</option>
+            <option value="SHORTLISTED">SHORTLISTED</option>
+            <option value="APPROVED">APPROVED</option>
+            <option value="APPLIED">APPLIED</option>
+            <option value="INTERVIEW">INTERVIEW</option>
+            <option value="OFFER">OFFER</option>
+            <option value="DEAD_ZONE">DEAD_ZONE</option>
+            <option value="VERIFIED">VERIFIED</option>
+            <option value="NEEDS_REVIEW">NEEDS_REVIEW</option>
+            <option value="INELIGIBLE">INELIGIBLE</option>
+            <option value="SUCCESS">SUCCESS</option>
+            <option value="FAILED">FAILED</option>
+          </select>
+
+          <label for="curatedSearchInput" style="font-weight:500;">Search:</label>
+          <input type="text" id="curatedSearchInput" placeholder="Filter title, company, run..." aria-label="Search records" style="width:200px;" onkeydown="if(event.key==='Enter') loadCuratedTableData()" />
+
+          <label for="curatedLimitSelect" style="font-weight:500;">Limit:</label>
+          <select id="curatedLimitSelect" onchange="loadCuratedTableData()" aria-label="Row Limit">
+            <option value="25">25 rows</option>
+            <option value="50" selected>50 rows</option>
+            <option value="100">100 rows</option>
+          </select>
+
+          <button class="btn-primary" onclick="loadCuratedTableData()">Filter / Refresh</button>
         </div>
 
-        <h3 style="margin-top:24px; margin-bottom:12px; font-size:1rem; font-weight:600;">Raw Table Data</h3>
-        <div class="data-table-container" id="dataTableContainer">
-            <p style="color:var(--muted); padding:10px;">Select a table to view records.</p>
+        <div class="grid-2">
+          <div class="chart-container" id="chartContainer1">
+            <canvas id="dataChart1"></canvas>
+          </div>
+          <div class="chart-container" id="chartContainer2">
+            <canvas id="dataChart2"></canvas>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px; margin-bottom:10px;">
+          <h3 id="curatedTableTitle" style="font-size:1rem; font-weight:600;">Curated Operational Records</h3>
+          <span id="curatedTableMeta" style="font-size:0.8rem; color:var(--muted);">Select a table</span>
+        </div>
+
+        <div class="data-table-container" id="curatedTableContainer" tabindex="0" role="region" aria-label="Curated Data Table">
+          <p style="color:var(--muted); padding:16px;">Select a table above to view records.</p>
         </div>
       </div>
-    </div>
-</div>
+    </section>
+
+  </main>
 
   <script>
     let APP_STATE = null;
     let SCAN_IN_PROGRESS = false;
+    let myChart1 = null;
+    let myChart2 = null;
 
     function switchTab(tabId, btnEl) {
       document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-      document.querySelectorAll('nav.tabs button').forEach(b => b.classList.remove('active'));
-      document.getElementById(tabId).classList.add('active');
+      document.querySelectorAll('nav.tabs button').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+        b.setAttribute('tabindex', '-1');
+      });
+      const activePane = document.getElementById(tabId);
+      if (activePane) {
+        activePane.classList.add('active');
+      }
       btnEl.classList.add('active');
+      btnEl.setAttribute('aria-selected', 'true');
+      btnEl.setAttribute('tabindex', '0');
+      btnEl.focus();
+
+      if (tabId === 'tab-data') {
+        const tableSel = document.getElementById('curatedTableSelect');
+        if (tableSel && tableSel.value) {
+          loadCuratedTableData();
+        }
+      }
     }
+
+    // Keyboard navigation for navigation tabs
+    const tabButtons = Array.from(document.querySelectorAll('nav.tabs button'));
+    tabButtons.forEach((button, idx) => {
+      button.addEventListener('keydown', (e) => {
+        let newIdx = idx;
+        if (e.key === 'ArrowRight') {
+          newIdx = (idx + 1) % tabButtons.length;
+        } else if (e.key === 'ArrowLeft') {
+          newIdx = (idx - 1 + tabButtons.length) % tabButtons.length;
+        } else if (e.key === 'Home') {
+          newIdx = 0;
+        } else if (e.key === 'End') {
+          newIdx = tabButtons.length - 1;
+        } else {
+          return;
+        }
+        e.preventDefault();
+        const targetBtn = tabButtons[newIdx];
+        const tabTarget = targetBtn.getAttribute('aria-controls');
+        switchTab(tabTarget, targetBtn);
+      });
+    });
 
     function formatINR(num) {
       return 'Rs. ' + Number(num || 0).toLocaleString('en-IN');
@@ -585,6 +800,11 @@
       document.querySelectorAll('[data-print-version]').forEach(button => {
         button.addEventListener('click', () => printResumeVersion(button.dataset.printVersion));
       });
+    }
+
+    function getCsrfToken() {
+      const match = document.cookie.match(/(?:^|;\s*)app_csrf=([^;]*)/);
+      return match ? decodeURIComponent(match[1]) : '';
     }
 
     async function loadState() {
@@ -648,7 +868,10 @@
       }
       const resp = await fetch('/api/transition', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getCsrfToken()
+        },
         body: JSON.stringify({ job_id: jobId, new_stage: newStage, note: note, closure_reason: closureReason, evidence_source: evidenceSource })
       });
       const data = await resp.json();
@@ -665,7 +888,10 @@
       if (!evidence || !evidence.trim()) return;
       const resp = await fetch('/api/eligibility/verify', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getCsrfToken()
+        },
         body: JSON.stringify({ job_id: jobId, evidence })
       });
       const data = await resp.json();
@@ -684,7 +910,10 @@
       if (!evidenceSource || evidenceSource.trim().length < 4) return;
       const resp = await fetch('/api/acknowledge', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getCsrfToken()
+        },
         body: JSON.stringify({ job_id: jobId, note, evidence_source: evidenceSource })
       });
       const data = await resp.json();
@@ -707,7 +936,12 @@
       btn.disabled = true;
       const poll = setInterval(() => loadAgentRuntime().catch(() => {}), 2000);
       try {
-        const resp = await fetch('/api/scan-now', { method: 'POST' });
+        const resp = await fetch('/api/scan-now', {
+          method: 'POST',
+          headers: {
+            'X-CSRF-Token': getCsrfToken()
+          }
+        });
         const data = await resp.json();
         if (data.state) {
           APP_STATE = data.state;
@@ -723,30 +957,36 @@
       }
     }
 
-    async function triggerAutoApply() {
-      const btn = document.getElementById('autoApplyBtn');
-      if(!btn) return;
-      btn.textContent = 'Running Auto-Apply...';
+    async function triggerPrepareMaterials() {
+      const btn = document.getElementById('prepareMaterialsBtn');
+      if (!btn) return;
+      btn.textContent = 'Preparing Materials (Local)...';
       btn.disabled = true;
       try {
-        const resp = await fetch('/api/auto-apply', { method: 'POST' });
+        const resp = await fetch('/api/prepare-materials', {
+          method: 'POST',
+          headers: {
+            'X-CSRF-Token': getCsrfToken()
+          }
+        });
         const data = await resp.json();
         if (data.ok) {
-          alert(data.message || 'Auto-Apply triggered successfully.');
+          alert(data.message || 'Approved application materials prepared locally. Application submission remains human-controlled.');
           loadState();
         } else {
-          alert(data.error || 'Auto-Apply failed.');
+          alert(data.error || 'Material preparation failed.');
         }
-      } catch(err) {
+      } catch (err) {
         alert('Error: ' + err);
       } finally {
-        btn.textContent = 'Run Auto-Apply';
+        btn.textContent = 'Prepare Materials (Local Only)';
         btn.disabled = false;
       }
     }
 
     function copyText(id) {
       const el = document.getElementById(id);
+      if (!el) return;
       el.select();
       navigator.clipboard.writeText(el.value);
       alert('Copied plain-text note to clipboard (0 em-dashes verified)!');
@@ -830,9 +1070,9 @@
             </div>
           `).join('')}
         </div>
-          ${progress.applied_without_receipt_evidence ? `<div style="font-size:0.8rem; color:var(--amber);">${Number(progress.applied_without_receipt_evidence)} applied status row(s) need receipt evidence.</div>` : ''}
-          <div style="font-size:0.78rem; color:var(--muted); margin-top:6px;">Candidate fact review: ${Number(facts.verified || 0)} of ${Number(facts.required || 0)} required groups verified.</div>
-          <div style="font-size:0.78rem; color:var(--muted); margin-top:4px;">Ranking evaluation: ${Number(adaptive.sample_count || 0)} of 10 usable human role-fit labels, ${escapeHtml(adaptive.status || 'unavailable')}.</div>
+        ${progress.applied_without_receipt_evidence ? `<div style="font-size:0.8rem; color:var(--amber);">${Number(progress.applied_without_receipt_evidence)} applied status row(s) need receipt evidence.</div>` : ''}
+        <div style="font-size:0.78rem; color:var(--muted); margin-top:6px;">Candidate fact review: ${Number(facts.verified || 0)} of ${Number(facts.required || 0)} required groups verified.</div>
+        <div style="font-size:0.78rem; color:var(--muted); margin-top:4px;">Ranking evaluation: ${Number(adaptive.sample_count || 0)} of 10 usable human role-fit labels, ${escapeHtml(adaptive.status || 'unavailable')}.</div>
       ` : '<p style="font-size:0.8rem; color:var(--muted);">Aggregate job progress is unavailable.</p>';
       const actions = (observation.next_actions || []).map(action => `<li>${escapeHtml(action)}</li>`).join('');
       const tone = observation.status === 'error' ? 'var(--rose)' : observation.status === 'warning' ? 'var(--amber)' : 'var(--emerald)';
@@ -883,7 +1123,10 @@
       const currency = document.getElementById('simCurrency').value;
       const resp = await fetch('/api/tax-simulate', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getCsrfToken()
+        },
         body: JSON.stringify({ amount, currency })
       });
       const data = await resp.json();
@@ -962,13 +1205,13 @@
               View / Copy Human-Authentic Outreach Pitch & Follow-Up Note (0 Em-Dashes)
             </summary>
             <div style="margin-top:8px;">
-              <label style="font-size:0.78rem; color:var(--muted);">Initial Outreach / Application Pitch:</label>
+              <label for="${escapeHtml(pitchId)}" style="font-size:0.78rem; color:var(--muted);">Initial Outreach / Application Pitch:</label>
               <textarea class="pitch-box" id="${escapeHtml(pitchId)}">${escapeHtml(j.tailored_pitch)}</textarea>
               <div style="margin-top:6px;">
                 <button data-copy-target="${escapeHtml(pitchId)}">Copy Application Pitch</button>
               </div>
               ${isApplied ? `
-                <label style="font-size:0.78rem; color:var(--amber); display:block; margin-top:10px;">Day 4 / Day 10 Follow-Up Message:</label>
+                <label for="${escapeHtml(followupId)}" style="font-size:0.78rem; color:var(--amber); display:block; margin-top:10px;">Day 4 / Day 10 Follow-Up Message:</label>
                 <textarea class="pitch-box" style="min-height:110px;" id="${escapeHtml(followupId)}">${escapeHtml(j.followup_template)}</textarea>
                 <div style="margin-top:6px;">
                   <button class="btn-warn" data-copy-target="${escapeHtml(followupId)}">Copy Follow-Up Message</button>
@@ -1031,8 +1274,10 @@
         { label: 'Unique Job Records in Tracker', val: sc.TOTAL_FETCHED, color: '#38bdf8' },
         { label: 'India-Eligible Shortlisted Queue (Evidence Score >=75)', val: sc.SHORTLISTED, color: '#a78bfa' },
         { label: 'Approved & Tailored Resume Created', val: sc.APPROVED, color: '#10b981' },
-        { label: 'Tracker Rows Marked APPLIED (Evidence May Be Missing)', val: sc.APPLIED, color: '#f59e0b' },
-        { label: 'Submissions with Receipt or Confirmation Evidence', val: sc.SUBMITTED_CONFIRMED || 0, color: '#34d399' },
+        { label: 'Applications with Employer Receipt Evidence', val: sc.APPLIED, color: '#34d399' },
+        { label: 'Rows Previously Marked APPLIED Without Receipt', val: sc.APPLIED_WITHOUT_RECEIPT || 0, color: '#f59e0b' },
+        { label: 'Submission Attempts Awaiting Receipt Evidence', val: sc.SUBMITTED_UNVERIFIED || 0, color: '#f97316' },
+        { label: 'Total Records with Receipt or Confirmation Evidence', val: sc.SUBMITTED_CONFIRMED || 0, color: '#22c55e' },
         { label: 'ATS Acknowledgement Received', val: sc.ACKNOWLEDGED || 0, color: '#2dd4bf' },
         { label: 'India Eligibility Verified', val: sc.INDIA_ELIGIBILITY_VERIFIED || 0, color: '#818cf8' },
         { label: 'Legacy Leads Needing Location Review', val: sc.ELIGIBILITY_NEEDS_REVIEW || 0, color: '#fbbf24' },
@@ -1041,7 +1286,7 @@
       document.getElementById('funnelContainer').innerHTML = stages.map(s => `
         <div class="funnel-row">
           <div class="funnel-header"><span>${s.label}</span><strong>${s.val} roles</strong></div>
-          <div class="bar-bg"><div class="bar-fill" style="width:${Math.min(100, Math.round((s.val/total)*100))}%; background:${s.color};"></div></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:${Math.min(100, Math.round((s.val / total) * 100))}%; background:${s.color};"></div></div>
         </div>
       `).join('');
 
@@ -1065,7 +1310,7 @@
             <div style="font-weight:600; font-size:0.9rem;">${escapeHtml(j.title)}</div>
             <div style="font-size:0.78rem; color:var(--amber);">${escapeHtml(j.company)} | ${j.submission_evidence_at ? 'Receipt evidence recorded' : 'No submission evidence on file'} | SLA: ${escapeHtml(j.next_followup_due_at || 'Not set')}</div>
           </div>
-          <button class="btn-warn" onclick="switchTab('tab-applied', document.querySelectorAll('nav.tabs button')[2])">Open Tracker</button>
+          <button class="btn-warn" onclick="switchTab('tab-applied', document.getElementById('tab-btn-applied'))">Open Tracker</button>
         </div>
       `).join('') : '<p style="color:var(--muted);">No active follow-ups due right now.</p>';
 
@@ -1075,13 +1320,13 @@
 
       // Render Tabs
       const shortlisted = APP_STATE.jobs.filter(j => j.lifecycle_stage === 'SHORTLISTED');
-      document.getElementById('shortlistedList').innerHTML = shortlisted.map(renderJobCard).join('') || '<p>All shortlisted roles have been reviewed!</p>';
+      document.getElementById('shortlistedList').innerHTML = shortlisted.map(renderJobCard).join('') || '<p style="color:var(--muted); padding:12px;">All shortlisted roles have been reviewed!</p>';
 
       const activePipeline = APP_STATE.jobs.filter(j => ['APPROVED', 'APPLIED', 'INTERVIEW'].includes(j.lifecycle_stage));
-      document.getElementById('appliedList').innerHTML = activePipeline.map(renderJobCard).join('') || '<p>Approve a role from Tab 2 to start tracking applications and follow-ups.</p>';
+      document.getElementById('appliedList').innerHTML = activePipeline.map(renderJobCard).join('') || '<p style="color:var(--muted); padding:12px;">Approve a role from Tab 2 to start tracking applications and follow-ups.</p>';
 
       const deadJobs = APP_STATE.jobs.filter(j => j.lifecycle_stage === 'DEAD_ZONE');
-      document.getElementById('deadList').innerHTML = deadJobs.map(renderJobCard).join('');
+      document.getElementById('deadList').innerHTML = deadJobs.map(renderJobCard).join('') || '<p style="color:var(--muted); padding:12px;">No closed roles in dead zone.</p>';
 
       // Render Vault
       document.getElementById('vaultList').innerHTML = (APP_STATE.vault_versions || []).map(v => `
@@ -1094,158 +1339,324 @@
             <button class="btn-primary" data-print-version="${escapeHtml(v.version_id)}">Open Current Resume (${escapeHtml(v.ats_upload_filename || 'Meena_Kannan_Resume.pdf')})</button>
           </div>
           <div class="chips">
-            <span class="chip chip-inhand">Employer Upload Filename (ATS-Safe): ${escapeHtml(v.ats_upload_filename || 'Meena_Kannan_Lead_Software_Engineer.pdf')}</span>
+            <span class="chip chip-inhand">ATS Upload Filename: ${escapeHtml(v.ats_upload_filename || 'Meena_Kannan_Lead_Software_Engineer.pdf')}</span>
             <span class="chip chip-b2b">Internal Vault Path: ${escapeHtml(v.internal_vault_path || 'resumes_vault/')}</span>
           </div>
           <p style="font-size:0.85rem; margin-top:8px; color:#cbd5e1;"><strong>Headline:</strong> ${escapeHtml(v.headline)}</p>
           <p style="font-size:0.84rem; margin-top:6px; color:var(--muted);">${escapeHtml(v.executive_summary)}</p>
         </div>
-      `).join('');
+      `).join('') || '<p style="color:var(--muted); padding:12px;">No resume versions found in vault.</p>';
 
       bindRenderedActions();
     }
 
-    
-    let myChart1 = null;
-    let myChart2 = null;
+    // --- TAB 6: Curated Memory & State Logic ---
 
-    async function loadTableList() {
-        try {
-            const resp = await fetch('/api/tables');
-            if (resp.ok) {
-                const data = await resp.json();
-                const sel = document.getElementById('dbTableSelect');
-                sel.innerHTML = '<option value="">-- Select a Table --</option>' + 
-                    data.tables.map(t => `<option value="${t}">${t}</option>`).join('');
-                if (data.tables.includes('agent_episodic_memories')) {
-                    sel.value = 'agent_episodic_memories';
-                    loadTableData();
-                }
-            }
-        } catch (e) {
-            console.error("Failed to load tables", e);
+    async function loadCuratedTables() {
+      try {
+        const resp = await fetch('/api/tables');
+        if (!resp.ok) return;
+        const data = await resp.json();
+        const sel = document.getElementById('curatedTableSelect');
+        const catalog = data.catalog || [];
+        if (!catalog.length && data.tables) {
+          sel.innerHTML = '<option value="">-- Select Curated Table --</option>' +
+            data.tables.map(t => `<option value="${t}">${t}</option>`).join('');
+        } else {
+          sel.innerHTML = '<option value="">-- Select Curated Table --</option>' +
+            catalog.map(item => `<option value="${item.table_name}">${escapeHtml(item.display_name)}</option>`).join('');
         }
+        if (data.tables && data.tables.includes('agent_episodic_memories')) {
+          sel.value = 'agent_episodic_memories';
+        }
+      } catch (err) {
+        console.error('Failed to load table list', err);
+      }
     }
 
-    async function loadTableData() {
-        const table = document.getElementById('dbTableSelect').value;
-        if (!table) return;
-        try {
-            const resp = await fetch(`/api/table_data/${table}`);
-            if (resp.ok) {
-                const data = await resp.json();
-                renderDataTable(data.columns, data.data);
-                renderDataCharts(table, data.columns, data.data);
-            }
-        } catch(e) {
-            console.error("Failed to load table data", e);
-            document.getElementById('dataTableContainer').innerHTML = '<p style="color:var(--rose);">Error loading data</p>';
+    async function loadCuratedTableData() {
+      const sel = document.getElementById('curatedTableSelect');
+      const table = sel ? sel.value : '';
+      if (!table) return;
+
+      const status = document.getElementById('curatedStatusSelect')?.value || '';
+      const search = document.getElementById('curatedSearchInput')?.value || '';
+      const limit = document.getElementById('curatedLimitSelect')?.value || '50';
+
+      const params = new URLSearchParams();
+      if (status) params.append('status', status);
+      if (search) params.append('search', search);
+      if (limit) params.append('limit', limit);
+
+      const titleEl = document.getElementById('curatedTableTitle');
+      const metaEl = document.getElementById('curatedTableMeta');
+      const container = document.getElementById('curatedTableContainer');
+
+      try {
+        const resp = await fetch(`/api/table_data/${encodeURIComponent(table)}?${params.toString()}`);
+        if (!resp.ok) {
+          const errData = await resp.json();
+          container.innerHTML = `<p style="color:var(--rose); padding:16px;">${escapeHtml(errData.error || 'Failed to load records')}</p>`;
+          return;
         }
+        const result = await resp.json();
+        titleEl.textContent = result.display_name || table;
+        metaEl.textContent = `Showing ${result.count || 0} of ${result.total || 0} records (Limit: ${result.limit || 50})`;
+        renderDataTable(result.columns || [], result.data || []);
+        renderDataCharts(table, result.data || []);
+      } catch (err) {
+        container.innerHTML = `<p style="color:var(--rose); padding:16px;">Network error loading curated records.</p>`;
+      }
+    }
+
+    function formatColumnHeader(col) {
+      const words = col.split('_');
+      return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
     }
 
     function renderDataTable(columns, rows) {
-        if (!rows.length) {
-            document.getElementById('dataTableContainer').innerHTML = '<p style="padding:10px; color:var(--muted);">Table is empty.</p>';
-            return;
-        }
-        let html = '<table class="data-table"><thead><tr>';
-        columns.forEach(c => html += `<th>${escapeHtml(c)}</th>`);
-        html += '</tr></thead><tbody>';
-        rows.slice(0, 100).forEach(r => {
-            html += '<tr>';
-            columns.forEach(c => {
-                let val = r[c];
-                if (typeof val === 'object' && val !== null) val = JSON.stringify(val);
-                if (String(val).length > 50) val = String(val).substring(0, 50) + '...';
-                html += `<td>${escapeHtml(val)}</td>`;
-            });
-            html += '</tr>';
+      const container = document.getElementById('curatedTableContainer');
+      if (!rows.length) {
+        container.innerHTML = '<p style="padding:16px; color:var(--muted);">No matching operational records found.</p>';
+        return;
+      }
+      let html = '<table class="data-table"><thead><tr>';
+      columns.forEach(c => {
+        html += `<th scope="col">${escapeHtml(formatColumnHeader(c))}</th>`;
+      });
+      html += '</tr></thead><tbody>';
+
+      rows.forEach(row => {
+        html += '<tr>';
+        columns.forEach(col => {
+          let val = row[col];
+          if (val === null || val === undefined || val === '') {
+            html += '<td style="color:var(--muted);">-</td>';
+          } else if (col === 'lifecycle_stage' || col === 'to_stage' || col === 'from_stage') {
+            const stageColor = val === 'APPROVED' ? 'var(--emerald)' : val === 'APPLIED' ? 'var(--amber)' : val === 'DEAD_ZONE' ? 'var(--rose)' : 'var(--accent)';
+            html += `<td><span style="display:inline-block; padding:2px 8px; border-radius:4px; font-weight:600; font-size:0.75rem; background:rgba(255,255,255,0.06); border:1px solid ${stageColor}; color:${stageColor};">${escapeHtml(val)}</span></td>`;
+          } else if (col === 'work_location_status') {
+            const locColor = val === 'VERIFIED' ? 'var(--emerald)' : val === 'INELIGIBLE' ? 'var(--rose)' : 'var(--amber)';
+            html += `<td><span style="display:inline-block; padding:2px 8px; border-radius:4px; font-weight:600; font-size:0.75rem; border:1px solid ${locColor}; color:${locColor};">${escapeHtml(val)}</span></td>`;
+          } else if (col === 'status') {
+            const statusColor = val === 'SUCCESS' ? 'var(--emerald)' : val === 'RUNNING' ? 'var(--accent)' : val === 'FAILED' ? 'var(--rose)' : 'var(--muted)';
+            html += `<td><span style="font-weight:600; color:${statusColor};">${escapeHtml(val)}</span></td>`;
+          } else {
+            let strVal = String(val);
+            if (strVal.length > 60) {
+              strVal = strVal.substring(0, 60) + '...';
+            }
+            html += `<td>${escapeHtml(strVal)}</td>`;
+          }
         });
-        html += '</tbody></table>';
-        if (rows.length > 100) html += `<p style="padding:10px; font-size:0.8rem; color:var(--muted);">Showing top 100 of ${rows.length} rows.</p>`;
-        document.getElementById('dataTableContainer').innerHTML = html;
+        html += '</tr>';
+      });
+
+      html += '</tbody></table>';
+      container.innerHTML = html;
     }
 
-    function renderDataCharts(tableName, columns, rows) {
-        if (myChart1) myChart1.destroy();
-        if (myChart2) myChart2.destroy();
-        
-        const ctx1 = document.getElementById('dataChart1').getContext('2d');
-        const ctx2 = document.getElementById('dataChart2').getContext('2d');
-        
-        Chart.defaults.color = '#94a3b8';
-        Chart.defaults.font.family = 'Inter';
+    function renderDataCharts(tableName, rows) {
+      if (typeof Chart === 'undefined') {
+        document.getElementById('chartContainer1').innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:20%;">Chart rendering offline.</p>';
+        document.getElementById('chartContainer2').innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:20%;">Chart rendering offline.</p>';
+        return;
+      }
+      if (myChart1) { myChart1.destroy(); myChart1 = null; }
+      if (myChart2) { myChart2.destroy(); myChart2 = null; }
 
-        if (tableName === 'agent_episodic_memories') {
-            // Chart 1: Lifecycle Stage Distribution
-            const stages = {};
-            rows.forEach(r => { stages[r.lifecycle_stage] = (stages[r.lifecycle_stage] || 0) + 1; });
-            myChart1 = new Chart(ctx1, {
-                type: 'doughnut',
-                data: {
-                    labels: Object.keys(stages),
-                    datasets: [{
-                        data: Object.values(stages),
-                        backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e', '#8b5cf6', '#34d399']
-                    }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Jobs by Lifecycle Stage', color: '#fff' } } }
-            });
+      const canvas1 = document.getElementById('dataChart1');
+      const canvas2 = document.getElementById('dataChart2');
+      if (!canvas1 || !canvas2) return;
+      const ctx1 = canvas1.getContext('2d');
+      const ctx2 = canvas2.getContext('2d');
 
-            // Chart 2: Match Score Distribution
-            const scores = rows.map(r => r.match_score).filter(s => s != null);
-            const bins = {'90-100':0, '80-89':0, '70-79':0, '<70':0};
-            scores.forEach(s => {
-                if(s >= 90) bins['90-100']++;
-                else if (s >= 80) bins['80-89']++;
-                else if (s >= 70) bins['70-79']++;
-                else bins['<70']++;
-            });
-            myChart2 = new Chart(ctx2, {
-                type: 'bar',
-                data: {
-                    labels: Object.keys(bins),
-                    datasets: [{
-                        label: 'Number of Roles',
-                        data: Object.values(bins),
-                        backgroundColor: '#0ea5e9'
-                    }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Match Score Distribution', color: '#fff' } } }
-            });
-        } else if (tableName === 'application_timeline_events') {
-            const stages = {};
-            rows.forEach(r => { stages[r.to_stage] = (stages[r.to_stage] || 0) + 1; });
-            myChart1 = new Chart(ctx1, {
-                type: 'pie',
-                data: {
-                    labels: Object.keys(stages),
-                    datasets: [{ data: Object.values(stages), backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e'] }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Timeline Events by Target Stage', color: '#fff' } } }
-            });
-            
-            const dates = {};
-            rows.forEach(r => { 
-                const d = String(r.event_at).substring(0, 10);
-                if (d && d !== 'null') dates[d] = (dates[d] || 0) + 1; 
-            });
-            myChart2 = new Chart(ctx2, {
-                type: 'line',
-                data: {
-                    labels: Object.keys(dates).sort(),
-                    datasets: [{ label: 'Events', data: Object.keys(dates).sort().map(k=>dates[k]), borderColor: '#10b981', tension: 0.1 }]
-                },
-                options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: 'Events Over Time', color: '#fff' } } }
-            });
-        } else {
-            // Generic visual
-            document.getElementById('dataChart1').parentElement.innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:40%;">Auto-charting not configured for this table.</p>';
-            document.getElementById('dataChart2').parentElement.innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:40%;">Auto-charting not configured for this table.</p>';
-        }
+      Chart.defaults.color = '#94a3b8';
+      Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+
+      if (tableName === 'agent_episodic_memories') {
+        const stages = {};
+        rows.forEach(r => {
+          const st = r.lifecycle_stage || 'UNKNOWN';
+          stages[st] = (stages[st] || 0) + 1;
+        });
+        myChart1 = new Chart(ctx1, {
+          type: 'doughnut',
+          data: {
+            labels: Object.keys(stages),
+            datasets: [{
+              data: Object.values(stages),
+              backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e', '#8b5cf6', '#34d399']
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Jobs by Lifecycle Stage', color: '#fff' }
+            }
+          }
+        });
+
+        const bins = { '90-100': 0, '80-89': 0, '70-79': 0, '<70': 0 };
+        rows.forEach(r => {
+          const s = Number(r.match_score);
+          if (s >= 90) bins['90-100']++;
+          else if (s >= 80) bins['80-89']++;
+          else if (s >= 70) bins['70-79']++;
+          else if (!isNaN(s)) bins['<70']++;
+        });
+        myChart2 = new Chart(ctx2, {
+          type: 'bar',
+          data: {
+            labels: Object.keys(bins),
+            datasets: [{
+              label: 'Opportunities',
+              data: Object.values(bins),
+              backgroundColor: '#0ea5e9'
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Match Score Distribution', color: '#fff' }
+            }
+          }
+        });
+      } else if (tableName === 'application_timeline_events') {
+        const stages = {};
+        rows.forEach(r => {
+          const st = r.to_stage || 'UNKNOWN';
+          stages[st] = (stages[st] || 0) + 1;
+        });
+        myChart1 = new Chart(ctx1, {
+          type: 'pie',
+          data: {
+            labels: Object.keys(stages),
+            datasets: [{
+              data: Object.values(stages),
+              backgroundColor: ['#0ea5e9', '#10b981', '#f59e0b', '#f43f5e', '#8b5cf6']
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Timeline Events by Target Stage', color: '#fff' }
+            }
+          }
+        });
+
+        const dates = {};
+        rows.forEach(r => {
+          const d = String(r.event_at || '').substring(0, 10);
+          if (d && d !== 'null' && d !== 'undefined') {
+            dates[d] = (dates[d] || 0) + 1;
+          }
+        });
+        const sortedDates = Object.keys(dates).sort();
+        myChart2 = new Chart(ctx2, {
+          type: 'line',
+          data: {
+            labels: sortedDates,
+            datasets: [{
+              label: 'Transition Count',
+              data: sortedDates.map(d => dates[d]),
+              borderColor: '#10b981',
+              backgroundColor: 'rgba(16, 185, 129, 0.1)',
+              tension: 0.2,
+              fill: true
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Stage Transitions Over Time', color: '#fff' }
+            }
+          }
+        });
+      } else if (tableName === 'agent_runs') {
+        const statuses = {};
+        rows.forEach(r => {
+          const st = r.status || 'UNKNOWN';
+          statuses[st] = (statuses[st] || 0) + 1;
+        });
+        myChart1 = new Chart(ctx1, {
+          type: 'doughnut',
+          data: {
+            labels: Object.keys(statuses),
+            datasets: [{
+              data: Object.values(statuses),
+              backgroundColor: ['#10b981', '#0ea5e9', '#f43f5e', '#f59e0b']
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Agent Run Statuses', color: '#fff' }
+            }
+          }
+        });
+
+        const workflows = {};
+        rows.forEach(r => {
+          const wf = r.workflow || 'UNKNOWN';
+          workflows[wf] = (workflows[wf] || 0) + 1;
+        });
+        myChart2 = new Chart(ctx2, {
+          type: 'bar',
+          data: {
+            labels: Object.keys(workflows),
+            datasets: [{
+              label: 'Runs',
+              data: Object.values(workflows),
+              backgroundColor: '#8b5cf6'
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Runs by Workflow', color: '#fff' }
+            }
+          }
+        });
+      } else {
+        const dates = {};
+        rows.forEach(r => {
+          const d = String(r.applied_at || '').substring(0, 10);
+          if (d && d !== 'null' && d !== 'undefined') {
+            dates[d] = (dates[d] || 0) + 1;
+          }
+        });
+        const sortedDates = Object.keys(dates).sort();
+        myChart1 = new Chart(ctx1, {
+          type: 'bar',
+          data: {
+            labels: sortedDates.length ? sortedDates : ['Migrations'],
+            datasets: [{
+              label: 'Applied Migrations',
+              data: sortedDates.length ? sortedDates.map(d => dates[d]) : [rows.length],
+              backgroundColor: '#0ea5e9'
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: { display: true, text: 'Migration Timeline', color: '#fff' }
+            }
+          }
+        });
+        document.getElementById('chartContainer2').innerHTML = '<p style="color:var(--muted); text-align:center; padding-top:20%;">Single chart view for schema migrations.</p>';
+      }
     }
 
-    loadTableList();
+    // Initial boot
+    loadCuratedTables();
     loadState().then(() => {
       runTaxSimulator();
     });

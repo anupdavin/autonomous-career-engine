@@ -29,3 +29,13 @@ appfire_cover_note.txt
 
 # Browser automation screenshots
 *.png
+
+# Compiled binaries and archives
+*.exe
+*.zip
+
+# Temporary files, scratch scripts, and vendor checkouts
+vendor/
+tmp/
+scratch*.py
+client_portal/*.txt

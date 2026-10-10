@@ -5,8 +5,10 @@ import math
 import re
 import sqlite3
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from agent_system.migrations import ensure_schema_current
 from config import SETTINGS
 from guardrails import sanitize_no_emdashes
 from resume_vault import TailoredResumeVault
@@ -54,25 +56,36 @@ class OracleAIMemoryManager:
     Versioned Resume Vault linking, and India B2B/EOR Salary & Taxation enrichment.
     """
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        db_path: Optional[Path] = None,
+        local_conn: Optional[sqlite3.Connection] = None,
+    ) -> None:
         self.config = SETTINGS.oracle
-        self.profile = json.loads(SETTINGS.profile_path.read_text(encoding="utf-8"))
+        if SETTINGS.profile_path.exists():
+            self.profile = json.loads(SETTINGS.profile_path.read_text(encoding="utf-8"))
+        else:
+            self.profile = {}
         self.oracle_conn = None
-        if self.config.is_cloud_configured and oracledb is not None:
-            try:
-                connect_kwargs: Dict[str, Any] = {
-                    "user": self.config.user,
-                    "password": self.config.password,
-                    "dsn": self.config.dsn,
-                }
-                if self.config.wallet_dir:
-                    connect_kwargs["config_dir"] = self.config.wallet_dir
-                    connect_kwargs["wallet_location"] = self.config.wallet_dir
-                self.oracle_conn = oracledb.connect(**connect_kwargs)
-            except Exception as exc:
-                print(f"[OracleAI] Cloud connection unavailable ({exc}); using local mirror.")
+        if local_conn is not None:
+            self.local_conn = local_conn
+        else:
+            target_db = db_path if db_path is not None else self.config.local_fallback_db
+            if self.config.is_cloud_configured and oracledb is not None and db_path is None:
+                try:
+                    connect_kwargs: Dict[str, Any] = {
+                        "user": self.config.user,
+                        "password": self.config.password,
+                        "dsn": self.config.dsn,
+                    }
+                    if self.config.wallet_dir:
+                        connect_kwargs["config_dir"] = self.config.wallet_dir
+                        connect_kwargs["wallet_location"] = self.config.wallet_dir
+                    self.oracle_conn = oracledb.connect(**connect_kwargs)
+                except Exception as exc:
+                    print(f"[OracleAI] Cloud connection unavailable ({exc}); using local mirror.")
 
-        self.local_conn = sqlite3.connect(str(self.config.local_fallback_db))
+            self.local_conn = sqlite3.connect(str(target_db), check_same_thread=False)
         self.local_conn.row_factory = sqlite3.Row
         self._init_storage()
         self.vault = TailoredResumeVault(self.local_conn)
@@ -84,107 +97,8 @@ class OracleAIMemoryManager:
         return "Oracle AI Database 26ai" if self.oracle_conn else "SQLite Local Mirror"
 
     def _init_storage(self) -> None:
+        ensure_schema_current(self.local_conn)
         cur = self.local_conn.cursor()
-        cur.executescript(
-            """
-            CREATE TABLE IF NOT EXISTS agent_episodic_memories (
-                job_id TEXT PRIMARY KEY,
-                title TEXT,
-                company TEXT,
-                url TEXT,
-                decision TEXT,
-                match_score INTEGER,
-                critic_score INTEGER,
-                tailored_pitch TEXT,
-                feedback_reason TEXT,
-                embedding_json TEXT,
-                created_at TEXT
-            );
-
-            CREATE TABLE IF NOT EXISTS consolidated_memory_rules (
-                rule_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                rule_type TEXT,
-                rule_text TEXT UNIQUE,
-                confidence REAL,
-                source_count INTEGER DEFAULT 1,
-                updated_at TEXT
-            );
-
-            CREATE TABLE IF NOT EXISTS human_feedback_events (
-                feedback_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                job_id TEXT NOT NULL,
-                decision TEXT NOT NULL,
-                reason TEXT NOT NULL,
-                source TEXT NOT NULL,
-                created_at TEXT NOT NULL
-            );
-
-            CREATE TABLE IF NOT EXISTS kg_vertices (
-                vertex_id TEXT PRIMARY KEY,
-                vertex_type TEXT,
-                name TEXT,
-                metadata_json TEXT
-            );
-
-            CREATE TABLE IF NOT EXISTS kg_edges (
-                edge_id TEXT PRIMARY KEY,
-                source_id TEXT,
-                target_id TEXT,
-                relation TEXT
-            );
-
-            CREATE TABLE IF NOT EXISTS application_timeline_events (
-                event_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                job_id TEXT,
-                from_stage TEXT,
-                to_stage TEXT,
-                note TEXT,
-                event_at TEXT
-            );
-            """
-        )
-        # Ensure extended CRM columns exist on agent_episodic_memories
-        crm_columns = [
-            ("lifecycle_stage", "TEXT DEFAULT 'SHORTLISTED'"),
-            ("source_platform", "TEXT DEFAULT 'Live Multi-Tier Feed'"),
-            ("engagement_type", "TEXT DEFAULT 'GLOBAL_B2B_CONTRACT'"),
-            ("engagement_label", "TEXT DEFAULT 'Global B2B Contract'"),
-            ("salary_range_display", "TEXT DEFAULT '$70k - $95k USD/yr'"),
-            ("primary_monthly_in_hand_inr", "INTEGER DEFAULT 485000"),
-            ("b2b_monthly_in_hand_inr", "INTEGER DEFAULT 485000"),
-            ("eor_monthly_in_hand_inr", "INTEGER DEFAULT 395000"),
-            ("effective_tax_pct", "REAL DEFAULT 9.2"),
-            ("tax_summary", "TEXT DEFAULT ''"),
-            ("resume_version_id", "TEXT DEFAULT 'v1.0-master-cloud-ai'"),
-            ("applied_at", "TEXT DEFAULT ''"),
-            ("next_followup_due_at", "TEXT DEFAULT ''"),
-            ("followup_count", "INTEGER DEFAULT 0"),
-            ("score_model_version", "TEXT DEFAULT 'legacy-v1'"),
-            ("ranker_decision", "TEXT DEFAULT ''"),
-            ("closure_reason", "TEXT DEFAULT ''"),
-            ("acknowledged_at", "TEXT DEFAULT ''"),
-            ("submission_evidence_at", "TEXT DEFAULT ''"),
-            ("submission_evidence_source", "TEXT DEFAULT ''"),
-            ("acknowledgement_evidence_source", "TEXT DEFAULT ''"),
-            ("work_location_status", "TEXT DEFAULT 'NEEDS_REVIEW'"),
-            ("work_location_evidence", "TEXT DEFAULT ''"),
-        ]
-        existing_cols = {
-            r[1] for r in cur.execute("PRAGMA table_info(agent_episodic_memories)").fetchall()
-        }
-        for col_name, col_def in crm_columns:
-            if col_name not in existing_cols:
-                cur.execute(f"ALTER TABLE agent_episodic_memories ADD COLUMN {col_name} {col_def}")
-        if "ranker_decision" not in existing_cols:
-            cur.execute(
-                """
-                UPDATE agent_episodic_memories
-                SET ranker_decision = decision
-                WHERE COALESCE(ranker_decision, '') = ''
-                  AND decision IN ('RECOMMENDED', 'SKIPPED_LOW_MATCH')
-                """
-            )
-
         now = datetime.now(timezone.utc).isoformat()
         for db_rule in self.profile.get("dealbreakers", []):
             cur.execute(
@@ -454,7 +368,8 @@ class OracleAIMemoryManager:
         cur = self.local_conn.cursor()
         rows = cur.execute(
             """
-            SELECT job.*, feedback.decision AS human_decision, feedback.reason AS human_reason
+            SELECT job.*, feedback.decision AS human_decision, feedback.reason AS human_reason,
+                   feedback.source AS human_source, feedback.created_at AS human_feedback_at
             FROM agent_episodic_memories AS job
             JOIN (
                 SELECT job_id, MAX(feedback_id) AS latest_feedback_id
@@ -475,6 +390,7 @@ class OracleAIMemoryManager:
                 continue
             emb = json.loads(r["embedding_json"])
             sim = cosine_similarity(query_vec, emb)
+            col_keys = r.keys()
             scored.append(
                 {
                     "job_id": r["job_id"],
@@ -484,10 +400,114 @@ class OracleAIMemoryManager:
                     "match_score": r["match_score"],
                     "feedback_reason": human_note,
                     "similarity": round(sim, 3),
+                    "lifecycle_stage": r["lifecycle_stage"] if "lifecycle_stage" in col_keys else "SHORTLISTED",
+                    "work_location_status": r["work_location_status"] if "work_location_status" in col_keys else "NEEDS_REVIEW",
+                    "source_platform": r["source_platform"] if "source_platform" in col_keys else "",
+                    "feedback_source": r["human_source"] if "human_source" in col_keys else "",
+                    "feedback_created_at": r["human_feedback_at"] if "human_feedback_at" in col_keys else "",
+                    "submission_evidence_source": r["submission_evidence_source"] if "submission_evidence_source" in col_keys else "",
+                    "raw_listing_source": r["raw_listing_source"] if "raw_listing_source" in col_keys else "",
                 }
             )
         scored.sort(key=lambda x: x["similarity"], reverse=True)
         return scored[:top_k]
+
+    def get_memory_provenance(self, job_id: str) -> Optional[Dict[str, Any]]:
+        """
+        Retrieves full audit and provenance details for a specific episodic memory.
+        Combines job metadata, work location evidence, submission evidence,
+        complete human feedback audit events, and timeline transitions.
+        """
+        cur = self.local_conn.cursor()
+        cols = {r[1] for r in cur.execute("PRAGMA table_info(agent_episodic_memories)").fetchall()}
+        row = cur.execute(
+            "SELECT * FROM agent_episodic_memories WHERE job_id = ?",
+            (job_id,),
+        ).fetchone()
+        if not row:
+            return None
+
+        feedback_rows = cur.execute(
+            """
+            SELECT feedback_id, decision, reason, source, created_at
+            FROM human_feedback_events
+            WHERE job_id = ?
+            ORDER BY feedback_id ASC
+            """,
+            (job_id,),
+        ).fetchall()
+
+        timeline_rows = cur.execute(
+            """
+            SELECT event_id, from_stage, to_stage, note, event_at
+            FROM application_timeline_events
+            WHERE job_id = ?
+            ORDER BY event_id ASC
+            """,
+            (job_id,),
+        ).fetchall()
+
+        source_provenance = {}
+        if "source_provenance_json" in cols and row["source_provenance_json"]:
+            try:
+                source_provenance = json.loads(row["source_provenance_json"])
+            except (json.JSONDecodeError, TypeError):
+                source_provenance = {}
+
+        return {
+            "job_id": row["job_id"],
+            "title": row["title"],
+            "company": row["company"],
+            "url": row["url"],
+            "source_platform": row["source_platform"] if "source_platform" in cols else "",
+            "raw_listing_source": row["raw_listing_source"] if "raw_listing_source" in cols else "",
+            "source_provenance": source_provenance,
+            "lifecycle_stage": row["lifecycle_stage"] if "lifecycle_stage" in cols else "SHORTLISTED",
+            "work_location_status": row["work_location_status"] if "work_location_status" in cols else "NEEDS_REVIEW",
+            "work_location_evidence": row["work_location_evidence"] if "work_location_evidence" in cols else "",
+            "submission_evidence_at": row["submission_evidence_at"] if "submission_evidence_at" in cols else "",
+            "submission_evidence_source": row["submission_evidence_source"] if "submission_evidence_source" in cols else "",
+            "acknowledged_at": row["acknowledged_at"] if "acknowledged_at" in cols else "",
+            "acknowledgement_evidence_source": row["acknowledgement_evidence_source"] if "acknowledgement_evidence_source" in cols else "",
+            "match_score": row["match_score"],
+            "ranker_decision": row["ranker_decision"] if "ranker_decision" in cols else "",
+            "created_at": row["created_at"],
+            "feedback_history": [dict(f) for f in feedback_rows],
+            "timeline_history": [dict(t) for t in timeline_rows],
+        }
+
+    def list_provenance_records(self, limit: int = 50, lifecycle_stage: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        Lists summarized provenance records using the v_episodic_memory_provenance view if available.
+        """
+        cur = self.local_conn.cursor()
+        tables = {r[0] for r in cur.execute("SELECT name FROM sqlite_master WHERE type IN ('table', 'view')").fetchall()}
+        if "v_episodic_memory_provenance" in tables:
+            if lifecycle_stage:
+                rows = cur.execute(
+                    "SELECT * FROM v_episodic_memory_provenance WHERE lifecycle_stage = ? ORDER BY created_at DESC LIMIT ?",
+                    (lifecycle_stage, limit),
+                ).fetchall()
+            else:
+                rows = cur.execute(
+                    "SELECT * FROM v_episodic_memory_provenance ORDER BY created_at DESC LIMIT ?",
+                    (limit,),
+                ).fetchall()
+            return [dict(r) for r in rows]
+
+        if lifecycle_stage:
+            rows = cur.execute(
+                "SELECT job_id, title, company, url, lifecycle_stage, work_location_status, created_at "
+                "FROM agent_episodic_memories WHERE lifecycle_stage = ? ORDER BY created_at DESC LIMIT ?",
+                (lifecycle_stage, limit),
+            ).fetchall()
+        else:
+            rows = cur.execute(
+                "SELECT job_id, title, company, url, lifecycle_stage, work_location_status, created_at "
+                "FROM agent_episodic_memories ORDER BY created_at DESC LIMIT ?",
+                (limit,),
+            ).fetchall()
+        return [dict(r) for r in rows]
 
     def is_job_seen(self, job_id: str) -> bool:
         cur = self.local_conn.cursor()
@@ -539,6 +559,8 @@ class OracleAIMemoryManager:
         source_platform: str = "Live Multi-Tier Feed",
         work_location_status: str = "NEEDS_REVIEW",
         work_location_evidence: str = "",
+        raw_listing_source: str = "",
+        source_provenance_json: str = "{}",
     ) -> None:
         clean_title = sanitize_no_emdashes(title)
         clean_comp = sanitize_no_emdashes(company)
@@ -555,98 +577,206 @@ class OracleAIMemoryManager:
         closure_reason = "" if stage == "SHORTLISTED" else f"Auto-Filtered ({match_score}/100): {clean_reason[:120]}"
 
         cur = self.local_conn.cursor()
-        cur.execute(
-            """
-            INSERT INTO agent_episodic_memories
-            (job_id, title, company, url, decision, ranker_decision, match_score, score_model_version, critic_score, tailored_pitch,
-             feedback_reason, embedding_json, created_at, lifecycle_stage, source_platform,
-             engagement_type, engagement_label, salary_range_display, primary_monthly_in_hand_inr,
-             b2b_monthly_in_hand_inr, eor_monthly_in_hand_inr, effective_tax_pct, tax_summary,
-             resume_version_id, closure_reason, work_location_status, work_location_evidence)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ON CONFLICT(job_id) DO UPDATE SET
-                title = excluded.title,
-                company = excluded.company,
-                url = excluded.url,
-                decision = CASE
-                    WHEN EXISTS (
-                        SELECT 1 FROM human_feedback_events
-                        WHERE human_feedback_events.job_id = excluded.job_id
-                    ) THEN agent_episodic_memories.decision
-                    ELSE excluded.decision
-                END,
-                ranker_decision = CASE
-                    WHEN EXISTS (
-                        SELECT 1 FROM human_feedback_events
-                        WHERE human_feedback_events.job_id = excluded.job_id
-                    ) THEN agent_episodic_memories.ranker_decision
-                    ELSE excluded.ranker_decision
-                END,
-                match_score = CASE
-                    WHEN EXISTS (
-                        SELECT 1 FROM human_feedback_events
-                        WHERE human_feedback_events.job_id = excluded.job_id
-                    ) THEN agent_episodic_memories.match_score
-                    ELSE excluded.match_score
-                END,
-                score_model_version = CASE
-                    WHEN EXISTS (
-                        SELECT 1 FROM human_feedback_events
-                        WHERE human_feedback_events.job_id = excluded.job_id
-                    ) THEN agent_episodic_memories.score_model_version
-                    ELSE excluded.score_model_version
-                END,
-                critic_score = excluded.critic_score,
-                tailored_pitch = excluded.tailored_pitch,
-                feedback_reason = CASE
-                    WHEN EXISTS (
-                        SELECT 1 FROM human_feedback_events
-                        WHERE human_feedback_events.job_id = excluded.job_id
-                    ) THEN agent_episodic_memories.feedback_reason
-                    ELSE excluded.feedback_reason
-                END,
-                embedding_json = excluded.embedding_json,
-                created_at = excluded.created_at,
-                source_platform = excluded.source_platform,
-                work_location_status = CASE
-                    WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_status
-                    ELSE agent_episodic_memories.work_location_status
-                END,
-                work_location_evidence = CASE
-                    WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_evidence
-                    ELSE agent_episodic_memories.work_location_evidence
-                END
-            """,
-            (
-                job_id,
-                clean_title,
-                clean_comp,
-                url,
-                decision,
-                decision,
-                match_score,
-                "profile-overlap-v2",
-                critic_score,
-                clean_pitch,
-                clean_reason,
-                json.dumps(vec),
-                now,
-                stage,
-                sanitize_no_emdashes(source_platform),
-                comp_info["engagement_type"],
-                comp_info["engagement_label"],
-                comp_info["salary_range_display"],
-                comp_info["primary_monthly_in_hand_inr"],
-                comp_info["b2b_monthly_in_hand_inr"],
-                comp_info["eor_monthly_in_hand_inr"],
-                comp_info["primary_effective_tax_pct"],
-                comp_info["tax_summary"],
-                ver_id,
-                sanitize_no_emdashes(closure_reason),
-                work_location_status,
-                sanitize_no_emdashes(work_location_evidence),
-            ),
-        )
+        cols = {r[1] for r in cur.execute("PRAGMA table_info(agent_episodic_memories)").fetchall()}
+        has_provenance = "raw_listing_source" in cols and "source_provenance_json" in cols
+
+        if has_provenance:
+            cur.execute(
+                """
+                INSERT INTO agent_episodic_memories
+                (job_id, title, company, url, decision, ranker_decision, match_score, score_model_version, critic_score, tailored_pitch,
+                 feedback_reason, embedding_json, created_at, lifecycle_stage, source_platform,
+                 engagement_type, engagement_label, salary_range_display, primary_monthly_in_hand_inr,
+                 b2b_monthly_in_hand_inr, eor_monthly_in_hand_inr, effective_tax_pct, tax_summary,
+                 resume_version_id, closure_reason, work_location_status, work_location_evidence,
+                 raw_listing_source, source_provenance_json)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(job_id) DO UPDATE SET
+                    title = excluded.title,
+                    company = excluded.company,
+                    url = excluded.url,
+                    decision = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.decision
+                        ELSE excluded.decision
+                    END,
+                    ranker_decision = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.ranker_decision
+                        ELSE excluded.ranker_decision
+                    END,
+                    match_score = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.match_score
+                        ELSE excluded.match_score
+                    END,
+                    score_model_version = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.score_model_version
+                        ELSE excluded.score_model_version
+                    END,
+                    critic_score = excluded.critic_score,
+                    tailored_pitch = excluded.tailored_pitch,
+                    feedback_reason = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.feedback_reason
+                        ELSE excluded.feedback_reason
+                    END,
+                    embedding_json = excluded.embedding_json,
+                    created_at = excluded.created_at,
+                    source_platform = excluded.source_platform,
+                    work_location_status = CASE
+                        WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_status
+                        ELSE agent_episodic_memories.work_location_status
+                    END,
+                    work_location_evidence = CASE
+                        WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_evidence
+                        ELSE agent_episodic_memories.work_location_evidence
+                    END,
+                    raw_listing_source = CASE
+                        WHEN excluded.raw_listing_source != '' THEN excluded.raw_listing_source
+                        ELSE agent_episodic_memories.raw_listing_source
+                    END,
+                    source_provenance_json = CASE
+                        WHEN excluded.source_provenance_json != '{}' THEN excluded.source_provenance_json
+                        ELSE agent_episodic_memories.source_provenance_json
+                    END
+                """,
+                (
+                    job_id,
+                    clean_title,
+                    clean_comp,
+                    url,
+                    decision,
+                    decision,
+                    match_score,
+                    "profile-overlap-v2",
+                    critic_score,
+                    clean_pitch,
+                    clean_reason,
+                    json.dumps(vec),
+                    now,
+                    stage,
+                    sanitize_no_emdashes(source_platform),
+                    comp_info["engagement_type"],
+                    comp_info["engagement_label"],
+                    comp_info["salary_range_display"],
+                    comp_info["primary_monthly_in_hand_inr"],
+                    comp_info["b2b_monthly_in_hand_inr"],
+                    comp_info["eor_monthly_in_hand_inr"],
+                    comp_info["primary_effective_tax_pct"],
+                    comp_info["tax_summary"],
+                    ver_id,
+                    sanitize_no_emdashes(closure_reason),
+                    work_location_status,
+                    sanitize_no_emdashes(work_location_evidence),
+                    sanitize_no_emdashes(raw_listing_source),
+                    source_provenance_json,
+                ),
+            )
+        else:
+            cur.execute(
+                """
+                INSERT INTO agent_episodic_memories
+                (job_id, title, company, url, decision, ranker_decision, match_score, score_model_version, critic_score, tailored_pitch,
+                 feedback_reason, embedding_json, created_at, lifecycle_stage, source_platform,
+                 engagement_type, engagement_label, salary_range_display, primary_monthly_in_hand_inr,
+                 b2b_monthly_in_hand_inr, eor_monthly_in_hand_inr, effective_tax_pct, tax_summary,
+                 resume_version_id, closure_reason, work_location_status, work_location_evidence)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(job_id) DO UPDATE SET
+                    title = excluded.title,
+                    company = excluded.company,
+                    url = excluded.url,
+                    decision = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.decision
+                        ELSE excluded.decision
+                    END,
+                    ranker_decision = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.ranker_decision
+                        ELSE excluded.ranker_decision
+                    END,
+                    match_score = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.match_score
+                        ELSE excluded.match_score
+                    END,
+                    score_model_version = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.score_model_version
+                        ELSE excluded.score_model_version
+                    END,
+                    critic_score = excluded.critic_score,
+                    tailored_pitch = excluded.tailored_pitch,
+                    feedback_reason = CASE
+                        WHEN EXISTS (
+                            SELECT 1 FROM human_feedback_events
+                            WHERE human_feedback_events.job_id = excluded.job_id
+                        ) THEN agent_episodic_memories.feedback_reason
+                        ELSE excluded.feedback_reason
+                    END,
+                    embedding_json = excluded.embedding_json,
+                    created_at = excluded.created_at,
+                    source_platform = excluded.source_platform,
+                    work_location_status = CASE
+                        WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_status
+                        ELSE agent_episodic_memories.work_location_status
+                    END,
+                    work_location_evidence = CASE
+                        WHEN excluded.work_location_status = 'VERIFIED' THEN excluded.work_location_evidence
+                        ELSE agent_episodic_memories.work_location_evidence
+                    END
+                """,
+                (
+                    job_id,
+                    clean_title,
+                    clean_comp,
+                    url,
+                    decision,
+                    decision,
+                    match_score,
+                    "profile-overlap-v2",
+                    critic_score,
+                    clean_pitch,
+                    clean_reason,
+                    json.dumps(vec),
+                    now,
+                    stage,
+                    sanitize_no_emdashes(source_platform),
+                    comp_info["engagement_type"],
+                    comp_info["engagement_label"],
+                    comp_info["salary_range_display"],
+                    comp_info["primary_monthly_in_hand_inr"],
+                    comp_info["b2b_monthly_in_hand_inr"],
+                    comp_info["eor_monthly_in_hand_inr"],
+                    comp_info["primary_effective_tax_pct"],
+                    comp_info["tax_summary"],
+                    ver_id,
+                    sanitize_no_emdashes(closure_reason),
+                    work_location_status,
+                    sanitize_no_emdashes(work_location_evidence),
+                ),
+            )
         self.local_conn.commit()
 
     def update_job_lifecycle_stage(

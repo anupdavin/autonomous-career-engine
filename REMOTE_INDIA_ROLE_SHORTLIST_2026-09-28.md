@@ -46,17 +46,17 @@ All files below are for candidate review only. Resume bodies are clean role-spec
 
 ## Priority leads
 
-The Oportun, Eltropy, and RapidCanvas official listings were reopened on 2026-09-28 and still show active application routes. Eltropy explicitly labels its role 100% remote in India. RapidCanvas and Oportun explicitly identify India as the remote location.
+The Oportun, Eltropy, and RapidCanvas official listings were reopened on 2026-09-28. Oportun was rechecked on 2026-10-04 and still shows an active application route. Eltropy explicitly labels its role 100% remote in India. RapidCanvas and Oportun explicitly identify India as the remote location.
 
 ### 1. Oportun, Senior Software Engineer (R14037)
 
 - **Location:** Remote - India.
 - **Source:** [Official Greenhouse application page](https://job-boards.greenhouse.io/oportun/jobs/4699315005)
 - **Fit:** The posting asks for 7+ years, backend services, Java or a similar language, distributed systems, containers, cloud, and mentoring. The candidate-confirmed profile lists 9+ years, Java, AWS, Kubernetes, distributed systems, and technical leadership.
-- **Current tracker state:** Shortlist review, score 64. The underlying ranker label is preserved as `SKIPPED_LOW_MATCH`.
 - **Current tracker state:** Shortlist review, score 64. The underlying ranker label remains `SKIPPED_LOW_MATCH` and has not been changed.
 - **Prepared materials:** A role-specific resume PDF and plain-text cover note are ready for candidate review.
-- **Form notes:** First and last name, email, phone calling code, phone, current location city, resume, city, state, and country are required. The education fields have no required markers. The cover letter is optional and demographic questions are voluntary.
+- **Form notes (checked 2026-10-04):** The official form is accessible and shows an Apply button. First and last name, email, country calling code, phone, current location city, resume, city, state, and country are required. The education fields have no required markers. The cover letter is optional and demographic questions are voluntary. No salary or written technical screening question is shown.
+- **Resume check:** The role-specific PDF text was checked against the candidate-confirmed work history and profile. No unsupported job, degree, tool, or outcome claims were found.
 - **Submission status:** Not submitted. No Oportun employer receipt exists.
 
 ### 2. Everbridge, Senior Software Engineer - Backend & AI-Enabled
@@ -111,7 +111,8 @@ The Oportun, Eltropy, and RapidCanvas official listings were reopened on 2026-09
 - **Location:** Remote (India) on the role listing, full time.
 - **Source:** [Official Workday listing](https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/Senior-Software-Engineer_R010906)
 - **Fit:** The posting asks for 5+ years, Java, Spring Boot, and backend SDK or framework development. AWS and continuous delivery are preferred. This is a strong technical match to the available profile.
-- **Status:** Conditional. The listing identifies this requisition as Remote (India), but the page also contains a general note about the Pune office hybrid model. Confirm that the remote designation applies to this requisition before applying.
+- **Status (2026-10-04):** The official Workday listing identifies this requisition as Remote (India) and full time, so it meets the remote location requirement. The Pune hybrid note is general office information and does not override this requisition's location field. No application or employer receipt is recorded.
+- **Materials:** Candidate-reviewed master resume is available. A role-specific cover note is prepared at `application_drafts/2026-10-04_sailpoint_senior_software_engineer_java_cover_note.txt` using confirmed experience only.
 
 ### 9. Secfix, Staff Product Engineer (Backend, Java)
 

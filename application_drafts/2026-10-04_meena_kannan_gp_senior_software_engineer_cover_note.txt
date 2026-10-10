@@ -1,0 +1,10 @@
+Hello G-P Hiring Team,
+
+I am a Lead Software Engineer based in Chennai, India, with more than nine years of experience building and operating Java services and cloud platforms. In my current role, I led the modernization of a mission-critical public-sector transit platform, moving a Java monolith onto AWS EKS and introducing Istio mTLS, Kafka Streams, and GitOps deployment practices. At Wolters Kluwer, I built an AI and rules-based billing compliance service with sub-500 ms response time.
+
+My work spans system design, implementation, production reliability, and technical guidance for distributed teams. I have also shipped Spring AI, retrieval-augmented generation, and MCP integrations in production Java systems. G-P's global employment platform and distributed engineering environment fit the kind of large-scale cloud work I have led.
+
+I can work in India without visa sponsorship and am available after a 60-day notice period.
+
+Regards,
+Meena Kannan

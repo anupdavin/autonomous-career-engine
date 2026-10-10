@@ -177,6 +177,9 @@ def _database_summary(path: Path) -> dict[str, Any]:
                 for row in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'").fetchall()
             }
             result: dict[str, Any] = {"available": True, "run_ledger_available": "agent_runs" in tables}
+            if "schema_migrations" in tables:
+                schema_row = conn.execute("SELECT COALESCE(MAX(version), 0) FROM schema_migrations").fetchone()
+                result["schema_version"] = schema_row[0] if schema_row else 0
             result["adaptive_feedback"] = load_ranker_quality_report(conn)
             if "agent_episodic_memories" in tables:
                 columns = {

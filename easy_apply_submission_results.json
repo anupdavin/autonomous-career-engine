@@ -1,5 +1,6 @@
 [
   {
+    "job_id": "ashby_signoz_staff_02",
     "index": 1,
     "platform": "Ashby",
     "company": "SigNoz",
@@ -7,7 +8,9 @@
     "url": "https://jobs.ashbyhq.com/signoz/5ba2b181-0b62-49d9-b092-8e539ee1a7c7/application",
     "timestamp": "2026-09-28T23:12:15Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_healed_signoz_staff.png"
+    "proof": "verified_submission_proofs/ashby_healed_signoz_staff.png",
+    "work_location_status": "NEEDS_REVIEW",
+    "work_location_evidence": "Official application screen lists India but does not state the work mode."
   },
   {
     "index": 2,
@@ -16,8 +19,12 @@
     "title": "Sr Backend Engineer - Platform (India Remote, 40L-70L + Equity)",
     "url": "https://jobs.ashbyhq.com/signoz/e8c0ae83-391b-4c68-be61-ca32392d223f/application",
     "timestamp": "2026-09-28T23:12:30Z",
-    "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_healed_signoz_sr.png"
+    "status": "SUBMITTED_UNVERIFIED",
+    "proof": "verified_submission_proofs/ashby_healed_signoz_sr.png",
+    "previous_status": "CONFIRMED_SUBMITTED",
+    "evidence_review": "The saved screenshot shows the role details page and no employer receipt. The submission status remains unverified.",
+    "work_location_status": "VERIFIED",
+    "work_location_evidence": "Official Ashby listing identifies India and Location Type Remote."
   },
   {
     "index": 3,
@@ -27,7 +34,9 @@
     "url": "https://jobs.ashbyhq.com/Cyberhaven/3ba66ccf-52cc-4f12-be85-22b2b1feb089/application",
     "timestamp": "2026-09-28T23:17:10Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_principal_ai.png"
+    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_principal_ai.png",
+    "work_location_status": "VERIFIED",
+    "work_location_evidence": "Official Ashby listing states Location Type Remote and says the candidate may be based in India or the EU."
   },
   {
     "index": 4,
@@ -37,7 +46,9 @@
     "url": "https://jobs.ashbyhq.com/Cyberhaven/c0861b12-8941-4c79-b700-934828917d76/application",
     "timestamp": "2026-09-28T23:21:40Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_7.png"
+    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_7.png",
+    "work_location_status": "NEEDS_REVIEW",
+    "work_location_evidence": "Official application screen lists Bangalore and EU Remote. India remote eligibility from Chennai is not established."
   },
   {
     "index": 5,
@@ -47,9 +58,12 @@
     "url": "https://jobs.ashbyhq.com/Cyberhaven/1c2d0681-4191-4287-96d6-3996228575c9/application",
     "timestamp": "2026-09-28T23:20:55Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_6.png"
+    "proof": "verified_submission_proofs/ashby_wave2_cyberhaven_6.png",
+    "work_location_status": "VERIFIED",
+    "work_location_evidence": "Official Ashby listing identifies India Remote and Location Type Remote."
   },
   {
+    "job_id": "ashby_junipersquare_03",
     "index": 6,
     "platform": "Ashby",
     "company": "Juniper Square",
@@ -57,7 +71,9 @@
     "url": "https://jobs.ashbyhq.com/junipersquare/715c102f-9464-4890-8116-95e424420996/application",
     "timestamp": "2026-09-28T23:22:30Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_8.png"
+    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_8.png",
+    "work_location_status": "NEEDS_REVIEW",
+    "work_location_evidence": "Receipt screen lists India. Remote work mode for this exact posting ID is not confirmed."
   },
   {
     "index": 7,
@@ -67,7 +83,9 @@
     "url": "https://jobs.ashbyhq.com/junipersquare/b68689b9-e8c8-457b-9764-1573be334ccc/application",
     "timestamp": "2026-09-28T23:18:12Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_staff_data.png"
+    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_staff_data.png",
+    "work_location_status": "INELIGIBLE",
+    "work_location_evidence": "Official application screen lists Americas (USA or Canada), Location Type Remote."
   },
   {
     "index": 8,
@@ -77,19 +95,25 @@
     "url": "https://jobs.ashbyhq.com/junipersquare/36996792-f26c-4821-b03e-387a6a190909/application",
     "timestamp": "2026-09-28T23:23:45Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_9.png"
+    "proof": "verified_submission_proofs/ashby_wave2_junipersquare_9.png",
+    "work_location_status": "NEEDS_REVIEW",
+    "work_location_evidence": "Official application screen lists India. Remote work mode for this exact posting ID is not confirmed."
   },
   {
+    "job_id": "ashby_oscilar_java_01",
     "index": 9,
     "platform": "Ashby",
     "company": "Oscilar",
-    "title": "Sr./Staff Developer (Remote - India)",
+    "title": "Sr./Staff JavaScript Developer - Web SDK (Brazil/Canada/UK/Poland/India)",
     "url": "https://jobs.ashbyhq.com/oscilar/fa4d5eac-a03f-4996-9419-4b3c997b6f87/application",
     "timestamp": "2026-09-28T23:12:45Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "verified_submission_proofs/ashby_healed_oscilar_india.png"
+    "proof": "verified_submission_proofs/ashby_healed_oscilar_india.png",
+    "work_location_status": "VERIFIED",
+    "work_location_evidence": "Official Ashby listing identifies Remote - India and Location Type Remote."
   },
   {
+    "job_id": "gh_rem_elastic_7447426",
     "index": 10,
     "platform": "Greenhouse",
     "company": "Elastic",
@@ -97,6 +121,8 @@
     "url": "https://job-boards.greenhouse.io/elastic/jobs/7447426",
     "timestamp": "2026-09-27T13:30:00Z",
     "status": "CONFIRMED_SUBMITTED",
-    "proof": "greenhouse_submit_state.png"
+    "proof": "greenhouse_submit_state.png",
+    "work_location_status": "VERIFIED",
+    "work_location_evidence": "Previously verified from the official Elastic India remote listing."
   }
 ]

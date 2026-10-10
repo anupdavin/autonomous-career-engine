@@ -79,6 +79,7 @@
     "code_graph": "architecture/repo_graph.json",
     "run_history": "oracle_ai_local_mirror.db:agent_runs",
     "ranking_feedback": "oracle_ai_local_mirror.db:human_feedback_events",
+    "schema_migrations": "oracle_ai_local_mirror.db:schema_migrations",
     "candidate_fact_review": "candidate_fact_review.json"
   },
   "evaluation": {
