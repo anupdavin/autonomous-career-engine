@@ -583,3 +583,51 @@ Hours/terms: Core timezone, overlap, weekly hours and on-call unknown. Generous 
 Questions: Confirm active exact Ashby requisition and direct application URL; SG versus India employee/EOR/B2B support; whether Ukraine/Europe labels are hard restrictions; applicable pay/currency and location adjustment; core hours/on-call, leave and payment/FX/notice terms.
 
 Verification: 18 October 2026: employer-attributed DOU role accessible with full description, no closed marker. Employer website links Ashby, which returned JS-only; posting API inaccessible through research tool. Specific ATS requisition, direct ATS application URL and live intake unverified. DOU is role exploration link, not verified direct application form.
+
+## New leads checked 19 October 2026
+
+Delivery pending; no applications or contacts. Neither lead has verified live intake.
+
+### Capgemini: Backend Software Engineer / Senior Backend Software Engineer (Java)
+
+[Role](https://careers.capgemini.com/job/Singapore-Backend-Software-Engineer-Senior-Backend-Software-Engineer-(Java)/1447959833/). Ref: 578348; site ID1447959833. Posted: 15 October 2026, official page. Priority tier1.
+
+Location/type: Singapore, SG. Singapore work location supported; onsite/hybrid/client attendance unspecified. Not confirmed cross-border remote.. Permanent.
+
+Eligibility: Singapore location confirmed, candidate-specific work rights and sponsorship unknown. Do not assume current employment pass transfers or remote-from-India eligibility.
+
+Pay: No numeric compensation published. Applicable amount, currency, period and cash/bonus/equity split unknown. No SGD annual comparison or income uplift established.
+
+Upside: Career-growth candidate (assessment), contingent on meaningful architecture ownership and grade; compensation to establish. Meena should screen againstSGD12k/month target, not assume advancement fromlead.
+
+Resume: Senior Java backend/secure integrations. Use senior backend/payments resume. Lead with verified Java/Spring, OAuth2/mTLS, Kafka, SQL, cloud deployment and production troubleshooting. Prepare bounded-concurrency/idempotency example and a real secure API design tradeoff.
+
+Preparation: Prepare concurrency/performance, SpringCloud service resilience, MongoDB/NoSQL depth and concrete security/audit examples. Advertised3-7years is a grade/scope discussion, not automatic exclusion for8+/9+profiles.
+
+Hours/terms: L3 production support explicit. Core hours, rota, out-of-hours/paid on-call and office cadence unknown. Permanent employee vacancy. Salary, bonus, benefits, leave and notice not specified in retrieved role; do not treat40hours self-development peryear as working-hours commitment.
+
+Questions: Is ref578348 funded and accepting applications, and correct application route? Actual client/project and senior/lead grade despite3-7year range? Guaranteed Singapore base and separatebonus/equity, sponsorship, office/client-site attendance, L3 rota/on-call compensation, architecture authority?
+
+Verification: 19 October 2026 Singapore date: complete official description accessible with ref578348, permanent type and posting15Oct. Apply now redirected to careers homepage rather than application form. Continued active intake and valid application route unconfirmed; no closed marker on description.
+
+### Trigyn Technologies, undisclosed bank/data-platform client: Senior Data Engineer, Java/TIBCO EBX master data and analytics
+
+[Role](https://www.trigyn.com/job/senior-data-engineer). Ref: G0826-0045. Posted: Unavailable; requisition digits not treated as posting date. Priority tier2.
+
+Location/type: Remote (Asia). Remote, Asia region stated; specific accepted countries and contracting entities not stated. 4-6 months contract.
+
+Eligibility: Eligibility-unconfirmed SG/India lead. Asia designation supports regional discovery but does not prove SG/India engagement, work rights or internationalB2B. Resolve acceptedcountries, clientpolicy/entity and anytravel oronsite requirement.
+
+Pay: Pay Rate: Open. No numeric rate, currency or billing period published. No annualized revenue or SGD comparison established.
+
+Upside: Career-growth candidate (assessment) for MDMintegration/platform ownership, especiallyAnup. Compensation to establish; shortcontract risk versus currentSGDsalaries. Meena exploratory, subjecttoactualEBX/analytics background andlead scope.
+
+Resume: Java/backend plus TIBCO EBX MDM. Use backend/MDM resume. Show actual EBX customization, Java APIs, SQLServer/Oracle, container modernization, observability and incident diagnosis. Provide verified data-governance outcomes; establish Python/PySpark/PowerBI/Kimball depth without inventing projects.
+
+Preparation: Broad role requires proven MDM, Python/PySpark/SQL pipelines, PowerBI, Kimball dimensional modeling and Databricks familiarity. These are substantive evidence/preparation areas, not assumed inability; EBX experience confirmed forAnup, unconfirmed forMeena. Clarify whether full breadth mandatory or MDM-focused assignment possible.
+
+Hours/terms: Core Asia timezone/client hours, weekly commitment, on-call and travel unknown. 4-6months, exact dates and renewal unconfirmed. Employee/payroll versusB2B, minimum guaranteed billing, paid/unpaidleave, cancellation/notice, payment schedule, currency/FX costs and expenses unknown.
+
+Questions: IsG0826-0045 stillfunded/open and validapplicationroute? Endclient/project? PermanentSG/Indiaremoteaccepted, whichentity and employee/B2B? Rate/currency/period, guaranteedhours/days, fullMDMversusanalytics split, currentEBXexperience requirements, corehours/oncall, duration, renewal/cancellation/notice, paidleave/payment/FX/expenses?
+
+Verification: 19 October 2026 Singapore date: full official role currently search-indexed, with refG0826-0045, Asia remote and4-6months. Direct www page and trailing slash returned502 repeatedly; non-www inaccessible. Live role/apply form not verified. Indexed description provides recruiter resume route, but no contact made. Continued intake requires confirmation.

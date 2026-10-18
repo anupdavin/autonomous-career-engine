@@ -7501,6 +7501,100 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "last_checked": "2026-10-19",
+      "published_compensation": "No numeric compensation published. Applicable amount, currency, period and cash/bonus/equity split unknown. No SGD annual comparison or income uplift established.",
+      "authorization_sponsorship": "Unknown; no personal work authorization inferred.",
+      "sgd_comparison": "Not established; published applicable numeric pay unavailable.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Record delivery only after actual ChatGPT alert."
+      },
+      "job_id": "capgemini-java-backend-578348",
+      "employer": "Capgemini",
+      "title": "Backend Software Engineer / Senior Backend Software Engineer (Java)",
+      "requisition": "578348; site ID1447959833",
+      "url": "https://careers.capgemini.com/job/Singapore-Backend-Software-Engineer-Senior-Backend-Software-Engineer-(Java)/1447959833/",
+      "canonical_url": "https://careers.capgemini.com/job/Singapore-Backend-Software-Engineer-Senior-Backend-Software-Engineer-(Java)/1447959833/",
+      "url_aliases": [],
+      "import_source": "Official Capgemini role and Apply route checked 19 October 2026 Singapore local date",
+      "posted": "15 October 2026, official page",
+      "location": "Singapore, SG",
+      "arrangement": "Singapore work location supported; onsite/hybrid/client attendance unspecified. Not confirmed cross-border remote.",
+      "engagement_type": "Permanent",
+      "eligibility": "Singapore location confirmed, candidate-specific work rights and sponsorship unknown. Do not assume current employment pass transfers or remote-from-India eligibility.",
+      "verification": "19 October 2026 Singapore date: complete official description accessible with ref578348, permanent type and posting15Oct. Apply now redirected to careers homepage rather than application form. Continued active intake and valid application route unconfirmed; no closed marker on description.",
+      "fit": "Java17+, SpringBoot/Cloud, Kafka, secure APIs (OAuth2/JWT/encryption), concurrency/performance, SQL/NoSQL, Docker/Kubernetes, technical leadership and architecture influence. Includes L3 production support and regulatory/audit responsibilities.",
+      "preparation": "Prepare concurrency/performance, SpringCloud service resilience, MongoDB/NoSQL depth and concrete security/audit examples. Advertised3-7years is a grade/scope discussion, not automatic exclusion for8+/9+profiles.",
+      "hours_on_call": "L3 production support explicit. Core hours, rota, out-of-hours/paid on-call and office cadence unknown.",
+      "terms": "Permanent employee vacancy. Salary, bonus, benefits, leave and notice not specified in retrieved role; do not treat40hours self-development peryear as working-hours commitment.",
+      "questions": "Is ref578348 funded and accepting applications, and correct application route? Actual client/project and senior/lead grade despite3-7year range? Guaranteed Singapore base and separatebonus/equity, sponsorship, office/client-site attendance, L3 rota/on-call compensation, architecture authority?",
+      "upside": "Career-growth candidate (assessment), contingent on meaningful architecture ownership and grade; compensation to establish. Meena should screen againstSGD12k/month target, not assume advancement fromlead.",
+      "deduplication_note": "No ref578348/site1447959833 or Capgemini backend project in130canonical ledger or available discovered_global_jobs/prepared_packets exports. Distinct from historical MuleSoft ref499944. LinkedIn4477521385 SeniorJava has not been counted as additional new role pending client/project comparison.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend/secure integrations",
+          "tailoring": "Use senior backend/payments resume. Lead with verified Java/Spring, OAuth2/mTLS, Kafka, SQL, cloud deployment and production troubleshooting. Prepare bounded-concurrency/idempotency example and a real secure API design tradeoff.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/backend/cloud modernization",
+          "tailoring": "Use lead/backend resume. Show real Java21/Spring3, Kafka reliability, Kubernetes/GitOps, mentoring and design reviews. Establish lead-equivalent ownership and L3 burden before heavy preparation.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-19",
+      "published_compensation": "Pay Rate: Open. No numeric rate, currency or billing period published. No annualized revenue or SGD comparison established.",
+      "authorization_sponsorship": "Unknown; no personal work authorization inferred.",
+      "sgd_comparison": "Not established; published applicable numeric pay unavailable.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Record delivery only after actual ChatGPT alert."
+      },
+      "job_id": "trigyn-data-mdm-G0826-0045",
+      "employer": "Trigyn Technologies, undisclosed bank/data-platform client",
+      "title": "Senior Data Engineer, Java/TIBCO EBX master data and analytics",
+      "requisition": "G0826-0045",
+      "url": "https://www.trigyn.com/job/senior-data-engineer",
+      "canonical_url": "https://www.trigyn.com/job/senior-data-engineer",
+      "url_aliases": [],
+      "import_source": "Current indexed official Trigyn role, with failed direct-page checks, 19 October 2026 Singapore local date",
+      "posted": "Unavailable; requisition digits not treated as posting date",
+      "location": "Remote (Asia)",
+      "arrangement": "Remote, Asia region stated; specific accepted countries and contracting entities not stated",
+      "engagement_type": "4-6 months contract",
+      "eligibility": "Eligibility-unconfirmed SG/India lead. Asia designation supports regional discovery but does not prove SG/India engagement, work rights or internationalB2B. Resolve acceptedcountries, clientpolicy/entity and anytravel oronsite requirement.",
+      "verification": "19 October 2026 Singapore date: full official role currently search-indexed, with refG0826-0045, Asia remote and4-6months. Direct www page and trailing slash returned502 repeatedly; non-www inaccessible. Live role/apply form not verified. Indexed description provides recruiter resume route, but no contact made. Continued intake requires confirmation.",
+      "fit": "DevelopJava/TIBCOEBX MDM webapplication and master/reference APIs; bank-wide data consistency, data quality, Azure/AWS data pipelines, SQLServer/Oracle, Terraform and design leadership.",
+      "preparation": "Broad role requires proven MDM, Python/PySpark/SQL pipelines, PowerBI, Kimball dimensional modeling and Databricks familiarity. These are substantive evidence/preparation areas, not assumed inability; EBX experience confirmed forAnup, unconfirmed forMeena. Clarify whether full breadth mandatory or MDM-focused assignment possible.",
+      "hours_on_call": "Core Asia timezone/client hours, weekly commitment, on-call and travel unknown.",
+      "terms": "4-6months, exact dates and renewal unconfirmed. Employee/payroll versusB2B, minimum guaranteed billing, paid/unpaidleave, cancellation/notice, payment schedule, currency/FX costs and expenses unknown.",
+      "questions": "IsG0826-0045 stillfunded/open and validapplicationroute? Endclient/project? PermanentSG/Indiaremoteaccepted, whichentity and employee/B2B? Rate/currency/period, guaranteedhours/days, fullMDMversusanalytics split, currentEBXexperience requirements, corehours/oncall, duration, renewal/cancellation/notice, paidleave/payment/FX/expenses?",
+      "upside": "Career-growth candidate (assessment) for MDMintegration/platform ownership, especiallyAnup. Compensation to establish; shortcontract risk versus currentSGDsalaries. Meena exploratory, subjecttoactualEBX/analytics background andlead scope.",
+      "deduplication_note": "NoTrigyn/refG0826-0045 in130canonicalledger oravailable discovered_global_jobs/prepared_packets exports. Clientundisclosed: checkagainstotherbankMDMconsultingprojects beforeapplication. Completehistorynotclaimed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java/backend plus TIBCO EBX MDM",
+          "tailoring": "Use backend/MDM resume. Show actual EBX customization, Java APIs, SQLServer/Oracle, container modernization, observability and incident diagnosis. Provide verified data-governance outcomes; establish Python/PySpark/PowerBI/Kimball depth without inventing projects.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on lead/data integration/cloud",
+          "tailoring": "Use lead/backend/cloud resume if exploratory screening is worthwhile. Show actual Java/TypeScript services, Terraform/GitOps, SQL and data integrity/design leadership. Establish EBX/MDM and analytics experience; do not imply Anup's EBX background belongs to Meena.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }
