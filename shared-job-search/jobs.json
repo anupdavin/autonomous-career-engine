@@ -6255,10 +6255,10 @@
       "authorization_sponsorship": "Unknown; never infer personal work authorization",
       "posted": "Not published on official page",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current alert; reconcile only after actual delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Reconciled from visible final response and external conversation handoff on 18 October 2026; exact delivery timestamp not inferred"
       },
       "assessments": {
         "anup": {
@@ -6311,10 +6311,10 @@
       "authorization_sponsorship": "Unknown; never infer personal work authorization",
       "posted": "Not published on official page",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current alert; reconcile only after actual delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Reconciled from visible final response and external conversation handoff on 18 October 2026; exact delivery timestamp not inferred"
       },
       "assessments": {
         "anup": {
@@ -6367,10 +6367,10 @@
       "authorization_sponsorship": "Unknown; never infer personal work authorization",
       "posted": "Not published on official page",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current alert; reconcile only after actual delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Reconciled from visible final response and external conversation handoff on 18 October 2026; exact delivery timestamp not inferred"
       },
       "assessments": {
         "anup": {
@@ -6386,6 +6386,126 @@
           "tailoring": "Use lead/backend event-driven and cloud resume. Emphasize Kafka/Kafka Streams, reliability, CI/CD, production diagnosis and secure integrations. Prepare billing-state consistency, retry/notification correctness, rollout gates and authentic technical-lead decisions.",
           "fit_and_preparation": "Java/Spring Boot 3, financial billing-account correctness, GraphQL, Kafka/SQS/RabbitMQ, JPA optimistic locking, safe database migrations, resilience, CI/CD and responsible coding-assistant use. Netflix DGS or Apollo GraphQL clients, MySQL/Aurora JPA migrations, Gradle multi-module, GitLab pipelines, Datadog deployment gates and canary practices. Zuora/DynamoDB/MongoDB are preparation points.",
           "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "binance-exchange-service-9e51f1b1",
+      "employer": "Binance",
+      "title": "Senior Java Developer, Exchange Service",
+      "url": "https://jobs.lever.co/binance/9e51f1b1-031d-4f6d-97db-5081f1a1b940/",
+      "canonical_url": "https://jobs.lever.co/binance/9e51f1b1-031d-4f6d-97db-5081f1a1b940",
+      "url_aliases": [
+        "https://jobs.lever.co/binance/9e51f1b1-031d-4f6d-97db-5081f1a1b940/apply"
+      ],
+      "requisition": "9e51f1b1-031d-4f6d-97db-5081f1a1b940",
+      "location": "Asia / Taiwan, Taipei",
+      "arrangement": "Full-time onsite or remote; also labeled hybrid. Team-dependent work-from-home policy.",
+      "eligibility": "Unconfirmed remote lead: Asia and Taiwan/Taipei listed, no SG/India-specific eligibility observed. Do not infer worldwide work or relocation willingness. If Taiwan attendance/residency is mandatory, blocker from SG/India.",
+      "engagement_type": "Full-time; legal engagement/entity and employee versus contractor mechanism unknown",
+      "published_compensation": "No numeric salary published; competitive salary and company benefits stated. Bonus/equity not specified.",
+      "status_at_last_check": "Official role and live application form accessible; no submission",
+      "verification": "18 October 2026: official Lever role and /apply page opened. Role description, Asia/Taipei location, mixed onsite/remote/hybrid labels, residency question, visa-sponsorship question and submit button visible. No form data entered or submission tested.",
+      "fit": "Core Java/Spring, relational/NoSQL databases, messaging and distributed-system design. Core exchange services, architecture upgrades, refactoring, performance tuning, incident diagnosis and junior mentoring.",
+      "preparation": "MySQL/NoSQL operational depth, JVM/concurrency/performance profiling, trading/fiat gateway/futures/margin/lending context. Establish incident/on-call expectations, not assumed domain expertise.",
+      "questions": "Does this requisition accept remote residence in Singapore or India, or require Taiwan attendance/residence? Employee/EOR/B2B mechanism and location-specific guaranteed base/currency, separate upside, work-pass support, exact core hours, on-call rota/compensation and notice?",
+      "hours_on_call": "Core timezone overlap and on-call unstated; incident troubleshooting is part of duties. Team-specific WFH policy; no Singapore/India schedule confirmed.",
+      "terms": "Full-time label; legal employer, benefits/leave, probation, notice and remote engagement terms unknown.",
+      "upside": "Career-growth candidate (assessment): large-scale exchange systems, performance and architecture work; compensation to establish",
+      "deduplication_note": "Different requisition and responsibilities from recorded Binance Pay/Card Architect, Content Governance and Development Lead. No matching requisition in checked runtime exports or draft paths.",
+      "anup_priority": 1,
+      "meena_priority": 2,
+      "anup_tailoring": "Use senior Java backend/payments resume. Emphasize verified Great Eastern financial-services APIs, OAuth2/mTLS, database work, performance diagnosis and production modernization. Prepare a concrete JVM/concurrency and retry/idempotency discussion; do not invent exchange production experience.",
+      "meena_tailoring": "Use hands-on lead/backend cloud resume. Emphasize Kafka/Kafka Streams, distributed reliability, Java 21/Spring Boot, observability, delivery decisions and mentoring. Prepare incident ownership and cross-team architecture examples with only substantiated outcomes.",
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "freshly_verified_during_import": true,
+      "import_source": "Public web check 18 October 2026; 109 shared records and available runtime JSON exports/application-draft paths compared. Full SQLite history unavailable.",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "Unavailable: no official applicable salary/rate published",
+      "authorization_sponsorship": "Form asks whether sponsorship is needed; availability not promised. Personal rights unknown.",
+      "posted": "Not published or established from official source",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for alert; reconcile only from actual delivered conversation"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior Java backend/payments resume",
+          "tailoring": "Use senior Java backend/payments resume. Emphasize verified Great Eastern financial-services APIs, OAuth2/mTLS, database work, performance diagnosis and production modernization. Prepare a concrete JVM/concurrency and retry/idempotency discussion; do not invent exchange production experience.",
+          "fit_and_preparation": "Core Java/Spring, relational/NoSQL databases, messaging and distributed-system design. Core exchange services, architecture upgrades, refactoring, performance tuning, incident diagnosis and junior mentoring. MySQL/NoSQL operational depth, JVM/concurrency/performance profiling, trading/fiat gateway/futures/margin/lending context. Establish incident/on-call expectations, not assumed domain expertise.",
+          "application_status": "Not recorded; no application or contact"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use hands-on lead/backend cloud resume",
+          "tailoring": "Use hands-on lead/backend cloud resume. Emphasize Kafka/Kafka Streams, distributed reliability, Java 21/Spring Boot, observability, delivery decisions and mentoring. Prepare incident ownership and cross-team architecture examples with only substantiated outcomes.",
+          "fit_and_preparation": "Core Java/Spring, relational/NoSQL databases, messaging and distributed-system design. Core exchange services, architecture upgrades, refactoring, performance tuning, incident diagnosis and junior mentoring. MySQL/NoSQL operational depth, JVM/concurrency/performance profiling, trading/fiat gateway/futures/margin/lending context. Establish incident/on-call expectations, not assumed domain expertise.",
+          "application_status": "Not recorded; no application or contact"
+        }
+      }
+    },
+    {
+      "job_id": "ajaib-staff-principal-backend-BA01EDB717",
+      "employer": "Ajaib",
+      "title": "Staff/Principal Backend Engineer",
+      "url": "https://apply.workable.com/ajaib/j/BA01EDB717",
+      "canonical_url": "https://apply.workable.com/ajaib/j/BA01EDB717",
+      "url_aliases": [],
+      "requisition": "BA01EDB717",
+      "location": "Jakarta, Indonesia / Bangkok, Thailand in ATS header; remote-team introduction mentions India and Southeast Asia",
+      "arrangement": "Conflicting evidence: ATS hybrid header and hybrid benefit versus description of fully remote distributed team. Employer careers page also describes hybrid plus request-based work-from-anywhere.",
+      "eligibility": "Eligibility unconfirmed for this requisition in Singapore/India. General team presence in India/SEA is not confirmation of permanent cross-border remote engagement. Jakarta/Bangkok attendance, residence or authorization if required would be hard blockers without relocation.",
+      "engagement_type": "Full-time according to official indexed ATS description",
+      "published_compensation": "Salary not published in indexed official description. Performance bonus mentioned, amount and conditions unknown; not guaranteed cash. Equity not published.",
+      "status_at_last_check": "Current official indexed role description; live ATS form verification incomplete",
+      "verification": "18 October 2026: official Workable URL reopened but returned no extractable body; full indexed official description retrieved via search. Official employer career page opened and links to Workable; describes hybrid/work-from-anywhere requests. /apply endpoint inaccessible. Active form/status not fully established; no submission.",
+      "source_urls": [
+        "https://apply.workable.com/ajaib/j/BA01EDB717",
+        "https://ajaib.co.id/tentang-kami"
+      ],
+      "fit": "Java/Go accepted, Kafka, Redis, relational/NoSQL query tuning, AWS/GCP and regulated fintech. Cross-team architecture, engineering standards, performance, reliability, security, root-cause investigations and senior-engineer mentoring; stays hands-on for critical components.",
+      "preparation": "Ambitious staff/principal scope: establish sustained multi-team influence, architectural trade-offs, senior mentoring and scale/reliability evidence. Unconfirmed GCP/Go/NoSQL depth are preparation points. Do not infer past staff title or decision authority.",
+      "questions": "Is BA01EDB717 actively accepting applications? Does this exact role allow permanent remote work from SG/India or require Jakarta/Bangkok hybrid attendance? Employment/EOR/B2B entity, authorization, country-specific base/currency, bonus terms, scope/level, core overlap, travel and on-call?",
+      "hours_on_call": "Exact working timezone/core overlap, on-call and travel unknown. General work-from-anywhere is request-based; no permanent country rights implied.",
+      "terms": "Full-time; private insurance, paid time off and performance bonus advertised. Country applicability, local entity, leave amounts, notice and other terms unknown.",
+      "upside": "Career-growth candidate (assessment), ambitious multi-team architecture ownership; compensation to establish",
+      "deduplication_note": "One canonical Ajaib role; possible Techy Recruiter copies should be merged by employer/project and description rather than treated as fresh openings.",
+      "anup_priority": 2,
+      "meena_priority": 1,
+      "anup_tailoring": "Use backend/integration and modernization resume. Lead with secure financial-services integrations, distributed-service design, SQL/performance work, production diagnosis and documented engineering decisions. Establish the breadth of architecture ownership honestly; no invented staff-level authority or metrics.",
+      "meena_tailoring": "Use hands-on technical lead/cloud-native resume. Lead with event-driven platform delivery, Java/Kafka/Kubernetes, reliability/security decisions, mentoring and stakeholder collaboration. Prepare real examples of influence beyond assigned features, labeling AI prototypes and unconfirmed experience accurately.",
+      "last_checked": "2026-10-18",
+      "last_positive_verification": null,
+      "freshly_verified_during_import": false,
+      "import_source": "Public web check 18 October 2026; 109 shared records and available runtime JSON exports/application-draft paths compared. Full SQLite history unavailable.",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "Unavailable: no official applicable salary/rate published",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "posted": "Not published or established from official source",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for alert; reconcile only from actual delivered conversation"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use backend/integration and modernization resume",
+          "tailoring": "Use backend/integration and modernization resume. Lead with secure financial-services integrations, distributed-service design, SQL/performance work, production diagnosis and documented engineering decisions. Establish the breadth of architecture ownership honestly; no invented staff-level authority or metrics.",
+          "fit_and_preparation": "Java/Go accepted, Kafka, Redis, relational/NoSQL query tuning, AWS/GCP and regulated fintech. Cross-team architecture, engineering standards, performance, reliability, security, root-cause investigations and senior-engineer mentoring; stays hands-on for critical components. Ambitious staff/principal scope: establish sustained multi-team influence, architectural trade-offs, senior mentoring and scale/reliability evidence. Unconfirmed GCP/Go/NoSQL depth are preparation points. Do not infer past staff title or decision authority.",
+          "application_status": "Not recorded; no application or contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use hands-on technical lead/cloud-native resume",
+          "tailoring": "Use hands-on technical lead/cloud-native resume. Lead with event-driven platform delivery, Java/Kafka/Kubernetes, reliability/security decisions, mentoring and stakeholder collaboration. Prepare real examples of influence beyond assigned features, labeling AI prototypes and unconfirmed experience accurately.",
+          "fit_and_preparation": "Java/Go accepted, Kafka, Redis, relational/NoSQL query tuning, AWS/GCP and regulated fintech. Cross-team architecture, engineering standards, performance, reliability, security, root-cause investigations and senior-engineer mentoring; stays hands-on for critical components. Ambitious staff/principal scope: establish sustained multi-team influence, architectural trade-offs, senior mentoring and scale/reliability evidence. Unconfirmed GCP/Go/NoSQL depth are preparation points. Do not infer past staff title or decision authority.",
+          "application_status": "Not recorded; no application or contact"
         }
       }
     }
