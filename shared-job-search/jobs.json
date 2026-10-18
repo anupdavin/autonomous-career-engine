@@ -7595,6 +7595,59 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "job_id": "visa-pre-middleware-REF082409W",
+      "employer": "Visa",
+      "title": "Senior Software Engineer - Product Reliability Engineering (Middleware)",
+      "requisition": "REF082409W",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W",
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W",
+      "url_aliases": [
+        "https://www.themuse.com/jobs/visa/senior-software-engineer-product-reliability-engineering-middleware"
+      ],
+      "import_source": "Indexed official Workday requisition plus matching Muse description opened19October2026 Singapore local date",
+      "last_checked": "2026-10-19",
+      "posted": "Official Workday:30+days ago, exact date unavailable. Matching Muse metadata26August2026 not treated as employer-confirmed original posting date.",
+      "location": "SG - Singapore",
+      "arrangement": "Singapore; matching Muse description says hybrid, office-day expectation to be confirmed by hiring manager. Cross-border remote not advertised.",
+      "engagement_type": "Full-time; permanent/fixed-term not established",
+      "eligibility": "Singapore location confirmed, personal authorization/sponsorship unknown. No relocation or India-based engagement assumed.",
+      "published_compensation": "Not published in retrieved exact-requisition descriptions. Applicable Singapore base, currency/period and bonus/equity split unknown. Do not import pay from other Visa geographies.",
+      "sgd_comparison": "No applicable numeric pay; no annual SGD comparison or current-package uplift established.",
+      "verification": "19October2026 Singapore date: official exact-requisition description current in search index, fulltimeSG location. Direct Workday page opened but returned no readable content or application controls; live intake/form unverified. Exactreq Muse description accessible with hybrid statement. No closedmarker retrieved; promising lead not verified submission-ready.",
+      "evidence_urls": [
+        "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W",
+        "https://www.themuse.com/jobs/visa/senior-software-engineer-product-reliability-engineering-middleware"
+      ],
+      "fit": "Production-quality Java/Python/Go engineering for middleware reliability, deployment orchestration/validation/rollback, observability, incident root causes and agentic automation. Jenkins, Terraform/Ansible, Docker/Kubernetes, cloud and Prometheus/Splunk/Grafana. Middleware/eventstreaming pluses include Tomcat, SpringBoot, JBoss, MQ/DataPower, Kafka/Flink/SQS.",
+      "preparation": "Advertised3-5yearprofile despiteSenior title: establish appropriate grade/scope for8+/9+years, not automatic rejection. Prepare code design, Linux/networking, durable rollback and safe LLM-assisted runbook execution/evaluations. Ansible, LangChain/LangGraph, DataPower/MQ/Flink and production-agent experience to establish; productionAI is a plus, do not invent it.",
+      "authorization_sponsorship": "Unknown; current employer pass is not proof of new employer authorization.",
+      "hours_on_call": "On-call rotation explicit; frequency, SG/global coverage, night/weekend load, compensation/timeoff and corehours unknown. Hybrid daycount unconfirmed for exactSGreq; do not substitute Austin3days from anotherrole.",
+      "terms": "Fulltimeemployeelead, pay/benefits/leave/notice and permanent/fixedterm unknown. No B2B/contract mechanism advertised.",
+      "questions": "IsREF082409W accepting applications and correctliveURL? Fundedgrade/scope given3-5years, staff/leadlevel flexibility? Singapore guaranteedbase and separatebonus/equity, sponsorship, hybriddays, oncallfrequency/coverage/pay/timeoff, codingvsoperationaltoil, expectationsforproductionagentdelivery and promotioncriteria?",
+      "upside": "Career-growth candidate (assessment): payment-platform reliability plus real software/agent automation rather than routine operations. Compensation to establish. Movingfromlead may notadvanceMeena unless ownership/grade/package justify it.",
+      "deduplication_note": "NoVisa/REF082409W in132canonicalledger or available discovered_global_jobs/prepared_packets exports. OlderJavaVisa ads and AustinPRE variants not counted. Historicalcoverage incomplete; title/date refresh not new.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Persist delivered event only after actual ChatGPT final."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend platform modernization and reliability",
+          "tailoring": "Use Java/backend/platform resume. Emphasize actual Tomcat/EBX container modernization, AKS/Kubernetes, secure integrations, observability and production diagnosis. Show verified deployment/rollback automation and coding-agent review/test discipline; do not claim productionLangGraph/ML.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/cloud-native reliability and AI application integration",
+          "tailoring": "Use lead/backend/cloud resume. Highlight actual Terraform/GitOps, Kafka/Streams/KEDA, AWS/EKS/ECS, observability, incident decisions and mentoring. Frame SpringAI/RAG/MCP/ClaudeAPI examples as prototypes. Screenoncall, scope and guaranteedpay againstSGD12k/monthtarget.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }
