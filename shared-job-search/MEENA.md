@@ -247,7 +247,7 @@ No SG/India-eligible application is asserted for either lead. Compensation remai
 
 Binance Exchange Service and Ajaib delivery reconciled from the actual ChatGPT final on 18 October 2026. Date-only evidence; no exact time inferred.
 
-## Additional review on 18 October 2026, pending delivery reconciliation
+## Additional review on 18 October 2026, delivery reconciled
 
 Salary unpublished for all four. Application workflow verification is incomplete as described. No application or contact made.
 
@@ -306,3 +306,70 @@ Salary unpublished for all four. Application workflow verification is incomplete
 - Hours/terms: International clients and possible travel; exact hours, timezone overlap, travel frequency and on-call unknown. Entity, benefits, leave, notice and payment terms unknown
 - Recruiter questions: SG/India employee/EOR/B2B supported or Mauritius residence required? Active client/level, base/currency/location policy and bonus, technical-lead scope, work authorization, actual Spring/cloud stack, client timezone/travel/on-call, leave and notice?
 - Posting/verification: Not published. Official current board lists 5 open positions including Java. Role and Apply page opened 18 October 2026; Apply page shows role label but no extractable application fields, workflow unverified.
+
+
+EPAM Java/Azure, SAP447220, TechRivo and Smplicity alert delivery reconciled from actual ChatGPT final18October2026. Exact time unavailable.
+
+## Further discovery18October2026, pending delivery reconciliation
+
+All remote geography and live application limitations retained. No applications/contacts.
+
+### 1. Overt Minds (formerly OmniReach): Lead Backend Developer / Senior Java Developer, overlapping headless-commerce track
+
+[Direct role](https://overtminds.com/blog-new/careers/lead-backend-developer/)
+
+- Priority/upside: Career-growth candidate (assessment): cloud/headless integration and hands-on mentoring; compensation to establish
+- Location/eligibility: Remote; employer offices in India/US. SG/India permanent remote eligibility unconfirmed, including India office attendance. Separate Solution Architect posting has Bangalore-base clause and is not promoted as eligible.
+- Arrangement/type: Role says remote; lead benefits mention remote or hybrid options. Permanent arrangement needs confirmation.. Full-time
+- Compensation: Not published. Global versus location-adjusted pay and SG/India terms unknown
+- SGD calculation: Unavailable: no applicable numeric salary published
+- Fit/preparation: Java17/Spring, SQL/MySQL, React headless architecture, AWS/Azure/GCP, Docker/Maven/Git CI/CD, technical discussions and junior mentoring. Payment gateways/PIM/OMS desirable. React proficiency, headless commerce and PIM/OMS/Elastic Path learning; establish actual senior/lead authority. No assumed inability from Angular background.
+- Resume/tailoring: Use hands-on technical-lead/full-stack resume. Highlight Angular/TypeScript transferability, API/cloud ownership, GitOps/CI/CD, mentoring and architecture decisions. Establish pay/level against SGD12000/month target before full tailoring.
+- Hours/terms: Core hours, cross-timezone overlap and on-call unknown. Entity, leave, benefits, notice and payment terms unknown
+- Questions: Are lead/senior pages one active funded project and which level? Can SG/India remain fully remote with no Bangalore attendance? End client/entity, base/currency/bonus, global versus local pay, backend/React split, headless-commerce expectations, hours/on-call, travel, leave and notice?
+- Posted/verification: Lead18March2026; substantially identical SeniorJava variant18June2025. Current employer board lists both18October2026. Third-party apply-before16October2026 conflicts, so confirm active funded intake.. Official current careers board and both full descriptions opened18October2026. Substantially identical descriptions merged conservatively. Careers ATS link returns input-only JS shell, no functioning application form verified. Third-party expiry conflict retained.
+
+### 2. Joseph Harry Ltd, undisclosed Dublin financial-services client: Remote Java Software Engineer, Trading/Data Management
+
+[Direct role](https://www.jobserve.com/ie/en/JobLanding.aspx?jid=7D54E90AFD8C428293&r=FEDD11785D3F1D07&src=)
+
+- Priority/upside: Conditional income-growth candidate (assessment): published foreign-currency contract rate and governance ownership; no current-package uplift or take-home claim
+- Location/eligibility: Dublin client; fully remote. SG/India cross-border eligibility unconfirmed. Dublin location and application work-permit question do not establish a worldwide contract. If Ireland residence/work rights mandatory, hard blocker without relocation.
+- Arrangement/type: No obligation to attend offices; advertised 08:30-17:30, timezone not explicitly named. Contract; advertised 12-24 months, project narrative 2-3 years, neither guaranteed
+- Compensation: EUR 450-565 per day; cash contractor revenue, not employee salary. No bonus/equity published.. Rate advertised for Dublin engagement; applicability to SG/India unconfirmed. No local package or global-pay policy stated.
+- SGD calculation: If same rate applies: approximately SGD 648-813 per billed day, calculated at ECB 16 October 2026 EUR 1=SGD 1.4395. Illustrative 220 billed days (5 days x44 weeks): EUR 99,000-124,300, approximately SGD 142,511-178,930 revenue before expenses, not guaranteed annual cash/pay/take-home.
+- Fit/preparation: Java, enterprise SQL/Oracle, AWS data-management platform, data catalogue automation/governance, design/DevOps/testing and business requirements. Later possible Iceberg/Kafka. Trading data feeds/front-office systems are mandatory in description, not established by general payments experience. Prepare order/execution management, market-risk/PnL data, lineage and governance; establish whether adjacent financial-services delivery accepted.
+- Resume/tailoring: Use hands-on lead/backend/cloud resume. Emphasize enterprise data integrity, event-driven reliability, SQL/Oracle, AWS and stakeholder translation. Prepare trading-data feed and governance scenarios; no invented front-office experience.
+- Hours/terms: 08:30-17:30 stated, timezone to establish. If Dublin local: SG15:30-00:30 Irish summer /16:30-01:30 winter; India13:00-22:00 summer /14:00-23:00 winter. End after midnight in SG. Breaks, paid day length and on-call unknown.. 12-24 months advertised; no minimum billable days, paid leave, cancellation, renewal, notice, invoicing, FX costs or contractor expenses established. Nine-hour clock span does not establish nine billable hours.
+- Questions: Can JS-LFE engage a Singapore/India resident cross-border B2B without Irish work rights, and does EUR450-565/day apply? End client, active project, trading-data requirement flexibility, entity, exact timezone and billable day length, minimum billing, leave, duration/cancellation/notice, renewal, payment/FX costs and on-call?
+- Posted/verification: 14 October 2026 displayed; same JS-LFE description also listed 7 October 2026. Treated as one project, not two new jobs.. JobServe full recruiter listing URL and active application form opened18October2026; fields and Apply control visible, no data entered/submitted. Shortened URL failed tool access; retain tested full source URL. Advertiser/end client intake not independently confirmed.
+
+### 3. BJAK: Principal Software Engineer, global remote track
+
+[Direct role](https://jobs.ashbyhq.com/bjakcareer/785b11a6-5859-4432-b4bc-88142e3361c3/)
+
+- Priority/upside: Career-growth candidate (assessment), ambitious product-wide architecture scope; compensation to establish
+- Location/eligibility: US header on indexed canonical; description says hire globally; country variants include Singapore in secondary listings. SG/India eligibility unconfirmed despite global-hiring language because exact ATS header says UnitedStates and variants differ. US-only authorization if required is hard blocker; no relocation assumed.
+- Arrangement/type: Full-time remote in indexed canonical; some secondary variants say local hybrid. Do not transfer global eligibility across variants without confirmation.. Full-time
+- Compensation: Not published. Global versus location-adjusted pay and SG/India terms unknown
+- SGD calculation: Unavailable: no applicable numeric salary published
+- Fit/preparation: Hands-on ownership of major products/systems, coding, APIs/databases/cloud, distributed reliability, architecture trade-offs, production diagnosis and cross-team mentoring. 7+years advertised; no specific language mandated in retrieved description. Ambitious principal scope: demonstrate actual project-wide decisions, engineering influence, production ownership and scale honestly. Establish stack, product, principal versus staff/lead leveling and sustainable workload.
+- Resume/tailoring: Use hands-on lead/platform resume. Lead with cross-team architecture decisions, Kafka/cloud reliability, mentoring and stakeholder alignment. Prepare a real system-evolution case with actual authority and outcomes.
+- Hours/terms: Core hours, cross-timezone overlap and on-call unknown. Entity, leave, benefits, notice and payment terms unknown
+- Questions: Does exact requisition accept SG/India permanent remote without US work rights? Which local/global variant and product/entity are authoritative? Active intake, employee/EOR/B2B, base/currency/location policy and bonus/equity, core hours, on-call/leave, principal authority and assessment conditions?
+- Posted/verification: Not published. Official Ashby URLs opened18October2026 but JS-only; full indexed official canonical and overlapping variant descriptions retrieved. US header/global text conflict preserved; live form and current intake not verified. Variants grouped rather than separate applications.
+
+### 4. Atlan: Principal Software Engineer, Agent & App Platform
+
+[Direct role](https://jobs.ashbyhq.com/atlan/9ba81415-2033-4b72-af4a-d9d2f288abaa)
+
+- Priority/upside: Career-growth candidate (assessment), high-stretch agent control-plane/platform ownership; compensation to establish
+- Location/eligibility: India. India remote supported by official indexed description; Singapore-based engagement not advertised. Personal authorization/entity and meeting attendance unknown. Live intake verification incomplete.
+- Arrangement/type: Remote India per official indexed ATS; company remote-first not remote-only, with offsites/meetups. Full-time
+- Compensation: No numeric salary published. Company careers page describes base, performance-based variable pay and equity, not a role-specific guaranteed amount.. Global versus location-adjusted pay and SG/India terms unknown
+- SGD calculation: Unavailable: no applicable numeric salary published
+- Fit/preparation: Agent registry/gateways, identity/auth/governance, MCP servers, Kubernetes/Temporal runtime, multi-tenant event-driven services, retries/idempotency/failure recovery and observability. Claude/Cursor workflow encouraged. Very ambitious:14+years requested versus confirmed8+/9+; ask level flexibility rather than invent tenure. Principal control-plane ownership, Go/Python, Temporal/Karpenter and multi-tenancy depth to establish. AI/MCP experience listed as plus, not ML-research requirement.
+- Resume/tailoring: Use hands-on lead/cloud and AI-integration resume. Connect Kafka/KEDA, Kubernetes/Helm, Terraform/GitOps, observability and accurately labeled MCP/RAG prototypes. Prepare idempotent workflows, tenant isolation and secure agent-execution trade-offs.
+- Hours/terms: Exact core overlap/on-call unknown; offsites/local meetups advertised generally, required travel frequency/country to establish. Entity, leave, benefits, notice and payment terms unknown
+- Questions: Is9ba81415 active and can14+year preference flex or can same platform hire senior/staff? India-only remote or SG entity/B2B possible? Local guaranteed base/currency and variable/equity terms, product ownership, Go/Python depth, hours/on-call, offsites/travel, leave and notice?
+- Posted/verification: Not published. Official Ashby URL opened18October2026 JS-only; full indexed official description retrieved including IndiaRemote,14+years and stack. Employer careers page opened, confirms remote-first/offsites and country-specific offers; current live form/status not fully verified.
