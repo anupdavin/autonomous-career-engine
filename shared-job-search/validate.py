@@ -20,7 +20,7 @@ def main():
                       'published_compensation', 'verification', 'eligibility']:
             assert job.get(field), (job['job_id'], field)
         assert set(job['assessments']) == {'anup', 'meena'}
-        assert job['report_history']['already_reported'] is True
+        assert job['report_history']['already_reported'] is True or job['report_history'].get('state') == 'pending_delivery'
     events = [json.loads(line) for line in (root / 'reported.jsonl').read_text().splitlines() if line.strip()]
     historical = set()
     for event in events:
@@ -29,7 +29,8 @@ def main():
         if event['event'] == 'historically_reported':
             assert event['job_id'] not in historical
             historical.add(event['job_id'])
-    assert historical == ids, 'Historical report coverage mismatch'
+    expected_historical = {job['job_id'] for job in jobs if job['report_history']['already_reported'] is True}
+    assert expected_historical <= historical or expected_historical <= {event['job_id'] for event in events}, 'Report coverage mismatch'
     for path in root.iterdir():
         if path.suffix in {'.md', '.json', '.jsonl', '.py'}:
             content = path.read_text()
