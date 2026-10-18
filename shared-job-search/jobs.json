@@ -5947,6 +5947,58 @@
         }
       },
       "deduplication_note": "Senior and staff descriptions substantially overlap; consolidated rather than counted as two projects. Distinct from previously reported customer-facing Senior AI Engineer. No repository code-search results for RapidCanvas; older independent runtime history not fully inspected."
+    },
+    {
+      "job_id": "epam-ai-native-bltivmitqu6rk2dpawn",
+      "employer": "EPAM",
+      "title": "Applied Senior Software Engineer (AI Native Development)",
+      "url": "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore",
+      "canonical_url": "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "status_at_last_check": "Official vacancy description and apply label accessible; application workflow unverified",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Hybrid in Singapore; office frequency unknown",
+      "eligibility": "Singapore work location confirmed; personal authorization and sponsorship unconfirmed; India remote not advertised",
+      "engagement_type": "Not published; full-time versus contract to establish",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore base, bonus/equity and location policy unknown",
+      "sgd_comparison": "Unavailable: salary not published",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "Working hours, timezone overlap, travel and on-call unknown",
+      "terms": "Employment entity, benefits, notice, assignment duration and funded client/project to establish",
+      "posted": "Not published",
+      "fit": "Agentic developer workflows; Git/Jira/CI/CD integration; Java/JS/Python/.NET accepted; rapid prototypes, LLM tool use/memory, RAG and production-SDLC integration",
+      "preparation": "Establish actual engineering-agent development and multi-step workflow evidence. Coding-agent use alone does not prove custom production agents. RAG, evaluation/guardrails, vector databases and orchestration frameworks are preparation points; AWS/Azure/GCP preferred.",
+      "questions": "Active funded assignment and employment type? Singapore work-pass support? Guaranteed base/currency and separate upside? Hybrid cadence? Developer-agent building versus agent use? Required production AI experience? Hours/on-call/client overlap?",
+      "upside": "Career-growth candidate: applied engineering automation and client-facing solution ownership; compensation to establish",
+      "verification": "Official EPAM vacancy opened 18 October 2026; hybrid Singapore heading, responsibilities and apply label observed. No functioning application form link extracted or application workflow verified. No submission.",
+      "source_urls": [
+        "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore"
+      ],
+      "import_source": "Fresh official employer description checked 18 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared current alert; reconcile from delivered conversation on next run"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java/backend modernization resume with prominent AI-assisted engineering practices",
+          "tailoring": "Highlight verified Cursor/Copilot/Claude Code/Codex use, context preparation, output verification, secure APIs and CI/CD. Prepare an authentic agent-workflow demonstration with human review; do not claim production RAG/agent tenure.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/AI-integration and cloud-modernization resume",
+          "tailoring": "Highlight Java/TypeScript, delivery automation, architecture judgment and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Prepare tool use, permissions, evaluation and rollback scenarios; distinguish prototypes from production agent systems.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct from EPAM Lead Back-end Java Developer already in ledger; this description focuses on AI-centric SDLC/developer agents."
     }
   ]
 }
