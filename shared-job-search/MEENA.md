@@ -494,3 +494,22 @@ Questions: Is1362029955 accepting candidates despite Apply redirect? Current dir
 
 Verification: 18October2026: official employer full job page live, dated20September2026, Singapore and Apply controls. Clicked official Apply -> careers homepage, not an intake form. Matching Jobstreet employer full-time description live with Apply; clicked application returned JS-only, no readable fields. Active intake incomplete; do not claim submission-ready. No closed marker observed.
 
+## Notification platform review checked18October2026
+
+Wilmar and Sephora actual alerts reconciled as delivered. New entry remains pending actual alert delivery.
+
+### Airwallex: Senior Software Engineer, Notification Platform
+
+[Official role](https://careers.airwallex.com/job/edd8f06b-f5a8-4fd8-b834-382ab64be682/). Priority1. Full-time, Onsite per indexed official Ashby; exact weekly cadence unknown. Singapore work location supported. Personal authorization and employer sponsorship unknown. India remote not advertised; not a worldwide-remote vacancy.
+
+Pay: Not published on retrieved employer page/official indexed description. Salary expectations field is not a salary offer. Career-growth candidate (assessment): mission-critical cross-product notification infrastructure and design ownership. Compensation to establish; no income uplift claimed.
+
+Resume: Hands-on lead/backend cloud and event-driven reliability. Use Java21/Spring3, KafkaStreams/KEDA, Redis/Postgres, Kubernetes/Istio, GitOps/observability, architecture decisions and mentoring. Prepare backpressure, duplicate delivery, ordering, incident/SLO and rollout trade-offs with truthful examples. Screen actual IC autonomy and compensation against SGD12000/month target.
+
+Preparation: Strong event-driven/platform transfer. SeniorIC has no direct reports; evaluate hands-on ownership and package versus current lead role. Exact middleware tenure/scale to establish.
+
+Hours: Global collaboration and production troubleshooting stated; exact SG core hours, on-call rota, out-of-hours work and travel unknown
+
+Questions: Isedd8f06b funded/current and are other Notification engineer/staff/lead IDs one hiring track? Guaranteed SG base/currency and separate bonus/equity, sponsorship, exact onsite days, on-call/SLO/incident rota and global overlap? Component design ownership, Java versus other language split, required3year event-pipeline evidence, leveling and benefits/leave/notice?
+
+Verification: 18October2026: full official short-URL employer description and application labels accessible (name,email,location,resume,salary expectations,currency,notice); no form submitted or account action. Slugged URL initially redirect-looped; short official URL worked. Official Ashby opened JS-only, indexed official source confirms On-site/SG/Full-time. No closed marker on retrieved employer page. End-to-end submission not tested.
