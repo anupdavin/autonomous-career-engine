@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "import_date": "2026-10-18",
-  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs. Review18October2026: compared current public sources across SG/APAC,US/Canada,UK/Ireland,Europe,ANZ,MiddleEast,Africa,LATAM discovery queries. Excluded PopSockets1beeb162 official IndiaHybrid despite remote aggregator; wealthAPI16814841 worldwideheader overridden by residencewithin2hBerlin; N-iX4395312101 explicitlyclosed; MissionJava4269227750/4399060252 closed; LazerJava thirdpartyremoved29June2026. ZYNC CFFKBE EUR300/day worldwide page remains accessible but1October start year unstated and active funded intake unestablished, held for verification. These observations are not new application recommendations.",
+  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs. Review18October2026: compared current public sources across SG/APAC,US/Canada,UK/Ireland,Europe,ANZ,MiddleEast,Africa,LATAM discovery queries. Excluded PopSockets1beeb162 official IndiaHybrid despite remote aggregator; wealthAPI16814841 worldwideheader overridden by residencewithin2hBerlin; N-iX4395312101 explicitlyclosed; MissionJava4269227750/4399060252 closed; LazerJava thirdpartyremoved29June2026. ZYNC CFFKBE EUR300/day worldwide page remains accessible but1October start year unstated and active funded intake unestablished, held for verification. These observations are not new application recommendations. Review18October2026 later check: excluded InAllMedia1821 officialRemoteLATAM despiteAPACtitle; pawaPaySeniorDeveloper officialEurope&Africa overrides companyAsia-team boilerplate; RoundInfinity backendBangalore notremote; AgileEngine87003 404 and IndiaJava90127 intakepaused; MichaelPageJN0720256789225 410Gone. SSCremoteDubai-hourscopy requiresArabic and listsEgypt, not established viableSG/India lead. Broad queries covered all requested regions; not exhaustive.",
   "jobs": [
     {
       "employer": "Airwallex",
@@ -7207,10 +7207,10 @@
       "hours_on_call": "Core hours, on-call and travel unknown",
       "terms": "Guaranteed base, bonus/equity, benefits, leave, probation and notice to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Record actual alert only after delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual final visible and externally handed off; date-only delivery evidence"
       },
       "deduplication_note": "Compared124-record shared ledger and current discovered_global_jobs.json/prepared_packets_2026-10-04.json exports; no matching employer/project found. Historical completeness not claimed.",
       "job_id": "wilmar-ai-native-application-4469172511",
@@ -7260,10 +7260,10 @@
       "hours_on_call": "Core hours, on-call and travel unknown",
       "terms": "Guaranteed base, bonus/equity, benefits, leave, probation and notice to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Record actual alert only after delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual final visible and externally handed off; date-only delivery evidence"
       },
       "deduplication_note": "Compared124-record shared ledger and current discovered_global_jobs.json/prepared_packets_2026-10-04.json exports; no matching employer/project found. Historical completeness not claimed.",
       "job_id": "sephora-user-engineer-1362029955",
@@ -7299,6 +7299,60 @@
           "resume_emphasis": "Hands-on lead/backend cloud-modernization",
           "tailoring": "Use Java21/Spring3, KafkaStreams, Redis/Postgres, cloud reliability, observability and mentoring. Prepare consistency/replay/duplicate-event handling for loyalty/user services. Do not substitute AI prototypes for production ML experience.",
           "fit_and_preparation": "Strong event-driven backend transfer; screen senior-level ownership and package relative to target, not title alone.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "airwallex-notification-edd8f06b",
+      "employer": "Airwallex",
+      "title": "Senior Software Engineer, Notification Platform",
+      "url": "https://careers.airwallex.com/job/edd8f06b-f5a8-4fd8-b834-382ab64be682/",
+      "canonical_url": "https://careers.airwallex.com/job/edd8f06b-f5a8-4fd8-b834-382ab64be682/",
+      "url_aliases": [
+        "https://careers.airwallex.com/job/edd8f06b-f5a8-4fd8-b834-382ab64be682/senior-software-engineer-notification-platform/",
+        "https://jobs.ashbyhq.com/airwallex/edd8f06b-f5a8-4fd8-b834-382ab64be682/"
+      ],
+      "requisition": "edd8f06b-f5a8-4fd8-b834-382ab64be682",
+      "last_checked": "2026-10-18",
+      "import_source": "Official employer page and indexed official ATS reopened18October2026",
+      "posted": "Not published; search crawl dates not posting dates",
+      "location": "Singapore",
+      "arrangement": "Onsite per indexed official Ashby; exact weekly cadence unknown",
+      "engagement_type": "Full-time",
+      "eligibility": "Singapore work location supported. Personal authorization and employer sponsorship unknown. India remote not advertised; not a worldwide-remote vacancy.",
+      "published_compensation": "Not published on retrieved employer page/official indexed description. Salary expectations field is not a salary offer.",
+      "sgd_comparison": "Unavailable: no applicable salary amount published",
+      "compensation_geography": "Singapore role; global versus location-adjusted pay and India engagement not established",
+      "authorization_sponsorship": "Unknown; no work-pass or citizenship inferred",
+      "hours_on_call": "Global collaboration and production troubleshooting stated; exact SG core hours, on-call rota, out-of-hours work and travel unknown",
+      "terms": "Employee entity, guaranteed base, bonus/equity, leave, benefits and notice to establish",
+      "fit": "Senior hands-on IC, no direct reports. High-throughput/low-latency SMS/email/push platform, distributed event pipelines, Java/Python/Go alternatives, Kafka/PostgreSQL, concurrency/JVM/IO, messaging resilience, gateway integrations and architecture decisions. Distinct notification service from previously reported card settlement/issuing-core role; Issuing is a consumer, not identical scope.",
+      "preparation": "5+years modern high-throughput engineering and at least3years distributed middleware/pipeline operation requested; establish exact candidate delivery evidence, not invented tenure/scale. Prepare ordering/retries/idempotency/dead letters/backpressure, pipeline tuning and concurrency. Reactive/workflow technology depth to establish. AI/search interest is preferred, not ML-research prerequisite.",
+      "questions": "Isedd8f06b funded/current and are other Notification engineer/staff/lead IDs one hiring track? Guaranteed SG base/currency and separate bonus/equity, sponsorship, exact onsite days, on-call/SLO/incident rota and global overlap? Component design ownership, Java versus other language split, required3year event-pipeline evidence, leveling and benefits/leave/notice?",
+      "upside": "Career-growth candidate (assessment): mission-critical cross-product notification infrastructure and design ownership. Compensation to establish; no income uplift claimed.",
+      "verification": "18October2026: full official short-URL employer description and application labels accessible (name,email,location,resume,salary expectations,currency,notice); no form submitted or account action. Slugged URL initially redirect-looped; short official URL worked. Official Ashby opened JS-only, indexed official source confirms On-site/SG/Full-time. No closed marker on retrieved employer page. End-to-end submission not tested.",
+      "status_at_last_check": "Official job description/application labels accessible; submission workflow untested",
+      "deduplication_note": "Compared126-record main ledger and current runtime/discovered_global_jobs.json plus prepared_packets_2026-10-04.json. No notification-platform project observed. Existing Airwallex IssuingStaff3487aa40 is card transaction/settlement architecture, while this shared communications platform serves Issuing and wider teams. Other notification ID006156bb/7fdb0541/0e4fbd3f observed in indexed results; treat substantially identical notification descriptions as one project on rediscovery, not fresh alerts. Full-history completeness not claimed.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Record actual delivery only after ChatGPT final is delivered"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend/payments and secure integrations",
+          "tailoring": "Use Java21/Spring, Kafka/Postgres, secure APIs, cloud/Kubernetes, observability and production diagnosis. Connect actual notification/email/batch delivery and financial integration experience only where verified. Prepare an idempotent multi-channel event pipeline with traceability, retries and bounded concurrency. No invented throughput or event-platform tenure.",
+          "fit_and_preparation": "Strong backend/integration alignment. Establish high-throughput and3year pipeline evidence, channel-gateway patterns and JVM tuning. AI interest optional, no productionML claim.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend cloud and event-driven reliability",
+          "tailoring": "Use Java21/Spring3, KafkaStreams/KEDA, Redis/Postgres, Kubernetes/Istio, GitOps/observability, architecture decisions and mentoring. Prepare backpressure, duplicate delivery, ordering, incident/SLO and rollout trade-offs with truthful examples. Screen actual IC autonomy and compensation against SGD12000/month target.",
+          "fit_and_preparation": "Strong event-driven/platform transfer. SeniorIC has no direct reports; evaluate hands-on ownership and package versus current lead role. Exact middleware tenure/scale to establish.",
           "application_status": "Not applied or approved"
         }
       }
