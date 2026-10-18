@@ -7422,9 +7422,10 @@
       "last_checked": "2026-10-18",
       "published_compensation": "Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual previous ChatGPT final and supplied external-work history confirm delivery; date uses Singapore local day, exact time unknown."
       },
       "requisition": "200645710-3278",
       "posted": "6 February 2026, official description",
@@ -7468,9 +7469,10 @@
       "last_checked": "2026-10-18",
       "published_compensation": "Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual previous ChatGPT final and supplied external-work history confirm delivery; date uses Singapore local day, exact time unknown."
       },
       "posted": "1 October 2026 on DOU",
       "location": "Remote; mirrors label Ukraine and company mentions European teams",
