@@ -211,7 +211,7 @@ Official descriptions checked today; no application/contact made. Source geograp
 
 Delivery of the preceding Evooq, Numerix and Lifted alert was reconciled from the visible ChatGPT final response on 18 October 2026; no exact timestamp was inferred.
 
-## Eligibility-unconfirmed discovery on 18 October 2026, pending delivery reconciliation
+## Eligibility-unconfirmed discovery on 18 October 2026, delivery reconciled
 
 No SG/India-eligible application is asserted for either lead. Compensation remains unknown. Compare actual location/engagement rules before investing in an application.
 
@@ -243,3 +243,66 @@ No SG/India-eligible application is asserted for either lead. Compensation remai
 - Recruiter questions: Does this requisition accept remote residence in Singapore or India, or require Taiwan attendance/residence? Employee/EOR/B2B mechanism and location-specific guaranteed base/currency, separate upside, work-pass support, exact core hours, on-call rota/compensation and notice?
 - Verification: 18 October 2026: official Lever role and /apply page opened. Role description, Asia/Taipei location, mixed onsite/remote/hybrid labels, residency question, visa-sponsorship question and submit button visible. No form data entered or submission tested.
 
+
+
+Binance Exchange Service and Ajaib delivery reconciled from the actual ChatGPT final on 18 October 2026. Date-only evidence; no exact time inferred.
+
+## Additional review on 18 October 2026, pending delivery reconciliation
+
+Salary unpublished for all four. Application workflow verification is incomplete as described. No application or contact made.
+
+### 1. EPAM: Senior Software Engineer (Java)
+
+[Direct role](https://careers.epam.com/en/vacancy/senior-software-engineer-java-bltfakbnm5lixyyx789_en)
+
+- Priority/upside: Career-growth candidate (assessment): cloud-native event-driven delivery ownership; compensation to establish
+- Location/eligibility: Singapore. Singapore location supported; personal authorization/sponsorship unknown. India remote not advertised.
+- Arrangement/type: Office in Singapore; office frequency unstated. Not stated; employee versus contract to establish
+- Pay: Not published. Unavailable: no applicable published pay
+- Fit/preparation: Java/Spring Boot, Kafka event-driven services, REST, SQL, Azure, Docker/Kubernetes, CI/CD and production reliability. Full-stack React delivery. Establish React hands-on expectations and Azure operational depth. Banking desirable, cloud certification optional.
+- Resume/tailoring: Use hands-on lead/full-stack resume. Emphasize event-driven reliability, Angular-to-React transferable TypeScript, CI/CD, Kubernetes and mentoring. Establish Azure/React depth without claiming unconfirmed delivery.
+- Hours/terms: Core hours, timezone overlap and on-call unknown. Entity, benefits, leave, notice and payment terms unknown
+- Recruiter questions: Funded end client/project and distinct from existing Lead Java assignment? Employment type, Singapore sponsorship, applicable base/bonus/equity, senior/lead leveling, office cadence, React/backend split, core hours and support rota?
+- Posting/verification: Not published. Official description reopened 18 October 2026 with office Singapore and apply label; no functioning application form extracted/tested. Distinct from older banking/OpenShift Lead Java and AI-native developer-agent listings.
+
+### 2. SAP: Senior Machine Learning Engineer, Joule Platform Services, SAP Labs Singapore
+
+[Direct role](https://careers.sap.com/job/Singapore-Senior-AI-Developer-SAP-Labs-East-Asia-Singapore-117440/1386116633/)
+
+- Priority/upside: Career-growth candidate (assessment): architecture and enterprise-agent platform ownership; compensation to establish
+- Location/eligibility: Singapore. Singapore location supported. Employer prioritizes full working rights in Singapore; not a sponsorship promise. India remote not advertised.
+- Arrangement/type: Hybrid; office cadence unknown; 0-10% travel. Regular full-time
+- Pay: Not published. Unavailable: no applicable published pay
+- Fit/preparation: Applied platform/agent engineering rather than pure ML research: Java/TypeScript/Python services, APIs, platform governance/security, Kafka, Kubernetes, CI/CD, architecture decisions, integration/performance, mentoring. Ambitious AI stretch: hands-on agentic stack, LangChain, MCP/A2A/ACP, RAG, evaluations and observability required. SAP BTP preferred. Establish production-depth expectations, do not equate coding-agent use or prototypes with production AI tenure.
+- Resume/tailoring: Use technical-lead/cloud and AI-integration resume. Highlight Kafka/Kubernetes, design trade-offs, mentoring and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Prepare an agent permissions, evaluation and rollback design discussion.
+- Hours/terms: Global cross-timezone work stated; exact overlap/on-call unknown. Travel 0-10%.. Entity, benefits, leave, notice and payment terms unknown
+- Recruiter questions: Is 447220 currently funded/accepting and which description is authoritative? Application link redirected to homepage. Sponsorship/full work rights policy, actual hybrid cadence, base/bonus/equity, agent runtime responsibilities, required production experience, cross-timezone hours/on-call and travel?
+- Posting/verification: Current careers.sap.com page displays 12 October 2026. Older same-requisition indexed jobs.sap.com version displays 13 September 2026 and different title/description; not evidence of new original posting.. Current official description reopened 18 October 2026, Apply now present. Following Apply now redirected to SAP careers homepage; alternate jobs.sap.com role redirects new jobs index. Application path and active intake not fully verified.
+
+### 3. TechRivo: Backend Java Developer
+
+[Direct role](https://www.techrivo.com/backend-java-developer/)
+
+- Priority/upside: Compensation to establish; potential international contract and client-facing career scope, not established income uplift
+- Location/eligibility: Remote; employer based in Lisbon, Portugal. SG/India cross-border eligibility unconfirmed. No explicit country-only restriction in role. Optional Portugal relocation does not establish a requirement or willingness.
+- Arrangement/type: 100% remote; full-time availability. 6-month contractor work; alternative contractual options advertised
+- Pay: Not published. Unavailable: no applicable published pay
+- Fit/preparation: Java/Spring Boot, SOLID/design patterns. Microservices, RabbitMQ and MongoDB desirable. International client consulting across fintech/education. Establish senior/lead scope, end client and architecture/reliability ownership. RabbitMQ/MongoDB preparation points, not exclusion.
+- Resume/tailoring: Use hands-on lead/backend resume. Emphasize delivery ownership, reliability, messaging, CI/CD and mentoring. Establish whether client/lead scope and rate justify a move against SGD 12,000/month target.
+- Hours/terms: Core hours, timezone overlap and on-call unknown. Six months advertised, not guaranteed billing or renewal. Full-time availability; hours/rate/leave/notice/payment/expenses unknown.
+- Recruiter questions: Current funded six-month project? SG/India B2B permitted, entity/end client, rate/currency/location adjustments, exact hours and Portugal/client overlap including DST, minimum billable hours, paid/unpaid leave, notice/cancellation, renewal, invoicing/FX expenses, on-call? Which application channel is authoritative?
+- Posting/verification: Not published. Official role and current Join Us board opened 18 October 2026; board lists Backend Java as current. Role specifies ClickUp form only, board generically says email. ClickUp form opened but no extractable body; workflow unverified, no submission.
+
+### 4. Smplicity Consulting (Mauritius): Java Software Developer
+
+[Direct role](https://careers.smplicity.digital/jobs/b495020f-9adb-4630-ae5c-763c845c5c12)
+
+- Priority/upside: Lower-priority career-growth candidate (assessment): client-facing integration consulting; compensation and senior-level scope to establish
+- Location/eligibility: Remote; Mauritius-based consultancy. SG/India eligibility unconfirmed. Java role does not specify Mauritius residence while other board roles explicitly do. This omission is not confirmation of cross-border eligibility.
+- Arrangement/type: Full-time remote; potential client travel. Full-time
+- Pay: Not published. Unavailable: no applicable published pay
+- Fit/preparation: Java/Java EE, JavaScript, SQL, APIs, high-volume low-latency applications, availability/performance, releases and architecture review. International enterprise integration and client consulting. Establish seniority, actual stack, client-facing responsibility and whether Salesforce platform learning is expected. Salesforce certification support advertised, not a mandatory Java-role certification.
+- Resume/tailoring: Use hands-on lead/consulting resume. Emphasize stakeholder collaboration, Java/Angular ownership, mentoring and releases. Screen senior/lead leveling and compensation before a full application.
+- Hours/terms: International clients and possible travel; exact hours, timezone overlap, travel frequency and on-call unknown. Entity, benefits, leave, notice and payment terms unknown
+- Recruiter questions: SG/India employee/EOR/B2B supported or Mauritius residence required? Active client/level, base/currency/location policy and bonus, technical-lead scope, work authorization, actual Spring/cloud stack, client timezone/travel/on-call, leave and notice?
+- Posting/verification: Not published. Official current board lists 5 open positions including Java. Role and Apply page opened 18 October 2026; Apply page shows role label but no extractable application fields, workflow unverified.

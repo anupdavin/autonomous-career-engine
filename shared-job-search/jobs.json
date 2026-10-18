@@ -6426,10 +6426,10 @@
       "authorization_sponsorship": "Form asks whether sponsorship is needed; availability not promised. Personal rights unknown.",
       "posted": "Not published or established from official source",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for alert; reconcile only from actual delivered conversation"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual final response evidenced by external conversation handoff; exact timestamp unavailable"
       },
       "assessments": {
         "anup": {
@@ -6487,10 +6487,10 @@
       "authorization_sponsorship": "Unknown; personal work authorization not inferred",
       "posted": "Not published or established from official source",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for alert; reconcile only from actual delivered conversation"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual final response evidenced by external conversation handoff; exact timestamp unavailable"
       },
       "assessments": {
         "anup": {
@@ -6508,6 +6508,211 @@
           "application_status": "Not recorded; no application or contact"
         }
       }
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer careers pages checked 18 October 2026",
+      "published_compensation": "Not published",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "sgd_comparison": "Unavailable: no applicable published pay",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT alert delivery"
+      },
+      "authorization_sponsorship": "Unknown; no personal authorization inferred",
+      "posted": "Not published",
+      "hours_on_call": "Core hours, timezone overlap and on-call unknown",
+      "terms": "Entity, benefits, leave, notice and payment terms unknown",
+      "url_aliases": [],
+      "job_id": "epam-java-azure-bltfakbnm5lixyyx789",
+      "employer": "EPAM",
+      "title": "Senior Software Engineer (Java)",
+      "url": "https://careers.epam.com/en/vacancy/senior-software-engineer-java-bltfakbnm5lixyyx789_en",
+      "requisition": "bltfakbnm5lixyyx789",
+      "location": "Singapore",
+      "arrangement": "Office in Singapore; office frequency unstated",
+      "eligibility": "Singapore location supported; personal authorization/sponsorship unknown. India remote not advertised.",
+      "engagement_type": "Not stated; employee versus contract to establish",
+      "fit": "Java/Spring Boot, Kafka event-driven services, REST, SQL, Azure, Docker/Kubernetes, CI/CD and production reliability. Full-stack React delivery.",
+      "preparation": "Establish React hands-on expectations and Azure operational depth. Banking desirable, cloud certification optional.",
+      "questions": "Funded end client/project and distinct from existing Lead Java assignment? Employment type, Singapore sponsorship, applicable base/bonus/equity, senior/lead leveling, office cadence, React/backend split, core hours and support rota?",
+      "upside": "Career-growth candidate (assessment): cloud-native event-driven delivery ownership; compensation to establish",
+      "verification": "Official description reopened 18 October 2026 with office Singapore and apply label; no functioning application form extracted/tested. Distinct from older banking/OpenShift Lead Java and AI-native developer-agent listings.",
+      "canonical_url": "https://careers.epam.com/en/vacancy/senior-software-engineer-java-bltfakbnm5lixyyx789_en",
+      "status_at_last_check": "Official role description accessible; application workflow limitations recorded",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use Java/full-stack modernization resume. Highlight Java/Spring, Kafka, Azure AKS, secure financial APIs and production diagnosis. Prepare a small React feature and genuine deployment/reliability example.",
+          "fit_and_preparation": "Java/Spring Boot, Kafka event-driven services, REST, SQL, Azure, Docker/Kubernetes, CI/CD and production reliability. Full-stack React delivery. Establish React hands-on expectations and Azure operational depth. Banking desirable, cloud certification optional.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use hands-on lead/full-stack resume. Emphasize event-driven reliability, Angular-to-React transferable TypeScript, CI/CD, Kubernetes and mentoring. Establish Azure/React depth without claiming unconfirmed delivery.",
+          "fit_and_preparation": "Java/Spring Boot, Kafka event-driven services, REST, SQL, Azure, Docker/Kubernetes, CI/CD and production reliability. Full-stack React delivery. Establish React hands-on expectations and Azure operational depth. Banking desirable, cloud certification optional.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Compared 111-record ledger, available runtime JSON exports and application draft paths; no same requisition/project observed. Complete SQLite/conversation historical coverage not established."
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer careers pages checked 18 October 2026",
+      "published_compensation": "Not published",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "sgd_comparison": "Unavailable: no applicable published pay",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT alert delivery"
+      },
+      "authorization_sponsorship": "Prioritizes candidates with full working rights in Singapore; sponsorship unknown",
+      "posted": "Current careers.sap.com page displays 12 October 2026. Older same-requisition indexed jobs.sap.com version displays 13 September 2026 and different title/description; not evidence of new original posting.",
+      "hours_on_call": "Global cross-timezone work stated; exact overlap/on-call unknown. Travel 0-10%.",
+      "terms": "Entity, benefits, leave, notice and payment terms unknown",
+      "url_aliases": [
+        "https://jobs.sap.com/job/Singapore-Senior-AI-Developer-SAP-Labs-East-Asia-Singapore-117440/1386116633/"
+      ],
+      "job_id": "sap-joule-platform-447220",
+      "employer": "SAP",
+      "title": "Senior Machine Learning Engineer, Joule Platform Services, SAP Labs Singapore",
+      "url": "https://careers.sap.com/job/Singapore-Senior-AI-Developer-SAP-Labs-East-Asia-Singapore-117440/1386116633/",
+      "requisition": "447220",
+      "location": "Singapore",
+      "arrangement": "Hybrid; office cadence unknown; 0-10% travel",
+      "eligibility": "Singapore location supported. Employer prioritizes full working rights in Singapore; not a sponsorship promise. India remote not advertised.",
+      "engagement_type": "Regular full-time",
+      "fit": "Applied platform/agent engineering rather than pure ML research: Java/TypeScript/Python services, APIs, platform governance/security, Kafka, Kubernetes, CI/CD, architecture decisions, integration/performance, mentoring.",
+      "preparation": "Ambitious AI stretch: hands-on agentic stack, LangChain, MCP/A2A/ACP, RAG, evaluations and observability required. SAP BTP preferred. Establish production-depth expectations, do not equate coding-agent use or prototypes with production AI tenure.",
+      "questions": "Is 447220 currently funded/accepting and which description is authoritative? Application link redirected to homepage. Sponsorship/full work rights policy, actual hybrid cadence, base/bonus/equity, agent runtime responsibilities, required production experience, cross-timezone hours/on-call and travel?",
+      "upside": "Career-growth candidate (assessment): architecture and enterprise-agent platform ownership; compensation to establish",
+      "verification": "Current official description reopened 18 October 2026, Apply now present. Following Apply now redirected to SAP careers homepage; alternate jobs.sap.com role redirects new jobs index. Application path and active intake not fully verified.",
+      "canonical_url": "https://careers.sap.com/job/Singapore-Senior-AI-Developer-SAP-Labs-East-Asia-Singapore-117440/1386116633/",
+      "status_at_last_check": "Official role description accessible; application workflow limitations recorded",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use backend/platform modernization resume with truthful AI-assisted practices. Highlight secure APIs, integration/EIP/Camel, Java/TypeScript, Kubernetes and architecture decisions. Build an original tool-use/evaluation demonstration; no invented production agent experience.",
+          "fit_and_preparation": "Applied platform/agent engineering rather than pure ML research: Java/TypeScript/Python services, APIs, platform governance/security, Kafka, Kubernetes, CI/CD, architecture decisions, integration/performance, mentoring. Ambitious AI stretch: hands-on agentic stack, LangChain, MCP/A2A/ACP, RAG, evaluations and observability required. SAP BTP preferred. Establish production-depth expectations, do not equate coding-agent use or prototypes with production AI tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use technical-lead/cloud and AI-integration resume. Highlight Kafka/Kubernetes, design trade-offs, mentoring and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Prepare an agent permissions, evaluation and rollback design discussion.",
+          "fit_and_preparation": "Applied platform/agent engineering rather than pure ML research: Java/TypeScript/Python services, APIs, platform governance/security, Kafka, Kubernetes, CI/CD, architecture decisions, integration/performance, mentoring. Ambitious AI stretch: hands-on agentic stack, LangChain, MCP/A2A/ACP, RAG, evaluations and observability required. SAP BTP preferred. Establish production-depth expectations, do not equate coding-agent use or prototypes with production AI tenure.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Compared 111-record ledger, available runtime JSON exports and application draft paths; no same requisition/project observed. Complete SQLite/conversation historical coverage not established."
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer careers pages checked 18 October 2026",
+      "published_compensation": "Not published",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "sgd_comparison": "Unavailable: no applicable published pay",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT alert delivery"
+      },
+      "authorization_sponsorship": "Unknown; no personal authorization inferred",
+      "posted": "Not published",
+      "hours_on_call": "Core hours, timezone overlap and on-call unknown",
+      "terms": "Six months advertised, not guaranteed billing or renewal. Full-time availability; hours/rate/leave/notice/payment/expenses unknown.",
+      "url_aliases": [],
+      "job_id": "techrivo-backend-java-six-month-contract",
+      "employer": "TechRivo",
+      "title": "Backend Java Developer",
+      "url": "https://www.techrivo.com/backend-java-developer/",
+      "location": "Remote; employer based in Lisbon, Portugal",
+      "arrangement": "100% remote; full-time availability",
+      "eligibility": "SG/India cross-border eligibility unconfirmed. No explicit country-only restriction in role. Optional Portugal relocation does not establish a requirement or willingness.",
+      "engagement_type": "6-month contractor work; alternative contractual options advertised",
+      "fit": "Java/Spring Boot, SOLID/design patterns. Microservices, RabbitMQ and MongoDB desirable. International client consulting across fintech/education.",
+      "preparation": "Establish senior/lead scope, end client and architecture/reliability ownership. RabbitMQ/MongoDB preparation points, not exclusion.",
+      "questions": "Current funded six-month project? SG/India B2B permitted, entity/end client, rate/currency/location adjustments, exact hours and Portugal/client overlap including DST, minimum billable hours, paid/unpaid leave, notice/cancellation, renewal, invoicing/FX expenses, on-call? Which application channel is authoritative?",
+      "upside": "Compensation to establish; potential international contract and client-facing career scope, not established income uplift",
+      "verification": "Official role and current Join Us board opened 18 October 2026; board lists Backend Java as current. Role specifies ClickUp form only, board generically says email. ClickUp form opened but no extractable body; workflow unverified, no submission.",
+      "canonical_url": "https://www.techrivo.com/backend-java-developer/",
+      "status_at_last_check": "Official role description accessible; application workflow limitations recorded",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use backend/integration resume. Emphasize Spring Boot, secure financial APIs, SQL, modernization, debugging and maintainable design. Prepare testable service-design and messaging-retry examples.",
+          "fit_and_preparation": "Java/Spring Boot, SOLID/design patterns. Microservices, RabbitMQ and MongoDB desirable. International client consulting across fintech/education. Establish senior/lead scope, end client and architecture/reliability ownership. RabbitMQ/MongoDB preparation points, not exclusion.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use hands-on lead/backend resume. Emphasize delivery ownership, reliability, messaging, CI/CD and mentoring. Establish whether client/lead scope and rate justify a move against SGD 12,000/month target.",
+          "fit_and_preparation": "Java/Spring Boot, SOLID/design patterns. Microservices, RabbitMQ and MongoDB desirable. International client consulting across fintech/education. Establish senior/lead scope, end client and architecture/reliability ownership. RabbitMQ/MongoDB preparation points, not exclusion.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Compared 111-record ledger, available runtime JSON exports and application draft paths; no same requisition/project observed. Complete SQLite/conversation historical coverage not established."
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer careers pages checked 18 October 2026",
+      "published_compensation": "Not published",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "sgd_comparison": "Unavailable: no applicable published pay",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT alert delivery"
+      },
+      "authorization_sponsorship": "Unknown; no personal authorization inferred",
+      "posted": "Not published",
+      "hours_on_call": "International clients and possible travel; exact hours, timezone overlap, travel frequency and on-call unknown",
+      "terms": "Entity, benefits, leave, notice and payment terms unknown",
+      "url_aliases": [],
+      "job_id": "smplicity-java-b495020f",
+      "employer": "Smplicity Consulting (Mauritius)",
+      "title": "Java Software Developer",
+      "url": "https://careers.smplicity.digital/jobs/b495020f-9adb-4630-ae5c-763c845c5c12",
+      "requisition": "b495020f-9adb-4630-ae5c-763c845c5c12",
+      "location": "Remote; Mauritius-based consultancy",
+      "arrangement": "Full-time remote; potential client travel",
+      "eligibility": "SG/India eligibility unconfirmed. Java role does not specify Mauritius residence while other board roles explicitly do. This omission is not confirmation of cross-border eligibility.",
+      "engagement_type": "Full-time",
+      "fit": "Java/Java EE, JavaScript, SQL, APIs, high-volume low-latency applications, availability/performance, releases and architecture review. International enterprise integration and client consulting.",
+      "preparation": "Establish seniority, actual stack, client-facing responsibility and whether Salesforce platform learning is expected. Salesforce certification support advertised, not a mandatory Java-role certification.",
+      "questions": "SG/India employee/EOR/B2B supported or Mauritius residence required? Active client/level, base/currency/location policy and bonus, technical-lead scope, work authorization, actual Spring/cloud stack, client timezone/travel/on-call, leave and notice?",
+      "upside": "Lower-priority career-growth candidate (assessment): client-facing integration consulting; compensation and senior-level scope to establish",
+      "verification": "Official current board lists 5 open positions including Java. Role and Apply page opened 18 October 2026; Apply page shows role label but no extractable application fields, workflow unverified.",
+      "canonical_url": "https://careers.smplicity.digital/jobs/b495020f-9adb-4630-ae5c-763c845c5c12",
+      "status_at_last_check": "Official role description accessible; application workflow limitations recorded",
+      "assessments": {
+        "anup": {
+          "priority_tier": 4,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use Java/full-stack integration resume. Highlight API/security design, SQL, enterprise requirements translation, troubleshooting and clear documentation; ask for senior-level scope.",
+          "fit_and_preparation": "Java/Java EE, JavaScript, SQL, APIs, high-volume low-latency applications, availability/performance, releases and architecture review. International enterprise integration and client consulting. Establish seniority, actual stack, client-facing responsibility and whether Salesforce platform learning is expected. Salesforce certification support advertised, not a mandatory Java-role certification.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 4,
+          "resume_emphasis": "Candidate-specific resume per tailoring",
+          "tailoring": "Use hands-on lead/consulting resume. Emphasize stakeholder collaboration, Java/Angular ownership, mentoring and releases. Screen senior/lead leveling and compensation before a full application.",
+          "fit_and_preparation": "Java/Java EE, JavaScript, SQL, APIs, high-volume low-latency applications, availability/performance, releases and architecture review. International enterprise integration and client consulting. Establish seniority, actual stack, client-facing responsibility and whether Salesforce platform learning is expected. Salesforce certification support advertised, not a mandatory Java-role certification.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Compared 111-record ledger, available runtime JSON exports and application draft paths; no same requisition/project observed. Complete SQLite/conversation historical coverage not established."
     }
   ]
 }
