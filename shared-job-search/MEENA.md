@@ -538,7 +538,7 @@ Verification: 18October2026: recruiter-attributed Dice full description accessib
 
 ## New leads checked 18 October 2026
 
-Alert delivery pending. No applications or contacts.
+Apple and Patrianna alerts delivered 19 October 2026 (Singapore local date), reconciled from actual final and external-work history. No applications or contacts.
 
 ### Apple: Senior Software Engineer (Java Backend)
 
