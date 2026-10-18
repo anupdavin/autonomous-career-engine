@@ -631,3 +631,29 @@ Hours/terms: Core Asia timezone/client hours, weekly commitment, on-call and tra
 Questions: IsG0826-0045 stillfunded/open and validapplicationroute? Endclient/project? PermanentSG/Indiaremoteaccepted, whichentity and employee/B2B? Rate/currency/period, guaranteedhours/days, fullMDMversusanalytics split, currentEBXexperience requirements, corehours/oncall, duration, renewal/cancellation/notice, paidleave/payment/FX/expenses?
 
 Verification: 19 October 2026 Singapore date: full official role currently search-indexed, with refG0826-0045, Asia remote and4-6months. Direct www page and trailing slash returned502 repeatedly; non-www inaccessible. Live role/apply form not verified. Indexed description provides recruiter resume route, but no contact made. Continued intake requires confirmation.
+
+## New lead checked 19 October 2026: Visa
+
+### Senior Software Engineer - Product Reliability Engineering (Middleware)
+
+[Official role](https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W). RefREF082409W. Priority1; delivery pending, no applications or contacts.
+
+Location/type: SG - Singapore. Singapore; matching Muse description says hybrid, office-day expectation to be confirmed by hiring manager. Cross-border remote not advertised. Full-time; permanent/fixed-term not established.
+
+Posted: Official Workday:30+days ago, exact date unavailable. Matching Muse metadata26August2026 not treated as employer-confirmed original posting date.
+
+Eligibility: Singapore location confirmed, personal authorization/sponsorship unknown. No relocation or India-based engagement assumed.
+
+Pay: Not published in retrieved exact-requisition descriptions. Applicable Singapore base, currency/period and bonus/equity split unknown. Do not import pay from other Visa geographies.
+
+Upside: Career-growth candidate (assessment): payment-platform reliability plus real software/agent automation rather than routine operations. Compensation to establish. Movingfromlead may notadvanceMeena unless ownership/grade/package justify it.
+
+Resume: Hands-on lead/cloud-native reliability and AI application integration. Use lead/backend/cloud resume. Highlight actual Terraform/GitOps, Kafka/Streams/KEDA, AWS/EKS/ECS, observability, incident decisions and mentoring. Frame SpringAI/RAG/MCP/ClaudeAPI examples as prototypes. Screenoncall, scope and guaranteedpay againstSGD12k/monthtarget.
+
+Preparation: Advertised3-5yearprofile despiteSenior title: establish appropriate grade/scope for8+/9+years, not automatic rejection. Prepare code design, Linux/networking, durable rollback and safe LLM-assisted runbook execution/evaluations. Ansible, LangChain/LangGraph, DataPower/MQ/Flink and production-agent experience to establish; productionAI is a plus, do not invent it.
+
+Hours/terms: On-call rotation explicit; frequency, SG/global coverage, night/weekend load, compensation/timeoff and corehours unknown. Hybrid daycount unconfirmed for exactSGreq; do not substitute Austin3days from anotherrole. Fulltimeemployeelead, pay/benefits/leave/notice and permanent/fixedterm unknown. No B2B/contract mechanism advertised.
+
+Questions: IsREF082409W accepting applications and correctliveURL? Fundedgrade/scope given3-5years, staff/leadlevel flexibility? Singapore guaranteedbase and separatebonus/equity, sponsorship, hybriddays, oncallfrequency/coverage/pay/timeoff, codingvsoperationaltoil, expectationsforproductionagentdelivery and promotioncriteria?
+
+Verification: 19October2026 Singapore date: official exact-requisition description current in search index, fulltimeSG location. Direct Workday page opened but returned no readable content or application controls; live intake/form unverified. Exactreq Muse description accessible with hybrid statement. No closedmarker retrieved; promising lead not verified submission-ready.
