@@ -657,3 +657,27 @@ Hours/terms: On-call rotation explicit; frequency, SG/global coverage, night/wee
 Questions: IsREF082409W accepting applications and correctliveURL? Fundedgrade/scope given3-5years, staff/leadlevel flexibility? Singapore guaranteedbase and separatebonus/equity, sponsorship, hybriddays, oncallfrequency/coverage/pay/timeoff, codingvsoperationaltoil, expectationsforproductionagentdelivery and promotioncriteria?
 
 Verification: 19October2026 Singapore date: official exact-requisition description current in search index, fulltimeSG location. Direct Workday page opened but returned no readable content or application controls; live intake/form unverified. Exactreq Muse description accessible with hybrid statement. No closedmarker retrieved; promising lead not verified submission-ready.
+
+## New lead checked 19 October 2026: Mayflower
+
+### Kotlin/Java Developer (Integration / Merchant Response), overlapping payment-gateway track
+
+[Official integration role](https://mayflower.recruitee.com/o/kotlinjava-developer-integration); [Merchant Response alternative](https://mayflower.recruitee.com/o/kotlinjava-developer-merchant-response). One overlapping payment-gateway track. Priority1, eligibility unconfirmed. Alert pending actual delivery; no applications or contacts.
+
+Location/type: Full remote explicitly stated, not temporary relocation language used for other Mayflower jobs. Singapore/India country support unconfirmed. No relocation assumed. Service contract; weekly hours, exclusivity, legal B2B/individual structure and duration unknown.
+
+Posted: Not stated on official pages. Merchant Response mirror freehire shows 17 June 2026, updated 17 September; not employer-confirmed original posting date.
+
+Pay: No numeric pay published. Competitive compensation with a service contract, twice-yearly performance reviews with bonus opportunities and salary adjustments. Bonus not guaranteed. Integration application asks Gross Salary Expectation (in Euros), period unstated; Merchant Response asks Net Monthly Salary Expectation (in Euros). These are applicant expectation fields, not a published salary, guaranteed EUR billing or personal net-pay promise.
+
+Upside: Career-growth candidate (assessment) through regulated payment integrations, end-to-end technical epics and AI-assisted engineering automation. Compensation to establish; foreign-currency expectation field is not proof of income growth. Meena should establish senior/lead scope and economics against SGD144000 annual base target before extensive test work.
+
+Resume: Hands-on lead, event-driven payment/platform modernization and AI integration. Use Meena's lead/backend/cloud-native resume. Highlight verified fintech and enterprise delivery, Kafka/Streams, Redis, Spring, AWS, CI/CD, technical epics, reviews, mentoring and production diagnosis. Include Camel as confirmed. Label Spring AI/RAG/MCP/Claude API examples prototypes; clarify actual AI coding-tool experience and commercial Kotlin background. Establish hands-on lead ownership before accepting a title/grade step down.
+
+Preparation: Both explicitly ask 3+ years commercial Kotlin; Java plus for Integration. Neither candidate's Kotlin tenure is established. Ask whether strong Java/Spring engineers with verified integrations can qualify rather than inventing Kotlin years. Prepare Kotlin idioms/coroutines/interoperability, payment-provider 3DS/idempotency/security, PCI DSS/ISO27001, MySQL optimization and Camunda. Apache Camel confirmed for both but is not identical to Camunda and does not establish Camunda production use.
+
+Hours/terms: Core hours/timezone overlap and weekly hours unstated. Daily support/user requests and production incident work explicit; establish rotation, nights/weekends, response SLA and compensation/time off. Full remote service contract; numeric rate, currency/period, paid/unpaid leave, minimum guaranteed billing, term, cancellation/notice, renewal, invoicing/payment schedule, FX/transfer costs, equipment and contractor expenses unstated. Annual allowance and learning/wellbeing benefits subject to policy/eligibility. Confirm SG versus India entity and terms; not employee-equivalent guaranteed cash.
+
+Questions: Can each person contract while remaining in Singapore or India, through which entity and B2B/individual mechanism? Will strong Java/Spring experience qualify against explicit 3+ commercial Kotlin requirement? Which distinct team/project and should only one application be made? Rate/currency/period, global or location-adjusted pay, SG/India differences, gross invoice versus net expectation wording, guaranteed hours, leave, duration/renewal/cancellation/notice, payment/FX/expenses, core overlap/on-call/support load, integration automation ownership and level?
+
+Verification: 19 October 2026 Singapore date: both exact roles present on live official Recruitee board; full descriptions and blank CV/contact/country/salary-expectation forms readable, including Send controls. Generic success/already-applied template text is not evidence of a submission. No fields entered, application sent or employer contact made.
