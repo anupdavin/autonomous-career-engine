@@ -513,3 +513,25 @@ Hours: Global collaboration and production troubleshooting stated; exact SG core
 Questions: Isedd8f06b funded/current and are other Notification engineer/staff/lead IDs one hiring track? Guaranteed SG base/currency and separate bonus/equity, sponsorship, exact onsite days, on-call/SLO/incident rota and global overlap? Component design ownership, Java versus other language split, required3year event-pipeline evidence, leveling and benefits/leave/notice?
 
 Verification: 18October2026: full official short-URL employer description and application labels accessible (name,email,location,resume,salary expectations,currency,notice); no form submitted or account action. Slugged URL initially redirect-looped; short official URL worked. Official Ashby opened JS-only, indexed official source confirms On-site/SG/Full-time. No closed marker on retrieved employer page. End-to-end submission not tested.
+
+## Remediation contract review checked18October2026
+
+Previous AirwallexNotification alert reconciled after actual delivery. New conditional lead below remains pending actual alert delivery.
+
+### Cynet Systems, undisclosed Iowa client: Senior Java Fullstack Developer, vulnerability remediation (Remote / Telecommute)
+
+[Recruiter role](https://www.dice.com/job-detail/6a0c06cc-b3b7-4b5b-a494-5255f1e1b91e). Tier3. 6months contract; W2 or Corp-to-Corp labels. Eligibility-unconfirmed lead, not an eligible SG/India application yet. US/Iowa listing and W2/C2C do not establish international B2B. No explicit US-only residence/work-authorization sentence retrieved, but treat any requiredUSonsite,residence,workrights orUS-onlyentity as hard blocker. Resolve remote/onsite and SG/India contracting before application.
+
+Pay: $50.00-$55.00 per hour on recruiter-attributed US listing. Currency code not explicitly stated in retrieved description; confirmUSD. SG/India applicability/local rate unknown. Do not apply US band to cross-border engagement.
+
+Scope: Career-growth candidate (assessment) through regulated-platform security modernization and AI-assisted engineering automation; narrow contract scope. Compensation to establish, not an income-growth claim.
+
+Resume: Senior Java backend modernization and secure delivery. Use real Java21/Spring upgrades, Maven/dependency handling, CI/CD regression checks, secure integration and production diagnosis. Show actual coding-agent context/review/test practice. Prepare a small dependency-upgrade risk analysis and reproducible regression check without claiming particular SCA tools or microservice counts.
+
+Preparation: StrongJava/Camel/security modernization transfer. Geography/intake first, then compare narrow6monthscope and effective economics. SCA/CVSS/Python specifics to establish.
+
+Hours/terms: Twice-weekly vulnerability-remediation cadence. Weekly hours, US timezone overlap, on-call and exact SG/India schedule unknown. 6months; no guaranteed billing, renewal, paid leave, cancellation/notice, payment schedule, currency/FX or expenses established. US medical/401k/state sick leave benefit boilerplate may depend on employee status/location and is not promised for B2B/SG/India.
+
+Questions: CanIA_SJFD_1008 accept permanentSG/India remoteinternationalB2B, or onlyUS-based W2/C2C? WhyOn-site metadata versusRemote title, anyclient-site requirement? ConfirmUSD50-55/hr applies to whichentity/geography; cross-borderrate, guaranteedhours, exactcoretimezone/oncall,6monthdates, renewal/cancellation/notice, paidleave, payment/FX/expenses, endclient/projectidentity and actual remediation/design ownership.
+
+Verification: 18October2026: recruiter-attributed Dice full description accessible including exactpositionID,6months,W2/C2C,$50-55/hr, contradictoryOn-site metadata. Remotivefullcopyopened; itsApplylinksCeipal exactjob. CeipalJS-only, no readable application fields; active intake/end-to-end form unverified. No explicitclosedmarker on retrieved recruiter listing. Treatasconditionalexploration, not submission-ready or worldwide-confirmed.
