@@ -5999,6 +5999,227 @@
         }
       },
       "deduplication_note": "Distinct from EPAM Lead Back-end Java Developer already in ledger; this description focuses on AI-centric SDLC/developer agents."
+    },
+    {
+      "job_id": "renesas-744000152334030",
+      "employer": "Renesas Electronics",
+      "title": "Senior / Software Engineer",
+      "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000152334030-senior-software-engineer",
+      "location": "Singapore",
+      "arrangement": "Onsite; Remote Work Available: No",
+      "eligibility": "Singapore work location supported; personal authorization and sponsorship unknown",
+      "engagement_type": "Full-time, regular permanent",
+      "published_compensation": "Not published",
+      "fit": "Java, TypeScript, object-oriented design and desktop/cloud developer tools for microcontrollers; customer training and technical support",
+      "preparation": "Microcontroller tooling, desktop software architecture, Python and customer-facing technical documentation; establish actual seniority and scope",
+      "verification": "Official SmartRecruiters description accessible 18 October 2026, regular permanent and no remote work stated, interested label visible. Singapore corroborated by official ATS search index. Application workflow not completed or tested.",
+      "questions": "Singapore work-pass support? Guaranteed monthly base and separate upside? Senior leveling and architecture ownership? Desktop versus cloud split, customer-support load, office cadence, hours and on-call?",
+      "anup_tailoring": "Use senior Java/full-stack modernization resume. Emphasize Java/TypeScript, maintainable APIs, debugging and developer-facing documentation; prepare a truthful example of making an engineering workflow easier. Do not claim embedded development experience.",
+      "meena_tailoring": "Use hands-on lead/full-stack resume. Emphasize Java/Angular engineering, automated delivery, quality practices and mentoring. Ask whether this role includes lead-level ownership before prioritizing a title change.",
+      "anup_priority": 2,
+      "meena_priority": 3,
+      "canonical_url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000152334030-senior-software-engineer",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Live description accessible; application workflow unverified",
+      "freshly_verified_during_import": true,
+      "import_source": "Public-web discovery 18 October 2026; canonical ledger and available runtime exports/draft inventory compared",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "No annual guaranteed SGD cash established; no FX annualization performed",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "posted": "Not published or not established",
+      "hours_on_call": "Core hours, timezone overlap and on-call unknown",
+      "terms": "Employment entity, benefits, paid leave, notice and payment details unknown",
+      "upside": "Career-growth candidate (assessment); compensation to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use senior Java/full-stack modernization resume",
+          "tailoring": "Use senior Java/full-stack modernization resume. Emphasize Java/TypeScript, maintainable APIs, debugging and developer-facing documentation; prepare a truthful example of making an engineering workflow easier. Do not claim embedded development experience.",
+          "fit_and_preparation": "Java, TypeScript, object-oriented design and desktop/cloud developer tools for microcontrollers; customer training and technical support; Microcontroller tooling, desktop software architecture, Python and customer-facing technical documentation; establish actual seniority and scope",
+          "application_status": "Not recorded; no submission or contact"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Use hands-on lead/full-stack resume",
+          "tailoring": "Use hands-on lead/full-stack resume. Emphasize Java/Angular engineering, automated delivery, quality practices and mentoring. Ask whether this role includes lead-level ownership before prioritizing a title change.",
+          "fit_and_preparation": "Java, TypeScript, object-oriented design and desktop/cloud developer tools for microcontrollers; customer training and technical support; Microcontroller tooling, desktop software architecture, Python and customer-facing technical documentation; establish actual seniority and scope",
+          "application_status": "Not recorded; no submission or contact"
+        }
+      }
+    },
+    {
+      "job_id": "recruitment-room-swe-ai-evaluation-01a0c408",
+      "employer": "Recruitment Room",
+      "title": "Senior Software Engineer, AI coding-task evaluation",
+      "url": "https://jobs.pitchnhire.com/recruitmentroom.net/senior-software-engineer-qAAnl-clone-M7VTx/019f603b-32ee-79e6-bce3-4519000feedd",
+      "requisition": "01a0c408",
+      "location": "Remote APAC; Singapore and India explicitly listed",
+      "arrangement": "Remote, approximately 15 hours/week, flexible days and hours including weekends",
+      "eligibility": "SG/India listed by recruiter ATS; end-client contracting eligibility and personal permission for additional work unconfirmed",
+      "engagement_type": "Contract; output-based task engagement",
+      "published_compensation": "USD $30-$100/hour. Page also publishes annual compensation equivalent USD $57,600-$192,000 based on 40 hours/week x 48 workable weeks; explicitly not guaranteed salary and mismatched with actual approximately 15-hour schedule.",
+      "posted": "2026-09-21",
+      "fit": "Java/backend API development, debugging, performance optimization, code review and deterministic test verifiers for AI evaluation; no prior AI experience required",
+      "preparation": "Design unambiguous coding tasks and verifiers; practical algorithm and security review exercises. Independent assessments and project work without outside assistance are required.",
+      "verification": "Recruiter-owned Pitch N Hire description reopened 18 October 2026; APAC country list, dated post, contract terms and actual rate visible. No live application submission tested; end client not identified.",
+      "questions": "Who is end client and legal contracting party? Are SG/India both accepted on identical terms? Is rate per accepted task or verified time, and how are rejected tasks/unpaid assessment handled? Minimum weekly submissions, guaranteed work, paid leave, notice, duration, cancellation, invoicing/payment currency/timing, FX fees and expenses?",
+      "hours_on_call": "Approximately 15 hours/week; flexible schedule. Minimum weekly submissions apply but quantity unstated. Onboarding readiness 24-48 hours. No guaranteed weekly hours; actual pay depends on accepted output and project availability.",
+      "terms": "Output-based; minimum submissions apply. Leave, guaranteed billing, duration, notice/cancellation, payment timing, currency costs and contractor expenses unknown. Page prohibits outside assistance for assessment and project work.",
+      "anup_tailoring": "Use senior backend/security resume. Highlight verifiable production debugging, API correctness, secure integration and AI-output verification. Prepare an original Java debugging task with deterministic tests; do not imply production AI research.",
+      "meena_tailoring": "Use lead/backend quality and DevSecOps resume. Highlight code review, distributed-system failure analysis, automated tests and technical reasoning. Prepare a self-authored concurrency or Kafka correctness task; AI prototypes remain accurately labeled.",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "canonical_url": "https://jobs.pitchnhire.com/recruitmentroom.net/senior-software-engineer-qAAnl-clone-M7VTx/019f603b-32ee-79e6-bce3-4519000feedd",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Live description accessible; application workflow unverified",
+      "freshly_verified_during_import": true,
+      "import_source": "Public-web discovery 18 October 2026; canonical ledger and available runtime exports/draft inventory compared",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "No annual guaranteed SGD cash established; no FX annualization performed",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "upside": "Supplemental income candidate (assessment); output-based revenue and effective hourly economics to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior backend/security resume",
+          "tailoring": "Use senior backend/security resume. Highlight verifiable production debugging, API correctness, secure integration and AI-output verification. Prepare an original Java debugging task with deterministic tests; do not imply production AI research.",
+          "fit_and_preparation": "Java/backend API development, debugging, performance optimization, code review and deterministic test verifiers for AI evaluation; no prior AI experience required; Design unambiguous coding tasks and verifiers; practical algorithm and security review exercises. Independent assessments and project work without outside assistance are required.",
+          "application_status": "Not recorded; no submission or contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use lead/backend quality and DevSecOps resume",
+          "tailoring": "Use lead/backend quality and DevSecOps resume. Highlight code review, distributed-system failure analysis, automated tests and technical reasoning. Prepare a self-authored concurrency or Kafka correctness task; AI prototypes remain accurately labeled.",
+          "fit_and_preparation": "Java/backend API development, debugging, performance optimization, code review and deterministic test verifiers for AI evaluation; no prior AI experience required; Design unambiguous coding tasks and verifiers; practical algorithm and security review exercises. Independent assessments and project work without outside assistance are required.",
+          "application_status": "Not recorded; no submission or contact"
+        }
+      }
+    },
+    {
+      "job_id": "d-factor-senior-backend-java-investment-crm",
+      "employer": "D-Factor",
+      "title": "Senior Backend Engineer (Java)",
+      "url": "https://d-factor.pro/career/java/",
+      "location": "Warsaw, Poland listed; remote",
+      "arrangement": "Remote; flexible hours; cross-border SG/India engagement unconfirmed",
+      "eligibility": "Unconfirmed lead: Warsaw listed, no explicit Poland-only residence or authorization condition observed. Do not treat B2B as worldwide eligibility.",
+      "engagement_type": "Official employment or B2B contract",
+      "published_compensation": "Not published",
+      "fit": "Java 17/Spring Boot, REST/SQL, AWS microservices for UK investment-company CRM and operational platform; architecture, scalability and product work",
+      "preparation": "Dagger, Spark, JDBI, Dropwizard, Nomad/Traefik, MySQL and AWS SQS/SNS are preparation topics, not assumed gaps. English B2+ and practical coding/system-design interview.",
+      "verification": "Employer page reopened 18 October 2026; role description, remote/Warsaw label, apply button, employment/B2B choice and 25 days vacation plus sick leave visible. Country eligibility and functioning application form unverified.",
+      "questions": "Can you contract from Singapore or India without Poland/EU residence/work rights, and on what entity/currency/rate? Is 25 days leave/sick leave paid under B2B as well as employment? UK overlap/on-call, minimum billing, term/notice/cancellation, payment schedule, equipment/FX expenses?",
+      "hours_on_call": "Flexible hours stated; UK client overlap, required schedule, DST effects and on-call unknown",
+      "terms": "Official employment or B2B; 25 days vacation and paid sick leave advertised, B2B applicability unknown. Five-year established client team. Notice, duration, minimum billing, renewal/cancellation and payment terms unknown.",
+      "anup_tailoring": "Use Java backend/payments/integration resume. Emphasize secure financial-services APIs, SQL, AWS/container delivery and performance diagnosis. Prepare idempotency and financial document-workflow design examples grounded in actual delivery.",
+      "meena_tailoring": "Use hands-on lead/cloud-modernization resume. Emphasize Java microservices, event-driven reliability, AWS delivery and architecture decisions. Establish mentoring/technical ownership scope as this is a senior individual-contributor title.",
+      "anup_priority": 2,
+      "meena_priority": 2,
+      "canonical_url": "https://d-factor.pro/career/java/",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Live description accessible; application workflow unverified",
+      "freshly_verified_during_import": true,
+      "import_source": "Public-web discovery 18 October 2026; canonical ledger and available runtime exports/draft inventory compared",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "No annual guaranteed SGD cash established; no FX annualization performed",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "posted": "Not published or not established",
+      "upside": "Career-growth candidate (assessment); compensation to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use Java backend/payments/integration resume",
+          "tailoring": "Use Java backend/payments/integration resume. Emphasize secure financial-services APIs, SQL, AWS/container delivery and performance diagnosis. Prepare idempotency and financial document-workflow design examples grounded in actual delivery.",
+          "fit_and_preparation": "Java 17/Spring Boot, REST/SQL, AWS microservices for UK investment-company CRM and operational platform; architecture, scalability and product work; Dagger, Spark, JDBI, Dropwizard, Nomad/Traefik, MySQL and AWS SQS/SNS are preparation topics, not assumed gaps. English B2+ and practical coding/system-design interview.",
+          "application_status": "Not recorded; no submission or contact"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use hands-on lead/cloud-modernization resume",
+          "tailoring": "Use hands-on lead/cloud-modernization resume. Emphasize Java microservices, event-driven reliability, AWS delivery and architecture decisions. Establish mentoring/technical ownership scope as this is a senior individual-contributor title.",
+          "fit_and_preparation": "Java 17/Spring Boot, REST/SQL, AWS microservices for UK investment-company CRM and operational platform; architecture, scalability and product work; Dagger, Spark, JDBI, Dropwizard, Nomad/Traefik, MySQL and AWS SQS/SNS are preparation topics, not assumed gaps. English B2+ and practical coding/system-design interview.",
+          "application_status": "Not recorded; no submission or contact"
+        }
+      }
+    },
+    {
+      "job_id": "playpowerlabs-ab9231e8-3e3f-41c4-aff2-ff769241a1c7",
+      "employer": "PlayPower Labs",
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7",
+      "location": "Fully remote, India only",
+      "arrangement": "Remote, India only; Singapore residence is a hard location blocker",
+      "eligibility": "India remote explicitly supported in official ATS indexed description; SG-based engagement not supported. Actual opening/application availability unverified.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published in indexed official ATS description; rendered live compensation could not be checked",
+      "fit": "Angular/React, Java/Node.js, TypeScript, AI coding agents/MCP/API automation, secure full-stack product delivery and engineering judgment",
+      "preparation": "Role advertises 2-5 years; establish senior/lead leveling and pay fit rather than rejecting on tenure alone. React/Node and production agent integration depth to establish; prototypes must stay labeled.",
+      "verification": "18 October 2026: direct Ashby page returned JavaScript-only shell. Official ATS indexed description visible in fresh search but is not a live-form verification. Availability, posting date and live salary fields not established.",
+      "questions": "Is requisition still accepting applications? Can scope/level support 8+/9+ years and comparable pay? India residence mandatory (no SG eligibility presumed)? India employment entity/base/benefits, hours/client overlap, leadership authority and production AI expectations?",
+      "anup_tailoring": "Use full-stack resume with prominent AI-assisted engineering practices. Emphasize Angular/TypeScript/Java, context preparation, output verification, secure APIs and CI/CD; distinguish coding-agent use from building production agents.",
+      "meena_tailoring": "Use hands-on lead/full-stack and AI-integration resume. Emphasize Angular 18, Java 21, delivery ownership, security and accurately labeled Spring AI/RAG/MCP prototypes. Confirm whether lead scope exists before investing heavily.",
+      "anup_priority": 3,
+      "meena_priority": 3,
+      "canonical_url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": null,
+      "status_at_last_check": "Indexed official role; live status unverified",
+      "freshly_verified_during_import": false,
+      "import_source": "Public-web discovery 18 October 2026; canonical ledger and available runtime exports/draft inventory compared",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India engagement differences unknown",
+      "sgd_comparison": "No annual guaranteed SGD cash established; no FX annualization performed",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "posted": "Not published or not established",
+      "hours_on_call": "Core hours, timezone overlap and on-call unknown",
+      "terms": "Employment entity, benefits, paid leave, notice and payment details unknown",
+      "upside": "Career-growth candidate (assessment); compensation to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Use full-stack resume with prominent AI-assisted engineering practices",
+          "tailoring": "Use full-stack resume with prominent AI-assisted engineering practices. Emphasize Angular/TypeScript/Java, context preparation, output verification, secure APIs and CI/CD; distinguish coding-agent use from building production agents.",
+          "fit_and_preparation": "Angular/React, Java/Node.js, TypeScript, AI coding agents/MCP/API automation, secure full-stack product delivery and engineering judgment; Role advertises 2-5 years; establish senior/lead leveling and pay fit rather than rejecting on tenure alone. React/Node and production agent integration depth to establish; prototypes must stay labeled.",
+          "application_status": "Not recorded; no submission or contact"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Use hands-on lead/full-stack and AI-integration resume",
+          "tailoring": "Use hands-on lead/full-stack and AI-integration resume. Emphasize Angular 18, Java 21, delivery ownership, security and accurately labeled Spring AI/RAG/MCP prototypes. Confirm whether lead scope exists before investing heavily.",
+          "fit_and_preparation": "Angular/React, Java/Node.js, TypeScript, AI coding agents/MCP/API automation, secure full-stack product delivery and engineering judgment; Role advertises 2-5 years; establish senior/lead leveling and pay fit rather than rejecting on tenure alone. React/Node and production agent integration depth to establish; prototypes must stay labeled.",
+          "application_status": "Not recorded; no submission or contact"
+        }
+      }
     }
   ]
 }
