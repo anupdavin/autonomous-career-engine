@@ -5927,10 +5927,10 @@
       ],
       "import_source": "Fresh public-web check on 18 October 2026, official employer careers pages",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current alert. Reconcile from conversation on next run; do not assert delivery before final response."
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Reconciled from the visible delivered RapidCanvas alert in conversation history on 18 October 2026; exact delivery time not recorded."
       },
       "assessments": {
         "anup": {
