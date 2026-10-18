@@ -636,7 +636,7 @@ Verification: 19 October 2026 Singapore date: full official role currently searc
 
 ### Senior Software Engineer - Product Reliability Engineering (Middleware)
 
-[Official role](https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W). RefREF082409W. Priority1; delivery pending, no applications or contacts.
+[Official role](https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Senior-Software-Engineer---Product-Reliability-Engineering--Middleware-_REF082409W). RefREF082409W. Priority1; alert delivered 19 October 2026, reconciled from actual ChatGPT final and external-work history; no applications or contacts.
 
 Location/type: SG - Singapore. Singapore; matching Muse description says hybrid, office-day expectation to be confirmed by hiring manager. Cross-border remote not advertised. Full-time; permanent/fixed-term not established.
 
