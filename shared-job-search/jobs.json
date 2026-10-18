@@ -7684,9 +7684,10 @@
       "upside": "Career-growth candidate (assessment) through regulated payment integrations, end-to-end technical epics and AI-assisted engineering automation. Compensation to establish; foreign-currency expectation field is not proof of income growth. Meena should establish senior/lead scope and economics against SGD144000 annual base target before extensive test work.",
       "deduplication_note": "No Mayflower/payment-gateway match in 133-job shared ledger, reported history, discovered_global_jobs or two available prepared application exports. Both official variants share substantially identical gateway/project, requirements and terms, so retained as one canonical track rather than two alerts. Full historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for a ChatGPT alert. Do not append alert_delivered until actual final delivery is evidenced; reconcile next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and supplied external-work history confirm delivery; date only, exact time unknown."
       },
       "assessments": {
         "anup": {
@@ -7699,6 +7700,61 @@
           "priority_tier": 1,
           "resume_emphasis": "Hands-on lead, event-driven payment/platform modernization and AI integration",
           "tailoring": "Use Meena's lead/backend/cloud-native resume. Highlight verified fintech and enterprise delivery, Kafka/Streams, Redis, Spring, AWS, CI/CD, technical epics, reviews, mentoring and production diagnosis. Include Camel as confirmed. Label Spring AI/RAG/MCP/Claude API examples prototypes; clarify actual AI coding-tool experience and commercial Kotlin background. Establish hands-on lead ownership before accepting a title/grade step down.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "endowus-technical-lead-a5ef8aad",
+      "employer": "Endowus",
+      "title": "Technical Lead, Retirement Solutions",
+      "requisition": "a5ef8aad-d32e-44c8-a850-5b1531f29b22",
+      "url": "https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22",
+      "canonical_url": "https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22",
+      "url_aliases": [
+        "https://www.jobstore.com/sg/job/l27614737/technical-lead-job"
+      ],
+      "import_source": "Official Endowus corporate careers link, current Manatal board page2 and exact role plus matching Jobstore description checked19October2026 Singapore local date",
+      "last_checked": "2026-10-19",
+      "posted": "Not stated on official role or retrieved matching Jobstore copy; no refresh date treated as original posting date.",
+      "location": "Singapore, Singapore",
+      "arrangement": "Hybrid, at least3 office days/week explicitly. Not100%remote; India-based engagement not advertised.",
+      "engagement_type": "Full-Time; permanent/fixed-term not established; no B2B arrangement advertised",
+      "eligibility": "Singapore work location confirmed. Personal work authorization and employer sponsorship unknown; no eligibility inferred from current employment pass. No relocation or India onsite assumed.",
+      "published_compensation": "Official exact role publishes no numeric pay. Exact matching Jobstore copy displays SGD7500-SGD12500(Monthly), source currency/period explicit, but employer confirmation/current applicability and base-versus-total split unverified. ESOP upside separately advertised with no grant amount; equity not guaranteed cash. Bonus/cash breakdown unknown.",
+      "sgd_comparison": "Already published in SGD by matching thirdparty. No guaranteed annual cash established because employer salary/base status and band applicability unconfirmed. Meena targetSGD12000/month lies near top of displayed thirdparty band, not proof of achievable offer or current-package uplift.",
+      "verification": "19October2026 Singapore date: corporate endowus.com/careers links official Manatal board; board page2 currently lists TechnicalLead. Exact description accessible with ApplyNow. Apply URL opens correcttitle/location but no readable applicant form in extraction, so live submission workflow remains unverified. Matching Jobstore body same retirement/JVM/Scala architecture and3day cadence. No closedmarker seen. No fields entered or application submitted.",
+      "evidence_urls": [
+        "https://endowus.com/careers",
+        "https://endowus.careers-page.com/?page=2",
+        "https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22",
+        "https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22/apply",
+        "https://www.jobstore.com/sg/job/l27614737/technical-lead-job"
+      ],
+      "fit": "Hands-on project architecture/implementation for retirement financial workflows; strategic buildvsbuy/integration choices, scalability/resilience, security/regulatory MAS TRM, technicaldebt roadmaps and mentoring seniorengineers.8+years fintech/banking/complexenterprise, Java/Scala/KotlinJVM fluency accepted, microservices/event-driven/cloudnative AWS/GCP, Kafka/Cassandra/relationaldatabases, CI/CDDevOpsSRE. Actual backendScala/Akka, DDD,event sourcing/CQRS, Cassandra transactional/PostgreSQLreadside, AWSIaC.",
+      "preparation": "Scala/Akka production experience and event-sourcing/CQRS listed nice-to-have, not automatic Java rejection. Cassandra is stronger stated core requirement: establish actual depth. Prepare actor/stream failurehandling, replay/schema evolution/readmodels/data consistency, retirement/ledgerdomain, MAS TRM architectural decisions and business-facing buildvsbuy tradeoffs. Do not invent Scala/Akka/Cassandra production delivery, formal architect tenure or specific financial outcomes.",
+      "authorization_sponsorship": "Unknown; ask about new Singapore pass support before extensive interviews. No citizenship or explicit no-sponsorship restriction retrieved.",
+      "hours_on_call": "At least3 office days/week; corehours, timezone collaboration, on-call/supportrotation, overtime/timeoff and travel unstated. Broad ownership includes infrastructure/QA/operations/product decisions, not coding-only.",
+      "terms": "Fulltimeemployeelead, no contract billing model advertised. Guaranteedbase, bonus/equity details, benefits, leave, probation, notice and permanent/fixedterm unknown. Interview advertised30minscreen,60minonlinecoding,60mintechnicaldeepdive,60minsystemdesign,60minculture.",
+      "questions": "Is exactrole funded and accepting applications and correctworkingform? Singapore sponsorship? Confirm applicable guaranteedbase/period versus JobstoreSGD7500-12500/month, bonus/equity separate, grade and architectureauthority, peoplemanagementvsIC expectations, Scala/Akka onboarding flexibility and Cassandra depth, retirementvertical scope,3dayoffice policy, corehours/oncall/travel, leave/probation/notice and permanent/fixedterm.",
+      "upside": "Career-growth candidate (assessment): real technical vision/architecture, regulated financial workflow ownership, seniorengineer mentoring and distributedsystem learning. Compensation to establish. Lower band below Meena target; prioritize only near target or concrete scope/conditions advantage, no assumed incomeuplift.",
+      "deduplication_note": "NoEndowus exactreq/project/employer in134canonicaljobs/history or discovered_global_jobs and two preparedapplicationexports. Historicalcoverage remains incomplete. Matching Jobstore is alias notnewopening.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for actual ChatGPT alert; reconcile from delivered final next run, do not assert delivery now."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend payments, secure integration and modernization with hands-on architecture",
+          "tailoring": "Use Anup's senior Java/backend-payments resume. Lead actual NTTDATA/GreatEastern payments, secureAPI/OAuth2/mTLS, Kafka/SQL, cloud/Kubernetes and modernization decisions. Show verifiable alternatives/tradeoffs, resilience/security/testing and stakeholder outcomes. Include Camel as known; avoid claiming Scala/Akka/Cassandra or MAS TRM delivery absent evidence.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, cloud-native event-driven modernization and mentoring",
+          "tailoring": "Use Meena's lead/backend/cloud-native resume. Highlight actual NCS/LTA leadership and earlier fintech, Kafka/Streams/KEDA, AWS, Terraform/GitOps, production reliability, architecture reviews, stakeholder alignment and mentoring. Connect verifiable system decisions to data consistency and roadmaps. Establish Cassandra/Scala/Akka depth honestly, do not convert AI prototypes to production delivery. Screen guaranteedbase againstSGD12000monthlytarget early.",
           "application_status": "Not applied or approved"
         }
       }
