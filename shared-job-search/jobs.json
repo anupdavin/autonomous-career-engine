@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "import_date": "2026-10-18",
-  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs. Review18October2026: compared current public sources across SG/APAC,US/Canada,UK/Ireland,Europe,ANZ,MiddleEast,Africa,LATAM discovery queries. Excluded PopSockets1beeb162 official IndiaHybrid despite remote aggregator; wealthAPI16814841 worldwideheader overridden by residencewithin2hBerlin; N-iX4395312101 explicitlyclosed; MissionJava4269227750/4399060252 closed; LazerJava thirdpartyremoved29June2026. ZYNC CFFKBE EUR300/day worldwide page remains accessible but1October start year unstated and active funded intake unestablished, held for verification. These observations are not new application recommendations. Review18October2026 later check: excluded InAllMedia1821 officialRemoteLATAM despiteAPACtitle; pawaPaySeniorDeveloper officialEurope&Africa overrides companyAsia-team boilerplate; RoundInfinity backendBangalore notremote; AgileEngine87003 404 and IndiaJava90127 intakepaused; MichaelPageJN0720256789225 410Gone. SSCremoteDubai-hourscopy requiresArabic and listsEgypt, not established viableSG/India lead. Broad queries covered all requested regions; not exhaustive.",
+  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs. Review18October2026: compared current public sources across SG/APAC,US/Canada,UK/Ireland,Europe,ANZ,MiddleEast,Africa,LATAM discovery queries. Excluded PopSockets1beeb162 official IndiaHybrid despite remote aggregator; wealthAPI16814841 worldwideheader overridden by residencewithin2hBerlin; N-iX4395312101 explicitlyclosed; MissionJava4269227750/4399060252 closed; LazerJava thirdpartyremoved29June2026. ZYNC CFFKBE EUR300/day worldwide page remains accessible but1October start year unstated and active funded intake unestablished, held for verification. These observations are not new application recommendations. Review18October2026 later check: excluded InAllMedia1821 officialRemoteLATAM despiteAPACtitle; pawaPaySeniorDeveloper officialEurope&Africa overrides companyAsia-team boilerplate; RoundInfinity backendBangalore notremote; AgileEngine87003 404 and IndiaJava90127 intakepaused; MichaelPageJN0720256789225 410Gone. SSCremoteDubai-hourscopy requiresArabic and listsEgypt, not established viableSG/India lead. Broad queries covered all requested regions; not exhaustive. Review18October2026 additional broad query cycle: TechPeopleEBX28024 redirecta0RAM000007TPqp2AG explicitlyclosed inHungarian; SirisJava positionfilled; RevvityEBXLinkedInprimary inaccessible, nofundedintakeverified. CynetUS recruiterlocation/onsitemetadata overrides unsupportedRemotiveWorldwide. NavidevJava remote page listsSA/Romaniahiringlocations and genericcontact, notprioritized withoutcountry/fundedprojectclarification.",
   "jobs": [
     {
       "employer": "Airwallex",
@@ -7335,10 +7335,10 @@
       "status_at_last_check": "Official job description/application labels accessible; submission workflow untested",
       "deduplication_note": "Compared126-record main ledger and current runtime/discovered_global_jobs.json plus prepared_packets_2026-10-04.json. No notification-platform project observed. Existing Airwallex IssuingStaff3487aa40 is card transaction/settlement architecture, while this shared communications platform serves Issuing and wider teams. Other notification ID006156bb/7fdb0541/0e4fbd3f observed in indexed results; treat substantially identical notification descriptions as one project on rediscovery, not fresh alerts. Full-history completeness not claimed.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Record actual delivery only after ChatGPT final is delivered"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual final visible and externally handed off; date-only delivery evidence"
       },
       "assessments": {
         "anup": {
@@ -7353,6 +7353,60 @@
           "resume_emphasis": "Hands-on lead/backend cloud and event-driven reliability",
           "tailoring": "Use Java21/Spring3, KafkaStreams/KEDA, Redis/Postgres, Kubernetes/Istio, GitOps/observability, architecture decisions and mentoring. Prepare backpressure, duplicate delivery, ordering, incident/SLO and rollout trade-offs with truthful examples. Screen actual IC autonomy and compensation against SGD12000/month target.",
           "fit_and_preparation": "Strong event-driven/platform transfer. SeniorIC has no direct reports; evaluate hands-on ownership and package versus current lead role. Exact middleware tenure/scale to establish.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "cynet-IA_SJFD_1008-remediation",
+      "employer": "Cynet Systems, undisclosed Iowa client",
+      "title": "Senior Java Fullstack Developer, vulnerability remediation (Remote / Telecommute)",
+      "url": "https://www.dice.com/job-detail/6a0c06cc-b3b7-4b5b-a494-5255f1e1b91e",
+      "canonical_url": "https://www.dice.com/job-detail/6a0c06cc-b3b7-4b5b-a494-5255f1e1b91e",
+      "url_aliases": [
+        "https://candidateportal.ceipal.com/job-details/9dqvD9PfE5ZKQDdof79tvFOCF_AqynnyTsefI9SbpB4",
+        "https://remotive.com/remote/jobs/software-development/senior-java-fullstack-developer-6195720"
+      ],
+      "requisition": "IA_SJFD_1008; Dice6a0c06cc-b3b7-4b5b-a494-5255f1e1b91e",
+      "last_checked": "2026-10-18",
+      "import_source": "Recruiter-attributed Dice role and linked Ceipal route reopened18October2026; Remotive copy compared",
+      "posted": "Exact date unavailable; relative posting/updated dates vary between4days and1week. Position suffix1008 not treated as verified date.",
+      "location": "Iowa City, Iowa, US listed; actual cross-border worker location unconfirmed",
+      "arrangement": "Title/body Remote/Telecommute versus Dice metadataOn-site. RemotiveWorldwide unsupported by retrieved primary recruiter location; do not assume worldwide.",
+      "engagement_type": "6months contract; W2 or Corp-to-Corp labels",
+      "eligibility": "Eligibility-unconfirmed lead, not an eligible SG/India application yet. US/Iowa listing and W2/C2C do not establish international B2B. No explicit US-only residence/work-authorization sentence retrieved, but treat any requiredUSonsite,residence,workrights orUS-onlyentity as hard blocker. Resolve remote/onsite and SG/India contracting before application.",
+      "published_compensation": "$50.00-$55.00 per hour on recruiter-attributed US listing. Currency code not explicitly stated in retrieved description; confirmUSD. SG/India applicability/local rate unknown. Do not apply US band to cross-border engagement.",
+      "sgd_comparison": "Not established: country applicability,currency and guaranteed billing unknown. No annual revenue or employee salary conversion inferred.",
+      "compensation_geography": "US-listed rate; SG/India local band and global versus location-adjustment policy unknown",
+      "authorization_sponsorship": "Unknown. W2/C2C labels are not authorization or sponsorship promises; no personal work rights inferred.",
+      "hours_on_call": "Twice-weekly vulnerability-remediation cadence. Weekly hours, US timezone overlap, on-call and exact SG/India schedule unknown.",
+      "terms": "6months; no guaranteed billing, renewal, paid leave, cancellation/notice, payment schedule, currency/FX or expenses established. US medical/401k/state sick leave benefit boilerplate may depend on employee status/location and is not promised for B2B/SG/India.",
+      "fit": "Java17/21, SpringBoot, Maven BOM/parent/transitive dependency upgrades, regression testing, vulnerability severity/risk,SCA(Mythos/Snyk orsimilar), GitHub/Jenkins, AWS/ECS/Lambda/IAM,Docker/Terraform and AI-assisted remediation. Python package upkeep secondary. Camel/integration-heavy services, regulated finance/insurance and10+microservice upgrade scale listed as pluses.",
+      "preparation": "Establish real SCA/CVSS prioritization, Python package/tooling and OpenSearch/Elasticsearch upgrade depth. Do not claim Mythos,Snyk,Kiro or10+services production experience unless confirmed. This is recurring remediation/verification ownership rather than broad product feature lead scope.",
+      "questions": "CanIA_SJFD_1008 accept permanentSG/India remoteinternationalB2B, or onlyUS-based W2/C2C? WhyOn-site metadata versusRemote title, anyclient-site requirement? ConfirmUSD50-55/hr applies to whichentity/geography; cross-borderrate, guaranteedhours, exactcoretimezone/oncall,6monthdates, renewal/cancellation/notice, paidleave, payment/FX/expenses, endclient/projectidentity and actual remediation/design ownership.",
+      "upside": "Career-growth candidate (assessment) through regulated-platform security modernization and AI-assisted engineering automation; narrow contract scope. Compensation to establish, not an income-growth claim.",
+      "verification": "18October2026: recruiter-attributed Dice full description accessible including exactpositionID,6months,W2/C2C,$50-55/hr, contradictoryOn-site metadata. Remotivefullcopyopened; itsApplylinksCeipal exactjob. CeipalJS-only, no readable application fields; active intake/end-to-end form unverified. No explicitclosedmarker on retrieved recruiter listing. Treatasconditionalexploration, not submission-ready or worldwide-confirmed.",
+      "status_at_last_check": "Current recruiter description accessible; work arrangement, SG/India eligibility and live intake unconfirmed",
+      "deduplication_note": "Compared127-record latest ledger and available discovered_global_jobs/prepared_packets exports. No Cynet/client remediation description found. Client undisclosed; require identity before duplicateapplication acrossagencies. Remotive/IHire/Haystack/Dice copies are oneproject, not separatealerts. Completehistoricalcoverage notclaimed.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "RecorddeliveryonlyafteractualChatGPTfinal"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Senior Java backend modernization and secure delivery",
+          "tailoring": "Use real Java21/Spring upgrades, Maven/dependency handling, CI/CD regression checks, secure integration and production diagnosis. Show actual coding-agent context/review/test practice. Prepare a small dependency-upgrade risk analysis and reproducible regression check without claiming particular SCA tools or microservice counts.",
+          "fit_and_preparation": "StrongJava/Camel/security modernization transfer. Geography/intake first, then compare narrow6monthscope and effective economics. SCA/CVSS/Python specifics to establish.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on lead/backend DevSecOps and cloud modernization",
+          "tailoring": "Highlight Java21/Spring3, AWS/ECS/EKS, GitOps/Terraform, Jenkins/GitHubActions and secure release verification. Explain real upgrade coordination and rollback decisions; establish actual SCA/Python experience. AI prototypes remain prototypes, not production securityautomation claims.",
+          "fit_and_preparation": "Strongcloud/DevSecOps transfer. Rate/engagement unknown forSG/India and recurring remediation scope may be narrower than currentlead role; screen before major preparation.",
           "application_status": "Not applied or approved"
         }
       }
