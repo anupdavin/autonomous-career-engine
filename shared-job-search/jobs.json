@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "import_date": "2026-10-18",
-  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs.",
+  "coverage_note": "57-row complete tracker plus available later alerts, exact URLs deduplicated. This is a historical migration, not fresh vacancy verification. Older conversation history and independent runtime SQLite records may contain additional jobs. Review18October2026: compared current public sources across SG/APAC,US/Canada,UK/Ireland,Europe,ANZ,MiddleEast,Africa,LATAM discovery queries. Excluded PopSockets1beeb162 official IndiaHybrid despite remote aggregator; wealthAPI16814841 worldwideheader overridden by residencewithin2hBerlin; N-iX4395312101 explicitlyclosed; MissionJava4269227750/4399060252 closed; LazerJava thirdpartyremoved29June2026. ZYNC CFFKBE EUR300/day worldwide page remains accessible but1October start year unstated and active funded intake unestablished, held for verification. These observations are not new application recommendations.",
   "jobs": [
     {
       "employer": "Airwallex",
@@ -7043,10 +7043,10 @@
       "sgd_comparison": "Unavailable: applicable numeric pay unpublished",
       "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual ChatGPT delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final visible and externally handed off; date-only delivery evidence"
       },
       "deduplication_note": "Compared121-record shared ledger plus current discovered_global_jobs.json and prepared_packets_2026-10-04.json exports; no matching employer/project observed. Full SQLite and historical conversations unavailable.",
       "job_id": "itrex-java-ai-native-B1AD92056B",
@@ -7097,10 +7097,10 @@
       "sgd_comparison": "Unavailable: applicable numeric pay unpublished",
       "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual ChatGPT delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final visible and externally handed off; date-only delivery evidence"
       },
       "deduplication_note": "Compared121-record shared ledger plus current discovered_global_jobs.json and prepared_packets_2026-10-04.json exports; no matching employer/project observed. Full SQLite and historical conversations unavailable.",
       "job_id": "forager-backend-infra-0B65DDA68E",
@@ -7148,10 +7148,10 @@
       "sgd_comparison": "No annual comparison: salary period, current employer attribution and exact requisition applicability unconfirmed.",
       "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual ChatGPT delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final visible and externally handed off; date-only delivery evidence"
       },
       "deduplication_note": "Compared121-record shared ledger plus current discovered_global_jobs.json and prepared_packets_2026-10-04.json exports; no matching employer/project observed. Full SQLite and historical conversations unavailable.",
       "job_id": "marketnode-digital-assets-1739ECCFC5",
@@ -7193,6 +7193,112 @@
           "resume_emphasis": "Hands-on technical lead and event-driven modernization",
           "tailoring": "Use actual LTA/NCS delivery leadership, Java/Kafka/cloud architecture, DevSecOps and mentoring. Prepare on/off-chain consistency, custody/API security and controlledtoken design. Do not relabel AI prototypes as blockchain experience.",
           "fit_and_preparation": "Meaningful ownership upside, but explicit production blockchain and4year domain-lead requirements make this ambitious, not a strong direct match.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer job evidence reopened18October2026",
+      "published_compensation": "Not published on retrieved employer role page",
+      "sgd_comparison": "Unavailable: no applicable published amount",
+      "compensation_geography": "SG opening; global versus location-adjusted pay and India terms not established",
+      "authorization_sponsorship": "Unknown; Singapore residence/current employer pass does not establish new-employer work rights",
+      "hours_on_call": "Core hours, on-call and travel unknown",
+      "terms": "Guaranteed base, bonus/equity, benefits, leave, probation and notice to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Record actual alert only after delivery"
+      },
+      "deduplication_note": "Compared124-record shared ledger and current discovered_global_jobs.json/prepared_packets_2026-10-04.json exports; no matching employer/project found. Historical completeness not claimed.",
+      "job_id": "wilmar-ai-native-application-4469172511",
+      "employer": "Wilmar International",
+      "title": "AI-Native Application Engineer",
+      "url": "https://sg.linkedin.com/jobs/view/ai-native-application-engineer-at-wilmar-international-4469172511",
+      "canonical_url": "https://sg.linkedin.com/jobs/view/ai-native-application-engineer-at-wilmar-international-4469172511",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/ai-native-application-engineer-at-wilmar-international-4455250812"
+      ],
+      "requisition": "LinkedIn4469172511; older closed4455250812 same description consolidated",
+      "posted": "Exact original date unavailable; relative timestamps vary, older identical posting exists",
+      "location": "Singapore",
+      "arrangement": "Singapore role, office/hybrid cadence unstated; not advertised as cross-border remote",
+      "engagement_type": "Full-time",
+      "eligibility": "SG location supported; personal authorization/sponsorship unknown. India remote not advertised. Aggregator remote label not used.",
+      "fit": "Java/.NETCore/TypeScript business applications, SpringBoot/Angular among accepted primary stacks, APIs/data models/integrations, REST/GraphQL, automated tests, CI/CD, Docker, production troubleshooting. Daily coding-agent prompting/review/correction and application-level LLM/API automation features, not ML-research title filtering.",
+      "preparation": "3-6years advertised versus confirmed8+/9+; establish grade/ownership/pay rather than assume upgrade. Java is an accepted primary language, .NET not automatically missing mandatory capability. AI feature delivery and cloud services to establish without inventing production usage. Native role English required, Mandarin advantage only.",
+      "questions": "Is4469172511 active/funded and a replacement/repost of4455250812? Which SG office/hybrid pattern and sponsorship support? Can8+/9+year candidates enter senior/lead grade with appropriate architecture ownership? Applicable guaranteed base/currency/bonus/equity, Java/TS/.NET split, production AI expectations, hours/on-call/travel, leave/notice? Is an employer-hosted application route available?",
+      "upside": "Career-growth candidate (assessment): enterprise application delivery combining genuine coding-agent practice and AI feature integration. Compensation/level to establish.",
+      "verification": "18October2026: full employer-attributed LinkedIn4469172511 description accessible with Apply controls and no closed marker observed; login/submission/intake not tested. Older identical4455250812 explicitly no longer accepting, preserved as alias not a separate match. Official Wilmar careers page opened and SG job-board outbound followed; current Jobstreet board did not expose AI role. This is employer-post evidence, not verified end-to-end intake. Related AppliedAI4469167600 has different productionAI2-3years and mandatoryMandarin requirements; not merged or presented as equivalent.",
+      "status_at_last_check": "Current employer-post lead; exact intake and work arrangement incomplete",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/full-stack with prominent AI-assisted engineering",
+          "tailoring": "Use real Cursor/Copilot/ClaudeCode/Codex examples: context preparation, review of generated code, security/tests and CI/CD. Connect Java/Spring, REST/GraphQL, SQL and enterprise integrations. Describe AI application features only if actually delivered; no invented metrics.",
+          "fit_and_preparation": "Very close technical/practice fit. Establish grade because3-6year role may be below current experience; app-level LLM feature expectations to clarify.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/full-stack and accurately labeled AI integration",
+          "tailoring": "Emphasize Java21/Angular18, API/cloud delivery, mentoring and DevSecOps. Present SpringAI/RAG/MCP/Claude prototypes explicitly as prototypes and demonstrate actual verification discipline. Screen senior/lead grade and package against SGD12000/month target.",
+          "fit_and_preparation": "Strong transferable enterprise/full-stack fit. Leadership authority and production AI expectations need screening; Mandarin not mandatory for this native role.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer job evidence reopened18October2026",
+      "published_compensation": "Not published on retrieved employer role page",
+      "sgd_comparison": "Unavailable: no applicable published amount",
+      "compensation_geography": "SG opening; global versus location-adjusted pay and India terms not established",
+      "authorization_sponsorship": "Unknown; Singapore residence/current employer pass does not establish new-employer work rights",
+      "hours_on_call": "Core hours, on-call and travel unknown",
+      "terms": "Guaranteed base, bonus/equity, benefits, leave, probation and notice to establish",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Record actual alert only after delivery"
+      },
+      "deduplication_note": "Compared124-record shared ledger and current discovered_global_jobs.json/prepared_packets_2026-10-04.json exports; no matching employer/project found. Historical completeness not claimed.",
+      "job_id": "sephora-user-engineer-1362029955",
+      "employer": "Sephora Asia",
+      "title": "Software Engineer (User)",
+      "url": "https://jobs.sephora.com/Singapore/job/Singapore-Software-Engineer-(User)/1362029955/",
+      "canonical_url": "https://jobs.sephora.com/Singapore/job/Singapore-Software-Engineer-(User)/1362029955/",
+      "url_aliases": [
+        "https://sg.jobstreet.com/job/93547951"
+      ],
+      "requisition": "1362029955; Jobstreet93547951 matching employer description",
+      "posted": "20September2026 displayed on official page",
+      "location": "Singapore",
+      "arrangement": "SG role; onsite/hybrid cadence unknown, cross-border remote not advertised",
+      "engagement_type": "Full-time per matching employer-attributed Jobstreet listing; contract/permanent duration unstated",
+      "eligibility": "Singapore work location confirmed. Sponsorship/personal work rights unknown; no India remote support advertised.",
+      "fit": "Java17+/SpringBoot distributed backend, event-driven loyalty/user integrations, PostgreSQL/MySQL/MongoDB, Kafka/RabbitMQ, AWS/GCP, structured agentic/AI-assisted engineering. Vue/Nuxt frontend plus, not core requirement. Product ownership affects regional commerce user experience.",
+      "preparation": "3+year minimum not upper bound; establish senior/lead grade and compensation. MongoDB/GCP/Vue/Nuxt depth as preparation, not assumed incapability. No production ML research requirement.",
+      "questions": "Is1362029955 accepting candidates despite Apply redirect? Current direct intake URL and relationship to93547951? Senior/lead leveling or only mid-level headcount, guaranteed base/bonus/equity, sponsorship, exact office/hybrid cadence, architecture ownership, Java/frontend split, support/on-call/core hours/travel and benefits?",
+      "upside": "Career-growth candidate (assessment): direct regional consumer-product and event-driven backend ownership. Compensation to establish; generic title not proof of promotion.",
+      "verification": "18October2026: official employer full job page live, dated20September2026, Singapore and Apply controls. Clicked official Apply -> careers homepage, not an intake form. Matching Jobstreet employer full-time description live with Apply; clicked application returned JS-only, no readable fields. Active intake incomplete; do not claim submission-ready. No closed marker observed.",
+      "status_at_last_check": "Employer description accessible; intake unresolved because official Apply redirects",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend with AI-assisted engineering",
+          "tailoring": "Use Java/Spring, secure APIs, Kafka, relational databases, AWS and actual coding-agent verification examples. Connect ClickShip/financial integrations to user/loyalty data correctness without inventing ecommerce metrics. Prepare idempotent loyalty events and MongoDB design.",
+          "fit_and_preparation": "Close backend fit with direct product exposure, but role grade/pay may not match senior experience; check before substantial preparation.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/backend cloud-modernization",
+          "tailoring": "Use Java21/Spring3, KafkaStreams, Redis/Postgres, cloud reliability, observability and mentoring. Prepare consistency/replay/duplicate-event handling for loyalty/user services. Do not substitute AI prototypes for production ML experience.",
+          "fit_and_preparation": "Strong event-driven backend transfer; screen senior-level ownership and package relative to target, not title alone.",
           "application_status": "Not applied or approved"
         }
       }

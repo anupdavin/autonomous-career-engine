@@ -462,3 +462,35 @@ Questions: Is1739ECCFC5 active; can this platform hire transferable regulated Ja
 
 Verification: 18October2026: official job, current board and application URLs reopened JS-only; indexed official body retrieved withSGHybrid, responsibilities and exact domain requirements; application indexed resume import. Live intake not independently verified. Recordowl matching title linksMCF exactjob570cd...; MCFopenedJSshell, pay not employer-verified. No precise original date established; relative dates vary.
 
+## Additional review leads checked18October2026
+
+Prior ITRex/Forager/Marketnode alerts reconciled as delivered. New entries below remain pending actual alert delivery. Singapore location support is not personal work authorization.
+
+### Wilmar International: AI-Native Application Engineer
+
+[Role](https://sg.linkedin.com/jobs/view/ai-native-application-engineer-at-wilmar-international-4469172511). Tier1. Full-time. SG location supported; personal authorization/sponsorship unknown. India remote not advertised. Aggregator remote label not used.
+
+Pay: Not published on retrieved employer role page. Career-growth candidate (assessment): enterprise application delivery combining genuine coding-agent practice and AI feature integration. Compensation/level to establish.
+
+Resume: Hands-on lead/full-stack and accurately labeled AI integration. Emphasize Java21/Angular18, API/cloud delivery, mentoring and DevSecOps. Present SpringAI/RAG/MCP/Claude prototypes explicitly as prototypes and demonstrate actual verification discipline. Screen senior/lead grade and package against SGD12000/month target.
+
+Assessment/preparation: Strong transferable enterprise/full-stack fit. Leadership authority and production AI expectations need screening; Mandarin not mandatory for this native role.
+
+Questions: Is4469172511 active/funded and a replacement/repost of4455250812? Which SG office/hybrid pattern and sponsorship support? Can8+/9+year candidates enter senior/lead grade with appropriate architecture ownership? Applicable guaranteed base/currency/bonus/equity, Java/TS/.NET split, production AI expectations, hours/on-call/travel, leave/notice? Is an employer-hosted application route available?
+
+Verification: 18October2026: full employer-attributed LinkedIn4469172511 description accessible with Apply controls and no closed marker observed; login/submission/intake not tested. Older identical4455250812 explicitly no longer accepting, preserved as alias not a separate match. Official Wilmar careers page opened and SG job-board outbound followed; current Jobstreet board did not expose AI role. This is employer-post evidence, not verified end-to-end intake. Related AppliedAI4469167600 has different productionAI2-3years and mandatoryMandarin requirements; not merged or presented as equivalent.
+
+### Sephora Asia: Software Engineer (User)
+
+[Role](https://jobs.sephora.com/Singapore/job/Singapore-Software-Engineer-(User)/1362029955/). Tier2. Full-time per matching employer-attributed Jobstreet listing; contract/permanent duration unstated. Singapore work location confirmed. Sponsorship/personal work rights unknown; no India remote support advertised.
+
+Pay: Not published on retrieved employer role page. Career-growth candidate (assessment): direct regional consumer-product and event-driven backend ownership. Compensation to establish; generic title not proof of promotion.
+
+Resume: Hands-on lead/backend cloud-modernization. Use Java21/Spring3, KafkaStreams, Redis/Postgres, cloud reliability, observability and mentoring. Prepare consistency/replay/duplicate-event handling for loyalty/user services. Do not substitute AI prototypes for production ML experience.
+
+Assessment/preparation: Strong event-driven backend transfer; screen senior-level ownership and package relative to target, not title alone.
+
+Questions: Is1362029955 accepting candidates despite Apply redirect? Current direct intake URL and relationship to93547951? Senior/lead leveling or only mid-level headcount, guaranteed base/bonus/equity, sponsorship, exact office/hybrid cadence, architecture ownership, Java/frontend split, support/on-call/core hours/travel and benefits?
+
+Verification: 18October2026: official employer full job page live, dated20September2026, Singapore and Apply controls. Clicked official Apply -> careers homepage, not an intake form. Matching Jobstreet employer full-time description live with Apply; clicked application returned JS-only, no readable fields. Active intake incomplete; do not claim submission-ready. No closed marker observed.
+
