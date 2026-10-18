@@ -6033,10 +6033,10 @@
       "terms": "Employment entity, benefits, paid leave, notice and payment details unknown",
       "upside": "Career-growth candidate (assessment); compensation to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Delivery reconciled from visible final response and user-supplied external conversation on 18 October 2026; exact delivery time not inferred"
       },
       "assessments": {
         "anup": {
@@ -6089,10 +6089,10 @@
       "authorization_sponsorship": "Unknown; personal work authorization not inferred",
       "upside": "Supplemental income candidate (assessment); output-based revenue and effective hourly economics to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Delivery reconciled from visible final response and user-supplied external conversation on 18 October 2026; exact delivery time not inferred"
       },
       "assessments": {
         "anup": {
@@ -6144,10 +6144,10 @@
       "posted": "Not published or not established",
       "upside": "Career-growth candidate (assessment); compensation to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Delivery reconciled from visible final response and user-supplied external conversation on 18 October 2026; exact delivery time not inferred"
       },
       "assessments": {
         "anup": {
@@ -6199,10 +6199,10 @@
       "terms": "Employment entity, benefits, paid leave, notice and payment details unknown",
       "upside": "Career-growth candidate (assessment); compensation to establish",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared current alert; do not assert delivery until conversation evidence is available"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Delivery reconciled from visible final response and user-supplied external conversation on 18 October 2026; exact delivery time not inferred"
       },
       "assessments": {
         "anup": {
@@ -6218,6 +6218,174 @@
           "tailoring": "Use hands-on lead/full-stack and AI-integration resume. Emphasize Angular 18, Java 21, delivery ownership, security and accurately labeled Spring AI/RAG/MCP prototypes. Confirm whether lead scope exists before investing heavily.",
           "fit_and_preparation": "Angular/React, Java/Node.js, TypeScript, AI coding agents/MCP/API automation, secure full-stack product delivery and engineering judgment; Role advertises 2-5 years; establish senior/lead leveling and pay fit rather than rejecting on tenure alone. React/Node and production agent integration depth to establish; prototypes must stay labeled.",
           "application_status": "Not recorded; no submission or contact"
+        }
+      }
+    },
+    {
+      "job_id": "evooq-744000141677332",
+      "employer": "Evooq",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-",
+      "requisition": "744000141677332",
+      "location": "Singapore",
+      "arrangement": "Hybrid; up to 2 remote days/week; flexible hours",
+      "eligibility": "Singapore location confirmed; sponsorship and personal authorization unknown. India remote not advertised.",
+      "engagement_type": "Full-time",
+      "fit": "Frontend-focused wealth-management product ownership; Vue 3 accepts Angular/React background. Java/Kotlin Spring Boot APIs, PostgreSQL/MySQL, Keycloak/JWT, AWS, Docker and CI/CD.",
+      "preparation": "Vue 3/Vite, Nomad and Flowable/BPMN are preparation points; establish frontend-heavy product interest and actual architecture authority.",
+      "upside": "Career-growth candidate (assessment): autonomous frontend-to-database ownership and deployment strategy; compensation to establish",
+      "verification": "Official SmartRecruiters description reopened 18 October 2026; Singapore/full-time, hybrid up to 2 remote days, explicit Angular transferability and interested labels visible. No submission or functioning application workflow tested.",
+      "questions": "Singapore work-pass sponsorship? Guaranteed base, separate bonus/equity and senior/lead leveling? Frontend/backend split, mentoring/design authority, office cadence, customer support/on-call and APJ/Europe overlap?",
+      "hours_on_call": "Flexible hours advertised; exact core overlap, travel and on-call unstated",
+      "terms": "Full-time; employment entity, benefits, leave, probation and notice unknown",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "anup_tailoring": "Use senior Java/Angular full-stack resume. Emphasize secure APIs, Spring Security, frontend-to-database troubleshooting, financial-services delivery and maintainable UI work. Prepare a truthful feature-ownership example and a small Vue 3 exercise; do not claim prior Vue delivery.",
+      "meena_tailoring": "Use hands-on lead/full-stack resume. Emphasize Angular 18/NgRx/RxJS, Java 21/Spring Boot, authentication, CI/CD and full-lifecycle delivery decisions. Explain actual mentoring and UX/performance work using substantiated outcomes.",
+      "canonical_url": "https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Official live role description and apply/interested interface accessible; no submission",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh official employer/ATS page on 18 October 2026; shared ledger and available runtime exports/draft paths compared",
+      "published_compensation": "Not published on official role page",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "authorization_sponsorship": "Unknown; never infer personal work authorization",
+      "posted": "Not published on official page",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current alert; reconcile only after actual delivery"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior Java/Angular full-stack resume",
+          "tailoring": "Use senior Java/Angular full-stack resume. Emphasize secure APIs, Spring Security, frontend-to-database troubleshooting, financial-services delivery and maintainable UI work. Prepare a truthful feature-ownership example and a small Vue 3 exercise; do not claim prior Vue delivery.",
+          "fit_and_preparation": "Frontend-focused wealth-management product ownership; Vue 3 accepts Angular/React background. Java/Kotlin Spring Boot APIs, PostgreSQL/MySQL, Keycloak/JWT, AWS, Docker and CI/CD. Vue 3/Vite, Nomad and Flowable/BPMN are preparation points; establish frontend-heavy product interest and actual architecture authority.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use hands-on lead/full-stack resume",
+          "tailoring": "Use hands-on lead/full-stack resume. Emphasize Angular 18/NgRx/RxJS, Java 21/Spring Boot, authentication, CI/CD and full-lifecycle delivery decisions. Explain actual mentoring and UX/performance work using substantiated outcomes.",
+          "fit_and_preparation": "Frontend-focused wealth-management product ownership; Vue 3 accepts Angular/React background. Java/Kotlin Spring Boot APIs, PostgreSQL/MySQL, Keycloak/JWT, AWS, Docker and CI/CD. Vue 3/Vite, Nomad and Flowable/BPMN are preparation points; establish frontend-heavy product interest and actual architecture authority.",
+          "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "numerix-5437096008",
+      "employer": "Numerix",
+      "title": "Lead Software Developer",
+      "url": "https://job-boards.greenhouse.io/numerix/jobs/5437096008",
+      "requisition": "5437096008",
+      "location": "Heading: Remote - India; Singapore Office. Body: Singapore commuting-distance hybrid.",
+      "arrangement": "Singapore hybrid confirmed; India remote advertised in heading but body/form focus on Singapore, clarify before India application.",
+      "eligibility": "Singapore location supported; sponsorship asked in application, availability unknown. India remote eligibility inconsistent across heading and body, unconfirmed pending recruiter clarification.",
+      "engagement_type": "Not expressly published in official description; full-time versus contract and employment entity to establish",
+      "fit": "Hands-on technical leadership over Oneview backend/data platform, Java Spring Boot/JPA, PostgreSQL/SQL Server, AWS, Kafka, governance and AI-assisted delivery. Data-platform and Snowflake-heavy architect scope.",
+      "preparation": "Explicit production Snowflake, data warehousing/OLAP/dimensional modelling and strong Python expectations. Cortex/BI desirable. Advertises 10+ years; establish flexibility for Anup 8+ and Meena 9+ without inventing tenure or production Snowflake experience.",
+      "upside": "Career-growth candidate (assessment), ambitious data-platform lead scope; compensation to establish",
+      "verification": "Official Greenhouse role and application fields opened 18 October 2026 via current board. Heading says India remote and Singapore office, body requires Singapore commutability. No numeric salary published. No submission.",
+      "questions": "Is India remote genuinely available for this requisition or is Singapore hybrid mandatory? Employment type/entity, Singapore sponsorship, location-specific guaranteed pay and separate equity/bonus? Snowflake production experience non-negotiable or transferable database/governance experience accepted? Hours, office cadence, on-call and leadership scope?",
+      "compensation_geography": "Official page explicitly says pay varies by location and may fall outside any listed band. No numeric employer band visible. Third-party USD $100,000-$150,000/year is not employer-verified and is excluded from pay comparisons.",
+      "hours_on_call": "Exact Singapore office cadence, India hours if permitted, travel and on-call unknown",
+      "terms": "Type, employment entity, benefits, leave, notice and work-pass support unknown",
+      "anup_priority": 2,
+      "meena_priority": 2,
+      "anup_tailoring": "Use senior backend/MDM and modernization resume. Emphasize actual TIBCO EBX governance, integrations, SQL Server/PostgreSQL, secure APIs, AWS/AKS and AI-assisted verification. Prepare a candid Snowflake learning/design discussion; do not turn EBX into claimed Snowflake production tenure.",
+      "meena_tailoring": "Use hands-on technical lead/cloud-modernization resume. Emphasize event-driven platform design, PostgreSQL/Oracle, AWS delivery, technical decisions and mentoring. Clearly separate Java platform leadership from unconfirmed Snowflake/Python/data-warehouse depth.",
+      "canonical_url": "https://job-boards.greenhouse.io/numerix/jobs/5437096008",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Official live role description and apply/interested interface accessible; no submission",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh official employer/ATS page on 18 October 2026; shared ledger and available runtime exports/draft paths compared",
+      "published_compensation": "Not published on official role page",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "authorization_sponsorship": "Unknown; never infer personal work authorization",
+      "posted": "Not published on official page",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current alert; reconcile only after actual delivery"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use senior backend/MDM and modernization resume",
+          "tailoring": "Use senior backend/MDM and modernization resume. Emphasize actual TIBCO EBX governance, integrations, SQL Server/PostgreSQL, secure APIs, AWS/AKS and AI-assisted verification. Prepare a candid Snowflake learning/design discussion; do not turn EBX into claimed Snowflake production tenure.",
+          "fit_and_preparation": "Hands-on technical leadership over Oneview backend/data platform, Java Spring Boot/JPA, PostgreSQL/SQL Server, AWS, Kafka, governance and AI-assisted delivery. Data-platform and Snowflake-heavy architect scope. Explicit production Snowflake, data warehousing/OLAP/dimensional modelling and strong Python expectations. Cortex/BI desirable. Advertises 10+ years; establish flexibility for Anup 8+ and Meena 9+ without inventing tenure or production Snowflake experience.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use hands-on technical lead/cloud-modernization resume",
+          "tailoring": "Use hands-on technical lead/cloud-modernization resume. Emphasize event-driven platform design, PostgreSQL/Oracle, AWS delivery, technical decisions and mentoring. Clearly separate Java platform leadership from unconfirmed Snowflake/Python/data-warehouse depth.",
+          "fit_and_preparation": "Hands-on technical leadership over Oneview backend/data platform, Java Spring Boot/JPA, PostgreSQL/SQL Server, AWS, Kafka, governance and AI-assisted delivery. Data-platform and Snowflake-heavy architect scope. Explicit production Snowflake, data warehousing/OLAP/dimensional modelling and strong Python expectations. Cortex/BI desirable. Advertises 10+ years; establish flexibility for Anup 8+ and Meena 9+ without inventing tenure or production Snowflake experience.",
+          "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "lifted-136215-3743990015370156",
+      "employer": "Lifted, an Upwork Company",
+      "title": "#136215 Senior Backend Software Engineer, Java/Spring Boot",
+      "url": "https://jobs.smartrecruiters.com/liftedanupworkcompany/3743990015370156",
+      "requisition": "136215 / 3743990015370156",
+      "location": "Eligible APAC location, country list unstated",
+      "arrangement": "APAC contract; full India Standard Time coverage, 40 hours/week",
+      "eligibility": "Unconfirmed SG/India engagement: must be based in an eligible APAC location but eligible countries not enumerated. IST coverage does not itself establish India or Singapore eligibility.",
+      "engagement_type": "Contract, 40 hours/week; anticipated through 31 March 2027; not currently contract-to-hire",
+      "fit": "Java/Spring Boot 3, financial billing-account correctness, GraphQL, Kafka/SQS/RabbitMQ, JPA optimistic locking, safe database migrations, resilience, CI/CD and responsible coding-assistant use.",
+      "preparation": "Netflix DGS or Apollo GraphQL clients, MySQL/Aurora JPA migrations, Gradle multi-module, GitLab pipelines, Datadog deployment gates and canary practices. Zuora/DynamoDB/MongoDB are preparation points.",
+      "upside": "Career-growth candidate (assessment): correctness-critical financial services; international contract income potential requires rate and engagement confirmation",
+      "verification": "Official SmartRecruiters description opened 18 October 2026; contract, APAC eligibility clause, full IST coverage, 40 hours and anticipated end date visible. Interested labels present; no application submitted or workflow tested.",
+      "questions": "Which APAC countries are eligible, specifically Singapore/India, and who is the end client/contracting party? Currency/rate and location adjustments? Exact IST daily window, billable minimums, paid/unpaid leave, notice/early termination, extension, payment timing, FX fees/expenses and on-call? What billing platform/client overlap?",
+      "hours_on_call": "Full India Standard Time coverage required. Exact daily window unstated. Singapore is 2h30 ahead of IST, which has no seasonal daylight-saving change. On-call and other-client overlap unknown.",
+      "terms": "40 hours/week stated; anticipated through 31 March 2027, not a guaranteed duration/renewal or guaranteed billable volume. No contract-to-hire. Rate, leave, cancellation/notice, invoice timing and contractor expenses unknown.",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "anup_tailoring": "Use senior Java backend/payments resume. Emphasize verified financial-services integrations, OAuth2/mTLS, SQL, safe migrations, observability and coding-agent output verification. Prepare idempotency, optimistic-locking and multi-datastore consistency scenarios; no fabricated metrics.",
+      "meena_tailoring": "Use lead/backend event-driven and cloud resume. Emphasize Kafka/Kafka Streams, reliability, CI/CD, production diagnosis and secure integrations. Prepare billing-state consistency, retry/notification correctness, rollout gates and authentic technical-lead decisions.",
+      "canonical_url": "https://jobs.smartrecruiters.com/liftedanupworkcompany/3743990015370156",
+      "url_aliases": [],
+      "last_checked": "2026-10-18",
+      "last_positive_verification": "2026-10-18",
+      "status_at_last_check": "Official live role description and apply/interested interface accessible; no submission",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh official employer/ATS page on 18 October 2026; shared ledger and available runtime exports/draft paths compared",
+      "published_compensation": "Not published on official role page",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
+      "authorization_sponsorship": "Unknown; never infer personal work authorization",
+      "posted": "Not published on official page",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current alert; reconcile only after actual delivery"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior Java backend/payments resume",
+          "tailoring": "Use senior Java backend/payments resume. Emphasize verified financial-services integrations, OAuth2/mTLS, SQL, safe migrations, observability and coding-agent output verification. Prepare idempotency, optimistic-locking and multi-datastore consistency scenarios; no fabricated metrics.",
+          "fit_and_preparation": "Java/Spring Boot 3, financial billing-account correctness, GraphQL, Kafka/SQS/RabbitMQ, JPA optimistic locking, safe database migrations, resilience, CI/CD and responsible coding-assistant use. Netflix DGS or Apollo GraphQL clients, MySQL/Aurora JPA migrations, Gradle multi-module, GitLab pipelines, Datadog deployment gates and canary practices. Zuora/DynamoDB/MongoDB are preparation points.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use lead/backend event-driven and cloud resume",
+          "tailoring": "Use lead/backend event-driven and cloud resume. Emphasize Kafka/Kafka Streams, reliability, CI/CD, production diagnosis and secure integrations. Prepare billing-state consistency, retry/notification correctness, rollout gates and authentic technical-lead decisions.",
+          "fit_and_preparation": "Java/Spring Boot 3, financial billing-account correctness, GraphQL, Kafka/SQS/RabbitMQ, JPA optimistic locking, safe database migrations, resilience, CI/CD and responsible coding-assistant use. Netflix DGS or Apollo GraphQL clients, MySQL/Aurora JPA migrations, Gradle multi-module, GitLab pipelines, Datadog deployment gates and canary practices. Zuora/DynamoDB/MongoDB are preparation points.",
+          "application_status": "Not recorded; no submission/contact"
         }
       }
     }

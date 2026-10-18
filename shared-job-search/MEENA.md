@@ -108,9 +108,9 @@ Historical import on 2026-10-18. Recheck availability before applying. Order is 
 | EPAM | [Applied Senior Software Engineer, AI Native Development](https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore) | Hybrid Singapore; sponsorship unconfirmed; application workflow unverified | Not published |
 
 
-## New discovery checked 18 October 2026, pending alert reconciliation
+## Discovery checked 18 October 2026, alert delivered and reconciled
 
-These records are new against the shared ledger and checked runtime exports/draft inventory. No submission or approval inferred. The full historical SQLite database was not available; complete historical deduplication is not claimed.
+Delivery of these four records was reconciled from the visible ChatGPT alert on 18 October 2026. They were new against the shared ledger and checked runtime exports/draft inventory. No submission or approval inferred. The full historical SQLite database was not available; complete historical deduplication is not claimed.
 
 ### 1. Recruitment Room: Senior Software Engineer, AI coding-task evaluation
 
@@ -163,3 +163,47 @@ These records are new against the shared ledger and checked runtime exports/draf
 - Resume and tailoring: Use hands-on lead/full-stack and AI-integration resume. Emphasize Angular 18, Java 21, delivery ownership, security and accurately labeled Spring AI/RAG/MCP prototypes. Confirm whether lead scope exists before investing heavily.
 - Terms: Core hours, timezone overlap and on-call unknown. Employment entity, benefits, paid leave, notice and payment details unknown
 - Recruiter questions: Is requisition still accepting applications? Can scope/level support 8+/9+ years and comparable pay? India residence mandatory (no SG eligibility presumed)? India employment entity/base/benefits, hours/client overlap, leadership authority and production AI expectations?
+
+
+## Additional discovery on 18 October 2026, pending delivery reconciliation
+
+Official descriptions checked today; no application/contact made. Source geography is separate from personal work authorization. Exact posting dates and official compensation are unpublished for all three. No current-package uplift is asserted.
+
+### 1. Evooq: Senior Full Stack Engineer
+
+[Direct role](https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-)
+
+- Priority/upside: tier 1. Career-growth candidate (assessment): autonomous frontend-to-database ownership and deployment strategy; compensation to establish
+- Arrangement/eligibility: Hybrid; up to 2 remote days/week; flexible hours. Singapore location confirmed; sponsorship and personal authorization unknown. India remote not advertised.
+- Type/pay: Full-time. Not published on official role page
+- Fit/preparation: Frontend-focused wealth-management product ownership; Vue 3 accepts Angular/React background. Java/Kotlin Spring Boot APIs, PostgreSQL/MySQL, Keycloak/JWT, AWS, Docker and CI/CD. Vue 3/Vite, Nomad and Flowable/BPMN are preparation points; establish frontend-heavy product interest and actual architecture authority.
+- Resume/tailoring: Use hands-on lead/full-stack resume. Emphasize Angular 18/NgRx/RxJS, Java 21/Spring Boot, authentication, CI/CD and full-lifecycle delivery decisions. Explain actual mentoring and UX/performance work using substantiated outcomes.
+- Hours/terms: Flexible hours advertised; exact core overlap, travel and on-call unstated. Full-time; employment entity, benefits, leave, probation and notice unknown
+- Recruiter questions: Singapore work-pass sponsorship? Guaranteed base, separate bonus/equity and senior/lead leveling? Frontend/backend split, mentoring/design authority, office cadence, customer support/on-call and APJ/Europe overlap?
+- Verification: Official SmartRecruiters description reopened 18 October 2026; Singapore/full-time, hybrid up to 2 remote days, explicit Angular transferability and interested labels visible. No submission or functioning application workflow tested.
+
+### 2. Lifted, an Upwork Company: #136215 Senior Backend Software Engineer, Java/Spring Boot
+
+[Direct role](https://jobs.smartrecruiters.com/liftedanupworkcompany/3743990015370156)
+
+- Priority/upside: tier 1. Career-growth candidate (assessment): correctness-critical financial services; international contract income potential requires rate and engagement confirmation
+- Arrangement/eligibility: APAC contract; full India Standard Time coverage, 40 hours/week. Unconfirmed SG/India engagement: must be based in an eligible APAC location but eligible countries not enumerated. IST coverage does not itself establish India or Singapore eligibility.
+- Type/pay: Contract, 40 hours/week; anticipated through 31 March 2027; not currently contract-to-hire. Not published on official role page
+- Fit/preparation: Java/Spring Boot 3, financial billing-account correctness, GraphQL, Kafka/SQS/RabbitMQ, JPA optimistic locking, safe database migrations, resilience, CI/CD and responsible coding-assistant use. Netflix DGS or Apollo GraphQL clients, MySQL/Aurora JPA migrations, Gradle multi-module, GitLab pipelines, Datadog deployment gates and canary practices. Zuora/DynamoDB/MongoDB are preparation points.
+- Resume/tailoring: Use lead/backend event-driven and cloud resume. Emphasize Kafka/Kafka Streams, reliability, CI/CD, production diagnosis and secure integrations. Prepare billing-state consistency, retry/notification correctness, rollout gates and authentic technical-lead decisions.
+- Hours/terms: Full India Standard Time coverage required. Exact daily window unstated. Singapore is 2h30 ahead of IST, which has no seasonal daylight-saving change. On-call and other-client overlap unknown.. 40 hours/week stated; anticipated through 31 March 2027, not a guaranteed duration/renewal or guaranteed billable volume. No contract-to-hire. Rate, leave, cancellation/notice, invoice timing and contractor expenses unknown.
+- Recruiter questions: Which APAC countries are eligible, specifically Singapore/India, and who is the end client/contracting party? Currency/rate and location adjustments? Exact IST daily window, billable minimums, paid/unpaid leave, notice/early termination, extension, payment timing, FX fees/expenses and on-call? What billing platform/client overlap?
+- Verification: Official SmartRecruiters description opened 18 October 2026; contract, APAC eligibility clause, full IST coverage, 40 hours and anticipated end date visible. Interested labels present; no application submitted or workflow tested.
+
+### 3. Numerix: Lead Software Developer
+
+[Direct role](https://job-boards.greenhouse.io/numerix/jobs/5437096008)
+
+- Priority/upside: tier 2. Career-growth candidate (assessment), ambitious data-platform lead scope; compensation to establish
+- Arrangement/eligibility: Singapore hybrid confirmed; India remote advertised in heading but body/form focus on Singapore, clarify before India application.. Singapore location supported; sponsorship asked in application, availability unknown. India remote eligibility inconsistent across heading and body, unconfirmed pending recruiter clarification.
+- Type/pay: Not expressly published in official description; full-time versus contract and employment entity to establish. Not published on official role page
+- Fit/preparation: Hands-on technical leadership over Oneview backend/data platform, Java Spring Boot/JPA, PostgreSQL/SQL Server, AWS, Kafka, governance and AI-assisted delivery. Data-platform and Snowflake-heavy architect scope. Explicit production Snowflake, data warehousing/OLAP/dimensional modelling and strong Python expectations. Cortex/BI desirable. Advertises 10+ years; establish flexibility for Anup 8+ and Meena 9+ without inventing tenure or production Snowflake experience.
+- Resume/tailoring: Use hands-on technical lead/cloud-modernization resume. Emphasize event-driven platform design, PostgreSQL/Oracle, AWS delivery, technical decisions and mentoring. Clearly separate Java platform leadership from unconfirmed Snowflake/Python/data-warehouse depth.
+- Hours/terms: Exact Singapore office cadence, India hours if permitted, travel and on-call unknown. Type, employment entity, benefits, leave, notice and work-pass support unknown
+- Recruiter questions: Is India remote genuinely available for this requisition or is Singapore hybrid mandatory? Employment type/entity, Singapore sponsorship, location-specific guaranteed pay and separate equity/bonus? Snowflake production experience non-negotiable or transferable database/governance experience accepted? Hours, office cadence, on-call and leadership scope?
+- Verification: Official Greenhouse role and application fields opened 18 October 2026 via current board. Heading says India remote and Singapore office, body requires Singapore commutability. No numeric salary published. No submission.
