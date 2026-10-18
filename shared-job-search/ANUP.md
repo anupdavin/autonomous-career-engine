@@ -106,3 +106,60 @@ Historical import on 2026-10-18. Recheck availability before applying. Order is 
 | Zscaler | [Staff Software Development Engineer](https://job-boards.greenhouse.io/zscaler/jobs/5219187007) | Singapore supported | Not published |
 | RapidCanvas | [Senior / Staff Software Engineer, Backend](https://www.rapidcanvas.ai/careers/senior-software-engineer---backend) | Remote India; Singapore unconfirmed; rolling applications, immediate funded vacancy to establish | Not published; local-market compensation policy |
 | EPAM | [Applied Senior Software Engineer, AI Native Development](https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore) | Hybrid Singapore; sponsorship unconfirmed; application workflow unverified | Not published |
+
+
+## New discovery checked 18 October 2026, pending alert reconciliation
+
+These records are new against the shared ledger and checked runtime exports/draft inventory. No submission or approval inferred. The full historical SQLite database was not available; complete historical deduplication is not claimed.
+
+### 1. Recruitment Room: Senior Software Engineer, AI coding-task evaluation
+
+[Application/source](https://jobs.pitchnhire.com/recruitmentroom.net/senior-software-engineer-qAAnl-clone-M7VTx/019f603b-32ee-79e6-bce3-4519000feedd)
+
+- Arrangement and eligibility: SG/India listed by recruiter ATS; end-client contracting eligibility and personal permission for additional work unconfirmed
+- Type and pay: Contract; output-based task engagement. USD $30-$100/hour. Page also publishes annual compensation equivalent USD $57,600-$192,000 based on 40 hours/week x 48 workable weeks; explicitly not guaranteed salary and mismatched with actual approximately 15-hour schedule.
+- Priority and upside: tier 1. Supplemental income candidate (assessment); output-based revenue and effective hourly economics to establish
+- Verification: Recruiter-owned Pitch N Hire description reopened 18 October 2026; APAC country list, dated post, contract terms and actual rate visible. No live application submission tested; end client not identified.
+- Fit and preparation: Java/backend API development, debugging, performance optimization, code review and deterministic test verifiers for AI evaluation; no prior AI experience required. Design unambiguous coding tasks and verifiers; practical algorithm and security review exercises. Independent assessments and project work without outside assistance are required.
+- Resume and tailoring: Use senior backend/security resume. Highlight verifiable production debugging, API correctness, secure integration and AI-output verification. Prepare an original Java debugging task with deterministic tests; do not imply production AI research.
+- Terms: Approximately 15 hours/week; flexible schedule. Minimum weekly submissions apply but quantity unstated. Onboarding readiness 24-48 hours. No guaranteed weekly hours; actual pay depends on accepted output and project availability.. Output-based; minimum submissions apply. Leave, guaranteed billing, duration, notice/cancellation, payment timing, currency costs and contractor expenses unknown. Page prohibits outside assistance for assessment and project work.
+- Recruiter questions: Who is end client and legal contracting party? Are SG/India both accepted on identical terms? Is rate per accepted task or verified time, and how are rejected tasks/unpaid assessment handled? Minimum weekly submissions, guaranteed work, paid leave, notice, duration, cancellation, invoicing/payment currency/timing, FX fees and expenses?
+
+### 2. Renesas Electronics: Senior / Software Engineer
+
+[Application/source](https://jobs.smartrecruiters.com/RenesasElectronics/744000152334030-senior-software-engineer)
+
+- Arrangement and eligibility: Singapore work location supported; personal authorization and sponsorship unknown
+- Type and pay: Full-time, regular permanent. Not published
+- Priority and upside: tier 2. Career-growth candidate (assessment); compensation to establish
+- Verification: Official SmartRecruiters description accessible 18 October 2026, regular permanent and no remote work stated, interested label visible. Singapore corroborated by official ATS search index. Application workflow not completed or tested.
+- Fit and preparation: Java, TypeScript, object-oriented design and desktop/cloud developer tools for microcontrollers; customer training and technical support. Microcontroller tooling, desktop software architecture, Python and customer-facing technical documentation; establish actual seniority and scope
+- Resume and tailoring: Use senior Java/full-stack modernization resume. Emphasize Java/TypeScript, maintainable APIs, debugging and developer-facing documentation; prepare a truthful example of making an engineering workflow easier. Do not claim embedded development experience.
+- Terms: Core hours, timezone overlap and on-call unknown. Employment entity, benefits, paid leave, notice and payment details unknown
+- Recruiter questions: Singapore work-pass support? Guaranteed monthly base and separate upside? Senior leveling and architecture ownership? Desktop versus cloud split, customer-support load, office cadence, hours and on-call?
+
+### 3. D-Factor: Senior Backend Engineer (Java)
+
+[Application/source](https://d-factor.pro/career/java/)
+
+- Arrangement and eligibility: Unconfirmed lead: Warsaw listed, no explicit Poland-only residence or authorization condition observed. Do not treat B2B as worldwide eligibility.
+- Type and pay: Official employment or B2B contract. Not published
+- Priority and upside: tier 2. Career-growth candidate (assessment); compensation to establish
+- Verification: Employer page reopened 18 October 2026; role description, remote/Warsaw label, apply button, employment/B2B choice and 25 days vacation plus sick leave visible. Country eligibility and functioning application form unverified.
+- Fit and preparation: Java 17/Spring Boot, REST/SQL, AWS microservices for UK investment-company CRM and operational platform; architecture, scalability and product work. Dagger, Spark, JDBI, Dropwizard, Nomad/Traefik, MySQL and AWS SQS/SNS are preparation topics, not assumed gaps. English B2+ and practical coding/system-design interview.
+- Resume and tailoring: Use Java backend/payments/integration resume. Emphasize secure financial-services APIs, SQL, AWS/container delivery and performance diagnosis. Prepare idempotency and financial document-workflow design examples grounded in actual delivery.
+- Terms: Flexible hours stated; UK client overlap, required schedule, DST effects and on-call unknown. Official employment or B2B; 25 days vacation and paid sick leave advertised, B2B applicability unknown. Five-year established client team. Notice, duration, minimum billing, renewal/cancellation and payment terms unknown.
+- Recruiter questions: Can you contract from Singapore or India without Poland/EU residence/work rights, and on what entity/currency/rate? Is 25 days leave/sick leave paid under B2B as well as employment? UK overlap/on-call, minimum billing, term/notice/cancellation, payment schedule, equipment/FX expenses?
+
+### 4. PlayPower Labs: Senior Software Engineer
+
+[Application/source](https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7)
+
+- Arrangement and eligibility: India remote explicitly supported in official ATS indexed description; SG-based engagement not supported. Actual opening/application availability unverified.
+- Type and pay: Full-time. Not published in indexed official ATS description; rendered live compensation could not be checked
+- Priority and upside: tier 3. Career-growth candidate (assessment); compensation to establish
+- Verification: 18 October 2026: direct Ashby page returned JavaScript-only shell. Official ATS indexed description visible in fresh search but is not a live-form verification. Availability, posting date and live salary fields not established.
+- Fit and preparation: Angular/React, Java/Node.js, TypeScript, AI coding agents/MCP/API automation, secure full-stack product delivery and engineering judgment. Role advertises 2-5 years; establish senior/lead leveling and pay fit rather than rejecting on tenure alone. React/Node and production agent integration depth to establish; prototypes must stay labeled.
+- Resume and tailoring: Use full-stack resume with prominent AI-assisted engineering practices. Emphasize Angular/TypeScript/Java, context preparation, output verification, secure APIs and CI/CD; distinguish coding-agent use from building production agents.
+- Terms: Core hours, timezone overlap and on-call unknown. Employment entity, benefits, paid leave, notice and payment details unknown
+- Recruiter questions: Is requisition still accepting applications? Can scope/level support 8+/9+ years and comparable pay? India residence mandatory (no SG eligibility presumed)? India employment entity/base/benefits, hours/client overlap, leadership authority and production AI expectations?
