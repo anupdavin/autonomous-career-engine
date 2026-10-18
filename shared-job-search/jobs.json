@@ -5891,6 +5891,62 @@
         }
       },
       "url_aliases": []
+    },
+    {
+      "job_id": "rapidcanvas-java-backend-senior-staff",
+      "employer": "RapidCanvas",
+      "title": "Senior / Staff Software Engineer, Backend (one overlapping hiring track)",
+      "url": "https://www.rapidcanvas.ai/careers/senior-software-engineer---backend",
+      "canonical_url": "https://www.rapidcanvas.ai/careers/senior-software-engineer---backend",
+      "url_aliases": [
+        "https://www.rapidcanvas.ai/careers/staff-software-engineer"
+      ],
+      "last_checked": "2026-10-18",
+      "freshly_verified_during_import": true,
+      "status_at_last_check": "Official careers pages accepting rolling applications; immediate funded opening unconfirmed",
+      "location": "Remote India",
+      "arrangement": "Remote India; no India office attendance stated",
+      "eligibility": "India remote explicitly supported. Singapore engagement unconfirmed; generic global culture does not override role location. Personal authorization unknown.",
+      "engagement_type": "Not stated; employee versus B2B terms unconfirmed",
+      "published_compensation": "Not published",
+      "compensation_geography": "Employer states compensation/benefits tailored to local market; SG and India bands/terms unknown",
+      "sgd_comparison": "Unavailable: no published applicable amount",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "Timezone overlap, weekly hours, travel and on-call unknown",
+      "posted": "Not available",
+      "terms": "Rolling applications; confirm current funded headcount, level, employee/B2B, benefits, leave and notice",
+      "fit": "Java18+/SpringBoot3+, REST and scalable microservices; secure web applications, Kubernetes/Docker, performance and automated testing. Backend engineering for a data-science platform, not an ML research role.",
+      "preparation": "Senior asks 6+ software development years; staff asks 10+ and hands-on team leadership. Establish Python and Node/React expectations; prepare performance/scaling, container security and build-versus-buy decisions. Do not invent staff tenure.",
+      "questions": "Is a funded senior/staff role open now? Which level? India employee or B2B? Is Singapore engagement possible? Applicable guaranteed base/currency, bonus/equity, local-market adjustment, hours/overlap and on-call? Python/React depth required?",
+      "upside": "Career-growth candidate (platform and technical ownership assessment); compensation to establish",
+      "verification": "Official careers index links both pages; role descriptions and email application instructions accessible on 18 October 2026. No email sent. Employer explicitly uses rolling applications; immediate funded status not confirmed.",
+      "source_urls": [
+        "https://www.rapidcanvas.ai/careers",
+        "https://www.rapidcanvas.ai/careers/senior-software-engineer---backend",
+        "https://www.rapidcanvas.ai/careers/staff-software-engineer"
+      ],
+      "import_source": "Fresh public-web check on 18 October 2026, official employer careers pages",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current alert. Reconcile from conversation on next run; do not assert delivery before final response."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend and cloud-modernization resume",
+          "tailoring": "Foreground Java21/SpringBoot3, secure REST APIs, SQL diagnosis, Kubernetes, testing and CI/CD. Use defensible scaling/modernization examples; establish Python/React scope.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend-platform resume",
+          "tailoring": "Highlight Java/Spring, event-driven design, AWS/Kubernetes, CI/CD, architecture trade-offs and mentoring. Staff is an experience-calibration stretch; label AI prototypes accurately.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Senior and staff descriptions substantially overlap; consolidated rather than counted as two projects. Distinct from previously reported customer-facing Senior AI Engineer. No repository code-search results for RapidCanvas; older independent runtime history not fully inspected."
     }
   ]
 }
