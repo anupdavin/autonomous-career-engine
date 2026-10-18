@@ -535,3 +535,51 @@ Hours/terms: Twice-weekly vulnerability-remediation cadence. Weekly hours, US ti
 Questions: CanIA_SJFD_1008 accept permanentSG/India remoteinternationalB2B, or onlyUS-based W2/C2C? WhyOn-site metadata versusRemote title, anyclient-site requirement? ConfirmUSD50-55/hr applies to whichentity/geography; cross-borderrate, guaranteedhours, exactcoretimezone/oncall,6monthdates, renewal/cancellation/notice, paidleave, payment/FX/expenses, endclient/projectidentity and actual remediation/design ownership.
 
 Verification: 18October2026: recruiter-attributed Dice full description accessible including exactpositionID,6months,W2/C2C,$50-55/hr, contradictoryOn-site metadata. Remotivefullcopyopened; itsApplylinksCeipal exactjob. CeipalJS-only, no readable application fields; active intake/end-to-end form unverified. No explicitclosedmarker on retrieved recruiter listing. Treatasconditionalexploration, not submission-ready or worldwide-confirmed.
+
+## New leads checked 18 October 2026
+
+Alert delivery pending. No applications or contacts.
+
+### Apple: Senior Software Engineer (Java Backend)
+
+[Role](https://jobs.apple.com/en-sg/details/200645710-3278/senior-software-engineer-java-backend). Posted: 6 February 2026, official description. Priority 1.
+
+Location/type: Singapore; onsite/hybrid attendance unspecified, not cross-border remote. 40 weekly hours listed; permanent/fixed-term employment type unknown.
+
+Eligibility: Singapore work location confirmed, personal eligibility not confirmed. Sponsorship/work authorization unknown. No relocation or India remote assumed.
+
+Pay: Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.
+
+Upside: Career-growth candidate (assessment) through hands-on architecture and platform/partner ownership. Compensation to establish.
+
+Resume tailoring: Lead/backend resume: actual Java21/Spring3, Kafka, cloud-native ownership, mentoring and design review. Prepare architecture tradeoff and escalation-to-engineering improvement examples with verified outcomes only.
+
+Preparation: Prepare distributed transaction consistency, NoSQL/ORM/networking and external partner escalation examples. Degree and partner-facing experience to establish, not invent.
+
+Hours/terms: 40 weekly hours; on-call, escalation coverage and employment/leave terms unknown.
+
+Questions: Confirm active intake, onsite/hybrid attendance, employment type, sponsorship, Singapore base/bonus/equity and grade, core/on-call hours and architecture versus support split. Is Full Stack Java Engineer 200669094-3278 the same track?
+
+Verification: 18 October 2026: official Singapore search currently indexed with Submit Resume and role number; indexed official MX role provides full responsibilities and qualifications. SG/IE/MX detail opens return JS shells, so live application form and continued intake independently unverified.
+
+### Patrianna: Senior Java Engineer, AI-driven engineering
+
+[Role](https://jobs.dou.ua/companies/patrianna/vacancies/329725/). Posted: 1 October 2026 on DOU. Priority 2.
+
+Location/type: Remote; mirrors label Ukraine and company mentions European teams. Full-time on matching mirror; employee versus B2B unknown.
+
+Eligibility: Eligibility-unconfirmed lead. DOU remote wording has no explicit country restriction; mirrors classify Ukraine and employer mentions Europe. SG/India not confirmed. Ukraine/Europe-only residence, if mandatory, is a hard blocker. Not confirmed worldwide.
+
+Pay: Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.
+
+Upside: Career-growth candidate (assessment): product-service ownership and AI-assisted engineering. Compensation to establish, no foreign-currency income promise.
+
+Resume tailoring: Cloud-native lead/backend resume: real Kafka, Java/Spring, PostgreSQL, Kubernetes, ArgoCD, testing and mentoring. Describe confirmed coding-agent verification only; SpringAI/RAG/MCP/ClaudeAPI work remains prototypes.
+
+Preparation: Prepare Java25/Spring4 upgrade implications, GCP/Spanner/Ebean and performance testing. These are details to establish, not assumed incapability. Evaluate social gaming/iGaming domain. No production ML research requirement observed.
+
+Hours/terms: Core timezone, overlap, weekly hours and on-call unknown. Generous leave mentioned without amount. B2B availability, duration, minimum billing, cancellation/notice, payment schedule, FX costs and expenses unknown.
+
+Questions: Confirm active exact Ashby requisition and direct application URL; SG versus India employee/EOR/B2B support; whether Ukraine/Europe labels are hard restrictions; applicable pay/currency and location adjustment; core hours/on-call, leave and payment/FX/notice terms.
+
+Verification: 18 October 2026: employer-attributed DOU role accessible with full description, no closed marker. Employer website links Ashby, which returned JS-only; posting API inaccessible through research tool. Specific ATS requisition, direct ATS application URL and live intake unverified. DOU is role exploration link, not verified direct application form.

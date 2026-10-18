@@ -7389,10 +7389,10 @@
       "status_at_last_check": "Current recruiter description accessible; work arrangement, SG/India eligibility and live intake unconfirmed",
       "deduplication_note": "Compared127-record latest ledger and available discovered_global_jobs/prepared_packets exports. No Cynet/client remediation description found. Client undisclosed; require identity before duplicateapplication acrossagencies. Remotive/IHire/Haystack/Dice copies are oneproject, not separatealerts. Completehistoricalcoverage notclaimed.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "RecorddeliveryonlyafteractualChatGPTfinal"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final reconciled; exact time unknown."
       },
       "assessments": {
         "anup": {
@@ -7407,6 +7407,95 @@
           "resume_emphasis": "Hands-on lead/backend DevSecOps and cloud modernization",
           "tailoring": "Highlight Java21/Spring3, AWS/ECS/EKS, GitOps/Terraform, Jenkins/GitHubActions and secure release verification. Explain real upgrade coordination and rollback decisions; establish actual SCA/Python experience. AI prototypes remain prototypes, not production securityautomation claims.",
           "fit_and_preparation": "Strongcloud/DevSecOps transfer. Rate/engagement unknown forSG/India and recurring remediation scope may be narrower than currentlead role; screen before major preparation.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "apple-java-backend-200645710",
+      "employer": "Apple",
+      "title": "Senior Software Engineer (Java Backend)",
+      "url": "https://jobs.apple.com/en-sg/details/200645710-3278/senior-software-engineer-java-backend",
+      "canonical_url": "https://jobs.apple.com/en-sg/details/200645710-3278/senior-software-engineer-java-backend",
+      "url_aliases": [],
+      "import_source": "Public employer/role sources checked 18 October 2026",
+      "last_checked": "2026-10-18",
+      "published_compensation": "Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery"
+      },
+      "requisition": "200645710-3278",
+      "posted": "6 February 2026, official description",
+      "location": "Singapore; onsite/hybrid attendance unspecified, not cross-border remote",
+      "engagement_type": "40 weekly hours listed; permanent/fixed-term employment type unknown",
+      "eligibility": "Singapore work location confirmed, personal eligibility not confirmed. Sponsorship/work authorization unknown. No relocation or India remote assumed.",
+      "verification": "18 October 2026: official Singapore search currently indexed with Submit Resume and role number; indexed official MX role provides full responsibilities and qualifications. SG/IE/MX detail opens return JS shells, so live application form and continued intake independently unverified.",
+      "evidence_urls": [
+        "https://jobs.apple.com/en-us/search?location=singapore-SGP&team=apps-et-frameworks-SFTWR-AF",
+        "https://jobs.apple.com/es-mx/details/200645710-3278/senior-software-engineer-java-backend?team=SFTWR"
+      ],
+      "fit": "8+ years backend; Java preferred; distributed systems, APIs, relational data and transactions; hands-on architecture, mentoring, partner integration and roadmap influence.",
+      "preparation": "Prepare distributed transaction consistency, NoSQL/ORM/networking and external partner escalation examples. Degree and partner-facing experience to establish, not invent.",
+      "questions": "Confirm active intake, onsite/hybrid attendance, employment type, sponsorship, Singapore base/bonus/equity and grade, core/on-call hours and architecture versus support split. Is Full Stack Java Engineer 200669094-3278 the same track?",
+      "hours_terms": "40 weekly hours; on-call, escalation coverage and employment/leave terms unknown.",
+      "upside": "Career-growth candidate (assessment) through hands-on architecture and platform/partner ownership. Compensation to establish.",
+      "deduplication_note": "Absent from 128-job ledger and available runtime/prepared exports. Similar Full Stack Java Engineer 200669094-3278 not counted separately pending project clarification. Complete history unavailable.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Backend/integration resume: actual Java APIs, secure OAuth2/mTLS, payments, relational data and cloud delivery. Show verified architecture decisions and stakeholder integration outcomes; establish distributed transaction depth.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Lead/backend resume: actual Java21/Spring3, Kafka, cloud-native ownership, mentoring and design review. Prepare architecture tradeoff and escalation-to-engineering improvement examples with verified outcomes only.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "patrianna-senior-java-329725",
+      "employer": "Patrianna",
+      "title": "Senior Java Engineer, AI-driven engineering",
+      "url": "https://jobs.dou.ua/companies/patrianna/vacancies/329725/",
+      "canonical_url": "https://jobs.dou.ua/companies/patrianna/vacancies/329725/",
+      "url_aliases": [
+        "https://startup.jobs/senior-java-engineer-patrianna-8354759"
+      ],
+      "import_source": "Public employer/role sources checked 18 October 2026",
+      "last_checked": "2026-10-18",
+      "published_compensation": "Not published in retrieved role sources. Currency, period, applicable base/bonus/equity and location adjustment policy unknown. No SGD conversion or income uplift inferred.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery"
+      },
+      "posted": "1 October 2026 on DOU",
+      "location": "Remote; mirrors label Ukraine and company mentions European teams",
+      "engagement_type": "Full-time on matching mirror; employee versus B2B unknown",
+      "eligibility": "Eligibility-unconfirmed lead. DOU remote wording has no explicit country restriction; mirrors classify Ukraine and employer mentions Europe. SG/India not confirmed. Ukraine/Europe-only residence, if mandatory, is a hard blocker. Not confirmed worldwide.",
+      "verification": "18 October 2026: employer-attributed DOU role accessible with full description, no closed marker. Employer website links Ashby, which returned JS-only; posting API inaccessible through research tool. Specific ATS requisition, direct ATS application URL and live intake unverified. DOU is role exploration link, not verified direct application form.",
+      "evidence_urls": [
+        "https://www.patrianna.com/",
+        "https://jobs.ashbyhq.com/patrianna"
+      ],
+      "fit": "Java production engineering, Kafka/PostgreSQL, service ownership, AI-assisted design/code/review and human verification. DOU stack Java25, SpringBoot4/Spring7, GCP/Kubernetes, Spanner/AlloyDB, Ebean, Testcontainers, ArgoCD and observability.",
+      "preparation": "Prepare Java25/Spring4 upgrade implications, GCP/Spanner/Ebean and performance testing. These are details to establish, not assumed incapability. Evaluate social gaming/iGaming domain. No production ML research requirement observed.",
+      "questions": "Confirm active exact Ashby requisition and direct application URL; SG versus India employee/EOR/B2B support; whether Ukraine/Europe labels are hard restrictions; applicable pay/currency and location adjustment; core hours/on-call, leave and payment/FX/notice terms.",
+      "hours_terms": "Core timezone, overlap, weekly hours and on-call unknown. Generous leave mentioned without amount. B2B availability, duration, minimum billing, cancellation/notice, payment schedule, FX costs and expenses unknown.",
+      "upside": "Career-growth candidate (assessment): product-service ownership and AI-assisted engineering. Compensation to establish, no foreign-currency income promise.",
+      "deduplication_note": "No Patrianna in ledger or available runtime exports. DOU and matching StartupJobs description treated as one project, no separate older fintech/title-variant alert. Historical coverage incomplete.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/AI-assisted engineering resume: real Java/Spring, Kafka/PostgreSQL, Kubernetes and diagnosis. Show actual Cursor/Copilot/ClaudeCode/Codex context, review and tests of generated changes; no production ML claims.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Cloud-native lead/backend resume: real Kafka, Java/Spring, PostgreSQL, Kubernetes, ArgoCD, testing and mentoring. Describe confirmed coding-agent verification only; SpringAI/RAG/MCP/ClaudeAPI work remains prototypes.",
           "application_status": "Not applied or approved"
         }
       }
