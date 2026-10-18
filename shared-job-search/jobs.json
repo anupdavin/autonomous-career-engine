@@ -7508,10 +7508,10 @@
       "authorization_sponsorship": "Unknown; no personal work authorization inferred.",
       "sgd_comparison": "Not established; published applicable numeric pay unavailable.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Record delivery only after actual ChatGPT alert."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual previous ChatGPT final and external-work history confirm delivery. Singapore date only; exact time unknown."
       },
       "job_id": "capgemini-java-backend-578348",
       "employer": "Capgemini",
@@ -7555,10 +7555,10 @@
       "authorization_sponsorship": "Unknown; no personal work authorization inferred.",
       "sgd_comparison": "Not established; published applicable numeric pay unavailable.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Record delivery only after actual ChatGPT alert."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual previous ChatGPT final and external-work history confirm delivery. Singapore date only; exact time unknown."
       },
       "job_id": "trigyn-data-mdm-G0826-0045",
       "employer": "Trigyn Technologies, undisclosed bank/data-platform client",
