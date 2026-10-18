@@ -409,3 +409,56 @@ JosephHarryJS-LFE, OvertMinds, BJAKPrincipal and Atlan agent-platform alert deli
 - Hours/terms: Core hours, timezone overlap, client travel and on-call unknown. Entity, leave, benefits, probation and notice to establish
 - Questions: Is6000000000898051 active funded role; exact SG office/client cadence, security/work-right restrictions and sponsorship? Guaranteed base/bonus, grade, architecture decision authority versus operations/support, Java/Go split, scripting/video requirements, hours/on-call/travel and notice? ForMeena internal mobility eligibility, grade/package change and release rules?
 - Verification: Official SmartRecruiters full description opened18October2026; Full-time and Interested controls visible. Indexed official version confirms Singapore. No application form submitted/tested. Older LinkedIn closed listing uses materially different vendor/video hardware description; not treated as proof this current backend/Golang requisition is closed.
+
+## New review leads checked18October2026
+
+Country support is not personal work authorization. These entries are pending actual ChatGPT alert delivery; historical entries above are not new alerts.
+
+### ITRex Group: Senior Java Developer, AI-assisted engineering
+
+[Direct role](https://apply.workable.com/itrex-group/j/B1AD92056B/). Priority tier 1. Eligibility-unconfirmed lead, not an eligible SG/India application yet. Official index lists Poland, not worldwide. No retrieved explicit Poland-only residence/work-right sentence, but treat Poland hiring location as a material restriction unless employer confirms international B2B/entity support. If Poland residence is mandatory, hard blocker.
+
+Pay: No numeric compensation published on retrieved official role description
+
+Scope/preparation: Very strong Java/cloud/testing transfer. Country mechanism first; paired work hours and Terraform depth to establish.
+
+Resume: Senior Java backend and verified AI-assisted engineering. Lead with Java/Spring, secure APIs, Kubernetes delivery and actual Cursor/Copilot/Claude Code/Codex context-review-test workflow. Prepare a real example where generated code needed correction, without invented metrics or production AI-platform claims.
+
+Hours/terms: Daily pair programming stated; exact timezone overlap/core hours/on-call unknown Full-time reported by matching third-party listing; employee versus B2B, entity, duration, paid leave, notice, currency and payment terms unknown
+
+Questions: Are B1AD92056B/2524DBCB52 active and the same hiring track? Is Poland residence/work authorization mandatory or can SG/India workers engage via B2B/entity? Applicable guaranteed base/rate/currency, global versus local pay, employee/contract model, daily pairing hours in SG/India and on-call/leave/notice?
+
+Verification: 18October2026: official employer ATS and application URLs reopened; main and board JS-only, exact B1AD application inaccessible. Full indexed employer description retrieved, official Workable job index explicitly Remote Poland. Similar2524 indexed application asks Kubernetes debugging and monthly gross USD expectations, not a published salary. Live form/intake not verified. Current board indexed SeniorJava; no closed marker retrieved. Remotive lists full-time. Grouped duplicate descriptions conservatively.
+
+### Forager: Senior Software Engineer, Backend & Infrastructure
+
+[Direct role](https://apply.workable.com/forager/j/0B65DDA68E). Priority tier 3. Eligibility-unconfirmed SG/India lead. Employer explicitly welcomes candidates outside named countries, but contracting/entity/payment support for Singapore or India not yet established.
+
+Pay: No numeric compensation published on retrieved official role description
+
+Scope/preparation: Transferable Java distributed-system evidence; significant Python/search specialization and late working hours require assessment.
+
+Resume: Backend/platform reliability and AI-assisted engineering. Connect secure APIs, databases, Kubernetes/CI/CD, observability and genuine AI-output validation to platform ownership. Prepare Python/Django search/queue design and clarify actual search/ETL experience. Do not claim production Python/Elasticsearch scale without evidence.
+
+Hours/terms: Roughly4hours daily US Eastern overlap mandatory; exact window unknown. Illustrative9am-1pm ET is21:00-01:00 SG/18:30-22:30 India during EDT,22:00-02:00 SG/19:30-23:30 India during EST. These are calculations, not employer-required exact hours. Light on-call advertised, rota/frequency unknown. Full-time B2B. Untracked PTO advertised; whether fully paid/fee-preserving must be confirmed. Rate/currency, minimum guaranteed billing, duration, notice/cancellation, renewal, payment timing, FX/expenses and benefits unknown. No annualized revenue inferred.
+
+Questions: Can a Singapore- or India-based contractor be engaged? Rate/currency and location-adjustment policy, minimum guaranteed hours/fee, exact4hour ET overlap and seasonal DST, on-call rota, paid/fee-preserving PTO, duration/termination/notice, payment schedule/FX costs and expenses? How strict are existing Python/Django and Elasticsearch-at-scale requirements versus Java transfer?
+
+Verification: 18October2026: official Workable job/application URLs opened JS-only; full indexed official description retrieved with stack, full-time B2B, explicit openness elsewhere,4hour ET overlap and untracked PTO. Indexed official application repeats ET overlap question. Live form/intake not independently verified; no closing marker retrieved.
+
+### Marketnode: Tech Lead, Digital Assets
+
+[Direct role](https://apply.workable.com/marketnode/j/1739ECCFC5/). Priority tier 4. Singapore work-location confirmed in official ATS index. Personal work rights, sponsorship and project restrictions unknown. India remote not advertised.
+
+Pay: Official retrieved ATS salary unpublished. Recordowl MCF-linked matching title shows $12,000-$17,000, with currency and period not stated in extracted table. Jooble matching description says12000-17000SGD, period unstated. MCF page JS-only. Treat as an unverified pay lead, not confirmed employer-published monthly base.
+
+Scope/preparation: Strong secure-regulated integration transfer but major specialized blockchain leadership evidence to establish.
+
+Resume: Senior backend/secure integrations with lead stretch. Use payments modernization, OAuth2/mTLS, APIs, databases and cloud reliability as transferable evidence. Offer architecture trade-offs and truthful mentoring scope. Ask for backend/integration ownership track; do not imply Solidity/Fireblocks or4years blockchain leadership.
+
+Hours/terms: Exact SG office cadence, cross-country core hours, travel and production on-call unknown Permanent indicated by MCF-linked third-party table; exact entity, employee terms, bonus/equity, leave/notice unknown
+
+Questions: Is1739ECCFC5 active; can this platform hire transferable regulated Java/cloud leaders without4years blockchain leadership, or is that essential? Actual Solidity/Fireblocks/network depth expected? Confirm current guaranteed base/currency/period and whether third-party12000-17000 relates to this req; separate bonus/equity. SG work-pass sponsorship, hybrid cadence, team management authority, hours/on-call/travel and benefits?
+
+Verification: 18October2026: official job, current board and application URLs reopened JS-only; indexed official body retrieved withSGHybrid, responsibilities and exact domain requirements; application indexed resume import. Live intake not independently verified. Recordowl matching title linksMCF exactjob570cd...; MCFopenedJSshell, pay not employer-verified. No precise original date established; relative dates vary.
+
