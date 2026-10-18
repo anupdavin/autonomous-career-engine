@@ -165,7 +165,7 @@ Delivery of these four records was reconciled from the visible ChatGPT alert on 
 - Recruiter questions: Is requisition still accepting applications? Can scope/level support 8+/9+ years and comparable pay? India residence mandatory (no SG eligibility presumed)? India employment entity/base/benefits, hours/client overlap, leadership authority and production AI expectations?
 
 
-## Additional discovery on 18 October 2026, pending delivery reconciliation
+## Additional discovery on 18 October 2026, delivery reconciled
 
 Official descriptions checked today; no application/contact made. Source geography is separate from personal work authorization. Exact posting dates and official compensation are unpublished for all three. No current-package uplift is asserted.
 
@@ -207,3 +207,39 @@ Official descriptions checked today; no application/contact made. Source geograp
 - Hours/terms: Exact Singapore office cadence, India hours if permitted, travel and on-call unknown. Type, employment entity, benefits, leave, notice and work-pass support unknown
 - Recruiter questions: Is India remote genuinely available for this requisition or is Singapore hybrid mandatory? Employment type/entity, Singapore sponsorship, location-specific guaranteed pay and separate equity/bonus? Snowflake production experience non-negotiable or transferable database/governance experience accepted? Hours, office cadence, on-call and leadership scope?
 - Verification: Official Greenhouse role and application fields opened 18 October 2026 via current board. Heading says India remote and Singapore office, body requires Singapore commutability. No numeric salary published. No submission.
+
+
+Delivery of the preceding Evooq, Numerix and Lifted alert was reconciled from the visible ChatGPT final response on 18 October 2026; no exact timestamp was inferred.
+
+## Eligibility-unconfirmed discovery on 18 October 2026, pending delivery reconciliation
+
+No SG/India-eligible application is asserted for either lead. Compensation remains unknown. Compare actual location/engagement rules before investing in an application.
+
+### 1. Ajaib: Staff/Principal Backend Engineer
+
+[Direct role](https://apply.workable.com/ajaib/j/BA01EDB717)
+
+- Priority/upside: tier 1. Career-growth candidate (assessment), ambitious multi-team architecture ownership; compensation to establish
+- Location/eligibility: Eligibility unconfirmed for this requisition in Singapore/India. General team presence in India/SEA is not confirmation of permanent cross-border remote engagement. Jakarta/Bangkok attendance, residence or authorization if required would be hard blockers without relocation.
+- Arrangement/type: Conflicting evidence: ATS hybrid header and hybrid benefit versus description of fully remote distributed team. Employer careers page also describes hybrid plus request-based work-from-anywhere.. Full-time according to official indexed ATS description
+- Compensation: Salary not published in indexed official description. Performance bonus mentioned, amount and conditions unknown; not guaranteed cash. Equity not published.. Unavailable: no official applicable salary/rate published
+- Fit/preparation: Java/Go accepted, Kafka, Redis, relational/NoSQL query tuning, AWS/GCP and regulated fintech. Cross-team architecture, engineering standards, performance, reliability, security, root-cause investigations and senior-engineer mentoring; stays hands-on for critical components. Ambitious staff/principal scope: establish sustained multi-team influence, architectural trade-offs, senior mentoring and scale/reliability evidence. Unconfirmed GCP/Go/NoSQL depth are preparation points. Do not infer past staff title or decision authority.
+- Resume/tailoring: Use hands-on technical lead/cloud-native resume. Lead with event-driven platform delivery, Java/Kafka/Kubernetes, reliability/security decisions, mentoring and stakeholder collaboration. Prepare real examples of influence beyond assigned features, labeling AI prototypes and unconfirmed experience accurately.
+- Hours/terms: Exact working timezone/core overlap, on-call and travel unknown. General work-from-anywhere is request-based; no permanent country rights implied. Full-time; private insurance, paid time off and performance bonus advertised. Country applicability, local entity, leave amounts, notice and other terms unknown.
+- Recruiter questions: Is BA01EDB717 actively accepting applications? Does this exact role allow permanent remote work from SG/India or require Jakarta/Bangkok hybrid attendance? Employment/EOR/B2B entity, authorization, country-specific base/currency, bonus terms, scope/level, core overlap, travel and on-call?
+- Verification: 18 October 2026: official Workable URL reopened but returned no extractable body; full indexed official description retrieved via search. Official employer career page opened and links to Workable; describes hybrid/work-from-anywhere requests. /apply endpoint inaccessible. Active form/status not fully established; no submission.
+
+### 2. Binance: Senior Java Developer, Exchange Service
+
+[Direct role](https://jobs.lever.co/binance/9e51f1b1-031d-4f6d-97db-5081f1a1b940/)
+
+- Priority/upside: tier 2. Career-growth candidate (assessment): large-scale exchange systems, performance and architecture work; compensation to establish
+- Location/eligibility: Unconfirmed remote lead: Asia and Taiwan/Taipei listed, no SG/India-specific eligibility observed. Do not infer worldwide work or relocation willingness. If Taiwan attendance/residency is mandatory, blocker from SG/India.
+- Arrangement/type: Full-time onsite or remote; also labeled hybrid. Team-dependent work-from-home policy.. Full-time; legal engagement/entity and employee versus contractor mechanism unknown
+- Compensation: No numeric salary published; competitive salary and company benefits stated. Bonus/equity not specified.. Unavailable: no official applicable salary/rate published
+- Fit/preparation: Core Java/Spring, relational/NoSQL databases, messaging and distributed-system design. Core exchange services, architecture upgrades, refactoring, performance tuning, incident diagnosis and junior mentoring. MySQL/NoSQL operational depth, JVM/concurrency/performance profiling, trading/fiat gateway/futures/margin/lending context. Establish incident/on-call expectations, not assumed domain expertise.
+- Resume/tailoring: Use hands-on lead/backend cloud resume. Emphasize Kafka/Kafka Streams, distributed reliability, Java 21/Spring Boot, observability, delivery decisions and mentoring. Prepare incident ownership and cross-team architecture examples with only substantiated outcomes.
+- Hours/terms: Core timezone overlap and on-call unstated; incident troubleshooting is part of duties. Team-specific WFH policy; no Singapore/India schedule confirmed. Full-time label; legal employer, benefits/leave, probation, notice and remote engagement terms unknown.
+- Recruiter questions: Does this requisition accept remote residence in Singapore or India, or require Taiwan attendance/residence? Employee/EOR/B2B mechanism and location-specific guaranteed base/currency, separate upside, work-pass support, exact core hours, on-call rota/compensation and notice?
+- Verification: 18 October 2026: official Lever role and /apply page opened. Role description, Asia/Taipei location, mixed onsite/remote/hybrid labels, residency question, visa-sponsorship question and submit button visible. No form data entered or submission tested.
+
