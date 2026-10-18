@@ -6728,10 +6728,10 @@
         "https://www.jobserve.com/ie/en/mob/job/C1C4CE6545164C7625?page=1&shid=4C1954CA57115A021391"
       ],
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual alert delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final evidenced by visible/external conversation handoff; no exact timestamp inferred"
       },
       "job_id": "joseph-harry-JS-LFE-trading-data-java",
       "employer": "Joseph Harry Ltd, undisclosed Dublin financial-services client",
@@ -6782,10 +6782,10 @@
         "https://overtminds.com/blog-new/careers/senior-java-developer/"
       ],
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual alert delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final evidenced by visible/external conversation handoff; no exact timestamp inferred"
       },
       "job_id": "overt-minds-java-headless-lead-track",
       "employer": "Overt Minds (formerly OmniReach)",
@@ -6834,10 +6834,10 @@
         "https://jobs.ashbyhq.com/bjakcareer/5a751f4f-5500-486e-9e4c-b5b3c01998bc"
       ],
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual alert delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final evidenced by visible/external conversation handoff; no exact timestamp inferred"
       },
       "job_id": "bjak-principal-global-785b11a6",
       "employer": "BJAK",
@@ -6885,10 +6885,10 @@
       "terms": "Entity, leave, benefits, notice and payment terms unknown",
       "url_aliases": [],
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Reconcile only after actual alert delivery"
+        "already_reported": true,
+        "first_reported_date": "2026-10-18",
+        "state": "delivered",
+        "note": "Actual ChatGPT final evidenced by visible/external conversation handoff; no exact timestamp inferred"
       },
       "job_id": "atlan-agent-platform-9ba81415",
       "employer": "Atlan",
@@ -6920,6 +6920,116 @@
           "resume_emphasis": "See candidate-specific tailoring",
           "tailoring": "Use hands-on lead/cloud and AI-integration resume. Connect Kafka/KEDA, Kubernetes/Helm, Terraform/GitOps, observability and accurately labeled MCP/RAG prototypes. Prepare idempotent workflows, tenant isolation and secure agent-execution trade-offs.",
           "fit_and_preparation": "Agent registry/gateways, identity/auth/governance, MCP servers, Kubernetes/Temporal runtime, multi-tenant event-driven services, retries/idempotency/failure recovery and observability. Claude/Cursor workflow encouraged. Very ambitious:14+years requested versus confirmed8+/9+; ask level flexibility rather than invent tenure. Principal control-plane ownership, Go/Python, Temporal/Karpenter and multi-tenancy depth to establish. AI/MCP experience listed as plus, not ML-research requirement.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer and official careers-platform evidence checked18October2026",
+      "posted": "No reliable exact original posting date established",
+      "authorization_sponsorship": "Prioritizes current Singapore work rights without sponsorship; not an explicit absolute ban. Work-pass support/transfer eligibility must be confirmed.",
+      "hours_on_call": "Core hours, timezone overlap, client travel and on-call unknown",
+      "terms": "Entity, leave, benefits, probation and notice to establish",
+      "compensation_geography": "Singapore-specific lead; global pay/location adjustments and India engagement not established",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT delivery"
+      },
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/palo-it/bfed1bc0-606f-44d0-ba4b-ebe2f554e39b"
+      ],
+      "job_id": "palo-it-singapore-ai-native-senior-lead-track",
+      "employer": "PALO IT Singapore",
+      "title": "Senior AI-Native Engineer / AI-Native Lead, overlapping Singapore hiring track",
+      "url": "https://jobs.ashbyhq.com/palo-it/56707745-9c94-4d7f-885b-c41dbc90099e/",
+      "canonical_url": "https://jobs.ashbyhq.com/palo-it/56707745-9c94-4d7f-885b-c41dbc90099e/",
+      "requisition": "Senior56707745-9c94-4d7f-885b-c41dbc90099e; Leadbfed1bc0-606f-44d0-ba4b-ebe2f554e39b",
+      "location": "Singapore",
+      "arrangement": "Hybrid per official indexed Ashby; cadence/client-site attendance unknown",
+      "eligibility": "Singapore location supported; India remote not advertised. Prioritizes applicants with current Singapore work rights who do not need visa sponsorship. Existing SG residence/current employer pass does not establish new-employer authorization.",
+      "engagement_type": "Full-time per indexed Ashby; e2i matching-title listings say Permanent",
+      "published_compensation": "Numeric salary unpublished on retrieved official Ashby descriptions. Public e2i employer page lists Lead AI Native Engineer $10,000-16,000 per month and Senior AI Native Engineer $7,000-10,000 per month. Currency symbol is $, currency not explicitly labeled in extracted page. Exact linkage/current applicability to Ashby requisitions unconfirmed. Do not present as guaranteed current ATS bands. An expired Jobstore Lead copy has SGD8,500-13,000/month; not used as active-opening pay.",
+      "sgd_comparison": "Not established: e2i currency and exact-requisition applicability require confirmation; no annual guaranteed SGD inference.",
+      "source_urls": [
+        "https://techjobs.e2i.com.sg/company/about-us/43",
+        "https://www.palo-it.com/en/career",
+        "https://jobs.ashbyhq.com/palo-it/56707745-9c94-4d7f-885b-c41dbc90099e/",
+        "https://jobs.ashbyhq.com/palo-it/bfed1bc0-606f-44d0-ba4b-ebe2f554e39b"
+      ],
+      "fit": "Senior:5+years, Java among preferred backend languages, full-stack feature ownership, solution architecture, CI/CD, technical guidance, daily coding-assistant use, prompt/context engineering and output validation. Lead:10+years advertised, architecture, team/client management, coaching and AI engineering standards. ML model research not core requirement.",
+      "preparation": "React versus Angular transfer, demonstrated daily AI workflow and test/review guardrails, real architecture and mentoring examples. Lead scope requires establishing people/performance management, client/presales work and cross-team standards; no invented10years or management authority. AI/ML/cloud/mobile/certifications are pluses, not production ML prerequisites.",
+      "questions": "Are both exact requisitions active/funded and one hiring track? Can new work-pass sponsorship be supported? Which current monthly guaranteed base/currency applies, and does e2i $10k-16k Lead/$7k-10k Senior match these reqs? Separate bonus/equity? Lead-level flexibility for8+/9+years, people-management expectations, Java/backend versus React split, AI practice evidence, client assignment/hybrid cadence, hours/on-call/leave and notice?",
+      "upside": "Career-growth candidate (assessment): AI-assisted engineering ownership, reusable engineering practices and client-facing delivery. Conditional income potential only if actual Lead package supports target; no current-package uplift established.",
+      "verification": "18October2026: official Singapore Senior full indexed Ashby description retrieved, including hybrid/full-time/work-rights preference. Exact Senior and Lead URLs reopened but JS-only, no active form/live intake established. Official employer careers page opened. e2i public employer board displays matching titles/pay/month/permanent, detail pages redirect login. Expired Jobstore copy retained as conflicting historical evidence only, not application route. No submission/contact.",
+      "status_at_last_check": "Promising Singapore employer lead; live intake/application verification incomplete",
+      "deduplication_note": "One canonical senior/lead track, not separate employer/project alerts. Compared119-record ledger, runtime exports and draft paths; no PALO match. Broader historical completeness not claimed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/full-stack modernization with prominent AI-assisted engineering practices",
+          "tailoring": "Lead with verified Cursor/Copilot/Claude Code/Codex workflow, context preparation, generated-code review/tests, Java/Spring, secure APIs and CI/CD. Prepare an original before/after engineering example with only measured outcomes. Senior fit first; discuss Lead scope honestly.",
+          "fit_and_preparation": "Strong senior full-stack/backend and AI-assisted engineering alignment; React/client leadership depth and pass support to establish. Lead10+years scope is stretch, not claimed tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical-lead/full-stack and AI integration",
+          "tailoring": "Lead with Java/Angular delivery, architecture decisions, mentoring, DevSecOps/GitOps and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Show genuine AI-output verification and actual team authority. Prioritize Lead screening; Senior published-title pay reference appears below SGD12000 target if currency confirmed SGD.",
+          "fit_and_preparation": "Strong technical-lead and cloud delivery transfer; establish actual people-management/client scope, React expectations and AI workflow evidence. Do not invent10years.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-18",
+      "import_source": "Public employer and official careers-platform evidence checked18October2026",
+      "posted": "No reliable exact original posting date established",
+      "authorization_sponsorship": "Unknown; personal work authorization not inferred",
+      "hours_on_call": "Core hours, timezone overlap, client travel and on-call unknown",
+      "terms": "Entity, leave, benefits, probation and notice to establish",
+      "compensation_geography": "Singapore-specific lead; global pay/location adjustments and India engagement not established",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Reconcile only after actual ChatGPT delivery"
+      },
+      "url_aliases": [],
+      "job_id": "ncs-video-intelligence-6000000000898051",
+      "employer": "NCS",
+      "title": "Senior IT Architect, Video Intelligence",
+      "url": "https://jobs.smartrecruiters.com/NCS3/6000000000898051-senior-it-architect-video-intelligence-",
+      "canonical_url": "https://jobs.smartrecruiters.com/NCS3/6000000000898051-senior-it-architect-video-intelligence-",
+      "requisition": "6000000000898051",
+      "location": "Singapore per indexed official ATS",
+      "arrangement": "Office/site arrangement unconfirmed; remote not advertised. Treat as Singapore onsite/hybrid candidate, not global remote.",
+      "eligibility": "Singapore work location supported; personal work rights, sponsorship and project security restrictions unknown. India remote not advertised.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published on official role page. Glassdoor estimates and another NCS role's pay excluded.",
+      "sgd_comparison": "Unavailable: applicable salary unpublished",
+      "fit": "Hands-on backend architecture: Java/Golang microservices, Docker/Kubernetes high availability, GitLab CI/CD, Kafka/RabbitMQ, SQLServer/MongoDB/Redis, REST/gRPC, cloud and production diagnosis. AI/video analytics integration with AI teams, not core ML research.",
+      "preparation": "Strong Go proficiency explicitly requested; establish candidate depth rather than invent it. Python/Bash/Linux, gRPC and video analytics basics/OpenCV/FFmpeg preparation. No specified minimum years in current official description.",
+      "questions": "Is6000000000898051 active funded role; exact SG office/client cadence, security/work-right restrictions and sponsorship? Guaranteed base/bonus, grade, architecture decision authority versus operations/support, Java/Go split, scripting/video requirements, hours/on-call/travel and notice? ForMeena internal mobility eligibility, grade/package change and release rules?",
+      "upside": "Career-growth candidate (assessment): hands-on high-availability architecture and AI-product integration. ForMeena possible internal NCS role, not new-employer move; compensation/grade improvement unestablished.",
+      "verification": "Official SmartRecruiters full description opened18October2026; Full-time and Interested controls visible. Indexed official version confirms Singapore. No application form submitted/tested. Older LinkedIn closed listing uses materially different vendor/video hardware description; not treated as proof this current backend/Golang requisition is closed.",
+      "status_at_last_check": "Official role description and interest controls accessible; intake/form unverified",
+      "deduplication_note": "Compared119-record shared ledger, runtime exports and draft paths; no identical NCS video-backend project found. Older NCS same-title vendor/hardware JD not merged blindly. No full-history claim.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior backend/platform modernization",
+          "tailoring": "Emphasize Java21/Spring, AzureAKS/Kubernetes/Helm/Rancher, secure APIs, SQLServer, observability and real production diagnosis. Prepare a service HA/failure-recovery design and establish actual Go/Python/Bash depth; no invented video-analytics delivery.",
+          "fit_and_preparation": "Strong Java/container/security/reliability transfer, architect scope stretch. Strong Go requested; establish depth.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/cloud-native platform",
+          "tailoring": "Emphasize Java/KafkaStreams, Kubernetes/Istio/Helm, Terraform/GitOps, observability and architecture trade-offs. Present video-AI integration as preparation, not claimed production experience. As current NCS lead, first establish internal grade, package and scope advantage.",
+          "fit_and_preparation": "Strong lead/platform transfer; Go/scripting/video domain depth and actual architecture authority to establish. Internal move only if worthwhile.",
           "application_status": "Not applied or approved"
         }
       }

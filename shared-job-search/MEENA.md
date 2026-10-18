@@ -310,7 +310,7 @@ Salary unpublished for all four. Application workflow verification is incomplete
 
 EPAM Java/Azure, SAP447220, TechRivo and Smplicity alert delivery reconciled from actual ChatGPT final18October2026. Exact time unavailable.
 
-## Further discovery18October2026, pending delivery reconciliation
+## Further discovery18October2026, delivery reconciled
 
 All remote geography and live application limitations retained. No applications/contacts.
 
@@ -373,3 +373,39 @@ All remote geography and live application limitations retained. No applications/
 - Hours/terms: Exact core overlap/on-call unknown; offsites/local meetups advertised generally, required travel frequency/country to establish. Entity, leave, benefits, notice and payment terms unknown
 - Questions: Is9ba81415 active and can14+year preference flex or can same platform hire senior/staff? India-only remote or SG entity/B2B possible? Local guaranteed base/currency and variable/equity terms, product ownership, Go/Python depth, hours/on-call, offsites/travel, leave and notice?
 - Posted/verification: Not published. Official Ashby URL opened18October2026 JS-only; full indexed official description retrieved including IndiaRemote,14+years and stack. Employer careers page opened, confirms remote-first/offsites and country-specific offers; current live form/status not fully verified.
+
+
+JosephHarryJS-LFE, OvertMinds, BJAKPrincipal and Atlan agent-platform alert delivery reconciled from actual ChatGPT final18October2026. Exact time not inferred.
+
+## Singapore review18October2026, pending delivery reconciliation
+
+
+### 1. PALO IT Singapore: Senior AI-Native Engineer / AI-Native Lead, overlapping Singapore hiring track
+
+[Direct role](https://jobs.ashbyhq.com/palo-it/56707745-9c94-4d7f-885b-c41dbc90099e/)
+
+- Location/arrangement: Singapore. Hybrid per official indexed Ashby; cadence/client-site attendance unknown
+- Eligibility: Singapore location supported; India remote not advertised. Prioritizes applicants with current Singapore work rights who do not need visa sponsorship. Existing SG residence/current employer pass does not establish new-employer authorization.
+- Type/pay: Full-time per indexed Ashby; e2i matching-title listings say Permanent. Numeric salary unpublished on retrieved official Ashby descriptions. Public e2i employer page lists Lead AI Native Engineer $10,000-16,000 per month and Senior AI Native Engineer $7,000-10,000 per month. Currency symbol is $, currency not explicitly labeled in extracted page. Exact linkage/current applicability to Ashby requisitions unconfirmed. Do not present as guaranteed current ATS bands. An expired Jobstore Lead copy has SGD8,500-13,000/month; not used as active-opening pay.
+- SGD comparison: Not established: e2i currency and exact-requisition applicability require confirmation; no annual guaranteed SGD inference.
+- Upside: Career-growth candidate (assessment): AI-assisted engineering ownership, reusable engineering practices and client-facing delivery. Conditional income potential only if actual Lead package supports target; no current-package uplift established.
+- Fit/preparation: Senior:5+years, Java among preferred backend languages, full-stack feature ownership, solution architecture, CI/CD, technical guidance, daily coding-assistant use, prompt/context engineering and output validation. Lead:10+years advertised, architecture, team/client management, coaching and AI engineering standards. ML model research not core requirement. React versus Angular transfer, demonstrated daily AI workflow and test/review guardrails, real architecture and mentoring examples. Lead scope requires establishing people/performance management, client/presales work and cross-team standards; no invented10years or management authority. AI/ML/cloud/mobile/certifications are pluses, not production ML prerequisites.
+- Resume/tailoring: Lead with Java/Angular delivery, architecture decisions, mentoring, DevSecOps/GitOps and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Show genuine AI-output verification and actual team authority. Prioritize Lead screening; Senior published-title pay reference appears below SGD12000 target if currency confirmed SGD.
+- Hours/terms: Core hours, timezone overlap, client travel and on-call unknown. Entity, leave, benefits, probation and notice to establish
+- Questions: Are both exact requisitions active/funded and one hiring track? Can new work-pass sponsorship be supported? Which current monthly guaranteed base/currency applies, and does e2i $10k-16k Lead/$7k-10k Senior match these reqs? Separate bonus/equity? Lead-level flexibility for8+/9+years, people-management expectations, Java/backend versus React split, AI practice evidence, client assignment/hybrid cadence, hours/on-call/leave and notice?
+- Verification: 18October2026: official Singapore Senior full indexed Ashby description retrieved, including hybrid/full-time/work-rights preference. Exact Senior and Lead URLs reopened but JS-only, no active form/live intake established. Official employer careers page opened. e2i public employer board displays matching titles/pay/month/permanent, detail pages redirect login. Expired Jobstore copy retained as conflicting historical evidence only, not application route. No submission/contact.
+
+### 2. NCS: Senior IT Architect, Video Intelligence
+
+[Direct role](https://jobs.smartrecruiters.com/NCS3/6000000000898051-senior-it-architect-video-intelligence-)
+
+- Location/arrangement: Singapore per indexed official ATS. Office/site arrangement unconfirmed; remote not advertised. Treat as Singapore onsite/hybrid candidate, not global remote.
+- Eligibility: Singapore work location supported; personal work rights, sponsorship and project security restrictions unknown. India remote not advertised.
+- Type/pay: Full-time. Not published on official role page. Glassdoor estimates and another NCS role's pay excluded.
+- SGD comparison: Unavailable: applicable salary unpublished
+- Upside: Career-growth candidate (assessment): hands-on high-availability architecture and AI-product integration. ForMeena possible internal NCS role, not new-employer move; compensation/grade improvement unestablished.
+- Fit/preparation: Hands-on backend architecture: Java/Golang microservices, Docker/Kubernetes high availability, GitLab CI/CD, Kafka/RabbitMQ, SQLServer/MongoDB/Redis, REST/gRPC, cloud and production diagnosis. AI/video analytics integration with AI teams, not core ML research. Strong Go proficiency explicitly requested; establish candidate depth rather than invent it. Python/Bash/Linux, gRPC and video analytics basics/OpenCV/FFmpeg preparation. No specified minimum years in current official description.
+- Resume/tailoring: Emphasize Java/KafkaStreams, Kubernetes/Istio/Helm, Terraform/GitOps, observability and architecture trade-offs. Present video-AI integration as preparation, not claimed production experience. As current NCS lead, first establish internal grade, package and scope advantage.
+- Hours/terms: Core hours, timezone overlap, client travel and on-call unknown. Entity, leave, benefits, probation and notice to establish
+- Questions: Is6000000000898051 active funded role; exact SG office/client cadence, security/work-right restrictions and sponsorship? Guaranteed base/bonus, grade, architecture decision authority versus operations/support, Java/Go split, scripting/video requirements, hours/on-call/travel and notice? ForMeena internal mobility eligibility, grade/package change and release rules?
+- Verification: Official SmartRecruiters full description opened18October2026; Full-time and Interested controls visible. Indexed official version confirms Singapore. No application form submitted/tested. Older LinkedIn closed listing uses materially different vendor/video hardware description; not treated as proof this current backend/Golang requisition is closed.
