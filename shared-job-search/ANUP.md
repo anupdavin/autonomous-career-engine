@@ -662,7 +662,7 @@ Verification: 19October2026 Singapore date: official exact-requisition descripti
 
 ### Kotlin/Java Developer (Integration / Merchant Response), overlapping payment-gateway track
 
-[Official integration role](https://mayflower.recruitee.com/o/kotlinjava-developer-integration); [Merchant Response alternative](https://mayflower.recruitee.com/o/kotlinjava-developer-merchant-response). One overlapping payment-gateway track. Priority1, eligibility unconfirmed. Alert pending actual delivery; no applications or contacts.
+[Official integration role](https://mayflower.recruitee.com/o/kotlinjava-developer-integration); [Merchant Response alternative](https://mayflower.recruitee.com/o/kotlinjava-developer-merchant-response). One overlapping payment-gateway track. Priority1, eligibility unconfirmed. Alert delivered 19 October 2026, reconciled from actual ChatGPT final and external-work history; no applications or contacts.
 
 Location/type: Full remote explicitly stated, not temporary relocation language used for other Mayflower jobs. Singapore/India country support unconfirmed. No relocation assumed. Service contract; weekly hours, exclusivity, legal B2B/individual structure and duration unknown.
 
@@ -681,3 +681,31 @@ Hours/terms: Core hours/timezone overlap and weekly hours unstated. Daily suppor
 Questions: Can each person contract while remaining in Singapore or India, through which entity and B2B/individual mechanism? Will strong Java/Spring experience qualify against explicit 3+ commercial Kotlin requirement? Which distinct team/project and should only one application be made? Rate/currency/period, global or location-adjusted pay, SG/India differences, gross invoice versus net expectation wording, guaranteed hours, leave, duration/renewal/cancellation/notice, payment/FX/expenses, core overlap/on-call/support load, integration automation ownership and level?
 
 Verification: 19 October 2026 Singapore date: both exact roles present on live official Recruitee board; full descriptions and blank CV/contact/country/salary-expectation forms readable, including Send controls. Generic success/already-applied template text is not evidence of a submission. No fields entered, application sent or employer contact made.
+
+## New lead checked 19 October 2026: Endowus
+
+### Technical Lead, Retirement Solutions
+
+[Official role](https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22). Priority1. Pending actual alert delivery; no applications or contacts.
+
+Location/type: Singapore, Singapore. Hybrid, at least3 office days/week explicitly. Not100%remote; India-based engagement not advertised. Full-Time; permanent/fixed-term not established; no B2B arrangement advertised.
+
+Eligibility: Singapore work location confirmed. Personal work authorization and employer sponsorship unknown; no eligibility inferred from current employment pass. No relocation or India onsite assumed.
+
+Posted: Not stated on official role or retrieved matching Jobstore copy; no refresh date treated as original posting date.
+
+Pay: Official exact role publishes no numeric pay. Exact matching Jobstore copy displays SGD7500-SGD12500(Monthly), source currency/period explicit, but employer confirmation/current applicability and base-versus-total split unverified. ESOP upside separately advertised with no grant amount; equity not guaranteed cash. Bonus/cash breakdown unknown.
+
+SGD comparison: Already published in SGD by matching thirdparty. No guaranteed annual cash established because employer salary/base status and band applicability unconfirmed. Meena targetSGD12000/month lies near top of displayed thirdparty band, not proof of achievable offer or current-package uplift.
+
+Upside: Career-growth candidate (assessment): real technical vision/architecture, regulated financial workflow ownership, seniorengineer mentoring and distributedsystem learning. Compensation to establish. Lower band below Meena target; prioritize only near target or concrete scope/conditions advantage, no assumed incomeuplift.
+
+Resume: Senior Java/backend payments, secure integration and modernization with hands-on architecture. Use Anup's senior Java/backend-payments resume. Lead actual NTTDATA/GreatEastern payments, secureAPI/OAuth2/mTLS, Kafka/SQL, cloud/Kubernetes and modernization decisions. Show verifiable alternatives/tradeoffs, resilience/security/testing and stakeholder outcomes. Include Camel as known; avoid claiming Scala/Akka/Cassandra or MAS TRM delivery absent evidence.
+
+Preparation: Scala/Akka production experience and event-sourcing/CQRS listed nice-to-have, not automatic Java rejection. Cassandra is stronger stated core requirement: establish actual depth. Prepare actor/stream failurehandling, replay/schema evolution/readmodels/data consistency, retirement/ledgerdomain, MAS TRM architectural decisions and business-facing buildvsbuy tradeoffs. Do not invent Scala/Akka/Cassandra production delivery, formal architect tenure or specific financial outcomes.
+
+Hours/terms: At least3 office days/week; corehours, timezone collaboration, on-call/supportrotation, overtime/timeoff and travel unstated. Broad ownership includes infrastructure/QA/operations/product decisions, not coding-only. Fulltimeemployeelead, no contract billing model advertised. Guaranteedbase, bonus/equity details, benefits, leave, probation, notice and permanent/fixedterm unknown. Interview advertised30minscreen,60minonlinecoding,60mintechnicaldeepdive,60minsystemdesign,60minculture.
+
+Questions: Is exactrole funded and accepting applications and correctworkingform? Singapore sponsorship? Confirm applicable guaranteedbase/period versus JobstoreSGD7500-12500/month, bonus/equity separate, grade and architectureauthority, peoplemanagementvsIC expectations, Scala/Akka onboarding flexibility and Cassandra depth, retirementvertical scope,3dayoffice policy, corehours/oncall/travel, leave/probation/notice and permanent/fixedterm.
+
+Verification: 19October2026 Singapore date: corporate endowus.com/careers links official Manatal board; board page2 currently lists TechnicalLead. Exact description accessible with ApplyNow. Apply URL opens correcttitle/location but no readable applicant form in extraction, so live submission workflow remains unverified. Matching Jobstore body same retirement/JVM/Scala architecture and3day cadence. No closedmarker seen. No fields entered or application submitted.
