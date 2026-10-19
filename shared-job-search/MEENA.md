@@ -1279,3 +1279,67 @@ Terms: Unlimited PTO and dependent health cover advertised, but Singapore/India 
 Verification: 19 October 2026: exact official role description and careers index list opening, worldwide/full-time and direct careers@useaxra.com application route. No closed marker. No message sent or submission tested. Public LinkedIn company links same employer domain; funding and legal-entity due diligence remain to establish.
 
 Questions: Is GBP70000-90000 annual base, and applicable unchanged in Singapore/India? Which legal entity/EOR or B2B option, local benefits/leave/notice, payment currency/FX costs? Required Node/Go depth versus Java transferability? Exact core hours/DST/on-call? Funding/runway, engineering team size and regulated partner/legal entity details?
+
+## New review leads checked 19 October 2026 - Patsnap and G2i
+
+These leads remain pending delivery, not applications or approvals. Prior Activate and Axra alerts reconciled from actual supplied final; old source checks not refreshed.
+
+### Patsnap: Backend Engineer / Senior Backend Engineer
+
+[Direct application](https://careers.patsnap.com/o/backend-engineer-senior-backend-engineer)
+
+Priority: 1. Career-growth candidate assessment through direct product-employer backend and architecture ownership; compensation/seniority to establish, especially for an existing lead. AI-powered product employer does not mean production agent-building responsibilities.
+
+Location/type: Onsite, in-office Singapore explicitly required. Exact attendance days unstated. Not remote from India. Not stated on exact page; full-time/permanent versus contract to confirm
+
+Eligibility: Singapore work location confirmed. Personal authorization and sponsorship unknown. Form permits EP/SP/Other status and Mandarin None, but these options do not promise sponsorship or establish language flexibility.
+
+Pay: No numeric salary or bonus/equity published on exact official role. Form requests base salary and OTE expectations separately in SGD; that is not an employer pay band.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD annual calculation or uplift claimed.
+
+Fit: Java/Spring Boot microservices and REST, SQL/NoSQL tuning, CI/CD and containers; independent design-to-production project ownership, performance/reliability and engineering standards. 3+ Java-backend years minimum; actual senior grading needs screening.
+
+Prepare: Prepare database profiling, service scalability, testing and production-root-cause examples. Establish NoSQL depth and degree equivalence where relevant without inferring inability. Mandarin proficiency question includes None; confirm real team/client communication expectations, not automatic exclusion.
+
+Resume: Use Meena lead/backend resume. Emphasize independent enterprise delivery, Java21/Spring3, Kafka/Streams, PostgreSQL, AWS/K8s, technical reviews and mentoring. Prepare a design-to-production ownership example. Ask whether senior grade and architecture authority can meet career/package aims including SGD12000/month target, not current salary.
+
+Hours: Core hours, global overlap/DST, production-support/on-call rota and compensation unknown.
+
+Terms: Employment entity, type/duration, leave/benefits, notice/probation and attendance count unknown.
+
+Questions: What senior versus backend grade and project/architecture authority? SG guaranteed base, period, separate variable/equity and Meena target fit? Employment type and sponsorship? Mandarin working expectations? Exact office days, core hours/on-call, notice/leave and team size?
+
+Verification: 19 October 2026: complete official description, in-office arrangement and named applicant fields including resume, work-pass status, Mandarin proficiency and separate base/OTE expectations visible with Send. No submission tested. Success/already-applied strings appear as static page template states and are not evidence of any application.
+
+Deduplication: No Patsnap/employer-equivalent found in154-job ledger, alert history or three runtime/application exports. Mainsoft copy surfaced as related search item only, not a separate opportunity; no duplicate recruiter alert.
+
+### G2i Inc.: Java of Senior Software Engineer, AI Training (coding-agent interaction evaluation)
+
+[Direct application](https://jobs.ashbyhq.com/g2i/3b5a7ce9-e4a1-4ad8-8c2f-ccc0199f5792)
+
+Priority: 2. Potential supplemental-income candidate assessment, conditional on location-specific rate and funded seat. Engineering-evaluation specialization, not established salary replacement or income upgrade.
+
+Location/type: Remote project contract, flexible10-20hours/week advertised. SG/India eligibility not confirmed. Contract, project-based; qualification and project open seat required. Current funded seat unconfirmed, not immediate guaranteed work.
+
+Eligibility: Promising eligibility-unconfirmed lead. Description says worldwide, but Built In labels USA. Direct ATS description unreadable. If actual intake is US-only, this is a hard blocker from Singapore/India; do not present as confirmed eligible.
+
+Pay: Exact-req matching description publishes $100-$200/hour depending on experience and location. Currency explicitly unstated in accessible current text; SG/India rate and acceptance not established. No employer-verified local band.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD annual calculation or uplift claimed.
+
+Fit: Evaluate Codex/ClaudeCode/Cursor interactions, engineering judgment and explanation usefulness, with written and recorded feedback. Not production ML or traditional feature engineering. Strong TypeScript/JavaScript or Python required despite Java-branded title; senior-equivalent judgment and EnglishB2+ expected.
+
+Prepare: Demonstrate calibrated evaluation, clear English reasoning and genuine coding-agent workflow experience. Clarify language stream because Java title still requests TS/JS/Python. Prepare original feedback and recorded explanation; do not imply production ML/agent-building from assistant use.
+
+Resume: Use Meena lead/full-stack resume. Highlight Angular/TypeScript, code/design reviews, quality gates, mentoring and verifiable engineering tradeoffs. Establish actual Codex/ClaudeCode/Cursor use separately from ClaudeAPI/SpringAI prototypes. Prepare original written and spoken evaluation evidence, not claims of production ML work.
+
+Hours: Flexible10-20hours/week advertised; exact live overlap/DST, minimum paid hours, accepted work volume and recording requirements to establish. No guaranteed weekly volume.
+
+Terms: Projects about2weeks to severalmonths per matching description; start depends on take-home and open seat. Recorded Loom walkthrough required. Paid/unpaid assessment, leave, renewal/cancellation/notice, invoice/payment timing/currency/FX costs, equipment and expenses unknown. No annualization; contract revenue is not employee salary.
+
+Questions: Is exact Java intake actively staffing a funded seat or only bench? Worldwide versus USA restriction: are SG and India accepted, under which entity? Currency and location-specific rate, guaranteed/paid accepted hours, overlap/DST, assessment paid/independent-work policy, recording/privacy, payment cadence, fees, leave/cancellation/notice? Does Java-title track truly accept Java plus TypeScript without specialist Python?
+
+Verification: 19 October 2026: official G2i Ashby current board search lists Java-title remote Contract; exact req indexed. Exact req direct open inaccessible; generic equivalent only JS shell, so live form not verified. Employbl explicitly links exact3b5req and mirrors worldwide/rate/project-seat terms; Built In shows contradictory USA metadata. Older evaluator listing removed14Aug2026 and mentions filled bench, so new funded availability not assumed.
+
+Deduplication: Compared154jobs/history and3runtime exports. Consolidates generic/JavaScript/TypeScript/Go AI-evaluator title streams with substantially same duties; not5new opportunities. RecruitmentRoom earlier task-writing/verifier coding role differs from G2i interaction-judgment/recorded-feedback workflow and rate/process; end client undisclosed, so underlying client overlap still to establish.
