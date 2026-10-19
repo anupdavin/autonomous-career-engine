@@ -766,7 +766,7 @@ Verification: 19October2026: officialexactrole remains indexed withmatchingbody;
 
 ### Lead Platform Engineer, Flink
 
-[Official role](https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/). OneoverlappingFlinkplatformtrack. Priority2. Alertpendingactualdelivery; noapplications/contacts.
+[Official role](https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/). OneoverlappingFlinkplatformtrack. Priority2. Alert delivered in prior ChatGPT final, reconciled 19 October 2026; no applications/contacts.
 
 Location/type: Grab One North, Singapore. Onsite explicitly in exactrole. Exactweeklydaycount notstated, do not substitute5days fromclosedFundsCore role or globalFlexWork policy. Fulltime; permanent/fixedterm notexplicit.
 
@@ -787,3 +787,95 @@ Hours/terms: OnsiteOneNorth, uptime/performanceandproductionoperations/incidentr
 Questions: Are744000155936241and744000147172280 onefundedopening andwhichactiveapplyURL? Singaporepasssupport, exactonsitedays/corehours/oncall/crossregionalcoverage/pay/timeoff? Guaranteedbase/periodandseparatebonus/equity,leadgrade/ICvspeopleleadscope? Flexibilityon5yearsleadingteams/projects, howmuchFlink/SparkproductionhistorymandatoryversusKafkaStreamstransfer? Platformownershipmentoringexpectations, reliability/capacity/oncallload, careerprogression?
 
 Verification: 19October2026: both officialGrabdescriptions accessible withApplyNow; newer744000155936241 apply redirect reaches SmartRecruitersoneclick shell showingexacttitle/GrabOneNorth, requiresJavaScript. NoCV/contactformreadable, live submissionworkflow unverified. OlderLinkedIn4436549174 saysnolongeraccepting, consolidatedasoldcopy notnewvacancy; doesnotestablishclosureofnewerprimaryreq. Confirmfundedintake beforeextensiveprep. Noapplicationorcontact.
+
+## New leads checked 19 October 2026: JPMorgan and OGP
+
+Prepared for alert; delivery pending actual ChatGPT final. No applications or contacts.
+
+### JPMorgan Chase: Lead Software Engineer, Java
+
+[Direct application](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210786862). Priority 1. One@Changi, Singapore; Singapore office address confirmed; hybrid cadence not stated. No overseas remote advertised. Full time per official ATS
+
+Posted: 10 September 2026, 03:13 AM on official ATS; timezone unstated.
+
+Pay: No salary amount, currency or period published on exact employer role. Bonus/equity unknown. Third-party estimates excluded. No established applicable numeric pay; no annual SGD cash calculation or package uplift claimed.
+
+Eligibility: Singapore work location supported; personal authorization/sponsorship unknown. No relocation or India remote assumed.
+
+Fit and upside: Java/Spring lead in Asset and Wealth Management; secure production systems, operational stability, cloud-native delivery, responsible AI-assisted coding/review/testing and team validation standards. AWS ECS/S3/Lambda and Terraform preferred. No ML research requirement. Career-growth candidate assessment: hands-on banking technical leadership and accountable AI-assisted engineering. Compensation to establish.
+
+Resume: Senior Java/backend and secure financial integrations; verified AI-assisted engineering. Use Anup Java/backend resume. Lead with Great Eastern payments, Spring Security/OAuth2/mTLS, cloud/container delivery and operational troubleshooting. Add a truthful Cursor/Copilot/Claude Code/Codex example with context boundaries, tests, code review and rejected outputs; establish actual mentoring/adoption scope.
+
+Preparation: Establish examples of leading approved AI-tool adoption and coaching, safe handling of sensitive inputs, security/performance/correctness validation; do not turn individual AI tool use into invented organization-wide rollout. Prepare AWS/Terraform specifics and financial-systems architecture.
+
+Hours and terms: Core hours, cross-regional overlap, on-call rotation and compensation/time off unknown. Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.
+
+Clarify: Is 210786862 funded/open and live form available? Guaranteed Singapore base/period and bonus/equity split? Pass sponsorship, office cadence, core hours/on-call and grade/IC versus people leadership? Expected prior team-wide AI adoption ownership?
+
+Verification: 19 October 2026: exact official ATS indexed full description with Apply Now and matching ID. Direct open rendered blank JavaScript shell; application form not verified. Matching Muse full description and full-time metadata corroborate. No application or contact.
+
+### Open Government Products: Senior Software Engineer, Payment Products
+
+[Direct application](https://careers.open.gov.sg/o/senior-software-engineer-payment-products). Priority 1. Singapore, Central Singapore; Hybrid explicitly; office cadence unknown. Not overseas remote. Senior/lead employee opening; full-time schedule and permanent/fixed-term duration not explicitly stated on exact page.
+
+Posted: Not published on exact employer role; third-party first-seen/refresh is not original posting date.
+
+Pay: No salary amount, currency or period published on exact employer role. Bonus/equity unknown. Third-party estimates excluded. No established applicable numeric pay; no annual SGD cash calculation or package uplift claimed.
+
+Eligibility: Singapore hybrid location confirmed. Form offers Citizen, PR and Neither; this is not proof of pass sponsorship or absence of project-specific citizenship/clearance conditions. Personal authorization unknown.
+
+Fit and upside: Secure national-scale PaySG/RedeemSG/distribution products with frontend/backend/infrastructure ownership, architecture, mentoring, TypeScript/React/cloud, IaC/CI/CD/observability. Java and payments background beneficial; controlled AI-assisted development explicit. Career-growth candidate assessment: direct national payments product ownership. Compensation to establish.
+
+Resume: Payments and secure Java/full-stack delivery. Use Anup Java/full-stack resume. Connect Great Eastern payments, Spring Security/OAuth2/mTLS, TypeScript/Angular, Kafka/cloud and observability to secure payments. Prepare React and one verified architecture/reliability example; show AI-output review and tests.
+
+Preparation: Prepare React transfer from Angular, high-traffic payment reliability, failure handling/security, architecture trade-offs and mentoring examples. Establish actual traffic/scale outcomes without invented metrics. Role invites applicants without every qualification.
+
+Hours and terms: Core hours, cross-regional overlap, on-call rotation and compensation/time off unknown. Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.
+
+Clarify: Sponsorship/non-citizen eligibility and any project clearance restrictions? Guaranteed base/period, grade, bonus/benefits and permanent/fixed term? Hybrid days, core hours/on-call, actual Java versus TypeScript/React scope and product ownership?
+
+Verification: 19 October 2026: official current board and exact role description live; readable application form includes CV, portfolio, citizenship status, motivation and Send. Static success/already-applied template text is not evidence of submission. No form filled/submitted or employer contacted.
+
+### Open Government Products: Senior/Lead Software Engineer, Applied Experiments
+
+[Direct application](https://careers.open.gov.sg/o/seniorlead-software-engineer-applied-experiments). Priority 2. Singapore, Central Singapore; Hybrid explicitly; office cadence unknown. Not overseas remote. Senior/lead employee opening; full-time schedule and permanent/fixed-term duration not explicitly stated on exact page.
+
+Posted: Not published on exact employer role; third-party first-seen/refresh is not original posting date.
+
+Pay: No salary amount, currency or period published on exact employer role. Bonus/equity unknown. Third-party estimates excluded. No established applicable numeric pay; no annual SGD cash calculation or package uplift claimed.
+
+Eligibility: Singapore hybrid location confirmed. Form offers Citizen, PR and Neither; this is not proof of pass sponsorship or absence of project-specific citizenship/clearance conditions. Personal authorization unknown.
+
+Fit and upside: Small teams of 1-2 other engineers/product/design; own ambiguous public problems from user conversation through rapid full-stack experiment, deployment, evidence-based decision and responsible handover. Practical AI/agent use with verification matters; language/degree/ML background explicitly not required. Career-growth candidate assessment: substantial problem/product ownership and applied AI-augmented delivery; more exploratory than a stable Java platform role. Compensation to establish.
+
+Resume: AI-assisted full-stack engineering, verification and pragmatic delivery. Use Anup full-stack/AI-assisted engineering resume. Show actual Cursor/Copilot/Claude Code/Codex context engineering, tests and security review plus shipped Java/Angular work. Add one truthful prototype/demo with its hypothesis, limitations and learning; do not invent user outcomes.
+
+Preparation: Prepare user discovery, smallest testable assumption, experiment success/stop criteria, secure data boundaries and an honest example where AI failed and outputs were checked. Product experimentation stretch, not production ML research.
+
+Hours and terms: Core hours, cross-regional overlap, on-call rotation and compensation/time off unknown. Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.
+
+Clarify: Sponsorship/non-citizen eligibility, employment duration and grade? Guaranteed base/period and separate variable pay? Hybrid/core hours/on-call, experiment runway and handover responsibility? What portfolio demonstrates user discovery and validated AI usage?
+
+Verification: 19 October 2026: official current board and exact role description live; readable application form includes CV, portfolio, citizenship status, motivation and Send. Static success/already-applied template text is not evidence of submission. No form filled/submitted or employer contacted.
+
+### Open Government Products: Lead Software Engineer, attendPA
+
+[Direct application](https://careers.open.gov.sg/o/lead-software-engineer-attendpa). Priority 2. Singapore, Central Singapore; Hybrid explicitly; office cadence unknown. Not overseas remote. Senior/lead employee opening; full-time schedule and permanent/fixed-term duration not explicitly stated on exact page.
+
+Posted: Not published on exact employer role; third-party first-seen/refresh is not original posting date.
+
+Pay: No salary amount, currency or period published on exact employer role. Bonus/equity unknown. Third-party estimates excluded. No established applicable numeric pay; no annual SGD cash calculation or package uplift claimed.
+
+Eligibility: Singapore hybrid location confirmed. Form offers Citizen, PR and Neither; this is not proof of pass sponsorship or absence of project-specific citizenship/clearance conditions. Personal authorization unknown.
+
+Fit and upside: People's Association product modernization; end-to-end architecture, APIs/data/failure modes/operations, mentoring and direct stakeholders up to Director. TypeScript/React/Next.js/Node.js/AWS/Postgres, secure CI/CD/IaC. Products explore LLM and facial-recognition experiences. Career-growth candidate assessment: hands-on multi-product modernization, agency decision influence and relevant AI integration. Stack-transfer stretch; compensation to establish.
+
+Resume: Full-stack modernization and secure API architecture. Use Anup full-stack resume. Emphasize Java/Angular/TypeScript, secure integration, cloud/Kubernetes, SQL and reliability. Present genuine design decisions and leadership examples, prepare Node/React/Next.js implementation and public-sector stakeholder scenarios.
+
+Preparation: Prepare React/Next.js/Node transfer from TypeScript/Angular and Java backend, agency stakeholder negotiation, operational ownership and full-system trade-offs. Establish hands-on breadth and actual senior-stakeholder scope. AI applications adjacent, no ML-research credential inferred.
+
+Hours and terms: Core hours, cross-regional overlap, on-call rotation and compensation/time off unknown. Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.
+
+Clarify: Sponsorship/non-citizen eligibility/project clearance? Guaranteed base/period, grade, bonus and employment duration? Hybrid cadence/core hours/on-call? Expected immediate Node/React depth, IC/team leadership split, LLM scope and privacy/security responsibilities?
+
+Verification: 19 October 2026: official current board and exact role description live; readable application form includes CV, portfolio, citizenship status, motivation and Send. Static success/already-applied template text is not evidence of submission. No form filled/submitted or employer contacted.
