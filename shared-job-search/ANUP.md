@@ -686,7 +686,7 @@ Verification: 19 October 2026 Singapore date: both exact roles present on live o
 
 ### Technical Lead, Retirement Solutions
 
-[Official role](https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22). Priority1. Pending actual alert delivery; no applications or contacts.
+[Official role](https://endowus.careers-page.com/jobs/a5ef8aad-d32e-44c8-a850-5b1531f29b22). Priority1. Alert delivered19October2026, reconciled fromactualfinal/externalhistory; no applications or contacts.
 
 Location/type: Singapore, Singapore. Hybrid, at least3 office days/week explicitly. Not100%remote; India-based engagement not advertised. Full-Time; permanent/fixed-term not established; no B2B arrangement advertised.
 
@@ -709,3 +709,55 @@ Hours/terms: At least3 office days/week; corehours, timezone collaboration, on-c
 Questions: Is exactrole funded and accepting applications and correctworkingform? Singapore sponsorship? Confirm applicable guaranteedbase/period versus JobstoreSGD7500-12500/month, bonus/equity separate, grade and architectureauthority, peoplemanagementvsIC expectations, Scala/Akka onboarding flexibility and Cassandra depth, retirementvertical scope,3dayoffice policy, corehours/oncall/travel, leave/probation/notice and permanent/fixedterm.
 
 Verification: 19October2026 Singapore date: corporate endowus.com/careers links official Manatal board; board page2 currently lists TechnicalLead. Exact description accessible with ApplyNow. Apply URL opens correcttitle/location but no readable applicant form in extraction, so live submission workflow remains unverified. Matching Jobstore body same retirement/JVM/Scala architecture and3day cadence. No closedmarker seen. No fields entered or application submitted.
+
+## New lead checked19October2026: Seeq
+
+### Backend Software Engineer, Staff/Principal
+
+[Official role](https://apply.workable.com/seeq/j/CD7BA6EE7B/). Priority1. Alert pendingactualdelivery; noapplications/contacts.
+
+Location/type: Remote; official indexed header UnitedStates, employer-attributed HN post discusses other-country local pay. Fullyremote. Singapore/India eligibility unconfirmed, not worldwide-confirmed. Required Pacific-time crossover, exact window/amount unknown. Fulltime, no contractor/B2B mechanism advertised.
+
+Eligibility: Promising eligibility-unconfirmed lead: US header conflicts with broader employer-attributed HN discussion of nonUS hiring/local pay. Must be authorized to work in country of residence; current SG employmentpass is not unrestricted employer-transfer authorization. If US residence/right-to-work mandatory for this req, hard blocker. No relocation presumed.
+
+Posted: Exact official original posting date unavailable. October2026 HN hiring thread carries exactrequisition; mirror refresh22September not employerpostingdate.
+
+Pay: October2026 employer-attributed HN post: $170k-$205k salary range for US-based, plus annual cashbonus and equity; currency code and salaryperiod not explicit in retrievedpost. Matching exactreq Employbl mirror: $187500-220000USD, period/base split not explicit. Conflicting bands retained, not reconciled or assumed guaranteed. Both US-context, not applicable to SG/India; local pay adjusted bycountry and unknown. Bonus/equity separate nonguaranteed upside.
+
+Upside: Career-growth candidate (assessment): staff/principal technicalownership for a data-intensive product. Compensation to establish; US salary is not SG/India income promise. Nighttimeoverlap could materiallyreduceworkingconditions.
+
+Resume: Senior Java/backend distributed systems, databases and modernization with credible staff scope. Use Anupbackend/platform resume. Show actual SQL/EBX data-integrity decisions, APIs/GraphQL, secureintegrations, Kafka, cloud/containerobservability and testedmodernization, with truthful tradeoffs and influence. Prepare time-series/performance/Kotlin/gRPC without inventingproductionexperience or metrics.
+
+Preparation: Staff influence and architecture ownership beyondticketdelivery need concreteevidence. Prepare data-intensive/time-series correctness/performance, database tuning, Kotlin/gRPC and cross-team tradeoffs, pairprogramming/customercommunication. Industrialdomain/Kotlin/gRPC and productionML not inferred. Demonstrate transferable Java engineering and learning.
+
+Hours/terms: Employer-attributed HN requires some crossoverwithPST, not exacthours. For illustration09:00Pacific is00:00nextdaySG underPDT or01:00nextdaySG underPST; India21:30PDT or22:30PST. Confirm whetherPST usedliterally orPacificlocal plus minimumoverlap/oncall. Annualcompanymeetups advertised; location/cost/travel unknown. Fulltimeemployee-style lead. UnlimitedPTO, homeofficeallowance, internet/mobile reimbursements and cashbonus/equity advertised; localcountry eligibility unknown. NoB2B/rate/guaranteedbilling advertised. Establish localbase/currency/period, leave, notice, benefits, employmentmechanism and meetuptravel.
+
+Questions: IsCD7BA6EE7B funded/open with workingapplicationURL? Can SG/India residentsjoinwithoutrelocation, whichentity/EOR and authorization? IsUSheader restrictive? Applicable localguaranteedbase/currency/period and locationadjustment, resolveHN$170-205k versusmirrorUSD187500-220000USbands, bonus/equity separate, stafflevelauthority, exactPacificoverlap/nightload/oncall, annualmeetups, PTO/benefits/notice.
+
+Verification: 19October2026: exact officialrole/application URLs reopened, both returned zero readablecontent, no submission controls verified. Official searchindex current fulltime/remote description; primary OctoberHN hiringpost explicitly links exactCD7BA6EE7B. Matching Employbl fullbody accessible. Older LinkedIn4409476062 redirects expired; not used as activeintake proof. Currentliveform/fundedintake not fullyverified.
+
+## New lead checked19October2026: Decathlon Singapore
+
+### Backend Software Engineer, Java / Spring Boot
+
+[Official role](https://apply.workable.com/decathlon-sg/j/F21200EA27/). Priority2. Alert pendingactualdelivery; noapplications/contacts.
+
+Location/type: Singapore. Singapore location confirmed, office/hybrid cadence not stated. Crossborderremote not advertised. Fulltime per employer-attributed LinkedIn; permanent/fixedterm unknown.
+
+Eligibility: Singapore location supported, personalworkrights/sponsorship unknown. No countryremote or relocation assumed.
+
+Posted: Employer-attributed LinkedIn says2daysago atcheck; exactoriginaldate unavailable, not treatedasnewreqfromrefresh.
+
+Pay: Base amount/currency/period unpublished. Salary accordingtoexperience. Monthlybonus basedonsalesperformance upto10%, baseofpercentage unspecified; annualcountryperformanceprofitsharing and shareholderopportunity, amounts/conditionsunknown. Allvariableupside separatedfromguaranteedbase.
+
+Upside: Career-growth candidate only ifgrade/ownership/package justify move: directAPACcommerce productdelivery with security/reliability/architecture decisions. Compensation to establish; Meena lowerpriorityunlesslead-equivalent scopeandpay. Noassumedfinancialimprovement.
+
+Resume: Senior Java/backend, secure APIs and reliable distributed delivery. Use AnupJava/backend resume. Highlight actualSpring/Security/OAuth2, REST, SQL, Kafka, Kubernetes/CI/CD andobservability decisions. Connect verified delivery andperformance/resiliencedebugging toAPACcommerce; prepare truthfulADRexample. Screen gradeandpaybeforeextensivetestwork.
+
+Preparation: Advertised3+years withAssociate metadata: establish senior/leadgrade and ownershipappropriate8+/9+years, not automaticexclusion. Ecommerce advantage notmandatory. Prepare transactional/APIidempotency, asynchronousfailures, highavailability, ADRtradeoffs and operationalownership; do notinventretaildomainexperience.
+
+Hours/terms: APACcommerceoperations stated; corehours, oncall/weekend/salespeak support, compensation/timeoff, exactofficecadence andtravelunknown. Fulltimelead; guaranteedbase, benefits/leave/notice/probation andpermanent/fixedtermunknown. Variablemonthlybonusupto10% andannualprofitsharing notguaranteed; ascertain roleeligibility andcalculationbasis.
+
+Questions: IsF21200EA27 open/funded andcorrectapplyURL? Senior/leadgrade flexibility beyondAssociate3+years? GuaranteedSGbase/period, monthlybonus10%basis andconditions, profitshare/equity separate, sponsorship, officecadence, APACcorehours/oncall/peakweekends, designauthority, domainownership andgrowthroute?
+
+Verification: 19October2026: officialexactrole remains indexed withmatchingbody; directrole URL inaccessibleviabrowsingtool andapplyURLreturned no readablecontent. Employer-attributed LinkedIn4479332247 fulldescription accessible withApply andnoclosedmarker. Live officialform unverified; askfundedintake/correctapplicationroute.
