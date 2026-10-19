@@ -8963,9 +8963,10 @@
       "authorization_sponsorship": "Personal Singapore work rights and employer sponsorship unknown. No existing pass portability assumed.",
       "terms": "Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT final; no delivery event recorded before actual delivery."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification, application or approval inferred."
       },
       "bonus": "Not quantified",
       "equity": "Not quantified",
@@ -9021,9 +9022,10 @@
       "authorization_sponsorship": "Personal Singapore work rights and employer sponsorship unknown. No existing pass portability assumed.",
       "terms": "Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT final; no delivery event recorded before actual delivery."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification, application or approval inferred."
       },
       "bonus": "Not quantified",
       "equity": "Not quantified",
@@ -9089,9 +9091,10 @@
       "authorization_sponsorship": "Personal Singapore work rights and employer sponsorship unknown. No existing pass portability assumed.",
       "terms": "Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT final; no delivery event recorded before actual delivery."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification, application or approval inferred."
       },
       "bonus": "Not quantified",
       "equity": "Not quantified",
@@ -9154,9 +9157,10 @@
       "authorization_sponsorship": "Personal Singapore work rights and employer sponsorship unknown. No existing pass portability assumed.",
       "terms": "Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT final; no delivery event recorded before actual delivery."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification, application or approval inferred."
       },
       "bonus": "Not quantified",
       "equity": "Not quantified",
