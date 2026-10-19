@@ -8354,9 +8354,10 @@
       "equity": "Not published",
       "compensation_geography": "Global versus location-adjusted pay policy and SG-versus-India terms unknown; foreign clients do not establish foreign-currency compensation.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; not yet recorded delivered."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and supplied external-work history establish delivery; exact timestamp unknown. Reconciliation is not fresh job verification."
       },
       "deduplication_note": "Compared latest146-job main ledger/report history plus three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.",
       "job_id": "endlabs-java-backend-careers",
@@ -8410,9 +8411,10 @@
       "equity": "Not published",
       "compensation_geography": "Global versus location-adjusted pay policy and SG-versus-India terms unknown; foreign clients do not establish foreign-currency compensation.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; not yet recorded delivered."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and supplied external-work history establish delivery; exact timestamp unknown. Reconciliation is not fresh job verification."
       },
       "deduplication_note": "Compared latest146-job main ledger/report history plus three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.",
       "job_id": "ninjaone-lead-deployment-platform-ovctafwk",
@@ -8454,6 +8456,56 @@
           "priority_tier": 2,
           "resume_emphasis": "Hands-on cloud/platform lead and DevSecOps delivery automation",
           "tailoring": "Use Meena lead/cloud-native resume. Foreground Terraform, ArgoCD/Jenkins/GHA, AWS ECS/EKS, K8s/Helm/Istio, observability and mentoring. Show verified release-risk/rollback decisions and reusable delivery automation. Establish specialist platform tenure/scripting/CircleCI andUScoverage feasibility; no inventedDORAmetrics.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "canonical-security-5146620-1086",
+      "employer": "Canonical",
+      "title": "Security Software Engineer",
+      "requisition": "1086; public job ID5146620",
+      "url": "https://canonical.com/careers/5146620/security-software-engineer-remote",
+      "canonical_url": "https://canonical.com/careers/5146620/security-software-engineer-remote",
+      "url_aliases": [],
+      "import_source": "Official current role description and visible application fields checked19October2026",
+      "last_checked": "2026-10-19",
+      "location": "Home based, Worldwide",
+      "arrangement": "Globally remote, explicit worldwide policy; country-specific hiring entity and personal work authorization unconfirmed",
+      "eligibility": "Worldwide location policy supports SG/India discovery. Actual local employment/entity or B2B arrangement and personal authorization/sponsorship remain unknown. No region-only blocker advertised; no relocation assumed.",
+      "engagement_type": "Employment-style role; full-time hours and permanent/fixed-term duration not explicitly established in retrieved description. Do not assume worldwide B2B.",
+      "published_compensation": "No numeric salary published. Geographical location, experience and performance shape compensation. Applicable SG and India base/currency/period unknown; performance-driven annual bonus separate and unquantified. USD2000/year learning budget is a benefit, not salary.",
+      "sgd_comparison": "No applicable guaranteed salary amount/period established; no SGD cash conversion or income uplift claimed.",
+      "compensation_geography": "Explicit geographically influenced compensation worldwide; SG-versus-India packages must be established.",
+      "bonus": "Performance-driven annual bonus; not guaranteed base",
+      "equity": "Not published",
+      "posted": "Original posting date unavailable",
+      "authorization_sponsorship": "Personal country work authorization and employer sponsorship/hiring entity unknown. Worldwide remote policy is not permission for outside work on an existing employer's pass.",
+      "hours_on_call": "Core timezone overlap, on-call rota and compensation unknown. Mandatory international travel at least twice annually, typically one week per trip. Broader company introduction mentions2-4meetings/year; confirm exact team travel.",
+      "terms": "Employee-style annual leave and local benefits mentioned; exact duration, weekly hours, entity, paid-leave allowance, notice/probation and travel/visa expense terms unknown. No contractor rate advertised.",
+      "fit": "Security-focused software engineering across product teams: secure feature development, vulnerability remediation, source-code audit, threat modeling, architecture reviews, security-tool/pipeline integration, Linux hardening and engineering guidance. Java and TypeScript explicitly accepted among languages. Secure API/DevSecOps experience transferable; substantial product/open-source security specialization.",
+      "preparation": "Establish security-champion and secure-SDLC evidence, common vulnerability remediation, Linux/Ubuntu operations and actual open-source participation. Prepare threat-model, SAST/fuzzing and remediation examples without inventing production security-specialist tenure, upstream contributions or certifications. Kernel, OVAL, OpenSSL/Libgcrypt and FIPS/CommonCriteria are optional preparation, not automatic exclusions. Academic evidence requested.",
+      "upside": "Career-growth candidate assessment: meaningful product-security ownership and open-source influence. Specialist stretch; seniority/team placement and compensation to establish before lengthy assessment.",
+      "questions": "Team/product and senior/lead grade? SG and India hiring entity, work rights/sponsorship, employment versus B2B, applicable base/currency/period and variable? Security-champion/open-source depth flexibility? Exact hours/on-call, travel frequency/countries/visa-cost support, leave/notice? Application must remain independently written under explicit no-AI-content rule.",
+      "verification": "19October2026: official complete description and named application fields visible, no closed marker. Worldwide location and req1086 displayed. Form not submitted. Application agreement explicitly disqualifies AI/generated content; do not prepare submission-ready responses or resume/cover text for this application.",
+      "application_content_rule": "Applicants agree to use only their own words; plagiarism and AI/other generated content disqualify. Provide role analysis/preparation guidance only, not generated application text.",
+      "deduplication_note": "Compared latest148-job ledger/history and three available runtime/application exports. Runtime Canonical records concern CloudSolutionsArchitect5915936/PublicCloud7490812/Kafka5218601/Sales4126502, not this security req. Generic Canonical default USD/B2B claims and unverified draft productionAI/location assertions not reused. Full historical coverage not claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for new ChatGPT alert; not yet delivered."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/security and platform modernization evidence; independently authored application only",
+          "tailoring": "Review own evidence for SpringSecurity/OAuth2/mTLS, secure APIs, K8s/container hardening, observability and verified vulnerability/tooling decisions. Prepare a security design/remediation discussion and Linux/open-source evidence. Candidate must independently author any application/resume/cover responses; do not generate application wording under employer rule.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/DevSecOps and secure cloud delivery evidence; independently authored application only",
+          "tailoring": "Review own evidence for DevSecOps, Terraform/GitOps, AWS/K8s/Istio, reviews and mentoring, identifying genuine security-champion decisions. Establish vulnerability response/Linux/open-source depth and team scope/package. Candidate must independently author application content; no invented security certifications or productionAI claims.",
           "application_status": "Not applied or approved"
         }
       }

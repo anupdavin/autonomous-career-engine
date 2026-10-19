@@ -1014,7 +1014,7 @@ Deduplication: Compared latest 144-job ledger, report history and three availabl
 
 ## New remote Java and platform leads checked19October2026
 
-Pending ChatGPT delivery; no application or approval inferred.
+Delivered in prior ChatGPT final on19October2026; reconciled from actual conversation. No application or approval inferred.
 
 ### EndLabs (formerly Gugli per employer LinkedIn): Java Backend Engineer
 
@@ -1079,3 +1079,43 @@ Questions: India role allows remote outsideBangalore? Existing working-rights in
 Verification: 19October2026: both exact descriptions linked from employer current open-opportunities board. India Apply opens correct Jobvite route but only Data Consent country/language shell, so complete form/intake verification incomplete. No closed marker. SG no-sponsorship statement and India no-sponsorship preserved.
 
 Deduplication: Compared latest146-job main ledger/report history plus three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.
+
+## Canonical security engineering lead checked19October2026
+
+Pending ChatGPT delivery. No application or approval inferred.
+
+[Security Software Engineer](https://canonical.com/careers/5146620/security-software-engineer-remote) | Requisition1086
+
+Career-growth candidate assessment: meaningful product-security ownership and open-source influence. Specialist stretch; seniority/team placement and compensation to establish before lengthy assessment.
+
+Location: Globally remote, explicit worldwide policy; country-specific hiring entity and personal work authorization unconfirmed
+
+Eligibility: Worldwide location policy supports SG/India discovery. Actual local employment/entity or B2B arrangement and personal authorization/sponsorship remain unknown. No region-only blocker advertised; no relocation assumed.
+
+Employment: Employment-style role; full-time hours and permanent/fixed-term duration not explicitly established in retrieved description. Do not assume worldwide B2B.
+
+Pay: No numeric salary published. Geographical location, experience and performance shape compensation. Applicable SG and India base/currency/period unknown; performance-driven annual bonus separate and unquantified. USD2000/year learning budget is a benefit, not salary.
+
+SGD: No applicable guaranteed salary amount/period established; no SGD cash conversion or income uplift claimed.
+
+Fit: Security-focused software engineering across product teams: secure feature development, vulnerability remediation, source-code audit, threat modeling, architecture reviews, security-tool/pipeline integration, Linux hardening and engineering guidance. Java and TypeScript explicitly accepted among languages. Secure API/DevSecOps experience transferable; substantial product/open-source security specialization.
+
+Prepare: Establish security-champion and secure-SDLC evidence, common vulnerability remediation, Linux/Ubuntu operations and actual open-source participation. Prepare threat-model, SAST/fuzzing and remediation examples without inventing production security-specialist tenure, upstream contributions or certifications. Kernel, OVAL, OpenSSL/Libgcrypt and FIPS/CommonCriteria are optional preparation, not automatic exclusions. Academic evidence requested.
+
+Resume emphasis: Hands-on lead/DevSecOps and secure cloud delivery evidence; independently authored application only
+
+Guidance: Review own evidence for DevSecOps, Terraform/GitOps, AWS/K8s/Istio, reviews and mentoring, identifying genuine security-champion decisions. Establish vulnerability response/Linux/open-source depth and team scope/package. Candidate must independently author application content; no invented security certifications or productionAI claims.
+
+Application rule: Applicants agree to use only their own words; plagiarism and AI/other generated content disqualify. Provide role analysis/preparation guidance only, not generated application text.
+
+Hours/travel: Core timezone overlap, on-call rota and compensation unknown. Mandatory international travel at least twice annually, typically one week per trip. Broader company introduction mentions2-4meetings/year; confirm exact team travel.
+
+Authorization: Personal country work authorization and employer sponsorship/hiring entity unknown. Worldwide remote policy is not permission for outside work on an existing employer's pass.
+
+Terms: Employee-style annual leave and local benefits mentioned; exact duration, weekly hours, entity, paid-leave allowance, notice/probation and travel/visa expense terms unknown. No contractor rate advertised.
+
+Questions: Team/product and senior/lead grade? SG and India hiring entity, work rights/sponsorship, employment versus B2B, applicable base/currency/period and variable? Security-champion/open-source depth flexibility? Exact hours/on-call, travel frequency/countries/visa-cost support, leave/notice? Application must remain independently written under explicit no-AI-content rule.
+
+Verification: 19October2026: official complete description and named application fields visible, no closed marker. Worldwide location and req1086 displayed. Form not submitted. Application agreement explicitly disqualifies AI/generated content; do not prepare submission-ready responses or resume/cover text for this application.
+
+Deduplication: Compared latest148-job ledger/history and three available runtime/application exports. Runtime Canonical records concern CloudSolutionsArchitect5915936/PublicCloud7490812/Kafka5218601/Sales4126502, not this security req. Generic Canonical default USD/B2B claims and unverified draft productionAI/location assertions not reused. Full historical coverage not claimed.
