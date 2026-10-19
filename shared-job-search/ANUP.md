@@ -1467,3 +1467,50 @@ Questions: Is application/platform background with Kubernetes automation conside
 Verification: 19October2026: complete official Greenhouse description and named application fields including workingrights/currentbase and Submit readable. Singapore/Australia base, requiredAustraliantravel and afterhours escalation explicit. No closed marker; no submission tested.
 
 Deduplication: No Firmus/employer-equivalent in156jobledger/history or3runtime exports. Distinct platformoperations domain, not recruiter copy or previouslyreported Javaapplication/DevOps track.
+
+## Newly checked 20 October 2026: pending ChatGPT delivery
+
+### Priority 1: Luxoft, undisclosed Asian banking client: Senior Java Full Stack Developer
+
+[Application](https://career.luxoft.com/jobs/senior-java-full-stack-developer-28407)
+
+Location/type: Singapore; onsite/hybrid cadence not stated. Relocation-friendly label does not establish remote work or sponsorship. Not stated; permanent versus fixed-term/agency contract to confirm
+
+Pay: Not published on the exact current role page; no numeric guaranteed base, bonus or equity band established. No published applicable guaranteed annual cash to convert or compare against unknown current packages.
+
+Fit: Enterprise Java/Spring MVC/JPA/Hibernate/Spring Boot, Angular and/or React, TypeScript, REST, SQL, Spring Security/OAuth/OIDC, messaging and production diagnosis. Six-plus relevant years requested; global markets/back-office exposure preferred.
+
+Prepare: Prepare ADFS/OIDC integration and JMS/IBM MQ/RabbitMQ semantics and operational diagnostics. Kafka/Camel and Java financial-platform delivery are transferable, not proof of every named broker or global-markets domain. Establish exact client system and six-years relevance interpretation.
+
+Resume: Use Anup's Java/Angular full-stack resume. Lead with Spring Security/OAuth2/mTLS, REST/SQL, Angular/TypeScript and Great Eastern financial-services delivery. Add a truthful authentication, concurrency or production-fault example with verifiable outcome. Prepare ADFS/OIDC and JMS/MQ without claiming unconfirmed production use.
+
+Hours: Production support included. Core hours, client office cadence and out-of-hours/on-call rota unknown.
+
+Questions: What client, back-office system and ownership distinguish this requisition? Local base/bonus and budget near Meena's SGD 12000/month target? Permanent or agency/fixed-term contract, duration/renewal/notice, office cadence, pass sponsorship and support rota? Is Angular sufficient as explicitly stated?
+
+Verification: 20 October 2026 Singapore: official role description, VR-125579/date and full application fields readable with Apply/Agree and send. No closed marker; no submission performed.
+
+Deduplication: Not in 160 canonical records, history or three runtime exports. Compared existing Luxoft VR-123976 React/Azure role, VR-124976 FX eTrading, VR-125088 trading and VR-125461 structured-products Kotlin. This exact requisition advertises Angular-acceptable enterprise SPA plus ADFS/MQ/back-office scope, not a renamed exact req. End-client/system identity remains unconfirmed; consolidate if recruiter confirms the same project.
+
+### Priority 2: Vanguard Software Pte Ltd: Senior Backend Engineer (JAVA / GO), overlapping Senior/Lead/Expert track
+
+[Application](https://sg.linkedin.com/jobs/view/senior-backend-engineer-java-go-at-vanguard-software-4460247648)
+
+Location/type: Singapore. Jobstreet search result labels employer role hybrid; exact employer LinkedIn description does not confirm attendance cadence. No SG/India work-from-anywhere claim. Full-time; permanent/fixed-term status to establish
+
+Pay: Not published on the exact current role page; no numeric guaranteed base, bonus or equity band established. No published applicable guaranteed annual cash to convert or compare against unknown current packages.
+
+Fit: Five-plus backend engineering experience, Java OR Go, Spring Boot/WebFlux/Kafka/Redis/SQL/NoSQL. Independent design-to-production responsibility, performance/security/observability, refactoring, process improvement and junior mentoring.
+
+Prepare: Prepare reactive WebFlux/backpressure, performance and modular system-design examples. Java is an explicit alternative to Go, not a mandatory Go conversion. Establish NoSQL/WebFlux depth and exact client domain. Older closed lead copy says Mandarin highly desirable; current senior copy omits it, so clarify client language needs rather than assume a hard blocker.
+
+Resume: Use Anup's Java backend resume. Foreground Spring Boot, Kafka, SQL, security/observability and independent design/debugging. Prepare a genuine scaling or reliability trade-off and a code-quality/mentorship example. Position Angular as useful collaboration context, not the focus.
+
+Hours: Core hours, on-call and overseas client overlap unknown.
+
+Questions: Applicable SG guaranteed base and separate bonus/equity, Meena target alignment, senior versus lead grade/authority, direct employer or client assignment/project identity, hybrid cadence, sponsorship, Mandarin client interaction, on-call/overlap and benefits/notice?
+
+Verification: 20 October 2026 Singapore: employer LinkedIn exact 4460247648 full description and Apply controls readable, full-time SG, no closed marker. Signed-in downstream application destination not tested. Older 4213311571 lead copy explicitly closed; not a separate current opening.
+
+Deduplication: No Vanguard Software in 160 shared records/history or three runtime exports. Consolidates same employer's Senior/Lead/Expert title variants and substantially identical description as one track, not multiple openings. Vanguard Software Singapore is not Vanguard investment company's US Workday role.
+
