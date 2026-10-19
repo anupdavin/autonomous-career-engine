@@ -9800,9 +9800,10 @@
       "checked_at": "2026-10-19T21:28:06Z",
       "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and external-work handoff confirm delivery; no application inferred."
       },
       "bonus": "Not published; any variable compensation separate from guaranteed cash",
       "equity": "Not published",
@@ -9862,9 +9863,10 @@
       "checked_at": "2026-10-19T21:28:06Z",
       "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and external-work handoff confirm delivery; no application inferred."
       },
       "bonus": "Employer says total compensation may include bonuses and commissions depending on role; not guaranteed base",
       "equity": "May include equity depending on role; amount/vesting unknown",
@@ -9921,9 +9923,10 @@
       "checked_at": "2026-10-19T21:28:06Z",
       "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and external-work handoff confirm delivery; no application inferred."
       },
       "bonus": "Not published; any variable compensation separate from guaranteed cash",
       "equity": "Not published",
@@ -9980,6 +9983,135 @@
         }
       },
       "canonical_url": "https://jobs.ashbyhq.com/factory/a70c27d6-74a1-4856-8f57-3b9dae625789"
+    },
+    {
+      "import_source": "New public-web discovery; 172 shared jobs/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T22:23:08Z",
+      "posted": "Original employer posting date unavailable; relative repost dates not treated as original.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert, delivery not asserted before actual final."
+      },
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "straive-java-lead-4476574113",
+      "employer": "Straive (SPi Global)",
+      "title": "Senior Java Software Engineer, overlapping Singapore senior/lead track",
+      "requisition": "Employer LinkedIn 4476574113; formal requisition/end client unknown",
+      "url": "https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4476574113",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4474717709",
+        "https://sg.linkedin.com/jobs/view/sr-java-developer-at-straive-4476146430"
+      ],
+      "location": "Central Region, Singapore",
+      "arrangement": "Singapore work location; onsite/hybrid office cadence and remote entitlement not stated. Not advertised India remote.",
+      "engagement_type": "Full time; permanent versus client-linked/fixed term/agency terms unknown",
+      "eligibility": "Singapore work location supported. Personal authorization and work-pass sponsorship unknown. Overlapping 4474717709 explicitly open to Singaporeans, PRs or EP holders; being an EP holder does not itself authorize work for a different employer.",
+      "authorization_sponsorship": "Current primary 4476574113 does not state sponsorship. Related employer post accepts EP holders but this does not establish transfer/new-pass support. Confirm before relying on eligibility.",
+      "published_compensation": "Employer-provided base SGD10000-12000 per month on exact4476574113 and4474717709. No numeric pay on4476146430, so this band is not asserted for a separate data-engineering vacancy.",
+      "compensation_geography": "Explicit applicable Singapore monthly SGD base. India engagement/pay not advertised. Bonus, AWS/13th month, equity and benefits unstated.",
+      "sgd_comparison": "Calculation: SGD120000-144000 base for12 monthly payments at published range, excluding bonus/AWS/equity. Upper endpoint matches Meena's SGD12000/month target, not current salary; lower endpoint below target. No current-package uplift established.",
+      "hours_on_call": "Working hours, global overlap/DST, on-call, incident coverage and pay/TOIL unknown.",
+      "terms": "Employing entity/end client, product versus staff augmentation, office cadence, duration/renewal, paid leave, benefits, notice and probation unknown.",
+      "fit": "Architect enterprise Java/distributed microservices, lead complex delivery, mentor senior engineers, review designs/code, choose tools and improve reliability. Java/Spring/Hibernate, cloud, containers and CI/CD/IaC align.10-12years requested; assess demonstrated scope rather than reject8+/9+. Snowflake a plus. Related data-processing variant emphasizes Java parallelism, SQL tuning, AWS and mandatory finance domain.",
+      "preparation": "Prepare architectural boundaries, concurrency/memory/performance tradeoffs, cloud reliability, SOLID and leadership evidence. Establish Hibernate/Snowflake/data-warehouse expectations and client finance domain; unconfirmed tools are preparation points, not assumed incapability. Do not claim10-12years or enterprise-wide staff influence without evidence.",
+      "upside": "Career-growth candidate assessment from design authority and senior-engineer mentoring; compensation transparent enough for early screening. Published upper base reaches Meena target but band alone is not an income upgrade.",
+      "questions": "Is8+/9+experience with demonstrated scope acceptable for10-12year range? IsSGD10-12k base approved for this seat? New EP sponsorship, actual employer/end client, office days, permanent/clientcontract duration, decision authority, Snowflake priority, variable/benefits, hours/on-call and notice?",
+      "verification": "20 October 2026: employer4476574113 complete description/currentApply plus employer-provided monthly SGD band. Related4474717709 currentApply same band/TA contact and Java leadership.4476146430 currentApply data-processing variant, no pay. LinkedIn sign-in needed for application workflow; final submission form not inspected. No application/contact.",
+      "status_at_last_check": "Employer description/current Apply visible; final form unverified",
+      "deduplication_note": "No Straive/SPiGlobal employer/project equivalent in shared ledger or runtime exports. Three Singapore title variants retained conservatively as one overlapping hiring track until recruiter confirms distinct funded client/requisitions. Primary pay only applies named posts, not automatically other variants.",
+      "source_evidence": [
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4476574113",
+          "checked_at": "2026-10-19T22:23:08Z",
+          "observation": "Employer currentApply, Singapore fulltime,10-12years leadership JavaSpringCloud, Snowflakeplus,SGD10000-12000/monthbase."
+        },
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4474717709",
+          "checked_at": "2026-10-19T22:23:08Z",
+          "observation": "Related employer post same monthlypay,10+yearsJava microserviceslead, Singaporean/PR/EP holder wording."
+        },
+        {
+          "url": "https://sg.linkedin.com/jobs/view/sr-java-developer-at-straive-4476146430",
+          "checked_at": "2026-10-19T22:23:08Z",
+          "observation": "Data-processing/performance/SQL/AWS financevariant fulltime currentApply; no numericpay, consolidated pending client/req clarity."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java backend/payments/platform leadership",
+          "tailoring": "Use Anup's Java backend/payments resume. Highlight secure financial integrations, Spring, SQL Server/PostgreSQL, cloud/container modernization and genuine design/review/mentoring outcomes. Prepare one real concurrency/performance incident and an architectural tradeoff. State8+years accurately; establish Snowflake and scope without invented metrics.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java/backend/cloud technical lead",
+          "tailoring": "Use Meena's lead/backend/cloud resume. Foreground Java21/SpringBoot3, Kafka, AWS/EKS, IaC/GitOps, design/code reviews and mentoring. Show a real modernization/reliability decision and cross-team delivery outcome. State9+years accurately and screen upper-band availability against target.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4476574113"
+    },
+    {
+      "import_source": "New public-web discovery; 172 shared jobs/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T22:23:08Z",
+      "posted": "Original employer posting date unavailable; relative repost dates not treated as original.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert, delivery not asserted before actual final."
+      },
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "askable-ai-coding-tasks-experts",
+      "employer": "Askable Labs, division of Askable Pty Limited",
+      "title": "Software Engineer, AI Coding Tasks",
+      "requisition": "Employer expert intake; no numeric req published",
+      "url": "https://www.askable.com/experts/roles/senior-software-engineer",
+      "url_aliases": [],
+      "location": "Remote, any location",
+      "arrangement": "Fully remote from any location explicitly advertised. SG/India legal contracting/payment and personal permission to freelance remain toconfirm.",
+      "engagement_type": "Contract, per accepted task; at least10hours/week availability",
+      "eligibility": "Employer explicitly any-location remote; no country-only rule stated. SG/India contracting/payment/KYC eligibility, local work authorization and compatibility with current employment unknown. Do not assume Singapore employment pass allows outside paid work.",
+      "authorization_sponsorship": "No sponsorship promised; independent paid engagement permissions must be established before accepting work. Employer consent/current-employment conflict and IP obligations need checking.",
+      "published_compensation": "US$1000 for each task that passes quality review, paid directly by Askable. Per accepted task, not per hour. Rejected/revision work and technical-task compensation not stated.",
+      "compensation_geography": "Exact primary page uses same US$1000 per accepted task and any-location wording; no published country adjustment. Confirm SG/India payout mechanism, fees/FX and contractual applicability.",
+      "sgd_comparison": "Piecework has no guaranteed annual cash or acceptance volume, so no annualized SGD salary/revenue or hourly rate asserted.10hours/week availability is not guaranteed billable hours and does not implyUS$100/hour.",
+      "hours_on_call": "At least10hours/week starting now. No stated core hours/timezone/DST/oncall; technical selection task about1hour. Actual task/revision duration varies and most tasks have multiple review rounds.",
+      "terms": "Contract signed after passing technical task. Each task must pass quality review forUS$1000. Payment schedule, acceptance rubric/review SLA, revision cap, rejection/appeal rights, cancellation/notice, funded allocation/volume, leave/benefits, equipment/FX expenses and paidassessment unknown.",
+      "fit": "Build model-challenging but fair coding tasks from a known codebase: offline reproducible repo, brief, correct solution, tests/build commands/pass-fail rubric, shortcut/adversarial checks and alternate-correct-solution validation. Java/TypeScript accepted;2+years, Docker/Linux/Git/testing, regular coding-agent use. Own/public OSS contribution required; no production MLresearch credential required.",
+      "preparation": "Establish actual merged OSS contribution or wholly personally-owned private code and licensing rights. Employer/client code explicitly ineligible. Own change/solution and clear writing required; do not use NUS/LTA/customer source. Regular coding-agent practice confirmed Anup; establish separately forMeena rather than equate integrationprototypes. Prepare deterministic tests and offline environment.",
+      "upside": "Conditional supplemental-income candidate with explicit per-accepted-task pay and career relevance to AI verification/evaluation. Not salary replacement, guaranteed projects, hourlypay or established current-income uplift.",
+      "questions": "Can SG/India residents legally contract and receive payout? What is paid during selection/revisions/rejection, acceptance rubric and review SLA/appeal, revision limits and IPlicense terms, fundedtask allocation, payment schedule/fees/currency, cancellation/notice, timezones and total effort peracceptedtask?",
+      "verification": "20 October 2026: complete current official role and name/email/phone/consent/Apply initial form visible. Subsequent screener/technical platform not entered. Employer explicit remoteanylocation,US$1000acceptedtask,minimum10hours/week,variablemultirevieweffortandIPrestrictions. Original employer postdate unavailable; mirrors17-18Octnotprimarydate.",
+      "status_at_last_check": "Official description and initial Apply form live; downstream qualification unverified",
+      "deduplication_note": "No Askable req/project equivalent in172sharedjobs/history or3runtimeexports. RecruitmentRoom hourly codingtask-verifier contract and G2i hourly recordedcoding-agent interaction evaluations differ in supplier, deliverable and payment mechanism; no evidence same funded client/project. All Askable mirrors consolidated here, not separate listings.",
+      "source_evidence": [
+        {
+          "url": "https://www.askable.com/experts/roles/senior-software-engineer",
+          "checked_at": "2026-10-19T22:23:08Z",
+          "observation": "Any-locationremote,US$1000peracceptedtask nothourly,minimum10hours/week,variableeffort/multiroundreview,own/OSSrepo notemployerclientcode,licensingrequired,nopublicfork/PR,initialformlive."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "AI-assisted Java/full-stack engineering and verification",
+          "tailoring": "Use Anup's AI-assisted Java/full-stack resume. Emphasize actual Cursor/Copilot/ClaudeCode/Codex use, context engineering, debugging and output verification. Present a personally-owned or eligible OSS Java/TypeScript change with deterministic tests; never offer employer/client code or imply MLresearch.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java/TypeScript technical quality and evaluation",
+          "tailoring": "Use Meena's lead/full-stack resume. Highlight genuine code reviews, testing, failure cases and Java/Angular/TypeScript judgment. Establish regular coding-agent tool usage separately from SpringAI/RAG/MCP prototypes. Identify eligible personal/OSS code and explain grading criteria in her own words.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://www.askable.com/experts/roles/senior-software-engineer"
     }
   ]
 }

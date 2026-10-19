@@ -1681,7 +1681,7 @@ Verification: 20October2026 Singapore: currentofficial careersboard links role; 
 
 Deduplication: No Reap/endclient-equivalent in167sharedrecords/history or3runtimeexports. CurrentReapSecurityIdentity8522053locationlist excludesSGIndia; not mixed withthisSGhybridrole. OlderTechLeadPlatformSGLinkedIn does not establish currenteligibilityfor renamedSecurityIdentityreq.
 
-## Opportunities checked 20 October 2026: pending ChatGPT delivery
+## Opportunities checked 20 October 2026: ChatGPT alert delivered
 
 ### Priority 1: Airwallex: Staff Software Engineer, Growth
 
@@ -1754,3 +1754,53 @@ Questions: Can employees/contractors reside in SG or India, or Australia only? A
 Verification: 20 October 2026: exact official Ashby URL renders JS-only shell; search-indexed official description says Remote APAC/full time. Current employer LinkedIn full description and Apply visible, Sydney geotag; final ATS form unverified. No closed marker on employer LinkedIn, no submission.
 
 Deduplication: No Factory employer/project/req in shared ledger or runtime exports. Mirrors across Australia/APAC are same req, not separate roles.
+
+## New Java leadership and AI-task opportunities: pending ChatGPT delivery
+
+### Priority 1: Straive (SPi Global): Senior Java Software Engineer, overlapping Singapore senior/lead track
+
+[Application](https://sg.linkedin.com/jobs/view/senior-java-software-engineer-at-straive-4476574113)
+
+Location/type: Singapore work location; onsite/hybrid office cadence and remote entitlement not stated. Not advertised India remote. Full time; permanent versus client-linked/fixed term/agency terms unknown
+
+Eligibility: Singapore work location supported. Personal authorization and work-pass sponsorship unknown. Overlapping 4474717709 explicitly open to Singaporeans, PRs or EP holders; being an EP holder does not itself authorize work for a different employer.
+
+Pay: Employer-provided base SGD10000-12000 per month on exact4476574113 and4474717709. No numeric pay on4476146430, so this band is not asserted for a separate data-engineering vacancy. Calculation: SGD120000-144000 base for12 monthly payments at published range, excluding bonus/AWS/equity. Upper endpoint matches Meena's SGD12000/month target, not current salary; lower endpoint below target. No current-package uplift established.
+
+Fit: Architect enterprise Java/distributed microservices, lead complex delivery, mentor senior engineers, review designs/code, choose tools and improve reliability. Java/Spring/Hibernate, cloud, containers and CI/CD/IaC align.10-12years requested; assess demonstrated scope rather than reject8+/9+. Snowflake a plus. Related data-processing variant emphasizes Java parallelism, SQL tuning, AWS and mandatory finance domain.
+
+Prepare: Prepare architectural boundaries, concurrency/memory/performance tradeoffs, cloud reliability, SOLID and leadership evidence. Establish Hibernate/Snowflake/data-warehouse expectations and client finance domain; unconfirmed tools are preparation points, not assumed incapability. Do not claim10-12years or enterprise-wide staff influence without evidence.
+
+Resume: Use Anup's Java backend/payments resume. Highlight secure financial integrations, Spring, SQL Server/PostgreSQL, cloud/container modernization and genuine design/review/mentoring outcomes. Prepare one real concurrency/performance incident and an architectural tradeoff. State8+years accurately; establish Snowflake and scope without invented metrics.
+
+Hours/terms: Working hours, global overlap/DST, on-call, incident coverage and pay/TOIL unknown. Employing entity/end client, product versus staff augmentation, office cadence, duration/renewal, paid leave, benefits, notice and probation unknown.
+
+Questions: Is8+/9+experience with demonstrated scope acceptable for10-12year range? IsSGD10-12k base approved for this seat? New EP sponsorship, actual employer/end client, office days, permanent/clientcontract duration, decision authority, Snowflake priority, variable/benefits, hours/on-call and notice?
+
+Verification: 20 October 2026: employer4476574113 complete description/currentApply plus employer-provided monthly SGD band. Related4474717709 currentApply same band/TA contact and Java leadership.4476146430 currentApply data-processing variant, no pay. LinkedIn sign-in needed for application workflow; final submission form not inspected. No application/contact.
+
+Deduplication: No Straive/SPiGlobal employer/project equivalent in shared ledger or runtime exports. Three Singapore title variants retained conservatively as one overlapping hiring track until recruiter confirms distinct funded client/requisitions. Primary pay only applies named posts, not automatically other variants.
+
+### Priority 2: Askable Labs, division of Askable Pty Limited: Software Engineer, AI Coding Tasks
+
+[Application](https://www.askable.com/experts/roles/senior-software-engineer)
+
+Location/type: Fully remote from any location explicitly advertised. SG/India legal contracting/payment and personal permission to freelance remain toconfirm. Contract, per accepted task; at least10hours/week availability
+
+Eligibility: Employer explicitly any-location remote; no country-only rule stated. SG/India contracting/payment/KYC eligibility, local work authorization and compatibility with current employment unknown. Do not assume Singapore employment pass allows outside paid work.
+
+Pay: US$1000 for each task that passes quality review, paid directly by Askable. Per accepted task, not per hour. Rejected/revision work and technical-task compensation not stated. Piecework has no guaranteed annual cash or acceptance volume, so no annualized SGD salary/revenue or hourly rate asserted.10hours/week availability is not guaranteed billable hours and does not implyUS$100/hour.
+
+Fit: Build model-challenging but fair coding tasks from a known codebase: offline reproducible repo, brief, correct solution, tests/build commands/pass-fail rubric, shortcut/adversarial checks and alternate-correct-solution validation. Java/TypeScript accepted;2+years, Docker/Linux/Git/testing, regular coding-agent use. Own/public OSS contribution required; no production MLresearch credential required.
+
+Prepare: Establish actual merged OSS contribution or wholly personally-owned private code and licensing rights. Employer/client code explicitly ineligible. Own change/solution and clear writing required; do not use NUS/LTA/customer source. Regular coding-agent practice confirmed Anup; establish separately forMeena rather than equate integrationprototypes. Prepare deterministic tests and offline environment.
+
+Resume: Use Anup's AI-assisted Java/full-stack resume. Emphasize actual Cursor/Copilot/ClaudeCode/Codex use, context engineering, debugging and output verification. Present a personally-owned or eligible OSS Java/TypeScript change with deterministic tests; never offer employer/client code or imply MLresearch.
+
+Hours/terms: At least10hours/week starting now. No stated core hours/timezone/DST/oncall; technical selection task about1hour. Actual task/revision duration varies and most tasks have multiple review rounds. Contract signed after passing technical task. Each task must pass quality review forUS$1000. Payment schedule, acceptance rubric/review SLA, revision cap, rejection/appeal rights, cancellation/notice, funded allocation/volume, leave/benefits, equipment/FX expenses and paidassessment unknown.
+
+Questions: Can SG/India residents legally contract and receive payout? What is paid during selection/revisions/rejection, acceptance rubric and review SLA/appeal, revision limits and IPlicense terms, fundedtask allocation, payment schedule/fees/currency, cancellation/notice, timezones and total effort peracceptedtask?
+
+Verification: 20 October 2026: complete current official role and name/email/phone/consent/Apply initial form visible. Subsequent screener/technical platform not entered. Employer explicit remoteanylocation,US$1000acceptedtask,minimum10hours/week,variablemultirevieweffortandIPrestrictions. Original employer postdate unavailable; mirrors17-18Octnotprimarydate.
+
+Deduplication: No Askable req/project equivalent in172sharedjobs/history or3runtimeexports. RecruitmentRoom hourly codingtask-verifier contract and G2i hourly recordedcoding-agent interaction evaluations differ in supplier, deliverable and payment mechanism; no evidence same funded client/project. All Askable mirrors consolidated here, not separate listings.
