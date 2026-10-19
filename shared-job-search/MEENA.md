@@ -1191,3 +1191,91 @@ Application policy: Employer permits AI preparation/material refinement, but pro
 Verification: 19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.
 
 Deduplication: Compared149-job ledger/history and three runtime/application exports. Current CitizenDev a10req re-read: Temporal/selfservice/GitOps platform, not autonomous SRE/DBA agents. Reported StaffAI260req is customer-facing financial agents; reported data-platform d023req is knowledge/data backbone. Distinct operational-agent team responsibilities and req; no recruiter copies or refreshed-title duplicates alerted.
+
+## New review leads checked 19 October 2026
+
+The following are pending delivery, not applications or approvals. Prior Airwallex Org & Identity and AI Infrastructure alerts reconciled as delivered; this does not refresh their source checks.
+
+### Activate Interactive Pte Ltd: Technical Lead (Java, React.js)
+
+[Direct application page](https://apply.workable.com/activate-interactive-pte-ltd/j/DB43FACDCE/)
+
+Priority: 1. Career-growth candidate assessment: hands-on Java architecture, mentoring, full-stack technical delivery and AI-assisted engineering practices. Compensation to establish; prioritize Meena target discussion before lengthy screening.
+
+Location/type: Singapore role; secondary mirror labels in-office. Exact client-site/hybrid attendance not confirmed from primary page. Full-time per secondary mirror; permanent versus fixed-term/client-project duration unconfirmed
+
+Eligibility: Singapore location supported. Personal authorization/sponsorship and any government-project security/citizenship requirements unknown. No remote-from-India claim.
+
+Pay: No numeric employer salary verified for this exact opening. Alion/JobsRadar estimates and PayLine archived midpoint are not a verified applicable employer band and are not used.
+
+SGD: No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.
+
+Fit: Java/Spring Boot APIs, SQL, secure design, architecture/code review, production diagnosis and delivery leadership. Role includes practical ReactJS and 2+ years of technical leadership within 7+ engineering years; public-sector enterprise delivery and AI-assisted workflows valuable.
+
+Prepare: Establish actual React component/state-management/debugging ability and ability to guide frontend engineers, not just Angular familiarity. Establish truthful leadership duration and full-stack review ownership. No certification is inferred.
+
+Resume: Use Meena lead/full-stack resume. Foreground NCS/LTA enterprise delivery, Java21/Spring3, Angular18 state management, design reviews, mentoring, DevSecOps and production diagnosis. Explain transferable frontend architecture while establishing practical React depth. Discuss lead authority and SGD12000/month target, without presenting that as current pay.
+
+Hours/on-call: Core hours, production-support/on-call rota, overtime compensation and timezone/DST expectations unknown.
+
+Terms: Employer versus client deployment, employment duration, benefits, leave, notice and attendance require confirmation.
+
+Verification: 19 October 2026: exact official Workable URL and title returned in current primary search result. Direct opens of role and board returned no readable content; apply/API variants inaccessible. Current description and 8 October date read on JobScroller linking exact Workable req; full-time/office labels from Alion. Form and final open status not fully verified; reconfirm before investing heavily.
+
+Questions: Confirm React/leadership requirements, exact government client scope and restrictions, sponsorship, employment duration, attendance/on-call, and applicable guaranteed base/bonus against target.
+
+### Axra (formerly GoFree): DevOps & Infrastructure Engineer
+
+[Direct application page](https://www.useaxra.com/careers/devops-engineer)
+
+Priority: 2. Career-growth candidate assessment through meaningful ownership at a small fintech; compensation to establish, not proven income growth. Early-stage funding/runway and employment-contract diligence required.
+
+Location/type: Worldwide remote explicitly advertised on exact role and current careers index. Singapore/India employment or B2B onboarding mechanism not established. Full-time; employee/EOR versus contractor mechanism in Singapore/India unconfirmed
+
+Eligibility: Worldwide source location support confirmed. Singapore/India legal hiring mechanism and personal work rights remain unconfirmed; no country-only restriction found.
+
+Pay: GBP 70,000-88,000; salary period not stated. Reviewed every 6 months. Options separate. No numeric bonus. Applicability/location adjustment unknown.
+
+SGD: No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.
+
+Fit: AWS ECS/RDS/ElastiCache/SQS, Terraform, GitHub Actions, observability, security and developer tooling ownership. Requires 4+ years DevOps/SRE/platform role and production-scale Terraform/HA/DR; EKS/fintech preferred.
+
+Prepare: Adjacent specialist platform role, not a general Java position. Establish actual infrastructure ownership and DevOps/platform tenure, Terraform production scale, Linux/network debugging, disaster recovery and compliance-sensitive operations. Java cloud deployment experience alone does not prove 4+ years dedicated SRE.
+
+Resume: Use Meena cloud/platform lead resume. Prioritize AWS ECS/EKS, Terraform, ArgoCD/GitHubActions/Jenkins, Istio/K8s, observability and DevSecOps. Describe real IaC/release ownership and recovery decisions with verified outcomes; establish infrastructure scale and 4+ dedicated DevOps/platform years rather than assume them.
+
+Hours/on-call: Flexible hours advertised; exact core overlap, working hours/DST and on-call rota/pay unknown.
+
+Terms: Unlimited PTO and dependent health cover advertised, but Singapore/India applicability unknown. Employment entity, paid leave terms, notice/probation, payroll/payment currency, FX costs and any contractor alternative unknown.
+
+Verification: 19 October 2026: exact official role description and careers index list opening, worldwide/full-time and direct careers@useaxra.com application route. No closed marker. No message sent or submission tested. Public LinkedIn company links same employer domain; funding and legal-entity due diligence remain to establish.
+
+Questions: Is GBP70000-88000 annual base and fixed globally or adjusted for SG/India? Employee/EOR versus B2B mechanism, benefits/leave/notice/payment/FX? Are application engineers with substantial platform delivery considered against 4+ DevOps years? On-call coverage/rotation/pay, core overlap/DST, SLA authority, team size and funding/runway?
+
+### Axra (formerly GoFree): Backend Engineer
+
+[Direct application page](https://www.useaxra.com/careers/backend-engineer)
+
+Priority: 3. Career-growth candidate assessment through meaningful ownership at a small fintech; compensation to establish, not proven income growth. Early-stage funding/runway and employment-contract diligence required.
+
+Location/type: Worldwide remote explicitly advertised on exact role and current careers index. Singapore/India employment or B2B onboarding mechanism not established. Full-time; employee/EOR versus contractor mechanism in Singapore/India unconfirmed
+
+Eligibility: Worldwide source location support confirmed. Singapore/India legal hiring mechanism and personal work rights remain unconfirmed; no country-only restriction found.
+
+Pay: GBP 70,000-90,000; salary period not stated. Reviewed every 6 months. Options separate. No numeric bonus. Applicability/location adjustment unknown.
+
+SGD: No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.
+
+Fit: Cross-border transfer/FX/account/payment APIs, distributed correctness and reliability, PostgreSQL, security, architecture review and mentoring. Strong Node.js or Go required; 4+ years backend engineering.
+
+Prepare: Adjacent stack stretch. Establish genuine Node.js/Go coding depth and whether employer accepts experienced Java engineers ramping into its stack. Prepare idempotency, retries, ledger correctness, PostgreSQL tuning and payment failure handling. Do not claim advanced Go or Node experience not confirmed.
+
+Resume: Use Meena backend/cloud lead resume. Foreground Java/Spring secure services, Kafka/Streams, PostgreSQL, production troubleshooting, mentoring and verifiable design tradeoffs. Prepare a small truthful Node/Go implementation or discuss actual experience; clarify grade/authority so move is not assumed career advancement from title alone.
+
+Hours/on-call: Flexible hours advertised; exact core overlap, working hours/DST and on-call rota/pay unknown.
+
+Terms: Unlimited PTO and dependent health cover advertised, but Singapore/India applicability unknown. Employment entity, paid leave terms, notice/probation, payroll/payment currency, FX costs and any contractor alternative unknown.
+
+Verification: 19 October 2026: exact official role description and careers index list opening, worldwide/full-time and direct careers@useaxra.com application route. No closed marker. No message sent or submission tested. Public LinkedIn company links same employer domain; funding and legal-entity due diligence remain to establish.
+
+Questions: Is GBP70000-90000 annual base, and applicable unchanged in Singapore/India? Which legal entity/EOR or B2B option, local benefits/leave/notice, payment currency/FX costs? Required Node/Go depth versus Java transferability? Exact core hours/DST/on-call? Funding/runway, engineering team size and regulated partner/legal entity details?
