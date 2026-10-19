@@ -9217,9 +9217,10 @@
       "bonus": "Not published",
       "equity": "Not published",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for a ChatGPT alert; delivery has not yet occurred. Reconcile only after actual delivery evidence."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification or application inferred."
       },
       "job_id": "luxoft-java-fullstack-vr125579",
       "employer": "Luxoft, undisclosed Asian banking client",
@@ -9275,9 +9276,10 @@
       "bonus": "Not published",
       "equity": "Not published",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for a ChatGPT alert; delivery has not yet occurred. Reconcile only after actual delivery evidence."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final visible and supplied in external-work handoff. Date-only delivery reconciliation; no new verification or application inferred."
       },
       "job_id": "vanguard-java-go-backend-4460247648",
       "employer": "Vanguard Software Pte Ltd",
@@ -9326,6 +9328,208 @@
           "priority_tier": 1,
           "resume_emphasis": "Hands-on backend lead, event-driven cloud reliability and mentoring",
           "tailoring": "Use Meena's hands-on lead/backend resume. Lead with Java 21/Spring Boot 3, Kafka/Streams, Redis/PostgreSQL, cloud reliability, design decisions and actual mentoring. Prepare reactive-system trade-offs and how team process improved; add only outcomes/metrics she can substantiate.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 20 October 2026 Singapore; shared ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T16:53:09Z",
+      "posted": "Original posting date unavailable; cached relative/repost times are not treated as original dates.",
+      "published_compensation": "No numeric compensation published on the exact observed employer description.",
+      "sgd_comparison": "No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim.",
+      "bonus": "Not quantified",
+      "authorization_sponsorship": "Singapore location advertised; personal work authorization and sponsorship unknown. No existing pass portability assumed.",
+      "engagement_type": "Full-time; permanent/fixed-term terms to establish",
+      "terms": "Employment entity, probation/notice, leave, benefits and employment duration to establish.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+      },
+      "job_id": "plaud-backend-platform-f99fc44a",
+      "employer": "Plaud",
+      "title": "Senior Backend Engineer - SG (evaluation platform and data governance)",
+      "requisition": "Ashby f99fc44a-ee3d-41c5-900d-57417e93278b",
+      "url": "https://jobs.ashbyhq.com/Plaud/f99fc44a-ee3d-41c5-900d-57417e93278b",
+      "canonical_url": "https://jobs.ashbyhq.com/Plaud/f99fc44a-ee3d-41c5-900d-57417e93278b",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/senior-backend-engineer-sg-at-plaud-4458920800"
+      ],
+      "location": "Singapore",
+      "arrangement": "Singapore; remote/hybrid/onsite attendance cadence not confirmed on exact employer description.",
+      "eligibility": "Singapore work location explicitly supported; work rights/sponsorship unknown. India remote not advertised.",
+      "compensation_geography": "Singapore applicable package and global/location-adjusted policy unknown. Older similarly titled SGD15000-25000/30000 mirrors not established as this exact evaluation-platform requisition; not assigned to it.",
+      "equity": "ESOP advertised; amount, vesting, exercise/liquidity terms unknown; not guaranteed cash.",
+      "hours_on_call": "Reliability, SLAs and incident-analysis tooling are part of role. Core hours, global overlap and on-call rota/compensation unknown.",
+      "fit": "Java and/or Go accepted. Own production evaluation platform, regression/release gates, reusable SDKs/APIs, secure governed agent data access, PII masking, audit/data ownership and distributed reliability. Five-plus backend/platform years including three-plus complex distributed production years requested. AI-assisted coding/debugging/analysis is explicit.",
+      "preparation": "Establish production shared SDK/platform ownership, HTTP/gRPC resilience, transaction isolation/idempotency, secure data access and privacy controls. Prepare workflow orchestration/automated evaluation; ArgoCD is not Argo Workflows. Modern data infrastructure such as Spark/Flink/Snowflake/Databricks/Athena is explicit and requires preparation/evidence, not assumed incapability. Prototype-only services do not meet production-platform requirement.",
+      "upside": "Career-growth candidate assessment: significant product-platform, governance and release-decision ownership. Good Java/security/data transfer, with specialist evaluation/data-platform preparation. Compensation to establish.",
+      "questions": "Is enterprise Java/MDM/governance experience accepted for this evaluation-platform scope? Which production data/orchestration tools need immediate proficiency? Exact grade/authority, SG entity/pass support, applicable base/bonus/ESOP, attendance, on-call and global hours? Does any separately published SG backend band apply to this exact requisition?",
+      "verification": "20 October 2026 Singapore: exact official Ashby indexed description matches employer LinkedIn full description and live Apply. Official direct page/board renders JavaScript shell; final application form unverified. Employer post confirms full-time Singapore, Java/Go and evaluation/governance scope; no closed marker.",
+      "status_at_last_check": "Employer LinkedIn Apply visible; official exact ATS indexed, form unverified",
+      "source_evidence": [
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-sg-at-plaud-4458920800",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Employer full description, Apply and full-time SG; evaluation/governance platform, Java or Go; numeric pay absent, ESOP advertised."
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/Plaud/f99fc44a-ee3d-41c5-900d-57417e93278b",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Exact official indexed description confirms platform requirements; direct open is JS shell."
+        }
+      ],
+      "deduplication_note": "No Plaud in 162 canonical jobs/history or three runtime exports. Distinct from AI Applications 5e8a64fa: this requisition owns evaluation/governance/shared platform rather than user-facing agent/retrieval features. Older generic backend and external salary posts not proven separate or applicable; no extra job count/pay borrowed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend/platform, secure data governance and AI-assisted engineering",
+          "tailoring": "Use Anup's backend/platform resume. Foreground TIBCO EBX MDM/data governance, secure API/auth boundaries, SQL and Java/Spring production ownership, Kafka/Kubernetes and verified coding-agent review/verification. Explain a genuine access/audit/data-quality or incident-recovery decision; do not claim production AI evaluation or unnamed data tools.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend/cloud platform and release reliability",
+          "tailoring": "Use Meena's hands-on backend/cloud lead resume. Foreground Kafka/Streams, AWS/Kubernetes, observability, DevSecOps/GitOps, quality gates and mentoring. Establish actual platform/data-governance ownership and coding-agent practice separately from Spring AI prototypes. Distinguish ArgoCD delivery from Argo Workflows orchestration.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 20 October 2026 Singapore; shared ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T16:53:09Z",
+      "posted": "Original posting date unavailable; cached relative/repost times are not treated as original dates.",
+      "published_compensation": "No numeric compensation published on the exact observed employer description.",
+      "sgd_comparison": "No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim.",
+      "bonus": "Not quantified",
+      "authorization_sponsorship": "Singapore location advertised; personal work authorization and sponsorship unknown. No existing pass portability assumed.",
+      "engagement_type": "Full-time; permanent/fixed-term terms to establish",
+      "terms": "Employment entity, probation/notice, leave, benefits and employment duration to establish.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+      },
+      "job_id": "plaud-ai-applications-5e8a64fa",
+      "employer": "Plaud",
+      "title": "Senior Backend Engineer (AI Applications) - Singapore",
+      "requisition": "Ashby 5e8a64fa-5ae7-4259-865c-83e274e143f8",
+      "url": "https://jobs.ashbyhq.com/plaud/5e8a64fa-5ae7-4259-865c-83e274e143f8",
+      "canonical_url": "https://jobs.ashbyhq.com/plaud/5e8a64fa-5ae7-4259-865c-83e274e143f8",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/senior-backend-engineer-ai-applications-singapore-at-plaud-4402365883",
+        "https://sg.linkedin.com/jobs/view/senior-backend-engineer-ai-applications-singapore-at-plaud-4400814357",
+        "https://sg.linkedin.com/jobs/view/senior-backend-engineer-ai-applications-singapore-at-plaud-4359568470"
+      ],
+      "location": "Singapore",
+      "arrangement": "Singapore; attendance cadence unstated. India remote not advertised.",
+      "eligibility": "Singapore location advertised; candidate-specific work rights/sponsorship unknown.",
+      "compensation_geography": "Applicable SG band and location-adjustment/global-pay policy unknown. No use of a different Plaud backend vacancy's salary or Glassdoor estimates.",
+      "equity": "Not quantified on this exact observed role description",
+      "hours_on_call": "Core hours, global overlap and operational/on-call duties unknown.",
+      "fit": "Build user-facing AI agent applications, retrieval integrated with reasoning/workflows, end-to-end product features and reliability/performance improvements. Three-plus years software engineering in AI/backend/related fields, Python/Go or similar fundamentals, practical LLM product integration and production-system ability.",
+      "preparation": "Applied-agent stretch, not ML research. Establish Python/Go readiness and whether Java counts as similar; demonstrate actual agent/retrieval workflow integration, failure evaluation and productionization plan. Coding-agent use alone is not production agent-building. Meena's Spring AI/RAG/MCP examples remain prototypes.",
+      "upside": "Career-growth candidate assessment: direct AI-product feature ownership and agent/retrieval application delivery. Ambitious integration stretch for both; compensation to establish.",
+      "questions": "Would strong Java/backend experience plus truthful AI prototypes/practices be considered, and what Python/Go/agent production evidence is essential? Exact SG grade, base/variable/equity, pass support, attendance, hours/on-call and current funded team seat?",
+      "verification": "20 October 2026 Singapore: employer LinkedIn 4402365883 full description and Apply readable, full-time SG, no closed marker. Older 4400814357 copy explicitly closed, consolidated as historical alias. Official exact Ashby title indexed; direct page and board JS shells, final form unverified.",
+      "status_at_last_check": "Current employer LinkedIn Apply visible; older alias closed; official form unverified",
+      "source_evidence": [
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-ai-applications-singapore-at-plaud-4402365883",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Current employer description with Apply and full-time SG; agent/retrieval/product workflow scope; salary absent."
+        },
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-ai-applications-singapore-at-plaud-4400814357",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Older copy explicitly no longer accepting applications; not additional opening."
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/plaud/5e8a64fa-5ae7-4259-865c-83e274e143f8",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Exact title indexed; direct open JS shell."
+        }
+      ],
+      "deduplication_note": "No prior Plaud record in shared/history/runtime exports. Consolidates older AI Applications LinkedIn copies as one track. Responsibilities and exact ATS req differ from f99fc44a evaluation/data-governance platform, so two candidate assessments are justified; do not count same-project reposts separately.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Backend/full-stack and AI-assisted engineering; agent-application stretch",
+          "tailoring": "Use Anup's backend/full-stack AI-assisted resume. Show Java/Spring APIs, secure integrations, distributed troubleshooting and verified output-testing practices. Separately establish any real agent/retrieval implementation and limited Go depth; do not rename coding-assistant use as production agent delivery.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Lead/full-stack and applied AI integration",
+          "tailoring": "Use Meena's lead/full-stack AI-integration resume. Highlight truthful Spring AI/RAG/MCP/Claude API prototypes with evaluation, tool permissions, failure paths and lessons; pair with production backend/cloud delivery and stakeholder ownership. Explicitly separate prototype AI experience from deployed enterprise services.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 20 October 2026 Singapore; shared ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T16:53:09Z",
+      "posted": "Original posting date unavailable; cached relative/repost times are not treated as original dates.",
+      "published_compensation": "No numeric compensation published on the exact observed employer description.",
+      "sgd_comparison": "No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim.",
+      "bonus": "Not quantified",
+      "authorization_sponsorship": "Singapore location advertised; personal work authorization and sponsorship unknown. No existing pass portability assumed.",
+      "engagement_type": "Full-time; permanent/fixed-term terms to establish",
+      "terms": "Full-time, duration/entity/notice/probation unknown. Advertised WFH reimbursement, health support and paid global onsites; SG applicability and all required travel expenses/work permissions to establish.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+      },
+      "job_id": "tilt-cashalo-backend-3caea8b7",
+      "employer": "Tilt Finance (formerly Empower), Cashalo product",
+      "title": "Senior Backend Engineer, Cashalo",
+      "requisition": "Ashby 3caea8b7-a7df-47e5-834d-cc3288d102fe",
+      "url": "https://jobs.ashbyhq.com/tilthq/3caea8b7-a7df-47e5-834d-cc3288d102fe",
+      "canonical_url": "https://jobs.ashbyhq.com/tilthq/3caea8b7-a7df-47e5-834d-cc3288d102fe",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/senior-backend-engineer-cashalo-at-tilt-4387263579"
+      ],
+      "location": "Remote Singapore or Australia in exact official index; employer LinkedIn SG",
+      "arrangement": "100% remote with required travel two to four times/year. Remote Singapore explicitly indexed; not worldwide or India eligibility.",
+      "eligibility": "Singapore remote location explicitly supported; SG engagement entity/work rights/sponsorship unknown. India remote not advertised for this req.",
+      "compensation_geography": "Applicable Singapore package, currency and location-adjustment/global-pay policy unknown. Australia salary estimates not employer pay and not used.",
+      "equity": "Equity advertised, amount/vesting/liquidity terms unknown and separate from cash",
+      "hours_on_call": "Collaborate APAC product/credit/engineering and global team. Core hours, US/India overlap, seasonal DST requirements and on-call unknown.",
+      "fit": "High-ownership product IC for regulated lending: requirements-to-deployment APIs, SQL Server models/query optimization, Azure reliability/observability and engineering reviews. Explicit production .NET/C# experience and .NET/Azure coding interview; financial domain plus. Employer says potential beyond every qualification is considered.",
+      "preparation": "Language-transition stretch; confirmed Java/cloud/REST/database judgment transfers but does not prove production C#. Ask whether Java-to-.NET transition is acceptable before technical assessment. Anup SQL Server/Azure maps directly; Meena AWS/relational delivery transferable but SQL Server/C#/Azure depth unconfirmed. Prepare actual product reliability, data integrity and lending workflows.",
+      "upside": "Career-growth/working-condition candidate assessment: fully remote SG plus end-to-end lending product ownership, leadership exposure and APAC collaboration. Compensation to establish. Conditional on credible language transition and acceptable travel.",
+      "questions": "Does Java financial-platform delivery qualify despite explicit production C# requirement, and is ramp-up supported? SG entity/pass support, guaranteed base/currency/period and separate equity/bonus, SG versus India engagement, notice/benefits, required travel destinations/expenses/work permissions, core hours/on-call and interview expectations?",
+      "verification": "20 October 2026 Singapore: employer LinkedIn full description and Apply readable, full-time SG and 100% remote/travel2-4 explicit; no closed marker. Exact official ATS indexed Remote Australia/Singapore full-time, direct page JS shell; final application form unverified. Matching BuiltIn description corroborates scope, but its AI benefits summary/estimates not used.",
+      "status_at_last_check": "Employer LinkedIn Apply visible; exact official ATS index supports SG remote, form unverified",
+      "source_evidence": [
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-cashalo-at-tilt-4387263579",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "SG full-time Apply, remote100%, travel2-4, production C#/.NET and SQL Server, APAC ownership; salary absent."
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/tilthq/3caea8b7-a7df-47e5-834d-cc3288d102fe",
+          "checked_at": "2026-10-19T16:53:09Z",
+          "observation": "Official indexed Remote Australia/Remote Singapore full-time; direct open JS shell."
+        }
+      ],
+      "deduplication_note": "No Tilt/Empower/Cashalo track in162ledger/history or three runtime exports. One SG/Australia remote req, not separate location copies. Not inferred eligible merely from US employer HQ; SG role-specific evidence exists.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Payments/backend and Azure/SQL Server; C# transition",
+          "tailoring": "Use Anup's payments/backend resume. Foreground verified Great Eastern financial delivery, REST/security, SQL Server and Azure/AKS/observability, actual transaction/error-recovery decisions. State production C# experience only if actually established; ask about language transition before completing .NET interview.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on backend/cloud product ownership; lending/.NET transition",
+          "tailoring": "Use Meena's lead/backend cloud resume. Highlight fintech/public-sector reliability, APIs, relational data, delivery ownership and reviews/mentoring. Explain AWS-to-Azure mappings and prepare .NET/SQL Server honestly without claiming specialist production tenure; establish package and senior-IC authority.",
           "application_status": "Not applied or approved"
         }
       }
