@@ -1082,7 +1082,7 @@ Deduplication: Compared latest146-job main ledger/report history plus three avai
 
 ## Canonical security engineering lead checked19October2026
 
-Pending ChatGPT delivery. No application or approval inferred.
+Delivered in prior ChatGPT final on 19 October 2026; reconciled from actual conversation. No application or approval inferred.
 
 [Security Software Engineer](https://canonical.com/careers/5146620/security-software-engineer-remote) | Requisition1086
 
