@@ -8510,6 +8510,115 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "employer": "Airwallex",
+      "import_source": "Official complete role and application pages checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T10:06:52Z",
+      "location": "Singapore",
+      "engagement_type": "Full Time; permanent/fixed-term duration not stated",
+      "eligibility": "Singapore work location confirmed. Personal work authorization and sponsorship unknown. Not an overseas-remote role; no relocation assumed.",
+      "published_compensation": "No numeric salary published on exact official role page. Applicable Singapore base, currency/period and bonus/equity breakdown unknown; form asks expectations, not an offer.",
+      "sgd_comparison": "No applicable numeric guaranteed salary established, so no SGD annual-cash calculation or income uplift claimed.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "compensation_geography": "Global versus location-adjusted policy unknown. No India-remote or B2B terms advertised; do not apply another country's band.",
+      "posted": "Original posting date unavailable",
+      "authorization_sponsorship": "Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.",
+      "terms": "Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for new ChatGPT alert; not yet delivered."
+      },
+      "verification": "19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.",
+      "status_at_last_check": "Official description and application fields live; no submission tested",
+      "application_content_rule": "Employer permits AI preparation/material refinement, but prohibits AI during live interviews unless explicitly authorized.",
+      "job_id": "airwallex-org-identity-aa6d6432",
+      "title": "Senior Software Engineer, Org & Identity",
+      "requisition": "aa6d6432-8871-4aea-9c8c-50f60e2bffa2",
+      "url": "https://careers.airwallex.com/job/aa6d6432-8871-4aea-9c8c-50f60e2bffa2/senior-software-engineer-org-identity/",
+      "canonical_url": "https://careers.airwallex.com/job/aa6d6432-8871-4aea-9c8c-50f60e2bffa2/senior-software-engineer-org-identity/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/aa6d6432-8871-4aea-9c8c-50f60e2bffa2",
+        "https://careers.airwallex.com/job/aa6d6432-8871-4aea-9c8c-50f60e2bffa2/senior-backend-engineer-iam-account-infra/"
+      ],
+      "arrangement": "Singapore; exact onsite/hybrid attendance cadence unstated. Not advertised worldwide remote.",
+      "hours_on_call": "Occasional flexing of hours for global collaboration stated. Exact core hours/timezones/DST and on-call frequency/compensation unknown.",
+      "fit": "Backend identity/authentication/core-account technical vision and Java/Kotlin cloud-native IAM architecture.5+backendyears, authN/authZ, SSO/MFA, OAuth2/OIDC/SAML, relational/nonrelational data, K8s/cloud, OWASP and mentoring. Fintech and data governance preferred.",
+      "preparation": "Establish deep IAM ownership beyond using SpringSecurity: OIDC/SAML federation, MFA/session and account recovery, org/multi-tenant authorization and identity verification, threat modeling and high availability. Cassandra and startup/regulatory cross-functional scope to prepare, not assumed incapability. Do not invent IAM-specialist tenure or protocol production depth.",
+      "upside": "Career-growth candidate assessment: core identity/account architecture, technical roadmap and cross-functional security/regulatory ownership. Compensation to establish.",
+      "questions": "What grade and actual roadmap/design authority? Deep IAM ownership expectations versus transferable SpringSecurity/OAuth2 experience? Singapore guaranteed base/currency/period, separate bonus/equity and pass sponsorship? Exact office days, core/global overlap/DST, on-call, leave/notice, team size and mentoring scope?",
+      "deduplication_note": "Compared149-job ledger/report history and three runtime/application exports. No exact IAM/org req found. Old IAM&AccountInfra title with same aa6req merged as alias. Related4cb09a94IAMreq not separately alerted; distinctness not established. This identity/account domain differs from reported Risk, CitizenDev, Notification and DataPlatform roles.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java secure backend / identity integration and data governance",
+          "tailoring": "Use Anup Java backend/security resume. Foreground SpringSecurity, OAuth2/mTLS, secure payment integrations, SQL/MDM/data-governance decisions, K8s/cloud and verified architecture tradeoffs. Prepare an actual authentication/authorization design and failure case. Establish SSO/MFA/OIDC/SAML depth honestly; no invented protocol tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java backend lead / secure cloud architecture and mentoring",
+          "tailoring": "Use Meena lead/backend/cloud resume. Highlight Java21/Spring3, secure service design, AWS/K8s/Istio, DevSecOps, reliability, design reviews and mentoring. Prepare tenant/org authorization boundaries and threat-model examples; establish identity-domain depth and lead-equivalent scope/package against target.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "employer": "Airwallex",
+      "import_source": "Official complete role and application pages checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T10:06:52Z",
+      "location": "Singapore",
+      "engagement_type": "Full Time; permanent/fixed-term duration not stated",
+      "eligibility": "Singapore work location confirmed. Personal work authorization and sponsorship unknown. Not an overseas-remote role; no relocation assumed.",
+      "published_compensation": "No numeric salary published on exact official role page. Applicable Singapore base, currency/period and bonus/equity breakdown unknown; form asks expectations, not an offer.",
+      "sgd_comparison": "No applicable numeric guaranteed salary established, so no SGD annual-cash calculation or income uplift claimed.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "compensation_geography": "Global versus location-adjusted policy unknown. No India-remote or B2B terms advertised; do not apply another country's band.",
+      "posted": "Original posting date unavailable",
+      "authorization_sponsorship": "Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.",
+      "terms": "Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for new ChatGPT alert; not yet delivered."
+      },
+      "verification": "19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.",
+      "status_at_last_check": "Official description and application fields live; no submission tested",
+      "application_content_rule": "Employer permits AI preparation/material refinement, but prohibits AI during live interviews unless explicitly authorized.",
+      "job_id": "airwallex-ai-infrastructure-4a995552",
+      "title": "Senior Software Engineer, AI Infrastructure",
+      "requisition": "4a995552-e961-48c0-92b0-08bfa7e4c5e9",
+      "url": "https://careers.airwallex.com/job/4a995552-e961-48c0-92b0-08bfa7e4c5e9/senior-software-engineer-ai-infrastructure/",
+      "canonical_url": "https://careers.airwallex.com/job/4a995552-e961-48c0-92b0-08bfa7e4c5e9/senior-software-engineer-ai-infrastructure/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/4a995552-e961-48c0-92b0-08bfa7e4c5e9"
+      ],
+      "arrangement": "Work from Singapore office explicitly stated; exact office days not specified. Not remote from India.",
+      "hours_on_call": "Operational agents include incident investigation/remediation and deployment/database work. Formal on-call requirement/rota/pay unstated. Occasional flexible hours for global teams stated; exact overlap/DST and emergency escalation load unknown.",
+      "fit": "Build operational AI agents for SRE/DevOps/DBA: planning, tool use, state/memory, error recovery, safety/audit/human escalation and measurable evaluations. Integrate K8s, Terraform, cloud, databases, observability and CI/CD.5+engineeringyears and Java/Python/Go/Kotlinaccepted; hands-on multi-step agentbuilding essential.",
+      "preparation": "Ambitious applied-agent/platform stretch. Establish actual agent-loop/tool-orchestration/state/memory implementation, testing/evaluation and production mutation safety. Coding-agent use alone does not prove building autonomous agents. Meena's prototypes remain prototypes, not production expertise. Terraform/cloud/provider breadth and runbook/SLO design to prepare; no MLresearchcredentials required.",
+      "upside": "Career-growth candidate assessment: real AI application delivery and safe production-operations automation ownership. Specialist stretch and compensation to establish, not demonstrated income growth.",
+      "questions": "What level of existing hands-on agent-building is required and are verified prototypes acceptable? Product/team ownership versus SRE operations, approved tool/production mutation controls, eval infrastructure? SG base/currency/period/variable/equity/pass sponsorship, exact office days/global overlap/DST/on-call, leave/notice?",
+      "deduplication_note": "Compared149-job ledger/history and three runtime/application exports. Current CitizenDev a10req re-read: Temporal/selfservice/GitOps platform, not autonomous SRE/DBA agents. Reported StaffAI260req is customer-facing financial agents; reported data-platform d023req is knowledge/data backbone. Distinct operational-agent team responsibilities and req; no recruiter copies or refreshed-title duplicates alerted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/platform modernization and verified AI-assisted engineering; agent-builder stretch",
+          "tailoring": "Use Anup backend/platform/AI-assisted engineering resume. Connect real incident diagnosis, SQL/MDM modernization, AKS/K8s/Helm, observability and CI/CD with safe automation. Explain actual Cursor/ClaudeCode/Codex context/review/verification. Show any genuine agent-building evidence if available without inferring it from tool use; prepare bounded tool execution, rollback and evaluation.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on cloud-native lead / AI application integration prototypes",
+          "tailoring": "Use Meena lead/cloud/AI-integration resume. Foreground Terraform, AWS ECS/EKS, K8s/Istio, GitOps, observability and technical decisions. Describe SpringAI/RAG/MCP/ClaudeAPI work explicitly as prototypes; prepare agent state/recovery, permission boundaries, evaluations and human approvals without claiming production autonomous operations.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }

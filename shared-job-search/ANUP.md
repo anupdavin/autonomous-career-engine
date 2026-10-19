@@ -1119,3 +1119,75 @@ Questions: Team/product and senior/lead grade? SG and India hiring entity, work 
 Verification: 19October2026: official complete description and named application fields visible, no closed marker. Worldwide location and req1086 displayed. Form not submitted. Application agreement explicitly disqualifies AI/generated content; do not prepare submission-ready responses or resume/cover text for this application.
 
 Deduplication: Compared latest148-job ledger/history and three available runtime/application exports. Runtime Canonical records concern CloudSolutionsArchitect5915936/PublicCloud7490812/Kafka5218601/Sales4126502, not this security req. Generic Canonical default USD/B2B claims and unverified draft productionAI/location assertions not reused. Full historical coverage not claimed.
+
+## New Airwallex opportunities checked 19 October 2026
+
+Pending ChatGPT delivery; no application or approval inferred.
+
+### Senior Software Engineer, Org & Identity
+
+[Official application page](https://careers.airwallex.com/job/aa6d6432-8871-4aea-9c8c-50f60e2bffa2/senior-software-engineer-org-identity/)
+
+Priority: 1. Career-growth candidate assessment: core identity/account architecture, technical roadmap and cross-functional security/regulatory ownership. Compensation to establish.
+
+Location/type: Singapore; exact onsite/hybrid attendance cadence unstated. Not advertised worldwide remote. Full Time; permanent/fixed-term duration not stated.
+
+Eligibility: Singapore work location confirmed. Personal work authorization and sponsorship unknown. Not an overseas-remote role; no relocation assumed.
+
+Compensation: No numeric salary published on exact official role page. Applicable Singapore base, currency/period and bonus/equity breakdown unknown; form asks expectations, not an offer.
+
+SGD: No applicable numeric guaranteed salary established, so no SGD annual-cash calculation or income uplift claimed.
+
+Fit: Backend identity/authentication/core-account technical vision and Java/Kotlin cloud-native IAM architecture.5+backendyears, authN/authZ, SSO/MFA, OAuth2/OIDC/SAML, relational/nonrelational data, K8s/cloud, OWASP and mentoring. Fintech and data governance preferred.
+
+Prepare: Establish deep IAM ownership beyond using SpringSecurity: OIDC/SAML federation, MFA/session and account recovery, org/multi-tenant authorization and identity verification, threat modeling and high availability. Cassandra and startup/regulatory cross-functional scope to prepare, not assumed incapability. Do not invent IAM-specialist tenure or protocol production depth.
+
+Resume: Use Anup Java backend/security resume. Foreground SpringSecurity, OAuth2/mTLS, secure payment integrations, SQL/MDM/data-governance decisions, K8s/cloud and verified architecture tradeoffs. Prepare an actual authentication/authorization design and failure case. Establish SSO/MFA/OIDC/SAML depth honestly; no invented protocol tenure.
+
+Hours/on-call: Occasional flexing of hours for global collaboration stated. Exact core hours/timezones/DST and on-call frequency/compensation unknown.
+
+Authorization: Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.
+
+Terms: Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.
+
+Questions: What grade and actual roadmap/design authority? Deep IAM ownership expectations versus transferable SpringSecurity/OAuth2 experience? Singapore guaranteed base/currency/period, separate bonus/equity and pass sponsorship? Exact office days, core/global overlap/DST, on-call, leave/notice, team size and mentoring scope?
+
+Application policy: Employer permits AI preparation/material refinement, but prohibits AI during live interviews unless explicitly authorized.
+
+Verification: 19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.
+
+Deduplication: Compared149-job ledger/report history and three runtime/application exports. No exact IAM/org req found. Old IAM&AccountInfra title with same aa6req merged as alias. Related4cb09a94IAMreq not separately alerted; distinctness not established. This identity/account domain differs from reported Risk, CitizenDev, Notification and DataPlatform roles.
+
+### Senior Software Engineer, AI Infrastructure
+
+[Official application page](https://careers.airwallex.com/job/4a995552-e961-48c0-92b0-08bfa7e4c5e9/senior-software-engineer-ai-infrastructure/)
+
+Priority: 2. Career-growth candidate assessment: real AI application delivery and safe production-operations automation ownership. Specialist stretch and compensation to establish, not demonstrated income growth.
+
+Location/type: Work from Singapore office explicitly stated; exact office days not specified. Not remote from India. Full Time; permanent/fixed-term duration not stated.
+
+Eligibility: Singapore work location confirmed. Personal work authorization and sponsorship unknown. Not an overseas-remote role; no relocation assumed.
+
+Compensation: No numeric salary published on exact official role page. Applicable Singapore base, currency/period and bonus/equity breakdown unknown; form asks expectations, not an offer.
+
+SGD: No applicable numeric guaranteed salary established, so no SGD annual-cash calculation or income uplift claimed.
+
+Fit: Build operational AI agents for SRE/DevOps/DBA: planning, tool use, state/memory, error recovery, safety/audit/human escalation and measurable evaluations. Integrate K8s, Terraform, cloud, databases, observability and CI/CD.5+engineeringyears and Java/Python/Go/Kotlinaccepted; hands-on multi-step agentbuilding essential.
+
+Prepare: Ambitious applied-agent/platform stretch. Establish actual agent-loop/tool-orchestration/state/memory implementation, testing/evaluation and production mutation safety. Coding-agent use alone does not prove building autonomous agents. Meena's prototypes remain prototypes, not production expertise. Terraform/cloud/provider breadth and runbook/SLO design to prepare; no MLresearchcredentials required.
+
+Resume: Use Anup backend/platform/AI-assisted engineering resume. Connect real incident diagnosis, SQL/MDM modernization, AKS/K8s/Helm, observability and CI/CD with safe automation. Explain actual Cursor/ClaudeCode/Codex context/review/verification. Show any genuine agent-building evidence if available without inferring it from tool use; prepare bounded tool execution, rollback and evaluation.
+
+Hours/on-call: Operational agents include incident investigation/remediation and deployment/database work. Formal on-call requirement/rota/pay unstated. Occasional flexible hours for global teams stated; exact overlap/DST and emergency escalation load unknown.
+
+Authorization: Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.
+
+Terms: Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.
+
+Questions: What level of existing hands-on agent-building is required and are verified prototypes acceptable? Product/team ownership versus SRE operations, approved tool/production mutation controls, eval infrastructure? SG base/currency/period/variable/equity/pass sponsorship, exact office days/global overlap/DST/on-call, leave/notice?
+
+Application policy: Employer permits AI preparation/material refinement, but prohibits AI during live interviews unless explicitly authorized.
+
+Verification: 19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.
+
+Deduplication: Compared149-job ledger/history and three runtime/application exports. Current CitizenDev a10req re-read: Temporal/selfservice/GitOps platform, not autonomous SRE/DBA agents. Reported StaffAI260req is customer-facing financial agents; reported data-platform d023req is knowledge/data backbone. Distinct operational-agent team responsibilities and req; no recruiter copies or refreshed-title duplicates alerted.
