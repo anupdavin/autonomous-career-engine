@@ -790,7 +790,7 @@ Verification: 19October2026: both officialGrabdescriptions accessible withApplyN
 
 ## New leads checked 19 October 2026: JPMorgan and OGP
 
-Prepared for alert; delivery pending actual ChatGPT final. No applications or contacts.
+Prior four-role alert delivered in ChatGPT final; reconciled 19 October 2026. No applications or contacts.
 
 ### JPMorgan Chase: Lead Software Engineer, Java
 
@@ -879,3 +879,67 @@ Hours and terms: Core hours, cross-regional overlap, on-call rotation and compen
 Clarify: Sponsorship/non-citizen eligibility/project clearance? Guaranteed base/period, grade, bonus and employment duration? Hybrid cadence/core hours/on-call? Expected immediate Node/React depth, IC/team leadership split, LLM scope and privacy/security responsibilities?
 
 Verification: 19 October 2026: official current board and exact role description live; readable application form includes CV, portfolio, citizenship status, motivation and Send. Static success/already-applied template text is not evidence of submission. No form filled/submitted or employer contacted.
+
+## New exploratory India leads checked 19 October 2026: Juniper Square
+
+Not confirmed eligible while working from Singapore. No relocation assumed. Pending actual alert delivery.
+
+### Technical Lead (Platform) - India
+
+[Direct application](https://jobs.ashbyhq.com/junipersquare/94b04280-efbd-4307-bf14-39d936059d81). Priority 2. India role; current exact Built In metadata says Remote and official company supports remote work. Exact primary ATS indexed header lacks location-type metadata. Confirm role-specific 100% India remote and required gatherings before applying; not confirmed SG remote.
+
+Type: Employee-style role; permanent/fixed-term duration unknown. No international B2B rate advertised.
+
+Pay: No numeric pay published in exact retrieved role descriptions. Currency, pay period, base/bonus/equity split and applicable India package unknown. Do not reuse generic runtime INR45L-65L or US/Canada bands from other roles. No applicable numeric guaranteed pay established; no annual SGD cash conversion or uplift claimed.
+
+Posted: Original employer posting date unavailable; Built In relative refresh is not proof of a newly created requisition.
+
+Fit: Platform team owns identity/access/authorization, search/API infrastructure, developer tools/frameworks, query performance, tested code/reviews, product-team enablement and observability. 6-10 years production systems; cloud, containers, CI/IaC. AI-assisted output evaluation and LLM integration are nice-to-have, not ML research.
+
+Upside: Career-growth candidate assessment: foundational security/platform and developer productivity ownership. Ambitious Python-first adjacent role; compensation to establish.
+
+Preparation: Python/FastAPI/Flask/Pyramid/Django expertise explicit. Java/Spring/security/cloud/SQL transfer is relevant but does not prove Python expertise; establish required day-one proficiency and ramp-up flexibility. Prepare CIAM/authorization design, developer platform consumers, DB tuning, monolith decomposition and measured AI-code verification without invented metrics.
+
+Resume: Use Meena lead/backend/cloud resume. Highlight AWS/ECS/EKS, Terraform/GitOps, security, observability, mentoring and platform consumers. Map real architecture/trade-offs to CIAM/search/API infrastructure. Label LLM/MCP work prototypes and establish Python framework depth, scope and package.
+
+Hours: Production system support and global collaboration; exact overlap, core hours, on-call frequency and compensation/time off unknown.
+
+Authorization: Unknown. India role location is not evidence of personal authorization; Singapore-based employment/EOR/B2B is unconfirmed.
+
+Terms: Salary currency/period, benefits applicability, leave, notice, probation, travel and any contractor alternative unknown. Do not infer foreign-currency billing or renewal.
+
+Questions: Is India-based remote confirmed for this req; any mandatory office gatherings? Any SG employment/EOR/B2B option? Guaranteed India package/period and separate variable/equity, localization policy, Python depth/ramp flexibility, platform design authority/lead scope, core hours/on-call/travel, personal authorization/sponsorship?
+
+Verification: 19 October 2026: listed on official current experienced-professionals board; exact Ashby link opens correct title but JavaScript shell prevents form verification. Matching current Built In full description readable. No application or contact.
+
+Deduplication: Latest142-jobledger/history and three available runtime/application exports compared. Runtime has generic Senior Technical Lead Java/AWS record ashby_junipersquare_sr_tech_lead_india_06 without exact req and unsupported INR45L-65L; not re-alerted or reused as pay. Platform foundational CIAM/search/devtooling and Business Technology revenue integration/MCP are distinct teams and responsibilities from generic backend/fullstacklead. Full history not claimed.
+
+### Senior Integrations Engineer - India
+
+[Direct application](https://jobs.ashbyhq.com/junipersquare/9ce69ec4-0580-4cc6-aad4-7f1c951d3aec). Priority 2. India role on official board; matching exact Built In listing says Remote. India-based remote supported by retrieved evidence, confirm contract/hiring terms; not advertised SG-based or worldwide.
+
+Type: Employee-style role; permanent/fixed-term duration unknown. No international B2B rate advertised.
+
+Pay: No numeric pay published in exact retrieved role descriptions. Currency, pay period, base/bonus/equity split and applicable India package unknown. Do not reuse generic runtime INR45L-65L or US/Canada bands from other roles. No applicable numeric guaranteed pay established; no annual SGD cash conversion or uplift claimed.
+
+Posted: Original employer posting date unavailable; Built In relative refresh is not proof of a newly created requisition.
+
+Fit: Business Technology Lead-to-Cash rebuild: Workato connectors/recipes/APIs across Salesforce, CPQ/contracts, NetSuite and warehouse; event-triggered billing, idempotency/retries/ordering/reconciliation. MCP servers with governed read/write tool contracts, permission scopes, audit trails; Java/TypeScript/Python accepted. Secure reliable integration and agent connectivity, not ML research.
+
+Upside: Career-growth candidate assessment: governed financial integration plus real agent/MCP connectivity ownership. Adjacent specialist role with substantial SaaS/iPaaS preparation; compensation to establish.
+
+Preparation: Explicit5+software/integrationyears including3+enterpriseSaaSintegrations; productionWorkato orotheriPaaS, deepSalesforce/NetSuiteAPIs, MCP/toolcallingexperience. Confirmactualhistoryandreadiness, notinventtenure/toolcerts. Camel/EIPconfirmedforboth istransferablebutnotproofWorkato/MuleSoft/Boomi orSalesforce/NetSuiteproductionexperience. Preparefinancialreconciliation, OAuthpermissions and agentwriteguardrails.
+
+Resume: Use Meena lead/integration/AI application resume. Highlight confirmed Camel, Kafka/Streams, event-driven failures, DevSecOps, observability and mentoring; connect MCP/RAG/Claude API prototypes honestly to governed tools and audit design. Establish actual Salesforce/NetSuite/Workato experience and US-overlap feasibility.
+
+Hours: Explicit shared on-call coverage and incident ownership; a few hours overlap with US time zones required. Exact zone/window and seasonal daylight-saving effects, rotation and compensation unknown; may require India evenings/nights. Do not assume normal India business hours.
+
+Authorization: Unknown. India role location is not evidence of personal authorization; Singapore-based employment/EOR/B2B is unconfirmed.
+
+Terms: Salary currency/period, benefits applicability, leave, notice, probation, travel and any contractor alternative unknown. Do not infer foreign-currency billing or renewal.
+
+Questions: India-only residence/authorization and100%remoteterms; anySGEOR/B2Bexception? Applicablebase/currency/period/variableequity, exactUSoverlapzoneandseasonalhours, on-callrotation/pay, Workato/iPaaSandSalesforce/NetSuiteproductiondepthflexibility, MCPdeliveryscope/agentapproval/auditcontrols, employmentduration/leave/notice/travel?
+
+Verification: 19 October 2026: listed on official current experienced-professionals board; exact Ashby link opens correct title but JavaScript shell prevents form verification. Matching current Built In full description readable. No application or contact.
+
+Deduplication: Latest142-jobledger/history and three available runtime/application exports compared. Runtime has generic Senior Technical Lead Java/AWS record ashby_junipersquare_sr_tech_lead_india_06 without exact req and unsupported INR45L-65L; not re-alerted or reused as pay. Platform foundational CIAM/search/devtooling and Business Technology revenue integration/MCP are distinct teams and responsibilities from generic backend/fullstacklead. Full history not claimed.
