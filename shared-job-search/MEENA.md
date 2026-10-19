@@ -1755,7 +1755,7 @@ Verification: 20 October 2026: exact official Ashby URL renders JS-only shell; s
 
 Deduplication: No Factory employer/project/req in shared ledger or runtime exports. Mirrors across Australia/APAC are same req, not separate roles.
 
-## New Java leadership and AI-task opportunities: pending ChatGPT delivery
+## New Java leadership and AI-task opportunities: ChatGPT alert delivered
 
 ### Priority 1: Straive (SPi Global): Senior Java Software Engineer, overlapping Singapore senior/lead track
 
@@ -1804,3 +1804,53 @@ Questions: Can SG/India residents legally contract and receive payout? What is p
 Verification: 20 October 2026: complete current official role and name/email/phone/consent/Apply initial form visible. Subsequent screener/technical platform not entered. Employer explicit remoteanylocation,US$1000acceptedtask,minimum10hours/week,variablemultirevieweffortandIPrestrictions. Original employer postdate unavailable; mirrors17-18Octnotprimarydate.
 
 Deduplication: No Askable req/project equivalent in172sharedjobs/history or3runtimeexports. RecruitmentRoom hourly codingtask-verifier contract and G2i hourly recordedcoding-agent interaction evaluations differ in supplier, deliverable and payment mechanism; no evidence same funded client/project. All Askable mirrors consolidated here, not separate listings.
+
+## Grab platform and support opportunities: pending ChatGPT delivery
+
+### Priority 1: Senior Software Engineer, Full Stack - Partner Apps Platform
+
+[Application](https://www.grab.careers/en/jobs/744000153718020/senior-software-engineer-full-stack/)
+
+Location/type: Onsite at Grab One North explicit; office-day count not specified in this exact role, confirm rather than importing another role's five-day clause Full-time; permanent versus fixed-term duration unknown
+
+Eligibility: Singapore work location supported. Personal work rights and employer sponsorship unknown. No Indiaremote entitlement; no relocation assumed.
+
+Pay: No numeric compensation published on exact official description or application shell. No published applicable amount to annualize orconvert; no uplift against unknowncurrentpackages
+
+Fit: PartnerApps developer portal/webviewJavaScriptbridge, backendAPIs and selfservice onboarding/config/review/release workflows. Own platform reliability, security/testing and designreviews/mentoring. Minimum4yearsfullstack withReact/TypeScript and atleastonebackendlanguage; Java background transferable but production backendlanguage choice/ramp-up toconfirm.
+
+Prepare: React is an explicit essential requirement, not automatically satisfied by Angular. Establish demonstrable React/TypeScript implementation plus frontend-backend contracts, webviewbridge security/lifecycle, developerplatform abstractions and productionownership.4yearminimum does not establish senior grade/package; no invented React tenure.
+
+Resume: Use Meena's lead/full-stack/cloud resume. Foreground Angular18/TypeScript, APIcontracts, GitOps/DevSecOps, productionreliability and actualmentoring. Explain a real cross-team platformworkflow improvement. PrepareReactstate/render/testing and bridge security withoutinventedproductionReacttenure.
+
+Hours/terms: Incident response/production reliability explicit. Formal on-call rota, nights/weekends, global overlap/DST and pay/TOIL unstated. SGentity/passsupport, employmentduration/probation/notice, exactbase and variable/equity, leave/benefits and operationalcoverage toconfirm. Medical/termlife and GrabFlex advertised without numericvaluation.
+
+Questions: Does Java backend plus Angular/TypeScript and demonstrableReact transition fit immediateexpectations? Actual backend stack, rolegrade/authority, SGbase versusvariable/equity and MeenaSGD12k target fit, sponsorship, officecadence, oncall/overlap/DST and notice?
+
+Verification: 20October2026: current exact official Grabcareers full description and Apply visible, explicitSGfulltimeonsite. Apply followsSmartRecruiters publication18236cd4-e0de-4fd6-9c0f-daee6a69b18d withcorrecttitle/SGlocation, butJSshell only; finalfieldsnotverified. Older149504979 materiallysamePartnerAppsdescription consolidated. No application/contact.
+
+Deduplication: No PartnerApps project in174sharedrecords/history orruntimeexports. Differentteam/projectfrompriorGrabLeadFlinkplatform.149504979 and153718020 samePartnerAppsresponsibilities, onecanonicaljob nottwofreshopenings.
+
+### Priority 2: Senior Software Engineer, Fullstack - Support Experience
+
+[Application](https://www.grab.careers/en/jobs/744000143221939/senior-software-engineer-fullstack/)
+
+Location/type: Singapore five-day in-office arrangement explicitlystated Full-time; permanent versus fixed-term duration unknown
+
+Eligibility: Singapore work location supported. Personal work rights and employer sponsorship unknown. No Indiaremote entitlement; no relocation assumed.
+
+Pay: No numeric compensation published on exact official description or application shell. No published applicable amount to annualize orconvert; no uplift against unknowncurrentpackages
+
+Fit: Build andoperate consumer/driver/merchantHelpCentre/selfservice andagent-assisted support workflows. ReactTypeScriptfrontend andGoAPIs/microservices; independenttechnicaldesign,productionreadiness,monitoringandmentoring. Effectivecodingagents andLLMAPIuse in dailyengineering essential; Temporal/AI-poweredsupportproducts nice-to-have.
+
+Prepare: Go andproductionReact explicit, so language/frameworktransition and evidence mustbeestablished. Anup limitedGo notseniorGoproficiency. MeenaSpringAI/RAG/MCP/ClaudeAPIprototypes remainprototypes anddo notestablish dailycodingagentpractice. Prepare distributedAPI/workflow failurehandling,Go concurrency/context andReact testing; neitherproductionMLresearchnor priorAIproductdelivery mandatory.
+
+Resume: Use Meena's lead/full-stack/AI-integration resume. Emphasize actualTypeScript/RxJS,API/workflowdesign,Kafka,AWS,reliabilityreviews andmentoring. LabelLLMintegrationsprototypes; establishdailycodingagentpractice andGo/Reactdeliveryreadiness. Preparearealincident/recoveryexample andscreenlead-levelscope/pay.
+
+Hours/terms: Oncall support, incidenthandling, rootcause/prevention explicit. Rota frequency, nights/weekends, standby/incidentpay orTOIL, globaloverlap/DST unknown. SGentity/passsupport, employmentduration/probation/notice, exactbase and variable/equity, leave/benefits and operationalcoverage toconfirm. Medical/termlife and GrabFlex advertised without numericvaluation.
+
+Questions: Would Java/Angular engineers withTypeScript anddemonstrableGo/Reactrampfit? Productionlanguage expectations andgrading, actualAIagent/LLMAPIworkflow, SGbase/variable/equity/sponsorship, fiveofficedays, oncallrota/pay/TOIL/corehours/DST andnotice?
+
+Verification: 20October2026: exact officialGrabcareers description/currentApply, SGfulltime,explicitfiveofficedays andoncall. Apply reachesSmartRecruiterspublicatione0ce2976-4749-40e1-a81d-91586a0e0456,JSonlyshell; finalapplicationfieldsunverified. No closedmarker, no submission/contact.
+
+Deduplication: No SupportExperience/HelpCentreproject in174sharedjobs/history or3runtimeexports. DifferentproductteamfromPartnerAppsportal andearlierGrabLeadFlink. Vietnam copies are not additionaleligibleSGroles andnotcounted.
