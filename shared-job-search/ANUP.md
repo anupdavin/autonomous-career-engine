@@ -882,7 +882,7 @@ Verification: 19 October 2026: official current board and exact role description
 
 ## New exploratory India leads checked 19 October 2026: Juniper Square
 
-Not confirmed eligible while working from Singapore. No relocation assumed. Pending actual alert delivery.
+Not confirmed eligible while working from Singapore. No relocation assumed. Alert delivered in prior ChatGPT final; reconciled 19 October 2026. No applications or contacts.
 
 ### Technical Lead (Platform) - India
 
