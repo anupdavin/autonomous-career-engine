@@ -714,7 +714,7 @@ Verification: 19October2026 Singapore date: corporate endowus.com/careers links 
 
 ### Backend Software Engineer, Staff/Principal
 
-[Official role](https://apply.workable.com/seeq/j/CD7BA6EE7B/). Priority1. Alert pendingactualdelivery; noapplications/contacts.
+[Official role](https://apply.workable.com/seeq/j/CD7BA6EE7B/). Priority1. Alert delivered19October2026, reconciledfromactualfinal/externalhistory; noapplications/contacts.
 
 Location/type: Remote; official indexed header UnitedStates, employer-attributed HN post discusses other-country local pay. Fullyremote. Singapore/India eligibility unconfirmed, not worldwide-confirmed. Required Pacific-time crossover, exact window/amount unknown. Fulltime, no contractor/B2B mechanism advertised.
 
@@ -740,7 +740,7 @@ Verification: 19October2026: exact officialrole/application URLs reopened, both 
 
 ### Backend Software Engineer, Java / Spring Boot
 
-[Official role](https://apply.workable.com/decathlon-sg/j/F21200EA27/). Priority2. Alert pendingactualdelivery; noapplications/contacts.
+[Official role](https://apply.workable.com/decathlon-sg/j/F21200EA27/). Priority2. Alert delivered19October2026, reconciledfromactualfinal/externalhistory; noapplications/contacts.
 
 Location/type: Singapore. Singapore location confirmed, office/hybrid cadence not stated. Crossborderremote not advertised. Fulltime per employer-attributed LinkedIn; permanent/fixedterm unknown.
 
@@ -761,3 +761,29 @@ Hours/terms: APACcommerceoperations stated; corehours, oncall/weekend/salespeak 
 Questions: IsF21200EA27 open/funded andcorrectapplyURL? Senior/leadgrade flexibility beyondAssociate3+years? GuaranteedSGbase/period, monthlybonus10%basis andconditions, profitshare/equity separate, sponsorship, officecadence, APACcorehours/oncall/peakweekends, designauthority, domainownership andgrowthroute?
 
 Verification: 19October2026: officialexactrole remains indexed withmatchingbody; directrole URL inaccessibleviabrowsingtool andapplyURLreturned no readablecontent. Employer-attributed LinkedIn4479332247 fulldescription accessible withApply andnoclosedmarker. Live officialform unverified; askfundedintake/correctapplicationroute.
+
+## New lead checked19October2026: Grab
+
+### Lead Platform Engineer, Flink
+
+[Official role](https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/). OneoverlappingFlinkplatformtrack. Priority1. Alertpendingactualdelivery; noapplications/contacts.
+
+Location/type: Grab One North, Singapore. Onsite explicitly in exactrole. Exactweeklydaycount notstated, do not substitute5days fromclosedFundsCore role or globalFlexWork policy. Fulltime; permanent/fixedterm notexplicit.
+
+Eligibility: Singapore onsite location confirmed, personal authorization/sponsorship unknown. No overseasremote/Indiaengagement advertised, relocationnotassumed.
+
+Posted: Not stated on exact official career pages. Mirror24September2026/oldrepost dates not employer-confirmed, not treatedasnewposting.
+
+Pay: No numeric salary published on either exactofficialcareerpage or readableapplydestination. Do notuse DreamworkestimatedSGD216K-300K/160K-240K as employerpay. Bonus/equity/benefitsvalue unknown.
+
+Upside: Career-growth candidate(assessment): ownershipofmissioncriticalselfserviceeventplatform and seniortechnicalmentoring. Ambitiousplatformstretchforboth, MeenastrongerconfirmedKafkaStreamsandcloud-nativeleadalignment; Anupcanpositionsecureintegrations/distributedreliability. Compensationtoestablish,notproofincomeupgrade.
+
+Resume: Hands-on technical lead, event-driven cloud platform and reliability. UseMeenalead/backend/cloudresume. HighlightconfirmedKafkaStreams/KEDA,AWS/EKS/ECS,K8s/Helm/Istio,Terraform/GitOps,observability,productiondecisionsandmentoring. Maprealstreamingsemantics/capacity/failureexamples toFlinkpreparation,notclaimsameframework. Establishactual5yearprojectleadershipandFlink/Sparkdepth. ScreenpackageagainstSGD12000monthlytargetandonsite/oncallcost.
+
+Preparation: Explicitminimum5yearsleadingteamsorprojects, actual qualifyinghistory unconfirmed forboth; seniorityflexibility/details to establish notinventtenure. Essentialproductionstreamingpipelines withFlinkorSparkStreaming innewerpage; olderpagepreferablyFlink/Spark. Kafka/Streams experience transferablebutnotproofFlinkoperations. Prepare state/checkpoints/savepoints/recovery, eventtime/watermarks/backpressure, deliverysemantics, HA/safedeployments, KafkaConnect anddatacontracts. Datawarehouse/lakeIcebergDeltaHudi plusnotassumedmissingcapability.
+
+Hours/terms: OnsiteOneNorth, uptime/performanceandproductionoperations/incidentresponsibilityexplicit; oncallrotation, night/weekendcoverage, corehours, travel and compensation/timeoff unknown. Fulltimeemployee-stylelead, noB2Bcontractrateadvertised. Guaranteedbase/currency/period,bonus/equitysplit,localbenefits,probation,leave,noticeandpermanent/fixedtermunknown. Genericmedical/lifeinsurance/GrabFlex/leave listnotcash.
+
+Questions: Are744000155936241and744000147172280 onefundedopening andwhichactiveapplyURL? Singaporepasssupport, exactonsitedays/corehours/oncall/crossregionalcoverage/pay/timeoff? Guaranteedbase/periodandseparatebonus/equity,leadgrade/ICvspeopleleadscope? Flexibilityon5yearsleadingteams/projects, howmuchFlink/SparkproductionhistorymandatoryversusKafkaStreamstransfer? Platformownershipmentoringexpectations, reliability/capacity/oncallload, careerprogression?
+
+Verification: 19October2026: both officialGrabdescriptions accessible withApplyNow; newer744000155936241 apply redirect reaches SmartRecruitersoneclick shell showingexacttitle/GrabOneNorth, requiresJavaScript. NoCV/contactformreadable, live submissionworkflow unverified. OlderLinkedIn4436549174 saysnolongeraccepting, consolidatedasoldcopy notnewvacancy; doesnotestablishclosureofnewerprimaryreq. Confirmfundedintake beforeextensiveprep. Noapplicationorcontact.
