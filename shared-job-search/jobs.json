@@ -7740,9 +7740,10 @@
       "upside": "Career-growth candidate (assessment): real technical vision/architecture, regulated financial workflow ownership, seniorengineer mentoring and distributedsystem learning. Compensation to establish. Lower band below Meena target; prioritize only near target or concrete scope/conditions advantage, no assumed incomeuplift.",
       "deduplication_note": "NoEndowus exactreq/project/employer in134canonicaljobs/history or discovered_global_jobs and two preparedapplicationexports. Historicalcoverage remains incomplete. Matching Jobstore is alias notnewopening.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for actual ChatGPT alert; reconcile from delivered final next run, do not assert delivery now."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual prior final and supplied external-work history confirm delivery; exact time unknown."
       },
       "assessments": {
         "anup": {
@@ -7755,6 +7756,113 @@
           "priority_tier": 1,
           "resume_emphasis": "Hands-on technical lead, cloud-native event-driven modernization and mentoring",
           "tailoring": "Use Meena's lead/backend/cloud-native resume. Highlight actual NCS/LTA leadership and earlier fintech, Kafka/Streams/KEDA, AWS, Terraform/GitOps, production reliability, architecture reviews, stakeholder alignment and mentoring. Connect verifiable system decisions to data consistency and roadmaps. Establish Cassandra/Scala/Akka depth honestly, do not convert AI prototypes to production delivery. Screen guaranteedbase againstSGD12000monthlytarget early.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-19",
+      "sgd_comparison": "Applicable guaranteed Singapore/India cash not established; no FX conversion or current-package uplift claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; reconcile only after actual delivered final is evidenced."
+      },
+      "job_id": "seeq-backend-staff-principal-CD7BA6EE7B",
+      "employer": "Seeq",
+      "title": "Backend Software Engineer, Staff/Principal",
+      "requisition": "CD7BA6EE7B",
+      "url": "https://apply.workable.com/seeq/j/CD7BA6EE7B/",
+      "canonical_url": "https://apply.workable.com/seeq/j/CD7BA6EE7B/",
+      "url_aliases": [
+        "https://www.employbl.com/jobs/backend-software-engineer-staffprincipal-seeq-corporation-1745049"
+      ],
+      "import_source": "Exact official ATS search index, current October2026 employer-attributed HackerNews hiring post and matching Employbl description checked19October2026 Singapore date",
+      "posted": "Exact official original posting date unavailable. October2026 HN hiring thread carries exactrequisition; mirror refresh22September not employerpostingdate.",
+      "location": "Remote; official indexed header UnitedStates, employer-attributed HN post discusses other-country local pay",
+      "arrangement": "Fullyremote. Singapore/India eligibility unconfirmed, not worldwide-confirmed. Required Pacific-time crossover, exact window/amount unknown.",
+      "engagement_type": "Fulltime, no contractor/B2B mechanism advertised",
+      "eligibility": "Promising eligibility-unconfirmed lead: US header conflicts with broader employer-attributed HN discussion of nonUS hiring/local pay. Must be authorized to work in country of residence; current SG employmentpass is not unrestricted employer-transfer authorization. If US residence/right-to-work mandatory for this req, hard blocker. No relocation presumed.",
+      "published_compensation": "October2026 employer-attributed HN post: $170k-$205k salary range for US-based, plus annual cashbonus and equity; currency code and salaryperiod not explicit in retrievedpost. Matching exactreq Employbl mirror: $187500-220000USD, period/base split not explicit. Conflicting bands retained, not reconciled or assumed guaranteed. Both US-context, not applicable to SG/India; local pay adjusted bycountry and unknown. Bonus/equity separate nonguaranteed upside.",
+      "verification": "19October2026: exact officialrole/application URLs reopened, both returned zero readablecontent, no submission controls verified. Official searchindex current fulltime/remote description; primary OctoberHN hiringpost explicitly links exactCD7BA6EE7B. Matching Employbl fullbody accessible. Older LinkedIn4409476062 redirects expired; not used as activeintake proof. Currentliveform/fundedintake not fullyverified.",
+      "evidence_urls": [
+        "https://apply.workable.com/seeq/j/CD7BA6EE7B/",
+        "https://apply.workable.com/seeq/j/CD7BA6EE7B/apply/",
+        "https://news.ycombinator.com/item?id=49922569",
+        "https://www.employbl.com/jobs/backend-software-engineer-staffprincipal-seeq-corporation-1745049"
+      ],
+      "fit": "Staff-level architecture/technical direction, complex data-intensive backend systems, crossfunctional product delivery, mentoring, continuousdelivery/tests/refactoring and customercontext. Java/Kotlin/Rust/C++ alternatives accepted, Postgres/MySQL, distributedcomputing/cloud, GraphQL/gRPC/JVM. Industrial time-series analytics product with generativeAI features, not anMLresearch role.",
+      "preparation": "Staff influence and architecture ownership beyondticketdelivery need concreteevidence. Prepare data-intensive/time-series correctness/performance, database tuning, Kotlin/gRPC and cross-team tradeoffs, pairprogramming/customercommunication. Industrialdomain/Kotlin/gRPC and productionML not inferred. Demonstrate transferable Java engineering and learning.",
+      "authorization_sponsorship": "Must authorized in countryofresidence; noUSF1/H1B sponsorship perofficialindex. SG/India legalentity/employment/EOR support unknown. US-only requirement ifconfirmed ishardblock.",
+      "hours_on_call": "Employer-attributed HN requires some crossoverwithPST, not exacthours. For illustration09:00Pacific is00:00nextdaySG underPDT or01:00nextdaySG underPST; India21:30PDT or22:30PST. Confirm whetherPST usedliterally orPacificlocal plus minimumoverlap/oncall. Annualcompanymeetups advertised; location/cost/travel unknown.",
+      "terms": "Fulltimeemployee-style lead. UnlimitedPTO, homeofficeallowance, internet/mobile reimbursements and cashbonus/equity advertised; localcountry eligibility unknown. NoB2B/rate/guaranteedbilling advertised. Establish localbase/currency/period, leave, notice, benefits, employmentmechanism and meetuptravel.",
+      "questions": "IsCD7BA6EE7B funded/open with workingapplicationURL? Can SG/India residentsjoinwithoutrelocation, whichentity/EOR and authorization? IsUSheader restrictive? Applicable localguaranteedbase/currency/period and locationadjustment, resolveHN$170-205k versusmirrorUSD187500-220000USbands, bonus/equity separate, stafflevelauthority, exactPacificoverlap/nightload/oncall, annualmeetups, PTO/benefits/notice.",
+      "upside": "Career-growth candidate (assessment): staff/principal technicalownership for a data-intensive product. Compensation to establish; US salary is not SG/India income promise. Nighttimeoverlap could materiallyreduceworkingconditions.",
+      "deduplication_note": "NoSeeq/employer/exactreq in135jobledger/history or threeavailable runtime/applicationexports. Older CDBF1AE73C and titlevariants not countedseparate; broad staffAI/fullstack/devex openings not padded asadditionaljobs. Fullhistoricaldedupnotclaimed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend distributed systems, databases and modernization with credible staff scope",
+          "tailoring": "Use Anupbackend/platform resume. Show actual SQL/EBX data-integrity decisions, APIs/GraphQL, secureintegrations, Kafka, cloud/containerobservability and testedmodernization, with truthful tradeoffs and influence. Prepare time-series/performance/Kotlin/gRPC without inventingproductionexperience or metrics.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/platform, event-driven cloud and cross-team technical ownership",
+          "tailoring": "Use Meenalead/backend/cloud resume. Highlight Kafka/Streams/KEDA, Postgres/Redis, AWS, GitOps/Terraform, incident/designjudgment, mentoring and productstakeholderalignment. Establish staffcross-team impact; keepRAG/MCP/SpringAI examplesprototypes. Screen localguaranteedpay/overlap againstSGD12000monthlytarget and currentleadscope.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-19",
+      "sgd_comparison": "Applicable guaranteed Singapore/India cash not established; no FX conversion or current-package uplift claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; reconcile only after actual delivered final is evidenced."
+      },
+      "job_id": "decathlon-backend-java-F21200EA27",
+      "employer": "Decathlon Singapore",
+      "title": "Backend Software Engineer, Java / Spring Boot",
+      "requisition": "F21200EA27",
+      "url": "https://apply.workable.com/decathlon-sg/j/F21200EA27/",
+      "canonical_url": "https://apply.workable.com/decathlon-sg/j/F21200EA27/",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/backend-software-engineer-java-spring-boot-at-decathlon-4479332247"
+      ],
+      "import_source": "Exact official Workable index and current employer-attributed LinkedIn fulldescription checked19October2026 Singaporedate",
+      "posted": "Employer-attributed LinkedIn says2daysago atcheck; exactoriginaldate unavailable, not treatedasnewreqfromrefresh.",
+      "location": "Singapore",
+      "arrangement": "Singapore location confirmed, office/hybrid cadence not stated. Crossborderremote not advertised.",
+      "engagement_type": "Fulltime per employer-attributed LinkedIn; permanent/fixedterm unknown",
+      "eligibility": "Singapore location supported, personalworkrights/sponsorship unknown. No countryremote or relocation assumed.",
+      "published_compensation": "Base amount/currency/period unpublished. Salary accordingtoexperience. Monthlybonus basedonsalesperformance upto10%, baseofpercentage unspecified; annualcountryperformanceprofitsharing and shareholderopportunity, amounts/conditionsunknown. Allvariableupside separatedfromguaranteedbase.",
+      "verification": "19October2026: officialexactrole remains indexed withmatchingbody; directrole URL inaccessibleviabrowsingtool andapplyURLreturned no readablecontent. Employer-attributed LinkedIn4479332247 fulldescription accessible withApply andnoclosedmarker. Live officialform unverified; askfundedintake/correctapplicationroute.",
+      "evidence_urls": [
+        "https://apply.workable.com/decathlon-sg/j/F21200EA27/",
+        "https://apply.workable.com/decathlon-sg/j/F21200EA27/apply/",
+        "https://sg.linkedin.com/jobs/view/backend-software-engineer-java-spring-boot-at-decathlon-4479332247"
+      ],
+      "fit": "Directproductengineering forAPACecommerce backend andoperations: Java/SpringBoot microservices, REST/HTTPAPIs, OAuth2security, SQL/asynchronousmessaging, Kubernetes/CI/CD, observability, tests/reviews, architecturedecisionrecords and business-facing scoping/delivery.",
+      "preparation": "Advertised3+years withAssociate metadata: establish senior/leadgrade and ownershipappropriate8+/9+years, not automaticexclusion. Ecommerce advantage notmandatory. Prepare transactional/APIidempotency, asynchronousfailures, highavailability, ADRtradeoffs and operationalownership; do notinventretaildomainexperience.",
+      "authorization_sponsorship": "Unknown; currentSingaporeemployerpass notproofnewemployerworkauthorization.",
+      "hours_on_call": "APACcommerceoperations stated; corehours, oncall/weekend/salespeak support, compensation/timeoff, exactofficecadence andtravelunknown.",
+      "terms": "Fulltimelead; guaranteedbase, benefits/leave/notice/probation andpermanent/fixedtermunknown. Variablemonthlybonusupto10% andannualprofitsharing notguaranteed; ascertain roleeligibility andcalculationbasis.",
+      "questions": "IsF21200EA27 open/funded andcorrectapplyURL? Senior/leadgrade flexibility beyondAssociate3+years? GuaranteedSGbase/period, monthlybonus10%basis andconditions, profitshare/equity separate, sponsorship, officecadence, APACcorehours/oncall/peakweekends, designauthority, domainownership andgrowthroute?",
+      "upside": "Career-growth candidate only ifgrade/ownership/package justify move: directAPACcommerce productdelivery with security/reliability/architecture decisions. Compensation to establish; Meena lowerpriorityunlesslead-equivalent scopeandpay. Noassumedfinancialimprovement.",
+      "deduplication_note": "NoDecathlon/exactreq in135jobledger/history or threeavailable runtime/applicationexports. OneofficialreqandLinkedIncopyonejob; postedrefreshnotnewopening. Completehistoricalcoverage notclaimed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/backend, secure APIs and reliable distributed delivery",
+          "tailoring": "Use AnupJava/backend resume. Highlight actualSpring/Security/OAuth2, REST, SQL, Kafka, Kubernetes/CI/CD andobservability decisions. Connect verified delivery andperformance/resiliencedebugging toAPACcommerce; prepare truthfulADRexample. Screen gradeandpaybeforeextensivetestwork.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/backend cloud-native and operational reliability",
+          "tailoring": "Use Meenalead/backend resume. Highlight Kafka/Streams, AWS/K8s, automatedreleases, testing/observability, stakeholderdelivery andmentoring. Askforlead-equivalent ownershipandguaranteedpayagainstSGD12000/monthtarget; do notpresentAssociatelevelasautomaticpromotion.",
           "application_status": "Not applied or approved"
         }
       }
