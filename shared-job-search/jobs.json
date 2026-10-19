@@ -9676,9 +9676,10 @@
       "posted": "Original employer posting date not established; mirrors/repost/crawl dates not treated as original.",
       "authorization_sponsorship": "Singapore work location supported; personal work rights, employer sponsorship and legal employing entity unknown. Existing employer's pass not assumed transferable.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Reconciled after actual prior ChatGPT final delivery; no application or approval inferred."
       },
       "job_id": "grafana-loki-staff-sg-6206162004",
       "employer": "Grafana Labs",
@@ -9741,9 +9742,10 @@
       "posted": "Original employer posting date not established; mirrors/repost/crawl dates not treated as original.",
       "authorization_sponsorship": "Singapore work location supported; personal work rights, employer sponsorship and legal employing entity unknown. Existing employer's pass not assumed transferable.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Reconciled after actual prior ChatGPT final delivery; no application or approval inferred."
       },
       "job_id": "reap-apac-sre-8349286",
       "employer": "Reap",
