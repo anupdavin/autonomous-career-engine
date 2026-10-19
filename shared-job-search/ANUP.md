@@ -1343,3 +1343,127 @@ Questions: Is exact Java intake actively staffing a funded seat or only bench? W
 Verification: 19 October 2026: official G2i Ashby current board search lists Java-title remote Contract; exact req indexed. Exact req direct open inaccessible; generic equivalent only JS shell, so live form not verified. Employbl explicitly links exact3b5req and mirrors worldwide/rate/project-seat terms; Built In shows contradictory USA metadata. Older evaluator listing removed14Aug2026 and mentions filled bench, so new funded availability not assumed.
 
 Deduplication: Compared154jobs/history and3runtime exports. Consolidates generic/JavaScript/TypeScript/Go AI-evaluator title streams with substantially same duties; not5new opportunities. RecruitmentRoom earlier task-writing/verifier coding role differs from G2i interaction-judgment/recorded-feedback workflow and rate/process; end client undisclosed, so underlying client overlap still to establish.
+
+## New review leads checked19October2026 - Temus, Thunes and Firmus
+
+New role alerts remain pending delivery; no applications or approvals inferred. Prior Patsnap/G2i delivery reconciled from actual final, not new source checks.
+
+### Temus: Full Stack AI Engineer
+
+[Direct application/listing](https://job-boards.greenhouse.io/temus/jobs/5439381008)
+
+Priority: 1. Career-growth candidate assessment: end-to-end applied-AI/cloud application delivery and client-facing engineering ownership. Compensation and seniority to establish.
+
+Location/type: Singapore location; office/hybrid cadence unstated. Not advertised overseas remote. Not stated; employee/full-time versus contract to confirm
+
+Eligibility: Singapore location supported; candidate-specific sponsorship/work rights unknown. Citizenship field does not establish a citizenship-only restriction.
+
+Pay: No numeric salary, base/variable or equity amount published on exact observed role description.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD calculation or current-package uplift claimed.
+
+Fit: Java accepted for full-stack application engineering, Spring/Quarkus/API integration, relational data, cloud, CI/CD/GitOps, secure delivery and observability. Client delivery in finance/public sector valued. Role expects production-grade AI/GenAI application delivery, LLM/RAG/agent integration and3years implementation of CI/CD/container/IaC/testing.
+
+Prepare: Applied-AI delivery stretch, not MLresearch. Establish actual production GenAI delivery separately from AI-assisted coding and prototypes. Prepare evaluation, grounding/tool boundaries, security, failure handling and real IaC implementation evidence.3-7relevantyears is advertised; discuss level rather than invent tenure or automatically exclude8+/9+.
+
+Resume: Use Anup Java/full-stack/AI-assisted engineering resume. Foreground Spring, Angular/TypeScript, secure APIs, relational data, AKS/K8s, CI/CD and verified context/review practices with coding agents. Establish any actual AI application implementation separately; do not turn Cursor/Codex usage into production RAG/agents. Prepare secure end-to-end integration demonstration.
+
+Hours: Core hours, cross-client/global overlap/DST, on-call and production-support rota/pay unknown.
+
+Terms: Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.
+
+Questions: Are verified prototypes plus senior enterprise/cloud delivery considered against productionGenAI expectation? What initial project, backend/frontend stack and senior/lead level? SG guaranteedbase/period/variable/equity, sponsorship, exact attendance, support/on-call/core hours, client security restrictions, employment duration and actual3-yearIaC expectation?
+
+Verification: 19October2026: full official Greenhouse description and named application fields including resume/citizenship/notice and Submit application readable; no closed marker. No submission tested.
+
+Deduplication: No Temus/full-stack-AI req or matching client project found in156-jobledger/history or3runtime/application exports. Other Temus AI-title vacancies not separately alerted without distinct scope verification.
+
+### Thunes: Senior Software Engineer (B2B/B2X)
+
+[Direct application/listing](https://sg.linkedin.com/jobs/view/senior-software-engineer-b2b-b2x-at-thunes-4476842313)
+
+Priority: 2. Career-growth candidate assessment: direct payments product employer, full-stack/API reliability and release ownership. Compensation to establish, not guaranteed improvement.
+
+Location/type: Singapore-based; mirror labels onsite. Employer-wide hybrid policy exists but exact role cadence unknown. Not overseas remote. Full-time on employer LinkedIn; permanent versus fixed-term unknown
+
+Eligibility: Singapore work location supported. Personal rights/sponsorship unknown; not an eligible India-remote application.
+
+Pay: No numeric salary, base/variable or equity amount published on exact observed role description.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD calculation or current-package uplift claimed.
+
+Fit: Payment full-stack services and APIs, scalability/security, relational databases, release automation and own-code delivery. Golang explicitly Required, VueJS or similar framework accepted. AWS/PostgreSQL/Docker and Python/Perl stack.
+
+Prepare: Language-transition stretch, not Java vacancy. Establish actual Go capability and employer openness to senior Java transfer. Anup's limited Go must not be overstated; Meena's Go depth unconfirmed. Angular/TypeScript transfers but Vue/Perl and high-availability payment operations need preparation.
+
+Resume: Use Anup payments/full-stack resume. Highlight GreatEastern integrations, API security, SQL, release reliability, Angular/TypeScript and cloud delivery. State limited actual Go honestly and offer genuine code/learning evidence; do not claim production Go expertise. Prepare idempotency/retries and Vue framework transfer.
+
+Hours: Product operates24/7 and international technology coordination stated; actual rota, night/weekend support, overlap/DST and compensation unknown.
+
+Terms: Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.
+
+Questions: Is intake8011534003 funded/current despite corporate ATS redirect? Required immediate Go depth and Java-transition flexibility? Which B2B/B2X ownership versusCore team, senior level, SGbase/period/variable/equity, sponsorship, attendance/on-call/overlap, employment duration and notice?
+
+Verification: 19October2026: employer LinkedIn full description with Apply and Full-time visible, no closed marker. Matching VueJobs links exact8011534003 corporate application; corporate route redirects to jobs index with no readable vacancy/form, and exact Greenhouse role inaccessible. Live applicant form/current funded intake not fully verified.
+
+Deduplication: No Thunes in ledger/runtime exports. Distinct B2B/B2X full-stack role reporting to a lead, versusCoreengineeringteam-management/payoutarchitecture lead. JuniorSoftwareEngineer variant not separately alerted; recruiter/mirror copies consolidated.
+
+### Thunes: Software Engineering Lead (Core)
+
+[Direct application/listing](https://sg.linkedin.com/jobs/view/software-engineering-lead-core-at-thunes-4455674662)
+
+Priority: 3. Career-growth candidate assessment: direct ownership of core payment infrastructure, team development and architecture roadmap. Package and actual authority to establish.
+
+Location/type: Singapore-based; exact onsite/hybrid cadence unknown. Employer-wide flexible-hybrid benefits do not confirm role-specific attendance. Full-time on employer LinkedIn; permanent/fixed-term duration unconfirmed
+
+Eligibility: Singapore work location supported; candidate-specific work rights/sponsorship unknown. Not advertised remote from India.
+
+Pay: No numeric salary, base/variable or equity amount published on exact observed role description.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD calculation or current-package uplift claimed.
+
+Fit: Manage and mentor core engineering team; hands-on high-throughput payout API/microservice architecture, security, PostgreSQL, AWS/EKS, CI/CD and AI-assisted development. Strong hands-on Golang expressly required; Python/Perllegacy modernization and Vue stack.
+
+Prepare: Hands-on engineering-lead and Go-specialist stretch. Establish leadership scope, Go proficiency and high-volume API decisions from actual evidence. Java payments/cloud leadership transfers but does not prove immediate Go expertise. Prepare legacy modernization, PostgreSQL/SLAs and team engineering standards.
+
+Resume: Use Anup payments/backend resume. Highlight actual paymentintegration, security, SQL/performance, cloud/CI/CD and architecture decisions. Establish real mentoring/technicaldirection scope and limitedGo honestly; title ambition is not proof of leadership or productionGo tenure. Prepare end-to-end payout resilience design.
+
+Hours: Own24/7 reliability/SLA of payout platform and coordinate globally. Exact personal escalation/on-call rota, working hours/DST and compensation unknown;24/7service is not a24hour workday.
+
+Terms: Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.
+
+Questions: Current fundedCorelead intake and usable corporateATS link? Go proficiency/ramp expectations, team size and people-management versushands-on split, SGbase/currency/period/bonus/equity/passsupport, officecadence, globaloverlap/DST, escalation/oncallpay, employmentduration/notice?
+
+Verification: 19October2026: complete employer LinkedIn description, Apply and Full-time readable, no closed marker; StartupJobs matches detailed responsibilities. Corporate current vacancies page/Greenhouseboard redirects without readable role/form. Final application workflow unverified.
+
+Deduplication: Distinct lead role managingCoreengineeringteam and mission-critical payout architecture versusB2B/B2Xseniorfullstackreq8011534003. Related olderTreasurySystemslead is closed and not treated as same currentreq or new additional opening. Endteam boundaries to confirm.
+
+### Firmus Technologies: Senior Kubernetes Platform Engineer
+
+[Direct application/listing](https://job-boards.greenhouse.io/firmus/jobs/5453599008)
+
+Priority: 4. Career-growth candidate assessment: estate-scale platform ownership, safe operationalautomation and seniorincidentleadership inAIinfrastructure; not MLresearch. Lowestpriorityunless real specialist evidence supports requirements. Compensation to establish.
+
+Location/type: Based inSingapore orAustralia; travel toAustralianAIFactorysites as required. Remote/hybrid/onsite cadence unstated. No relocation assumed; India-based remote not advertised. Not stated; full-time/permanent versus contract to confirm
+
+Eligibility: Singapore location explicitly supported. Candidate-specific work rights/sponsorship unknown; Australia-site travel permission/support not established.
+
+Pay: No numeric salary, base/variable or equity amount published on exact observed role description.
+
+SGD: No applicable numeric guaranteed annual cash established; no SGD calculation or current-package uplift claimed.
+
+Fit: GPU/multi-tenant Kubernetes fleet lifecycle, controller/operator/admission code, control-plane/etcd recovery, CNI/CSI, GPUOperator, GitOps/IaC and guarded remediation.8+overall experience plus substantialproductionK8sownership required, not8yearsK8sspecified.
+
+Prepare: Deep platform-specialist stretch. Establish actual control-plane/fleet ownership, productionoperator/controllercode, GPUdeviceplugins/scheduling and virtualtenantisolation. ApplicationdeploymenttoK8s alone is not this expertise. Prepare recovery/runbooks, security and Go/Python/Bash operationalautomation without inventing specialisttenure.
+
+Resume: Use Anup backend/platform resume. Highlight genuine AKS/K8s/Helm/Rancher, release/observability/security and incidentdiagnosis. Establish controllercode, etcd recovery, GPU and fleetoperations evidence separately; do not describe workloaddeployment as fleetadministration. Prepare one actual failure/recovery narrative.
+
+Hours: Function runs24/7 with operationscentre first response. This role explicitly shares after-hours domain escalation roster. Frequency, corehours, night/weekend load, compensation and travel frequency unknown.
+
+Terms: Employment entity, permanent/fixed-term duration, leave/benefits, notice/probation and any negotiated travel/expenses unknown.
+
+Questions: Is application/platform background with Kubernetes automation considered, or immediatefleet/GPU/controllerexpertise essential? SGentity/passsupport, type/duration, guaranteedbase/bonus/equity, onsitecadence, travel frequency/expenses/workpermissions, escalationrota/pay/TOIL, teamcoverage and decisionauthority?
+
+Verification: 19October2026: complete official Greenhouse description and named application fields including workingrights/currentbase and Submit readable. Singapore/Australia base, requiredAustraliantravel and afterhours escalation explicit. No closed marker; no submission tested.
+
+Deduplication: No Firmus/employer-equivalent in156jobledger/history or3runtime exports. Distinct platformoperations domain, not recruiter copy or previouslyreported Javaapplication/DevOps track.
