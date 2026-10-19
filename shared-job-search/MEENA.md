@@ -1346,7 +1346,7 @@ Deduplication: Compared154jobs/history and3runtime exports. Consolidates generic
 
 ## New review leads checked19October2026 - Temus, Thunes and Firmus
 
-New role alerts remain pending delivery; no applications or approvals inferred. Prior Patsnap/G2i delivery reconciled from actual final, not new source checks.
+These four role alerts were delivered in the actual prior ChatGPT final on19October2026 and are reconciled as reported. No new source check, application or approval inferred. Prior Patsnap/G2i delivery remains recorded.
 
 ### Temus: Full Stack AI Engineer
 
