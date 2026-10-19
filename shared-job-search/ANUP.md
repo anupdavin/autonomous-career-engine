@@ -946,7 +946,7 @@ Deduplication: Latest142-jobledger/history and three available runtime/applicati
 
 ## New review leads checked 19 October 2026
 
-Pending ChatGPT delivery; no application or approval inferred.
+Delivered in prior ChatGPT final on19October2026; reconciled from actual conversation. No application or approval inferred.
 
 ### Maltem Asia-Pacific / Maltem Group: Senior Java Developer (Apache Camel / Spring Boot)
 
@@ -1011,3 +1011,71 @@ Questions: Is JT/JC/5422 still funded and is5273the same client/project? Can SG-
 Verification: 19 October 2026: specialist recruiter's exact description live with Apply for Vacancy; exact application page shows name/email/telephone/CV fields and EU Nationality selector. No closed marker. Posting date unavailable and template-like older near-copy exists, so confirm current funded vacancy and client. No submission/contact.
 
 Deduplication: Compared latest 144-job ledger, report history and three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed. JT/JC/5273 uses substantially identical description with different engineering/healthcare client label, city and rate. Conservatively linked as possible same project/template and not separately alerted; client distinction unconfirmed.
+
+## New remote Java and platform leads checked19October2026
+
+Pending ChatGPT delivery; no application or approval inferred.
+
+### EndLabs (formerly Gugli per employer LinkedIn): Java Backend Engineer
+
+[Job page](https://endlabs.ai/careers)
+
+Priority: 1. Career-growth candidate assessment: enterprise integration with applied AI delivery. Compensation to establish; senior/lead grade and earning potential not established.
+
+Location and type: Full-time Remote; global remote policy stated, country-specific employment/payroll mechanism unconfirmed. Not an India onsite/hybrid opening.. Full-time; employment entity, permanent/fixed-term and B2B/EOR alternatives unconfirmed
+
+Eligibility: Worldwide-style remote policy advertised, but Singapore/India engagement support and personal authorization/sponsorship unconfirmed. Country-unconfirmed lead, not guaranteed hiring from either country; no relocation assumed.
+
+Pay: No numeric pay published in retrieved exact role description. Currency, period, base/variable/equity and applicable country package unknown.
+
+SGD comparison: No applicable guaranteed pay established; no annual SGD conversion or uplift claimed.
+
+Fit: Enterprise Java/Spring Boot REST/microservices/security and distributed-system integration, connecting AI systems to banking cores, ERPs and legacy platforms.4+Java years, existing-codebase comprehension and integration judgment; fintech/insurance, AI integration and Kafka/RabbitMQ nice-to-have.
+
+Prepare: Prepare safe AI-to-legacy integration, scoped tools, API/data contracts, retries/idempotency and observability. Establish actual core-banking/ERP/CRM integration depth and desired senior/lead scope. Java role does not specify production ML research or the AI Engineer role's3+productionAIyears; do not transfer those separate requirements or invent productionAIusage.
+
+Resume: Use Anup backend/integration resume. Highlight Java21/Spring3/Security, confirmed Camel, payments, OAuth2/mTLS, REST, SQL/MDM, Kafka and cloud modernization. Explain reliable integration decisions with verified outcomes. Describe Cursor/Copilot/ClaudeCode/Codex verification separately from any unconfirmed production AI delivery.
+
+Hours: Core timezone/client overlap, seasonal DST, support/on-call, travel and overtime unknown.
+
+Authorization: Unknown. Establish SG-resident and India-resident employment/EOR/B2B options and lawful work rights; remote policy alone does not grant permission.
+
+Terms: Entity, employment duration, salary payment terms/currency, paid leave/benefits, notice/probation and client-assignment continuity unknown; B2B terms not advertised.
+
+Questions: Is Java vacancy staffed/funded now and what client/project? SG and India country/entity options, sponsorship and B2B/EOR? Actual senior/lead ownership, team/reporting and AI-versus-integration scope? Applicable guaranteed base/currency/period, variable/equity, benefits/leave/notice, client overlap/on-call/travel? Which production integration skills required on day one?
+
+Verification: 19October2026: official careers page lists Java Backend Engineer under Current openings, Full-time Remote, and displays named application fields plus Submit Application. No closed marker; form not submitted. Employer LinkedIn links same domain and describes EndLabs/Gugli rebrand. Website footer's LinkedIn target returned404 but separate company page exists; startup legal entity/client funding and job freshness should be established. Original date unavailable.
+
+Deduplication: Compared latest146-job main ledger/report history plus three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.
+
+### NinjaOne: Lead DevOps Engineer, India / Singapore overlapping deployment-platform track
+
+[Job page](https://jobs.jobvite.com/ninjaone/job/oVcTAfwk)
+
+Priority: 2. Career-growth candidate assessment: developer-platform and release-automation leadership at product employer. Platform-specialist stretch, stronger alignment for Meena; compensation to establish and operational load may outweigh upside.
+
+Location and type: India role explicitly Remote,Bangalore; confirm whether must reside Bangalore or can work elsewhere India. Singapore alternate hybrid. Substantially identical responsibilities consolidated as one hiring track, not two alerts.. Employment-style role; full-time schedule and permanent/fixed-term duration not explicitly established in retrieved description. No B2B arrangement advertised.
+
+Eligibility: India remote location confirmed; valid India working rights required at application, no sponsorship. SG alternate requires valid SG working rights at application and explicitly no visa sponsorship. SG variant is a hard blocker if a new employer-sponsored pass is needed; current employer's pass does not establish transferable permission. Not worldwide or SG-based remote for India listing; no relocation assumed.
+
+Pay: No numeric pay published in retrieved exact role description. Currency, period, base/variable/equity and applicable country package unknown.
+
+SGD comparison: No applicable guaranteed pay established; no annual SGD conversion or uplift claimed.
+
+Fit: Hands-on leadership in global SaaS production release engineering, automated deployment frameworks/self-service workflows, rollback/playbooks, CI/CD modernization and mentoring. CI/CD including GHA/Jenkins/GitLabaccepted; IaC Terraform/CDK/CloudFormation/Ansible, artifacts and Python/Go/Bash programming. AWS/K8s/DevSecOps/DORAnice-to-have.
+
+Prepare: 7-10+years specificallyDevOps/platform/build-release/cloudorrelated scope requested, not merely totalJava tenure. Establish actual dedicated platform/release leadership and scripting/IaC depth; no invented tenure. Prepare release orchestration, rollback, artifact provenance and emergency deployment examples; CircleCI/Artifactory transfer points, not assumed incapacity.
+
+Resume: Use Anup backend/platform resume. Highlight verified K8s/Helm/Rancher/AKS, CI/CD, observability, secure deployment and Tomcat/EBX modernization. Explain actual release/rollback and operational ownership. Establish scripting/IaC and platform-lead depth; do not recast8+totalengineeringyears as8+DevOpsyears or littleGo as strongGo.
+
+Hours: Shares production release/maintenance/emergency-deployment coverage with US Platform Engineering. Exact SG/India shifts, US overlap zone/DST, on-call rota, night/weekend load and pay/time off unknown.
+
+Authorization: Explicitly no sponsorship in both country variants. Must have valid country-specific working rights at application. Personal eligibility not inferred.
+
+Terms: Hours/week, employment duration, applicable benefits/leave, probation/notice, travel and employment entity unknown. No overseas B2B rate or SG package for India role established.
+
+Questions: India role allows remote outsideBangalore? Existing working-rights interpretation and SG no-sponsor blocker? Employmenttype/hours/entity, applicable India versus SGbase/currency/period/variableequity? Flexibility on specialist7-10+years, lead scope, release-versus-development balance, exact USoverlap/DST/on-callnightweekend/pay, office days, leave/notice and travel?
+
+Verification: 19October2026: both exact descriptions linked from employer current open-opportunities board. India Apply opens correct Jobvite route but only Data Consent country/language shell, so complete form/intake verification incomplete. No closed marker. SG no-sponsorship statement and India no-sponsorship preserved.
+
+Deduplication: Compared latest146-job main ledger/report history plus three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.
