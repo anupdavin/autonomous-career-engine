@@ -1515,7 +1515,7 @@ Verification: 20 October 2026 Singapore: official role description, VR-125579/da
 Deduplication: Not in 160 canonical records, history or three runtime exports. Compared existing Luxoft VR-123976 React/Azure role, VR-124976 FX eTrading, VR-125088 trading and VR-125461 structured-products Kotlin. This exact requisition advertises Angular-acceptable enterprise SPA plus ADFS/MQ/back-office scope, not a renamed exact req. End-client/system identity remains unconfirmed; consolidate if recruiter confirms the same project.
 
 
-## New findings checked 20 October 2026: pending ChatGPT delivery
+## Findings checked 20 October 2026: prior ChatGPT alert delivered
 
 ### Priority 1: Plaud: Senior Backend Engineer - SG (evaluation platform and data governance)
 
@@ -1582,4 +1582,55 @@ Questions: Does Java financial-platform delivery qualify despite explicit produc
 Verification: 20 October 2026 Singapore: employer LinkedIn full description and Apply readable, full-time SG and 100% remote/travel2-4 explicit; no closed marker. Exact official ATS indexed Remote Australia/Singapore full-time, direct page JS shell; final application form unverified. Matching BuiltIn description corroborates scope, but its AI benefits summary/estimates not used.
 
 Deduplication: No Tilt/Empower/Cashalo track in162ledger/history or three runtime exports. One SG/Australia remote req, not separate location copies. Not inferred eligible merely from US employer HQ; SG role-specific evidence exists.
+
+
+## Additional findings checked 20 October 2026: pending ChatGPT delivery
+
+### Priority 1: Tala: Senior Backend Engineer
+
+[Application](https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906)
+
+Eligibility/type: India remote advertised. Singapore engagement is not advertised and must not be presumed. India residence/work-rights and employment mechanism to establish; no relocation assumed. Full-time; permanent/fixed-term terms unknown
+
+Pay: No numeric salary/rate or cash/equity breakdown published on exact official description. No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.
+
+Fit: Java/Kotlin/Scala with Spring, cloud microservices, REST, data integration, relational and non-relational stores. Hands-on technical leadership owns domain design/roadmap, reviews, reliability, mentoring and production outcomes. AI fluency includes reusable context assets/prompts/skills, agent-sized work and verification/accountability, not ML research.
+
+Prepare: Demonstrate multiple production-validated domain-significant projects and actual leadership scope without inventing consumer scale. Establish strong non-relational store experience (Cassandra/Redshift/DynamoDB/HDFS examples), distributed failure design, EDD review, SLOs, incident leadership and team-wide AI context/verification adoption. Individual coding-agent use alone does not prove domain-wide practice adoption. No sensitive borrower/PII/secrets in AI prompts.
+
+Resume: Use Meena's lead/backend/cloud resume. Foreground technical Scrum leadership/mentoring, Java21/Spring3, AWS/EKS, KafkaStreams, reliability and design decisions. Prepare an EDD-style failure/recovery design and actual incident/outcome narrative. Establish coding-agent/context practices separately from SpringAI/RAG/MCP prototypes; no invented domain-wide adoption.
+
+Hours: Asynchronous cross-timezone work explicit. Domain incident leadership, shifts/runbooks/RCA, SLIs/SLOs and production response expected. Core overlap/US hours/DST, rota frequency, night/weekends and compensation unknown.
+
+Terms: Employment entity, duration, probation/notice, leave, benefits and remote equipment/travel policy unknown.
+
+Questions: Is India residence mandatory and any SG employment/EOR/B2B alternative possible? Applicable India base/currency/period, separate bonus/equity, legal entity/rights/pass support, remote attendance/travel, global overlap/DST and incident rota/pay? Expected evidence for consumer-scale production domain leadership and NoSQL depth?
+
+Verification: 20October2026 Singapore: official Lever complete description and vacancy-specific application fields/Submit visible, IN Remote Full-time. No closed marker; no submission performed. Generic US voluntary demographics in form do not change IN job location.
+
+Deduplication: No Tala/employer/client-equivalent in165shared jobs/history or3runtime exports. One India product-engineering domain-lead track; not generic regional copies. Public client footprints inAfrica/LATAM/Asia do not create hiring eligibility there or Singapore.
+
+### Priority 2: CoinMarketCap / Coin Market Cap Ltd: DevOps Engineer - Contractor (current description is Java backend engineering)
+
+[Application](https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3)
+
+Eligibility/type: Official Global remote lead. Singapore/India accepted residence, legal contracting/entity and payment support require clarification; not represented as confirmed local hiring. Contractor; B2B/individual structure, full-time/part-time hours and duration unknown
+
+Pay: No numeric salary/rate or cash/equity breakdown published on exact official description. No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.
+
+Fit: Despite DevOps title, exact current responsibilities/requirements are Java backend architecture, SpringBoot/Cloud microservices, JVM/concurrency, caches/async/rate limiting/circuit breakers, Kafka/Redis/MySQL/Elasticsearch, auth/OAuth2/JWT/SSO/RBAC, distributed consistency and K8s. AWS plus. Description says3-5+Java and allows exceptional graduates, so exact senior grading critical.
+
+Prepare: Title/description mismatch: confirm whether actual funded Java backend or DevOps seat before application effort. Prepare JVM/threadpool/concurrency tuning, distributed locks/idempotency/transactions and security, and establish Elasticsearch/SpringCloud requirements. User's Java/Kafka/cloud evidence transfers; do not infer every named middleware or production scale.
+
+Resume: Use Meena's hands-on backend/cloud lead resume. Highlight Java21/Spring3, Kafka/Redis, AWS/EKS, observability, secure releases and actual architecture/review mentoring. Prepare failure containment/idempotency examples. Confirm lead-level authority, rate and contract economics against her goals instead of relying on DevOps title.
+
+Hours: Production troubleshooting and high-concurrency reliability expected. Core hours/APAC overlap, on-call, night/weekend load and compensation unknown.
+
+Terms: No published minimum billable volume, hourly/day length, paid/unpaid leave, project duration, renewal/cancellation, notice, payment schedule/currency/fees or equipment/expenses. Contract revenue not employee salary. Generic corporate benefits/crypto-pay option not established for this contractor.
+
+Questions: Is the current job description correct: Java backend or DevOps? Which team/project and actual senior grade? May SG- or India-based individuals/B2B contract, at what applicable rate/currency/period? Minimum guaranteed hours, duration/renewal/cancellation/notice, paid/unpaid leave, invoice/payment/FX fees, overlap/on-call and legal work permission?
+
+Verification: 20October2026 Singapore: current official Lever board includes exact DevOps contractor vacancy, full Java backend description and vacancy-specific application fields/Submit readable. Global remote header retained. No closed marker; role-title mismatch unresolved and no submission made.
+
+Deduplication: Only priorshared CoinMarketCap role is27d52a7f AI Agentic Trading Expert, different responsibilities/req. No matching endproject/req in165ledger/history or3runtime exports. Old Java Engineer Contractor mirrors absent current board; no fresh job count from those aliases or estimated salaries. This is one current contractor req assessed by actual backend description, with mismatch explicit.
 
