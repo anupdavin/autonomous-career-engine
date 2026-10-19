@@ -8628,9 +8628,10 @@
       "checked_at": "2026-10-19T11:48:31Z",
       "posted": "8 October 2026 per JobScroller/Alion; original primary posting timestamp not verified",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Reconciled after actual delivered ChatGPT final supplied in external conversation. Date only; no fresh source check/application inferred."
       },
       "status_at_last_check": "Current public role listing; no application submitted",
       "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
@@ -8690,9 +8691,10 @@
       "checked_at": "2026-10-19T11:48:31Z",
       "posted": "Original posting date unavailable",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Reconciled after actual delivered ChatGPT final supplied in external conversation. Date only; no fresh source check/application inferred."
       },
       "status_at_last_check": "Current public role listing; no application submitted",
       "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
@@ -8755,9 +8757,10 @@
       "checked_at": "2026-10-19T11:48:31Z",
       "posted": "Original posting date unavailable",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Reconciled after actual delivered ChatGPT final supplied in external conversation. Date only; no fresh source check/application inferred."
       },
       "status_at_last_check": "Current public role listing; no application submitted",
       "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
@@ -8806,6 +8809,143 @@
           "priority_tier": 2,
           "resume_emphasis": "Cloud-native lead / platform delivery and developer automation",
           "tailoring": "Use Meena cloud/platform lead resume. Prioritize AWS ECS/EKS, Terraform, ArgoCD/GitHubActions/Jenkins, Istio/K8s, observability and DevSecOps. Describe real IaC/release ownership and recovery decisions with verified outcomes; establish infrastructure scale and 4+ dedicated DevOps/platform years rather than assume them.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "Public employer/ATS and matching source pages checked 19 October 2026; shared ledger and runtime exports compared",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T13:02:31Z",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for new ChatGPT alert; no delivery event recorded before actual final."
+      },
+      "posted": "Original posting date unavailable",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "sgd_comparison": "No applicable numeric guaranteed annual cash established; no SGD annual calculation or uplift claimed.",
+      "authorization_sponsorship": "Personal work authorization and sponsorship unknown; no existing pass portability inferred.",
+      "application_status": "Not applied or approved",
+      "job_id": "patsnap-backend-senior-materials",
+      "employer": "Patsnap",
+      "title": "Backend Engineer / Senior Backend Engineer",
+      "url": "https://careers.patsnap.com/o/backend-engineer-senior-backend-engineer",
+      "canonical_url": "https://careers.patsnap.com/o/backend-engineer-senior-backend-engineer",
+      "url_aliases": [],
+      "location": "Singapore, Central Singapore; SG - Materials team",
+      "arrangement": "Onsite, in-office Singapore explicitly required. Exact attendance days unstated. Not remote from India.",
+      "engagement_type": "Not stated on exact page; full-time/permanent versus contract to confirm",
+      "eligibility": "Singapore work location confirmed. Personal authorization and sponsorship unknown. Form permits EP/SP/Other status and Mandarin None, but these options do not promise sponsorship or establish language flexibility.",
+      "published_compensation": "No numeric salary or bonus/equity published on exact official role. Form requests base salary and OTE expectations separately in SGD; that is not an employer pay band.",
+      "compensation_geography": "Applicable Singapore package and global/location-adjusted policy unknown. No India remote/B2B arrangement advertised.",
+      "hours_on_call": "Core hours, global overlap/DST, production-support/on-call rota and compensation unknown.",
+      "terms": "Employment entity, type/duration, leave/benefits, notice/probation and attendance count unknown.",
+      "fit": "Java/Spring Boot microservices and REST, SQL/NoSQL tuning, CI/CD and containers; independent design-to-production project ownership, performance/reliability and engineering standards. 3+ Java-backend years minimum; actual senior grading needs screening.",
+      "preparation": "Prepare database profiling, service scalability, testing and production-root-cause examples. Establish NoSQL depth and degree equivalence where relevant without inferring inability. Mandarin proficiency question includes None; confirm real team/client communication expectations, not automatic exclusion.",
+      "upside": "Career-growth candidate assessment through direct product-employer backend and architecture ownership; compensation/seniority to establish, especially for an existing lead. AI-powered product employer does not mean production agent-building responsibilities.",
+      "questions": "What senior versus backend grade and project/architecture authority? SG guaranteed base, period, separate variable/equity and Meena target fit? Employment type and sponsorship? Mandarin working expectations? Exact office days, core hours/on-call, notice/leave and team size?",
+      "verification": "19 October 2026: complete official description, in-office arrangement and named applicant fields including resume, work-pass status, Mandarin proficiency and separate base/OTE expectations visible with Send. No submission tested. Success/already-applied strings appear as static page template states and are not evidence of any application.",
+      "status_at_last_check": "Official description and application fields live; no application submitted",
+      "source_evidence": [
+        {
+          "url": "https://careers.patsnap.com/o/backend-engineer-senior-backend-engineer",
+          "checked_at": "2026-10-19T13:02:31Z",
+          "observation": "Exact onsite SG Java backend role and named applicant fields readable; salary absent"
+        }
+      ],
+      "deduplication_note": "No Patsnap/employer-equivalent found in154-job ledger, alert history or three runtime/application exports. Mainsoft copy surfaced as related search item only, not a separate opportunity; no duplicate recruiter alert.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend / secure integration and database modernization",
+          "tailoring": "Use Anup Java backend resume. Highlight Java21/Spring3, REST/security, PostgreSQL/Oracle/SQLServer/EBX data decisions, K8s/CI/CD and verified production diagnosis. Include an actual performance or reliability decision with measured outcomes only if recorded. Establish senior authority and package before long assessments.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend / cloud and event-driven delivery",
+          "tailoring": "Use Meena lead/backend resume. Emphasize independent enterprise delivery, Java21/Spring3, Kafka/Streams, PostgreSQL, AWS/K8s, technical reviews and mentoring. Prepare a design-to-production ownership example. Ask whether senior grade and architecture authority can meet career/package aims including SGD12000/month target, not current salary.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "Public employer/ATS and matching source pages checked 19 October 2026; shared ledger and runtime exports compared",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T13:02:31Z",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for new ChatGPT alert; no delivery event recorded before actual final."
+      },
+      "posted": "Original posting date unavailable",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "sgd_comparison": "No applicable numeric guaranteed annual cash established; no SGD annual calculation or uplift claimed.",
+      "authorization_sponsorship": "Personal work authorization and sponsorship unknown; no existing pass portability inferred.",
+      "application_status": "Not applied or approved",
+      "job_id": "g2i-ai-interaction-evaluation-3b5a7ce9",
+      "employer": "G2i Inc.",
+      "title": "Java of Senior Software Engineer, AI Training (coding-agent interaction evaluation)",
+      "requisition": "3b5a7ce9-e4a1-4ad8-8c2f-ccc0199f5792",
+      "url": "https://jobs.ashbyhq.com/g2i/3b5a7ce9-e4a1-4ad8-8c2f-ccc0199f5792",
+      "canonical_url": "https://jobs.ashbyhq.com/g2i/3b5a7ce9-e4a1-4ad8-8c2f-ccc0199f5792",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/g2i/7c54f48a-bd33-491a-8130-f1c9b1dfccb1",
+        "https://jobs.ashbyhq.com/g2i/f9897ef7-dc32-490a-b671-b7a4a93dee13",
+        "https://jobs.ashbyhq.com/g2i/96204444-cf33-4fc9-a4c2-55d9409abb37",
+        "https://jobs.ashbyhq.com/g2i/417be61a-8e99-4dea-be4f-43d0c9bda33c"
+      ],
+      "location": "Remote; worldwide in exact-req matching description, versus USA-only Built In metadata conflict",
+      "arrangement": "Remote project contract, flexible10-20hours/week advertised. SG/India eligibility not confirmed.",
+      "engagement_type": "Contract, project-based; qualification and project open seat required. Current funded seat unconfirmed, not immediate guaranteed work.",
+      "eligibility": "Promising eligibility-unconfirmed lead. Description says worldwide, but Built In labels USA. Direct ATS description unreadable. If actual intake is US-only, this is a hard blocker from Singapore/India; do not present as confirmed eligible.",
+      "published_compensation": "Exact-req matching description publishes $100-$200/hour depending on experience and location. Currency explicitly unstated in accessible current text; SG/India rate and acceptance not established. No employer-verified local band.",
+      "compensation_geography": "Explicit location-dependent rate. Do not assume SG/India receive upper end. Older evaluator copy has different geographic maxima and filled/bench language; not imported as current terms.",
+      "hours_on_call": "Flexible10-20hours/week advertised; exact live overlap/DST, minimum paid hours, accepted work volume and recording requirements to establish. No guaranteed weekly volume.",
+      "terms": "Projects about2weeks to severalmonths per matching description; start depends on take-home and open seat. Recorded Loom walkthrough required. Paid/unpaid assessment, leave, renewal/cancellation/notice, invoice/payment timing/currency/FX costs, equipment and expenses unknown. No annualization; contract revenue is not employee salary.",
+      "fit": "Evaluate Codex/ClaudeCode/Cursor interactions, engineering judgment and explanation usefulness, with written and recorded feedback. Not production ML or traditional feature engineering. Strong TypeScript/JavaScript or Python required despite Java-branded title; senior-equivalent judgment and EnglishB2+ expected.",
+      "preparation": "Demonstrate calibrated evaluation, clear English reasoning and genuine coding-agent workflow experience. Clarify language stream because Java title still requests TS/JS/Python. Prepare original feedback and recorded explanation; do not imply production ML/agent-building from assistant use.",
+      "upside": "Potential supplemental-income candidate assessment, conditional on location-specific rate and funded seat. Engineering-evaluation specialization, not established salary replacement or income upgrade.",
+      "questions": "Is exact Java intake actively staffing a funded seat or only bench? Worldwide versus USA restriction: are SG and India accepted, under which entity? Currency and location-specific rate, guaranteed/paid accepted hours, overlap/DST, assessment paid/independent-work policy, recording/privacy, payment cadence, fees, leave/cancellation/notice? Does Java-title track truly accept Java plus TypeScript without specialist Python?",
+      "verification": "19 October 2026: official G2i Ashby current board search lists Java-title remote Contract; exact req indexed. Exact req direct open inaccessible; generic equivalent only JS shell, so live form not verified. Employbl explicitly links exact3b5req and mirrors worldwide/rate/project-seat terms; Built In shows contradictory USA metadata. Older evaluator listing removed14Aug2026 and mentions filled bench, so new funded availability not assumed.",
+      "status_at_last_check": "Current official index contains title, but live form, SG/India intake and funded seat remain unconfirmed",
+      "source_evidence": [
+        {
+          "url": "https://jobs.ashbyhq.com/g2i",
+          "observation": "Current official indexed board includes Java title, Remote Contract"
+        },
+        {
+          "url": "https://jobs.ashbyhq.com/g2i/3b5a7ce9-e4a1-4ad8-8c2f-ccc0199f5792",
+          "observation": "Exact title indexed; direct open inaccessible"
+        },
+        {
+          "url": "https://www.employbl.com/jobs/java-of-senior-software-engineer-ai-trai-G2i-1813122",
+          "observation": "Exact ATS link and matching worldwide/rate/conditional-seat description; mirror updated16Oct not original posting date"
+        },
+        {
+          "url": "https://builtin.com/job/java-senior-software-engineer-ai-training/11709601",
+          "observation": "USA metadata conflicts with worldwide description"
+        },
+        {
+          "url": "https://builtin.com/job/senior-software-engineer-ai-interaction-evaluator-codex-claude-code-200-hr/9291569",
+          "observation": "Older removed evaluator/bench version not treated as confirmed current opening"
+        }
+      ],
+      "deduplication_note": "Compared154jobs/history and3runtime exports. Consolidates generic/JavaScript/TypeScript/Go AI-evaluator title streams with substantially same duties; not5new opportunities. RecruitmentRoom earlier task-writing/verifier coding role differs from G2i interaction-judgment/recorded-feedback workflow and rate/process; end client undisclosed, so underlying client overlap still to establish.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "AI-assisted senior engineering / TypeScript and code-review judgment",
+          "tailoring": "Use Anup AI-assisted backend/full-stack resume. Show actual Cursor/Copilot/ClaudeCode/Codex context and verification practices, TypeScript and concrete misleading-output/debugging examples. Explain judgment and feedback clearly without inventing evaluation employment, ML expertise or production agents. Establish eligibility/current seat before assessment.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/full-stack / review, mentoring and engineering standards",
+          "tailoring": "Use Meena lead/full-stack resume. Highlight Angular/TypeScript, code/design reviews, quality gates, mentoring and verifiable engineering tradeoffs. Establish actual Codex/ClaudeCode/Cursor use separately from ClaudeAPI/SpringAI prototypes. Prepare original written and spoken evaluation evidence, not claims of production ML work.",
           "application_status": "Not applied or approved"
         }
       }
