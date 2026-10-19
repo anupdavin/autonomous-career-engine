@@ -8491,9 +8491,10 @@
       "application_content_rule": "Applicants agree to use only their own words; plagiarism and AI/other generated content disqualify. Provide role analysis/preparation guidance only, not generated application text.",
       "deduplication_note": "Compared latest148-job ledger/history and three available runtime/application exports. Runtime Canonical records concern CloudSolutionsArchitect5915936/PublicCloud7490812/Kafka5218601/Sales4126502, not this security req. Generic Canonical default USD/B2B claims and unverified draft productionAI/location assertions not reused. Full historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT alert; not yet delivered."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and supplied external-work history establish delivery; exact timestamp unknown. Reconciliation does not refresh role evidence."
       },
       "assessments": {
         "anup": {
