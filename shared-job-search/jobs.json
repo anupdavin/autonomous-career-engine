@@ -7935,9 +7935,10 @@
       "terms": "Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.",
       "deduplication_note": "Compared against latest 138-job shared ledger, reported events and three available runtime/application JSON exports. No exact employer/project/requisition match. Distinct OGP product teams retained separately, not title variants. Complete historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert. Reconcile actual final delivery next run; not yet alerted."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and external work history confirm delivery; exact time unknown. Source verification unchanged."
       },
       "job_id": "jpmorgan-java-lead-210786862",
       "employer": "JPMorgan Chase",
@@ -7986,9 +7987,10 @@
       "terms": "Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.",
       "deduplication_note": "Compared against latest 138-job shared ledger, reported events and three available runtime/application JSON exports. No exact employer/project/requisition match. Distinct OGP product teams retained separately, not title variants. Complete historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert. Reconcile actual final delivery next run; not yet alerted."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and external work history confirm delivery; exact time unknown. Source verification unchanged."
       },
       "job_id": "ogp-payment-products-senior",
       "employer": "Open Government Products",
@@ -8034,9 +8036,10 @@
       "terms": "Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.",
       "deduplication_note": "Compared against latest 138-job shared ledger, reported events and three available runtime/application JSON exports. No exact employer/project/requisition match. Distinct OGP product teams retained separately, not title variants. Complete historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert. Reconcile actual final delivery next run; not yet alerted."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and external work history confirm delivery; exact time unknown. Source verification unchanged."
       },
       "job_id": "ogp-applied-experiments-senior-lead",
       "employer": "Open Government Products",
@@ -8082,9 +8085,10 @@
       "terms": "Employee role, not advertised as B2B. Permanent/fixed-term duration, leave, notice and benefit details unknown.",
       "deduplication_note": "Compared against latest 138-job shared ledger, reported events and three available runtime/application JSON exports. No exact employer/project/requisition match. Distinct OGP product teams retained separately, not title variants. Complete historical coverage not claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert. Reconcile actual final delivery next run; not yet alerted."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-19",
+        "note": "Actual prior ChatGPT final and external work history confirm delivery; exact time unknown. Source verification unchanged."
       },
       "job_id": "ogp-attendpa-lead",
       "employer": "Open Government Products",
@@ -8119,6 +8123,113 @@
       "url": "https://careers.open.gov.sg/o/lead-software-engineer-attendpa",
       "evidence_urls": [
         "https://careers.open.gov.sg/o/lead-software-engineer-attendpa"
+      ]
+    },
+    {
+      "employer": "Juniper Square",
+      "import_source": "Official current experienced-professionals board, exact Ashby destinations and matching descriptions checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "location": "India",
+      "published_compensation": "No numeric pay published in exact retrieved role descriptions. Currency, pay period, base/bonus/equity split and applicable India package unknown. Do not reuse generic runtime INR45L-65L or US/Canada bands from other roles.",
+      "sgd_comparison": "No applicable numeric guaranteed pay established; no annual SGD cash conversion or uplift claimed.",
+      "posted": "Original employer posting date unavailable; Built In relative refresh is not proof of a newly created requisition.",
+      "engagement_type": "Employee-style role; permanent/fixed-term duration unknown. No international B2B rate advertised.",
+      "authorization_sponsorship": "Unknown. India role location is not evidence of personal authorization; Singapore-based employment/EOR/B2B is unconfirmed.",
+      "terms": "Salary currency/period, benefits applicability, leave, notice, probation, travel and any contractor alternative unknown. Do not infer foreign-currency billing or renewal.",
+      "verification": "19 October 2026: listed on official current experienced-professionals board; exact Ashby link opens correct title but JavaScript shell prevents form verification. Matching current Built In full description readable. No application or contact.",
+      "deduplication_note": "Latest142-jobledger/history and three available runtime/application exports compared. Runtime has generic Senior Technical Lead Java/AWS record ashby_junipersquare_sr_tech_lead_india_06 without exact req and unsupported INR45L-65L; not re-alerted or reused as pay. Platform foundational CIAM/search/devtooling and Business Technology revenue integration/MCP are distinct teams and responsibilities from generic backend/fullstacklead. Full history not claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert; actual delivery must be reconciled next run."
+      },
+      "job_id": "junipersquare-platform-lead-94b04280",
+      "eligibility": "India role; remote supported by matching role metadata, confirm role-specific terms. Singapore-based engagement unconfirmed. Personal work authorization/sponsorship unknown; relocation not assumed.",
+      "title": "Technical Lead (Platform) - India",
+      "requisition": "94b04280-efbd-4307-bf14-39d936059d81",
+      "canonical_url": "https://jobs.ashbyhq.com/junipersquare/94b04280-efbd-4307-bf14-39d936059d81",
+      "url_aliases": [
+        "https://builtin.com/job/technical-lead-platform-india/11671665",
+        "https://builtin.com/job/technical-lead-platform-india/6773502"
+      ],
+      "arrangement": "India role; current exact Built In metadata says Remote and official company supports remote work. Exact primary ATS indexed header lacks location-type metadata. Confirm role-specific 100% India remote and required gatherings before applying; not confirmed SG remote.",
+      "fit": "Platform team owns identity/access/authorization, search/API infrastructure, developer tools/frameworks, query performance, tested code/reviews, product-team enablement and observability. 6-10 years production systems; cloud, containers, CI/IaC. AI-assisted output evaluation and LLM integration are nice-to-have, not ML research.",
+      "preparation": "Python/FastAPI/Flask/Pyramid/Django expertise explicit. Java/Spring/security/cloud/SQL transfer is relevant but does not prove Python expertise; establish required day-one proficiency and ramp-up flexibility. Prepare CIAM/authorization design, developer platform consumers, DB tuning, monolith decomposition and measured AI-code verification without invented metrics.",
+      "hours_on_call": "Production system support and global collaboration; exact overlap, core hours, on-call frequency and compensation/time off unknown.",
+      "questions": "Is India-based remote confirmed for this req; any mandatory office gatherings? Any SG employment/EOR/B2B option? Guaranteed India package/period and separate variable/equity, localization policy, Python depth/ramp flexibility, platform design authority/lead scope, core hours/on-call/travel, personal authorization/sponsorship?",
+      "upside": "Career-growth candidate assessment: foundational security/platform and developer productivity ownership. Ambitious Python-first adjacent role; compensation to establish.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/platform, secure integrations and AI-assisted engineering",
+          "tailoring": "Use Anup backend/platform resume. Highlight OAuth2/mTLS/Spring Security, REST/GraphQL, SQL/MDM decisions, Kubernetes/Helm, CI/CD and observability. Show a real tool/automation or modernization design plus Cursor/Copilot/Claude Code/Codex validation. Establish Python capability honestly.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on cloud/platform technical lead and engineering automation",
+          "tailoring": "Use Meena lead/backend/cloud resume. Highlight AWS/ECS/EKS, Terraform/GitOps, security, observability, mentoring and platform consumers. Map real architecture/trade-offs to CIAM/search/API infrastructure. Label LLM/MCP work prototypes and establish Python framework depth, scope and package.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://jobs.ashbyhq.com/junipersquare/94b04280-efbd-4307-bf14-39d936059d81",
+      "evidence_urls": [
+        "https://jobs.ashbyhq.com/junipersquare/94b04280-efbd-4307-bf14-39d936059d81",
+        "https://www.junipersquare.com/company/careers/experienced-professionals",
+        "https://builtin.com/job/technical-lead-platform-india/11671665"
+      ]
+    },
+    {
+      "employer": "Juniper Square",
+      "import_source": "Official current experienced-professionals board, exact Ashby destinations and matching descriptions checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "location": "India",
+      "published_compensation": "No numeric pay published in exact retrieved role descriptions. Currency, pay period, base/bonus/equity split and applicable India package unknown. Do not reuse generic runtime INR45L-65L or US/Canada bands from other roles.",
+      "sgd_comparison": "No applicable numeric guaranteed pay established; no annual SGD cash conversion or uplift claimed.",
+      "posted": "Original employer posting date unavailable; Built In relative refresh is not proof of a newly created requisition.",
+      "engagement_type": "Employee-style role; permanent/fixed-term duration unknown. No international B2B rate advertised.",
+      "authorization_sponsorship": "Unknown. India role location is not evidence of personal authorization; Singapore-based employment/EOR/B2B is unconfirmed.",
+      "terms": "Salary currency/period, benefits applicability, leave, notice, probation, travel and any contractor alternative unknown. Do not infer foreign-currency billing or renewal.",
+      "verification": "19 October 2026: listed on official current experienced-professionals board; exact Ashby link opens correct title but JavaScript shell prevents form verification. Matching current Built In full description readable. No application or contact.",
+      "deduplication_note": "Latest142-jobledger/history and three available runtime/application exports compared. Runtime has generic Senior Technical Lead Java/AWS record ashby_junipersquare_sr_tech_lead_india_06 without exact req and unsupported INR45L-65L; not re-alerted or reused as pay. Platform foundational CIAM/search/devtooling and Business Technology revenue integration/MCP are distinct teams and responsibilities from generic backend/fullstacklead. Full history not claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert; actual delivery must be reconciled next run."
+      },
+      "job_id": "junipersquare-integrations-9ce69ec4",
+      "eligibility": "India-based remote role per matching exact metadata; official board lists India. Singapore-based engagement unconfirmed. Personal authorization/sponsorship unknown; no relocation assumed.",
+      "title": "Senior Integrations Engineer - India",
+      "requisition": "9ce69ec4-0580-4cc6-aad4-7f1c951d3aec",
+      "canonical_url": "https://jobs.ashbyhq.com/junipersquare/9ce69ec4-0580-4cc6-aad4-7f1c951d3aec",
+      "url_aliases": [
+        "https://builtin.com/job/senior-integrations-engineer-india/11630577"
+      ],
+      "arrangement": "India role on official board; matching exact Built In listing says Remote. India-based remote supported by retrieved evidence, confirm contract/hiring terms; not advertised SG-based or worldwide.",
+      "fit": "Business Technology Lead-to-Cash rebuild: Workato connectors/recipes/APIs across Salesforce, CPQ/contracts, NetSuite and warehouse; event-triggered billing, idempotency/retries/ordering/reconciliation. MCP servers with governed read/write tool contracts, permission scopes, audit trails; Java/TypeScript/Python accepted. Secure reliable integration and agent connectivity, not ML research.",
+      "preparation": "Explicit5+software/integrationyears including3+enterpriseSaaSintegrations; productionWorkato orotheriPaaS, deepSalesforce/NetSuiteAPIs, MCP/toolcallingexperience. Confirmactualhistoryandreadiness, notinventtenure/toolcerts. Camel/EIPconfirmedforboth istransferablebutnotproofWorkato/MuleSoft/Boomi orSalesforce/NetSuiteproductionexperience. Preparefinancialreconciliation, OAuthpermissions and agentwriteguardrails.",
+      "hours_on_call": "Explicit shared on-call coverage and incident ownership; a few hours overlap with US time zones required. Exact zone/window and seasonal daylight-saving effects, rotation and compensation unknown; may require India evenings/nights. Do not assume normal India business hours.",
+      "questions": "India-only residence/authorization and100%remoteterms; anySGEOR/B2Bexception? Applicablebase/currency/period/variableequity, exactUSoverlapzoneandseasonalhours, on-callrotation/pay, Workato/iPaaSandSalesforce/NetSuiteproductiondepthflexibility, MCPdeliveryscope/agentapproval/auditcontrols, employmentduration/leave/notice/travel?",
+      "upside": "Career-growth candidate assessment: governed financial integration plus real agent/MCP connectivity ownership. Adjacent specialist role with substantial SaaS/iPaaS preparation; compensation to establish.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Secure financial integration, Camel/EIP and automation",
+          "tailoring": "Use Anup backend/integration resume. Highlight confirmed Camel, payments, REST/OAuth2/mTLS, data consistency/SQL, Kafka, CI/CD and operational diagnosis. Prepare idempotent billing orchestration and scoped MCP tool design. State actual iPaaS/SaaS/MCP depth; coding-agent use is not production MCP delivery.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on integration lead, event-driven reliability and MCP prototypes",
+          "tailoring": "Use Meena lead/integration/AI application resume. Highlight confirmed Camel, Kafka/Streams, event-driven failures, DevSecOps, observability and mentoring; connect MCP/RAG/Claude API prototypes honestly to governed tools and audit design. Establish actual Salesforce/NetSuite/Workato experience and US-overlap feasibility.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://jobs.ashbyhq.com/junipersquare/9ce69ec4-0580-4cc6-aad4-7f1c951d3aec",
+      "evidence_urls": [
+        "https://jobs.ashbyhq.com/junipersquare/9ce69ec4-0580-4cc6-aad4-7f1c951d3aec",
+        "https://www.junipersquare.com/company/careers/experienced-professionals",
+        "https://builtin.com/job/senior-integrations-engineer-india/11630577"
       ]
     }
   ]
