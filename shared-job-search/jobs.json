@@ -8528,9 +8528,10 @@
       "authorization_sponsorship": "Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.",
       "terms": "Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT alert; not yet delivered."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Reconciled after actual prior ChatGPT final, as recorded in supplied continuation history. No new source verification or application inferred."
       },
       "verification": "19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.",
       "status_at_last_check": "Official description and application fields live; no submission tested",
@@ -8583,9 +8584,10 @@
       "authorization_sponsorship": "Singapore location supported; candidate-specific work rights and employer pass sponsorship unknown.",
       "terms": "Employment entity, duration, benefits/leave, probation/notice and any travel expectations unknown. No contract rate published.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for new ChatGPT alert; not yet delivered."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-19",
+        "note": "Reconciled after actual prior ChatGPT final, as recorded in supplied continuation history. No new source verification or application inferred."
       },
       "verification": "19 October 2026: exact official full description and named application fields including resume, salary expectations, notice and Submit application visible. No closed marker. No submission tested. Ashby version requires JavaScript but corporate application fields are readable.",
       "status_at_last_check": "Official description and application fields live; no submission tested",
@@ -8616,6 +8618,194 @@
           "priority_tier": 2,
           "resume_emphasis": "Hands-on cloud-native lead / AI application integration prototypes",
           "tailoring": "Use Meena lead/cloud/AI-integration resume. Foreground Terraform, AWS ECS/EKS, K8s/Istio, GitOps, observability and technical decisions. Describe SpringAI/RAG/MCP/ClaudeAPI work explicitly as prototypes; prepare agent state/recovery, permission boundaries, evaluations and human approvals without claiming production autonomous operations.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 19 October 2026; compared shared ledger and three runtime/application exports",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T11:48:31Z",
+      "posted": "8 October 2026 per JobScroller/Alion; original primary posting timestamp not verified",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+      },
+      "status_at_last_check": "Current public role listing; no application submitted",
+      "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
+      "authorization_sponsorship": "Singapore sponsorship and client government security/work-right requirements unknown; do not infer citizenship restriction.",
+      "application_status": "Not applied or approved",
+      "job_id": "activate-java-react-lead-db43facdce",
+      "employer": "Activate Interactive Pte Ltd",
+      "title": "Technical Lead (Java, React.js)",
+      "requisition": "DB43FACDCE",
+      "url": "https://apply.workable.com/activate-interactive-pte-ltd/j/DB43FACDCE/",
+      "canonical_url": "https://apply.workable.com/activate-interactive-pte-ltd/j/DB43FACDCE/",
+      "url_aliases": [],
+      "location": "Singapore",
+      "arrangement": "Singapore role; secondary mirror labels in-office. Exact client-site/hybrid attendance not confirmed from primary page.",
+      "engagement_type": "Full-time per secondary mirror; permanent versus fixed-term/client-project duration unconfirmed",
+      "eligibility": "Singapore location supported. Personal authorization/sponsorship and any government-project security/citizenship requirements unknown. No remote-from-India claim.",
+      "published_compensation": "No numeric employer salary verified for this exact opening. Alion/JobsRadar estimates and PayLine archived midpoint are not a verified applicable employer band and are not used.",
+      "hours_on_call": "Core hours, production-support/on-call rota, overtime compensation and timezone/DST expectations unknown.",
+      "terms": "Employer versus client deployment, employment duration, benefits, leave, notice and attendance require confirmation.",
+      "upside": "Career-growth candidate assessment: hands-on Java architecture, mentoring, full-stack technical delivery and AI-assisted engineering practices. Compensation to establish; prioritize Meena target discussion before lengthy screening.",
+      "fit": "Java/Spring Boot APIs, SQL, secure design, architecture/code review, production diagnosis and delivery leadership. Role includes practical ReactJS and 2+ years of technical leadership within 7+ engineering years; public-sector enterprise delivery and AI-assisted workflows valuable.",
+      "preparation": "Establish actual React component/state-management/debugging ability and ability to guide frontend engineers, not just Angular familiarity. Establish truthful leadership duration and full-stack review ownership. No certification is inferred.",
+      "verification": "19 October 2026: exact official Workable URL and title returned in current primary search result. Direct opens of role and board returned no readable content; apply/API variants inaccessible. Current description and 8 October date read on JobScroller linking exact Workable req; full-time/office labels from Alion. Form and final open status not fully verified; reconfirm before investing heavily.",
+      "source_evidence": [
+        {
+          "url": "https://apply.workable.com/activate-interactive-pte-ltd/j/DB43FACDCE/",
+          "observation": "Primary indexed exact role; direct body/form unreadable"
+        },
+        {
+          "url": "https://www.jobscroller.net/jobs/8506791",
+          "observation": "Detailed matching description and exact direct ATS link; 8 October date"
+        },
+        {
+          "url": "https://alion.io/job/activate-interactive-technical-lead-java-react-js",
+          "observation": "Full-time/in-office labels, salary explicitly estimated and excluded"
+        }
+      ],
+      "deduplication_note": "No employer/req/client-equivalent found in 151-job shared ledger or three runtime/application exports. INTUIT full-stack contract is a separate employer/client-unknown role and not conflated; no recruiter copy alerted separately.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java secure backend/full-stack and credible hands-on lead scope",
+          "tailoring": "Use Anup Java backend/full-stack resume. Lead with secure payment integrations, Spring Security, SQL, CI/CD/K8s and verified architecture/release decisions. Add concrete mentoring/code-review ownership only where evidenced. Prepare React review/state-management exercise; do not replace confirmed Angular experience with invented React tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java/cloud/full-stack technical leadership",
+          "tailoring": "Use Meena lead/full-stack resume. Foreground NCS/LTA enterprise delivery, Java21/Spring3, Angular18 state management, design reviews, mentoring, DevSecOps and production diagnosis. Explain transferable frontend architecture while establishing practical React depth. Discuss lead authority and SGD12000/month target, without presenting that as current pay.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 19 October 2026; compared shared ledger and three runtime/application exports",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T11:48:31Z",
+      "posted": "Original posting date unavailable",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+      },
+      "status_at_last_check": "Current public role listing; no application submitted",
+      "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
+      "authorization_sponsorship": "Personal work authorization, hiring entity and sponsorship unknown.",
+      "application_status": "Not applied or approved",
+      "employer": "Axra (formerly GoFree)",
+      "location": "Remote - Worldwide",
+      "engagement_type": "Full-time; employee/EOR versus contractor mechanism in Singapore/India unconfirmed",
+      "arrangement": "Worldwide remote explicitly advertised on exact role and current careers index. Singapore/India employment or B2B onboarding mechanism not established.",
+      "eligibility": "Worldwide source location support confirmed. Singapore/India legal hiring mechanism and personal work rights remain unconfirmed; no country-only restriction found.",
+      "hours_on_call": "Flexible hours advertised; exact core overlap, working hours/DST and on-call rota/pay unknown.",
+      "terms": "Unlimited PTO and dependent health cover advertised, but Singapore/India applicability unknown. Employment entity, paid leave terms, notice/probation, payroll/payment currency, FX costs and any contractor alternative unknown.",
+      "compensation_geography": "GBP figure on worldwide role; whether globally fixed or location-adjusted, and SG versus India terms, unknown. Salary period unstated.",
+      "bonus": "No numeric bonus published",
+      "equity": "Options advertised: 4-year vesting and 1-year cliff; valuation, grant size and liquidity unknown, not guaranteed cash.",
+      "verification": "19 October 2026: exact official role description and careers index list opening, worldwide/full-time and direct careers@useaxra.com application route. No closed marker. No message sent or submission tested. Public LinkedIn company links same employer domain; funding and legal-entity due diligence remain to establish.",
+      "upside": "Career-growth candidate assessment through meaningful ownership at a small fintech; compensation to establish, not proven income growth. Early-stage funding/runway and employment-contract diligence required.",
+      "job_id": "axra-backend-engineer-worldwide",
+      "title": "Backend Engineer",
+      "url": "https://www.useaxra.com/careers/backend-engineer",
+      "canonical_url": "https://www.useaxra.com/careers/backend-engineer",
+      "url_aliases": [],
+      "published_compensation": "GBP 70,000-90,000; salary period not stated. Reviewed every 6 months. Options separate. No numeric bonus. Applicability/location adjustment unknown.",
+      "fit": "Cross-border transfer/FX/account/payment APIs, distributed correctness and reliability, PostgreSQL, security, architecture review and mentoring. Strong Node.js or Go required; 4+ years backend engineering.",
+      "preparation": "Adjacent stack stretch. Establish genuine Node.js/Go coding depth and whether employer accepts experienced Java engineers ramping into its stack. Prepare idempotency, retries, ledger correctness, PostgreSQL tuning and payment failure handling. Do not claim advanced Go or Node experience not confirmed.",
+      "questions": "Is GBP70000-90000 annual base, and applicable unchanged in Singapore/India? Which legal entity/EOR or B2B option, local benefits/leave/notice, payment currency/FX costs? Required Node/Go depth versus Java transferability? Exact core hours/DST/on-call? Funding/runway, engineering team size and regulated partner/legal entity details?",
+      "source_evidence": [
+        {
+          "url": "https://www.useaxra.com/careers/backend-engineer",
+          "observation": "Exact role, worldwide/full-time, GBP range without period, email application"
+        },
+        {
+          "url": "https://www.useaxra.com/careers",
+          "observation": "Current eight-role index includes backend; worldwide hiring stated"
+        },
+        {
+          "url": "https://www.linkedin.com/company/gofreeapp",
+          "observation": "Public company identity links useaxra.com; not independent financial due diligence"
+        }
+      ],
+      "deduplication_note": "No Axra/GoFree or equivalent req/project in 151-job ledger or runtime/application exports. Distinct backend versus infrastructure ownership; one canonical record per actual role.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior secure payments/backend modernization; Node/Go transition",
+          "tailoring": "Use Anup payments/backend resume. Emphasize Great Eastern payment integrations, OAuth2/mTLS, SQL/PostgreSQL, distributed failure handling and observability with truthful scope. Offer real code/design evidence for idempotent APIs. State Java strength and establish Node/Go readiness without claiming advanced Go.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on event-driven backend lead; adjacent language stretch",
+          "tailoring": "Use Meena backend/cloud lead resume. Foreground Java/Spring secure services, Kafka/Streams, PostgreSQL, production troubleshooting, mentoring and verifiable design tradeoffs. Prepare a small truthful Node/Go implementation or discuss actual experience; clarify grade/authority so move is not assumed career advancement from title alone.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 19 October 2026; compared shared ledger and three runtime/application exports",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T11:48:31Z",
+      "posted": "Original posting date unavailable",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery recorded before actual final."
+      },
+      "status_at_last_check": "Current public role listing; no application submitted",
+      "sgd_comparison": "No SGD annual guaranteed-cash calculation: pay period/applicability not established. No uplift against unknown current packages claimed.",
+      "authorization_sponsorship": "Personal work authorization, hiring entity and sponsorship unknown.",
+      "application_status": "Not applied or approved",
+      "employer": "Axra (formerly GoFree)",
+      "location": "Remote - Worldwide",
+      "engagement_type": "Full-time; employee/EOR versus contractor mechanism in Singapore/India unconfirmed",
+      "arrangement": "Worldwide remote explicitly advertised on exact role and current careers index. Singapore/India employment or B2B onboarding mechanism not established.",
+      "eligibility": "Worldwide source location support confirmed. Singapore/India legal hiring mechanism and personal work rights remain unconfirmed; no country-only restriction found.",
+      "hours_on_call": "Flexible hours advertised; exact core overlap, working hours/DST and on-call rota/pay unknown.",
+      "terms": "Unlimited PTO and dependent health cover advertised, but Singapore/India applicability unknown. Employment entity, paid leave terms, notice/probation, payroll/payment currency, FX costs and any contractor alternative unknown.",
+      "compensation_geography": "GBP figure on worldwide role; whether globally fixed or location-adjusted, and SG versus India terms, unknown. Salary period unstated.",
+      "bonus": "No numeric bonus published",
+      "equity": "Options advertised: 4-year vesting and 1-year cliff; valuation, grant size and liquidity unknown, not guaranteed cash.",
+      "verification": "19 October 2026: exact official role description and careers index list opening, worldwide/full-time and direct careers@useaxra.com application route. No closed marker. No message sent or submission tested. Public LinkedIn company links same employer domain; funding and legal-entity due diligence remain to establish.",
+      "upside": "Career-growth candidate assessment through meaningful ownership at a small fintech; compensation to establish, not proven income growth. Early-stage funding/runway and employment-contract diligence required.",
+      "job_id": "axra-devops-infrastructure-worldwide",
+      "title": "DevOps & Infrastructure Engineer",
+      "url": "https://www.useaxra.com/careers/devops-engineer",
+      "canonical_url": "https://www.useaxra.com/careers/devops-engineer",
+      "url_aliases": [],
+      "published_compensation": "GBP 70,000-88,000; salary period not stated. Reviewed every 6 months. Options separate. No numeric bonus. Applicability/location adjustment unknown.",
+      "fit": "AWS ECS/RDS/ElastiCache/SQS, Terraform, GitHub Actions, observability, security and developer tooling ownership. Requires 4+ years DevOps/SRE/platform role and production-scale Terraform/HA/DR; EKS/fintech preferred.",
+      "preparation": "Adjacent specialist platform role, not a general Java position. Establish actual infrastructure ownership and DevOps/platform tenure, Terraform production scale, Linux/network debugging, disaster recovery and compliance-sensitive operations. Java cloud deployment experience alone does not prove 4+ years dedicated SRE.",
+      "questions": "Is GBP70000-88000 annual base and fixed globally or adjusted for SG/India? Employee/EOR versus B2B mechanism, benefits/leave/notice/payment/FX? Are application engineers with substantial platform delivery considered against 4+ DevOps years? On-call coverage/rotation/pay, core overlap/DST, SLA authority, team size and funding/runway?",
+      "source_evidence": [
+        {
+          "url": "https://www.useaxra.com/careers/devops-engineer",
+          "observation": "Exact worldwide full-time role, pay without period, Terraform/operations scope and email application"
+        },
+        {
+          "url": "https://www.useaxra.com/careers",
+          "observation": "Current careers index includes infrastructure role"
+        }
+      ],
+      "deduplication_note": "No Axra/GoFree record in shared ledger or runtime/application exports. Separate infrastructure ownership from Axra backend product role.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Cloud-native platform modernization; specialist DevOps stretch",
+          "tailoring": "Use Anup backend/platform resume. Highlight actual AzureAKS/AWS/K8s/Helm/Rancher, CI/CD, observability, security and incident work. Establish Terraform and dedicated platform tenure honestly; do not convert Java-engineer tenure into SRE years. Prepare a verifiable deployment/rollback and HA recovery example.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Cloud-native lead / platform delivery and developer automation",
+          "tailoring": "Use Meena cloud/platform lead resume. Prioritize AWS ECS/EKS, Terraform, ArgoCD/GitHubActions/Jenkins, Istio/K8s, observability and DevSecOps. Describe real IaC/release ownership and recovery decisions with verified outcomes; establish infrastructure scale and 4+ dedicated DevOps/platform years rather than assume them.",
           "application_status": "Not applied or approved"
         }
       }
