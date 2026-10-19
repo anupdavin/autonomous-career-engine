@@ -7764,9 +7764,10 @@
       "last_checked": "2026-10-19",
       "sgd_comparison": "Applicable guaranteed Singapore/India cash not established; no FX conversion or current-package uplift claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; reconcile only after actual delivered final is evidenced."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and external-work history confirm delivery; exacttimeunknown."
       },
       "job_id": "seeq-backend-staff-principal-CD7BA6EE7B",
       "employer": "Seeq",
@@ -7818,9 +7819,10 @@
       "last_checked": "2026-10-19",
       "sgd_comparison": "Applicable guaranteed Singapore/India cash not established; no FX conversion or current-package uplift claimed.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; reconcile only after actual delivered final is evidenced."
+        "already_reported": true,
+        "first_reported_date": "2026-10-19",
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and external-work history confirm delivery; exacttimeunknown."
       },
       "job_id": "decathlon-backend-java-F21200EA27",
       "employer": "Decathlon Singapore",
@@ -7863,6 +7865,62 @@
           "priority_tier": 2,
           "resume_emphasis": "Hands-on lead/backend cloud-native and operational reliability",
           "tailoring": "Use Meenalead/backend resume. Highlight Kafka/Streams, AWS/K8s, automatedreleases, testing/observability, stakeholderdelivery andmentoring. Askforlead-equivalent ownershipandguaranteedpayagainstSGD12000/monthtarget; do notpresentAssociatelevelasautomaticpromotion.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "grab-lead-flink-platform-track",
+      "employer": "Grab",
+      "title": "Lead Platform Engineer, Flink",
+      "requisition": "744000155936241; overlapping744000147172280",
+      "url": "https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/",
+      "canonical_url": "https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/",
+      "url_aliases": [
+        "https://www.grab.careers/en/jobs/744000147172280/lead-platform-engineer-flink/",
+        "https://jobs.smartrecruiters.com/Grab/744000155936241-lead-platform-engineer-flink",
+        "https://jobs.smartrecruiters.com/oneclick-ui/company/Grab/publication/cd0eeb55-b79b-41f7-97a9-45bb5fa7b984?dcr_ci=Grab"
+      ],
+      "import_source": "Both official Grab careers descriptions and current newerreq ApplyNow destination reopened19October2026 Singaporedate",
+      "last_checked": "2026-10-19",
+      "posted": "Not stated on exact official career pages. Mirror24September2026/oldrepost dates not employer-confirmed, not treatedasnewposting.",
+      "location": "Grab One North, Singapore",
+      "arrangement": "Onsite explicitly in exactrole. Exactweeklydaycount notstated, do not substitute5days fromclosedFundsCore role or globalFlexWork policy.",
+      "engagement_type": "Fulltime; permanent/fixedterm notexplicit",
+      "eligibility": "Singapore onsite location confirmed, personal authorization/sponsorship unknown. No overseasremote/Indiaengagement advertised, relocationnotassumed.",
+      "published_compensation": "No numeric salary published on either exactofficialcareerpage or readableapplydestination. Do notuse DreamworkestimatedSGD216K-300K/160K-240K as employerpay. Bonus/equity/benefitsvalue unknown.",
+      "sgd_comparison": "Noapplicablepublishednumericpay. NoSGDannualguaranteedcash orcurrentpackageuplift established; MeenaSGD12000monthlytarget is screeningreferenceonly.",
+      "verification": "19October2026: both officialGrabdescriptions accessible withApplyNow; newer744000155936241 apply redirect reaches SmartRecruitersoneclick shell showingexacttitle/GrabOneNorth, requiresJavaScript. NoCV/contactformreadable, live submissionworkflow unverified. OlderLinkedIn4436549174 saysnolongeraccepting, consolidatedasoldcopy notnewvacancy; doesnotestablishclosureofnewerprimaryreq. Confirmfundedintake beforeextensiveprep. Noapplicationorcontact.",
+      "evidence_urls": [
+        "https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/",
+        "https://www.grab.careers/en/jobs/744000147172280/lead-platform-engineer-flink/",
+        "https://jobs.smartrecruiters.com/oneclick-ui/company/Grab/publication/cd0eeb55-b79b-41f7-97a9-45bb5fa7b984?dcr_ci=Grab",
+        "https://sg.linkedin.com/jobs/view/lead-platform-engineer-flink-at-grab-4436549174"
+      ],
+      "fit": "Hands-onstreamingplatform design,evolution/operations,Flink/KafkaAWSK8sobservabilitySRE,reusableabstractions/libraries,selfservice,automation,productionreadiness/incidentlearning,mentoring seniorengineers and crossplatformdata/governanceteams. JavaorScala accepted. LeadershipandplatformownershipnotgenericanalyticsorMLresearch.",
+      "preparation": "Explicitminimum5yearsleadingteamsorprojects, actual qualifyinghistory unconfirmed forboth; seniorityflexibility/details to establish notinventtenure. Essentialproductionstreamingpipelines withFlinkorSparkStreaming innewerpage; olderpagepreferablyFlink/Spark. Kafka/Streams experience transferablebutnotproofFlinkoperations. Prepare state/checkpoints/savepoints/recovery, eventtime/watermarks/backpressure, deliverysemantics, HA/safedeployments, KafkaConnect anddatacontracts. Datawarehouse/lakeIcebergDeltaHudi plusnotassumedmissingcapability.",
+      "authorization_sponsorship": "Unknown, noexplicitcitizenship/no-sponsorshiprequirementretrieved. CurrentSGemploymentpass notproofauthorizationwithGrab.",
+      "hours_on_call": "OnsiteOneNorth, uptime/performanceandproductionoperations/incidentresponsibilityexplicit; oncallrotation, night/weekendcoverage, corehours, travel and compensation/timeoff unknown.",
+      "terms": "Fulltimeemployee-stylelead, noB2Bcontractrateadvertised. Guaranteedbase/currency/period,bonus/equitysplit,localbenefits,probation,leave,noticeandpermanent/fixedtermunknown. Genericmedical/lifeinsurance/GrabFlex/leave listnotcash.",
+      "questions": "Are744000155936241and744000147172280 onefundedopening andwhichactiveapplyURL? Singaporepasssupport, exactonsitedays/corehours/oncall/crossregionalcoverage/pay/timeoff? Guaranteedbase/periodandseparatebonus/equity,leadgrade/ICvspeopleleadscope? Flexibilityon5yearsleadingteams/projects, howmuchFlink/SparkproductionhistorymandatoryversusKafkaStreamstransfer? Platformownershipmentoringexpectations, reliability/capacity/oncallload, careerprogression?",
+      "upside": "Career-growth candidate(assessment): ownershipofmissioncriticalselfserviceeventplatform and seniortechnicalmentoring. Ambitiousplatformstretchforboth, MeenastrongerconfirmedKafkaStreamsandcloud-nativeleadalignment; Anupcanpositionsecureintegrations/distributedreliability. Compensationtoestablish,notproofincomeupgrade.",
+      "deduplication_note": "NoGrab/Flink/exactreq in137jobledger/history ordiscovered_global_jobs/twopreparedapplicationexports. Bothofficialreqs substantiallysameplatform/scopeanddescriptionssoonecanonicaltrack. PLTEngineering/recruitercopies notadditionalmatches. FundsCore744000152336205 excluded:direct404andmirrorclosed12September2026. Fullhistoricalcoverageunestablished.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "PreparedforChatGPTalert; appenddeliveryonlyafteractualfinalisevidencednextturn."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/backend platform, secure integrations and production reliability",
+          "tailoring": "UseAnupbackend/platformresume. ShowactualKafka,Java,SQL,AKS/K8s/Helm,observabilityandsecureintegration/modernizationdecisions; demonstrateplatformreuseandtestedfailurehandlingwhereverified. Establishlead/projecthistorytruthfully;prepareFlinkoperatingsemanticswithoutclaimingproductionFlink/Sparkor5yearsteamleadtenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, event-driven cloud platform and reliability",
+          "tailoring": "UseMeenalead/backend/cloudresume. HighlightconfirmedKafkaStreams/KEDA,AWS/EKS/ECS,K8s/Helm/Istio,Terraform/GitOps,observability,productiondecisionsandmentoring. Maprealstreamingsemantics/capacity/failureexamples toFlinkpreparation,notclaimsameframework. Establishactual5yearprojectleadershipandFlink/Sparkdepth. ScreenpackageagainstSGD12000monthlytargetandonsite/oncallcost.",
           "application_status": "Not applied or approved"
         }
       }
