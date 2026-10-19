@@ -9204,6 +9204,131 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "import_source": "New public-web discovery checked 20 October 2026 Singapore; shared ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T16:03:47Z",
+      "published_compensation": "Not published on the exact current role page; no numeric guaranteed base, bonus or equity band established.",
+      "compensation_geography": "Applicable Singapore pay and global versus location-adjusted policy unknown. No India remote arrangement advertised.",
+      "sgd_comparison": "No published applicable guaranteed annual cash to convert or compare against unknown current packages.",
+      "authorization_sponsorship": "Singapore location supported; personal work rights, pass sponsorship and employer entity unknown.",
+      "terms": "Employment entity, permanent/fixed-term status, probation/notice, leave and benefits to establish.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for a ChatGPT alert; delivery has not yet occurred. Reconcile only after actual delivery evidence."
+      },
+      "job_id": "luxoft-java-fullstack-vr125579",
+      "employer": "Luxoft, undisclosed Asian banking client",
+      "title": "Senior Java Full Stack Developer",
+      "requisition": "VR-125579",
+      "url": "https://career.luxoft.com/jobs/senior-java-full-stack-developer-28407",
+      "canonical_url": "https://career.luxoft.com/jobs/senior-java-full-stack-developer-28407",
+      "url_aliases": [],
+      "posted": "2026-10-14",
+      "location": "Singapore",
+      "arrangement": "Singapore; onsite/hybrid cadence not stated. Relocation-friendly label does not establish remote work or sponsorship.",
+      "engagement_type": "Not stated; permanent versus fixed-term/agency contract to confirm",
+      "eligibility": "Singapore location explicitly supported; personal work authorization/sponsorship unknown. Not advertised as India remote.",
+      "hours_on_call": "Production support included. Core hours, client office cadence and out-of-hours/on-call rota unknown.",
+      "fit": "Enterprise Java/Spring MVC/JPA/Hibernate/Spring Boot, Angular and/or React, TypeScript, REST, SQL, Spring Security/OAuth/OIDC, messaging and production diagnosis. Six-plus relevant years requested; global markets/back-office exposure preferred.",
+      "preparation": "Prepare ADFS/OIDC integration and JMS/IBM MQ/RabbitMQ semantics and operational diagnostics. Kafka/Camel and Java financial-platform delivery are transferable, not proof of every named broker or global-markets domain. Establish exact client system and six-years relevance interpretation.",
+      "upside": "Strong technical-fit application; potential banking platform ownership and security/full-stack scope. Career-growth candidate assessment subject to actual autonomy and grade; compensation to establish.",
+      "questions": "What client, back-office system and ownership distinguish this requisition? Local base/bonus and budget near Meena's SGD 12000/month target? Permanent or agency/fixed-term contract, duration/renewal/notice, office cadence, pass sponsorship and support rota? Is Angular sufficient as explicitly stated?",
+      "verification": "20 October 2026 Singapore: official role description, VR-125579/date and full application fields readable with Apply/Agree and send. No closed marker; no submission performed.",
+      "status_at_last_check": "Official description and application fields live",
+      "source_evidence": [
+        {
+          "url": "https://career.luxoft.com/jobs/senior-java-full-stack-developer-28407",
+          "checked_at": "2026-10-19T16:03:47Z",
+          "observation": "14 October posting, SG location, six-plus experience, Angular and/or React, Spring Security/OIDC/ADFS and JMS/MQ scope; published salary absent; employment type/cadence unknown."
+        }
+      ],
+      "deduplication_note": "Not in 160 canonical records, history or three runtime exports. Compared existing Luxoft VR-123976 React/Azure role, VR-124976 FX eTrading, VR-125088 trading and VR-125461 structured-products Kotlin. This exact requisition advertises Angular-acceptable enterprise SPA plus ADFS/MQ/back-office scope, not a renamed exact req. End-client/system identity remains unconfirmed; consolidate if recruiter confirms the same project.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/Angular full-stack and secure financial integrations",
+          "tailoring": "Use Anup's Java/Angular full-stack resume. Lead with Spring Security/OAuth2/mTLS, REST/SQL, Angular/TypeScript and Great Eastern financial-services delivery. Add a truthful authentication, concurrency or production-fault example with verifiable outcome. Prepare ADFS/OIDC and JMS/MQ without claiming unconfirmed production use.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead Java/Angular modernization and delivery ownership",
+          "tailoring": "Use Meena's hands-on Java/Angular lead resume. Emphasize Java 21/Spring Boot 3, Angular 18, enterprise security/reliability, event-driven delivery and technical reviews. Establish senior-role ownership, mentoring and package alignment before treating it as a lead-level career step.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked 20 October 2026 Singapore; shared ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T16:03:47Z",
+      "published_compensation": "Not published on the exact current role page; no numeric guaranteed base, bonus or equity band established.",
+      "compensation_geography": "Applicable Singapore pay and global versus location-adjusted policy unknown. No India remote arrangement advertised.",
+      "sgd_comparison": "No published applicable guaranteed annual cash to convert or compare against unknown current packages.",
+      "authorization_sponsorship": "Singapore location supported; personal work rights, pass sponsorship and employer entity unknown.",
+      "terms": "Employment entity, permanent/fixed-term status, probation/notice, leave and benefits to establish.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for a ChatGPT alert; delivery has not yet occurred. Reconcile only after actual delivery evidence."
+      },
+      "job_id": "vanguard-java-go-backend-4460247648",
+      "employer": "Vanguard Software Pte Ltd",
+      "title": "Senior Backend Engineer (JAVA / GO), overlapping Senior/Lead/Expert track",
+      "requisition": "LinkedIn 4460247648; employer requisition unpublished",
+      "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-java-go-at-vanguard-software-4460247648",
+      "canonical_url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-java-go-at-vanguard-software-4460247648",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/senior-lead-backend-engineer-java-go-at-vanguard-software-4213311571",
+        "https://sg.linkedin.com/jobs/view/senior-expert-backend-engineer-java-go-at-vanguard-software-4382291170",
+        "https://sg.linkedin.com/jobs/view/senior-lead-backend-engineer-java-at-vanguard-software-4077884493"
+      ],
+      "posted": "Current employer LinkedIn rendering says 4 days ago; inconsistent cached relative times mean original posting date not established.",
+      "location": "Singapore",
+      "arrangement": "Singapore. Jobstreet search result labels employer role hybrid; exact employer LinkedIn description does not confirm attendance cadence. No SG/India work-from-anywhere claim.",
+      "engagement_type": "Full-time; permanent/fixed-term status to establish",
+      "eligibility": "Singapore location explicitly supported. Personal work authorization/sponsorship unknown; India remote not advertised.",
+      "hours_on_call": "Core hours, on-call and overseas client overlap unknown.",
+      "fit": "Five-plus backend engineering experience, Java OR Go, Spring Boot/WebFlux/Kafka/Redis/SQL/NoSQL. Independent design-to-production responsibility, performance/security/observability, refactoring, process improvement and junior mentoring.",
+      "preparation": "Prepare reactive WebFlux/backpressure, performance and modular system-design examples. Java is an explicit alternative to Go, not a mandatory Go conversion. Establish NoSQL/WebFlux depth and exact client domain. Older closed lead copy says Mandarin highly desirable; current senior copy omits it, so clarify client language needs rather than assume a hard blocker.",
+      "upside": "Career-growth candidate assessment: independent backend ownership, critical-system design and mentorship directly advertised. Compensation to establish; grade, client and actual decision rights matter more than title.",
+      "questions": "Applicable SG guaranteed base and separate bonus/equity, Meena target alignment, senior versus lead grade/authority, direct employer or client assignment/project identity, hybrid cadence, sponsorship, Mandarin client interaction, on-call/overlap and benefits/notice?",
+      "verification": "20 October 2026 Singapore: employer LinkedIn exact 4460247648 full description and Apply controls readable, full-time SG, no closed marker. Signed-in downstream application destination not tested. Older 4213311571 lead copy explicitly closed; not a separate current opening.",
+      "status_at_last_check": "Employer LinkedIn current senior posting has Apply; downstream form unverified",
+      "source_evidence": [
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-java-go-at-vanguard-software-4460247648",
+          "checked_at": "2026-10-19T16:03:47Z",
+          "observation": "Java or Go, five-plus years, backend ownership/mentoring and full-time Singapore, no numeric compensation. Apply control visible."
+        },
+        {
+          "url": "https://sg.linkedin.com/jobs/view/senior-lead-backend-engineer-java-go-at-vanguard-software-4213311571",
+          "checked_at": "2026-10-19T16:03:47Z",
+          "observation": "Substantially identical older lead description; explicitly no longer accepting applications. Mandarin highly desirable in that older copy only."
+        }
+      ],
+      "deduplication_note": "No Vanguard Software in 160 shared records/history or three runtime exports. Consolidates same employer's Senior/Lead/Expert title variants and substantially identical description as one track, not multiple openings. Vanguard Software Singapore is not Vanguard investment company's US Workday role.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, secure APIs and reliable event-driven systems",
+          "tailoring": "Use Anup's Java backend resume. Foreground Spring Boot, Kafka, SQL, security/observability and independent design/debugging. Prepare a genuine scaling or reliability trade-off and a code-quality/mentorship example. Position Angular as useful collaboration context, not the focus.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on backend lead, event-driven cloud reliability and mentoring",
+          "tailoring": "Use Meena's hands-on lead/backend resume. Lead with Java 21/Spring Boot 3, Kafka/Streams, Redis/PostgreSQL, cloud reliability, design decisions and actual mentoring. Prepare reactive-system trade-offs and how team process improved; add only outcomes/metrics she can substantiate.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }
