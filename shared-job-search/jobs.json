@@ -9344,9 +9344,10 @@
       "engagement_type": "Full-time; permanent/fixed-term terms to establish",
       "terms": "Employment entity, probation/notice, leave, benefits and employment duration to establish.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final visible and user-supplied external-work handoff confirms delivery. Date-only reconciliation, no source recheck or application inferred."
       },
       "job_id": "plaud-backend-platform-f99fc44a",
       "employer": "Plaud",
@@ -9409,9 +9410,10 @@
       "engagement_type": "Full-time; permanent/fixed-term terms to establish",
       "terms": "Employment entity, probation/notice, leave, benefits and employment duration to establish.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final visible and user-supplied external-work handoff confirms delivery. Date-only reconciliation, no source recheck or application inferred."
       },
       "job_id": "plaud-ai-applications-5e8a64fa",
       "employer": "Plaud",
@@ -9481,9 +9483,10 @@
       "engagement_type": "Full-time; permanent/fixed-term terms to establish",
       "terms": "Full-time, duration/entity/notice/probation unknown. Advertised WFH reimbursement, health support and paid global onsites; SG applicability and all required travel expenses/work permissions to establish.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery event asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final visible and user-supplied external-work handoff confirms delivery. Date-only reconciliation, no source recheck or application inferred."
       },
       "job_id": "tilt-cashalo-backend-3caea8b7",
       "employer": "Tilt Finance (formerly Empower), Cashalo product",
@@ -9530,6 +9533,136 @@
           "priority_tier": 3,
           "resume_emphasis": "Hands-on backend/cloud product ownership; lending/.NET transition",
           "tailoring": "Use Meena's lead/backend cloud resume. Highlight fintech/public-sector reliability, APIs, relational data, delivery ownership and reviews/mentoring. Explain AWS-to-Azure mappings and prepare .NET/SQL Server honestly without claiming specialist production tenure; establish package and senior-IC authority.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked20October2026 Singapore; shared165-role ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T18:21:55Z",
+      "posted": "Original posting date not published on exact official page; no inference from crawl/repost dates.",
+      "published_compensation": "No numeric salary/rate or cash/equity breakdown published on exact official description.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "sgd_comparison": "No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "job_id": "tala-senior-backend-e7b55498",
+      "employer": "Tala",
+      "title": "Senior Backend Engineer",
+      "requisition": "Lever e7b55498-33ed-48fa-ae8c-261082f66906",
+      "url": "https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906",
+      "canonical_url": "https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906",
+      "url_aliases": [
+        "https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906/apply"
+      ],
+      "location": "IN (India)",
+      "arrangement": "Full-time Remote, IN. India remote is explicitly supported; not worldwide or Singapore remote. Exact India attendance/travel requirements to confirm.",
+      "engagement_type": "Full-time; permanent/fixed-term terms unknown",
+      "eligibility": "India remote advertised. Singapore engagement is not advertised and must not be presumed. India residence/work-rights and employment mechanism to establish; no relocation assumed.",
+      "authorization_sponsorship": "Country work rights, residency requirements, sponsorship/EOR and any Singapore B2B alternative unknown. Current SG pass does not establish India or cross-border employment permission.",
+      "compensation_geography": "Applicable India employee pay, currency, base/variable/equity and global/location-adjusted policy unknown. No SG package published.",
+      "hours_on_call": "Asynchronous cross-timezone work explicit. Domain incident leadership, shifts/runbooks/RCA, SLIs/SLOs and production response expected. Core overlap/US hours/DST, rota frequency, night/weekends and compensation unknown.",
+      "terms": "Employment entity, duration, probation/notice, leave, benefits and remote equipment/travel policy unknown.",
+      "fit": "Java/Kotlin/Scala with Spring, cloud microservices, REST, data integration, relational and non-relational stores. Hands-on technical leadership owns domain design/roadmap, reviews, reliability, mentoring and production outcomes. AI fluency includes reusable context assets/prompts/skills, agent-sized work and verification/accountability, not ML research.",
+      "preparation": "Demonstrate multiple production-validated domain-significant projects and actual leadership scope without inventing consumer scale. Establish strong non-relational store experience (Cassandra/Redshift/DynamoDB/HDFS examples), distributed failure design, EDD review, SLOs, incident leadership and team-wide AI context/verification adoption. Individual coding-agent use alone does not prove domain-wide practice adoption. No sensitive borrower/PII/secrets in AI prompts.",
+      "upside": "Career-growth candidate assessment: meaningful hands-on domain ownership, technical roadmap/design authority, mentoring and quality standards at direct credit-product employer. Strong Java/platform fit if India-based terms are viable; compensation to establish.",
+      "questions": "Is India residence mandatory and any SG employment/EOR/B2B alternative possible? Applicable India base/currency/period, separate bonus/equity, legal entity/rights/pass support, remote attendance/travel, global overlap/DST and incident rota/pay? Expected evidence for consumer-scale production domain leadership and NoSQL depth?",
+      "verification": "20October2026 Singapore: official Lever complete description and vacancy-specific application fields/Submit visible, IN Remote Full-time. No closed marker; no submission performed. Generic US voluntary demographics in form do not change IN job location.",
+      "status_at_last_check": "Official role and application form live",
+      "source_evidence": [
+        {
+          "url": "https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906",
+          "checked_at": "2026-10-19T18:21:55Z",
+          "observation": "IN Remote Full-time; Java/Spring domain leadership, cloud/relational and NoSQL, SLO/incident responsibility, AI-assisted context/verification; salary absent."
+        },
+        {
+          "url": "https://jobs.lever.co/tala/e7b55498-33ed-48fa-ae8c-261082f66906/apply",
+          "checked_at": "2026-10-19T18:21:55Z",
+          "observation": "Exact title/IN/Remote and complete named application fields/Submit visible. No application submitted."
+        }
+      ],
+      "deduplication_note": "No Tala/employer/client-equivalent in165shared jobs/history or3runtime exports. One India product-engineering domain-lead track; not generic regional copies. Public client footprints inAfrica/LATAM/Asia do not create hiring eligibility there or Singapore.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend/payments, secure integration and AI-assisted engineering",
+          "tailoring": "Use Anup's backend/payments/AI-assisted resume. Foreground Java/Spring, Great Eastern financial integrations, REST/SQL, Kafka, security, cloud and actual production diagnosis. Explain a genuine design/incident decision plus context/acceptance-criteria/review/testing workflow. Establish domain mentoring and NoSQL depth separately; do not invent team-wide AI adoption or production scale.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java/cloud/event-driven domain ownership",
+          "tailoring": "Use Meena's lead/backend/cloud resume. Foreground technical Scrum leadership/mentoring, Java21/Spring3, AWS/EKS, KafkaStreams, reliability and design decisions. Prepare an EDD-style failure/recovery design and actual incident/outcome narrative. Establish coding-agent/context practices separately from SpringAI/RAG/MCP prototypes; no invented domain-wide adoption.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked20October2026 Singapore; shared165-role ledger/history and three runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T18:21:55Z",
+      "posted": "Original posting date not published on exact official page; no inference from crawl/repost dates.",
+      "published_compensation": "No numeric salary/rate or cash/equity breakdown published on exact official description.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "sgd_comparison": "No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "job_id": "coinmarketcap-contractor-901558ef",
+      "employer": "CoinMarketCap / Coin Market Cap Ltd",
+      "title": "DevOps Engineer - Contractor (current description is Java backend engineering)",
+      "requisition": "Lever 901558ef-445f-4fdf-8fba-b2c0c5a505e3",
+      "url": "https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3",
+      "canonical_url": "https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3",
+      "url_aliases": [
+        "https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3/apply"
+      ],
+      "location": "Global / Taipei / Kuala Lumpur / Penang",
+      "arrangement": "Remote contractor, Global plus namedAPAC locations. Specific Singapore/India engagement support unconfirmed; no relocation assumed.",
+      "engagement_type": "Contractor; B2B/individual structure, full-time/part-time hours and duration unknown",
+      "eligibility": "Official Global remote lead. Singapore/India accepted residence, legal contracting/entity and payment support require clarification; not represented as confirmed local hiring.",
+      "authorization_sponsorship": "SG/India work rights, legal engagement entity and sponsorship unknown. No permission for side work inferred.",
+      "compensation_geography": "Applicable SG/India rate, currency, period and global/location-adjusted policy unknown. Public salary estimates excluded; no current package comparison.",
+      "hours_on_call": "Production troubleshooting and high-concurrency reliability expected. Core hours/APAC overlap, on-call, night/weekend load and compensation unknown.",
+      "terms": "No published minimum billable volume, hourly/day length, paid/unpaid leave, project duration, renewal/cancellation, notice, payment schedule/currency/fees or equipment/expenses. Contract revenue not employee salary. Generic corporate benefits/crypto-pay option not established for this contractor.",
+      "fit": "Despite DevOps title, exact current responsibilities/requirements are Java backend architecture, SpringBoot/Cloud microservices, JVM/concurrency, caches/async/rate limiting/circuit breakers, Kafka/Redis/MySQL/Elasticsearch, auth/OAuth2/JWT/SSO/RBAC, distributed consistency and K8s. AWS plus. Description says3-5+Java and allows exceptional graduates, so exact senior grading critical.",
+      "preparation": "Title/description mismatch: confirm whether actual funded Java backend or DevOps seat before application effort. Prepare JVM/threadpool/concurrency tuning, distributed locks/idempotency/transactions and security, and establish Elasticsearch/SpringCloud requirements. User's Java/Kafka/cloud evidence transfers; do not infer every named middleware or production scale.",
+      "upside": "Career-growth candidate assessment: backend architecture/core identity/API ownership and international remote contract potential. Compensation to establish, not income-growth confirmed. Lower priority until title/scope and senior package clarified.",
+      "questions": "Is the current job description correct: Java backend or DevOps? Which team/project and actual senior grade? May SG- or India-based individuals/B2B contract, at what applicable rate/currency/period? Minimum guaranteed hours, duration/renewal/cancellation/notice, paid/unpaid leave, invoice/payment/FX fees, overlap/on-call and legal work permission?",
+      "verification": "20October2026 Singapore: current official Lever board includes exact DevOps contractor vacancy, full Java backend description and vacancy-specific application fields/Submit readable. Global remote header retained. No closed marker; role-title mismatch unresolved and no submission made.",
+      "status_at_last_check": "Official board, description and form live; title/scope mismatch unresolved",
+      "source_evidence": [
+        {
+          "url": "https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3",
+          "checked_at": "2026-10-19T18:21:55Z",
+          "observation": "Global Remote Contractor header, Java/Spring backend/auth/K8s responsibilities, no numeric rate; title contradictory."
+        },
+        {
+          "url": "https://jobs.lever.co/coinmarketcap/901558ef-445f-4fdf-8fba-b2c0c5a505e3/apply",
+          "checked_at": "2026-10-19T18:21:55Z",
+          "observation": "Exact vacancy form visible, asks applying location/current location and salary expectations; no published pay and no application submitted."
+        }
+      ],
+      "deduplication_note": "Only priorshared CoinMarketCap role is27d52a7f AI Agentic Trading Expert, different responsibilities/req. No matching endproject/req in165ledger/history or3runtime exports. Old Java Engineer Contractor mirrors absent current board; no fresh job count from those aliases or estimated salaries. This is one current contractor req assessed by actual backend description, with mismatch explicit.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/backend, secure APIs and distributed performance",
+          "tailoring": "Use Anup's Java/backend payments resume if recruiter confirms backendscope. Highlight SpringSecurity/OAuth2/mTLS, Kafka, SQL, K8s/AKS and real troubleshooting. Prepare concurrency/threadpool/JVM and transaction-integrity examples without invented throughput. Establish title/grade/rate before extensive work.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/backend and event-driven platform reliability",
+          "tailoring": "Use Meena's hands-on backend/cloud lead resume. Highlight Java21/Spring3, Kafka/Redis, AWS/EKS, observability, secure releases and actual architecture/review mentoring. Prepare failure containment/idempotency examples. Confirm lead-level authority, rate and contract economics against her goals instead of relying on DevOps title.",
           "application_status": "Not applied or approved"
         }
       }
