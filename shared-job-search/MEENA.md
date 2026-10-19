@@ -1468,7 +1468,7 @@ Verification: 19October2026: complete official Greenhouse description and named 
 
 Deduplication: No Firmus/employer-equivalent in156jobledger/history or3runtime exports. Distinct platformoperations domain, not recruiter copy or previouslyreported Javaapplication/DevOps track.
 
-## Newly checked 20 October 2026: pending ChatGPT delivery
+## Checked 20 October 2026: prior ChatGPT alert delivered
 
 ### Priority 1: Vanguard Software Pte Ltd: Senior Backend Engineer (JAVA / GO), overlapping Senior/Lead/Expert track
 
@@ -1513,4 +1513,73 @@ Questions: What client, back-office system and ownership distinguish this requis
 Verification: 20 October 2026 Singapore: official role description, VR-125579/date and full application fields readable with Apply/Agree and send. No closed marker; no submission performed.
 
 Deduplication: Not in 160 canonical records, history or three runtime exports. Compared existing Luxoft VR-123976 React/Azure role, VR-124976 FX eTrading, VR-125088 trading and VR-125461 structured-products Kotlin. This exact requisition advertises Angular-acceptable enterprise SPA plus ADFS/MQ/back-office scope, not a renamed exact req. End-client/system identity remains unconfirmed; consolidate if recruiter confirms the same project.
+
+
+## New findings checked 20 October 2026: pending ChatGPT delivery
+
+### Priority 1: Plaud: Senior Backend Engineer - SG (evaluation platform and data governance)
+
+[Application](https://jobs.ashbyhq.com/Plaud/f99fc44a-ee3d-41c5-900d-57417e93278b)
+
+Location/type: Singapore; remote/hybrid/onsite attendance cadence not confirmed on exact employer description. Full-time; permanent/fixed-term terms to establish
+
+Pay: No numeric compensation published on the exact observed employer description. No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim. Equity: ESOP advertised; amount, vesting, exercise/liquidity terms unknown; not guaranteed cash.
+
+Fit: Java and/or Go accepted. Own production evaluation platform, regression/release gates, reusable SDKs/APIs, secure governed agent data access, PII masking, audit/data ownership and distributed reliability. Five-plus backend/platform years including three-plus complex distributed production years requested. AI-assisted coding/debugging/analysis is explicit.
+
+Prepare: Establish production shared SDK/platform ownership, HTTP/gRPC resilience, transaction isolation/idempotency, secure data access and privacy controls. Prepare workflow orchestration/automated evaluation; ArgoCD is not Argo Workflows. Modern data infrastructure such as Spark/Flink/Snowflake/Databricks/Athena is explicit and requires preparation/evidence, not assumed incapability. Prototype-only services do not meet production-platform requirement.
+
+Resume: Use Meena's hands-on backend/cloud lead resume. Foreground Kafka/Streams, AWS/Kubernetes, observability, DevSecOps/GitOps, quality gates and mentoring. Establish actual platform/data-governance ownership and coding-agent practice separately from Spring AI prototypes. Distinguish ArgoCD delivery from Argo Workflows orchestration.
+
+Hours/travel: Reliability, SLAs and incident-analysis tooling are part of role. Core hours, global overlap and on-call rota/compensation unknown.
+
+Questions: Is enterprise Java/MDM/governance experience accepted for this evaluation-platform scope? Which production data/orchestration tools need immediate proficiency? Exact grade/authority, SG entity/pass support, applicable base/bonus/ESOP, attendance, on-call and global hours? Does any separately published SG backend band apply to this exact requisition?
+
+Verification: 20 October 2026 Singapore: exact official Ashby indexed description matches employer LinkedIn full description and live Apply. Official direct page/board renders JavaScript shell; final application form unverified. Employer post confirms full-time Singapore, Java/Go and evaluation/governance scope; no closed marker.
+
+Deduplication: No Plaud in 162 canonical jobs/history or three runtime exports. Distinct from AI Applications 5e8a64fa: this requisition owns evaluation/governance/shared platform rather than user-facing agent/retrieval features. Older generic backend and external salary posts not proven separate or applicable; no extra job count/pay borrowed.
+
+### Priority 2: Plaud: Senior Backend Engineer (AI Applications) - Singapore
+
+[Application](https://jobs.ashbyhq.com/plaud/5e8a64fa-5ae7-4259-865c-83e274e143f8)
+
+Location/type: Singapore; attendance cadence unstated. India remote not advertised. Full-time; permanent/fixed-term terms to establish
+
+Pay: No numeric compensation published on the exact observed employer description. No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim. Equity: Not quantified on this exact observed role description
+
+Fit: Build user-facing AI agent applications, retrieval integrated with reasoning/workflows, end-to-end product features and reliability/performance improvements. Three-plus years software engineering in AI/backend/related fields, Python/Go or similar fundamentals, practical LLM product integration and production-system ability.
+
+Prepare: Applied-agent stretch, not ML research. Establish Python/Go readiness and whether Java counts as similar; demonstrate actual agent/retrieval workflow integration, failure evaluation and productionization plan. Coding-agent use alone is not production agent-building. Meena's Spring AI/RAG/MCP examples remain prototypes.
+
+Resume: Use Meena's lead/full-stack AI-integration resume. Highlight truthful Spring AI/RAG/MCP/Claude API prototypes with evaluation, tool permissions, failure paths and lessons; pair with production backend/cloud delivery and stakeholder ownership. Explicitly separate prototype AI experience from deployed enterprise services.
+
+Hours/travel: Core hours, global overlap and operational/on-call duties unknown.
+
+Questions: Would strong Java/backend experience plus truthful AI prototypes/practices be considered, and what Python/Go/agent production evidence is essential? Exact SG grade, base/variable/equity, pass support, attendance, hours/on-call and current funded team seat?
+
+Verification: 20 October 2026 Singapore: employer LinkedIn 4402365883 full description and Apply readable, full-time SG, no closed marker. Older 4400814357 copy explicitly closed, consolidated as historical alias. Official exact Ashby title indexed; direct page and board JS shells, final form unverified.
+
+Deduplication: No prior Plaud record in shared/history/runtime exports. Consolidates older AI Applications LinkedIn copies as one track. Responsibilities and exact ATS req differ from f99fc44a evaluation/data-governance platform, so two candidate assessments are justified; do not count same-project reposts separately.
+
+### Priority 3: Tilt Finance (formerly Empower), Cashalo product: Senior Backend Engineer, Cashalo
+
+[Application](https://jobs.ashbyhq.com/tilthq/3caea8b7-a7df-47e5-834d-cc3288d102fe)
+
+Location/type: 100% remote with required travel two to four times/year. Remote Singapore explicitly indexed; not worldwide or India eligibility. Full-time; permanent/fixed-term terms to establish
+
+Pay: No numeric compensation published on the exact observed employer description. No applicable published guaranteed cash amount to annualize or convert; no income-uplift claim. Equity: Equity advertised, amount/vesting/liquidity terms unknown and separate from cash
+
+Fit: High-ownership product IC for regulated lending: requirements-to-deployment APIs, SQL Server models/query optimization, Azure reliability/observability and engineering reviews. Explicit production .NET/C# experience and .NET/Azure coding interview; financial domain plus. Employer says potential beyond every qualification is considered.
+
+Prepare: Language-transition stretch; confirmed Java/cloud/REST/database judgment transfers but does not prove production C#. Ask whether Java-to-.NET transition is acceptable before technical assessment. Anup SQL Server/Azure maps directly; Meena AWS/relational delivery transferable but SQL Server/C#/Azure depth unconfirmed. Prepare actual product reliability, data integrity and lending workflows.
+
+Resume: Use Meena's lead/backend cloud resume. Highlight fintech/public-sector reliability, APIs, relational data, delivery ownership and reviews/mentoring. Explain AWS-to-Azure mappings and prepare .NET/SQL Server honestly without claiming specialist production tenure; establish package and senior-IC authority.
+
+Hours/travel: Collaborate APAC product/credit/engineering and global team. Core hours, US/India overlap, seasonal DST requirements and on-call unknown.
+
+Questions: Does Java financial-platform delivery qualify despite explicit production C# requirement, and is ramp-up supported? SG entity/pass support, guaranteed base/currency/period and separate equity/bonus, SG versus India engagement, notice/benefits, required travel destinations/expenses/work permissions, core hours/on-call and interview expectations?
+
+Verification: 20 October 2026 Singapore: employer LinkedIn full description and Apply readable, full-time SG and 100% remote/travel2-4 explicit; no closed marker. Exact official ATS indexed Remote Australia/Singapore full-time, direct page JS shell; final application form unverified. Matching BuiltIn description corroborates scope, but its AI benefits summary/estimates not used.
+
+Deduplication: No Tilt/Empower/Cashalo track in162ledger/history or three runtime exports. One SG/Australia remote req, not separate location copies. Not inferred eligible merely from US employer HQ; SG role-specific evidence exists.
 
