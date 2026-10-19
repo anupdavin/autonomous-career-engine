@@ -9990,9 +9990,10 @@
       "checked_at": "2026-10-19T22:23:08Z",
       "posted": "Original employer posting date unavailable; relative repost dates not treated as original.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert, delivery not asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and external-work handoff confirm delivery; no application or approval inferred."
       },
       "bonus": "Not published",
       "equity": "Not published",
@@ -10061,9 +10062,10 @@
       "checked_at": "2026-10-19T22:23:08Z",
       "posted": "Original employer posting date unavailable; relative repost dates not treated as original.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert, delivery not asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and external-work handoff confirm delivery; no application or approval inferred."
       },
       "bonus": "Not published",
       "equity": "Not published",
@@ -10112,6 +10114,142 @@
         }
       },
       "canonical_url": "https://www.askable.com/experts/roles/senior-software-engineer"
+    },
+    {
+      "employer": "Grab",
+      "import_source": "New public-web discovery; compared174sharedrecords/history and3runtimeexports",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T23:12:53Z",
+      "posted": "Original posting date unavailable; crawl/repost dates not treated as original",
+      "engagement_type": "Full-time; permanent versus fixed-term duration unknown",
+      "published_compensation": "No numeric compensation published on exact official description or application shell",
+      "compensation_geography": "Singapore applicable cash band/currency/period, global/location adjustment and India terms unknown; India remote not advertised",
+      "sgd_comparison": "No published applicable amount to annualize orconvert; no uplift against unknowncurrentpackages",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "eligibility": "Singapore work location supported. Personal work rights and employer sponsorship unknown. No Indiaremote entitlement; no relocation assumed.",
+      "authorization_sponsorship": "No explicit citizenship-only or sponsorship promise/refusal in readable official text. Existing employer's pass not assumed transferable.",
+      "terms": "SGentity/passsupport, employmentduration/probation/notice, exactbase and variable/equity, leave/benefits and operationalcoverage toconfirm. Medical/termlife and GrabFlex advertised without numericvaluation.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "status_at_last_check": "Current official role and Apply route live; final application fields JS-only/unverified",
+      "job_id": "grab-partner-apps-fullstack-153718020",
+      "title": "Senior Software Engineer, Full Stack - Partner Apps Platform",
+      "requisition": "744000153718020; overlapping744000149504979",
+      "url": "https://www.grab.careers/en/jobs/744000153718020/senior-software-engineer-full-stack/",
+      "url_aliases": [
+        "https://jobs.smartrecruiters.com/Grab/744000153718020-senior-software-engineer-full-stack",
+        "https://jobs.smartrecruiters.com/grab/744000149504979"
+      ],
+      "location": "Grab One North, Singapore",
+      "arrangement": "Onsite at Grab One North explicit; office-day count not specified in this exact role, confirm rather than importing another role's five-day clause",
+      "hours_on_call": "Incident response/production reliability explicit. Formal on-call rota, nights/weekends, global overlap/DST and pay/TOIL unstated.",
+      "fit": "PartnerApps developer portal/webviewJavaScriptbridge, backendAPIs and selfservice onboarding/config/review/release workflows. Own platform reliability, security/testing and designreviews/mentoring. Minimum4yearsfullstack withReact/TypeScript and atleastonebackendlanguage; Java background transferable but production backendlanguage choice/ramp-up toconfirm.",
+      "preparation": "React is an explicit essential requirement, not automatically satisfied by Angular. Establish demonstrable React/TypeScript implementation plus frontend-backend contracts, webviewbridge security/lifecycle, developerplatform abstractions and productionownership.4yearminimum does not establish senior grade/package; no invented React tenure.",
+      "upside": "Career-growth candidate assessment through directproduct developerplatform ownership, selfserviceautomation and designauthority. Compensation to establish; potentialcareerbenefit dependsgrade/authority and office/operationalterms.",
+      "questions": "Does Java backend plus Angular/TypeScript and demonstrableReact transition fit immediateexpectations? Actual backend stack, rolegrade/authority, SGbase versusvariable/equity and MeenaSGD12k target fit, sponsorship, officecadence, oncall/overlap/DST and notice?",
+      "verification": "20October2026: current exact official Grabcareers full description and Apply visible, explicitSGfulltimeonsite. Apply followsSmartRecruiters publication18236cd4-e0de-4fd6-9c0f-daee6a69b18d withcorrecttitle/SGlocation, butJSshell only; finalfieldsnotverified. Older149504979 materiallysamePartnerAppsdescription consolidated. No application/contact.",
+      "deduplication_note": "No PartnerApps project in174sharedrecords/history orruntimeexports. Differentteam/projectfrompriorGrabLeadFlinkplatform.149504979 and153718020 samePartnerAppsresponsibilities, onecanonicaljob nottwofreshopenings.",
+      "source_evidence": [
+        {
+          "url": "https://www.grab.careers/en/jobs/744000153718020/senior-software-engineer-full-stack/",
+          "checked_at": "2026-10-19T23:12:53Z",
+          "observation": "SGfulltimeonsitePartnerApps developerplatform, ReactTS essential andanybackendlanguage; no pay; currentApply."
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/grab/744000149504979",
+          "checked_at": "2026-10-19T23:12:53Z",
+          "observation": "SubstantiallyidenticalPartnerAppsdescription; consolidatedalias."
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/Grab/publication/18236cd4-e0de-4fd6-9c0f-daee6a69b18d",
+          "checked_at": "2026-10-19T23:12:53Z",
+          "observation": "ApplicationtitleandGrabOneNorthSGmatch,JSonlyfinalformunverified."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Full-stack/backend platform modernization and secure integrations",
+          "tailoring": "Use Anup's Java/TypeScript full-stack/platform resume. Highlight actual API/security integration, Kubernetesdelivery, CI/CD and observabilitytroubleshooting; show a real selfservice/internalworkflow design. Prepare originalReact evidence and webviewbridge threats; do not claim fouryearsReact or assumeJavaistheproductstack.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on full-stack/cloud lead and developerworkflow reliability",
+          "tailoring": "Use Meena's lead/full-stack/cloud resume. Foreground Angular18/TypeScript, APIcontracts, GitOps/DevSecOps, productionreliability and actualmentoring. Explain a real cross-team platformworkflow improvement. PrepareReactstate/render/testing and bridge security withoutinventedproductionReacttenure.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://www.grab.careers/en/jobs/744000153718020/senior-software-engineer-full-stack/"
+    },
+    {
+      "employer": "Grab",
+      "import_source": "New public-web discovery; compared174sharedrecords/history and3runtimeexports",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T23:12:53Z",
+      "posted": "Original posting date unavailable; crawl/repost dates not treated as original",
+      "engagement_type": "Full-time; permanent versus fixed-term duration unknown",
+      "published_compensation": "No numeric compensation published on exact official description or application shell",
+      "compensation_geography": "Singapore applicable cash band/currency/period, global/location adjustment and India terms unknown; India remote not advertised",
+      "sgd_comparison": "No published applicable amount to annualize orconvert; no uplift against unknowncurrentpackages",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "eligibility": "Singapore work location supported. Personal work rights and employer sponsorship unknown. No Indiaremote entitlement; no relocation assumed.",
+      "authorization_sponsorship": "No explicit citizenship-only or sponsorship promise/refusal in readable official text. Existing employer's pass not assumed transferable.",
+      "terms": "SGentity/passsupport, employmentduration/probation/notice, exactbase and variable/equity, leave/benefits and operationalcoverage toconfirm. Medical/termlife and GrabFlex advertised without numericvaluation.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "status_at_last_check": "Current official role and Apply route live; final application fields JS-only/unverified",
+      "job_id": "grab-support-fullstack-143221939",
+      "title": "Senior Software Engineer, Fullstack - Support Experience",
+      "requisition": "744000143221939",
+      "url": "https://www.grab.careers/en/jobs/744000143221939/senior-software-engineer-fullstack/",
+      "url_aliases": [
+        "https://jobs.smartrecruiters.com/Grab/744000143221939-senior-software-engineer-fullstack"
+      ],
+      "location": "Singapore",
+      "arrangement": "Singapore five-day in-office arrangement explicitlystated",
+      "hours_on_call": "Oncall support, incidenthandling, rootcause/prevention explicit. Rota frequency, nights/weekends, standby/incidentpay orTOIL, globaloverlap/DST unknown.",
+      "fit": "Build andoperate consumer/driver/merchantHelpCentre/selfservice andagent-assisted support workflows. ReactTypeScriptfrontend andGoAPIs/microservices; independenttechnicaldesign,productionreadiness,monitoringandmentoring. Effectivecodingagents andLLMAPIuse in dailyengineering essential; Temporal/AI-poweredsupportproducts nice-to-have.",
+      "preparation": "Go andproductionReact explicit, so language/frameworktransition and evidence mustbeestablished. Anup limitedGo notseniorGoproficiency. MeenaSpringAI/RAG/MCP/ClaudeAPIprototypes remainprototypes anddo notestablish dailycodingagentpractice. Prepare distributedAPI/workflow failurehandling,Go concurrency/context andReact testing; neitherproductionMLresearchnor priorAIproductdelivery mandatory.",
+      "upside": "Career-growth candidate assessment through product-scale AI-augmentedengineering and end-to-enddesign/operationsownership; compensationtoestablish, oncallandfiveofficedaysmaterialconditions.",
+      "questions": "Would Java/Angular engineers withTypeScript anddemonstrableGo/Reactrampfit? Productionlanguage expectations andgrading, actualAIagent/LLMAPIworkflow, SGbase/variable/equity/sponsorship, fiveofficedays, oncallrota/pay/TOIL/corehours/DST andnotice?",
+      "verification": "20October2026: exact officialGrabcareers description/currentApply, SGfulltime,explicitfiveofficedays andoncall. Apply reachesSmartRecruiterspublicatione0ce2976-4749-40e1-a81d-91586a0e0456,JSonlyshell; finalapplicationfieldsunverified. No closedmarker, no submission/contact.",
+      "deduplication_note": "No SupportExperience/HelpCentreproject in174sharedjobs/history or3runtimeexports. DifferentproductteamfromPartnerAppsportal andearlierGrabLeadFlink. Vietnam copies are not additionaleligibleSGroles andnotcounted.",
+      "source_evidence": [
+        {
+          "url": "https://www.grab.careers/en/jobs/744000143221939/senior-software-engineer-fullstack/",
+          "checked_at": "2026-10-19T23:12:53Z",
+          "observation": "SGfulltimefiveoffice days,ReactTS+Go,dailycodingagents/LLMAPI,HelpCentre/selfservice,explicitoncall,nopay."
+        },
+        {
+          "url": "https://jobs.smartrecruiters.com/Grab/744000143221939-senior-software-engineer-fullstack",
+          "checked_at": "2026-10-19T23:12:53Z",
+          "observation": "MatchingofficialATSdescription;ApplyrouteJSshellfinalfieldsunverified."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Full-stack/AI-assisted engineering; Go/React transition",
+          "tailoring": "Use Anup's full-stack/AI-assistedengineering resume. Highlight actualcodingagent context/verification,TypeScript,secureAPIs,microservices,productiondiagnosis andend-to-enddelivery. DescribeGoexperienceaslimited; prepare an originalsmallGo/Reactfailurehandlingexample andseparateLLMAPIimplementationevidence.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on full-stack lead and appliedAI integration",
+          "tailoring": "Use Meena's lead/full-stack/AI-integration resume. Emphasize actualTypeScript/RxJS,API/workflowdesign,Kafka,AWS,reliabilityreviews andmentoring. LabelLLMintegrationsprototypes; establishdailycodingagentpractice andGo/Reactdeliveryreadiness. Preparearealincident/recoveryexample andscreenlead-levelscope/pay.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://www.grab.careers/en/jobs/744000143221939/senior-software-engineer-fullstack/"
     }
   ]
 }
