@@ -1681,3 +1681,76 @@ Verification: 20October2026 Singapore: currentofficial careersboard links role; 
 
 Deduplication: No Reap/endclient-equivalent in167sharedrecords/history or3runtimeexports. CurrentReapSecurityIdentity8522053locationlist excludesSGIndia; not mixed withthisSGhybridrole. OlderTechLeadPlatformSGLinkedIn does not establish currenteligibilityfor renamedSecurityIdentityreq.
 
+## Opportunities checked 20 October 2026: pending ChatGPT delivery
+
+### Priority 1: Airwallex: Staff Software Engineer, Growth
+
+[Application](https://careers.airwallex.com/job/b0fd93c9-b792-4a96-8828-bae299761a92/staff-software-engineer-growth/)
+
+Location/type: Onsite Singapore office five days a week, explicit current employer requirement Full time; permanent versus fixed term unknown
+
+Eligibility: Singapore onsite supported. Not advertised India remote. Personal SG work rights and sponsorship unknown; form asks about both.
+
+Pay: No numeric compensation published on current exact official opening. Older April 2026 advertisement/mirror $15000-28000 monthly expired 6 May 2026 and is not imported as current applicable pay. No current applicable published amount to calculate; no uplift versus unknown packages.
+
+Fit: Staff backend ownership of Growth Engineering: customer acquisition/activation/conversion/retention infrastructure, high-performance APIs, event-driven services, real-time data and intelligent workflow automation. Java/Kotlin/Python or comparable, Spring Boot accepted. 8+ years and proven staff-level cross-team architecture/mentoring expected. Growth/experimentation and LLM/agentic application experience preferred, not mandatory production ML research.
+
+Prepare: Establish cross-team technical influence and ambiguous design-to-operations ownership; total tenure alone is not staff evidence. Prepare domain boundaries, event consistency, experimentation, segmentation and business-impact measurement. AI application building is preferred; coding-agent usage does not prove production agents.
+
+Resume: Use Meena's lead/backend/cloud resume. Highlight event-driven Java/Spring systems, Kafka/Streams, AWS/EKS, DevSecOps, observability, architecture reviews and mentoring. Prepare genuine cross-team delivery and failure-recovery examples; label Spring AI/RAG/MCP work prototypes and establish experimentation/growth concepts.
+
+Hours/terms: Collaboration across APAC, EMEA and US explicit. Core hours, DST overlap, on-call and compensation/TOIL unstated. Five office days; employing entity, duration, notice, leave, variable and equity terms unknown.
+
+Questions: Confirm SG base and separate bonus/equity, staff-level calibration/authority, pass sponsorship, five-day attendance, global core hours/DST and on-call. Clarify immediate growth/experimentation expertise versus transferable regulated enterprise delivery.
+
+Verification: 20 October 2026: complete exact official Singapore description and application fields/Submit visible. Current page explicitly five office days and 8+ years. Old Built In June removal and expired April pay mirror are not treated as current employer status/pay. No submission.
+
+Deduplication: Distinct customer growth/experimentation project, not prior Citizen Dev internal tooling, Data Platform AI Enablement, Org Identity or Ecosystem integration. No employer/project equivalent in shared ledger or runtime exports. Other geographic Growth variants not counted separately.
+
+### Priority 2: Databento: Software Engineer (C++/Java)
+
+[Application](https://job-boards.greenhouse.io/databento/jobs/8074345)
+
+Location/type: 100% remote; exact description says teammates around the globe and local-currency pay Midlevel or senior IC; full-time status suggested by benefits/experience language but exact engagement type to establish
+
+Eligibility: Promising globally remote lead: exact page explicitly global team/100% remote, no US-only residence rule stated. SG/India hiring availability, legal mechanism and applicable country package unconfirmed; listed US cities are not treated as a confirmed worldwide legal hiring list.
+
+Pay: Exact employer base salary range $150000-250000, benchmarked to Tier 1 locations in each country. Dollar currency and pay period not explicit in readable exact page. Team paid in local currency. Do not assume USD/year or a global flat band. No annual guaranteed SGD conversion: currency/period and SG/India applicability must first be established. Bonuses/commissions/equity may apply separately.
+
+Fit: Own Java client library, developer-friendly APIs, release compatibility and testing; also high-performance C/C++ servers, exchange feed handlers/parsers, multithreading/network I/O and petabyte data tooling. Strong both C/C++ and Java preferred; nanosecond latency and CPU/kernel/compiler internals materially beyond typical Spring services.
+
+Prepare: Ambitious dual-language/systems-performance stretch, not a Java-only backend opening. Establish actual C/C++ evidence, low-level debugging gdb/lldb, serialization, CPU/cache/concurrency and market-data fundamentals. Transfer secure APIs, production diagnosis and Java engineering without claiming nanosecond trading or C++ expertise. Employer explicitly welcomes incomplete qualification matches.
+
+Resume: Use Meena's hands-on backend/cloud resume. Highlight event-driven correctness, testing, performance analysis, observability and review/mentoring. Establish whether senior IC ownership improves scope; prepare Java library lifecycle and C++/network-debugging evidence without inventing specialist experience.
+
+Hours/terms: Monitoring/uptime and smooth releases included; core hours, US overlap/DST, on-call rotation and pay/TOIL unstated. Exact page lists health/dental/disability/life insurance and 401(k) for full-time employees; local SG/India benefits not confirmed. Visa support as needed. Duration, leave, notice, currency/FX costs and expenses unknown.
+
+Questions: Can Java-first engineers demonstrate C++ ramp-up or must both be immediately strong? What share is SDK versus core C++? SG/India engagement, local Tier 1 band/currency/period, base versus variable/equity, employment/contract terms, benefits, hours/DST and on-call?
+
+Verification: 20 October 2026: current official board links this exact opening; complete description, named application fields and Submit visible. No closed marker. No application/contact; board explicitly warns not to call/message about applications.
+
+Deduplication: No Databento/client/project equivalent in 169 shared records/history or three runtime exports. C++/C#, C++/Rust and support openings are not additional Java matches.
+
+### Priority 3: Factory: Technical Support Engineer - Remote APAC
+
+[Application](https://jobs.ashbyhq.com/factory/a70c27d6-74a1-4856-8f57-3b9dae625789)
+
+Location/type: Remote APAC advertised, full time. SG/India country eligibility not individually stated; Sydney tag needs clarification. Full time; permanent versus fixed term unknown
+
+Eligibility: Eligibility-unconfirmed remote APAC lead. No explicit Australia-only residence/work-right clause in readable employer description, but Sydney geotag does not establish SG/India hiring. If Australia-only is confirmed it is a hard blocker from SG/India.
+
+Pay: No numeric compensation published for exact APAC role in readable employer description/index. No generic US/other-role band substituted. No numeric applicable cash amount to convert; no income uplift established.
+
+Fit: Developer-centric autonomous software platform. Customer architecture/performance/recovery/security troubleshooting; diagnostics, benchmarking and automation tools; product feedback and engineering collaboration. Java among accepted languages; cloud production/network/OS operations and communication important. Observability/CI/CD and AI/enterprise SaaS are relevant advantages, not production ML-research requirements.
+
+Prepare: Adjacent customer-engineering/AI-developer-tooling move, not advertised senior Java feature-development job. Establish coding versus support share, grade, escalation authority and ownership; LinkedIn entry-level metadata is a grade warning, not automatic exclusion. Prepare calm real-time diagnosis and clear written customer explanations; estate operations depth separate from application deployments.
+
+Resume: Use Meena's hands-on lead/cloud resume. Emphasize AWS/EKS/Istio, GitOps, observability, incident communication, secure delivery and mentoring. Show actual diagnostic/automation ownership and establish coding-agent workflow practice separately from AI-integration prototypes. Screen grade/package early.
+
+Hours/terms: Real-time customer diagnosis explicit; coverage shifts, response SLAs, APAC business hours/US overlap/DST and on-call pay/TOIL not stated. Country employer/EOR/B2B arrangement, duration, minimum hours, leave/benefits, notice and payment schedule unknown.
+
+Questions: Can employees/contractors reside in SG or India, or Australia only? Applicable senior grade and cash band? What fraction coding/automation versus tickets, escalation/roadmap authority, customer coverage/shift SLAs/on-call/DST, entity/pass support, contract/leave/notice terms?
+
+Verification: 20 October 2026: exact official Ashby URL renders JS-only shell; search-indexed official description says Remote APAC/full time. Current employer LinkedIn full description and Apply visible, Sydney geotag; final ATS form unverified. No closed marker on employer LinkedIn, no submission.
+
+Deduplication: No Factory employer/project/req in shared ledger or runtime exports. Mirrors across Australia/APAC are same req, not separate roles.

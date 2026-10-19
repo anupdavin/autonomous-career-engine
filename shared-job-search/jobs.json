@@ -9793,6 +9793,193 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "import_source": "New public-web discovery; compared 169 shared jobs, alert history and three runtime exports",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T21:28:06Z",
+      "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "bonus": "Not published; any variable compensation separate from guaranteed cash",
+      "equity": "Not published",
+      "authorization_sponsorship": "Personal work authorization and employer sponsorship unknown; current employer pass not assumed transferable.",
+      "application_status": "Not applied or approved",
+      "job_id": "airwallex-growth-b0fd93c9",
+      "employer": "Airwallex",
+      "title": "Staff Software Engineer, Growth",
+      "requisition": "b0fd93c9-b792-4a96-8828-bae299761a92",
+      "url": "https://careers.airwallex.com/job/b0fd93c9-b792-4a96-8828-bae299761a92/staff-software-engineer-growth/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/b0fd93c9-b792-4a96-8828-bae299761a92",
+        "https://careers.airwallex.com/job/b0fd93c9-b792-4a96-8828-bae299761a92/"
+      ],
+      "location": "Singapore",
+      "arrangement": "Onsite Singapore office five days a week, explicit current employer requirement",
+      "engagement_type": "Full time; permanent versus fixed term unknown",
+      "eligibility": "Singapore onsite supported. Not advertised India remote. Personal SG work rights and sponsorship unknown; form asks about both.",
+      "published_compensation": "No numeric compensation published on current exact official opening. Older April 2026 advertisement/mirror $15000-28000 monthly expired 6 May 2026 and is not imported as current applicable pay.",
+      "compensation_geography": "Current SG band unknown. US Seattle/San Francisco variants and their bands do not establish SG compensation.",
+      "sgd_comparison": "No current applicable published amount to calculate; no uplift versus unknown packages.",
+      "hours_on_call": "Collaboration across APAC, EMEA and US explicit. Core hours, DST overlap, on-call and compensation/TOIL unstated.",
+      "terms": "Five office days; employing entity, duration, notice, leave, variable and equity terms unknown.",
+      "fit": "Staff backend ownership of Growth Engineering: customer acquisition/activation/conversion/retention infrastructure, high-performance APIs, event-driven services, real-time data and intelligent workflow automation. Java/Kotlin/Python or comparable, Spring Boot accepted. 8+ years and proven staff-level cross-team architecture/mentoring expected. Growth/experimentation and LLM/agentic application experience preferred, not mandatory production ML research.",
+      "preparation": "Establish cross-team technical influence and ambiguous design-to-operations ownership; total tenure alone is not staff evidence. Prepare domain boundaries, event consistency, experimentation, segmentation and business-impact measurement. AI application building is preferred; coding-agent usage does not prove production agents.",
+      "upside": "Career-growth candidate assessment from cross-team roadmap/architecture and hands-on platform ownership. Compensation to establish; larger title not proof of income growth.",
+      "questions": "Confirm SG base and separate bonus/equity, staff-level calibration/authority, pass sponsorship, five-day attendance, global core hours/DST and on-call. Clarify immediate growth/experimentation expertise versus transferable regulated enterprise delivery.",
+      "verification": "20 October 2026: complete exact official Singapore description and application fields/Submit visible. Current page explicitly five office days and 8+ years. Old Built In June removal and expired April pay mirror are not treated as current employer status/pay. No submission.",
+      "status_at_last_check": "Official description and application form live",
+      "deduplication_note": "Distinct customer growth/experimentation project, not prior Citizen Dev internal tooling, Data Platform AI Enablement, Org Identity or Ecosystem integration. No employer/project equivalent in shared ledger or runtime exports. Other geographic Growth variants not counted separately.",
+      "source_evidence": [
+        {
+          "url": "https://careers.airwallex.com/job/b0fd93c9-b792-4a96-8828-bae299761a92/staff-software-engineer-growth/",
+          "checked_at": "2026-10-19T21:28:06Z",
+          "observation": "SG full time five office days; Java/Spring Boot staff-level architecture and growth event/AI automation scope; no numeric pay; full form live."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Backend/security/platform and AI-assisted engineering, staff stretch",
+          "tailoring": "Use Anup's Java backend/platform resume. Foreground secure payments integrations, Kafka, cloud/Kubernetes, observability, domain/data ownership and genuine review/mentoring decisions. Demonstrate a real cross-team tradeoff and delivery outcome; coding assistants remain AI-assisted practices, not production growth agents.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on backend/cloud technical leadership, staff stretch",
+          "tailoring": "Use Meena's lead/backend/cloud resume. Highlight event-driven Java/Spring systems, Kafka/Streams, AWS/EKS, DevSecOps, observability, architecture reviews and mentoring. Prepare genuine cross-team delivery and failure-recovery examples; label Spring AI/RAG/MCP work prototypes and establish experimentation/growth concepts.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://careers.airwallex.com/job/b0fd93c9-b792-4a96-8828-bae299761a92/staff-software-engineer-growth/"
+    },
+    {
+      "import_source": "New public-web discovery; compared 169 shared jobs, alert history and three runtime exports",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T21:28:06Z",
+      "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "bonus": "Employer says total compensation may include bonuses and commissions depending on role; not guaranteed base",
+      "equity": "May include equity depending on role; amount/vesting unknown",
+      "authorization_sponsorship": "Application states globally based remote team can sponsor visas as needed. This is not a promise of Singapore or India sponsorship/engagement.",
+      "application_status": "Not applied or approved",
+      "job_id": "databento-cpp-java-8074345",
+      "employer": "Databento",
+      "title": "Software Engineer (C++/Java)",
+      "requisition": "8074345",
+      "url": "https://job-boards.greenhouse.io/databento/jobs/8074345",
+      "url_aliases": [],
+      "location": "Remote / Boston / Salt Lake City / San Francisco / New York",
+      "arrangement": "100% remote; exact description says teammates around the globe and local-currency pay",
+      "engagement_type": "Midlevel or senior IC; full-time status suggested by benefits/experience language but exact engagement type to establish",
+      "eligibility": "Promising globally remote lead: exact page explicitly global team/100% remote, no US-only residence rule stated. SG/India hiring availability, legal mechanism and applicable country package unconfirmed; listed US cities are not treated as a confirmed worldwide legal hiring list.",
+      "published_compensation": "Exact employer base salary range $150000-250000, benchmarked to Tier 1 locations in each country. Dollar currency and pay period not explicit in readable exact page. Team paid in local currency. Do not assume USD/year or a global flat band.",
+      "compensation_geography": "Location benchmarking explicit; SG/India specific amount/currency/period, employee versus contractor status and geographic adjustments unconfirmed.",
+      "sgd_comparison": "No annual guaranteed SGD conversion: currency/period and SG/India applicability must first be established. Bonuses/commissions/equity may apply separately.",
+      "hours_on_call": "Monitoring/uptime and smooth releases included; core hours, US overlap/DST, on-call rotation and pay/TOIL unstated.",
+      "terms": "Exact page lists health/dental/disability/life insurance and 401(k) for full-time employees; local SG/India benefits not confirmed. Visa support as needed. Duration, leave, notice, currency/FX costs and expenses unknown.",
+      "fit": "Own Java client library, developer-friendly APIs, release compatibility and testing; also high-performance C/C++ servers, exchange feed handlers/parsers, multithreading/network I/O and petabyte data tooling. Strong both C/C++ and Java preferred; nanosecond latency and CPU/kernel/compiler internals materially beyond typical Spring services.",
+      "preparation": "Ambitious dual-language/systems-performance stretch, not a Java-only backend opening. Establish actual C/C++ evidence, low-level debugging gdb/lldb, serialization, CPU/cache/concurrency and market-data fundamentals. Transfer secure APIs, production diagnosis and Java engineering without claiming nanosecond trading or C++ expertise. Employer explicitly welcomes incomplete qualification matches.",
+      "upside": "Career-growth candidate assessment through Java SDK ownership and deep financial-data systems. Published pay makes package screening worthwhile, but income-growth comparison unproven until country/currency/period confirmed.",
+      "questions": "Can Java-first engineers demonstrate C++ ramp-up or must both be immediately strong? What share is SDK versus core C++? SG/India engagement, local Tier 1 band/currency/period, base versus variable/equity, employment/contract terms, benefits, hours/DST and on-call?",
+      "verification": "20 October 2026: current official board links this exact opening; complete description, named application fields and Submit visible. No closed marker. No application/contact; board explicitly warns not to call/message about applications.",
+      "status_at_last_check": "Official board, description and application form live",
+      "deduplication_note": "No Databento/client/project equivalent in 169 shared records/history or three runtime exports. C++/C#, C++/Rust and support openings are not additional Java matches.",
+      "source_evidence": [
+        {
+          "url": "https://job-boards.greenhouse.io/databento/jobs/8074345",
+          "checked_at": "2026-10-19T21:28:06Z",
+          "observation": "Java SDK plus C++ high-performance server ownership; globally based remote/local-currency pay; $150000-250000 base with unclear dollar ISO/period, local Tier1 benchmarking, variable/equity separate; form live."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java backend/API and payments; ambitious C++ systems transition",
+          "tailoring": "Use Anup's Java backend/payments resume. Emphasize secure API contracts, real concurrency/thread-pool decisions, database/integration reliability and production diagnosis. Prepare an original Java SDK compatibility/testing example and actual C++ learning evidence; do not claim trading-feed or low-level latency tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/cloud engineering and reliability; ambitious dual-language IC move",
+          "tailoring": "Use Meena's hands-on backend/cloud resume. Highlight event-driven correctness, testing, performance analysis, observability and review/mentoring. Establish whether senior IC ownership improves scope; prepare Java library lifecycle and C++/network-debugging evidence without inventing specialist experience.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://job-boards.greenhouse.io/databento/jobs/8074345"
+    },
+    {
+      "import_source": "New public-web discovery; compared 169 shared jobs, alert history and three runtime exports",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T21:28:06Z",
+      "posted": "Original employer posting date unavailable; relative repost/crawl dates not treated as original.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "bonus": "Not published; any variable compensation separate from guaranteed cash",
+      "equity": "Not published",
+      "authorization_sponsorship": "Personal work authorization and employer sponsorship unknown; current employer pass not assumed transferable.",
+      "application_status": "Not applied or approved",
+      "job_id": "factory-support-apac-a70c27d6",
+      "employer": "Factory",
+      "title": "Technical Support Engineer - Remote APAC",
+      "requisition": "a70c27d6-74a1-4856-8f57-3b9dae625789",
+      "url": "https://jobs.ashbyhq.com/factory/a70c27d6-74a1-4856-8f57-3b9dae625789",
+      "url_aliases": [
+        "https://au.linkedin.com/jobs/view/technical-support-engineer-remote-apac-at-factory-4475077551"
+      ],
+      "location": "Remote - APAC (official indexed location); employer LinkedIn geotag Sydney, Australia",
+      "arrangement": "Remote APAC advertised, full time. SG/India country eligibility not individually stated; Sydney tag needs clarification.",
+      "engagement_type": "Full time; permanent versus fixed term unknown",
+      "eligibility": "Eligibility-unconfirmed remote APAC lead. No explicit Australia-only residence/work-right clause in readable employer description, but Sydney geotag does not establish SG/India hiring. If Australia-only is confirmed it is a hard blocker from SG/India.",
+      "published_compensation": "No numeric compensation published for exact APAC role in readable employer description/index. No generic US/other-role band substituted.",
+      "compensation_geography": "Global versus location-adjusted pay, SG/India band/currency/period and engagement mechanism unknown.",
+      "sgd_comparison": "No numeric applicable cash amount to convert; no income uplift established.",
+      "hours_on_call": "Real-time customer diagnosis explicit; coverage shifts, response SLAs, APAC business hours/US overlap/DST and on-call pay/TOIL not stated.",
+      "terms": "Country employer/EOR/B2B arrangement, duration, minimum hours, leave/benefits, notice and payment schedule unknown.",
+      "fit": "Developer-centric autonomous software platform. Customer architecture/performance/recovery/security troubleshooting; diagnostics, benchmarking and automation tools; product feedback and engineering collaboration. Java among accepted languages; cloud production/network/OS operations and communication important. Observability/CI/CD and AI/enterprise SaaS are relevant advantages, not production ML-research requirements.",
+      "preparation": "Adjacent customer-engineering/AI-developer-tooling move, not advertised senior Java feature-development job. Establish coding versus support share, grade, escalation authority and ownership; LinkedIn entry-level metadata is a grade warning, not automatic exclusion. Prepare calm real-time diagnosis and clear written customer explanations; estate operations depth separate from application deployments.",
+      "upside": "Conditional career-growth assessment from AI developer-tooling exposure and diagnostics/automation contribution. Compensation and actual senior ownership must justify a move; could be a support/grade step down.",
+      "questions": "Can employees/contractors reside in SG or India, or Australia only? Applicable senior grade and cash band? What fraction coding/automation versus tickets, escalation/roadmap authority, customer coverage/shift SLAs/on-call/DST, entity/pass support, contract/leave/notice terms?",
+      "verification": "20 October 2026: exact official Ashby URL renders JS-only shell; search-indexed official description says Remote APAC/full time. Current employer LinkedIn full description and Apply visible, Sydney geotag; final ATS form unverified. No closed marker on employer LinkedIn, no submission.",
+      "status_at_last_check": "Employer LinkedIn current Apply; official ATS final body/form unverified",
+      "deduplication_note": "No Factory employer/project/req in shared ledger or runtime exports. Mirrors across Australia/APAC are same req, not separate roles.",
+      "source_evidence": [
+        {
+          "url": "https://jobs.ashbyhq.com/factory/a70c27d6-74a1-4856-8f57-3b9dae625789",
+          "checked_at": "2026-10-19T21:28:06Z",
+          "observation": "Direct ATS JS-only; indexed official description Remote APAC/full time, actual final form unverified."
+        },
+        {
+          "url": "https://au.linkedin.com/jobs/view/technical-support-engineer-remote-apac-at-factory-4475077551",
+          "checked_at": "2026-10-19T21:28:06Z",
+          "observation": "Employer full current description/Apply, Java accepted, diagnostics/automation/customer architecture; Sydney geotag, entry-level metadata, pay and country rules absent."
+        }
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Backend/platform diagnostics and AI-assisted engineering",
+          "tailoring": "Use Anup's backend/platform and AI-assisted engineering resume. Highlight actual EBX/Kubernetes/Grafana/Alloy production diagnosis, secure integrations, CI/CD and verified coding-agent practices. Prepare a real root-cause narrative and diagnostic automation example; don't imply Factory product experience or ML research.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Cloud/platform troubleshooting, customer communication and technical leadership",
+          "tailoring": "Use Meena's hands-on lead/cloud resume. Emphasize AWS/EKS/Istio, GitOps, observability, incident communication, secure delivery and mentoring. Show actual diagnostic/automation ownership and establish coding-agent workflow practice separately from AI-integration prototypes. Screen grade/package early.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "canonical_url": "https://jobs.ashbyhq.com/factory/a70c27d6-74a1-4856-8f57-3b9dae625789"
     }
   ]
 }
