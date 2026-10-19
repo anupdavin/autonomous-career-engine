@@ -943,3 +943,71 @@ Questions: India-only residence/authorization and100%remoteterms; anySGEOR/B2Bex
 Verification: 19 October 2026: listed on official current experienced-professionals board; exact Ashby link opens correct title but JavaScript shell prevents form verification. Matching current Built In full description readable. No application or contact.
 
 Deduplication: Latest142-jobledger/history and three available runtime/application exports compared. Runtime has generic Senior Technical Lead Java/AWS record ashby_junipersquare_sr_tech_lead_india_06 without exact req and unsupported INR45L-65L; not re-alerted or reused as pay. Platform foundational CIAM/search/devtooling and Business Technology revenue integration/MCP are distinct teams and responsibilities from generic backend/fullstacklead. Full history not claimed.
+
+## New review leads checked 19 October 2026
+
+Pending ChatGPT delivery; no application or approval inferred.
+
+### Maltem Asia-Pacific / Maltem Group: Senior Java Developer (Apache Camel / Spring Boot)
+
+[Job page](https://sg.linkedin.com/jobs/view/senior-java-developer-apache%E2%80%AFcamel-spring%E2%80%AFboot-at-maltem-asia-pacific-4460959607)
+
+Priority: 1. Career-growth candidate assessment: regulated wealth integration and operational ownership. Compensation to establish; support-heavy scope and salary may not improve current conditions.
+
+Location and engagement: On-site per matching Glints listing; exact office cadence to confirm. Full-time per both listings; permanent versus client fixed-term/payroll duration unknown.
+
+Eligibility: Singapore work location confirmed in retrieved descriptions; personal work authorization and sponsorship unknown. Not a remote India role; no relocation assumed.
+
+Pay: No numeric salary published on either exact role page. Currency, period, applicable base and total package unknown.
+
+SGD comparison: No applicable guaranteed amount and currency established; no annual SGD conversion or income uplift claimed.
+
+Fit: Camel routing DSL/components, Spring Boot/Cloud/Data/Security, Kafka and other brokers, REST/SOAP, Docker/Kubernetes/OpenShift, CI/CD and integration testing. Development plus incident/problem management, performance/capacity tuning and production migrations.
+
+Prepare: Stated10+technologyyears including development and production support versus confirmed Anup8+/Meena9+. Ask flexibility; do not invent tenure. Prepare concrete incident/problem, tuning and migration examples; establish IBM MQ/ActiveMQ/RabbitMQ, XML/XSLT, OpenShift and Testcontainers depth.
+
+Resume: Use Anup Java backend/integration resume. Foreground confirmed Apache Camel, Spring Security, Kafka, REST/OAuth2/mTLS, payments and SQL/cloud operations. Include truthful incident, performance and migration examples only where actually delivered; establish support depth and10+year flexibility.
+
+Hours: Production-support/incident responsibilities explicit. Core hours, weekend work, on-call rotation and compensation unknown.
+
+Authorization: Unknown; establish Singapore work-pass sponsorship and payroll entity.
+
+Terms: Employment duration, client contract, leave, benefits, notice and probation unknown.
+
+Questions: Still accepting despite conflicting closed snapshot? End client/project and duplicate submission rules? 10+year flexibility? Singapore pass sponsorship/entity? Applicable base/currency/period and total package? Permanent/client term, support-versus-build split, exact office days/core hours/on-call pay, leave/notice?
+
+Verification: 19 October 2026: exact employer-posted LinkedIn description displays Apply and matching Glints page displays Full-Time, On-site and Apply with no closed marker. Search-engine snapshot of the same LinkedIn ID says no longer accepting, so sources conflict. Login-gated submission flow not tested. Continued intake requires confirmation; no application/contact.
+
+Deduplication: Compared latest 144-job ledger, report history and three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.
+
+### interAct Consulting: Senior Java Engineer Outside IR35 Work From Home
+
+[Job page](https://www.interactconsulting.co.uk/view-job-details-senior-java-engineer-outside-ir35-work-from-home-v5422.aspx)
+
+Priority: 2. Career-growth candidate assessment for product architecture and cloud modernization; compensation to establish. Foreign-currency or income-growth potential cannot be asserted until currency, overseas terms and billing volume are known.
+
+Location and engagement: Fully remote; Singapore/India eligibility unconfirmed. UK location and IR35 wording do not establish worldwide contracting.. Contract, advertised outside IR35, initial6-12months; overseas B2B acceptance and actual tax classification not established.
+
+Eligibility: Promising country-unconfirmed remote contract lead, NOT confirmed eligible from Singapore or India. No explicit residency-only restriction found, but application asks EU nationality. Establish country/entity/work-rights rules before applying.
+
+Pay: Exact page states 550-600pd. Daily period evident from pd; currency not printed and must be established. Do not assume GBP or guaranteed billable volume. Suspected duplicate JT/JC/5273 advertises450-500pd for engineering client; not a separate alert or interchangeable pay.
+
+SGD comparison: No applicable guaranteed amount and currency established; no annual SGD conversion or income uplift claimed.
+
+Fit: Java API/SOLID/design-pattern product engineering, Spring, Maven, Git/Jira, REST/unit testing, architecture input and new approaches in a small cross-functional product team; Azure modernization, Docker/Kubernetes opportunities.
+
+Prepare: Establish actual Java/framework versions, hands-on ownership, healthcare/security requirements and Grails/React contribution expectations. Transferable Spring/cloud/full-stack experience relevant; do not invent healthcare or Grails tenure.
+
+Resume: Use Anup senior Java backend/full-stack resume, highlighting Spring REST APIs, clean design/testing, Azure AKS/K8s, CI/CD and SQL. Show real design tradeoffs and independently owned delivery; prepare Grails/React only if core requirements, without claiming prior use.
+
+Hours: Required UK/client overlap, day length, DST impact, on-call and overtime unknown.
+
+Authorization: Unknown. Form asks EU Nationality but retrieved text does not establish mandatory EU status. UK residence, work authorization, international contractor and sponsorship rules need confirmation.
+
+Terms: Initial6-12months stated. Guaranteed days/hours, renewal/cancellation, payment schedule/currency, paid or unpaid leave, notice, expenses and FX costs unknown. Revenue is not employee salary; no annualization or take-home estimate.
+
+Questions: Is JT/JC/5422 still funded and is5273the same client/project? Can SG-resident or India-resident contractor engage via own entity/EOR without UK/EU residence/work rights? Exact currency/rate/day length/guaranteed billing, VAT/expenses, payment/FX costs, leave/cancellation/notice, hours/DST/on-call and actual architectural scope?
+
+Verification: 19 October 2026: specialist recruiter's exact description live with Apply for Vacancy; exact application page shows name/email/telephone/CV fields and EU Nationality selector. No closed marker. Posting date unavailable and template-like older near-copy exists, so confirm current funded vacancy and client. No submission/contact.
+
+Deduplication: Compared latest 144-job ledger, report history and three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed. JT/JC/5273 uses substantially identical description with different engineering/healthcare client label, city and rate. Conservatively linked as possible same project/template and not separately alerted; client distinction unconfirmed.

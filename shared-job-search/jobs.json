@@ -8233,6 +8233,113 @@
         "https://www.junipersquare.com/company/careers/experienced-professionals",
         "https://builtin.com/job/senior-integrations-engineer-india/11630577"
       ]
+    },
+    {
+      "import_source": "New public-web discovery, exact job/application pages checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T06:44:48Z",
+      "posted": "Original posting date not established; relative refreshed labels are not a new requisition date.",
+      "sgd_comparison": "No applicable guaranteed amount and currency established; no annual SGD conversion or income uplift claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; not yet recorded as delivered."
+      },
+      "deduplication_note": "Compared latest 144-job ledger, report history and three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "maltem-java-camel-4460959607",
+      "employer": "Maltem Asia-Pacific / Maltem Group",
+      "title": "Senior Java Developer (Apache Camel / Spring Boot)",
+      "requisition": "LinkedIn4460959607; Glintsf58b7b35-226c-4a95-899a-d1cff82631f5",
+      "end_client": "Undisclosed Singapore wealth management client",
+      "url": "https://sg.linkedin.com/jobs/view/senior-java-developer-apache%E2%80%AFcamel-spring%E2%80%AFboot-at-maltem-asia-pacific-4460959607",
+      "canonical_url": "https://sg.linkedin.com/jobs/view/senior-java-developer-apache%E2%80%AFcamel-spring%E2%80%AFboot-at-maltem-asia-pacific-4460959607",
+      "url_aliases": [
+        "https://glints.com/id/en/opportunities/s/senior-java-developer-camel-springboot-kafka/f58b7b35-226c-4a95-899a-d1cff82631f5"
+      ],
+      "location": "Singapore",
+      "arrangement": "On-site per matching Glints listing; exact office cadence to confirm",
+      "engagement_type": "Full-time per both listings; permanent versus client fixed-term/payroll duration unknown",
+      "eligibility": "Singapore work location confirmed in retrieved descriptions; personal work authorization and sponsorship unknown. Not a remote India role; no relocation assumed.",
+      "published_compensation": "No numeric salary published on either exact role page. Currency, period, applicable base and total package unknown.",
+      "authorization_sponsorship": "Unknown; establish Singapore work-pass sponsorship and payroll entity.",
+      "hours_on_call": "Production-support/incident responsibilities explicit. Core hours, weekend work, on-call rotation and compensation unknown.",
+      "terms": "Employment duration, client contract, leave, benefits, notice and probation unknown.",
+      "verification": "19 October 2026: exact employer-posted LinkedIn description displays Apply and matching Glints page displays Full-Time, On-site and Apply with no closed marker. Search-engine snapshot of the same LinkedIn ID says no longer accepting, so sources conflict. Login-gated submission flow not tested. Continued intake requires confirmation; no application/contact.",
+      "status_at_last_check": "Live descriptions and Apply buttons; conflicting cached closed indicator; intake unconfirmed",
+      "fit": "Camel routing DSL/components, Spring Boot/Cloud/Data/Security, Kafka and other brokers, REST/SOAP, Docker/Kubernetes/OpenShift, CI/CD and integration testing. Development plus incident/problem management, performance/capacity tuning and production migrations.",
+      "preparation": "Stated10+technologyyears including development and production support versus confirmed Anup8+/Meena9+. Ask flexibility; do not invent tenure. Prepare concrete incident/problem, tuning and migration examples; establish IBM MQ/ActiveMQ/RabbitMQ, XML/XSLT, OpenShift and Testcontainers depth.",
+      "upside": "Career-growth candidate assessment: regulated wealth integration and operational ownership. Compensation to establish; support-heavy scope and salary may not improve current conditions.",
+      "questions": "Still accepting despite conflicting closed snapshot? End client/project and duplicate submission rules? 10+year flexibility? Singapore pass sponsorship/entity? Applicable base/currency/period and total package? Permanent/client term, support-versus-build split, exact office days/core hours/on-call pay, leave/notice?",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java secure integration / Camel",
+          "tailoring": "Use Anup Java backend/integration resume. Foreground confirmed Apache Camel, Spring Security, Kafka, REST/OAuth2/mTLS, payments and SQL/cloud operations. Include truthful incident, performance and migration examples only where actually delivered; establish support depth and10+year flexibility.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java integration lead / operational reliability",
+          "tailoring": "Use Meena hands-on lead Java/integration resume. Foreground confirmed Camel, Java21/Spring3, Kafka Streams, K8s/Helm, DevSecOps/observability and mentoring. Show verifiable incident prevention and integration design decisions without invented metrics; clarify individual-contributor scope, support load and10+year flexibility.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery, exact job/application pages checked 19 October 2026",
+      "last_checked": "2026-10-19",
+      "checked_at": "2026-10-19T06:44:48Z",
+      "posted": "Original posting date not established; relative refreshed labels are not a new requisition date.",
+      "sgd_comparison": "No applicable guaranteed amount and currency established; no annual SGD conversion or income uplift claimed.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; not yet recorded as delivered."
+      },
+      "deduplication_note": "Compared latest 144-job ledger, report history and three available runtime/application exports. No matching employer/project/requisition found. Full historical coverage not claimed. JT/JC/5273 uses substantially identical description with different engineering/healthcare client label, city and rate. Conservatively linked as possible same project/template and not separately alerted; client distinction unconfirmed.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "interact-java-healthcare-jtjc5422",
+      "employer": "interAct Consulting",
+      "title": "Senior Java Engineer Outside IR35 Work From Home",
+      "requisition": "JT/JC/5422",
+      "end_client": "Undisclosed healthcare product employer",
+      "url": "https://www.interactconsulting.co.uk/view-job-details-senior-java-engineer-outside-ir35-work-from-home-v5422.aspx",
+      "canonical_url": "https://www.interactconsulting.co.uk/view-job-details-senior-java-engineer-outside-ir35-work-from-home-v5422.aspx",
+      "url_aliases": [
+        "https://www.interactconsulting.co.uk/apply-for-senior-java-engineer-outside-ir35-work-from-home-a5422.aspx",
+        "https://www.interactconsulting.co.uk/view-job-details-senior-java-contract-developer-outside-ir35-v5273.aspx"
+      ],
+      "location": "Advertised London,100%Remote; worker country not specified",
+      "arrangement": "Fully remote; Singapore/India eligibility unconfirmed. UK location and IR35 wording do not establish worldwide contracting.",
+      "engagement_type": "Contract, advertised outside IR35, initial6-12months; overseas B2B acceptance and actual tax classification not established",
+      "eligibility": "Promising country-unconfirmed remote contract lead, NOT confirmed eligible from Singapore or India. No explicit residency-only restriction found, but application asks EU nationality. Establish country/entity/work-rights rules before applying.",
+      "published_compensation": "Exact page states 550-600pd. Daily period evident from pd; currency not printed and must be established. Do not assume GBP or guaranteed billable volume. Suspected duplicate JT/JC/5273 advertises450-500pd for engineering client; not a separate alert or interchangeable pay.",
+      "authorization_sponsorship": "Unknown. Form asks EU Nationality but retrieved text does not establish mandatory EU status. UK residence, work authorization, international contractor and sponsorship rules need confirmation.",
+      "hours_on_call": "Required UK/client overlap, day length, DST impact, on-call and overtime unknown.",
+      "terms": "Initial6-12months stated. Guaranteed days/hours, renewal/cancellation, payment schedule/currency, paid or unpaid leave, notice, expenses and FX costs unknown. Revenue is not employee salary; no annualization or take-home estimate.",
+      "verification": "19 October 2026: specialist recruiter's exact description live with Apply for Vacancy; exact application page shows name/email/telephone/CV fields and EU Nationality selector. No closed marker. Posting date unavailable and template-like older near-copy exists, so confirm current funded vacancy and client. No submission/contact.",
+      "status_at_last_check": "Description and vacancy-specific application fields live; actual funded intake/date unconfirmed",
+      "fit": "Java API/SOLID/design-pattern product engineering, Spring, Maven, Git/Jira, REST/unit testing, architecture input and new approaches in a small cross-functional product team; Azure modernization, Docker/Kubernetes opportunities.",
+      "preparation": "Establish actual Java/framework versions, hands-on ownership, healthcare/security requirements and Grails/React contribution expectations. Transferable Spring/cloud/full-stack experience relevant; do not invent healthcare or Grails tenure.",
+      "upside": "Career-growth candidate assessment for product architecture and cloud modernization; compensation to establish. Foreign-currency or income-growth potential cannot be asserted until currency, overseas terms and billing volume are known.",
+      "questions": "Is JT/JC/5422 still funded and is5273the same client/project? Can SG-resident or India-resident contractor engage via own entity/EOR without UK/EU residence/work rights? Exact currency/rate/day length/guaranteed billing, VAT/expenses, payment/FX costs, leave/cancellation/notice, hours/DST/on-call and actual architectural scope?",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend / secure API and Azure modernization",
+          "tailoring": "Use Anup senior Java backend/full-stack resume, highlighting Spring REST APIs, clean design/testing, Azure AKS/K8s, CI/CD and SQL. Show real design tradeoffs and independently owned delivery; prepare Grails/React only if core requirements, without claiming prior use.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on Java lead / cloud modernization and product ownership",
+          "tailoring": "Use Meena hands-on lead/full-stack modernization resume. Highlight Java/Spring, API ownership, AWS/K8s/Helm, DevSecOps/testing and technical mentoring. Prepare Azure mapping and cross-functional architecture examples; describe actual scope without inventing healthcare delivery or Grails experience.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }
