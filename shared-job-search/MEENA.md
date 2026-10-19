@@ -1584,7 +1584,7 @@ Verification: 20 October 2026 Singapore: employer LinkedIn full description and 
 Deduplication: No Tilt/Empower/Cashalo track in162ledger/history or three runtime exports. One SG/Australia remote req, not separate location copies. Not inferred eligible merely from US employer HQ; SG role-specific evidence exists.
 
 
-## Additional findings checked 20 October 2026: pending ChatGPT delivery
+## Additional findings checked 20 October 2026: prior alert delivered
 
 ### Priority 1: Tala: Senior Backend Engineer
 
@@ -1633,4 +1633,51 @@ Questions: Is the current job description correct: Java backend or DevOps? Which
 Verification: 20October2026 Singapore: current official Lever board includes exact DevOps contractor vacancy, full Java backend description and vacancy-specific application fields/Submit readable. Global remote header retained. No closed marker; role-title mismatch unresolved and no submission made.
 
 Deduplication: Only priorshared CoinMarketCap role is27d52a7f AI Agentic Trading Expert, different responsibilities/req. No matching endproject/req in165ledger/history or3runtime exports. Old Java Engineer Contractor mirrors absent current board; no fresh job count from those aliases or estimated salaries. This is one current contractor req assessed by actual backend description, with mismatch explicit.
+
+
+## Platform opportunities checked20October2026: pending ChatGPT delivery
+
+### Priority 1: Grafana Labs: Staff Backend Software Engineer - Loki | Singapore | Remote
+
+[Application](https://job-boards.greenhouse.io/grafanalabs/jobs/6206162004)
+
+Location/type: 100%remote from Singapore orAustralia. In-person onboarding and annualleave policy advertised; international travel requirements/destination unknown. India not advertised. Full-time per employer LinkedIn; permanent/fixed-term status unknown
+
+Pay: Singapore base compensation SGD167000 toSGD237000 on current exact official page and employer LinkedIn. Period not explicit in either readable employer description; matching mirrors label annual, but confirm employer pay period. Older mirrors167000-209000 not current employer upper band. Already employer-published SGD. No annual guaranteed cash/monthly calculation asserted while employer pay period remains unconfirmed; no uplift versus unknown current packages.
+
+Fit: Own design/build/operations of Loki multi-tenant distributed logging/database systems, roadmap input, mentoring and OSS contributions. Go/Kubernetes/cloudobjectstorage stack; solid other-language experience accepted. Cloud delivery, clean performant code and end-to-end ownership core. Low-level storage/queryengine expertise and Grafana/Prometheus operationaluse are bonuses, not mandatory MLresearch.
+
+Prepare: Ambitious staff/platform/language-transfer role. Establish production distributed-systems ownership, scale decisions, observability and mentoring. Prepare Go concurrency, storage/query/distributedfailure fundamentals; Javaexpertise transfers but explicit examples of accepted other languages omitJava, so establish ramp-up expectations. Anup limitedGo stayslimited; use Grafana/Alloy troubleshooting truthfully without claiming Loki internals contributions.
+
+Resume: Use Meena's lead/backend/cloud resume. Highlight Kafka/Streams, AWS/EKS/Istio, GitOps/IaC, observability, technical design/reviews and mentoring. Prepare failure/recovery and system-performance tradeoffs with real outcomes; establishGo and staffcross-team influence without inventing productionAI or engineinternals.
+
+Hours/terms: Team on-call rotation explicitly required. Frequency, coverage hours, US/APAC overlap/DST, standby/incident compensation and TOIL unknown. Global annual leave30days per annum,3reserved shutdown days subjectlocal law; in-person onboarding. Employment entity/duration/probation/notice and travel/expenses unknown.
+
+Questions: Confirm SGD167000-237000 base period and exactlevel, separate bonus/equity/benefits, SGentity/pass sponsorship, Java-to-Go ramp-up and staff expectations, on-call frequency/pay/TOIL, overlap/DST, onboarding location/travel costs and permanent/fixed-term terms.
+
+Verification: 20October2026 Singapore: complete official Greenhouse description and named application fields/Submit visible; no closed marker. Employer LinkedIn also currentApply/fulltime and same current payband. Form asks existingSGeligibility and current/future sponsorship, without explicitly promising/refusing sponsorship.
+
+Deduplication: No Loki req in167sharedrecords/history. Runtime draft contains Grafana SeniorBackend Databases-Analytics6202749004, RepublicofIreland, now officialATSredirectsboard. Loki6206162004 is a differenttelemetryproduct (logs), Staffgrade, SG/Australialocation and req; not a regional/grade-only duplicate ofsameanalyticsproject. Runtime draft's unsupportedcandidateproductionAI/workrights claims not reused.
+
+### Priority 2: Reap: Senior Site Reliability Engineer (APAC)
+
+[Application](https://careers.reap.global/jobs/8349286-senior-site-reliability-engineer-apac)
+
+Location/type: Hybrid Singapore explicitly listed; attendancecadence unstated. Indiaremote notadvertised. Not stated; full-time/permanent/fixed-term orcontract terms toconfirm
+
+Pay: No numeric compensation published on exact official role page. No published applicable guaranteedcash amount toconvert/annualize orcompare tocurrentpackages.
+
+Fit: Build SREpractice for card/payout/FX/stablecoin platform: SLIs/SLOs/errorbudgets, multiregionAWS, Terraform migration/governance/driftdetection, ECS/Fargate/EKS, Lambda/SQS/EventBridge/Kafka, GitHubActions/ArgoCD, Postgres/Redis, observability and safe ephemeral environments fordevelopers/codingagents.
+
+Prepare: SpecialistSREstretch. Establish actual SLO/errorbudget/incidentpractice ownership, deepTerraformstate/modules/fullIaCmigration, multiaccountAWSnetworking/IAM, Linuxinternals, productionEKSclusterlifecycle and serverlessfailurepatterns. Workloaddeployment alone does not prove estateadministration; generalJava tenure not specialistSREtenure. Python/Go/Bashautomation and PCI-DSSdepth toprepare honestly.
+
+Resume: Use Meena's lead/cloud/platform resume. Foreground actual ECS/EKS, Terraform, ArgoCD/GitHubActions, Kafka/KEDA, observability and technicalleadership. Demonstrate operational ownership and failuretradeoffs; prepare deepTerraformstate/module/multiregionAWS and errorbudget discussions without inventing pastscale.
+
+Hours/terms: On-call rotation and incidentresponse/postmortems explicit for regulated payments; highblast-radius incidentspreemptotherwork. Frequency, nights/weekends, cross-timezone/DSToverlap and pay/TOIL unknown. Employingentity, type/duration, probation/notice, benefits, leave, travel and afterhours arrangements unknown.
+
+Questions: Would Java/cloudtechnicallead background with actualautomation/reliability evidence fit, or immediateestate-levelTerraform/SREspecialistdepth essential? SGentity/passsupport, guaranteedbase/bonus/equity, type/duration, officecadence, rotafrequency/pay/TOIL, overlap/DST, incidentload/teamcoverage and actual decisionauthority?
+
+Verification: 20October2026 Singapore: currentofficial careersboard links role; full exact description includes SG inlocationlist and Hybrid, liveApplycontrol. Embeddedapplication remainsLoadingapplicationform; directapplications/newrouteunavailable, finalfieldsunverified. No closedmarker; no submission/contact.
+
+Deduplication: No Reap/endclient-equivalent in167sharedrecords/history or3runtimeexports. CurrentReapSecurityIdentity8522053locationlist excludesSGIndia; not mixed withthisSGhybridrole. OlderTechLeadPlatformSGLinkedIn does not establish currenteligibilityfor renamedSecurityIdentityreq.
 

@@ -9547,9 +9547,10 @@
       "equity": "Not published",
       "sgd_comparison": "No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and supplied external-work handoff confirm delivery; date-only reconciliation, no fresh verification or application inferred."
       },
       "job_id": "tala-senior-backend-e7b55498",
       "employer": "Tala",
@@ -9612,9 +9613,10 @@
       "equity": "Not published",
       "sgd_comparison": "No established applicable numeric guaranteed cash to annualize/convert. No comparison with unknown current SGD packages.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+        "already_reported": true,
+        "state": "alert_delivered",
+        "reported_at": "2026-10-20",
+        "note": "Actual prior ChatGPT final and supplied external-work handoff confirm delivery; date-only reconciliation, no fresh verification or application inferred."
       },
       "job_id": "coinmarketcap-contractor-901558ef",
       "employer": "CoinMarketCap / Coin Market Cap Ltd",
@@ -9663,6 +9665,129 @@
           "priority_tier": 2,
           "resume_emphasis": "Hands-on lead/backend and event-driven platform reliability",
           "tailoring": "Use Meena's hands-on backend/cloud lead resume. Highlight Java21/Spring3, Kafka/Redis, AWS/EKS, observability, secure releases and actual architecture/review mentoring. Prepare failure containment/idempotency examples. Confirm lead-level authority, rate and contract economics against her goals instead of relying on DevOps title.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked20October2026 Singapore;167shared records/history and3runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T19:11:43Z",
+      "posted": "Original employer posting date not established; mirrors/repost/crawl dates not treated as original.",
+      "authorization_sponsorship": "Singapore work location supported; personal work rights, employer sponsorship and legal employing entity unknown. Existing employer's pass not assumed transferable.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "job_id": "grafana-loki-staff-sg-6206162004",
+      "employer": "Grafana Labs",
+      "title": "Staff Backend Software Engineer - Loki | Singapore | Remote",
+      "requisition": "6206162004",
+      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6206162004",
+      "canonical_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6206162004",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/staff-backend-software-engineer-loki-singapore-remote-at-grafana-labs-4470953469"
+      ],
+      "location": "Singapore (Remote); role also available Australia",
+      "arrangement": "100%remote from Singapore orAustralia. In-person onboarding and annualleave policy advertised; international travel requirements/destination unknown. India not advertised.",
+      "eligibility": "Singapore/Australia residence locations explicitly supported. India is not an eligible advertised location for this req; generic other-market compensation clause does not establish India hiring. Personal Singapore authorization/sponsorship unknown.",
+      "engagement_type": "Full-time per employer LinkedIn; permanent/fixed-term status unknown",
+      "published_compensation": "Singapore base compensation SGD167000 toSGD237000 on current exact official page and employer LinkedIn. Period not explicit in either readable employer description; matching mirrors label annual, but confirm employer pay period. Older mirrors167000-209000 not current employer upper band.",
+      "compensation_geography": "Country-specific compensation explicit; SGband applies Singapore. Other markets' recruiter-defined pay/benefits differ; cannot apply SGband to India.",
+      "sgd_comparison": "Already employer-published SGD. No annual guaranteed cash/monthly calculation asserted while employer pay period remains unconfirmed; no uplift versus unknown current packages.",
+      "bonus": "Bonus if applicable, amount/guarantee unknown; separate from base",
+      "equity": "Equity included in benefits, amount/vesting/liquidity unknown; separate upside",
+      "hours_on_call": "Team on-call rotation explicitly required. Frequency, coverage hours, US/APAC overlap/DST, standby/incident compensation and TOIL unknown.",
+      "terms": "Global annual leave30days per annum,3reserved shutdown days subjectlocal law; in-person onboarding. Employment entity/duration/probation/notice and travel/expenses unknown.",
+      "fit": "Own design/build/operations of Loki multi-tenant distributed logging/database systems, roadmap input, mentoring and OSS contributions. Go/Kubernetes/cloudobjectstorage stack; solid other-language experience accepted. Cloud delivery, clean performant code and end-to-end ownership core. Low-level storage/queryengine expertise and Grafana/Prometheus operationaluse are bonuses, not mandatory MLresearch.",
+      "preparation": "Ambitious staff/platform/language-transfer role. Establish production distributed-systems ownership, scale decisions, observability and mentoring. Prepare Go concurrency, storage/query/distributedfailure fundamentals; Javaexpertise transfers but explicit examples of accepted other languages omitJava, so establish ramp-up expectations. Anup limitedGo stayslimited; use Grafana/Alloy troubleshooting truthfully without claiming Loki internals contributions.",
+      "upside": "Income-growth candidate assessment subjectconfirmedperiod and actual offer; published applicable SGbase plus meaningful staff/platform ownership makes early package screening worthwhile. Career-growth candidate for OSS/distributed observability engineering; not guaranteed uplift.",
+      "questions": "Confirm SGD167000-237000 base period and exactlevel, separate bonus/equity/benefits, SGentity/pass sponsorship, Java-to-Go ramp-up and staff expectations, on-call frequency/pay/TOIL, overlap/DST, onboarding location/travel costs and permanent/fixed-term terms.",
+      "verification": "20October2026 Singapore: complete official Greenhouse description and named application fields/Submit visible; no closed marker. Employer LinkedIn also currentApply/fulltime and same current payband. Form asks existingSGeligibility and current/future sponsorship, without explicitly promising/refusing sponsorship.",
+      "status_at_last_check": "Official full description and application form live",
+      "source_evidence": [
+        {
+          "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6206162004",
+          "checked_at": "2026-10-19T19:11:43Z",
+          "observation": "SGremote/Australia residence, Go with otherlanguage transfer, oncall, SGD167000-237000 base without explicitperiod, equity/bonus separate,30leave days; formlive."
+        },
+        {
+          "url": "https://sg.linkedin.com/jobs/view/staff-backend-software-engineer-loki-singapore-remote-at-grafana-labs-4470953469",
+          "checked_at": "2026-10-19T19:11:43Z",
+          "observation": "Employer fulltime/currentApply and exactsamebase range; periodnotexplicit."
+        }
+      ],
+      "deduplication_note": "No Loki req in167sharedrecords/history. Runtime draft contains Grafana SeniorBackend Databases-Analytics6202749004, RepublicofIreland, now officialATSredirectsboard. Loki6206162004 is a differenttelemetryproduct (logs), Staffgrade, SG/Australialocation and req; not a regional/grade-only duplicate ofsameanalyticsproject. Runtime draft's unsupportedcandidateproductionAI/workrights claims not reused.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior backend/cloud/platform and AI-assisted engineering; staff/Go stretch",
+          "tailoring": "Use Anup's backend/platform resume. Foreground Kubernetes/AKS/Rancher/Helm, actual Grafana/Alloy observability diagnosis, SQL/MDM integration, reliability and verifiedcoding-agent practices. Prepare onegenuine design/incident outcome and Go learning evidence; do not claim databaseengineinternals or substantialGo tenure.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on backend/cloud lead, distributed reliability and mentorship",
+          "tailoring": "Use Meena's lead/backend/cloud resume. Highlight Kafka/Streams, AWS/EKS/Istio, GitOps/IaC, observability, technical design/reviews and mentoring. Prepare failure/recovery and system-performance tradeoffs with real outcomes; establishGo and staffcross-team influence without inventing productionAI or engineinternals.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "import_source": "New public-web discovery checked20October2026 Singapore;167shared records/history and3runtime exports compared",
+      "last_checked": "2026-10-20",
+      "checked_at": "2026-10-19T19:11:43Z",
+      "posted": "Original employer posting date not established; mirrors/repost/crawl dates not treated as original.",
+      "authorization_sponsorship": "Singapore work location supported; personal work rights, employer sponsorship and legal employing entity unknown. Existing employer's pass not assumed transferable.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared for ChatGPT alert; no delivery asserted before actual final."
+      },
+      "job_id": "reap-apac-sre-8349286",
+      "employer": "Reap",
+      "title": "Senior Site Reliability Engineer (APAC)",
+      "requisition": "8349286",
+      "url": "https://careers.reap.global/jobs/8349286-senior-site-reliability-engineer-apac",
+      "canonical_url": "https://careers.reap.global/jobs/8349286-senior-site-reliability-engineer-apac",
+      "url_aliases": [],
+      "location": "Hong Kong, Singapore, Malaysia, Taiwan",
+      "arrangement": "Hybrid Singapore explicitly listed; attendancecadence unstated. Indiaremote notadvertised.",
+      "eligibility": "Singapore hybrid location explicitly supported; personalauthorization/sponsorshipunknown. OtherAPAC locations do not establish Indiaremote.",
+      "engagement_type": "Not stated; full-time/permanent/fixed-term orcontract terms toconfirm",
+      "published_compensation": "No numeric compensation published on exact official role page.",
+      "compensation_geography": "Applicable SGbase/currency/period and global/locationadjusted policyunknown; no Indiaremote arrangementadvertised.",
+      "sgd_comparison": "No published applicable guaranteedcash amount toconvert/annualize orcompare tocurrentpackages.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "hours_on_call": "On-call rotation and incidentresponse/postmortems explicit for regulated payments; highblast-radius incidentspreemptotherwork. Frequency, nights/weekends, cross-timezone/DSToverlap and pay/TOIL unknown.",
+      "terms": "Employingentity, type/duration, probation/notice, benefits, leave, travel and afterhours arrangements unknown.",
+      "fit": "Build SREpractice for card/payout/FX/stablecoin platform: SLIs/SLOs/errorbudgets, multiregionAWS, Terraform migration/governance/driftdetection, ECS/Fargate/EKS, Lambda/SQS/EventBridge/Kafka, GitHubActions/ArgoCD, Postgres/Redis, observability and safe ephemeral environments fordevelopers/codingagents.",
+      "preparation": "SpecialistSREstretch. Establish actual SLO/errorbudget/incidentpractice ownership, deepTerraformstate/modules/fullIaCmigration, multiaccountAWSnetworking/IAM, Linuxinternals, productionEKSclusterlifecycle and serverlessfailurepatterns. Workloaddeployment alone does not prove estateadministration; generalJava tenure not specialistSREtenure. Python/Go/Bashautomation and PCI-DSSdepth toprepare honestly.",
+      "upside": "Career-growth candidate assessment: shaping reliabilitystandards/selfserviceplatform and regulatedpaymentsoperations; AI-agent environmentisolation adds developer-productivity scope. Compensation to establish; evaluate operationalburden againstbenefits.",
+      "questions": "Would Java/cloudtechnicallead background with actualautomation/reliability evidence fit, or immediateestate-levelTerraform/SREspecialistdepth essential? SGentity/passsupport, guaranteedbase/bonus/equity, type/duration, officecadence, rotafrequency/pay/TOIL, overlap/DST, incidentload/teamcoverage and actual decisionauthority?",
+      "verification": "20October2026 Singapore: currentofficial careersboard links role; full exact description includes SG inlocationlist and Hybrid, liveApplycontrol. Embeddedapplication remainsLoadingapplicationform; directapplications/newrouteunavailable, finalfieldsunverified. No closedmarker; no submission/contact.",
+      "status_at_last_check": "Official role/Apply live; embedded final application form unverified",
+      "source_evidence": [
+        {
+          "url": "https://careers.reap.global/jobs/8349286-senior-site-reliability-engineer-apac",
+          "checked_at": "2026-10-19T19:11:43Z",
+          "observation": "SGHybrid explicit, deepTerraform/multiregionAWS/SREpractice and oncall; no numericpay; applicationmodal loadshell."
+        }
+      ],
+      "deduplication_note": "No Reap/endclient-equivalent in167sharedrecords/history or3runtimeexports. CurrentReapSecurityIdentity8522053locationlist excludesSGIndia; not mixed withthisSGhybridrole. OlderTechLeadPlatformSGLinkedIn does not establish currenteligibilityfor renamedSecurityIdentityreq.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Backend/platform modernization and reliability; SRE specialist stretch",
+          "tailoring": "Use Anup's backend/platform resume. Emphasize actual AKS/Kubernetes/Helm/Rancher, deliveryautomation, secureintegrations and Grafanaobservability/incidentdiagnosis. Establish Terraform/AWSestate/Linuxspecialistdepth separately and prepare a real automation/recoveryexample; do not imply8+yearsSRE.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Cloud/platform lead, AWS/GitOps and incident reliability",
+          "tailoring": "Use Meena's lead/cloud/platform resume. Foreground actual ECS/EKS, Terraform, ArgoCD/GitHubActions, Kafka/KEDA, observability and technicalleadership. Demonstrate operational ownership and failuretradeoffs; prepare deepTerraformstate/module/multiregionAWS and errorbudget discussions without inventing pastscale.",
           "application_status": "Not applied or approved"
         }
       }
