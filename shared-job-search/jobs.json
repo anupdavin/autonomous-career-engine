@@ -4137,7 +4137,19 @@
           "application_status": "Not recorded; do not infer applied or approved"
         }
       },
-      "url_aliases": []
+      "url_aliases": [
+        "https://careers.epam.com/en/vacancy/senior-back-end-java-developer-spring-boot-microservices-bltoktsnryysjimu2e1_en"
+      ],
+      "verification_history": [
+        {
+          "checked": "2026-10-20",
+          "urls": [
+            "https://careers.epam.com/en/vacancy/lead-back-end-java-developer-spring-boot-agile-bltmtjzwcff2izfd3av_en",
+            "https://careers.epam.com/en/vacancy/senior-back-end-java-developer-spring-boot-microservices-bltoktsnryysjimu2e1_en"
+          ],
+          "observed": "Both official pages live with apply label; application form not verified. Senior req substantially overlaps known Lead banking Java21/Boot/OpenShift project. Conservatively same track, no new alert; clarify separately funded headcount."
+        }
+      ]
     },
     {
       "employer": "Citi",
@@ -10848,9 +10860,10 @@
       ],
       "deduplication_note": "No req7749091003, Asset & Earn Team 2 or substantially identical Earn/Flash/Jumpstart/Loan description in 186 shared jobs/history or three available runtime/application exports. Distinct from Pay Smart Account settlement/refunds, Web3 Wallet transactions and general Java/AI platform architecture. Do not duplicate HK-only variant without evidence of a separate team/project. Historical coverage incomplete.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert not yet delivered; reconcile only after actual final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual prior ChatGPT final delivery confirmed in supplied conversation handoff; exact timestamp unavailable."
       },
       "assessments": {
         "anup": {
@@ -10918,6 +10931,166 @@
           "application_status": "No application or approval inferred"
         }
       }
+    },
+    {
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh public employer pages checked 20 October 2026",
+      "published_compensation": "S$8,000 - S$13,000 / month. Equity and on-call stipend separate, amounts unstated; healthcare and hardware advertised.",
+      "authorization_sponsorship": "Unknown; Singapore location is not personal authorization or sponsorship confirmation",
+      "hours_on_call": "On-call rotation and incident response, including 2 AM incidents, explicit. Frequency, rota staffing, stipend amount, TOIL, office hours and escalation to establish.",
+      "posted": "Exact date not published on employer page. LinkedIn relative hours not treated as reliable date.",
+      "compensation_geography": "Singapore role-specific SGD monthly band, not aggregator S$7,000-8,300 estimate.",
+      "sgd_comparison": "Calculation: S$96,000 - S$156,000 for 12 months of the published monthly cash range, before separate stipend/equity. Confirm guaranteed base and number of paid months. Upper range reaches Meena S$144,000 target reference; no current-package uplift established.",
+      "terms": "Full-time on-site. Equity, healthcare, stipend and hardware advertised; grant/vesting, base guarantee, bonuses, leave, benefits, notice and probation unknown.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+      },
+      "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
+      "url_aliases": [],
+      "job_id": "555group-payments-backend-singapore",
+      "employer": "555GROUP PTE. LTD. (555 Group)",
+      "title": "Backend Engineer - Payments",
+      "canonical_url": "https://555.group/sg/careers/backend-engineer-payments",
+      "location": "Singapore",
+      "arrangement": "On-site Singapore",
+      "engagement_type": "Full-time",
+      "eligibility": "Singapore on-site explicitly supported. Singapore work rights/pass support unknown; not a remote India role.",
+      "fit": "Direct product ownership of Java/Spring Boot/Postgres payments, financial ledgers/holds/transfers/settlement and PayNow/DuitNow/card/wallet integrations. 5+ backend years and concurrency/idempotency/consistency.",
+      "preparation": "Establish genuine ledger/settlement, reconciliation, payment-rail and concurrency examples; role ownership is not proof of existing domain delivery. Clarify current payment product stage given public product FAQ says counter payments today.",
+      "upside": "Income-growth candidate subject to current-package comparison; career-growth assessment: direct product/financial-core ownership. Night on-call tradeoff.",
+      "questions": "Guaranteed monthly base and paid months? Meena target near S$12k feasible? Pass sponsorship? On-site cadence/hours, rota frequency/team size, stipend/TOIL, payment platform live versus roadmap, scope/grade, equity vesting and runway?",
+      "verification": "20 October 2026: official careers lists 4 open roles including this full-time on-site job; exact role page live with pay. Apply email inspected in public HTML: careers@555.group, subject Application: Backend Engineer Payments. Cloudflare-masked email click yields extractor404; HTML explicitly exposes mailto. No email sent.",
+      "source_urls": [
+        "https://555.group/sg/careers",
+        "https://555.group/sg/careers/backend-engineer-payments",
+        "https://sg.linkedin.com/jobs/view/backend-engineer-%C2%B7-payments-at-555-group-4480919113"
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java/backend regulated payments and secure integrations",
+          "tailoring": "Lead with actual NTT DATA/Great Eastern payment/reconciliation delivery, Spring security/OAuth2/mTLS, SQL transaction integrity, Kafka and production diagnosis. Prepare truthful idempotency/retry/settlement examples and confirmed Camel knowledge. Do not invent PayNow/DuitNow delivery or metrics.",
+          "fit_and_preparation": "Strong direct Java/payments transfer; establish ledger/rail depth, on-call tolerance and on-site/pass viability.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend event-driven platform",
+          "tailoring": "Lead with Java21/SpringBoot3, Kafka/Streams, PostgreSQL/Oracle, observability, incident ownership and mentoring using verified examples. Include real fintech delivery; establish ledger/reconciliation depth without inventing rail experience. Ask senior/lead scope and base near S$12k.",
+          "fit_and_preparation": "Strong backend/reliability transfer; direct financial-core ownership is career-growth assessment. Band upper part meets target reference, no offer/current-package uplift assumed.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://555.group/sg/careers/backend-engineer-payments",
+      "status_at_last_check": "Official description accessible; application verification limitations explicitly recorded"
+    },
+    {
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh public employer pages checked 20 October 2026",
+      "published_compensation": "Not published",
+      "authorization_sponsorship": "Unknown; Singapore location is not personal authorization or sponsorship confirmation",
+      "hours_on_call": "Hours, overlap, on-call and travel unstated",
+      "posted": "Not published",
+      "compensation_geography": "Singapore applicable package and global/location-adjusted policy unknown; India remote not advertised",
+      "sgd_comparison": "Unavailable: applicable pay not published",
+      "terms": "Employment entity, benefits, leave, probation, notice and package split to establish",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+      },
+      "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
+      "url_aliases": [],
+      "job_id": "accenture-agentic-engineer-R00344459",
+      "employer": "Accenture",
+      "title": "Agentic Engineer",
+      "canonical_url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00344459_en",
+      "location": "Singapore",
+      "arrangement": "Singapore; office/hybrid frequency not published",
+      "engagement_type": "Full time; Engineering Services Team Lead/Consultant, Mid-Level",
+      "eligibility": "Singapore location explicit; SG sponsorship unknown, India remote not offered. US-country page shell does not make job US-only. Generic US authorization clause applies to US applicants only. Current Accenture-client employee eligibility clause may matter; establish for both.",
+      "fit": "Applied AI agents/copilots, RAG, enterprise API/workflow integration, guardrails/HITL, logging/monitoring and reusable components. Proven Python required, APIs/integration/cloud engineering required; agent frameworks preferred.",
+      "preparation": "Demonstrate Python engineering and actual API/workflow automation; establish role expectation for production AI. Coding-agent use is not AI application delivery. Enterprise SAP/Salesforce/ServiceNow/SuccessFactors frameworks are preferred prep points, not confirmed production experience.",
+      "upside": "Career-growth candidate (assessment): AI application/enterprise integration, not ML research; compensation and seniority alignment to establish.",
+      "questions": "Singapore employing entity/pass support and office cadence? Funded client/project, current-client employee restrictions? Base/bonus/grade compatible with 8+/9+ years and Meena S$12k target? Python interview standard, production AI expectations, core hours/on-call and career ownership?",
+      "verification": "20 October 2026: exact official vacancy live, Singapore/full-time grade and full description observed. Apply links to exact R00344459 Workday apply URL; target JS shell returns no readable form, so application workflow not verified. No form inputs/submission/contact.",
+      "source_urls": [
+        "https://www.accenture.com/us-en/careers/jobdetails?id=R00344459_en",
+        "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Singapore/Agentic-Engineer_R00344459/apply"
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Java/integration modernization with truthful AI-assisted engineering",
+          "tailoring": "Emphasize secure APIs, confirmed Camel/EIP, cloud/Kubernetes/CI/CD and verified agent-assisted context/test/review practice. Prepare Python service/tool-calling demonstration with permissions and failure handling; do not claim production RAG/agent deployment.",
+          "fit_and_preparation": "Adjacent application/integration transfer; proven Python and custom agent delivery to establish, not assumed absence or production expertise.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/AI integration and cloud-native modernization",
+          "tailoring": "Highlight accurately labeled Spring AI/RAG/MCP/Claude API prototypes, Java/TypeScript API ownership, AWS/EKS, DevSecOps, observability and mentoring. Prepare Python implementation, evaluation/HITL and safe tool permissions; no production AI claims.",
+          "fit_and_preparation": "Credible applied-AI transition from prototypes plus enterprise platform delivery; Python depth, client restrictions and grade/pay to establish.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00344459_en",
+      "status_at_last_check": "Official description accessible; application verification limitations explicitly recorded"
+    },
+    {
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh public employer pages checked 20 October 2026",
+      "published_compensation": "Not published",
+      "authorization_sponsorship": "Unknown; Singapore location is not personal authorization or sponsorship confirmation",
+      "hours_on_call": "Hours, overlap, on-call and travel unstated",
+      "posted": "2 October 2026 on exact employer page",
+      "compensation_geography": "Singapore applicable package and global/location-adjusted policy unknown; India remote not advertised",
+      "sgd_comparison": "Unavailable: applicable pay not published",
+      "terms": "Employment entity, benefits, leave, probation, notice and package split to establish",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+      },
+      "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
+      "url_aliases": [],
+      "job_id": "singtel-fullstack-ai-1362500666",
+      "employer": "Singtel Group (exact employing entity to establish)",
+      "title": "Senior Software Engineer (Full-Stack AI Engineer description)",
+      "canonical_url": "https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362500666/",
+      "location": "Singapore",
+      "arrangement": "Singapore; office/hybrid/remote arrangement unstated",
+      "engagement_type": "Not published; full-time/contract and entity to establish",
+      "eligibility": "Singapore location explicit; sponsor/pass and remote terms unknown. Meena already NCS; confirm whether employing entity/team makes this internal/group mobility rather than new external employer.",
+      "fit": "End-to-end AI application ownership: RAG, agent orchestration, evaluation/guardrails, PythonFastAPI or Node/TypeScript backend (Java in skill matrix), React/Next streaming UIs, PostgreSQL/Redis, AWS/Azure/Docker/CI/CD/OpenTelemetry; MCP where applicable.",
+      "preparation": "Establish Python/Node service and React/Next/streaming UI depth, LangChain/Graph and production evaluation evidence. Angular/TypeScript and backend judgment transfer; no production AI tenure inferred.",
+      "upside": "Career-growth candidate (assessment): full-stack applied AI ownership. Compensation to establish; current-employer/group relationship particularly important for Meena.",
+      "questions": "Is req174501 still accepting applications and working apply route? Exact employer, business unit and permanent/contract terms? NCS/internal transfer implications for Meena? SG sponsorship, base near target, office/hours/on-call, backend language split and production AI expectations?",
+      "verification": "20 October 2026: exact employer page live with dated full description and Apply now. Tested apply/1362500666 route redirects to careers homepage, no form verified. Public HTML internalId174501-en_GB observed. Promising lead with incomplete application verification, not confirmed usable application route.",
+      "source_urls": [
+        "https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362500666/",
+        "https://groupcareers.singtel.com/talentcommunity/apply/1362500666/?locale=en_GB"
+      ],
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java/Angular full-stack modernization and AI-assisted engineering",
+          "tailoring": "Emphasize verified Java/TypeScript/Angular, API security, SQL, AWS/Azure Kubernetes and output verification. Prepare genuine small React/Node or FastAPI agent feature with streaming and tests; do not represent coding-agent use as shipped agent applications.",
+          "fit_and_preparation": "Ambitious applied-AI full-stack transition; language/framework and production AI expectations to establish, not automatic keyword exclusion.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on lead/full-stack AI-integration resume",
+          "tailoring": "Connect Angular18/NgRx/RxJS and TypeScript stateful UI, Java21 API design, Kafka, AWS/Kubernetes and DevSecOps to full-stack ownership. Clearly label SpringAI/RAG/MCP/Claude prototypes; prepare React/Next streaming, evaluations and Python/Node depth. Confirm entity/internal NCS implications first.",
+          "fit_and_preparation": "Credible broad full-stack/prototype transfer; confirm real career progression beyond current NCS role and working application route before tailoring extensively.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362500666/",
+      "status_at_last_check": "Official description accessible; application verification limitations explicitly recorded"
     }
   ]
 }

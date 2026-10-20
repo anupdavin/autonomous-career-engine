@@ -2167,3 +2167,67 @@ Earlier12Oct prepared artifact exists; preserve as prior work, not an applicatio
 20 October 2026: opened exact official7791555 and8138937 full descriptions and forms. Both current requirements accept Python/Golang/Java with Python most preferred, correcting older preparation artifact's Go/Python-only assessment. Distinct titles/experience thresholds but substantial ERP connector/storage/backend/API/governance/global-team wording overlap; conservatively one known project track pending employer clarification.
 
 12 October Library artifact Anup_YipitData_Application_Answers_India_Go_2026.txt explicitly identifies7791555 and ERP infrastructure target. Already discussed/prepared for user, so imported historically_reported despite missing original alert timestamp.8138937 substantially copies ERP/data/API scope, consolidated, NOT new alert merely new grade/req. No applications inferred from artifact. Existing shared ledger lacked YipitData; runtime exports also no exact matches.
+
+## New checks: 20 October 2026
+
+### 555GROUP PTE. LTD. (555 Group): Backend Engineer - Payments
+
+[Official role](https://555.group/sg/careers/backend-engineer-payments)
+
+On-site Singapore. Full-time. Singapore on-site explicitly supported. Singapore work rights/pass support unknown; not a remote India role.
+
+Pay: S$8,000 - S$13,000 / month. Equity and on-call stipend separate, amounts unstated; healthcare and hardware advertised.. Calculation: S$96,000 - S$156,000 for 12 months of the published monthly cash range, before separate stipend/equity. Confirm guaranteed base and number of paid months. Upper range reaches Meena S$144,000 target reference; no current-package uplift established.
+
+Priority 1. Strong direct Java/payments transfer; establish ledger/rail depth, on-call tolerance and on-site/pass viability.
+
+Resume: Java/backend regulated payments and secure integrations. Lead with actual NTT DATA/Great Eastern payment/reconciliation delivery, Spring security/OAuth2/mTLS, SQL transaction integrity, Kafka and production diagnosis. Prepare truthful idempotency/retry/settlement examples and confirmed Camel knowledge. Do not invent PayNow/DuitNow delivery or metrics.
+
+Establish genuine ledger/settlement, reconciliation, payment-rail and concurrency examples; role ownership is not proof of existing domain delivery. Clarify current payment product stage given public product FAQ says counter payments today.
+
+Hours/terms: On-call rotation and incident response, including 2 AM incidents, explicit. Frequency, rota staffing, stipend amount, TOIL, office hours and escalation to establish.. Full-time on-site. Equity, healthcare, stipend and hardware advertised; grant/vesting, base guarantee, bonuses, leave, benefits, notice and probation unknown.
+
+Questions: Guaranteed monthly base and paid months? Meena target near S$12k feasible? Pass sponsorship? On-site cadence/hours, rota frequency/team size, stipend/TOIL, payment platform live versus roadmap, scope/grade, equity vesting and runway?
+
+Verification: 20 October 2026: official careers lists 4 open roles including this full-time on-site job; exact role page live with pay. Apply email inspected in public HTML: careers@555.group, subject Application: Backend Engineer Payments. Cloudflare-masked email click yields extractor404; HTML explicitly exposes mailto. No email sent.
+
+### Accenture: Agentic Engineer
+
+[Official role](https://www.accenture.com/us-en/careers/jobdetails?id=R00344459_en)
+
+Singapore; office/hybrid frequency not published. Full time; Engineering Services Team Lead/Consultant, Mid-Level. Singapore location explicit; SG sponsorship unknown, India remote not offered. US-country page shell does not make job US-only. Generic US authorization clause applies to US applicants only. Current Accenture-client employee eligibility clause may matter; establish for both.
+
+Pay: Not published. Unavailable: applicable pay not published
+
+Priority 3. Adjacent application/integration transfer; proven Python and custom agent delivery to establish, not assumed absence or production expertise.
+
+Resume: Java/integration modernization with truthful AI-assisted engineering. Emphasize secure APIs, confirmed Camel/EIP, cloud/Kubernetes/CI/CD and verified agent-assisted context/test/review practice. Prepare Python service/tool-calling demonstration with permissions and failure handling; do not claim production RAG/agent deployment.
+
+Demonstrate Python engineering and actual API/workflow automation; establish role expectation for production AI. Coding-agent use is not AI application delivery. Enterprise SAP/Salesforce/ServiceNow/SuccessFactors frameworks are preferred prep points, not confirmed production experience.
+
+Hours/terms: Hours, overlap, on-call and travel unstated. Employment entity, benefits, leave, probation, notice and package split to establish
+
+Questions: Singapore employing entity/pass support and office cadence? Funded client/project, current-client employee restrictions? Base/bonus/grade compatible with 8+/9+ years and Meena S$12k target? Python interview standard, production AI expectations, core hours/on-call and career ownership?
+
+Verification: 20 October 2026: exact official vacancy live, Singapore/full-time grade and full description observed. Apply links to exact R00344459 Workday apply URL; target JS shell returns no readable form, so application workflow not verified. No form inputs/submission/contact.
+
+### Singtel Group (exact employing entity to establish): Senior Software Engineer (Full-Stack AI Engineer description)
+
+[Official role](https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362500666/)
+
+Singapore; office/hybrid/remote arrangement unstated. Not published; full-time/contract and entity to establish. Singapore location explicit; sponsor/pass and remote terms unknown. Meena already NCS; confirm whether employing entity/team makes this internal/group mobility rather than new external employer.
+
+Pay: Not published. Unavailable: applicable pay not published
+
+Priority 2. Ambitious applied-AI full-stack transition; language/framework and production AI expectations to establish, not automatic keyword exclusion.
+
+Resume: Java/Angular full-stack modernization and AI-assisted engineering. Emphasize verified Java/TypeScript/Angular, API security, SQL, AWS/Azure Kubernetes and output verification. Prepare genuine small React/Node or FastAPI agent feature with streaming and tests; do not represent coding-agent use as shipped agent applications.
+
+Establish Python/Node service and React/Next/streaming UI depth, LangChain/Graph and production evaluation evidence. Angular/TypeScript and backend judgment transfer; no production AI tenure inferred.
+
+Hours/terms: Hours, overlap, on-call and travel unstated. Employment entity, benefits, leave, probation, notice and package split to establish
+
+Questions: Is req174501 still accepting applications and working apply route? Exact employer, business unit and permanent/contract terms? NCS/internal transfer implications for Meena? SG sponsorship, base near target, office/hours/on-call, backend language split and production AI expectations?
+
+Verification: 20 October 2026: exact employer page live with dated full description and Apply now. Tested apply/1362500666 route redirects to careers homepage, no form verified. Public HTML internalId174501-en_GB observed. Promising lead with incomplete application verification, not confirmed usable application route.
+
+EPAM Senior banking Java21/Boot/OpenShift reqbltoktsnryysjimu2e1 merged as alias of previously reported Lead track after current description comparison; no new alert. OKX Asset & Earn prior actual alert reconciled as delivered; no source verification timestamp changed.
