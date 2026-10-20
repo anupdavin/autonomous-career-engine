@@ -10718,9 +10718,10 @@
         "https://prvw.ai/assets/Careers-Dl0LmxtX.js"
       ],
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Proposed alert not yet delivered. Reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual prior ChatGPT final and supplied external-work history confirm delivery; reconciled after delivery. Source verification unchanged."
       },
       "deduplication_note": "No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.",
       "terms": "No paid-leave/benefits, notice/probation, employment entity, equity/bonus or package breakdown published. Full-time not treated as freelance; no billable volume assumed.",
@@ -10773,9 +10774,10 @@
         "https://prvw.ai/assets/Careers-Dl0LmxtX.js"
       ],
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Proposed alert not yet delivered. Reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual prior ChatGPT final and supplied external-work history confirm delivery; reconciled after delivery. Source verification unchanged."
       },
       "deduplication_note": "No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.",
       "terms": "No paid-leave/benefits, notice/probation, employment entity, equity/bonus or package breakdown published. Full-time not treated as freelance; no billable volume assumed.",

@@ -2080,7 +2080,7 @@ Verification: 20 October 2026: official recruiter current board lists vacancy am
 Deduplication: No weSource/exact req or distinctive inhouse-built/third-level generalist description match in 183 shared jobs/history or three available runtime/application exports. Robert Half Marina Bay digital assets vacancy has same broad pay/location but different trading-specific description; overlap not established. Client/project identity remains required before submission. Two official Manatal URLs are one canonical role; timestamp refresh not counted as new. Historical coverage incomplete.
 
 
-## Senior Platform Engineer at PRVW: pending ChatGPT delivery
+## Senior Platform Engineer at PRVW: delivered 20 October 2026
 
 [Senior Platform Engineer](https://prvw.ai/careers)
 
@@ -2107,7 +2107,7 @@ Verification: 20 October 2026: official careers page says roles below are open. 
 Deduplication: No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.
 
 
-## AI & Data Engineer at PRVW: pending ChatGPT delivery
+## AI & Data Engineer at PRVW: delivered 20 October 2026
 
 [AI & Data Engineer](https://prvw.ai/careers/)
 
