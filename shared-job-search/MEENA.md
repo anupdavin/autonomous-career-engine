@@ -171,7 +171,7 @@ Official descriptions checked today; no application/contact made. Source geograp
 
 ### 1. Evooq: Senior Full Stack Engineer
 
-[Direct role](https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-)
+[Direct role](https://jobs.smartrecruiters.com/Evooq/744000146885729-senior-full-stack-engineer-)
 
 - Priority/upside: tier 1. Career-growth candidate (assessment): autonomous frontend-to-database ownership and deployment strategy; compensation to establish
 - Arrangement/eligibility: Hybrid; up to 2 remote days/week; flexible hours. Singapore location confirmed; sponsorship and personal authorization unknown. India remote not advertised.
@@ -2319,4 +2319,47 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Prepare: Transaction-platform design, event failure handling, fraud tolerance, API/database tradeoffs and exact coding/leadership share.
 - Questions: Can Tinvio employ or contract a Singapore or India candidate via EOR/B2B? Team location, office cadence, timezone/on-call? Salary currency/range/local band, entity/sponsorship, benefits/leave/notice and payment terms?
 - Verification: 20Oct2026 exact official page live, Full-time, application entry point and full description visible; no closed marker. Location, work arrangement, authorization and compensation omitted. No application/contact.
+
+
+## New active matches checked 20Oct2026
+
+### 1. Payforge - Senior Java Engineer (Payments)
+- Link: https://himalayas.app/companies/payforge/jobs/senior-java-engineer-payments
+- Priority: Apply first; confirmed worldwide remote, Full-time. Posted 17Oct2026; apply before 16Dec2026.
+- Pay: Not published; SGD comparison unavailable.
+- Fit: Java 21/25, Spring Boot 4, Kafka, AWS, Kubernetes/Helm, Terraform, observability, mentoring, payments and verified AI-assisted engineering practice.
+- Resume: Use Meena hands-on lead/backend resume. Emphasize Java 21, Kafka/Streams, AWS EKS/ECS, DevSecOps, technical leadership and AI-assisted verification.
+- Prepare: Payment lifecycle, Java 25/Spring Boot 4, Testcontainers, Kafka delivery semantics and payment standards. Keep AI prototypes labeled accurately.
+- Questions: Singapore/India employment, EOR or B2B? Local pay band, core hours/client timezone, on-call, leave/benefits and contractor terms?
+- Verification: Public employer-branded listing active 20Oct2026; worldwide eligibility and timezones stated. Free Himalayas account is required to enter the application flow. No application/contact.
+
+### 2. Addepto - Senior Java Developer (Platform Modernization)
+- Link: https://himalayas.app/companies/addepto/jobs/senior-java-developer-platform-modernization
+- Priority: Apply first; confirmed worldwide remote, Full-time. Posted 8Oct2026; apply before 7Dec2026.
+- Pay: Not published; SGD comparison unavailable.
+- Fit: Java/Spring Boot, Oracle to PostgreSQL migration, Azure/AKS, Kafka/Service Bus, Kubernetes, CI/CD, observability and agentic coding workflows.
+- Resume: Use Meena hands-on lead/cloud-native resume. Emphasize Java 21, Oracle/PostgreSQL, Kafka, Kubernetes/Helm/Terraform, ArgoCD/Jenkins and modernization leadership.
+- Prepare: Azure-specific services, PL/SQL, reconciliation/cutover, Flyway/Liquibase, Databricks and exact hands-on coding share.
+- Questions: Singapore/India employment, EOR or B2B? Pay band, client hours, project duration, go-live/on-call and benefits/contract terms?
+- Verification: Public employer-branded listing active 20Oct2026; worldwide eligibility and timezones stated. Free Himalayas account is required to enter the application flow. No application/contact.
+
+### 3. MCPayment - Lead Java Developer (SG office)
+- Link: https://jobs.smartrecruiters.com/MCPayment/743999726906652-lead-java-developer-sg-office-
+- Priority: Apply; Singapore-based Full-time role, open only to candidates currently in Singapore.
+- Pay: Not published.
+- Fit: Direct lead match across Java/Spring Boot, APIs, AWS, CI/CD, architecture, delivery/security governance, stakeholders and distributed-team leadership.
+- Resume: Use Meena hands-on lead resume. Emphasize current technical/Scrum leadership, Java 21, cloud-native delivery, security, mentoring and fintech experience.
+- Prepare: Coding percentage, formal line-management scope, team planning and PCI/payments depth.
+- Questions: Salary/bonus versus S$144,000 target reference, sponsorship, office cadence, on-call, team size and decision authority?
+- Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
+
+### 4. MCPayment - Senior Java Engineer
+- Link: https://jobs.smartrecruiters.com/MCPayment/743999727017538-senior-java-engineer
+- Priority: Conditional; technical match is strong, but confirm lead-equivalent scope and pay before prioritizing over Meena's current lead role.
+- Pay: Not published.
+- Fit: Java 11/Spring Boot, payments, secure/high-load services, AWS, MSSQL/MySQL, Docker, Jenkins and network protocols.
+- Resume: Use Meena senior backend/full-stack resume while keeping current lead scope prominent.
+- Prepare: MyBatis, PCI-DSS, socket integration and React transferability.
+- Questions: Salary/bonus versus S$144,000 target reference, sponsorship, office cadence, on-call, senior decision authority and mentoring scope?
+- Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
 

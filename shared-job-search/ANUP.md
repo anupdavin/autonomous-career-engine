@@ -171,7 +171,7 @@ Official descriptions checked today; no application/contact made. Source geograp
 
 ### 1. Evooq: Senior Full Stack Engineer
 
-[Direct role](https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-)
+[Direct role](https://jobs.smartrecruiters.com/Evooq/744000146885729-senior-full-stack-engineer-)
 
 - Priority/upside: tier 1. Career-growth candidate (assessment): autonomous frontend-to-database ownership and deployment strategy; compensation to establish
 - Arrangement/eligibility: Hybrid; up to 2 remote days/week; flexible hours. Singapore location confirmed; sponsorship and personal authorization unknown. India remote not advertised.
@@ -2319,4 +2319,47 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Prepare: Payment/order or credit API architecture, event failure handling, fraud tolerance, database design and incident examples.
 - Questions: Can Tinvio employ or contract a Singapore or India candidate via EOR/B2B? Team location, office cadence, timezone/on-call? Salary currency/range/local band, entity/sponsorship, benefits/leave/notice and payment terms?
 - Verification: 20Oct2026 exact official page live, Full-time, application entry point and full description visible; no closed marker. Location, work arrangement, authorization and compensation omitted. No application/contact.
+
+
+## New active matches checked 20Oct2026
+
+### 1. Payforge - Senior Java Engineer (Payments)
+- Link: https://himalayas.app/companies/payforge/jobs/senior-java-engineer-payments
+- Priority: Apply first; confirmed worldwide remote, Full-time. Posted 17Oct2026; apply before 16Dec2026.
+- Pay: Not published; SGD comparison unavailable.
+- Fit: Java 21/25, Spring Boot 4, Kafka, payments, secure APIs, AWS, Kubernetes/Helm, Terraform, observability and verified AI-assisted engineering practice.
+- Resume: Use Anup payments/backend resume. Emphasize Great Eastern payments, secure integrations, OAuth2/mTLS, Kafka, cloud-native delivery and AI output verification.
+- Prepare: Java 25/Spring Boot 4, Testcontainers, Kafka delivery semantics and payment standards. Do not claim unconfirmed ISO/HSM depth.
+- Questions: Singapore/India employment, EOR or B2B? Local pay band, core hours/client timezone, on-call, leave/benefits and contractor terms?
+- Verification: Public employer-branded listing active 20Oct2026; worldwide eligibility and timezones stated. Free Himalayas account is required to enter the application flow. No application/contact.
+
+### 2. Addepto - Senior Java Developer (Platform Modernization)
+- Link: https://himalayas.app/companies/addepto/jobs/senior-java-developer-platform-modernization
+- Priority: Apply first; confirmed worldwide remote, Full-time. Posted 8Oct2026; apply before 7Dec2026.
+- Pay: Not published; SGD comparison unavailable.
+- Fit: Java/Spring Boot, Oracle to PostgreSQL migration, Azure/AKS, Kafka/Service Bus, Kubernetes, CI/CD, observability and agentic coding workflows.
+- Resume: Use Anup modernization/backend resume. Emphasize Oracle/PostgreSQL, Azure AKS, governed data/MDM, secure APIs, Kafka and AI-assisted verification.
+- Prepare: PL/SQL, reconciliation/cutover, Flyway/Liquibase, Databricks, Azure Service Bus and Testcontainers.
+- Questions: Singapore/India employment, EOR or B2B? Pay band, client hours, project duration, go-live/on-call and benefits/contract terms?
+- Verification: Public employer-branded listing active 20Oct2026; worldwide eligibility and timezones stated. Free Himalayas account is required to enter the application flow. No application/contact.
+
+### 3. MCPayment - Lead Java Developer (SG office)
+- Link: https://jobs.smartrecruiters.com/MCPayment/743999726906652-lead-java-developer-sg-office-
+- Priority: Apply; Singapore-based Full-time role, open only to candidates currently in Singapore.
+- Pay: Not published.
+- Fit: Java 8/11, Spring Boot, APIs, SQL Server/MySQL, AWS, CI/CD, architecture, delivery/security leadership and payments.
+- Resume: Use Anup senior Java/backend resume with truthful hands-on lead positioning. Emphasize Great Eastern payments, secure integration and architecture decisions.
+- Prepare: Team planning, stakeholder leadership, coding share, formal people authority and PCI/payments depth.
+- Questions: Salary/bonus, sponsorship, office cadence, on-call, team size, coding percentage and modernization roadmap?
+- Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
+
+### 4. MCPayment - Senior Java Engineer
+- Link: https://jobs.smartrecruiters.com/MCPayment/743999727017538-senior-java-engineer
+- Priority: Apply; Singapore-based Full-time role, open only to candidates currently in Singapore.
+- Pay: Not published.
+- Fit: Java 11, Spring Boot, payment systems, secure/high-load services, AWS, MSSQL/MySQL, Docker, Jenkins and network protocols.
+- Resume: Use Anup payments/backend resume. Emphasize Java, Spring Boot, secure APIs, SQL Server, cloud, CI/CD, OAuth2/mTLS and observability.
+- Prepare: MyBatis, PCI-DSS, socket integration and React transferability.
+- Questions: Salary/bonus, sponsorship, office cadence, on-call, senior ownership and frontend share?
+- Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
 
