@@ -11334,6 +11334,59 @@
         }
       },
       "url": "https://kake.co/jobs/senior-backend-engineer-node-js-typescript-f052f5a15b14"
+    },
+    {
+      "job_id": "tinvio-senior-java-743999830616504",
+      "employer": "Tinvio",
+      "title": "Senior Software Engineer - Java",
+      "canonical_url": "https://jobs.smartrecruiters.com/Tinvio/743999830616504-senior-software-engineer-java",
+      "url_aliases": [],
+      "url": "https://jobs.smartrecruiters.com/Tinvio/743999830616504-senior-software-engineer-java",
+      "import_source": "Fresh official SmartRecruiters role page checked 20 Oct 2026",
+      "last_checked": "2026-10-20",
+      "status_at_last_check": "Live official listing with visible application entry point; final submission flow not tested",
+      "location": "Not stated on the exact official role page; company describes builders across APAC",
+      "arrangement": "Work arrangement and eligible employing countries not stated",
+      "engagement_type": "Full-time",
+      "posted": "Not published",
+      "published_compensation": "No numeric salary, currency, bonus or equity published on the exact role page.",
+      "sgd_comparison": "Unavailable: no numeric pay or applicable Singapore/India band established. No income comparison claimed.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "compensation_geography": "Global/location-adjusted pay policy and Singapore/India terms unknown.",
+      "eligibility": "Promising eligibility-unconfirmed lead. No explicit country-only blocker was retrieved, but the page does not confirm Singapore or India employment, EOR, or international B2B engagement.",
+      "authorization_sponsorship": "Personal work authorization, sponsorship, employing entity and contractor route unknown.",
+      "hours_on_call": "Timezone overlap, office cadence, travel and on-call expectations not stated.",
+      "terms": "Benefits, leave, notice, employee versus contractor status, duration, payment currency and fees unknown.",
+      "fit": "Direct Java/Spring Boot, PostgreSQL/Redis/NoSQL, Kafka or other queues, AWS/GCP, event-driven microservices, secure API backends, payment and credit domains. Hands-on architecture, production troubleshooting and cross-functional delivery align strongly.",
+      "preparation": "Prepare role-specific examples of scalable payment/order or credit-domain APIs, database design, event failure handling, fraud tolerance, production incidents and architecture choices. Establish work country and commercial terms before investing heavily.",
+      "questions": "Can Tinvio employ or engage a Singapore or India based candidate, including EOR or international B2B? Where is the team and what office cadence/timezone overlap applies? What is the salary range, currency, guaranteed cash and local-band policy? Sponsorship/entity? On-call and release expectations? Employee versus contractor terms, leave, notice and payment schedule?",
+      "verification": "20 Oct 2026: exact official SmartRecruiters page was live, titled Senior Software Engineer - Java, marked Full-time, showed the application entry point and a complete description; no closed or expired marker. Page omitted location, compensation and work authorization. No application submitted.",
+      "upside": "Career-growth candidate and compensation-to-establish: fintech-adjacent B2B transaction platform ownership, backend design and cross-functional delivery. No pay or income uplift inferred.",
+      "priority_basis": "Strong technology and payments-domain overlap plus official direct access. Eligibility and compensation are material unresolved gates.",
+      "deduplication_note": "Compared the current 195-job shared ledger, reported events and available runtime/application exports by employer, title, requisition and URL; no Tinvio match found.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "first_reported_date": null,
+        "note": "New worthwhile lead prepared for ChatGPT alert; do not mark delivered until the alert is actually sent."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend / secure integrations / payments",
+          "tailoring": "Use Anup's Java backend and payments resume. Lead with Spring Boot, Kafka, PostgreSQL/SQL, AWS/Azure Kubernetes, OAuth2/mTLS, secure REST/GraphQL integrations, Great Eastern payment delivery and production observability. State only verified outcomes and metrics.",
+          "fit_and_preparation": "Strong direct Java, Kafka, cloud, transactional-platform and integration match. Prepare credit/order domain, fraud-tolerance and exact current compensation/location eligibility discussions.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java / event-driven cloud platform",
+          "tailoring": "Use Meena's hands-on lead Java/cloud resume. Lead with Java 21/Spring Boot 3, Kafka/Streams, AWS ECS/EKS, Kubernetes/Helm, Redis/PostgreSQL, DevSecOps, observability, technical leadership and fintech/enterprise delivery. State only verified outcomes and decision authority.",
+          "fit_and_preparation": "Strong event-driven platform, AWS/Kubernetes, Java/Spring and leadership fit. Prepare B2B transaction and fraud-tolerance examples; establish location, compensation and role coding share.",
+          "application_status": "Not applied or approved"
+        }
+      }
     }
   ]
 }
