@@ -2376,3 +2376,41 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Verification: Exact official page remained active 21Oct2026 with hybrid Singapore heading, complete description and apply label. Final application workflow was not inspected. No application/contact.
 - Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
+## New active Singapore matches checked 21Oct2026
+
+### 1. GovTech Singapore / SLA: Senior Software Engineer
+- Link: https://jobs.careers.gov.sg/jobs/greenhouse/4006308201?gh_jid=4006308201
+- Priority: Apply first. Career-growth candidate; compensation to establish.
+- Fit: Java, Spring Boot, REST, enterprise integration, Oracle/PostgreSQL, transaction-heavy workflows, reconciliation, TDD, CI/CD, observability and production troubleshooting.
+- Resume: Use the senior Java backend and modernization resume. Foreground secure APIs, stateful workflows, data integrity, reconciliation and genuine design/mentoring examples.
+- Prepare: Rich-domain modelling, state transitions, test strategy and operational debugging. Node.js is only a plus.
+- Questions: Employment type, work-pass support, guaranteed base/bonus, office cadence, support rota and active application route.
+- Verification: Official Careers@Gov result indexed 21Oct2026. Exact page returned HTTP 403 to the research fetch; application completion was not tested. No application/contact.
+
+### 2. Monetary Authority of Singapore: Senior Software Engineer (MEPS+) (Perm/Contract)
+- Link: https://jobs.careers.gov.sg/jobs/hrp/16268355/005056a3-d347-1fe1-b29a-beee83b4e2c3
+- Priority: Apply. Strong regulated-payments fit; compensation to establish.
+- Fit: Java, J2EE, Oracle/SQL, JBoss, secure review, payment reliability, test automation, incident response, audit and vendor coordination.
+- Resume: Use the Java payments and secure-integration resume. Highlight Great Eastern payment/reconciliation work, vulnerability remediation, production diagnosis and runbooks.
+- Prepare: Shell, JBoss, test frameworks and incident examples. The role leans toward assurance and operations.
+- Questions: Permanent or 2-year contract, sponsorship, guaranteed package, exact on-call rota/stipend or time off, and coding versus review/operations split.
+- Verification: Official listing indexed and official Workday application start discoverable 21Oct2026. No submission/contact.
+
+### 3. LTA: Principal / Senior / Executive Software Engineer
+- Link: https://jobs.careers.gov.sg/jobs/hrp/18080756/005056a3-d347-1fe1-add8-7c3eddfd82be
+- Priority: Apply after level and package screening.
+- Fit: Java/J2EE/Spring Boot, REST, full stack, AWS, integration, DevSecOps, CI/CD, microservices, modernization, production support and AI-assisted engineering.
+- Resume: Use the Java full-stack modernization resume. Highlight Angular/TypeScript, cloud/Kubernetes, secure APIs, release quality and verified coding-agent practices.
+- Prepare: Exact frontend stack, AWS depth, architecture authority and support rota.
+- Questions: Funded level, direct employment, work-pass support, guaranteed pay, office cadence and operational hours.
+- Verification: Official Careers@Gov listing indexed 21Oct2026; exact page returned HTTP 403 to the research fetch. No application/contact.
+
+### 4. GovTech Singapore / MOE: Engineer / Senior Software Engineer, AI Products & Platform
+- Link: https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201
+- Priority: Ambitious applied-AI stretch; compensation to establish.
+- Fit: LLM integration, agentic workflows, evaluation, observability, guardrails, retrieval/memory, reusable platform patterns and accountable AI-assisted development.
+- Resume: Use the Java/backend modernization resume with truthful AI-assisted engineering practices prominent.
+- Prepare: A genuine end-to-end AI application prototype with evals, traceability, constrained permissions, monitoring and rollback. Do not imply production LLM tenure from coding-agent use.
+- Questions: Seniority, production AI bar, sponsorship, guaranteed package, office cadence, implementation stack and incident rota.
+- Verification: Official result indexed 21Oct2026; exact page returned HTTP 403 to the research fetch and final application workflow was not tested. No application/contact.
+

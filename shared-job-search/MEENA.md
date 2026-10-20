@@ -2376,3 +2376,41 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Verification: Exact official page remained active 21Oct2026 with hybrid Singapore heading, complete description and apply label. Final application workflow was not inspected. No application/contact.
 - Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
+## New active Singapore matches checked 21Oct2026
+
+### 1. GovTech Singapore / SLA: Senior Software Engineer
+- Link: https://jobs.careers.gov.sg/jobs/greenhouse/4006308201?gh_jid=4006308201
+- Priority: Apply first. Career-growth candidate; compensation to establish.
+- Fit: Java/Spring Boot, enterprise workflows, PostgreSQL/Oracle, integrations, transaction integrity, testing, observability, production troubleshooting and mentoring.
+- Resume: Use the hands-on lead Java and cloud-modernization resume. Highlight technical reviews, delivery ownership and LTA domain delivery without implying direct SLA experience.
+- Prepare: Domain modelling, state transitions, reconciliation, test strategy and production diagnosis.
+- Questions: Employment type, work-pass support, guaranteed base/bonus near the S$144,000 target reference, office cadence, support rota and active application route.
+- Verification: Official Careers@Gov result indexed 21Oct2026. Exact page returned HTTP 403 to the research fetch; application completion was not tested. No application/contact.
+
+### 2. LTA: Principal / Senior / Executive Software Engineer
+- Link: https://jobs.careers.gov.sg/jobs/hrp/18080756/005056a3-d347-1fe1-add8-7c3eddfd82be
+- Priority: Apply after direct-hire and level screening.
+- Fit: Java 21/Spring Boot 3, Angular 18, AWS, integrations, DevSecOps, CI/CD, microservices, modernization, troubleshooting and mentoring.
+- Resume: Use the hands-on lead, LTA delivery and cloud-modernization resume. State NCS employment and LTA client work accurately.
+- Prepare: Funded level, architecture authority, frontend stack, AWS depth and support rota.
+- Questions: Direct-hire movement or vendor restrictions, work-pass support, guaranteed pay near the target, office cadence and operational hours.
+- Verification: Official Careers@Gov listing indexed 21Oct2026; exact page returned HTTP 403 to the research fetch. No application/contact.
+
+### 3. GovTech Singapore / MOE: Engineer / Senior Software Engineer, AI Products & Platform
+- Link: https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201
+- Priority: Ambitious applied-AI transition; career-growth candidate.
+- Fit: LLM integration, agentic workflows, evaluation, observability, guardrails, retrieval/memory and reusable platform patterns.
+- Resume: Use the hands-on lead and AI-integration/cloud-platform resume. Label Spring AI/RAG/MCP/Claude work as prototypes.
+- Prepare: Evals, traceability, constrained tool permissions, monitoring, rollback and the path from prototype to production.
+- Questions: Engineer or senior grade, production AI bar, sponsorship, guaranteed package near the target, office cadence and incident rota.
+- Verification: Official result indexed 21Oct2026; exact page returned HTTP 403 to the research fetch and final application workflow was not tested. No application/contact.
+
+### 4. Monetary Authority of Singapore: Senior Software Engineer (MEPS+) (Perm/Contract)
+- Link: https://jobs.careers.gov.sg/jobs/hrp/16268355/005056a3-d347-1fe1-b29a-beee83b4e2c3
+- Priority: Conditional. Strong Java/reliability fit, but screen role breadth and package against current lead scope.
+- Fit: Java, Oracle, secure reviews, quality gates, payment reliability, incident leadership, audit and vendor coordination.
+- Resume: Use the lead backend and regulated-platform reliability resume. Emphasize DevSecOps, observability, code-review standards and stakeholder coordination.
+- Prepare: JBoss, shell, test frameworks and exact on-call expectations.
+- Questions: Permanent or 2-year contract, guaranteed package near the target, sponsorship, on-call compensation and coding versus assurance/operations split.
+- Verification: Official listing indexed and official Workday application start discoverable 21Oct2026. No submission/contact.
+
