@@ -2231,3 +2231,9 @@ Questions: Is req174501 still accepting applications and working apply route? Ex
 Verification: 20 October 2026: exact employer page live with dated full description and Apply now. Tested apply/1362500666 route redirects to careers homepage, no form verified. Public HTML internalId174501-en_GB observed. Promising lead with incomplete application verification, not confirmed usable application route.
 
 EPAM Senior banking Java21/Boot/OpenShift reqbltoktsnryysjimu2e1 merged as alias of previously reported Lead track after current description comparison; no new alert. OKX Asset & Earn prior actual alert reconciled as delivered; no source verification timestamp changed.
+
+## Reconciliation and duplicate check: 20 October 2026
+
+Prior 555 Group, Accenture Agentic Engineer and Singtel Full-Stack AI alerts confirmed delivered from actual conversation; no repeat alert or new source check implied.
+
+Known Luxoft FX eTrading reqVR124976: official description and application fields reopened20Oct. Finsurge MCF2026-1717626 has substantially identical FX Ecommerce/backend/streaming API/bank wording and is consolidated as recruiter copy, not a new role by lead title. Finsurge-specific indexed paySGD11,000-13,000/month and permanent/full-time, posted29Sep/closing29Oct2026, must not be applied to Luxoft hiring. MCF direct fetch failed; Finsurge application intake/entity/client and terms require clarification. Original Luxoft published-compensation field remains unchanged. No application/contact.
