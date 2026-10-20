@@ -1805,7 +1805,7 @@ Verification: 20 October 2026: complete current official role and name/email/pho
 
 Deduplication: No Askable req/project equivalent in172sharedjobs/history or3runtimeexports. RecruitmentRoom hourly codingtask-verifier contract and G2i hourly recordedcoding-agent interaction evaluations differ in supplier, deliverable and payment mechanism; no evidence same funded client/project. All Askable mirrors consolidated here, not separate listings.
 
-## Grab platform and support opportunities: pending ChatGPT delivery
+## Grab platform and support opportunities: delivered 20 October 2026
 
 ### Priority 1: Senior Software Engineer, Full Stack - Partner Apps Platform
 
@@ -1854,3 +1854,59 @@ Questions: Would Java/Angular engineers withTypeScript anddemonstrableGo/Reactra
 Verification: 20October2026: exact officialGrabcareers description/currentApply, SGfulltime,explicitfiveofficedays andoncall. Apply reachesSmartRecruiterspublicatione0ce2976-4749-40e1-a81d-91586a0e0456,JSonlyshell; finalapplicationfieldsunverified. No closedmarker, no submission/contact.
 
 Deduplication: No SupportExperience/HelpCentreproject in174sharedjobs/history or3runtimeexports. DifferentproductteamfromPartnerAppsportal andearlierGrabLeadFlink. Vietnam copies are not additionaleligibleSGroles andnotcounted.
+
+## New banking/integration opportunities: pending ChatGPT delivery
+
+Checked 20 October 2026. No application, approval or employer contact. Singapore work locations supported, personal authorization and sponsorship unknown. No eligible remote lead added this batch.
+
+### Priority 1: Credit Agricole CIB - Senior Java Developer, Cash Management and Corporate Banking Services
+
+[Application](https://sg.linkedin.com/jobs/view/senior-java-developer-at-cr%C3%A9dit-agricole-cib-4445723028)
+
+Location/type: Singapore work location confirmed. Onsite versus hybrid and weekly attendance not stated; not advertised as overseas remote. Full-time. Permanent versus fixed-term unknown.
+
+Pay: No numeric pay published on the exact employer listing. Base, bonus and benefits breakdown unknown. No applicable published numeric amount to convert. No income uplift established against unknown current packages.
+
+Fit: Direct bank role designing and improving cash-management/reporting digital applications within international core banking. Feature/migration solution design, estimation, business stakeholders, TDD/BDD, maintenance and junior mentoring. Requires 7+ Java/J2EE, Spring Boot/Integration, distributed microservices, Docker/Kubernetes and CI/CD. Financial industry experience plus.
+
+Prepare: Establish cash-management functional knowledge, Spring Integration depth, Cucumber BDD/UML usage and examples of complex feature design. Camel is confirmed for both and transfers EIP knowledge but does not establish Spring Integration-specific production tenure. Do not invent cash-management delivery, TDD/BDD years or architectural metrics.
+
+Resume: Use Anup's senior Java/backend payments resume. Lead with verified NTT DATA/Great Eastern payments, Spring Security, secure APIs, Kafka/SQL, cloud/Kubernetes and production diagnosis. Add a real design tradeoff and tested delivery outcome. Include confirmed Camel; prepare Spring Integration and cash-management specifics without inventing domain ownership.
+
+Assessment: Strong Java/Spring banking-transfer fit with feature-design and stakeholder ownership; establish cash-management functionality and specific BDD/Integration evidence. Career-growth candidate (assessment); compensation to establish. No earnings promise.
+
+Hours/terms: Maintenance/support explicit. Core hours, international overlap/DST, on-call rota and compensation/time off unknown. Employee terms, leave, benefits, notice, probation and fixed-term/permanent status unknown.
+
+Questions: Confirm funded requisition and direct application route, Singapore hybrid/office cadence and sponsorship, guaranteed base/bonus/benefits and grade; Meena target SGD12000 monthly is a screening reference only. Cash-management depth expected, Spring Integration onboarding, design authority, maintenance/on-call rota, regional hours/DST, notice/probation?
+
+Verification: 20 October 2026: employer LinkedIn exact complete description has Apply and no closed marker. Corporate ATS requisition and final application form not retrieved; application verification incomplete. Search mirrors corroborate substantially same CCS digital cash-management description, not independent openings.
+
+Posted: Employer LinkedIn displays 17 hours ago at check on 20 October 2026 Singapore date. Original posting date unknown; refreshed label is not proof of a new requisition.
+
+Deduplication: No employer/exact requisition or materially matching direct-bank CCS cash-management description found in 176 shared jobs/history or three available runtime/application exports. Luxoft GFM/post-trade/FX/structured-products roles concern different descriptions; unseen supplier/client relationships remain unconfirmed. Historical coverage incomplete.
+
+### Priority 2: NTT Data Singapore - Full Stack Java Developer, GFM Post-Trade Settlement
+
+[Application](https://ntt-data-singapore.careers-page.com/jobs/9ce4d169-88a0-43c7-8b2c-a1279a151e95)
+
+Location/type: On-site explicitly. Exact weekly attendance unknown. Not remote from India. Full-time, 1 year renewable contract. Renewal not guaranteed.
+
+Pay: No numeric pay published on the exact employer listing. Base, bonus and benefits breakdown unknown. No applicable published numeric amount to convert. No income uplift established against unknown current packages.
+
+Fit: Design/development ownership of GFM post-trade settlement workbench, microservices/cloud applications and business-user discussions across regions. Java8, Spring Boot/Batch/Cloud, Apache Camel, JMS/Kafka, SQL and NoSQL, AWS/Kubernetes/OpenShift, Docker pipelines, ELK, SQL tuning and JVM heap/thread diagnosis. Frontend AngularJS or ReactJS, not identical to modern Angular.
+
+Prepare: Both know Camel. Establish MongoDB/Cassandra depth, legacy AngularJS or React versus modern Angular transfer, Spring Batch/Cloud, OpenShift/PCF and settlement lifecycle. Prepare SQL explain plans, JVM diagnosis and messaging/idempotency/recovery examples; do not invent NoSQL tenure or settlement experience.
+
+Resume: Use Anup's senior Java/full-stack payments resume. Foreground verified payments, Camel, Spring/Kafka, Oracle/SQL, Docker/Kubernetes and business-facing diagnosis. Add a true JVM/SQL tuning or incident example and cloud pipeline outcome. Clarify Java8/AngularJS modernization ownership and contract economics before a long process.
+
+Assessment: Strong Java/Camel and regulated payments transfer. NoSQL, settlement and AngularJS/React details to establish; lower priority than direct-bank role until budget and contract terms confirmed. Career-growth candidate (assessment); compensation to establish. No earnings promise.
+
+Hours/terms: Cross-region collaboration and production maintenance implied by responsibilities; required overlap/DST, on-call, overtime and support rotation not specified. One-year renewable full-time contract, employer/client entity and payroll provider unknown. Rate/base/bonus, paid leave, benefits, notice, termination, renewal conditions and on-call compensation unknown. Not advertised as B2B or foreign-currency billing.
+
+Questions: Verify official hiring entity, named client/project and funded seat to avoid duplicate supplier applications. Confirm sponsorship, base/monthly period, paid leave/benefits, one-year duration/cancellation/notice/renewal and permanent conversion. Exact onsite cadence, cross-region hours/on-call, senior/lead grade, current Java/frontend versions and modernization roadmap? Screen budget early against current SGD packages, especially Meena's SGD12000 monthly target.
+
+Verification: 20 October 2026: employer-branded Manatal board page3 currently links exact vacancy, full description/Apply readable. Apply destination matches title/Singapore/full-time/onsite but applicant fields not readable, so final form unverified. Corporate careers-to-board affiliation not independently established. No closed marker, no application/contact.
+
+Posted: Not stated on employer-branded listing. Jobera first-seen September25 is a mirror observation, not original employer date.
+
+Deduplication: No NTT exact requisition/GFM settlement description found in 176 shared jobs/history and three available runtime/application exports. Compared prior Luxoft full-stack/Java trading/payment variants; no substantially identical description established. End client undisclosed, so require project confirmation before multiple supplier applications. Generic same-body NTT Singapore mirror salary is not mapped to exact requisition and is not imported as employer pay.
