@@ -2284,7 +2284,7 @@ Same Sea/Shopee group as payment role: choose one active application at a time p
 
 Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with Apply, Singapore/full-time. Senior-expert4456097257 also opened live with full description and Apply. Both substantial Business Security project overlap; one canonical track not multiple alerts. Expert4450349573 click hit429 and not fully verified. Older4417828830/4418228138 search-indexed closed, not active routes. Downstream LinkedIn/offsite application fields not inspected; no login, submission or contact.
 
-## New leads checked20October2026 (delivery pending)
+## Leads delivered20October2026
 
 ### Robert Half, undisclosed global investment company: Senior Software Architect
 
