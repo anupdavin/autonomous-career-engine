@@ -1941,7 +1941,7 @@ Verification: 20October2026: complete official exact role accessible with Apply 
 
 Deduplication: No exact7699598003 or AI Agent engineering-platform track in178shared jobs/events or three read-only runtime/application exports. Distinct from prior OKX Application Architect7766838003(stability/JVM),PaySmartAccount7596531003(paymentsettlement)andWeb3Wallet7821268003(walletbackend). Historical coverage incomplete. Camunda runtime record pay defaults not imported. Other candidates excluded from new shortlist when closed/country blocked, including Watu Europe,Teamworks US,Agoda explicit no sponsorship and CloudLinux B73EAD4735 redirectednot_found.
 
-## Gemini full-stack product opportunity: pending ChatGPT delivery
+## Gemini full-stack product opportunity: delivered 20 October 2026
 
 ### Gemini: Senior Software Engineer, Invest / Trade (Full Stack, React)
 
@@ -1970,3 +1970,59 @@ Questions: Will strong Angular/TypeScript engineers with demonstrable React read
 Verification: 20October2026: official exact full description plus blank CV/contact, Singapore work-rights/sponsorship, education/background-check consent and Submit application visible, no closed marker. No forms filled/submitted or employer contacted. Matching Jobstore same role/body/hybrid policy inspected; pay expressly estimated, not imported.
 
 Deduplication: No Gemini employer/exact8164166 or matching investment/trading frontend description in179shared jobs/history and three read-only runtime/application exports. Prior Grab PartnerApps/Support Experience are different employer/product tracks, not copies. Substantially matching Jobstore consolidated as alias. Historical coverage incomplete.
+
+## GrabX and Visa platform opportunities: pending ChatGPT delivery
+
+Checked20October2026. Singapore locations supported, personal workrights/sponsorship unknown. No applications/contacts.
+
+### Priority 1: Grab - Senior Software Engineer, GrabX Experimentation Platform
+
+[Application](https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/)
+
+Location/type: Singapore work location; exact onsite/hybrid attendance not stated on this role. Do not import five-day clause from another Grab opening. FlexWork benefits do not establish overseas remote permission. Full-time explicitly. Permanent versus fixed-term unknown.
+
+Posted: Original posting date not stated on official descriptions/application shell. Crawl dates not original posting dates.
+
+Pay: No numeric salary or rate published on exact employer source or matching description. Base, bonus/equity breakdown unknown; no estimates or unrelated role bands substituted. No applicable numeric published compensation to annualize or convert. No current-package uplift established. Meena SGD12000/month target is budget-screening reference only.
+
+Fit: GrabX centralized product configuration and experimentation platform, decoupling behavior/rollouts from deployments. Distributed systems and APIs, performance/observability/reliability/security, technical design/reviews and mentoring, product/instrumentation decisions. Five-plus production years. Java accepted alongside Go and employer's exact wording Sparks; not a React- or Go-only role. Fintech/authentication, relational databases, microservices/containerization preferred.
+
+Prepare: Establish production scale and experimentation/instrumentation experience with real examples, not invented A/B ownership. Prepare safe configuration rollout, consistency/cache/stale reads, failure/default behavior, experiment assignment/measurement and rollback; clarify actual backend stack and odd Sparks wording. Both candidates' Java/API/cloud/security experience transfers; no need to infer Go proficiency.
+
+Resume: Use Anup's Java/backend-platform resume. Lead verified Java/Spring, secure APIs/OAuth2/mTLS, Kafka/SQL, Kubernetes/AWS/Azure and production diagnosis. Highlight a genuine rollout/configuration or reliability decision and measurable outcome only if verified. Prepare configuration failure/recovery and instrumentation tradeoffs; do not invent experimentation-platform ownership.
+
+Assessment: Strong Java/security/API/platform transfer; experimentation domain and operating scale to establish. Oncall/economics should be screened. Career-growth candidate (assessment), compensation to establish. No income improvement promised.
+
+Hours/terms: On-call rotations and incident response/resolution explicitly required. Rota frequency, nights/weekends, pay/TOIL, corehours and cross-region overlap/DST unknown. Full-time employee-style insurance/GrabFlex and leave advertised without valuation. Confirm SGentity, base/bonus/equity, permanent/fixedterm, attendance, leave, probation/notice and compensated oncall. No B2B model advertised.
+
+Questions: Confirm funded GrabX requisition/current application workflow, Singapore sponsorship, applicable guaranteed base/period and variable/equity, senior/lead decision authority, actual Java stack and Sparks wording, experimentation depth expected, attendance/corehours/DST and oncall rota/pay/TOIL/notice. Meena targetSGD12000monthly within budget?
+
+Verification: 20October2026: exact official Grab and SmartRecruiters descriptions accessible, current ApplyNow follows oneclick publicationeec86285-f7ec-451f-ba1f-caaa69944f18 matching SeniorSoftwareEngineer/GrabOneNorthSG. Final applicant fields require JavaScript and are not verified. No closedmarker, no application/contact.
+
+Deduplication: No GrabX/151585180 or matching experimentation/central product-configuration platform in180shared jobs/history or three runtime/application exports. Different from GrabPartnerApps developer portal/webview bridge/onboarding153718020, SupportExperienceHelpCentre143221939 and LeadFlink platform. Shared genericresponsibilities not treated as duplicate when explicit distinct product/team. Full historical coverage not claimed.
+
+### Priority 2: Visa - Sr SW Engineer, Cloud Platform Automation and Services
+
+[Application](https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Sr-SW-Engineer_REF088636W)
+
+Location/type: Hybrid, at least3 office days explicitly in indexed official and exact matching TheMuse. Hiringmanager confirms schedule. No India/globalremote advertised. Full time in official indexed Workday exactreq and TheMuse. Permanent versus fixed-term unknown.
+
+Posted: TheMuse exactREF088636W metadata shows2026-09-25T18:29:12, thirdparty date not verified employer-original. Official search-index saysPosted23DaysAgo; do not convert relative/cached date into confirmedoriginal.
+
+Pay: No numeric salary or rate published on exact employer source or matching description. Base, bonus/equity breakdown unknown; no estimates or unrelated role bands substituted. No applicable numeric published compensation to annualize or convert. No current-package uplift established. Meena SGD12000/month target is budget-screening reference only.
+
+Fit: CloudPlatform provisioning/configuration/security/operations automation across large systemfleets, plus user-facing fullstack APIs/microservices. End-to-end design/testing/signoff, GenAI-assisted coding/review/tests/docs and development of autonomous agents/workflow orchestration. PreferredJava/J2EE2+yearsSpringBootRESTmicroservicesAngularorReact,CI-CDLinuxWindows and infrastructure fundamentals; Ansible/Terraform advantage, financialservices plus.
+
+Prepare: AI/platform application-delivery stretch, not MLresearch. Establish scripting/fleet configuration-management depth and actual agent implementation; codingassistant use not proof of built autonomousagents. Prepare repeatable/idempotent automation, safe blast-radius/rollback/secrets/permissions, Unix/Linux/Windows/network/loadbalancer fundamentals and tests. Qualification2+ is preferred minimum, not proof of juniorgrade; assess actuallevel/pay/ownership rather than assume.
+
+Resume: Use Anup's Java/Angular-platform and AI-assisted engineering resume. Highlight verified enterprise secureAPI, deployment/CI-CD, Kubernetes/AKS/Rancher, Linux/JVM diagnosis and actual codingagentcontext/test/review practices. Show a genuine automation/configuration example with tests and rollback. Keep agent implementation separate from assistantuse; don't invent Ansiblefleetmanagement or productionagent history.
+
+Assessment: Strong JavaAngular/codingagent/securitydelivery transfer; platformfleet scripting and agentimplementation scope to establish. Partialverification and grade/pay screening required. Career-growth candidate (assessment), compensation to establish. No income improvement promised.
+
+Hours/terms: At least3 office days. Productionready automation/support expected; corehours, globaloverlap/DST,oncall,nights/weekends and incidentcompensation/timeoff not specified. Fulltime, exact local benefits/leave/base/bonus/equity/probation/notice and permanent/fixedterm unknown. Do not substitute TheMuse global/USbenefit menu as guaranteedSingaporebenefits. No B2B advertised.
+
+Questions: IsREF088636W active/funded and correctworkingapplication? NewSingaporepass support? Grade, designauthority, platformautomationvsfullstack split, requiredfleet/scripting/Ansibledepth and actualagentdelivery expectations? ApplicableSGDguaranteedbase/period and separatevariable/equity,3dayoffice schedule,corehours/DST,oncall/TOIL,leave/probation/notice; MeenaSGD12000monthlytargetwithinbudget?
+
+Verification: 20October2026: actual official Workday URL reachable but returns blank extraction; direct form and live employer intake not fully verified. Official search-index returns exactreq,SG,fulltime,complete description with no closure. Exactreq TheMuse complete body and ApplyOnCompanySite and Simplify matching body visible. Label partially verified lead; confirm fundedintake before longassessment. No application/contact.
+
+Deduplication: NoREF088636W/CloudPlatformprovisioning/configuration automation in180sharedjobs/history and3runtime/applicationexports. PriorVisaREF082409W isMiddlewarePRE reliability/deployvalidation/observability for middleware, not same team/project description. Both have genericplatform/AIoverlap; internal team/reqrelation toconfirm if recruiter suggests sharedtrack. No newalert based onlyonrenamedtitle orrefresh.
