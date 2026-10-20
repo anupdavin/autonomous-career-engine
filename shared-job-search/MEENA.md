@@ -1855,7 +1855,7 @@ Verification: 20October2026: exact officialGrabcareers description/currentApply,
 
 Deduplication: No SupportExperience/HelpCentreproject in174sharedjobs/history or3runtimeexports. DifferentproductteamfromPartnerAppsportal andearlierGrabLeadFlink. Vietnam copies are not additionaleligibleSGroles andnotcounted.
 
-## New banking/integration opportunities: pending ChatGPT delivery
+## New banking/integration opportunities: delivered 20 October 2026
 
 Checked 20 October 2026. No application, approval or employer contact. Singapore work locations supported, personal authorization and sponsorship unknown. No eligible remote lead added this batch.
 
@@ -1910,3 +1910,33 @@ Verification: 20 October 2026: employer-branded Manatal board page3 currently li
 Posted: Not stated on employer-branded listing. Jobera first-seen September25 is a mirror observation, not original employer date.
 
 Deduplication: No NTT exact requisition/GFM settlement description found in 176 shared jobs/history and three available runtime/application exports. Compared prior Luxoft full-stack/Java trading/payment variants; no substantially identical description established. End client undisclosed, so require project confirmation before multiple supplier applications. Generic same-body NTT Singapore mirror salary is not mapped to exact requisition and is not imported as employer pay.
+
+## AI engineering platform opportunity: pending ChatGPT delivery
+
+### OKX: Senior/Staff Engineer, AI Agent Development
+
+[Official application](https://job-boards.greenhouse.io/okx/jobs/7699598003)
+
+Checked: 2026-10-20. Posted: Not published on exact official listing. Current crawl is not original posting date.
+
+Location/type: Singapore work location; onsite/hybrid cadence not stated. No worldwide or India remote arrangement advertised. Not explicitly stated on exact official description/form; permanent versus fixed-term, full-time/contract and hours to establish. Do not infer from title or general benefits.
+
+Eligibility: Eligibility-unconfirmed Singapore lead, not confirmed personal eligibility. Employer explicitly prioritises applicants with current right to work in Singapore who do not require its visa sponsorship. This is priority wording, not a retrieved categorical sponsorship ban. Confirm whether new-pass support is considered; existing EP does not establish transfer permission. No eligible India remote/relocation assumed.
+
+Pay: No numeric salary or rate published. Competitive total compensation advertised with no cash/base, bonus or equity breakdown. Healthcare, meal/wellness allowances and learning support advertised without numeric value. No applicable published numeric pay/period to convert or annualize. No income uplift established; Meena SGD12000/month target is a screening reference, not current salary or role pay.
+
+Fit: Enterprise AI-native software-engineering platform rather than ML research. Architecture/delivery of task/tool/context/memory and multi-agent systems; AI coding, solution/test/report generation and environment automation; RAG/GraphRAG/knowledge layer; agent isolation, permissions, audit/evaluation/reliability/cost governance. Java/Python accepted, 6+ backend/platform/infrastructure years, complex-system design, CI/CD/Kubernetes and cross-team engineering.
+
+Prepare: Ambitious applied-AI/platform stretch for both. LangChain/LangGraph hands-on and RAG/GraphRAG/knowledge-solution development are explicit requirements; actual depth unconfirmed. Coding-agent use alone does not establish agent-platform delivery. Prepare executable orchestration/tool-permission/evaluation and recovery examples, state/memory boundaries, prompt-injection defenses, observability and cost tests. No claim of production ML research, production agent platform, unconfirmed framework tenure or metrics.
+
+Resume: Use Meena's lead/backend/cloud-native and AI-integration resume. Highlight genuine system-design decisions, Kafka/Streams, AWS/EKS, Terraform/GitOps, DevSecOps, observability and mentoring. Describe SpringAI/RAG/MCP/ClaudeAPI examples as prototypes, their evaluation/failure handling and own contributions. Establish actual daily coding-agent practice and LangChain/LangGraph/GraphRAG depth, without converting prototypes into production history.
+
+Assessment: Transferable leadership/cloud delivery plus AI-integration prototypes; ambitious agent-runtime and governance scope to establish. Screen senior/staff authority, budget near target and sponsorship before lengthy work. Career-growth candidate (assessment), applied-AI stretch: real platform architecture, agent governance and engineering automation ownership. Compensation to establish, no proven income growth.
+
+Hours/terms: Timezone overlap, office attendance, weekly hours, on-call/incident rota, nights/weekends and compensation/time off not stated. Productionizing/scaling/stability ownership explicit. Employment type, guaranteed base/period, variable/equity, leave, probation, notice, permanent/fixed-term, on-call and benefits eligibility not stated. No B2B terms or overseas contractor mechanism advertised.
+
+Questions: Does OKX consider applicants requiring a new Singapore work pass despite local-rights priority? Exact employment type, grade/decision authority, guaranteed SGD base/period, separate bonus/equity/benefits and Meena target budget? Attendance/core hours/global overlap/DST/on-call/notice? How much LangChain/LangGraph and RAG/GraphRAG prior delivery is essential, and can strong Java/cloud delivery plus truthful prototypes or engineering automation evidence qualify? Immediate platform maturity, production ownership, evaluation/security expectations and take-home scope/IP?
+
+Verification: 20October2026: complete official exact role accessible with Apply and full blank applicant fields including location, work eligibility, now/future sponsorship, notice, languages, CV and Submit. No closed marker. No fields filled, application sent, account created or contact made.
+
+Deduplication: No exact7699598003 or AI Agent engineering-platform track in178shared jobs/events or three read-only runtime/application exports. Distinct from prior OKX Application Architect7766838003(stability/JVM),PaySmartAccount7596531003(paymentsettlement)andWeb3Wallet7821268003(walletbackend). Historical coverage incomplete. Camunda runtime record pay defaults not imported. Other candidates excluded from new shortlist when closed/country blocked, including Watu Europe,Teamworks US,Agoda explicit no sponsorship and CloudLinux B73EAD4735 redirectednot_found.
