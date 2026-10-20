@@ -5981,8 +5981,8 @@
       "url": "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore",
       "canonical_url": "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en",
       "url_aliases": [],
-      "last_checked": "2026-10-18",
-      "status_at_last_check": "Official vacancy description and apply label accessible; application workflow unverified",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official hybrid Singapore vacancy remains active with apply label and complete description visible",
       "freshly_verified_during_import": true,
       "location": "Singapore",
       "arrangement": "Hybrid in Singapore; office frequency unknown",
@@ -5999,7 +5999,7 @@
       "preparation": "Establish actual engineering-agent development and multi-step workflow evidence. Coding-agent use alone does not prove custom production agents. RAG, evaluation/guardrails, vector databases and orchestration frameworks are preparation points; AWS/Azure/GCP preferred.",
       "questions": "Active funded assignment and employment type? Singapore work-pass support? Guaranteed base/currency and separate upside? Hybrid cadence? Developer-agent building versus agent use? Required production AI experience? Hours/on-call/client overlap?",
       "upside": "Career-growth candidate: applied engineering automation and client-facing solution ownership; compensation to establish",
-      "verification": "Official EPAM vacancy opened 18 October 2026; hybrid Singapore heading, responsibilities and apply label observed. No functioning application form link extracted or application workflow verified. No submission.",
+      "verification": "Official EPAM vacancy reopened 21 October 2026; hybrid Singapore heading, full responsibilities and apply label visible with no closed marker. Application workflow and final submission fields not verified. No submission/contact.",
       "source_urls": [
         "https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore"
       ],
@@ -6008,7 +6008,7 @@
         "already_reported": false,
         "first_reported_date": null,
         "state": "pending_delivery",
-        "note": "Prepared current alert; reconcile from delivered conversation on next run"
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
       },
       "assessments": {
         "anup": {
@@ -6024,7 +6024,8 @@
           "application_status": "Not recorded"
         }
       },
-      "deduplication_note": "Distinct from EPAM Lead Back-end Java Developer already in ledger; this description focuses on AI-centric SDLC/developer agents."
+      "deduplication_note": "Distinct from EPAM Lead Back-end Java Developer already in ledger; this description focuses on AI-centric SDLC/developer agents.",
+      "last_positive_verification": "2026-10-21"
     },
     {
       "job_id": "renesas-744000152334030",
@@ -11426,10 +11427,10 @@
       "authorization_sponsorship": "Worldwide applicant eligibility stated; employing mechanism and sponsorship unknown; never infer personal authorization",
       "posted": "17 October 2026; apply before 16 December 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Reconciled from actual ChatGPT alert delivered on 21 October 2026; source verification and application status unchanged"
       },
       "assessments": {
         "anup": {
@@ -11484,10 +11485,10 @@
       "authorization_sponsorship": "Worldwide applicant eligibility stated; employing mechanism and sponsorship unknown; never infer personal authorization",
       "posted": "8 October 2026; apply before 7 December 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Reconciled from actual ChatGPT alert delivered on 21 October 2026; source verification and application status unchanged"
       },
       "assessments": {
         "anup": {
@@ -11540,10 +11541,10 @@
       "authorization_sponsorship": "Candidate must currently be in Singapore; sponsorship unknown; never infer personal authorization",
       "posted": "Not published on official page",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Reconciled from actual ChatGPT alert delivered on 21 October 2026; source verification and application status unchanged"
       },
       "assessments": {
         "anup": {
@@ -11596,10 +11597,10 @@
       "authorization_sponsorship": "Candidate must currently be in Singapore; sponsorship unknown; never infer personal authorization",
       "posted": "Not published on official page",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Reconciled from actual ChatGPT alert delivered on 21 October 2026; source verification and application status unchanged"
       },
       "assessments": {
         "anup": {
