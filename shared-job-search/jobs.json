@@ -10814,6 +10814,110 @@
           "application_status": "Not applied or approved"
         }
       }
+    },
+    {
+      "job_id": "okx-asset-earn-java-7749091003",
+      "employer": "OKX",
+      "title": "Senior Java Backend Engineer - Asset & Earn",
+      "requisition": "7749091003; Asset & Earn Team 2",
+      "canonical_url": "https://job-boards.greenhouse.io/okx/jobs/7749091003",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7749091003",
+      "url_aliases": [],
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh official OKX current openings and exact Greenhouse description/form, 20 October 2026",
+      "posted": "Original posting date not published.",
+      "status_at_last_check": "Open: official current board links to exact full description and applicant fields/Submit. No closed marker; no form filled or sent.",
+      "location": "Hong Kong or Singapore",
+      "arrangement": "Singapore work location supported; office attendance/hybrid cadence unspecified. No India remote arrangement or relocation assumption.",
+      "engagement_type": "Employment type/duration not stated on readable exact role. Do not infer full-time from title.",
+      "eligibility": "Singapore advertised; personal work authorization/sponsorship unconfirmed. Form asks SG citizen/PR/work-pass need and current pass. No retrieved absolute citizenship-only/no-sponsorship clause on this exact job. Hong Kong is alternative, not relocation assumed.",
+      "authorization_sponsorship": "Unknown on exact vacancy. Form asks SG pass need/current pass; not a sponsorship guarantee or portable-EP permission. Do not import priority wording from other OKX jobs as this role's stated restriction.",
+      "published_compensation": "No numeric salary/rate published. Competitive total compensation only; L&D, wellness/meal allowances and healthcare advertised. Guaranteed base, variable/equity and package amounts unknown.",
+      "sgd_comparison": "No applicable numeric pay to annualize/convert; no income uplift established. Meena SGD12000/month target remains screening reference only.",
+      "compensation_geography": "SG versus HK local band and global/location-adjusted policy unknown. India engagement not advertised; no foreign band applied.",
+      "fit": "Asset & Earn Team 2 builds Simple Earn, Flash Earn/Jumpstart, Loan and stablecoin-yield systems. High-availability Java/SpringBoot/SpringCloud microservices; subscription/allocation, yield distribution/settlement; Risk/Quant collaboration; concurrency/distributed systems, Kafka/Redis, Kubernetes, relational DB equivalent to MySQL, cloud Linux/support. Codex/Claude Code AI-assisted development mandatory. 3+ financial/related backend years requested.",
+      "preparation": "English AND Mandarin fluency is explicit; neither candidate Mandarin proficiency confirmed. At least one business-domain category required: hands-on earn/loan (interest/risk/liquidity), stablecoin yield/settlement, or token/subscription/quota allocation. Payments/reconciliation is transferable but does not establish any required category. Establish actual qualifying examples/transition flexibility, Spring Cloud, Redis/MySQL/Linux depth and on-call readiness. Anup coding-agent practice confirmed; establish Meena daily coding-agent proficiency separately from AI prototypes.",
+      "hours_on_call": "Production on-call and incident response explicitly required. Rota/frequency, nights/weekends, global overlap/timezone/DST, workload, pay/TOIL and escalation unknown.",
+      "terms": "Employment type/entity, duration/permanence, benefits eligibility, base/variable/equity, leave, probation, notice and on-call terms unknown. No contractor rate/billable volume assumed.",
+      "upside": "Conditional career-growth candidate (assessment): ownership of yield settlement, high-concurrency subscription/allocation and lending services. Compensation to establish; explicit language/domain requirements warrant screening before lengthy assessment.",
+      "questions": "Is fluent Mandarin non-negotiable, and what assessment level is expected? Which required earn/loan, stablecoin-yield or subscription/allocation experience would count; can adjacent regulated payments/reconciliation qualify? Role grade/design ownership and guaranteed SG base near Meena target? New SG pass support, office cadence, employment type/entity, package split, on-call frequency/pay/TOIL, global hours/DST and notice?",
+      "verification": "20 October 2026: current official board and exact req7749091003 opened. Full body and form with CV, education, SG status/pass need, languages, notice and trading/crypto questions plus Submit visible. No inputs filled, application sent or contact made.",
+      "evidence_urls": [
+        "https://job-boards.greenhouse.io/okx/jobs/7749091003",
+        "https://job-boards.greenhouse.io/okx?error=true"
+      ],
+      "deduplication_note": "No req7749091003, Asset & Earn Team 2 or substantially identical Earn/Flash/Jumpstart/Loan description in 186 shared jobs/history or three available runtime/application exports. Distinct from Pay Smart Account settlement/refunds, Web3 Wallet transactions and general Java/AI platform architecture. Do not duplicate HK-only variant without evidence of a separate team/project. Historical coverage incomplete.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert not yet delivered; reconcile only after actual final."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Senior Java/backend payments and AI-assisted engineering",
+          "tailoring": "Use Anup's Java/payments and AI-assisted engineering resume. Foreground actual Great Eastern regulated payment/reconciliation delivery, secure API/transaction consistency, Kafka, SQL, Kubernetes and production diagnosis. Describe genuine Codex/Claude Code context/tests/review practice. State language and earn/loan/yield/allocation experience accurately; do not relabel payments as yield product delivery. Screen requirements before long assessment.",
+          "fit_and_preparation": "Close Java/integration/security/platform transfer and confirmed coding-agent use. Mandatory Mandarin and qualifying product-domain experience unconfirmed; exploratory priority only, not claimed fully eligible.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on lead Java/backend, event-driven cloud reliability",
+          "tailoring": "Use Meena's lead backend/cloud resume. Emphasize Java21/SpringBoot3, Kafka/Streams, AWS/EKS, SQL, technical reviews, incident reasoning and mentoring. Establish actual coding-agent proficiency and transaction/interest-risk design examples separately from prototypes. Do not invent Mandarin, production yield/loan delivery or AI-agent work. Screen required language/domain, leadership scope and target-level SG base.",
+          "fit_and_preparation": "Strong Java/cloud/event-driven transfer, with coding-agent/language/product-domain requirements to establish. Lower exploratory priority until constraints and scope/pay clarified.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "yipitdata-erp-backend-senior-staff-track",
+      "employer": "YipitData",
+      "title": "Sr. Backend Engineer / Senior Staff Software Engineer, overlapping ERP infrastructure track",
+      "requisition": "7791555; overlapping8138937, grade/headcount distinction unresolved",
+      "canonical_url": "https://job-boards.greenhouse.io/yipitdata/jobs/7791555",
+      "url": "https://job-boards.greenhouse.io/yipitdata/jobs/7791555",
+      "url_aliases": [
+        "https://job-boards.greenhouse.io/yipitdata/jobs/8138937"
+      ],
+      "last_checked": "2026-10-20",
+      "import_source": "Recovered actual 12 October Anup YipitData application-answer artifact and fresh official role checks 20 October 2026",
+      "posted": "Original employer posting dates unknown.",
+      "status_at_last_check": "Both official descriptions and application forms live on 20 October; no application submission inferred.",
+      "location": "India remote",
+      "arrangement": "Fully remote BASED IN INDIA; not Singapore remote. Do not assume relocation for Meena. Anup earlier specific willingness recorded in historical artifact, not completed move.",
+      "engagement_type": "Remote employment advertised; precise contractual type/entity/duration to confirm.",
+      "eligibility": "India-based remote is explicit. Working from SG not advertised. Confirm India residence/payroll and actual authorization. Anup previously expressed willingness to work from India for this employer; no current Indian address inferred; Meena relocation willingness unknown.",
+      "published_compensation": "No numeric compensation on either exact official role. Form asks minimum required annual INR salary; this is applicant input, not employer pay.",
+      "sgd_comparison": "No employer numeric band for conversion or current package comparison. No generic US salary estimates imported.",
+      "verification": "20 October 2026: opened exact official7791555 and8138937 full descriptions and forms. Both current requirements accept Python/Golang/Java with Python most preferred, correcting older preparation artifact's Go/Python-only assessment. Distinct titles/experience thresholds but substantial ERP connector/storage/backend/API/governance/global-team wording overlap; conservatively one known project track pending employer clarification.",
+      "fit": "7791555 includes Infrastructure ERP connectors/APIs/storage and Data Feeds pipelines/governance; 10+ years requested.8138937 Senior Staff (offering title Director of Eng) repeats ERP/API/governance and adds high-volume IMAP/SMTP email processing, 12+ years and mentoring20%. Java accepted, Python preferred. Kafka/queues/SQL/Redis, distributed systems, strict latency/availability and cloud/Kubernetes relevant.",
+      "preparation": "Do not inflate8+/9+ years or institution tier. Establish scale/reliability ownership, data-platform architecture, Python/Go and IMAP/SMTP/rate-limits/provider constraints; no invented ERP connector production delivery or99.99% availability metrics. Higher title not proof of distinct project/new role or pay.",
+      "authorization_sponsorship": "India employment/authorization and sponsor arrangements unknown. SG remote not offered.",
+      "hours_on_call": "Standard8am-5pm IST explicitly,10:30am-7:30pm Singapore equivalent; flexibility for US/SG/China collaboration and24/7 services. Actual on-call/extra-hours/DST/pay unknown.",
+      "terms": "Vacation/parental leave/learning reimbursement described; amounts, base/bonus/equity, entity, notice/duration/benefits applicability unknown.",
+      "questions": "Do7791555 and8138937 cover same ERP infrastructure team or separate funded headcounts, and is senior-staff/director hands-on or management? Experience-level flexibility, India residence/payroll/work rights, applicable guaranteed INR base and benefits, on-call/global overlap, email-system expectations, notice and team management scope?",
+      "deduplication_note": "12 October Library artifact Anup_YipitData_Application_Answers_India_Go_2026.txt explicitly identifies7791555 and ERP infrastructure target. Already discussed/prepared for user, so imported historically_reported despite missing original alert timestamp.8138937 substantially copies ERP/data/API scope, consolidated, NOT new alert merely new grade/req. No applications inferred from artifact. Existing shared ledger lacked YipitData; runtime exports also no exact matches.",
+      "report_history": {
+        "already_reported": true,
+        "first_reported_date": null,
+        "note": "Recovered historical user-visible YipitData preparation dated12Oct2026; original alert timestamp unavailable. Never re-alert as new; higher-title req conservatively grouped pending project clarification."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Existing YipitData India backend/infrastructure resume; update Java acceptance truthfully",
+          "tailoring": "Earlier12Oct prepared artifact exists; preserve as prior work, not an application. Emphasize real EBX/MDM, secure connectors/APIs, data quality and distributed reliability. Java is now explicitly accepted; Go remains limited, Python preference to prepare. Do not invent ERP scale/availability or current India residence.",
+          "fit_and_preparation": "Known opportunity, not new. India-specific willingness previously expressed for Anup; re-confirm terms/grade before action.10+/12+ scopes to calibrate honestly.",
+          "application_status": "Application answers/resume prepared12Oct; no verified submission/approval imported"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Lead/backend event-driven cloud and data-platform transfer",
+          "tailoring": "Known shared project track, no new alert. Emphasize Kafka/Streams/KEDA, AWS/EKS, SQL, system-design decisions and mentoring. Establish data pipelines/email and large-scale reliability evidence, Python transition and exact authority; no relocation willingness or12years inferred.",
+          "fit_and_preparation": "Adjacent ambitious backend/staff scope. India-based-only arrangement and personal willingness/rights unresolved; not eligible SG-remote claim.",
+          "application_status": "No application or approval inferred"
+        }
+      }
     }
   ]
 }
