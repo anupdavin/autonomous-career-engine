@@ -2308,3 +2308,15 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Questions: SG or India employee/EOR/international B2B allowed? Client identity/duplicate project? Java-to-Node transfer acceptable given truthful Node years? Exact working overlap/DST/on-call? Pay range/currency/global versus local bands? Hours/duration/leave/notice/cancellation/payment/fees?
 - Verification: 20Oct2026 exact official Kake role live with full description, CV/location fields, role-specific questions and Apply Now button, no closed marker. Final server acceptance not tested; no submission. Generic TS/Python/C#747b5a144a7d opened separately but conflicting C#/.NET/Node screening and PST overlap held, not substituted for this job.
 
+
+### Tinvio: Senior Software Engineer - Java
+
+- [Actual job page](https://jobs.smartrecruiters.com/Tinvio/743999830616504-senior-software-engineer-java)
+- Priority: 1. Promising eligibility-unconfirmed lead, not confirmed Singapore or India eligible.
+- Pay: No numeric pay or currency published. No SGD comparison or income claim.
+- Fit: Java/Spring Boot, PostgreSQL, Redis/NoSQL, Kafka or queues, AWS/GCP and event-driven microservices for order, credit and payment domains. Hands-on design, production troubleshooting and secure API delivery strongly match.
+- Resume: Use Anup Java backend / payments resume. Lead Spring Boot, Kafka, SQL, Kubernetes, OAuth2/mTLS, secure APIs, Great Eastern payments and observability. Keep all metrics and outcomes verifiable.
+- Prepare: Payment/order or credit API architecture, event failure handling, fraud tolerance, database design and incident examples.
+- Questions: Can Tinvio employ or contract a Singapore or India candidate via EOR/B2B? Team location, office cadence, timezone/on-call? Salary currency/range/local band, entity/sponsorship, benefits/leave/notice and payment terms?
+- Verification: 20Oct2026 exact official page live, Full-time, application entry point and full description visible; no closed marker. Location, work arrangement, authorization and compensation omitted. No application/contact.
+
