@@ -1911,7 +1911,7 @@ Posted: Not stated on employer-branded listing. Jobera first-seen September25 is
 
 Deduplication: No NTT exact requisition/GFM settlement description found in 176 shared jobs/history and three available runtime/application exports. Compared prior Luxoft full-stack/Java trading/payment variants; no substantially identical description established. End client undisclosed, so require project confirmation before multiple supplier applications. Generic same-body NTT Singapore mirror salary is not mapped to exact requisition and is not imported as employer pay.
 
-## AI engineering platform opportunity: pending ChatGPT delivery
+## AI engineering platform opportunity: delivered 20 October 2026
 
 ### OKX: Senior/Staff Engineer, AI Agent Development
 
@@ -1940,3 +1940,33 @@ Questions: Does OKX consider applicants requiring a new Singapore work pass desp
 Verification: 20October2026: complete official exact role accessible with Apply and full blank applicant fields including location, work eligibility, now/future sponsorship, notice, languages, CV and Submit. No closed marker. No fields filled, application sent, account created or contact made.
 
 Deduplication: No exact7699598003 or AI Agent engineering-platform track in178shared jobs/events or three read-only runtime/application exports. Distinct from prior OKX Application Architect7766838003(stability/JVM),PaySmartAccount7596531003(paymentsettlement)andWeb3Wallet7821268003(walletbackend). Historical coverage incomplete. Camunda runtime record pay defaults not imported. Other candidates excluded from new shortlist when closed/country blocked, including Watu Europe,Teamworks US,Agoda explicit no sponsorship and CloudLinux B73EAD4735 redirectednot_found.
+
+## Gemini full-stack product opportunity: pending ChatGPT delivery
+
+### Gemini: Senior Software Engineer, Invest / Trade (Full Stack, React)
+
+[Official application](https://job-boards.greenhouse.io/gemini/jobs/8164166)
+
+Checked: 2026-10-20. Posted: Original date unstated on official listing. Mirrors/crawl dates are not employer posting dates.
+
+Location/type: Hybrid explicit: office part of each week, exact days unstated. All employees must onboard in-person at office. No India remote or relocation assumption. Matching Jobstore labels Full-time. Official description/form does not explicitly state employment type or permanent/fixed-term duration; confirm employer terms.
+
+Eligibility: Singapore work location supported; personal authorization and sponsorship unknown. Application asks Singapore rights and now/future sponsorship, not a promise of sponsorship. Existing EP is not transferable authorization. Not advertised as global or India remote.
+
+Pay: No numeric employer pay published on exact official page. New-hire equity grant separately advertised, with no amount; not guaranteed cash. Matching Jobstore shows SGD7500-10000 per month but explicitly labels it Estimated for reference, so excluded as published employer salary; no Glassdoor or unrelated US band substituted. No applicable numeric employer salary to annualize or convert. No uplift established against unknown current packages. Meena SGD12000/month target remains an early budget-screening reference only.
+
+Fit: React/TypeScript-first full-stack investment/trading product ownership, technical design through release/monitoring, frontend architecture/reusable components, accessibility/performance/security, reviews/mentoring and accountable AI development-tool use. Backend actual stack Scala/Go onAWS with ReactNative contributions. Preferred backend Scala/Go/Java/Kotlin, AWS/Docker/Kubernetes/Terraform/CI-CD, REST/Kafka/distributed systems and regulated payments experience.
+
+Prepare: Framework/language transition opportunity, not Java-only role. Strong production React and frontend architecture/accessibility/testing are explicit essential requirements; neither candidate's React depth established by modern Angular alone. Establish ReactNative and Scala/Go readiness; Anup limitedGo is not seniorGo proficiency. Prepare React state/render/performance/test/accessibility examples and an API/error/recovery design. Java backend is preferred qualification, not proof of Java production stack. Coding-tool use is engineering accountability, not ML research or mandatory prior AI product.
+
+Resume: Use Anup's full-stack/payments and AI-assisted engineering resume. Highlight verified Angular/TypeScript component/API ownership, NTTDATA/GreatEastern payment delivery, secureAPI/OAuth2/mTLS, cloud/CI-CD and production diagnosis. Show a genuine frontend performance/test example and accountable coding-agent verification. Add actual React evidence if available, otherwise prepare an original demonstrator; describe Go as limited and do not invent Scala/ReactNative delivery.
+
+Assessment: Transferable TypeScript/full-stack/payments and production reliability, but React-first plus Scala/Go transition substantial. Screen transition flexibility and budget before long assessment. Career-growth candidate (assessment): direct product employer, regulated financial product, feature/frontend architecture and mentoring ownership plus hybrid arrangement. Compensation to establish. Not proven income improvement; screen scope versus current lead role.
+
+Hours/terms: Hybrid weekly office attendance and in-person onboarding explicit. Corehours, international overlap/DST, on-call rota, nights/weekends and compensation/time-off unknown; release/monitoring/reliability ownership explicit. Employee-style health coverage100% for employees/dependants, paid parental leave/PTO and new-hire equity advertised without cash valuation. Confirm employment type, benefits eligibility, leave amounts, base/bonus/equity split, probation/notice and any operational coverage. No B2B/duration/foreign-currency billing advertised.
+
+Questions: Will strong Angular/TypeScript engineers with demonstrable React readiness qualify against React-first requirement? What React depth is expected immediately, and ramp-up for ReactNative/Scala/Go? Confirm full-time/permanent versus fixed-term, funded grade/design authority, SGsponsorship, guaranteedSGDbase and separate bonus/equity, office days/onboarding/corehours/DST/oncall/TOIL, notice/probation and benefits. Screen Meena's SGD12000monthly target early; do not anchor on thirdparty estimates.
+
+Verification: 20October2026: official exact full description plus blank CV/contact, Singapore work-rights/sponsorship, education/background-check consent and Submit application visible, no closed marker. No forms filled/submitted or employer contacted. Matching Jobstore same role/body/hybrid policy inspected; pay expressly estimated, not imported.
+
+Deduplication: No Gemini employer/exact8164166 or matching investment/trading frontend description in179shared jobs/history and three read-only runtime/application exports. Prior Grab PartnerApps/Support Experience are different employer/product tracks, not copies. Substantially matching Jobstore consolidated as alias. Historical coverage incomplete.
