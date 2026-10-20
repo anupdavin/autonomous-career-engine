@@ -6251,8 +6251,8 @@
       "job_id": "evooq-744000141677332",
       "employer": "Evooq",
       "title": "Senior Full Stack Engineer",
-      "url": "https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-",
-      "requisition": "744000141677332",
+      "url": "https://jobs.smartrecruiters.com/Evooq/744000146885729-senior-full-stack-engineer-",
+      "requisition": "744000146885729",
       "location": "Singapore",
       "arrangement": "Hybrid; up to 2 remote days/week; flexible hours",
       "eligibility": "Singapore location confirmed; sponsorship and personal authorization unknown. India remote not advertised.",
@@ -6260,7 +6260,7 @@
       "fit": "Frontend-focused wealth-management product ownership; Vue 3 accepts Angular/React background. Java/Kotlin Spring Boot APIs, PostgreSQL/MySQL, Keycloak/JWT, AWS, Docker and CI/CD.",
       "preparation": "Vue 3/Vite, Nomad and Flowable/BPMN are preparation points; establish frontend-heavy product interest and actual architecture authority.",
       "upside": "Career-growth candidate (assessment): autonomous frontend-to-database ownership and deployment strategy; compensation to establish",
-      "verification": "Official SmartRecruiters description reopened 18 October 2026; Singapore/full-time, hybrid up to 2 remote days, explicit Angular transferability and interested labels visible. No submission or functioning application workflow tested.",
+      "verification": "Official SmartRecruiters description reopened 20 October 2026 under refreshed requisition 744000146885729; same Singapore frontend-focused full-stack role, full-time, hybrid up to 2 remote days, Angular transferability and interested controls visible. Old requisition retained as alias; no new alert.",
       "questions": "Singapore work-pass sponsorship? Guaranteed base, separate bonus/equity and senior/lead leveling? Frontend/backend split, mentoring/design authority, office cadence, customer support/on-call and APJ/Europe overlap?",
       "hours_on_call": "Flexible hours advertised; exact core overlap, travel and on-call unstated",
       "terms": "Full-time; employment entity, benefits, leave, probation and notice unknown",
@@ -6268,11 +6268,13 @@
       "meena_priority": 1,
       "anup_tailoring": "Use senior Java/Angular full-stack resume. Emphasize secure APIs, Spring Security, frontend-to-database troubleshooting, financial-services delivery and maintainable UI work. Prepare a truthful feature-ownership example and a small Vue 3 exercise; do not claim prior Vue delivery.",
       "meena_tailoring": "Use hands-on lead/full-stack resume. Emphasize Angular 18/NgRx/RxJS, Java 21/Spring Boot, authentication, CI/CD and full-lifecycle delivery decisions. Explain actual mentoring and UX/performance work using substantiated outcomes.",
-      "canonical_url": "https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-",
-      "url_aliases": [],
-      "last_checked": "2026-10-18",
-      "last_positive_verification": "2026-10-18",
-      "status_at_last_check": "Official live role description and apply/interested interface accessible; no submission",
+      "canonical_url": "https://jobs.smartrecruiters.com/Evooq/744000146885729-senior-full-stack-engineer-",
+      "url_aliases": [
+        "https://jobs.smartrecruiters.com/Evooq/744000141677332-senior-full-stack-engineer-"
+      ],
+      "last_checked": "2026-10-20",
+      "last_positive_verification": "2026-10-20",
+      "status_at_last_check": "Official live role description and application/interested interface accessible under refreshed requisition; no submission",
       "freshly_verified_during_import": true,
       "import_source": "Fresh official employer/ATS page on 18 October 2026; shared ledger and available runtime exports/draft paths compared",
       "published_compensation": "Not published on official role page",
@@ -11385,6 +11387,234 @@
           "tailoring": "Use Meena's hands-on lead Java/cloud resume. Lead with Java 21/Spring Boot 3, Kafka/Streams, AWS ECS/EKS, Kubernetes/Helm, Redis/PostgreSQL, DevSecOps, observability, technical leadership and fintech/enterprise delivery. State only verified outcomes and decision authority.",
           "fit_and_preparation": "Strong event-driven platform, AWS/Kubernetes, Java/Spring and leadership fit. Prepare B2B transaction and fraud-tolerance examples; establish location, compensation and role coding share.",
           "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "payforge-senior-java-payments-himalayas",
+      "employer": "Payforge",
+      "title": "Senior Java Engineer (Payments)",
+      "url": "https://himalayas.app/companies/payforge/jobs/senior-java-engineer-payments",
+      "requisition": null,
+      "location": "Worldwide remote",
+      "arrangement": "Fully remote; open to candidates from all countries; worldwide hiring timezones",
+      "eligibility": "Confirmed worldwide remote on current public listing, including Singapore and India in principle. Employment entity, EOR/B2B mechanism, local benefits and personal authorization remain unknown.",
+      "engagement_type": "Full-time",
+      "fit": "Exceptionally close fit: Java 21/25, Spring Boot 4, Kafka, payments, secure APIs, AWS, Kubernetes, Helm, Terraform, observability, mentoring and daily AI-assisted engineering with explicit human verification.",
+      "preparation": "Prepare concrete payment lifecycle, idempotency, reconciliation and incident examples. Java 25/Spring Boot 4, Testcontainers, exact Kafka delivery semantics, ISO 20022/8583, EMV and HSM depth are interview preparation points where not already demonstrated.",
+      "upside": "Income-growth candidate subject to compensation and engagement terms; career-growth candidate for hands-on payments technical ownership",
+      "verification": "Public employer-branded Himalayas listing reopened 20Oct2026; active Apply now control, posted 17Oct2026, apply-before 16Dec2026, full-time, open to all countries and worldwide timezones shown. Application redirects to free Himalayas talent signup; no submission/contact.",
+      "questions": "Can Payforge employ in Singapore and India, use EOR or offer B2B? Base currency/range, global or location-adjusted band, bonus/equity? Core hours, client timezones, travel/on-call? Leave, benefits, probation, notice, payment schedule and contractor expenses if B2B?",
+      "hours_on_call": "Worldwide timezones advertised; exact core overlap, client hours, travel and on-call unknown",
+      "terms": "Full-time; employment entity/EOR/B2B option, benefits, leave, probation, notice and payment schedule unknown",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "anup_tailoring": "Use Anup payments/backend resume. Lead Great Eastern payments, Java/Spring Boot, Kafka, AWS/Azure, Kubernetes/Helm, OAuth2/mTLS, observability, secure integrations and AI-assisted coding with verification. Keep outcomes and scale claims strictly verifiable.",
+      "meena_tailoring": "Use Meena hands-on lead/backend resume. Lead Java 21/Spring Boot, Kafka/Streams, AWS EKS/ECS, Kubernetes/Helm, Terraform, observability, mentoring, fintech work and AI-assisted engineering. Separate Spring AI/RAG/MCP prototypes from production claims.",
+      "canonical_url": "https://himalayas.app/companies/payforge/jobs/senior-java-engineer-payments",
+      "url_aliases": [
+        "https://kerjaanremote.com/jobs/himalayas-senior-java-engineer-payments-15r4bl/"
+      ],
+      "last_checked": "2026-10-20",
+      "last_positive_verification": "2026-10-20",
+      "status_at_last_check": "Active public listing with Apply now and future apply-before date; account signup required to reach application flow",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh public employer-branded Himalayas listing and discovery alias checked 20 October 2026",
+      "published_compensation": "Not published on current listing",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Global versus location-adjusted pay and Singapore/India bands unknown",
+      "authorization_sponsorship": "Worldwide applicant eligibility stated; employing mechanism and sponsorship unknown; never infer personal authorization",
+      "posted": "17 October 2026; apply before 16 December 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior payments/backend resume",
+          "tailoring": "Use Anup payments/backend resume. Lead Great Eastern payments, Java/Spring Boot, Kafka, AWS/Azure, Kubernetes/Helm, OAuth2/mTLS, observability, secure integrations and AI-assisted coding with verification. Keep outcomes and scale claims strictly verifiable.",
+          "fit_and_preparation": "Very strong payments/backend and AI-assisted engineering fit. Prepare Java 25/Spring Boot 4, Testcontainers, Kafka semantics and payment standards without claiming unconfirmed depth.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use hands-on lead/backend resume",
+          "tailoring": "Use Meena hands-on lead/backend resume. Lead Java 21/Spring Boot, Kafka/Streams, AWS EKS/ECS, Kubernetes/Helm, Terraform, observability, mentoring, fintech work and AI-assisted engineering. Separate Spring AI/RAG/MCP prototypes from production claims.",
+          "fit_and_preparation": "Very strong hands-on leadership, cloud-native and payments-adjacent fit. Prepare payment lifecycle and protocol depth plus Java 25/Spring Boot 4 without inventing experience.",
+          "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "addepto-senior-java-platform-modernization",
+      "employer": "Addepto",
+      "title": "Senior Java Developer (Platform Modernization)",
+      "url": "https://himalayas.app/companies/addepto/jobs/senior-java-developer-platform-modernization",
+      "requisition": null,
+      "location": "Worldwide remote",
+      "arrangement": "Remote or office/coworking; public listing says open to candidates from all countries and worldwide hiring timezones",
+      "eligibility": "Confirmed worldwide remote on current public listing, including Singapore and India in principle. Employment entity, EOR/B2B mechanism, local benefits and personal authorization remain unknown.",
+      "engagement_type": "Full-time",
+      "fit": "Exceptionally close modernization fit: Java/Spring Boot, Oracle to PostgreSQL, Azure/AKS, REST/OpenAPI, Kafka or Service Bus, Kubernetes, CI/CD, testing, observability and AI coding/agentic workflows in a small senior team.",
+      "preparation": "Prepare legacy-rule extraction, reconciliation and zero-downtime migration examples. PL/SQL depth, Flyway/Liquibase, Databricks, Azure Service Bus, Entra ID and Testcontainers are details to establish or prepare, not assumed gaps.",
+      "upside": "Career-growth candidate for hands-on cloud modernization and AI-augmented delivery; compensation to establish",
+      "verification": "Public employer-branded Himalayas listing reopened 20Oct2026; active Apply now control, posted 8Oct2026, apply-before 7Dec2026, full-time, open to all countries and worldwide timezones shown. Application redirects to free Himalayas talent signup; no submission/contact.",
+      "questions": "Can Addepto employ in Singapore and India, use EOR or offer B2B? Base currency/range and location adjustment? Core hours/client timezone, project duration, go-live/on-call? Leave, benefits, probation, notice and contractor payment/expense terms?",
+      "hours_on_call": "Worldwide timezones advertised; 24/7 production readiness is in scope, but exact rotation, core overlap and travel are unstated",
+      "terms": "Full-time; employment entity/EOR/B2B option, benefits, leave, probation, notice and payment schedule unknown",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "anup_tailoring": "Use Anup modernization/backend resume. Lead Oracle/PostgreSQL, Java/Spring Security, Azure AKS, Kubernetes/Helm, Kafka, secure APIs, observability and AI-assisted engineering. Frame TIBCO EBX as evidence of governed enterprise data and migration judgment where relevant.",
+      "meena_tailoring": "Use Meena hands-on lead/cloud-native resume. Lead Java 21/Spring Boot, Oracle/PostgreSQL, Kafka, AWS/Azure-transferable Kubernetes/Helm/Terraform, ArgoCD/Jenkins, observability and technical leadership. Present AI work truthfully as prototypes and coding workflow where applicable.",
+      "canonical_url": "https://himalayas.app/companies/addepto/jobs/senior-java-developer-platform-modernization",
+      "url_aliases": [
+        "https://kerjaanremote.com/jobs/himalayas-senior-java-developer-platform-modernization-9fpl84/"
+      ],
+      "last_checked": "2026-10-20",
+      "last_positive_verification": "2026-10-20",
+      "status_at_last_check": "Active public listing with Apply now and future apply-before date; account signup required to reach application flow",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh public employer-branded Himalayas listing and discovery alias checked 20 October 2026",
+      "published_compensation": "Not published on current listing",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Global versus location-adjusted pay and Singapore/India bands unknown",
+      "authorization_sponsorship": "Worldwide applicant eligibility stated; employing mechanism and sponsorship unknown; never infer personal authorization",
+      "posted": "8 October 2026; apply before 7 December 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use modernization/backend resume",
+          "tailoring": "Use Anup modernization/backend resume. Lead Oracle/PostgreSQL, Java/Spring Security, Azure AKS, Kubernetes/Helm, Kafka, secure APIs, observability and AI-assisted engineering. Frame TIBCO EBX as evidence of governed enterprise data and migration judgment where relevant.",
+          "fit_and_preparation": "Excellent enterprise modernization and Azure fit. Prepare PL/SQL, migration reconciliation, Testcontainers and Azure service specifics without overstating production depth.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use hands-on lead/cloud-native modernization resume",
+          "tailoring": "Use Meena hands-on lead/cloud-native resume. Lead Java 21/Spring Boot, Oracle/PostgreSQL, Kafka, AWS/Azure-transferable Kubernetes/Helm/Terraform, ArgoCD/Jenkins, observability and technical leadership. Present AI work truthfully as prototypes and coding workflow where applicable.",
+          "fit_and_preparation": "Excellent modernization, delivery ownership and cloud-native fit. Prepare Azure-specific services, Oracle migration and exact hands-on coding share.",
+          "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "mcpayment-lead-java-743999726906652",
+      "employer": "MCPayment",
+      "title": "Lead Java Developer (SG office)",
+      "url": "https://jobs.smartrecruiters.com/MCPayment/743999726906652-lead-java-developer-sg-office-",
+      "requisition": "743999726906652",
+      "location": "Singapore",
+      "arrangement": "Singapore office role; exact onsite/hybrid cadence not stated",
+      "eligibility": "Confirmed open only to candidates currently in Singapore. Sponsorship and personal work authorization are not stated. Not an India-remote role.",
+      "engagement_type": "Full-time",
+      "fit": "Strong Java 8/11, Spring Boot, API/network integration, SQL Server/MySQL, AWS and CI/CD match with hands-on team leadership, architecture, delivery quality and stakeholder work.",
+      "preparation": "Prepare team-planning, architecture decisions, delivery/security governance and distributed-team examples. Exact coding share, modern frontend relevance, people-management authority and PCI/payments depth should be established.",
+      "upside": "Career-growth candidate for hands-on technical leadership in payments; compensation to establish",
+      "verification": "Official SmartRecruiters page reopened 20Oct2026; full-time, interested/application entry point and complete description visible, with explicit current-Singapore-only condition. No closed marker, salary or posting date shown; no submission/contact.",
+      "questions": "Salary range, bonus/equity and benefits? Singapore employing entity and work-pass sponsorship? Office cadence, core hours/on-call/travel? Team size, coding percentage, line-management authority, current platform scale and modernization roadmap?",
+      "hours_on_call": "Distributed team mentioned; core hours, timezone overlap and on-call unknown",
+      "terms": "Full-time; benefits, leave, probation and notice unknown",
+      "anup_priority": 1,
+      "meena_priority": 1,
+      "anup_tailoring": "Use Anup senior Java/backend resume with a hands-on lead positioning. Lead Java 8/11/21, Spring Boot, APIs, SQL Server, AWS/Azure, CI/CD, security and Great Eastern payments. Describe any leadership scope precisely without inflating title or people-management history.",
+      "meena_tailoring": "Use Meena hands-on lead resume. Lead current technical/Scrum leadership, Java 21/Spring Boot, API and event-driven design, AWS, CI/CD, security, mentoring and fintech delivery. Quantify only verifiable team/delivery outcomes.",
+      "canonical_url": "https://jobs.smartrecruiters.com/MCPayment/743999726906652-lead-java-developer-sg-office-",
+      "url_aliases": [],
+      "last_checked": "2026-10-20",
+      "last_positive_verification": "2026-10-20",
+      "status_at_last_check": "Official listing active with application entry point and no closed marker",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh official MCPayment SmartRecruiters page checked 20 October 2026",
+      "published_compensation": "Not published on official role page",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Singapore local band unknown",
+      "authorization_sponsorship": "Candidate must currently be in Singapore; sponsorship unknown; never infer personal authorization",
+      "posted": "Not published on official page",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use senior Java/backend resume with hands-on lead positioning",
+          "tailoring": "Lead Java 8/11/21, Spring Boot, APIs, SQL Server, AWS/Azure, CI/CD, security and Great Eastern payments. Describe leadership scope precisely without inflating title or people-management history.",
+          "fit_and_preparation": "Strong backend/payments fit and credible lead stretch. Establish actual coding percentage, people authority, office cadence and sponsorship.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use hands-on lead resume",
+          "tailoring": "Lead current technical/Scrum leadership, Java 21/Spring Boot, API and event-driven design, AWS, CI/CD, security, mentoring and fintech delivery. Quantify only verifiable team/delivery outcomes.",
+          "fit_and_preparation": "Strong direct lead fit. Establish exact coding share, formal line management, office cadence and sponsorship.",
+          "application_status": "Not recorded; no submission/contact"
+        }
+      }
+    },
+    {
+      "job_id": "mcpayment-senior-java-743999727017538",
+      "employer": "MCPayment",
+      "title": "Senior Java Engineer",
+      "url": "https://jobs.smartrecruiters.com/MCPayment/743999727017538-senior-java-engineer",
+      "requisition": "743999727017538",
+      "location": "Singapore",
+      "arrangement": "Singapore role; exact onsite/hybrid cadence not stated",
+      "eligibility": "Confirmed open only to candidates currently in Singapore. Sponsorship and personal work authorization are not stated. Not an India-remote role.",
+      "engagement_type": "Full-time",
+      "fit": "Strong payments engineering match: Java 11, Spring Boot, high-load secure services, React, AWS, MySQL/MSSQL, Docker, Jenkins, network protocols and cryptography fundamentals.",
+      "preparation": "MyBatis, socket-level integration, PCI-DSS and React depth are preparation points. Establish senior scope, architecture influence, platform scale, incident expectations and whether the title/compensation supports career progression.",
+      "upside": "Career-growth candidate for Anup through direct payment-platform ownership; compensation to establish. Lower priority for Meena if scope is below current lead level.",
+      "verification": "Official SmartRecruiters page reopened 20Oct2026; full-time, interested/application entry point and complete description visible, with explicit current-Singapore-only condition. No closed marker, salary or posting date shown; no submission/contact.",
+      "questions": "Salary range, bonus/equity and benefits? Singapore employing entity and work-pass sponsorship? Office cadence, core hours/on-call? Senior ownership/mentoring expectations, React share, platform scale and PCI scope?",
+      "hours_on_call": "Distributed team is a plus; production troubleshooting expected, but core hours and on-call rotation unknown",
+      "terms": "Full-time; benefits, leave, probation and notice unknown",
+      "anup_priority": 1,
+      "meena_priority": 2,
+      "anup_tailoring": "Use Anup payments/backend resume. Lead Great Eastern payments, Java 11/21, Spring Boot, secure APIs, SQL Server, AWS/Azure, Docker/Kubernetes, Jenkins/CI/CD, OAuth2/mTLS and observability. Add Angular/full-stack evidence only where relevant to React transferability.",
+      "meena_tailoring": "Use Meena senior backend/full-stack resume only if the employer confirms lead-equivalent scope and pay. Lead Java 21/Spring Boot, fintech, AWS, Docker/Kubernetes, security, observability and mentoring; keep current lead scope prominent.",
+      "canonical_url": "https://jobs.smartrecruiters.com/MCPayment/743999727017538-senior-java-engineer",
+      "url_aliases": [],
+      "last_checked": "2026-10-20",
+      "last_positive_verification": "2026-10-20",
+      "status_at_last_check": "Official listing active with application entry point and no closed marker",
+      "freshly_verified_during_import": true,
+      "import_source": "Fresh official MCPayment SmartRecruiters page checked 20 October 2026",
+      "published_compensation": "Not published on official role page",
+      "sgd_comparison": "Unavailable: no employer-published applicable guaranteed pay",
+      "compensation_geography": "Singapore local band unknown",
+      "authorization_sponsorship": "Candidate must currently be in Singapore; sponsorship unknown; never infer personal authorization",
+      "posted": "Not published on official page",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Use payments/backend resume",
+          "tailoring": "Lead Great Eastern payments, Java 11/21, Spring Boot, secure APIs, SQL Server, AWS/Azure, Docker/Kubernetes, Jenkins/CI/CD, OAuth2/mTLS and observability. Add Angular/full-stack evidence only where relevant to React transferability.",
+          "fit_and_preparation": "Strong direct fit. Prepare MyBatis, PCI-DSS and React transferability; establish pay, senior scope and office cadence.",
+          "application_status": "Not recorded; no submission/contact"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Use senior backend/full-stack resume if lead-equivalent scope is confirmed",
+          "tailoring": "Lead Java 21/Spring Boot, fintech, AWS, Docker/Kubernetes, security, observability and mentoring; keep current lead scope prominent.",
+          "fit_and_preparation": "Technically strong but potentially down-level from current lead role. Confirm leveling, pay and decision authority before prioritizing.",
+          "application_status": "Not recorded; no submission/contact"
         }
       }
     }
