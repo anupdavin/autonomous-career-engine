@@ -11366,10 +11366,10 @@
       "priority_basis": "Strong technology and payments-domain overlap plus official direct access. Eligibility and compensation are material unresolved gates.",
       "deduplication_note": "Compared the current 195-job shared ledger, reported events and available runtime/application exports by employer, title, requisition and URL; no Tinvio match found.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "first_reported_date": null,
-        "note": "New worthwhile lead prepared for ChatGPT alert; do not mark delivered until the alert is actually sent."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual ChatGPT alert delivered 20 October 2026; reconciliation event added on 21 October 2026."
       },
       "assessments": {
         "anup": {
