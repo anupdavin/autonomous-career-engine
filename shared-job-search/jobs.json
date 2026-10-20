@@ -10450,9 +10450,10 @@
       "upside": "Career-growth candidate (assessment): direct product employer, regulated financial product, feature/frontend architecture and mentoring ownership plus hybrid arrangement. Compensation to establish. Not proven income improvement; screen scope versus current lead role.",
       "deduplication_note": "No Gemini employer/exact8164166 or matching investment/trading frontend description in179shared jobs/history and three read-only runtime/application exports. Prior Grab PartnerApps/Support Experience are different employer/product tracks, not copies. Substantially matching Jobstore consolidated as alias. Historical coverage incomplete.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert not yet delivered; reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and supplied external-work conversation confirm delivery; exact time unknown.",
+        "first_reported_date": "2026-10-20"
       },
       "assessments": {
         "anup": {
@@ -10467,6 +10468,120 @@
           "resume_emphasis": "Hands-on lead/full-stack cloud and regulated product delivery",
           "tailoring": "Use Meena's lead/full-stack cloud-native resume. Emphasize verified Angular18/NgRx/RxJS, enterprise feature ownership, Kafka/AWS, secure delivery, technical reviews and mentoring. Prepare React-specific rendering/state/accessibility/testing and a real architecture tradeoff; do not claim ReactNative/Scala/Go production tenure or daily AIcoding-agent use from AIintegration prototypes. Establish senior grade/authority and budget near target.",
           "fit_and_preparation": "Strong TypeScript, leadership, event-driven/cloud and enterprise-delivery transfer; explicit React proficiency must be established. Career scope/budget calibration important versus current lead role.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-20",
+      "published_compensation": "No numeric salary or rate published on exact employer source or matching description. Base, bonus/equity breakdown unknown; no estimates or unrelated role bands substituted.",
+      "sgd_comparison": "No applicable numeric published compensation to annualize or convert. No current-package uplift established. Meena SGD12000/month target is budget-screening reference only.",
+      "compensation_geography": "Singapore local offer unknown. Global versus location-adjusted policy and India engagement terms not established; no India remote advertised.",
+      "eligibility": "Singapore work location supported; personal authorization and sponsorship unknown. No overseas remote or relocation entitlement inferred. Existing EP does not establish permission to change employer.",
+      "authorization_sponsorship": "Unknown; no citizenship-only/no-sponsorship clause retrieved. New Singapore work-pass support must be confirmed, not inferred from current employment.",
+      "upside": "Career-growth candidate (assessment), compensation to establish. No income improvement promised.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert not yet delivered; reconcile only after actual ChatGPT final."
+      },
+      "job_id": "grab-grabx-experimentation-151585180",
+      "employer": "Grab",
+      "title": "Senior Software Engineer, GrabX Experimentation Platform",
+      "requisition": "744000151585180",
+      "url": "https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/",
+      "canonical_url": "https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/",
+      "url_aliases": [
+        "https://jobs.smartrecruiters.com/Grab/744000151585180",
+        "https://jobs.smartrecruiters.com/oneclick-ui/company/Grab/publication/eec86285-f7ec-451f-ba1f-caaa69944f18?dcr_ci=Grab"
+      ],
+      "import_source": "Official exact Grab careers and SmartRecruiters descriptions plus current ApplyNow destination reopened20October2026 Singaporedate",
+      "posted": "Original posting date not stated on official descriptions/application shell. Crawl dates not original posting dates.",
+      "location": "Singapore; application shell specifies Grab One North",
+      "arrangement": "Singapore work location; exact onsite/hybrid attendance not stated on this role. Do not import five-day clause from another Grab opening. FlexWork benefits do not establish overseas remote permission.",
+      "engagement_type": "Full-time explicitly. Permanent versus fixed-term unknown.",
+      "verification": "20October2026: exact official Grab and SmartRecruiters descriptions accessible, current ApplyNow follows oneclick publicationeec86285-f7ec-451f-ba1f-caaa69944f18 matching SeniorSoftwareEngineer/GrabOneNorthSG. Final applicant fields require JavaScript and are not verified. No closedmarker, no application/contact.",
+      "evidence_urls": [
+        "https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/",
+        "https://jobs.smartrecruiters.com/Grab/744000151585180",
+        "https://jobs.smartrecruiters.com/oneclick-ui/company/Grab/publication/eec86285-f7ec-451f-ba1f-caaa69944f18?dcr_ci=Grab"
+      ],
+      "fit": "GrabX centralized product configuration and experimentation platform, decoupling behavior/rollouts from deployments. Distributed systems and APIs, performance/observability/reliability/security, technical design/reviews and mentoring, product/instrumentation decisions. Five-plus production years. Java accepted alongside Go and employer's exact wording Sparks; not a React- or Go-only role. Fintech/authentication, relational databases, microservices/containerization preferred.",
+      "preparation": "Establish production scale and experimentation/instrumentation experience with real examples, not invented A/B ownership. Prepare safe configuration rollout, consistency/cache/stale reads, failure/default behavior, experiment assignment/measurement and rollback; clarify actual backend stack and odd Sparks wording. Both candidates' Java/API/cloud/security experience transfers; no need to infer Go proficiency.",
+      "hours_on_call": "On-call rotations and incident response/resolution explicitly required. Rota frequency, nights/weekends, pay/TOIL, corehours and cross-region overlap/DST unknown.",
+      "terms": "Full-time employee-style insurance/GrabFlex and leave advertised without valuation. Confirm SGentity, base/bonus/equity, permanent/fixedterm, attendance, leave, probation/notice and compensated oncall. No B2B model advertised.",
+      "questions": "Confirm funded GrabX requisition/current application workflow, Singapore sponsorship, applicable guaranteed base/period and variable/equity, senior/lead decision authority, actual Java stack and Sparks wording, experimentation depth expected, attendance/corehours/DST and oncall rota/pay/TOIL/notice. Meena targetSGD12000monthly within budget?",
+      "deduplication_note": "No GrabX/151585180 or matching experimentation/central product-configuration platform in180shared jobs/history or three runtime/application exports. Different from GrabPartnerApps developer portal/webview bridge/onboarding153718020, SupportExperienceHelpCentre143221939 and LeadFlink platform. Shared genericresponsibilities not treated as duplicate when explicit distinct product/team. Full historical coverage not claimed.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend secure integrations and cloud platform",
+          "tailoring": "Use Anup's Java/backend-platform resume. Lead verified Java/Spring, secure APIs/OAuth2/mTLS, Kafka/SQL, Kubernetes/AWS/Azure and production diagnosis. Highlight a genuine rollout/configuration or reliability decision and measurable outcome only if verified. Prepare configuration failure/recovery and instrumentation tradeoffs; do not invent experimentation-platform ownership.",
+          "fit_and_preparation": "Strong Java/security/API/platform transfer; experimentation domain and operating scale to establish. Oncall/economics should be screened.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/backend event-driven cloud platform",
+          "tailoring": "Use Meena's lead/backend/cloud-native resume. Emphasize genuine Java21/SpringBoot3, Kafka/Streams, Redis/PostgreSQL, AWS/Kubernetes, observability, architecture reviews and mentoring. Prepare one system-design/incident tradeoff and safe rollout example. Confirm seniorgrade decision authority and budget relative to current lead remit.",
+          "fit_and_preparation": "Strong leadership/distributed cloud reliability fit; prepare product experimentation/instrumentation specifics without assuming existing A/B platform experience.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "last_checked": "2026-10-20",
+      "published_compensation": "No numeric salary or rate published on exact employer source or matching description. Base, bonus/equity breakdown unknown; no estimates or unrelated role bands substituted.",
+      "sgd_comparison": "No applicable numeric published compensation to annualize or convert. No current-package uplift established. Meena SGD12000/month target is budget-screening reference only.",
+      "compensation_geography": "Singapore local offer unknown. Global versus location-adjusted policy and India engagement terms not established; no India remote advertised.",
+      "eligibility": "Singapore work location supported; personal authorization and sponsorship unknown. No overseas remote or relocation entitlement inferred. Existing EP does not establish permission to change employer.",
+      "authorization_sponsorship": "Unknown; no citizenship-only/no-sponsorship clause retrieved. New Singapore work-pass support must be confirmed, not inferred from current employment.",
+      "upside": "Career-growth candidate (assessment), compensation to establish. No income improvement promised.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert not yet delivered; reconcile only after actual ChatGPT final."
+      },
+      "job_id": "visa-cloud-automation-REF088636W",
+      "employer": "Visa",
+      "title": "Sr SW Engineer, Cloud Platform Automation and Services",
+      "requisition": "REF088636W",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Sr-SW-Engineer_REF088636W",
+      "canonical_url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Sr-SW-Engineer_REF088636W",
+      "url_aliases": [
+        "https://www.themuse.com/jobs/visa/sr-sw-engineer-839095",
+        "https://simplify.jobs/p/66b625bb-eca5-43d8-86f7-30569d7010f3/Senior-Software-Engineer"
+      ],
+      "import_source": "Official Workday exact role reopened20October2026 but blank extraction; search-indexed official full text plus matching TheMuse and Simplify complete descriptions checked20October2026 Singaporedate",
+      "posted": "TheMuse exactREF088636W metadata shows2026-09-25T18:29:12, thirdparty date not verified employer-original. Official search-index saysPosted23DaysAgo; do not convert relative/cached date into confirmedoriginal.",
+      "location": "SG - Singapore",
+      "arrangement": "Hybrid, at least3 office days explicitly in indexed official and exact matching TheMuse. Hiringmanager confirms schedule. No India/globalremote advertised.",
+      "engagement_type": "Full time in official indexed Workday exactreq and TheMuse. Permanent versus fixed-term unknown.",
+      "verification": "20October2026: actual official Workday URL reachable but returns blank extraction; direct form and live employer intake not fully verified. Official search-index returns exactreq,SG,fulltime,complete description with no closure. Exactreq TheMuse complete body and ApplyOnCompanySite and Simplify matching body visible. Label partially verified lead; confirm fundedintake before longassessment. No application/contact.",
+      "evidence_urls": [
+        "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Sr-SW-Engineer_REF088636W",
+        "https://www.themuse.com/jobs/visa/sr-sw-engineer-839095",
+        "https://simplify.jobs/p/66b625bb-eca5-43d8-86f7-30569d7010f3/Senior-Software-Engineer"
+      ],
+      "fit": "CloudPlatform provisioning/configuration/security/operations automation across large systemfleets, plus user-facing fullstack APIs/microservices. End-to-end design/testing/signoff, GenAI-assisted coding/review/tests/docs and development of autonomous agents/workflow orchestration. PreferredJava/J2EE2+yearsSpringBootRESTmicroservicesAngularorReact,CI-CDLinuxWindows and infrastructure fundamentals; Ansible/Terraform advantage, financialservices plus.",
+      "preparation": "AI/platform application-delivery stretch, not MLresearch. Establish scripting/fleet configuration-management depth and actual agent implementation; codingassistant use not proof of built autonomousagents. Prepare repeatable/idempotent automation, safe blast-radius/rollback/secrets/permissions, Unix/Linux/Windows/network/loadbalancer fundamentals and tests. Qualification2+ is preferred minimum, not proof of juniorgrade; assess actuallevel/pay/ownership rather than assume.",
+      "hours_on_call": "At least3 office days. Productionready automation/support expected; corehours, globaloverlap/DST,oncall,nights/weekends and incidentcompensation/timeoff not specified.",
+      "terms": "Fulltime, exact local benefits/leave/base/bonus/equity/probation/notice and permanent/fixedterm unknown. Do not substitute TheMuse global/USbenefit menu as guaranteedSingaporebenefits. No B2B advertised.",
+      "questions": "IsREF088636W active/funded and correctworkingapplication? NewSingaporepass support? Grade, designauthority, platformautomationvsfullstack split, requiredfleet/scripting/Ansibledepth and actualagentdelivery expectations? ApplicableSGDguaranteedbase/period and separatevariable/equity,3dayoffice schedule,corehours/DST,oncall/TOIL,leave/probation/notice; MeenaSGD12000monthlytargetwithinbudget?",
+      "deduplication_note": "NoREF088636W/CloudPlatformprovisioning/configuration automation in180sharedjobs/history and3runtime/applicationexports. PriorVisaREF082409W isMiddlewarePRE reliability/deployvalidation/observability for middleware, not same team/project description. Both have genericplatform/AIoverlap; internal team/reqrelation toconfirm if recruiter suggests sharedtrack. No newalert based onlyonrenamedtitle orrefresh.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java/Angular full-stack platform automation and AI-assisted engineering",
+          "tailoring": "Use Anup's Java/Angular-platform and AI-assisted engineering resume. Highlight verified enterprise secureAPI, deployment/CI-CD, Kubernetes/AKS/Rancher, Linux/JVM diagnosis and actual codingagentcontext/test/review practices. Show a genuine automation/configuration example with tests and rollback. Keep agent implementation separate from assistantuse; don't invent Ansiblefleetmanagement or productionagent history.",
+          "fit_and_preparation": "Strong JavaAngular/codingagent/securitydelivery transfer; platformfleet scripting and agentimplementation scope to establish. Partialverification and grade/pay screening required.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on full-stack/cloud lead with IaC and AI integration",
+          "tailoring": "Use Meena's lead/full-stack/cloud-native resume. Foreground Java21Angular18,AWS/EKS,Terraform/ArgoCD/Jenkins/GitHubActions,DevSecOps and verifiable deliveryownership. Explain SpringAI/RAG/MCP/ClaudeAPI asprototypes; establish actual codingagent deliverypractices. Prepare testedidempotent provisioning/configuration design, safeagenttools/permissions and crosslayerdiagnosis. Screen grade/authority/pay versus currentleadrole.",
+          "fit_and_preparation": "Strong cloud/IaC/fullstacklead transfer; establishfleetautomation and agentdelivery evidence. Preferred2+ minimumdoesn'testablishlevelorcompensation, screen early.",
           "application_status": "Not applied or approved"
         }
       }
