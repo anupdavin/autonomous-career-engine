@@ -391,7 +391,21 @@
           "application_status": "Not recorded; do not infer applied or approved"
         }
       },
-      "url_aliases": []
+      "url_aliases": [
+        "https://www.mycareersfuture.gov.sg/job/lead-java-developer-finsurge-fbd75c9ccd1d9373b2c5b0bcd0036e59"
+      ],
+      "verification_history": [
+        {
+          "checked": "2026-10-20",
+          "url": "https://career.luxoft.com/jobs/senior-java-software-developer-27235",
+          "observed": "Exact official Luxoft27235 reqVR124976 description and application fields reopened. Finsurge MCF2026-1717626 indexed current29Sep-29Oct and same FX Ecommerce/backend/streaming API/bank project wording; primary MCF direct fetch DisabledError, not a fully inspected application. Conservatively merged advertiser copy, not new role solely lead title.",
+          "advertiser_pay_evidence": "Finsurge-specific MCF indexed band SGD11,000-13,000 monthly, permanent/full-time, closing29Oct2026. Not Luxoft employer-published pay and not interchangeable; Luxoft own page no numeric pay. 12monthly payments would equalSGD132,000-156,000, only illustrative pending confirmation of advertiser/entity/base/paid months. No claim exceeds current pay.",
+          "source_urls": [
+            "https://career.luxoft.com/jobs/senior-java-software-developer-27235",
+            "https://www.mycareersfuture.gov.sg/job/lead-java-developer-finsurge-fbd75c9ccd1d9373b2c5b0bcd0036e59"
+          ]
+        }
+      ]
     },
     {
       "employer": "Adyen",
@@ -10943,9 +10957,10 @@
       "sgd_comparison": "Calculation: S$96,000 - S$156,000 for 12 months of the published monthly cash range, before separate stipend/equity. Confirm guaranteed base and number of paid months. Upper range reaches Meena S$144,000 target reference; no current-package uplift established.",
       "terms": "Full-time on-site. Equity, healthcare, stipend and hardware advertised; grant/vesting, base guarantee, bonuses, leave, benefits, notice and probation unknown.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual visible prior ChatGPT final and supplied external-work history confirm delivery. Post-delivery reconciliation only; source checks unchanged."
       },
       "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
       "url_aliases": [],
@@ -10997,9 +11012,10 @@
       "sgd_comparison": "Unavailable: applicable pay not published",
       "terms": "Employment entity, benefits, leave, probation, notice and package split to establish",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual visible prior ChatGPT final and supplied external-work history confirm delivery. Post-delivery reconciliation only; source checks unchanged."
       },
       "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
       "url_aliases": [],
@@ -11050,9 +11066,10 @@
       "sgd_comparison": "Unavailable: applicable pay not published",
       "terms": "Employment entity, benefits, leave, probation, notice and package split to establish",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared finding; append delivery event only after actual ChatGPT alert"
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual visible prior ChatGPT final and supplied external-work history confirm delivery. Post-delivery reconciliation only; source checks unchanged."
       },
       "deduplication_note": "Compared current 188-job ledger and reported events plus runtime discovery and two application draft exports. No same employer/project/requisition found; complete historical coverage not claimed.",
       "url_aliases": [],
