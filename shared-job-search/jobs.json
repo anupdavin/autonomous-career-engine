@@ -11234,9 +11234,10 @@
       "last_checked": "2026-10-20",
       "import_source": "Fresh actual job pages checked20Oct2026",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared only; reconcile after actual final delivery."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual ChatGPT alert delivered20October2026; reconciliation only, not fresh verification."
       },
       "deduplication_note": "Compared193-job shared ledger/events and three runtime/application exports; employer/project/ref/description checks found no match. Historical coverage incomplete.",
       "authorization_sponsorship": "Personal work rights, sponsorship and employing/contracting entity unknown.",
@@ -11286,9 +11287,10 @@
       "last_checked": "2026-10-20",
       "import_source": "Fresh actual job pages checked20Oct2026",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared only; reconcile after actual final delivery."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual ChatGPT alert delivered20October2026; reconciliation only, not fresh verification."
       },
       "deduplication_note": "Compared193-job shared ledger/events and three runtime/application exports; employer/project/ref/description checks found no match. Historical coverage incomplete.",
       "authorization_sponsorship": "Personal work rights, sponsorship and employing/contracting entity unknown.",
