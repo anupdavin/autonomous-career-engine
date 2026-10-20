@@ -2363,3 +2363,15 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Questions: Salary/bonus versus S$144,000 target reference, sponsorship, office cadence, on-call, senior decision authority and mentoring scope?
 - Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
 
+
+## New active match checked 21Oct2026
+
+### EPAM - Applied Senior Software Engineer (AI Native Development)
+- Link: https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore
+- Priority: Ambitious applied-AI stretch; hybrid Singapore. Employment type, pay, sponsorship and office frequency are not published.
+- Fit: Java/JavaScript/Python/.NET backgrounds are accepted. The role combines developer-agent orchestration, Git/Jira/CI/CD integration, rapid prototypes and client-facing engineering judgment.
+- Resume: Use Meena's hands-on lead/AI-integration and cloud-modernization resume. Highlight Java/TypeScript, DevSecOps, delivery automation and accurately labeled Spring AI/RAG/MCP/Claude prototypes.
+- Prepare: Demonstrate a small permissioned agent workflow with evaluation, human review and rollback. Establish RAG, memory, vector database and orchestration knowledge without presenting prototypes as production tenure.
+- Questions: Is there a funded client assignment? Full-time or contract? Singapore work-pass support, guaranteed base near the S$144,000 target reference, hybrid cadence, client hours/on-call and required production-agent depth?
+- Verification: Exact official page remained active 21Oct2026 with hybrid Singapore heading, complete description and apply label. Final application workflow was not inspected. No application/contact.
+

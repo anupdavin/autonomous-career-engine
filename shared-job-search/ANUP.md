@@ -2363,3 +2363,15 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Questions: Salary/bonus, sponsorship, office cadence, on-call, senior ownership and frontend share?
 - Verification: Official MCPayment SmartRecruiters page active 20Oct2026 with application entry point. No application/contact.
 
+
+## New active match checked 21Oct2026
+
+### EPAM - Applied Senior Software Engineer (AI Native Development)
+- Link: https://careers.epam.com/en/vacancy/bltivmitqu6rk2dpawn_en?country=Singapore
+- Priority: Ambitious applied-AI stretch; hybrid Singapore. Employment type, pay, sponsorship and office frequency are not published.
+- Fit: Java is accepted; the role builds developer agents and integrates them with Git, Jira and CI/CD. Anup's coding-agent workflow, secure backend delivery and verification judgment are relevant.
+- Resume: Use Anup's Java/backend modernization resume with the AI-assisted engineering section prominent. Show truthful Cursor/Copilot/Claude Code/Codex practices, context preparation, test/security review and rollback discipline.
+- Prepare: Build one authentic multi-step developer-agent demonstration with tool permissions and human approval. RAG, agent memory, evaluation/guardrails, vector databases and orchestration frameworks are preparation points. Do not imply production agent or ML research experience.
+- Questions: Is there a funded client assignment? Full-time or contract? Singapore work-pass support, guaranteed base, hybrid cadence, client hours/on-call and required production-agent depth?
+- Verification: Exact official page remained active 21Oct2026 with hybrid Singapore heading, complete description and apply label. Final application workflow was not inspected. No application/contact.
+
