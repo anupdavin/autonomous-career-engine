@@ -10394,9 +10394,10 @@
       "questions": "Does OKX consider applicants requiring a new Singapore work pass despite local-rights priority? Exact employment type, grade/decision authority, guaranteed SGD base/period, separate bonus/equity/benefits and Meena target budget? Attendance/core hours/global overlap/DST/on-call/notice? How much LangChain/LangGraph and RAG/GraphRAG prior delivery is essential, and can strong Java/cloud delivery plus truthful prototypes or engineering automation evidence qualify? Immediate platform maturity, production ownership, evaluation/security expectations and take-home scope/IP?",
       "deduplication_note": "No exact7699598003 or AI Agent engineering-platform track in178shared jobs/events or three read-only runtime/application exports. Distinct from prior OKX Application Architect7766838003(stability/JVM),PaySmartAccount7596531003(paymentsettlement)andWeb3Wallet7821268003(walletbackend). Historical coverage incomplete. Camunda runtime record pay defaults not imported. Other candidates excluded from new shortlist when closed/country blocked, including Watu Europe,Teamworks US,Agoda explicit no sponsorship and CloudLinux B73EAD4735 redirectednot_found.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert not yet delivered. Reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and supplied external-work conversation confirm delivery; exact time unknown.",
+        "first_reported_date": "2026-10-20"
       },
       "assessments": {
         "anup": {
@@ -10411,6 +10412,61 @@
           "resume_emphasis": "Hands-on lead/cloud platform and AI application integration",
           "tailoring": "Use Meena's lead/backend/cloud-native and AI-integration resume. Highlight genuine system-design decisions, Kafka/Streams, AWS/EKS, Terraform/GitOps, DevSecOps, observability and mentoring. Describe SpringAI/RAG/MCP/ClaudeAPI examples as prototypes, their evaluation/failure handling and own contributions. Establish actual daily coding-agent practice and LangChain/LangGraph/GraphRAG depth, without converting prototypes into production history.",
           "fit_and_preparation": "Transferable leadership/cloud delivery plus AI-integration prototypes; ambitious agent-runtime and governance scope to establish. Screen senior/staff authority, budget near target and sponsorship before lengthy work.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "gemini-invest-trade-fullstack-8164166",
+      "employer": "Gemini",
+      "title": "Senior Software Engineer, Invest / Trade (Full Stack, React)",
+      "requisition": "8164166",
+      "url": "https://job-boards.greenhouse.io/gemini/jobs/8164166",
+      "canonical_url": "https://job-boards.greenhouse.io/gemini/jobs/8164166",
+      "url_aliases": [
+        "https://www.jobstore.com/sg/job/l30943948/senior-software-engineer-invest-trade-full-stack-react-job"
+      ],
+      "import_source": "Exact official Gemini Greenhouse description and complete blank application form checked20October2026 Singaporedate; matching Jobstore page inspected for pay-source validation",
+      "last_checked": "2026-10-20",
+      "posted": "Original date unstated on official listing. Mirrors/crawl dates are not employer posting dates.",
+      "location": "Singapore, Singapore",
+      "arrangement": "Hybrid explicit: office part of each week, exact days unstated. All employees must onboard in-person at office. No India remote or relocation assumption.",
+      "engagement_type": "Matching Jobstore labels Full-time. Official description/form does not explicitly state employment type or permanent/fixed-term duration; confirm employer terms.",
+      "eligibility": "Singapore work location supported; personal authorization and sponsorship unknown. Application asks Singapore rights and now/future sponsorship, not a promise of sponsorship. Existing EP is not transferable authorization. Not advertised as global or India remote.",
+      "published_compensation": "No numeric employer pay published on exact official page. New-hire equity grant separately advertised, with no amount; not guaranteed cash. Matching Jobstore shows SGD7500-10000 per month but explicitly labels it Estimated for reference, so excluded as published employer salary; no Glassdoor or unrelated US band substituted.",
+      "sgd_comparison": "No applicable numeric employer salary to annualize or convert. No uplift established against unknown current packages. Meena SGD12000/month target remains an early budget-screening reference only.",
+      "compensation_geography": "Singapore local offer/band unknown. No global/location-adjusted pay policy established. Other geography bands not applicable.",
+      "verification": "20October2026: official exact full description plus blank CV/contact, Singapore work-rights/sponsorship, education/background-check consent and Submit application visible, no closed marker. No forms filled/submitted or employer contacted. Matching Jobstore same role/body/hybrid policy inspected; pay expressly estimated, not imported.",
+      "evidence_urls": [
+        "https://job-boards.greenhouse.io/gemini/jobs/8164166",
+        "https://www.jobstore.com/sg/job/l30943948/senior-software-engineer-invest-trade-full-stack-react-job"
+      ],
+      "fit": "React/TypeScript-first full-stack investment/trading product ownership, technical design through release/monitoring, frontend architecture/reusable components, accessibility/performance/security, reviews/mentoring and accountable AI development-tool use. Backend actual stack Scala/Go onAWS with ReactNative contributions. Preferred backend Scala/Go/Java/Kotlin, AWS/Docker/Kubernetes/Terraform/CI-CD, REST/Kafka/distributed systems and regulated payments experience.",
+      "preparation": "Framework/language transition opportunity, not Java-only role. Strong production React and frontend architecture/accessibility/testing are explicit essential requirements; neither candidate's React depth established by modern Angular alone. Establish ReactNative and Scala/Go readiness; Anup limitedGo is not seniorGo proficiency. Prepare React state/render/performance/test/accessibility examples and an API/error/recovery design. Java backend is preferred qualification, not proof of Java production stack. Coding-tool use is engineering accountability, not ML research or mandatory prior AI product.",
+      "authorization_sponsorship": "Unknown, exact form asks current Singapore authorization and now/future need for sponsorship. No retrieved citizenship-only or no-sponsorship clause, no sponsorship promise inferred.",
+      "hours_on_call": "Hybrid weekly office attendance and in-person onboarding explicit. Corehours, international overlap/DST, on-call rota, nights/weekends and compensation/time-off unknown; release/monitoring/reliability ownership explicit.",
+      "terms": "Employee-style health coverage100% for employees/dependants, paid parental leave/PTO and new-hire equity advertised without cash valuation. Confirm employment type, benefits eligibility, leave amounts, base/bonus/equity split, probation/notice and any operational coverage. No B2B/duration/foreign-currency billing advertised.",
+      "questions": "Will strong Angular/TypeScript engineers with demonstrable React readiness qualify against React-first requirement? What React depth is expected immediately, and ramp-up for ReactNative/Scala/Go? Confirm full-time/permanent versus fixed-term, funded grade/design authority, SGsponsorship, guaranteedSGDbase and separate bonus/equity, office days/onboarding/corehours/DST/oncall/TOIL, notice/probation and benefits. Screen Meena's SGD12000monthly target early; do not anchor on thirdparty estimates.",
+      "upside": "Career-growth candidate (assessment): direct product employer, regulated financial product, feature/frontend architecture and mentoring ownership plus hybrid arrangement. Compensation to establish. Not proven income improvement; screen scope versus current lead role.",
+      "deduplication_note": "No Gemini employer/exact8164166 or matching investment/trading frontend description in179shared jobs/history and three read-only runtime/application exports. Prior Grab PartnerApps/Support Experience are different employer/product tracks, not copies. Substantially matching Jobstore consolidated as alias. Historical coverage incomplete.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert not yet delivered; reconcile only after actual ChatGPT final."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/TypeScript full-stack payments and AI-assisted engineering",
+          "tailoring": "Use Anup's full-stack/payments and AI-assisted engineering resume. Highlight verified Angular/TypeScript component/API ownership, NTTDATA/GreatEastern payment delivery, secureAPI/OAuth2/mTLS, cloud/CI-CD and production diagnosis. Show a genuine frontend performance/test example and accountable coding-agent verification. Add actual React evidence if available, otherwise prepare an original demonstrator; describe Go as limited and do not invent Scala/ReactNative delivery.",
+          "fit_and_preparation": "Transferable TypeScript/full-stack/payments and production reliability, but React-first plus Scala/Go transition substantial. Screen transition flexibility and budget before long assessment.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/full-stack cloud and regulated product delivery",
+          "tailoring": "Use Meena's lead/full-stack cloud-native resume. Emphasize verified Angular18/NgRx/RxJS, enterprise feature ownership, Kafka/AWS, secure delivery, technical reviews and mentoring. Prepare React-specific rendering/state/accessibility/testing and a real architecture tradeoff; do not claim ReactNative/Scala/Go production tenure or daily AIcoding-agent use from AIintegration prototypes. Establish senior grade/authority and budget near target.",
+          "fit_and_preparation": "Strong TypeScript, leadership, event-driven/cloud and enterprise-delivery transfer; explicit React proficiency must be established. Career scope/budget calibration important versus current lead role.",
           "application_status": "Not applied or approved"
         }
       }
