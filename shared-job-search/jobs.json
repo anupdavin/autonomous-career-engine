@@ -6005,10 +6005,10 @@
       ],
       "import_source": "Fresh official employer description checked 18 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "assessments": {
         "anup": {
@@ -6539,7 +6539,7 @@
       }
     },
     {
-      "last_checked": "2026-10-18",
+      "last_checked": "2026-10-21",
       "import_source": "Public employer careers pages checked 18 October 2026",
       "published_compensation": "Not published",
       "compensation_geography": "Global versus location-adjusted pay and SG/India terms unknown",
@@ -6554,7 +6554,9 @@
       "posted": "Not published",
       "hours_on_call": "Core hours, timezone overlap and on-call unknown",
       "terms": "Entity, benefits, leave, notice and payment terms unknown",
-      "url_aliases": [],
+      "url_aliases": [
+        "https://careers.epam.com/en/vacancy/senior-software-engineer-java-blt52ymx9dogar85rq3_en"
+      ],
       "job_id": "epam-java-azure-bltfakbnm5lixyyx789",
       "employer": "EPAM",
       "title": "Senior Software Engineer (Java)",
@@ -6570,7 +6572,7 @@
       "upside": "Career-growth candidate (assessment): cloud-native event-driven delivery ownership; compensation to establish",
       "verification": "Official description reopened 18 October 2026 with office Singapore and apply label; no functioning application form extracted/tested. Distinct from older banking/OpenShift Lead Java and AI-native developer-agent listings.",
       "canonical_url": "https://careers.epam.com/en/vacancy/senior-software-engineer-java-bltfakbnm5lixyyx789_en",
-      "status_at_last_check": "Official role description accessible; application workflow limitations recorded",
+      "status_at_last_check": "Official original assignment record retained; refreshed substantially identical requisition active and recorded as an alias",
       "assessments": {
         "anup": {
           "priority_tier": 1,
@@ -6587,7 +6589,16 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Compared 111-record ledger, available runtime JSON exports and application draft paths; no same requisition/project observed. Complete SQLite/conversation historical coverage not established."
+      "deduplication_note": "Refreshed EPAM requisition blt52ymx9dogar85rq3 is substantially identical to this already reported Singapore Java, React, Kafka and Azure assignment and is retained as an alias, not a new role.",
+      "verification_history": [
+        {
+          "checked": "2026-10-21",
+          "urls": [
+            "https://careers.epam.com/en/vacancy/senior-software-engineer-java-blt52ymx9dogar85rq3_en"
+          ],
+          "observed": "Official EPAM page live with Office in Singapore and apply label. Java, Spring Boot, React, Kafka, Azure, containers, CI/CD and banking-preferred description substantially matches the already reported canonical assignment. Recorded as refreshed requisition alias; not a new alert. Application form not tested."
+        }
+      ]
     },
     {
       "last_checked": "2026-10-18",

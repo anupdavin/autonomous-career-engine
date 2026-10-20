@@ -263,7 +263,7 @@ Salary unpublished for all four. Application workflow verification is incomplete
 - Resume/tailoring: Use Java/full-stack modernization resume. Highlight Java/Spring, Kafka, Azure AKS, secure financial APIs and production diagnosis. Prepare a small React feature and genuine deployment/reliability example.
 - Hours/terms: Core hours, timezone overlap and on-call unknown. Entity, benefits, leave, notice and payment terms unknown
 - Recruiter questions: Funded end client/project and distinct from existing Lead Java assignment? Employment type, Singapore sponsorship, applicable base/bonus/equity, senior/lead leveling, office cadence, React/backend split, core hours and support rota?
-- Posting/verification: Not published. Official description reopened 18 October 2026 with office Singapore and apply label; no functioning application form extracted/tested. Distinct from older banking/OpenShift Lead Java and AI-native developer-agent listings.
+- Posting/verification: Not published. Original official description opened 18 October 2026. On 21 October 2026, refreshed requisition blt52ymx9dogar85rq3 was live with the same Singapore, Java, React, Kafka and Azure assignment pattern, so it is an alias rather than a new alert. Application form not tested.
 
 ### 2. TechRivo: Backend Java Developer
 
@@ -2374,4 +2374,5 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Prepare: Build one authentic multi-step developer-agent demonstration with tool permissions and human approval. RAG, agent memory, evaluation/guardrails, vector databases and orchestration frameworks are preparation points. Do not imply production agent or ML research experience.
 - Questions: Is there a funded client assignment? Full-time or contract? Singapore work-pass support, guaranteed base, hybrid cadence, client hours/on-call and required production-agent depth?
 - Verification: Exact official page remained active 21Oct2026 with hybrid Singapore heading, complete description and apply label. Final application workflow was not inspected. No application/contact.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
