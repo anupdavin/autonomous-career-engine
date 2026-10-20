@@ -1971,7 +1971,7 @@ Verification: 20October2026: official exact full description plus blank CV/conta
 
 Deduplication: No Gemini employer/exact8164166 or matching investment/trading frontend description in179shared jobs/history and three read-only runtime/application exports. Prior Grab PartnerApps/Support Experience are different employer/product tracks, not copies. Substantially matching Jobstore consolidated as alias. Historical coverage incomplete.
 
-## GrabX and Visa platform opportunities: pending ChatGPT delivery
+## GrabX and Visa platform opportunities: delivered 20 October 2026
 
 Checked20October2026. Singapore locations supported, personal workrights/sponsorship unknown. No applications/contacts.
 
@@ -2026,3 +2026,33 @@ Questions: IsREF088636W active/funded and correctworkingapplication? NewSingapor
 Verification: 20October2026: actual official Workday URL reachable but returns blank extraction; direct form and live employer intake not fully verified. Official search-index returns exactreq,SG,fulltime,complete description with no closure. Exactreq TheMuse complete body and ApplyOnCompanySite and Simplify matching body visible. Label partially verified lead; confirm fundedintake before longassessment. No application/contact.
 
 Deduplication: NoREF088636W/CloudPlatformprovisioning/configuration automation in180sharedjobs/history and3runtime/applicationexports. PriorVisaREF082409W isMiddlewarePRE reliability/deployvalidation/observability for middleware, not same team/project description. Both have genericplatform/AIoverlap; internal team/reqrelation toconfirm if recruiter suggests sharedtrack. No newalert based onlyonrenamedtitle orrefresh.
+
+## Encora Java/React opportunity: pending ChatGPT delivery
+
+### Java Full Stack Developer / Java Developer, overlapping Singapore Java-React hiring track
+
+[Official application](https://job-boards.greenhouse.io/encora10/jobs/5205360007) | [Related variant](https://job-boards.greenhouse.io/encora10/jobs/5205352007)
+
+Checked: 2026-10-20. Posted: Not stated on either official listing. Crawl/search dates not treated as employer posting dates.
+
+Location/type: Singapore work location stated. Onsite versus hybrid, weekly office cadence and client location not specified. No worldwide or India remote permission advertised. Not explicitly stated on either official description/form. Full-time versus contract, permanent/fixed-term and agency/client payroll structure unknown.
+
+Eligibility: Singapore work location supported; personal work rights and sponsorship unknown. Application asks country residence and work authorization, but dropdown options not inspected. No inferred sponsorship promise or overseas remote arrangement; existing EP is not transferable permission.
+
+Pay: No numeric salary or rate published on either exact official listing. Base, bonus, equity, allowances and benefits unspecified; no estimates substituted. No applicable published numeric compensation to annualize or convert. No current-package uplift established. Meena SGD12000/month target is an early budget-screening reference only.
+
+Fit: Five-plus years Java enterprise engineering. Primary full-stack req: Java8/11/17+, Spring Boot/MVC/Data JPA/Security, REST/microservices, React/JavaScript, React micro-frontends, Redux/Context, Oracle/PostgreSQL/MySQL, Maven/Gradle and Agile. Related Java req adds end-to-end enterprise delivery, pair programming, code/design reviews, production deployment and support, SOAP/Web Services, secure/scalable design and unexplained Linear Meta Data.
+
+Prepare: Both have strong transferable Java/Spring/security/API/database and modern TypeScript frontend experience. React proficiency and React micro-frontend integration explicitly mandatory on primary req; Angular/NgRx is not automatic proof. Prepare React state/render/testing, MFE isolation/shared dependencies/routing/authentication and API failure handling. Ask what Linear Meta Data means on related req rather than assuming a specific tool or candidate gap. No invented React tenure or MFE production delivery.
+
+Resume: Use Anup's senior Java/full-stack resume. Lead actual Spring Boot/Security, REST/GraphQL, SQL, Angular/TypeScript and enterprise delivery. Highlight verified secure integration and production diagnosis outcomes, plus test/review practices. Add only genuine React evidence; prepare an original React micro-frontend example if needed without implying production tenure. Establish client, senior scope and pay before a long assessment.
+
+Assessment: Close backend/security/database fit with frontend framework transition to establish. No specific industry prerequisite stated. Lower priority until grade, React/MFE flexibility and compensation known. Compensation to establish. Possible career-growth value (assessment) through React micro-frontends, secure full-stack integration and full delivery lifecycle. Leadership/architecture authority and financial advantage not yet established; screen early, especially for Meena.
+
+Hours/terms: Related role includes post-implementation production support. On-call, shifts, nights/weekends, regional overlap/DST, core hours and compensation/time off unknown. Employment type, duration, client/payroll entity, guaranteed base/rate, paid leave/benefits, cancellation/renewal, notice, probation and operational coverage unknown. No hourly/daily rate or guaranteed billable volume published.
+
+Questions: Which client, project and funded vacancy do 5205360007 and 5205352007 represent, and should only one application be made? Actual senior/lead grade, design authority and budget; Meena SGD12000/month target within band? Can strong Angular/TypeScript engineers with demonstrable React readiness qualify, or is prior production React MFE essential? Explain Linear Meta Data. Confirm SG sponsorship/client clearance, work arrangement, employment type/payroll, base/variable/benefits, hours/on-call/pay/TOIL, duration/renewal/notice and correct residence dropdown.
+
+Verification: 20 October 2026: both complete official descriptions accessible with Apply and blank applicant fields for contact/CV, residence, authorization, availability and Submit. No closed marker. No fields filled, application sent or employer contacted.
+
+Deduplication: No Encora employer, exact requisitions or substantially matching Java-React description in 182 shared jobs/history or three available runtime/application exports. Two Singapore 5+ year Java/Spring/React roles with undisclosed client could overlap, so conservatively consolidated as one track/alert, not two application targets. Require client/project clarification to avoid duplicate supplier applications. Historical coverage incomplete.
