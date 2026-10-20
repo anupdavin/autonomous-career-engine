@@ -11629,6 +11629,223 @@
           "application_status": "Not recorded; no submission/contact"
         }
       }
+    },
+    {
+      "job_id": "govtech-sla-sse-4006308201",
+      "employer": "GovTech Singapore, assigned to Singapore Land Authority",
+      "title": "Senior Software Engineer, Singapore Land Authority",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4006308201?gh_jid=4006308201",
+      "canonical_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4006308201",
+      "url_aliases": [],
+      "requisition": "4006308201",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official Careers@Gov listing indexed as active; exact page returned access restriction during this check",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore role; office or hybrid cadence not published",
+      "eligibility": "Singapore work location confirmed; personal work authorization and sponsorship unknown; India remote not advertised",
+      "engagement_type": "Not published",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore base, bonus and benefits unknown",
+      "sgd_comparison": "Unavailable: salary not published",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "Core hours, production support and on-call obligations not published",
+      "terms": "Employment entity, benefits, leave, notice and probation terms unknown",
+      "posted": "Official posting date not published; LinkedIn indexed it as five days old on 21 October 2026",
+      "fit": "Hands-on Java and Spring Boot backend services, REST APIs, enterprise integration patterns, Oracle/PostgreSQL, transactional workflows, reconciliation, TDD, CI/CD, observability and production troubleshooting with mentoring.",
+      "preparation": "Prepare rich-domain workflow, transaction integrity, state-transition, reconciliation and test-design examples. Node.js is only a plus. Establish actual cloud and frontend expectations.",
+      "questions": "Employment type? Singapore work-pass support? Guaranteed base and bonus? Office cadence? Production support/on-call? Team authority and mentoring expectations? Application route active despite Careers@Gov access restriction?",
+      "upside": "Career-growth candidate: business-critical domain ownership and technical guidance; compensation to establish",
+      "verification": "Official Careers@Gov result and employer-attributed LinkedIn description checked 21 October 2026. Detailed official page was indexed but returned HTTP 403 to the research fetch; application completion was not tested. No application/contact.",
+      "source_urls": [
+        "https://jobs.careers.gov.sg/jobs/greenhouse/4006308201?gh_jid=4006308201",
+        "https://sg.linkedin.com/jobs/view/senior-software-engineer-singapore-land-authority-at-govtech-singapore-4458950162"
+      ],
+      "import_source": "Fresh official and employer-attributed descriptions checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend and modernization resume",
+          "tailoring": "Highlight Spring Boot, secure APIs, Oracle/PostgreSQL, enterprise integrations, transaction-heavy workflows, reconciliation, TDD and production diagnosis. Use genuine mentoring and design examples.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java and cloud-modernization resume",
+          "tailoring": "Highlight Java 21, Spring Boot 3, enterprise workflows, PostgreSQL/Oracle, CI/CD, observability, technical reviews and mentoring. Connect LTA domain delivery truthfully without implying direct SLA experience.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "No matching employer, requisition, URL or substantially identical SLA assignment found in the shared ledger."
+    },
+    {
+      "job_id": "mas-meps-sse-16268355",
+      "employer": "Monetary Authority of Singapore",
+      "title": "Senior Software Engineer (MEPS+) (Perm/Contract)",
+      "url": "https://jobs.careers.gov.sg/jobs/hrp/16268355/005056a3-d347-1fe1-b29a-beee83b4e2c3",
+      "canonical_url": "https://jobs.careers.gov.sg/jobs/hrp/16268355/005056a3-d347-1fe1-b29a-beee83b4e2c3",
+      "url_aliases": [
+        "https://sggovterp.wd102.myworkdayjobs.com/publicservicecareers/job/Lead--Senior-Software-Engineer--MEPS----Contract-_JR-10000041518/apply"
+      ],
+      "requisition": "JR-10000041518",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official Careers@Gov listing indexed as active and official Workday application start discoverable",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore role; office or hybrid cadence not published",
+      "eligibility": "Singapore work location confirmed; personal work authorization and sponsorship unknown; India remote not advertised",
+      "engagement_type": "Permanent or 2-year contract",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore permanent and contract packages unknown",
+      "sgd_comparison": "Unavailable: salary not published",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "On-call is explicit; sample text suggests a rota such as one week per month but exact frequency, response time and compensation are not established",
+      "terms": "Permanent versus 2-year contract decided during hiring; benefits, leave, notice, overtime or time-off-in-lieu and exact rota unknown",
+      "posted": "Official posting date and closing date not established",
+      "fit": "Java, J2EE, Oracle/SQL, JBoss EAP, secure code review, test automation, payment-system reliability, vendor coordination, production incident response, audit and contingency readiness.",
+      "preparation": "Prepare payment/reconciliation, code-review, vulnerability triage, incident root-cause and recovery examples. Establish shell scripting, JBoss and test-framework depth. The role emphasizes assurance and operations more than new product development.",
+      "questions": "Permanent or 2-year contract for this candidate? Singapore work-pass support? Guaranteed base and benefits? Exact on-call frequency, response time, stipend or time off? Coding versus review/operations split? MEPS+/SWIFT domain flexibility?",
+      "upside": "Career-growth candidate for regulated payment-system assurance; income potential and development breadth to establish",
+      "verification": "Official Careers@Gov description indexed 21 October 2026 and official Workday application start discoverable. Detailed Careers@Gov page returned HTTP 403 to the research fetch; no form data entered and no submission/contact.",
+      "source_urls": [
+        "https://jobs.careers.gov.sg/jobs/hrp/16268355/005056a3-d347-1fe1-b29a-beee83b4e2c3",
+        "https://sggovterp.wd102.myworkdayjobs.com/publicservicecareers/job/Lead--Senior-Software-Engineer--MEPS----Contract-_JR-10000041518/apply"
+      ],
+      "import_source": "Fresh official Careers@Gov and Workday evidence checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java payments and secure-integration resume",
+          "tailoring": "Foreground Great Eastern payment/reconciliation delivery, Java, Oracle/SQL, secure APIs, vulnerability remediation, production diagnosis and operational runbooks. Prepare honest JBoss and shell examples.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Lead backend, regulated-platform and reliability resume",
+          "tailoring": "Emphasize Java 21, code-review quality gates, Oracle, DevSecOps, observability, incident leadership and vendor/stakeholder coordination. Screen role breadth and package before prioritizing over current lead scope.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct MAS MEPS+ assurance and operations requisition; no matching record found in the shared ledger."
+    },
+    {
+      "job_id": "lta-itcd-software-engineer-18080756",
+      "employer": "Land Transport Authority Singapore",
+      "title": "Principal / Senior / Executive Software Engineer",
+      "url": "https://jobs.careers.gov.sg/jobs/hrp/18080756/005056a3-d347-1fe1-add8-7c3eddfd82be",
+      "canonical_url": "https://jobs.careers.gov.sg/jobs/hrp/18080756/005056a3-d347-1fe1-add8-7c3eddfd82be",
+      "url_aliases": [],
+      "requisition": "18080756",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official Careers@Gov listing indexed as active; exact page returned access restriction during this check",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore full-time role; office or hybrid cadence not published",
+      "eligibility": "Singapore work location confirmed; personal work authorization and sponsorship unknown; India remote not advertised",
+      "engagement_type": "Full-time; permanent versus fixed-term not published",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore level and base/bonus unknown",
+      "sgd_comparison": "Unavailable: salary not published",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "Operational support is explicit; core hours, incident rota and on-call compensation not published",
+      "terms": "Level may be principal, senior or executive; entity, benefits, leave, notice and probation unknown",
+      "posted": "Official posting date and closing date not established",
+      "fit": "Java/J2EE/Spring Boot, REST APIs, full-stack delivery, AWS, integrations, databases, testing, DevSecOps, CI/CD, microservices, modernization, production troubleshooting and AI-assisted software engineering.",
+      "preparation": "Establish exact leveling, frontend framework, AWS depth, architecture authority and operational support. Prepare modernization, re-platforming, root-cause and safe AI-assisted development examples.",
+      "questions": "Which level is funded and what decision authority accompanies it? Direct LTA employment or another arrangement? Work-pass support? Guaranteed base and bonus? Office cadence? Frontend stack? Support rota? Any vendor-client or non-solicitation constraints?",
+      "upside": "Career-growth candidate for end-to-end modernization ownership; compensation to establish",
+      "verification": "Official Careers@Gov listing was indexed 21 October 2026; employer-attributed descriptions show the stated full-time Java/full-stack modernization scope. Exact official page returned HTTP 403 to the research fetch; application form not tested. No application/contact.",
+      "source_urls": [
+        "https://jobs.careers.gov.sg/jobs/hrp/18080756/005056a3-d347-1fe1-add8-7c3eddfd82be",
+        "https://sg.indeed.com/viewjob?jk=aacf2a82431b6934"
+      ],
+      "import_source": "Fresh official and employer-attributed descriptions checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java full-stack modernization and AI-assisted engineering resume",
+          "tailoring": "Highlight Java/Spring Boot, Angular/TypeScript, AWS/Azure, secure APIs, modernization, CI/CD, production support and verified coding-agent practices. Establish AWS specifics honestly.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead, LTA delivery and cloud-modernization resume",
+          "tailoring": "Use current NCS/LTA delivery evidence, Java 21/Spring Boot 3, Angular 18, AWS, DevSecOps, observability and mentoring. Establish whether direct-hire movement is permitted and avoid implying employment by LTA.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct direct LTA Careers@Gov requisition. Meena's current NCS/LTA client context is candidate background, not evidence of an existing application."
+    },
+    {
+      "job_id": "govtech-moe-ai-products-4004456201",
+      "employer": "GovTech Singapore, assigned to Ministry of Education",
+      "title": "Engineer / Senior Software Engineer, AI Products & Platform",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201",
+      "canonical_url": "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201",
+      "url_aliases": [],
+      "requisition": "4004456201",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official Careers@Gov listing indexed as active; exact page returned access restriction during this check",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore role with flexible work arrangements subject to role; onsite cadence and remote-country eligibility not published",
+      "eligibility": "Singapore work location confirmed; personal work authorization and sponsorship unknown; no India remote eligibility stated",
+      "engagement_type": "Not published",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore level, base, bonus and benefits unknown",
+      "sgd_comparison": "Unavailable: salary not published",
+      "authorization_sponsorship": "Unknown",
+      "hours_on_call": "Incident response is part of the role; core hours, on-call rota and timezone overlap not published",
+      "terms": "Engineer versus senior level, entity, benefits, leave, notice and probation unknown",
+      "posted": "Official posting date and closing date not established",
+      "fit": "Production AI-enabled products and shared platform components: LLM integration, agentic workflows, evaluation, observability, guardrails, retrieval/memory, CI/CD, security, reusable engineering patterns and AI-assisted development with human accountability.",
+      "preparation": "Ambitious applied-AI role. Prepare a genuine end-to-end prototype with evaluation, traceability, permissions, monitoring and rollback. Meena should label Spring AI/RAG/MCP/Claude work as prototypes; Anup should not equate coding-agent use with production LLM delivery.",
+      "questions": "Engineer or senior level? Required production AI depth? Singapore work-pass support? Guaranteed base and bonus? Office cadence? Incident/on-call expectations? Accepted implementation languages and cloud stack? Application route active despite Careers@Gov access restriction?",
+      "upside": "Career-growth candidate for applied AI product/platform ownership; compensation to establish",
+      "verification": "Official Careers@Gov result indexed 21 October 2026; detailed employer-attributed description reviewed. Exact official page returned HTTP 403 to the research fetch and final application workflow was not tested. No application/contact.",
+      "source_urls": [
+        "https://jobs.careers.gov.sg/jobs/greenhouse/4004456201?gh_jid=4004456201"
+      ],
+      "import_source": "Fresh official and employer-attributed descriptions checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java/backend modernization resume with AI-assisted engineering section prominent",
+          "tailoring": "Highlight secure APIs, CI/CD, observability, context preparation, agent-tool use and human verification. Add only genuine AI application prototypes and prepare an evaluation-focused demonstration.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead and AI-integration/cloud-platform resume",
+          "tailoring": "Highlight Java/TypeScript delivery, DevSecOps, observability, mentoring and accurately labeled Spring AI/RAG/MCP/Claude prototypes. Prepare evals, traceability, guardrails and productionization tradeoffs.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct GovTech/MOE AI products and platform requisition; no matching employer assignment, requisition or description found in the shared ledger."
     }
   ]
 }
