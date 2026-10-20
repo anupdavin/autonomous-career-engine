@@ -11124,9 +11124,10 @@
       "hours_on_call": "Core hours, cross-region overlap/DST, formal on-call frequency/pay/TOIL and travel not published.",
       "terms": "Full-time listed. Exact entity/permanence, probation, leave, benefits, notice, base/variable/equity split and on-call terms to establish.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert, not delivered yet; reconcile only after actual final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual prior final and supplied conversation handoff establish delivery; exact time unknown. Not fresh verification."
       },
       "deduplication_note": "Compared latest191-job shared ledger/events, available runtime discovery and two application draft exports. No Shopee/Monee payment or business-security track found. Complete historical coverage not claimed. Recruiter/employing-entity/title copies consolidated by project.",
       "employer": "Shopee / Sea Group (exact employing entity to establish)",
@@ -11184,9 +11185,10 @@
       "hours_on_call": "Core hours, cross-region overlap/DST, formal on-call frequency/pay/TOIL and travel not published.",
       "terms": "Full-time listed. Exact entity/permanence, probation, leave, benefits, notice, base/variable/equity split and on-call terms to establish.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert, not delivered yet; reconcile only after actual final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual prior final and supplied conversation handoff establish delivery; exact time unknown. Not fresh verification."
       },
       "deduplication_note": "Compared latest191-job shared ledger/events, available runtime discovery and two application draft exports. No Shopee/Monee payment or business-security track found. Complete historical coverage not claimed. Recruiter/employing-entity/title copies consolidated by project.",
       "employer": "Shopee / Sea Group (exact employing entity to establish)",
@@ -11227,6 +11229,109 @@
         }
       },
       "url": "https://sg.linkedin.com/jobs/view/senior-backend-engineer-business-security-platform-at-shopee-4460226308"
+    },
+    {
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh actual job pages checked20Oct2026",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared only; reconcile after actual final delivery."
+      },
+      "deduplication_note": "Compared193-job shared ledger/events and three runtime/application exports; employer/project/ref/description checks found no match. Historical coverage incomplete.",
+      "authorization_sponsorship": "Personal work rights, sponsorship and employing/contracting entity unknown.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "robert-half-investment-architect-DC13523688",
+      "employer": "Robert Half, undisclosed global investment company",
+      "title": "Senior Software Architect",
+      "requisition": "DC13523688 / 67020-0013523688-sgen",
+      "canonical_url": "https://www.roberthalf.com/sg/en/job/singapore-river/senior-software-architect/67020-0013523688-sgen",
+      "url_aliases": [],
+      "location": "Singapore River, Singapore",
+      "arrangement": "Metadata says remote; office cadence and remote residence countries not specified. Not worldwide remote.",
+      "engagement_type": "Permanent",
+      "posted": "12October2026 09:02:28Z per page metadata; original versus refreshed date unknown",
+      "published_compensation": "SGD12,000-15,000 Monthly, Singapore advertised band. Guaranteed base vs total cash, payment count, bonus/equity unknown.",
+      "sgd_comparison": "Calculation only: SGD144,000-180,000 for12 monthly payments, not employer-published annual guarantee. Confirm guaranteed base/payments. Meena144k target reference is not current salary.",
+      "compensation_geography": "Singapore band; India/B2B applicability and global/location adjustment unknown.",
+      "eligibility": "Singapore source location confirmed; personal authorization/sponsorship unconfirmed. India remote not established.",
+      "hours_on_call": "Core hours, cross-region/DST overlap, on-call and travel unknown.",
+      "terms": "Permanent; exact entity, guaranteed cash, leave/benefits, probation/notice and office cadence to establish.",
+      "fit": "Production architecture/modernization of investment-critical platforms, APIs/cloud/integrations/SQL. Java OR Python OR C# accepted. Stakeholder decisions, scalability and build/buy tradeoffs.",
+      "preparation": "8+years architecture design and engineering requested, not permission to claim8+dedicated architect years. Establish actual cross-team architecture authority. Less line-by-line delivery than hands-on leads; investment domain preparation.",
+      "verification": "20Oct2026 exact Robert Half URL live with full description, Singapore River/remote/Permanent and SGD12k-15k Monthly; Apply Today/ref DC13523688 and no invalid/closed redirect. Current search also lists role. Downstream submission widget not exposed in text, form functionality unverified. No application/contact.",
+      "status_at_last_check": "Live exact recruiter page; downstream application unverified",
+      "upside": "Income-growth and career-growth candidate assessments: band meets/exceeds Meena target reference and architecture scope; no proven current-package uplift.",
+      "questions": "End client/duplicate rules? Guaranteed base versus total,12/13 payments, bonus/equity? SG sponsorship/entity, office days and remote countries? Any India/B2B route/local band? Coding share, architecture authority, working hours/on-call, leave/notice?",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/backend secure integration and modernization, architecture stretch",
+          "tailoring": "Use Anup senior Java/backend resume. Foreground verified secure APIs, OAuth2/mTLS, payments, SQL, cloud/K8s and EBX integration boundaries. Explain real architecture tradeoffs, rejected alternatives, migration and reliability outcomes; no invented architect tenure or metrics.",
+          "fit_and_preparation": "Credible Java/API/cloud/SQL architecture stretch. Establish strategic stakeholder influence and desired coding share.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java/cloud modernization and platform architecture",
+          "tailoring": "Use Meena lead/cloud-modernization resume. Highlight Java21/Spring3, Kafka/Streams, AWS/EKS, IaC/GitOps and mentoring. Show actual service-boundary, reliability/security and stakeholder decisions with verifiable outcomes. Keep prototypes labeled; no fabricated architect tenure.",
+          "fit_and_preparation": "Stronger leadership transition fit from production-critical government/enterprise systems. Prepare actual architecture decision authority and migration examples; confirm coding share.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://www.roberthalf.com/sg/en/job/singapore-river/senior-software-architect/67020-0013523688-sgen"
+    },
+    {
+      "last_checked": "2026-10-20",
+      "import_source": "Fresh actual job pages checked20Oct2026",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared only; reconcile after actual final delivery."
+      },
+      "deduplication_note": "Compared193-job shared ledger/events and three runtime/application exports; employer/project/ref/description checks found no match. Historical coverage incomplete.",
+      "authorization_sponsorship": "Personal work rights, sponsorship and employing/contracting entity unknown.",
+      "bonus": "Not published",
+      "equity": "Not published",
+      "job_id": "kake-streaming-backend-f052f5a15b14",
+      "employer": "Kake, undisclosed streaming/fan-engagement partner",
+      "title": "Senior Backend Engineer (Node.js/TypeScript)",
+      "canonical_url": "https://kake.co/jobs/senior-backend-engineer-node-js-typescript-f052f5a15b14",
+      "url_aliases": [],
+      "location": "Fully remote; eligible countries unspecified",
+      "arrangement": "Fully remote; SG/India engagement unconfirmed",
+      "engagement_type": "Not stated; employee/B2B, full-time hours and duration unknown",
+      "posted": "Not published",
+      "published_compensation": "No numeric pay or currency published on this exact role page. Other Kake job's USD claim not applied.",
+      "sgd_comparison": "Unavailable: no applicable numeric pay/period. No uplift claimed.",
+      "compensation_geography": "Global/location-adjusted policy and SG/India bands unknown.",
+      "eligibility": "Promising country-eligibility-unconfirmed remote lead. No country-only blocker on retrieved exact page, not proof of SG/India hiring.",
+      "hours_on_call": "Role-specific overlap/DST, on-call/travel not stated. Another Kake job requires5-6h PST overlap, not assumed here; clarify exact SG/India hours.",
+      "terms": "Employee/EOR/international B2B route, duration, guaranteed hours, leave, benefits, notice/cancellation, payment schedule/currency/fees and expenses unknown. No revenue annualization.",
+      "fit": "Distributed REST/RPC/worker services, event-driven queues, integrations, EKS/GKE, ArgoCD/GitOps, Terraform, AWS/GCP and observability. AI coding tools explicit, not ML research. TypeScript transfer relevant but Node backend tenure unconfirmed.",
+      "preparation": "Form asks production Node.js/TypeScript years and end-to-end owned system. Angular TypeScript does not establish Node backend experience. Answer actual years truthfully; establish Java/cloud transfer acceptance. Prepare MongoDB, NATS/SNS/SQS, GCP, monorepos, HLS/Mux and video workflows as needed.",
+      "verification": "20Oct2026 exact official Kake role live with full description, CV/location fields, role-specific questions and Apply Now button, no closed marker. Final server acceptance not tested; no submission. Generic TS/Python/C#747b5a144a7d opened separately but conflicting C#/.NET/Node screening and PST overlap held, not substituted for this job.",
+      "status_at_last_check": "Live official role/application fields; final acceptance not tested",
+      "upside": "Career-growth candidate assessment: cloud/event-platform ownership and backend-language/media expansion. Compensation to establish, no income claim.",
+      "questions": "SG or India employee/EOR/international B2B allowed? Client identity/duplicate project? Java-to-Node transfer acceptable given truthful Node years? Exact working overlap/DST/on-call? Pay range/currency/global versus local bands? Hours/duration/leave/notice/cancellation/payment/fees?",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Java/backend distributed integration, truthful TypeScript and AI-assisted engineering",
+          "tailoring": "Use Anup backend/integration resume. Lead REST/GraphQL, secure APIs, Kafka, SQL, AWS/Azure K8s, observability and confirmed coding-agent review practices. Distinguish Angular TypeScript from actual Node backend work; no invented Node years/video delivery.",
+          "fit_and_preparation": "Adjacent language stretch with strong API/event/cloud transfer. Establish Node eligibility, countries/hours/pay before extensive assessment.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/cloud platform and event-driven backend",
+          "tailoring": "Use Meena cloud/event-driven lead resume. Highlight Kafka/Streams/KEDA, AWS EKS, ArgoCD, Terraform, Helm/Istio, Redis, observability and end-to-end ownership. Separate Angular18 TypeScript from Node backend experience. Prepare Node runtime, document modelling and GCP mapping with truthful examples.",
+          "fit_and_preparation": "Strong cloud/GitOps/event-platform overlap; Node/media transition, countries/timezone/pay to establish. No production ML inferred.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "url": "https://kake.co/jobs/senior-backend-engineer-node-js-typescript-f052f5a15b14"
     }
   ]
 }
