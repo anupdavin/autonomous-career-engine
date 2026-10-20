@@ -2132,3 +2132,38 @@ Application: Open https://prvw.ai/careers/ and select AI & Data Engineer / View 
 Verification: 20 October 2026: official careers page says roles below are open. Read page-linked public frontend asset https://prvw.ai/assets/Careers-Dl0LmxtX.js using read-only HTTP and parsed static role data without executing it. It contains separate role descriptions/requirements and mailto Apply destinations. General web extractor exposes summaries only. Email application route advertised, not sent; no ATS form or downstream intake verified.
 
 Deduplication: No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.
+
+
+## OKX Asset and Earn: pending ChatGPT delivery
+
+[Senior Java Backend Engineer - Asset & Earn](https://job-boards.greenhouse.io/okx/jobs/7749091003)
+
+Singapore work location supported; office attendance/hybrid cadence unspecified. No India remote arrangement or relocation assumption. Employment type/duration not stated on readable exact role. Do not infer full-time from title.
+
+Pay: No numeric salary/rate published. Competitive total compensation only; L&D, wellness/meal allowances and healthcare advertised. Guaranteed base, variable/equity and package amounts unknown.
+
+Priority 3. Strong Java/cloud/event-driven transfer, with coding-agent/language/product-domain requirements to establish. Lower exploratory priority until constraints and scope/pay clarified.
+
+Resume: Use Meena's lead backend/cloud resume. Emphasize Java21/SpringBoot3, Kafka/Streams, AWS/EKS, SQL, technical reviews, incident reasoning and mentoring. Establish actual coding-agent proficiency and transaction/interest-risk design examples separately from prototypes. Do not invent Mandarin, production yield/loan delivery or AI-agent work. Screen required language/domain, leadership scope and target-level SG base.
+
+Preparation: English AND Mandarin fluency is explicit; neither candidate Mandarin proficiency confirmed. At least one business-domain category required: hands-on earn/loan (interest/risk/liquidity), stablecoin yield/settlement, or token/subscription/quota allocation. Payments/reconciliation is transferable but does not establish any required category. Establish actual qualifying examples/transition flexibility, Spring Cloud, Redis/MySQL/Linux depth and on-call readiness. Anup coding-agent practice confirmed; establish Meena daily coding-agent proficiency separately from AI prototypes.
+
+Hours/terms: Production on-call and incident response explicitly required. Rota/frequency, nights/weekends, global overlap/timezone/DST, workload, pay/TOIL and escalation unknown. Employment type/entity, duration/permanence, benefits eligibility, base/variable/equity, leave, probation, notice and on-call terms unknown. No contractor rate/billable volume assumed.
+
+Questions: Is fluent Mandarin non-negotiable, and what assessment level is expected? Which required earn/loan, stablecoin-yield or subscription/allocation experience would count; can adjacent regulated payments/reconciliation qualify? Role grade/design ownership and guaranteed SG base near Meena target? New SG pass support, office cadence, employment type/entity, package split, on-call frequency/pay/TOIL, global hours/DST and notice?
+
+Verification: 20 October 2026: current official board and exact req7749091003 opened. Full body and form with CV, education, SG status/pass need, languages, notice and trading/crypto questions plus Submit visible. No inputs filled, application sent or contact made.
+
+## YipitData ERP/backend track: recovered historical opportunity, not new
+
+[Sr. Backend Engineer / Senior Staff Software Engineer, overlapping ERP infrastructure track](https://job-boards.greenhouse.io/yipitdata/jobs/7791555)
+
+Fully remote BASED IN INDIA; not Singapore remote. Do not assume relocation for Meena. Anup earlier specific willingness recorded in historical artifact, not completed move.
+
+Pay: No numeric compensation on either exact official role. Form asks minimum required annual INR salary; this is applicant input, not employer pay.
+
+Known shared project track, no new alert. Emphasize Kafka/Streams/KEDA, AWS/EKS, SQL, system-design decisions and mentoring. Establish data pipelines/email and large-scale reliability evidence, Python transition and exact authority; no relocation willingness or12years inferred.
+
+20 October 2026: opened exact official7791555 and8138937 full descriptions and forms. Both current requirements accept Python/Golang/Java with Python most preferred, correcting older preparation artifact's Go/Python-only assessment. Distinct titles/experience thresholds but substantial ERP connector/storage/backend/API/governance/global-team wording overlap; conservatively one known project track pending employer clarification.
+
+12 October Library artifact Anup_YipitData_Application_Answers_India_Go_2026.txt explicitly identifies7791555 and ERP infrastructure target. Already discussed/prepared for user, so imported historically_reported despite missing original alert timestamp.8138937 substantially copies ERP/data/API scope, consolidated, NOT new alert merely new grade/req. No applications inferred from artifact. Existing shared ledger lacked YipitData; runtime exports also no exact matches.
