@@ -2057,7 +2057,7 @@ Verification: 20 October 2026: both complete official descriptions accessible wi
 
 Deduplication: No Encora employer, exact requisitions or substantially matching Java-React description in 182 shared jobs/history or three available runtime/application exports. Two Singapore 5+ year Java/Spring/React roles with undisclosed client could overlap, so conservatively consolidated as one track/alert, not two application targets. Require client/project clarification to avoid duplicate supplier applications. Historical coverage incomplete.
 
-## weSource Singapore generalist engineer: pending ChatGPT delivery
+## weSource Singapore generalist engineer: delivered 20 October 2026
 
 [Sr Software Engineer - SG Based - 12K - Hybrid](https://wesource.careers-page.com/jobs/f9d66299-e9a6-4593-abe6-637e271defb9)
 
@@ -2078,3 +2078,57 @@ Questions: Identify end client/project/requisition before supplier submission to
 Verification: 20 October 2026: official recruiter current board lists vacancy among Open Positions, full exact role and legacy Manatal description accessible with Apply. Opened migrated /apply route: title/pay visible but applicant fields not exposed in extracted page; submission path incompletely verified, not declared closed. No application/contact made.
 
 Deduplication: No weSource/exact req or distinctive inhouse-built/third-level generalist description match in 183 shared jobs/history or three available runtime/application exports. Robert Half Marina Bay digital assets vacancy has same broad pay/location but different trading-specific description; overlap not established. Client/project identity remains required before submission. Two official Manatal URLs are one canonical role; timestamp refresh not counted as new. Historical coverage incomplete.
+
+
+## Senior Platform Engineer at PRVW: pending ChatGPT delivery
+
+[Senior Platform Engineer](https://prvw.ai/careers)
+
+Hybrid; office-day count unspecified. Role-specific requirement based in Singapore with right to work here and able to start ASAP. Not India remote.
+
+Type: Full-time, permanent; reports to CTO.
+
+Pay: No numeric salary/rate published. Senior Platform Engineer says Competitive, commensurate with experience. AI & Data Engineer has no pay details. No estimates substituted.
+
+Priority 1. Close Java/cloud/delivery ownership fit. React readiness and UK evenings are concrete preparation/conditions questions; salary unknown prevents upgrade claim.
+
+Resume: Use Meena's lead Java/cloud resume. Emphasize Java21/SpringBoot3, PostgreSQL, AWS ECS/EKS, Terraform, GitHub Actions/ArgoCD, release controls, incident reasoning, reviews and mentoring. Show real decisions/outcomes; establish React and daily AI-assisted review practice separately. Screen guaranteed base and CTO/code-owner remit against existing lead scope.
+
+Preparation: Both have strong Java/Spring/SQL/cloud/security/CI/CD transfer. Establish React implementation, Terraform/Fargate/CloudFront/IAM operational depth and production release/incident authority through real evidence. Anup's MDM/migration fits records governance but not claimed PRVW-domain experience. Meena daily coding-agent use must be established separately from AI prototypes.
+
+Hours: Regular UK overlap calls in early evening plus incident triage during Singapore hours to close round-the-clock gap. Exact overlap/end time and seasonal UK DST shift, off-hours/on-call rota, frequency/pay/TOIL unspecified.
+
+Questions: Is existing Singapore EP holder eligible and will a new pass be supported? Guaranteed base near Meena SGD12000/month target, bonus/equity/benefits? Exact hybrid cadence, UK-call times across DST, total hours, on-call/escalation, compensation/TOIL? Actual React depth expected, platform/client identity, release authority/resources, AWS support coverage, notice/probation and ASAP flexibility?
+
+Application: Open https://prvw.ai/careers and select Senior Platform Engineer / View Role. Role-specific Apply Now opens careers@prvw.ai with subject Application: Senior Platform Engineer. No separate HTTPS job/app form advertised; email route not exercised.
+
+Verification: 20 October 2026: official careers page says roles below are open. Read page-linked public frontend asset https://prvw.ai/assets/Careers-Dl0LmxtX.js using read-only HTTP and parsed static role data without executing it. It contains separate role descriptions/requirements and mailto Apply destinations. General web extractor exposes summaries only. Email application route advertised, not sent; no ATS form or downstream intake verified.
+
+Deduplication: No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.
+
+
+## AI & Data Engineer at PRVW: pending ChatGPT delivery
+
+[AI & Data Engineer](https://prvw.ai/careers/)
+
+Remote advertised, but permitted residence countries, SG/India employment/B2B mechanism and office/travel expectations unstated. Eligibility-unconfirmed remote lead; no worldwide claim.
+
+Type: Full-time; permanent versus fixed term and remote employee versus B2B availability unstated.
+
+Pay: No numeric salary/rate published. Senior Platform Engineer says Competitive, commensurate with experience. AI & Data Engineer has no pay details. No estimates substituted.
+
+Priority 2. Strong event-driven/cloud transfer and relevant AI prototypes. Applied-AI stretch with Python/data orchestration to establish, not assumed incapable; budget and country eligibility unknown.
+
+Resume: Use Meena's lead cloud/AI-integration resume. Emphasize Kafka/Streams/KEDA, SQL, AWS ECS/EKS, delivery automation and reliable service design. Present Spring AI/RAG/MCP/Claude API work explicitly as prototypes with actual tests/evaluation/failure handling. Prepare Python plus Airflow/Dagster/Prefect and ask for level/ownership matching current lead scope.
+
+Preparation: Applied-AI/data-engineering stretch, not production ML research. Establish Python implementation and orchestration/data-pipeline depth with original testable work. Existing Java/Kafka/cloud transfer supports backend route but is not proof of Python/Airflow production tenure. Meena prototypes stay prototypes; Anup coding-agent use is not agent-system delivery.
+
+Hours: Role-specific overlap, timezone, hours, on-call, travel and seasonal DST requirements unstated. Do not automatically assign platform role's UK calls to AI/Data role.
+
+Questions: Which remote residence countries accepted, specifically Singapore and India? Employee/payroll/EOR or international B2B, and differing local bands? Required Python/orchestrator production depth, backend transition flexibility, first-project scope, data versus model-training responsibility, architecture ownership, team mentoring? Guaranteed cash, benefits/equity/bonus, hours/DST/on-call, travel and notice/duration?
+
+Application: Open https://prvw.ai/careers/ and select AI & Data Engineer / View Role. Apply Now advertises careers@prvw.ai with subject Application: AI & Data Engineer. Email route not exercised; no separate HTTPS application form.
+
+Verification: 20 October 2026: official careers page says roles below are open. Read page-linked public frontend asset https://prvw.ai/assets/Careers-Dl0LmxtX.js using read-only HTTP and parsed static role data without executing it. It contains separate role descriptions/requirements and mailto Apply destinations. General web extractor exposes summaries only. Email application route advertised, not sent; no ATS form or downstream intake verified.
+
+Deduplication: No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.

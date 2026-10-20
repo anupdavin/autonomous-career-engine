@@ -10681,9 +10681,10 @@
       ],
       "deduplication_note": "No weSource/exact req or distinctive inhouse-built/third-level generalist description match in 183 shared jobs/history or three available runtime/application exports. Robert Half Marina Bay digital assets vacancy has same broad pay/location but different trading-specific description; overlap not established. Client/project identity remains required before submission. Two official Manatal URLs are one canonical role; timestamp refresh not counted as new. Historical coverage incomplete.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert not yet delivered; reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "first_reported_date": "2026-10-20",
+        "note": "Actual ChatGPT final delivery confirmed in visible conversation and supplied external-work history; post-delivery reconciliation. Source verification unchanged."
       },
       "assessments": {
         "anup": {
@@ -10698,6 +10699,116 @@
           "resume_emphasis": "Hands-on lead modernization, AWS/event-driven platforms and delivery quality",
           "tailoring": "Use Meena's lead Java/cloud-native resume. Foreground actual Java21/SpringBoot3, Angular, AWS ECS/EKS, CI/CD, SQL, secure deployment, technical reviews and mentoring. Explain full lifecycle and reliable support outcomes. Screen for design authority and SGD12000 base budget before investing heavily because employer describes mid-level scope.",
           "fit_and_preparation": "Strong technical transfer, including AWS/ECS and leadership; lower priority until target-level base and meaningful ownership established. Upper published monthly end reaches target, not established current pay.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "employer": "PRVW.AI",
+      "last_checked": "2026-10-20",
+      "posted": "Original posting date not published.",
+      "import_source": "Fresh official PRVW careers page and its public Careers-Dl0LmxtX.js role-dialog data, 20 October 2026",
+      "status_at_last_check": "Open under Current Openings on official careers page; detailed role-dialog data and role-specific email Apply destination read from public frontend asset. No contact/application made.",
+      "published_compensation": "No numeric salary/rate published. Senior Platform Engineer says Competitive, commensurate with experience. AI & Data Engineer has no pay details. No estimates substituted.",
+      "sgd_comparison": "No applicable numeric employer band to annualize or convert. No income uplift established. Meena SGD12000/month target is a budget-screening reference, not current salary.",
+      "compensation_geography": "Singapore band and global versus location-adjusted pay policy unspecified. For remote AI role, SG versus India engagement and pay differences unknown; no foreign band applied.",
+      "verification": "20 October 2026: official careers page says roles below are open. Read page-linked public frontend asset https://prvw.ai/assets/Careers-Dl0LmxtX.js using read-only HTTP and parsed static role data without executing it. It contains separate role descriptions/requirements and mailto Apply destinations. General web extractor exposes summaries only. Email application route advertised, not sent; no ATS form or downstream intake verified.",
+      "evidence_urls": [
+        "https://prvw.ai/careers",
+        "https://prvw.ai/assets/Careers-Dl0LmxtX.js"
+      ],
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Proposed alert not yet delivered. Reconcile only after actual ChatGPT final."
+      },
+      "deduplication_note": "No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.",
+      "terms": "No paid-leave/benefits, notice/probation, employment entity, equity/bonus or package breakdown published. Full-time not treated as freelance; no billable volume assumed.",
+      "job_id": "prvw-senior-platform-engineer-singapore",
+      "title": "Senior Platform Engineer",
+      "requisition": "No public numeric requisition; distinct official Senior Platform Engineer role",
+      "canonical_url": "https://prvw.ai/careers",
+      "url": "https://prvw.ai/careers",
+      "url_aliases": [],
+      "location": "Singapore",
+      "arrangement": "Hybrid; office-day count unspecified. Role-specific requirement based in Singapore with right to work here and able to start ASAP. Not India remote.",
+      "engagement_type": "Full-time, permanent; reports to CTO.",
+      "eligibility": "Singapore work location supported, but based-in-Singapore AND current right-to-work requirement is explicit. Personal authorization and new-pass support unknown; do not treat current EP as portable. No overseas remote/relocation entitlement.",
+      "authorization_sponsorship": "Based in Singapore with right to work here required. No sponsorship promise. Clarify whether existing EP candidates needing a new employer pass are considered. Do not import Singapore citizen/PR-only clause from separate programme/BA roles.",
+      "hours_on_call": "Regular UK overlap calls in early evening plus incident triage during Singapore hours to close round-the-clock gap. Exact overlap/end time and seasonal UK DST shift, off-hours/on-call rota, frequency/pay/TOIL unspecified.",
+      "fit": "Hands-on platform/code owner: architecture/API/schema/infrastructure decisions, merge/release authority, GitHub Actions/AWS deployments/rollback across dev/QA/client UAT; Terraform AWS ECS Fargate, CloudFront/S3/RDS PostgreSQL, IAM/monitoring/cost; Java/Spring Boot + React/TypeScript; regulated-client records migration/data quality/audit. 6+ engineering years including production Java/PostgreSQL ownership, AWS, Docker/IaC, review judgment and daily professional AI-assisted development/hardening.",
+      "preparation": "Both have strong Java/Spring/SQL/cloud/security/CI/CD transfer. Establish React implementation, Terraform/Fargate/CloudFront/IAM operational depth and production release/incident authority through real evidence. Anup's MDM/migration fits records governance but not claimed PRVW-domain experience. Meena daily coding-agent use must be established separately from AI prototypes.",
+      "upside": "Career-growth candidate (assessment): concrete code/release ownership, CTO reporting, AWS estate and regulated migration responsibility. Income-growth unproven with unpublished package and support/overlap burden.",
+      "questions": "Is existing Singapore EP holder eligible and will a new pass be supported? Guaranteed base near Meena SGD12000/month target, bonus/equity/benefits? Exact hybrid cadence, UK-call times across DST, total hours, on-call/escalation, compensation/TOIL? Actual React depth expected, platform/client identity, release authority/resources, AWS support coverage, notice/probation and ASAP flexibility?",
+      "application_route_check": "Open https://prvw.ai/careers and select Senior Platform Engineer / View Role. Role-specific Apply Now opens careers@prvw.ai with subject Application: Senior Platform Engineer. No separate HTTPS job/app form advertised; email route not exercised.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java/backend-platform, secure integrations, MDM modernization and AI-assisted engineering",
+          "tailoring": "Use Anup's Java/platform resume. Lead real Java21/SpringBoot/Security, PostgreSQL/SQL Server, AWS/AKS/Kubernetes, CI/CD and production diagnosis; foreground EBX data governance/migration and genuine AI-assisted code/test verification. Explain actual release/design decisions and outcomes without invented metrics. Prepare React plus AWS Terraform/Fargate/CloudFront/IAM specifics; do not imply confirmed daily React production or Terraform estate ownership.",
+          "fit_and_preparation": "Strong backend/platform/migration transfer; direct ownership scope worthwhile. Authorization/UK evenings and frontend/AWS depth need screening before application.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead/cloud-native modernization, delivery ownership and operational reliability",
+          "tailoring": "Use Meena's lead Java/cloud resume. Emphasize Java21/SpringBoot3, PostgreSQL, AWS ECS/EKS, Terraform, GitHub Actions/ArgoCD, release controls, incident reasoning, reviews and mentoring. Show real decisions/outcomes; establish React and daily AI-assisted review practice separately. Screen guaranteed base and CTO/code-owner remit against existing lead scope.",
+          "fit_and_preparation": "Close Java/cloud/delivery ownership fit. React readiness and UK evenings are concrete preparation/conditions questions; salary unknown prevents upgrade claim.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "employer": "PRVW.AI",
+      "last_checked": "2026-10-20",
+      "posted": "Original posting date not published.",
+      "import_source": "Fresh official PRVW careers page and its public Careers-Dl0LmxtX.js role-dialog data, 20 October 2026",
+      "status_at_last_check": "Open under Current Openings on official careers page; detailed role-dialog data and role-specific email Apply destination read from public frontend asset. No contact/application made.",
+      "published_compensation": "No numeric salary/rate published. Senior Platform Engineer says Competitive, commensurate with experience. AI & Data Engineer has no pay details. No estimates substituted.",
+      "sgd_comparison": "No applicable numeric employer band to annualize or convert. No income uplift established. Meena SGD12000/month target is a budget-screening reference, not current salary.",
+      "compensation_geography": "Singapore band and global versus location-adjusted pay policy unspecified. For remote AI role, SG versus India engagement and pay differences unknown; no foreign band applied.",
+      "verification": "20 October 2026: official careers page says roles below are open. Read page-linked public frontend asset https://prvw.ai/assets/Careers-Dl0LmxtX.js using read-only HTTP and parsed static role data without executing it. It contains separate role descriptions/requirements and mailto Apply destinations. General web extractor exposes summaries only. Email application route advertised, not sent; no ATS form or downstream intake verified.",
+      "evidence_urls": [
+        "https://prvw.ai/careers",
+        "https://prvw.ai/assets/Careers-Dl0LmxtX.js"
+      ],
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Proposed alert not yet delivered. Reconcile only after actual ChatGPT final."
+      },
+      "deduplication_note": "No PRVW employer, distinctive production-code-owner description, WISDAM or Secure Algorithmic Core role match in 184 canonical jobs/history or three runtime/application exports. Platform and AI/Data are separate official Current Openings with materially different responsibilities and requirements; not title/geography copies. Same shared careers page contains both; observed trailing-slash page variant used only as record URL disambiguation, not evidence of a different site. Historical coverage incomplete.",
+      "terms": "No paid-leave/benefits, notice/probation, employment entity, equity/bonus or package breakdown published. Full-time not treated as freelance; no billable volume assumed.",
+      "job_id": "prvw-ai-data-engineer-remote",
+      "title": "AI & Data Engineer",
+      "requisition": "No public numeric requisition; distinct official AI & Data Engineer role",
+      "canonical_url": "https://prvw.ai/careers/",
+      "url": "https://prvw.ai/careers/",
+      "url_aliases": [],
+      "location": "Singapore / Remote",
+      "arrangement": "Remote advertised, but permitted residence countries, SG/India employment/B2B mechanism and office/travel expectations unstated. Eligibility-unconfirmed remote lead; no worldwide claim.",
+      "engagement_type": "Full-time; permanent versus fixed term and remote employee versus B2B availability unstated.",
+      "eligibility": "Promising country-unconfirmed remote lead. Singapore/Remote wording supports inquiry but not explicit SG/India remote authorization. Confirm permitted work country/entity and terms before application commitment.",
+      "authorization_sponsorship": "Not published for this role. Platform role's Singapore-current-rights clause and programme/BA citizenship clauses not automatically imported into AI/Data opening. SG/India remote payroll/B2B and personal permission unknown.",
+      "hours_on_call": "Role-specific overlap, timezone, hours, on-call, travel and seasonal DST requirements unstated. Do not automatically assign platform role's UK calls to AI/Data role.",
+      "fit": "Production data pipelines and cloud AI/ML workflows; WISDAM Decision Intelligence/Secure Algorithmic Core components; analytical/operational agentic automation; regulated enterprise deployments/integration/scale; CI/CD/testing/monitoring. 4+ years data/ML engineering OR backend development accepted. Python, SQL and one major cloud required; Airflow/Dagster/Prefect and modern data-stack experience requested; LLM/RAG/agent frameworks a strong plus, not ML-research prerequisite.",
+      "preparation": "Applied-AI/data-engineering stretch, not production ML research. Establish Python implementation and orchestration/data-pipeline depth with original testable work. Existing Java/Kafka/cloud transfer supports backend route but is not proof of Python/Airflow production tenure. Meena prototypes stay prototypes; Anup coding-agent use is not agent-system delivery.",
+      "upside": "Career-growth candidate (assessment) through applied agents and regulated cloud AI/data delivery. Compensation and engagement eligibility to establish; no earnings promise.",
+      "questions": "Which remote residence countries accepted, specifically Singapore and India? Employee/payroll/EOR or international B2B, and differing local bands? Required Python/orchestrator production depth, backend transition flexibility, first-project scope, data versus model-training responsibility, architecture ownership, team mentoring? Guaranteed cash, benefits/equity/bonus, hours/DST/on-call, travel and notice/duration?",
+      "application_route_check": "Open https://prvw.ai/careers/ and select AI & Data Engineer / View Role. Apply Now advertises careers@prvw.ai with subject Application: AI & Data Engineer. Email route not exercised; no separate HTTPS application form.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Backend/platform integration and verified AI-assisted engineering, applied-AI transition",
+          "tailoring": "Use Anup's backend/platform and AI-assisted engineering resume. Highlight Java APIs, Kafka, SQL/data governance, secure integrations, cloud delivery and testing/review judgment. Provide an original Python pipeline/agent integration example only if actually built; do not invent production RAG, Python or ML delivery. Clarify backend-to-Python transition and SG/India engagement first.",
+          "fit_and_preparation": "Backend experience explicitly accepted, making adjacent application credible. Python/orchestration and AI/data delivery remain preparation to establish; remote eligibility unknown.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on backend/cloud lead with applied AI-integration prototypes",
+          "tailoring": "Use Meena's lead cloud/AI-integration resume. Emphasize Kafka/Streams/KEDA, SQL, AWS ECS/EKS, delivery automation and reliable service design. Present Spring AI/RAG/MCP/Claude API work explicitly as prototypes with actual tests/evaluation/failure handling. Prepare Python plus Airflow/Dagster/Prefect and ask for level/ownership matching current lead scope.",
+          "fit_and_preparation": "Strong event-driven/cloud transfer and relevant AI prototypes. Applied-AI stretch with Python/data orchestration to establish, not assumed incapable; budget and country eligibility unknown.",
           "application_status": "Not applied or approved"
         }
       }
