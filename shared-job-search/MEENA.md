@@ -2283,3 +2283,28 @@ Questions: Which single requisition/grade best fits verified background? Is1+yea
 Same Sea/Shopee group as payment role: choose one active application at a time per payment listing; do not submit both simultaneously.
 
 Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with Apply, Singapore/full-time. Senior-expert4456097257 also opened live with full description and Apply. Both substantial Business Security project overlap; one canonical track not multiple alerts. Expert4450349573 click hit429 and not fully verified. Older4417828830/4418228138 search-indexed closed, not active routes. Downstream LinkedIn/offsite application fields not inspected; no login, submission or contact.
+
+## New leads checked20October2026 (delivery pending)
+
+### Robert Half, undisclosed global investment company: Senior Software Architect
+
+- [Actual job page](https://www.roberthalf.com/sg/en/job/singapore-river/senior-software-architect/67020-0013523688-sgen)
+- Priority: 1. Singapore source location confirmed; personal authorization/sponsorship unconfirmed. India remote not established.
+- Pay: SGD12,000-15,000 Monthly, Singapore advertised band. Guaranteed base vs total cash, payment count, bonus/equity unknown.
+- Upside: Income-growth and career-growth candidate assessments: band meets/exceeds Meena target reference and architecture scope; no proven current-package uplift.
+- Resume: Hands-on lead Java/cloud modernization and platform architecture. Use Meena lead/cloud-modernization resume. Highlight Java21/Spring3, Kafka/Streams, AWS/EKS, IaC/GitOps and mentoring. Show actual service-boundary, reliability/security and stakeholder decisions with verifiable outcomes. Keep prototypes labeled; no fabricated architect tenure.
+- Prepare: Stronger leadership transition fit from production-critical government/enterprise systems. Prepare actual architecture decision authority and migration examples; confirm coding share.
+- Questions: End client/duplicate rules? Guaranteed base versus total,12/13 payments, bonus/equity? SG sponsorship/entity, office days and remote countries? Any India/B2B route/local band? Coding share, architecture authority, working hours/on-call, leave/notice?
+- Verification: 20Oct2026 exact Robert Half URL live with full description, Singapore River/remote/Permanent and SGD12k-15k Monthly; Apply Today/ref DC13523688 and no invalid/closed redirect. Current search also lists role. Downstream submission widget not exposed in text, form functionality unverified. No application/contact.
+
+### Kake, undisclosed streaming/fan-engagement partner: Senior Backend Engineer (Node.js/TypeScript)
+
+- [Actual job page](https://kake.co/jobs/senior-backend-engineer-node-js-typescript-f052f5a15b14)
+- Priority: 2. Promising country-eligibility-unconfirmed remote lead. No country-only blocker on retrieved exact page, not proof of SG/India hiring.
+- Pay: No numeric pay or currency published on this exact role page. Other Kake job's USD claim not applied.
+- Upside: Career-growth candidate assessment: cloud/event-platform ownership and backend-language/media expansion. Compensation to establish, no income claim.
+- Resume: Hands-on lead/cloud platform and event-driven backend. Use Meena cloud/event-driven lead resume. Highlight Kafka/Streams/KEDA, AWS EKS, ArgoCD, Terraform, Helm/Istio, Redis, observability and end-to-end ownership. Separate Angular18 TypeScript from Node backend experience. Prepare Node runtime, document modelling and GCP mapping with truthful examples.
+- Prepare: Strong cloud/GitOps/event-platform overlap; Node/media transition, countries/timezone/pay to establish. No production ML inferred.
+- Questions: SG or India employee/EOR/international B2B allowed? Client identity/duplicate project? Java-to-Node transfer acceptable given truthful Node years? Exact working overlap/DST/on-call? Pay range/currency/global versus local bands? Hours/duration/leave/notice/cancellation/payment/fees?
+- Verification: 20Oct2026 exact official Kake role live with full description, CV/location fields, role-specific questions and Apply Now button, no closed marker. Final server acceptance not tested; no submission. Generic TS/Python/C#747b5a144a7d opened separately but conflicting C#/.NET/Node screening and PST overlap held, not substituted for this job.
+
