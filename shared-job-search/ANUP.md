@@ -2027,7 +2027,7 @@ Verification: 20October2026: actual official Workday URL reachable but returns b
 
 Deduplication: NoREF088636W/CloudPlatformprovisioning/configuration automation in180sharedjobs/history and3runtime/applicationexports. PriorVisaREF082409W isMiddlewarePRE reliability/deployvalidation/observability for middleware, not same team/project description. Both have genericplatform/AIoverlap; internal team/reqrelation toconfirm if recruiter suggests sharedtrack. No newalert based onlyonrenamedtitle orrefresh.
 
-## Encora Java/React opportunity: pending ChatGPT delivery
+## Encora Java/React opportunity: delivered 20 October 2026
 
 ### Java Full Stack Developer / Java Developer, overlapping Singapore Java-React hiring track
 
@@ -2056,3 +2056,25 @@ Questions: Which client, project and funded vacancy do 5205360007 and 5205352007
 Verification: 20 October 2026: both complete official descriptions accessible with Apply and blank applicant fields for contact/CV, residence, authorization, availability and Submit. No closed marker. No fields filled, application sent or employer contacted.
 
 Deduplication: No Encora employer, exact requisitions or substantially matching Java-React description in 182 shared jobs/history or three available runtime/application exports. Two Singapore 5+ year Java/Spring/React roles with undisclosed client could overlap, so conservatively consolidated as one track/alert, not two application targets. Require client/project clarification to avoid duplicate supplier applications. Historical coverage incomplete.
+
+## weSource Singapore generalist engineer: pending ChatGPT delivery
+
+[Sr Software Engineer - SG Based - 12K - Hybrid](https://wesource.careers-page.com/jobs/f9d66299-e9a6-4593-abe6-637e271defb9)
+
+Description/title says hybrid; structured page says On-Site. Singapore presence required; exact office cadence to confirm. Not overseas remote.
+
+Pay: 10,000-12,000 SGD / Month on official listing and board. Description says up to 12K monthly based on experience. Base versus all-in package, guaranteed payments, bonus/equity/allowances unspecified. Calculation only: SGD10000-12000/month x 12 = SGD120000-144000 for 12 monthly payments. Guaranteed annual base not established until package terms confirmed. Upper end equals Meena SGD12000/month target reference, not current salary; no uplift claim.
+
+Priority 2. Close match to Java/SQL/cloud/generalist delivery and secure integration; worthwhile application after work-pass/attendance/package clarification. No proven financial uplift.
+
+Resume: Use Anup's Java/full-stack resume. Lead verified Spring Boot/Security, SQL optimization/data models, enterprise API/SaaS integrations, AWS/CI/CD and production diagnosis. Show actual design-to-deployment decisions/outcomes, without invented metrics. Prepare Fargate/Linux/firewall specifics; ask for client identity and ownership/pay before lengthy assessment.
+
+Preparation: Both Java/Spring/SQL/AWS/full-stack delivery and integration experience transfer closely; Python is not an automatic blocker because explicit Java-or-Python requirement. Establish real firewall configuration, Linux and ECS Fargate depth with truthful examples. Employer calls position mid-level despite Senior title; calibrate authority and support burden.
+
+Hours/terms: Description says day shift starting 9 AM, presumed Singapore local given location but confirm end time/timezone. Full lifecycle includes third-level operations support; on-call, weekends, allowances and time off unknown. No overseas overlap/DST requirement stated. Full-time advertised, permanence/duration/renewal, payroll entity, probation/notice, paid leave/benefits, salary breakdown and support coverage unknown. No contract billable hours/rate guaranteed.
+
+Questions: Identify end client/project/requisition before supplier submission to avoid duplicates. Is Singapore-based non-PR with a work pass eligible and will new sponsorship be provided? Resolve hybrid versus On-Site, days/hours and third-level on-call/pay. Is SGD10000-12000 guaranteed monthly base or all-in; AWS/bonus/equity/benefits? Permanent/fixed-term and payroll entity? Actual senior/lead grade, architecture authority and AWS/Fargate/Linux/firewall expectations?
+
+Verification: 20 October 2026: official recruiter current board lists vacancy among Open Positions, full exact role and legacy Manatal description accessible with Apply. Opened migrated /apply route: title/pay visible but applicant fields not exposed in extracted page; submission path incompletely verified, not declared closed. No application/contact made.
+
+Deduplication: No weSource/exact req or distinctive inhouse-built/third-level generalist description match in 183 shared jobs/history or three available runtime/application exports. Robert Half Marina Bay digital assets vacancy has same broad pay/location but different trading-specific description; overlap not established. Client/project identity remains required before submission. Two official Manatal URLs are one canonical role; timestamp refresh not counted as new. Historical coverage incomplete.
