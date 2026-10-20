@@ -2237,3 +2237,49 @@ EPAM Senior banking Java21/Boot/OpenShift reqbltoktsnryysjimu2e1 merged as alias
 Prior 555 Group, Accenture Agentic Engineer and Singtel Full-Stack AI alerts confirmed delivered from actual conversation; no repeat alert or new source check implied.
 
 Known Luxoft FX eTrading reqVR124976: official description and application fields reopened20Oct. Finsurge MCF2026-1717626 has substantially identical FX Ecommerce/backend/streaming API/bank wording and is consolidated as recruiter copy, not a new role by lead title. Finsurge-specific indexed paySGD11,000-13,000/month and permanent/full-time, posted29Sep/closing29Oct2026, must not be applied to Luxoft hiring. MCF direct fetch failed; Finsurge application intake/entity/client and terms require clarification. Original Luxoft published-compensation field remains unchanged. No application/contact.
+
+## New tracks checked20October2026: Shopee
+
+### Senior Backend Engineer - Payment Platform
+
+[Job and application route](https://sg.jobstreet.com/job/95325040)
+
+Singapore; office/onsite/hybrid cadence not specified on employer-attributed descriptions. Do not assume remote work. Full-time. Singapore location explicitly advertised; source location fit confirmed, personal authorization/sponsorship unconfirmed. Not advertised as Singapore/India remote.
+
+Pay: No numeric salary/rate published; no separate base/bonus/equity amounts stated. Aggregator estimates excluded. Unavailable: no applicable published pay. Meena S$12,000/month target reference is not current salary.
+
+Priority1. Closest new track: direct Java/payment/distributed-platform transfer; prepare MySQL/Redis/RPC and wallet reliability. Screen grade/pay and Java language weighting.
+
+Resume: Java/backend regulated payments and platform modernization. Use senior Java/payments resume. Lead with verified NTT DATA/Great Eastern payment/reconciliation, secure API/OAuth2/mTLS, Kafka/SQL, Kubernetes and production diagnosis. Explain real concurrency/transaction tradeoffs. Describe Go as limited; establish Python separately. No unverified traffic metrics, wallet scale or production ML.
+
+Preparation: Clarify whether Java is sufficient or Go/Python production depth also expected. Prepare wallet/settlement consistency, idempotency, Kafka delivery/replay, MySQL indexing/locking, Redis, RPC, performance and failure recovery with truthful examples; no invented scale.
+
+Hours/terms: Core hours, cross-region overlap/DST, formal on-call frequency/pay/TOIL and travel not published. Full-time listed. Exact entity/permanence, probation, leave, benefits, notice, base/variable/equity split and on-call terms to establish.
+
+Questions: Can Java-focused engineers qualify and what language split? Correct Sea/Shopee/Monee employing entity and req? Salary/base/bonus/equity near Meena target? Work-pass support, office cadence, senior/lead authority, global hours/on-call/TOIL, notice and benefits? One-active-role group rule and any current application queue?
+
+Listing explicitly says only one role at a time across Group; applications considered in order. Rank this before business security for both.
+
+Verification: 20Oct2026: Shopee employer LinkedIn4479376098 live with Apply, Singapore/full-time and full description. Jobstreet95325040 same Shopee Singapore employer description live; Apply95325040/apply returns blank JS shell, final form not verified. Jobstreet warns hirer not verified, but exact description cross-checks employer LinkedIn.95323865 Northern Point Technology II duplicates same ShopeePay project, not separate match; entity relationship unverified. Older Monee4364371171 indexed no longer accepting, retained as overlap/history, not active application. No submission/contact.
+
+### Senior Backend Engineer, Business Security - Platform (overlapping expert/senior-expert track)
+
+[Job and application route](https://sg.linkedin.com/jobs/view/senior-backend-engineer-business-security-platform-at-shopee-4460226308)
+
+Singapore; office/onsite/hybrid cadence not specified on employer-attributed descriptions. Do not assume remote work. Full-time. Singapore location explicitly advertised; source location fit confirmed, personal authorization/sponsorship unconfirmed. Not advertised as Singapore/India remote.
+
+Pay: No numeric salary/rate published; no separate base/bonus/equity amounts stated. Aggregator estimates excluded. Unavailable: no applicable published pay. Meena S$12,000/month target reference is not current salary.
+
+Priority3. Conditional AI/data-platform stretch, not proven senior-expert AI delivery. Payments role higher priority; do not start second simultaneous Group application.
+
+Resume: Secure Java/backend-platform and AI-assisted engineering. Use secure Java/backend resume, genuine API auth/integration, Kafka/SQL/K8s, observability and coding-agent context/review practices. Prepare real risk-pipeline and LLM-tool demonstration with permissions/evaluation. Establish Flink/Spark tenure and application-building separately; do not claim production agents or fine-tuning.
+
+Preparation: Ambitious AI/data-platform transition. Establish actual Flink/Spark duration and LLM application/testing evidence; Kafka Streams/KEDA does not prove Flink/Spark tenure. Coding-agent use does not establish extensive production LLM implementation expected by senior-expert. Clarify suitable grade and whether application integration experience qualifies; no ML research inferred.
+
+Hours/terms: Core hours, cross-region overlap/DST, formal on-call frequency/pay/TOIL and travel not published. Full-time listed. Exact entity/permanence, probation, leave, benefits, notice, base/variable/equity split and on-call terms to establish.
+
+Questions: Which single requisition/grade best fits verified background? Is1+year Flink/Spark non-negotiable and can Kafka Streams transfer? Required production LLM delivery versus prototypes? Java stack details, anti-fraud scope, SG sponsorship/attendance, base near target, hours/on-call and employing entity? Respect one-active-group-role rule; payments priority first.
+
+Same Sea/Shopee group as payment role: choose one active application at a time per payment listing; do not submit both simultaneously.
+
+Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with Apply, Singapore/full-time. Senior-expert4456097257 also opened live with full description and Apply. Both substantial Business Security project overlap; one canonical track not multiple alerts. Expert4450349573 click hit429 and not fully verified. Older4417828830/4418228138 search-indexed closed, not active routes. Downstream LinkedIn/offsite application fields not inspected; no login, submission or contact.
