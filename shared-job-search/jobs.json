@@ -10261,9 +10261,10 @@
       "authorization_sponsorship": "Singapore work location supported; personal work rights and employer sponsorship unknown. No India onsite or overseas remote entitlement inferred.",
       "compensation_geography": "Singapore position. No applicable numeric salary or global versus location-adjusted policy established.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert, not yet delivered. Reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and external-work supplied conversation confirm delivery; exact timestamp unknown.",
+        "first_reported_date": "2026-10-20"
       },
       "upside": "Career-growth candidate (assessment); compensation to establish. No earnings promise.",
       "status_at_last_check": "Listing accessible with Apply; final submission workflow not verified. No application or contact.",
@@ -10314,9 +10315,10 @@
       "authorization_sponsorship": "Singapore work location supported; personal work rights and employer sponsorship unknown. No India onsite or overseas remote entitlement inferred.",
       "compensation_geography": "Singapore position. No applicable numeric salary or global versus location-adjusted policy established.",
       "report_history": {
-        "already_reported": false,
-        "state": "pending_delivery",
-        "note": "Prepared alert, not yet delivered. Reconcile only after actual ChatGPT final."
+        "already_reported": true,
+        "state": "delivered",
+        "note": "Actual prior ChatGPT final and external-work supplied conversation confirm delivery; exact timestamp unknown.",
+        "first_reported_date": "2026-10-20"
       },
       "upside": "Career-growth candidate (assessment); compensation to establish. No earnings promise.",
       "status_at_last_check": "Listing accessible with Apply; final submission workflow not verified. No application or contact.",
@@ -10357,6 +10359,58 @@
           "resume_emphasis": "Hands-on lead/full-stack cloud modernization and event-driven systems",
           "tailoring": "Use Meena's lead/full-stack cloud-native resume. Emphasize Camel, Kafka/Streams, AWS/Kubernetes, technical design, mentoring and verifiable enterprise incident/reliability outcomes. Establish whether role offers lead-level decision authority and comparable guaranteed base; lower priority if delivery-only grade or budget below target.",
           "fit_and_preparation": "Technically relevant Camel/event-driven cloud work with business ownership, but title/contract and unpublished pay may not improve current lead scope. Establish lead remit and budget before applying; NoSQL/frontend specifics are preparation points.",
+          "application_status": "Not applied or approved"
+        }
+      }
+    },
+    {
+      "job_id": "okx-ai-agent-engineering-7699598003",
+      "employer": "OKX",
+      "title": "Senior/Staff Engineer, AI Agent Development",
+      "requisition": "7699598003",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7699598003",
+      "canonical_url": "https://job-boards.greenhouse.io/okx/jobs/7699598003",
+      "url_aliases": [],
+      "import_source": "Exact official OKX Greenhouse vacancy and complete blank application form reopened20October2026 Singapore date",
+      "last_checked": "2026-10-20",
+      "posted": "Not published on exact official listing. Current crawl is not original posting date.",
+      "location": "Singapore, Singapore",
+      "arrangement": "Singapore work location; onsite/hybrid cadence not stated. No worldwide or India remote arrangement advertised.",
+      "engagement_type": "Not explicitly stated on exact official description/form; permanent versus fixed-term, full-time/contract and hours to establish. Do not infer from title or general benefits.",
+      "eligibility": "Eligibility-unconfirmed Singapore lead, not confirmed personal eligibility. Employer explicitly prioritises applicants with current right to work in Singapore who do not require its visa sponsorship. This is priority wording, not a retrieved categorical sponsorship ban. Confirm whether new-pass support is considered; existing EP does not establish transfer permission. No eligible India remote/relocation assumed.",
+      "published_compensation": "No numeric salary or rate published. Competitive total compensation advertised with no cash/base, bonus or equity breakdown. Healthcare, meal/wellness allowances and learning support advertised without numeric value.",
+      "sgd_comparison": "No applicable published numeric pay/period to convert or annualize. No income uplift established; Meena SGD12000/month target is a screening reference, not current salary or role pay.",
+      "compensation_geography": "Singapore role; exact local base/period and global/location-adjusted compensation policy unknown. No foreign regional band substituted.",
+      "verification": "20October2026: complete official exact role accessible with Apply and full blank applicant fields including location, work eligibility, now/future sponsorship, notice, languages, CV and Submit. No closed marker. No fields filled, application sent, account created or contact made.",
+      "evidence_urls": [
+        "https://job-boards.greenhouse.io/okx/jobs/7699598003"
+      ],
+      "fit": "Enterprise AI-native software-engineering platform rather than ML research. Architecture/delivery of task/tool/context/memory and multi-agent systems; AI coding, solution/test/report generation and environment automation; RAG/GraphRAG/knowledge layer; agent isolation, permissions, audit/evaluation/reliability/cost governance. Java/Python accepted, 6+ backend/platform/infrastructure years, complex-system design, CI/CD/Kubernetes and cross-team engineering.",
+      "preparation": "Ambitious applied-AI/platform stretch for both. LangChain/LangGraph hands-on and RAG/GraphRAG/knowledge-solution development are explicit requirements; actual depth unconfirmed. Coding-agent use alone does not establish agent-platform delivery. Prepare executable orchestration/tool-permission/evaluation and recovery examples, state/memory boundaries, prompt-injection defenses, observability and cost tests. No claim of production ML research, production agent platform, unconfirmed framework tenure or metrics.",
+      "authorization_sponsorship": "Priority for current Singapore rights without employer sponsorship, explicit. Actual new Singapore pass support uncertain, not promised; do not equate current employment pass with transferable rights.",
+      "hours_on_call": "Timezone overlap, office attendance, weekly hours, on-call/incident rota, nights/weekends and compensation/time off not stated. Productionizing/scaling/stability ownership explicit.",
+      "terms": "Employment type, guaranteed base/period, variable/equity, leave, probation, notice, permanent/fixed-term, on-call and benefits eligibility not stated. No B2B terms or overseas contractor mechanism advertised.",
+      "upside": "Career-growth candidate (assessment), applied-AI stretch: real platform architecture, agent governance and engineering automation ownership. Compensation to establish, no proven income growth.",
+      "questions": "Does OKX consider applicants requiring a new Singapore work pass despite local-rights priority? Exact employment type, grade/decision authority, guaranteed SGD base/period, separate bonus/equity/benefits and Meena target budget? Attendance/core hours/global overlap/DST/on-call/notice? How much LangChain/LangGraph and RAG/GraphRAG prior delivery is essential, and can strong Java/cloud delivery plus truthful prototypes or engineering automation evidence qualify? Immediate platform maturity, production ownership, evaluation/security expectations and take-home scope/IP?",
+      "deduplication_note": "No exact7699598003 or AI Agent engineering-platform track in178shared jobs/events or three read-only runtime/application exports. Distinct from prior OKX Application Architect7766838003(stability/JVM),PaySmartAccount7596531003(paymentsettlement)andWeb3Wallet7821268003(walletbackend). Historical coverage incomplete. Camunda runtime record pay defaults not imported. Other candidates excluded from new shortlist when closed/country blocked, including Watu Europe,Teamworks US,Agoda explicit no sponsorship and CloudLinux B73EAD4735 redirectednot_found.",
+      "report_history": {
+        "already_reported": false,
+        "state": "pending_delivery",
+        "note": "Prepared alert not yet delivered. Reconcile only after actual ChatGPT final."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java/backend platform with AI-assisted engineering",
+          "tailoring": "Use Anup's Java/backend-platform and AI-assisted engineering resume. Foreground verified Cursor/Copilot/Claude Code/Codex context and verification practices, secure APIs/OAuth2/mTLS, CI/CD, Kubernetes/AKS and observability. Prepare an original agent workflow with permission limits, reproducible tests and failure recovery; distinguish practical coding-tool use from building LangGraph/RAG/GraphRAG infrastructure. Only describe actual implementation contributions and outcomes.",
+          "fit_and_preparation": "Strong transferable backend/security/platform and coding-agent evidence; ambitious agent-platform/RAG framework delivery depth to establish. Sponsor screen before long assessment.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead/cloud platform and AI application integration",
+          "tailoring": "Use Meena's lead/backend/cloud-native and AI-integration resume. Highlight genuine system-design decisions, Kafka/Streams, AWS/EKS, Terraform/GitOps, DevSecOps, observability and mentoring. Describe SpringAI/RAG/MCP/ClaudeAPI examples as prototypes, their evaluation/failure handling and own contributions. Establish actual daily coding-agent practice and LangChain/LangGraph/GraphRAG depth, without converting prototypes into production history.",
+          "fit_and_preparation": "Transferable leadership/cloud delivery plus AI-integration prototypes; ambitious agent-runtime and governance scope to establish. Screen senior/staff authority, budget near target and sponsorship before lengthy work.",
           "application_status": "Not applied or approved"
         }
       }
