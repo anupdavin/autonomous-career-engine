@@ -12874,6 +12874,61 @@
         }
       },
       "deduplication_note": "Distinct from previously reported Citi Java VP requisition 26998988 and Technology Lead Analyst requisition. This AVP requisition 26998646 targets equity-derivatives trade capture and lifecycle applications with a separate official application route."
+    },
+    {
+      "employer": "Smartsheet",
+      "title": "Sr. Software Engineer II",
+      "status_at_last_check": "Active official Greenhouse application page",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "Bangalore, India",
+      "arrangement": "Official page carries #LI-Remote, but the job location is Bangalore; confirm India-wide remote eligibility and whether any office attendance is required",
+      "eligibility": "Remote India lead. Ongoing legal eligibility to work in India is explicitly required. Singapore employment is not advertised; personal India work authorization is not inferred.",
+      "engagement_type": "Not stated on the official page; confirm employee classification",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable India base, bonus and equity unknown; no Singapore band advertised",
+      "sgd_comparison": "Unavailable: no employer-published guaranteed cash and the India-local package is unknown",
+      "authorization_sponsorship": "Applicant must be legally eligible to work in India on an ongoing basis; sponsorship is not offered or described",
+      "posted": "Not published on the official page; page verified active 21 Oct 2026",
+      "terms": "Core hours, timezone overlap, on-call, entity, benefits, leave, notice and remote-work expenses unknown",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/smartsheet/jobs/8258836"
+      ],
+      "import_source": "Official Smartsheet Greenhouse application page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "smartsheet-sr-software-engineer-ii-8258836",
+      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8258836",
+      "canonical_url": "https://job-boards.greenhouse.io/smartsheet/jobs/8258836",
+      "url_aliases": [],
+      "requisition": "8258836",
+      "hours_on_call": "Unknown; operational excellence is stated, but no on-call rota or timezone requirement is published",
+      "fit": "Senior ownership across frontend, backend, cloud infrastructure and test automation, with Java, large-scale distributed systems, event-driven architecture, Kafka or Kinesis, CI/CD, mentoring, product delivery and AI-tool familiarity.",
+      "preparation": "Clarify Java depth and team assignment because the description spans multiple disciplines. Prepare event-processing scale, Kafka failure modes, database log streams, Flink/Spark, operational excellence and squad-lead examples. Do not imply unconfirmed Flink or production AI expertise.",
+      "questions": "Is #LI-Remote available anywhere in India with no Bangalore office requirement? Which engineering team and backend/frontend split? What are the India base, bonus/equity, employment entity, benefits, core hours, on-call and location-adjustment policy? How is AI familiarity evaluated?",
+      "upside": "Career-growth candidate and compensation to establish: broad product ownership, distributed event processing, mentoring and AI-enabled product direction at a direct product employer.",
+      "verification": "Official application page active 21 October 2026 with Bangalore location, #LI-Remote tag, ongoing India work-eligibility requirement and complete application form. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, distributed-systems and AI-assisted engineering resume",
+          "tailoring": "Lead with Java/Spring, Kafka, SQL Server transaction/log experience where truthful, AWS/Azure Kubernetes, CI/CD, production diagnosis, mentoring and responsible coding-agent verification. Add a genuine event-driven reliability or high-throughput example.",
+          "fit_and_preparation": "Strong Java, Kafka, distributed systems, CI/CD, product ownership and mentoring fit. Prepare Kinesis, database log streams, Flink/Spark and squad-lead evidence as transferable or learning areas, not assumed gaps.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java, event-driven cloud platform and AI-integration resume",
+          "tailoring": "Emphasize Java 21/Spring Boot 3, Kafka Streams, KEDA, AWS EKS/ECS, CI/CD, observability, mentoring and cross-functional product delivery. Keep Spring AI/RAG/MCP work labelled as prototypes.",
+          "fit_and_preparation": "Very strong event-driven Java, Kafka Streams, cloud infrastructure, mentoring and leadership fit. Prepare database log streams, Flink/Spark and remote team operating examples; screen the India-local package against career and income goals.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No exact requisition, employer-title match or substantially identical Smartsheet role found in the shared 223-job ledger before insertion."
     }
   ]
 }
