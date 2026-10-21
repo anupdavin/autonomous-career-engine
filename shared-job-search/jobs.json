@@ -12929,6 +12929,284 @@
         }
       },
       "deduplication_note": "No exact requisition, employer-title match or substantially identical Smartsheet role found in the shared 223-job ledger before insertion."
+    },
+    {
+      "employer": "Sardine",
+      "title": "Solutions Architect, Integrations (APAC)",
+      "status_at_last_check": "Active official Ashby application page",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "Remote APAC; official page lists Singapore and says ideally Singapore or India",
+      "arrangement": "Full-time remote-first; work from anywhere within supported APAC hiring locations, ideally Singapore or India",
+      "eligibility": "Singapore and India are explicitly named as ideal APAC locations. The employing entity, local benefits, and personal work authorization requirements remain unconfirmed.",
+      "engagement_type": "Full-time",
+      "published_compensation": "SGD 175K to SGD 200K; offers equity and bonus. The page labels this Compensation but does not explicitly separate base from total cash.",
+      "compensation_geography": "Official page lists Singapore and warns compensation may differ by candidate location; do not apply this SGD range to an India engagement without written confirmation.",
+      "sgd_comparison": "Employer-published SGD range is numerically above Meena's SGD 144,000 annual reference, but guaranteed base and India applicability are not established.",
+      "authorization_sponsorship": "Unknown; no sponsorship or existing-work-right requirement was visible in the indexed official posting",
+      "posted": "Official posting date not shown; a third-party index dates the listing to 29 Jun 2026, while the official page was active and indexed 21 Oct 2026",
+      "terms": "Remote-first and performance-focused rather than hours-focused. Exact APAC overlap, travel, on-call, benefits, leave, notice, employing entity and payment location are not stated.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/sardine/26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2/"
+      ],
+      "import_source": "Official Sardine Ashby job page and current indexed content checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "sardine-solutions-architect-integrations-apac-26bf8965",
+      "url": "https://jobs.ashbyhq.com/sardine/26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2/",
+      "canonical_url": "https://jobs.ashbyhq.com/sardine/26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2/",
+      "url_aliases": [],
+      "requisition": "26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2",
+      "hours_on_call": "Exact working hours and on-call are not published. APAC customer coverage is inherent in the role; confirm travel and escalation coverage.",
+      "fit": "Hands-on client onboarding and end-to-end integrations for fraud, payments and compliance products, including APIs, SDK documentation, technical solution design, implementation governance and cross-team delivery.",
+      "preparation": "Prepare customer-facing integration discovery, OpenAPI, Postman, scripting, project-risk management and fraud/AML onboarding examples. Java, Spring, Camel, secure APIs and regulated payments are strong transferable evidence; do not imply formal Solutions Architect tenure.",
+      "questions": "Is the SGD 175K to 200K range base salary or total cash, and does it apply to Singapore only? What are the India band, employing entity/EOR, bonus target, equity terms, work-right rules, APAC hours, escalation/on-call, travel and implementation-versus-presales split?",
+      "upside": "Income-growth and career-growth candidate, subject to compensation classification and local engagement terms: published SGD range, equity/bonus and senior fintech integration ownership.",
+      "verification": "Official Ashby URL remained live and indexed on 21 October 2026 with a current application listing, Singapore location, full-time remote status, APAC eligibility, Singapore/India preference and compensation range. The page renders through JavaScript in the verifier, so final form submission was not tested.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java secure-integration, payments and solution-architecture resume",
+          "tailoring": "Lead with Great Eastern payments, Java/Spring, Apache Camel/EIP, OAuth2/mTLS, REST/GraphQL, integration troubleshooting, stakeholder delivery and production reliability. Add only genuine client or cross-team design ownership.",
+          "fit_and_preparation": "Strong regulated-payments and secure-integration fit with a credible hands-on architecture step. Prepare OpenAPI/Postman, scripting, implementation governance and customer-facing examples.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, fintech integration and cloud-platform resume",
+          "tailoring": "Emphasize Java 21/Spring Boot, Camel/EIP, Kafka, secure API delivery, cloud-native operations, technical leadership and stakeholder coordination. Keep Spring AI/RAG/MCP work labelled as prototypes.",
+          "fit_and_preparation": "Strong fintech, integration, technical leadership and delivery-ownership fit. Prepare solution-discovery, customer onboarding, OpenAPI/Postman, implementation risk and client escalation examples.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Sardine employer, requisition, URL alias or substantially identical APAC integrations role existed in the 224-job shared ledger."
+    },
+    {
+      "employer": "Onehouse",
+      "title": "Senior / Staff Software Engineer, Distributed Data Systems",
+      "status_at_last_check": "Two active official Lever application pages, consolidated as one level-calibration track",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "India-Remote",
+      "arrangement": "Full-time remote in India; generic benefits text notes some roles can have in-person requirements, so confirm this specific track has none",
+      "eligibility": "India-remote employee opportunity. Singapore employment is not advertised. Personal India work authorization is not inferred.",
+      "engagement_type": "Full-time",
+      "published_compensation": "No numeric base published. Equity eligibility, up to INR 20,000 monthly insurance reimbursement, employer provident-fund contribution up to INR 1,800 per month, unlimited PTO with one-week annual minimum, 17 paid company holidays and USD 500 home-office stipend are stated.",
+      "compensation_geography": "India-local package; no Singapore band advertised",
+      "sgd_comparison": "Unavailable: no employer-published base salary",
+      "authorization_sponsorship": "Not stated; confirm India work-right and sponsorship requirements",
+      "posted": "Not published on official pages; both pages verified active 21 Oct 2026",
+      "terms": "Remote India, full-time. Benefits are published, but base salary, bonus, core hours, on-call, notice, travel and any in-person cadence are not.",
+      "source_urls": [
+        "https://jobs.lever.co/Onehouse/3531e786-ad84-4d0d-a0bd-113415bd328f",
+        "https://jobs.lever.co/Onehouse/86d44a41-13e8-4ec7-8604-f3756aa1b5d7"
+      ],
+      "import_source": "Official Onehouse Lever pages checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "onehouse-distributed-data-systems-india-3531e786",
+      "url": "https://jobs.lever.co/Onehouse/3531e786-ad84-4d0d-a0bd-113415bd328f",
+      "canonical_url": "https://jobs.lever.co/Onehouse/3531e786-ad84-4d0d-a0bd-113415bd328f",
+      "url_aliases": [
+        "https://jobs.lever.co/Onehouse/86d44a41-13e8-4ec7-8604-f3756aa1b5d7"
+      ],
+      "requisition": "3531e786-ad84-4d0d-a0bd-113415bd328f; staff-level alias 86d44a41-13e8-4ec7-8604-f3756aa1b5d7",
+      "hours_on_call": "Running production services is explicit at Staff level; the on-call rota and timezone overlap are not published.",
+      "fit": "Deep Java distributed-data engineering on Apache Hudi: concurrency control, transactional engines, indexing, metadata, query/storage systems, stream processing and Kubernetes-scale optimization.",
+      "preparation": "Prepare database internals, transactions, concurrency, indexing, algorithms and distributed failure scenarios. Apache Hudi, Spark/query engines, C++ and optimization mathematics are preparation points, not assumed experience.",
+      "questions": "Which level should each candidate target, and are both requisitions one shared hiring track? What are the India base, bonus/equity terms, work-right requirement, core hours, on-call, interview depth on database internals and any in-person requirement?",
+      "upside": "Career-growth candidate and compensation to establish: Staff-caliber Java systems work in an open-source transactional data platform.",
+      "verification": "Both official Lever pages were active 21 October 2026 with Apply links, India-Remote, full-time classification and substantially identical team scope. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java distributed-systems, database and reliability resume",
+          "tailoring": "Emphasize Java/JVM, PostgreSQL/Oracle/SQL Server, concurrency and transaction reasoning, Kafka, Kubernetes, performance diagnosis and production reliability. Do not claim Hudi, Spark internals or research publications.",
+          "fit_and_preparation": "Strong Java, SQL, Kafka, Kubernetes and systems-reliability transfer. Prepare database internals, indexing, query engines and algorithmic interviews; apply at Senior first unless Staff-level evidence is strong.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead Java, event-driven distributed platform resume",
+          "tailoring": "Lead with Java 21, Kafka Streams, PostgreSQL/Oracle, Kubernetes, observability, incident ownership, mentoring and cross-team architecture. Keep Hudi/Spark internals as preparation.",
+          "fit_and_preparation": "Credible Staff-track stretch through event-driven platforms, cloud-native operations and technical influence. Prepare concurrency control, database internals, indexing and high-scale data-system design.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Senior and Staff pages describe the same Onehouse Data Infrastructure team and substantially identical Hudi responsibilities; consolidated as one level-calibration opportunity rather than two alerts."
+    },
+    {
+      "employer": "Onehouse",
+      "title": "Backend Engineer, Kubernetes Infrastructure",
+      "status_at_last_check": "Active official Lever application page",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "India-Remote",
+      "arrangement": "Full-time remote in India; generic benefits text notes some roles can have in-person requirements, so confirm none apply",
+      "eligibility": "India-remote employee opportunity. Singapore employment is not advertised. Personal India work authorization is not inferred.",
+      "engagement_type": "Full-time",
+      "published_compensation": "No numeric base published. Equity eligibility, up to INR 20,000 monthly insurance reimbursement, employer provident-fund contribution up to INR 1,800 per month, unlimited PTO with one-week annual minimum, 17 paid company holidays and USD 500 home-office stipend are stated.",
+      "compensation_geography": "India-local package; no Singapore band advertised",
+      "sgd_comparison": "Unavailable: no employer-published base salary",
+      "authorization_sponsorship": "Not stated; confirm India work-right and sponsorship requirements",
+      "posted": "Not published on official page; verified active 21 Oct 2026",
+      "terms": "Remote India, full-time. Base, bonus, core hours, on-call, notice and any in-person cadence are not published.",
+      "source_urls": [
+        "https://jobs.lever.co/Onehouse/02defd5a-e1d8-46b4-8e3b-7bac65b0f59a"
+      ],
+      "import_source": "Official Onehouse Lever page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "onehouse-kubernetes-infrastructure-india-02defd5a",
+      "url": "https://jobs.lever.co/Onehouse/02defd5a-e1d8-46b4-8e3b-7bac65b0f59a",
+      "canonical_url": "https://jobs.lever.co/Onehouse/02defd5a-e1d8-46b4-8e3b-7bac65b0f59a",
+      "url_aliases": [],
+      "requisition": "02defd5a-e1d8-46b4-8e3b-7bac65b0f59a",
+      "hours_on_call": "Production debugging and platform reliability are explicit; on-call and timezone overlap are not stated.",
+      "fit": "Backend software engineering for Kubernetes-native infrastructure, operators, controllers, CRDs, reconciliation loops, cloud APIs and distributed systems across AWS, GCP and Azure. Java is accepted, though Go is preferred.",
+      "preparation": "The central screen is production software built against Kubernetes APIs, not cluster administration. Prepare Operators, controller-runtime, CRDs, reconciliation and control-plane design; do not equate Kubernetes deployment experience with Operator development.",
+      "questions": "How strict is prior production Operator/controller-runtime experience, and can a Java-dominant platform engineer ramp in Go? What are the India base, bonus/equity, work-right requirement, hours, on-call and any in-person cadence?",
+      "upside": "Career-growth platform stretch and compensation to establish: move from cloud-native application delivery into Kubernetes control-plane software.",
+      "verification": "Official Lever page active 21 October 2026 with Apply link, India-Remote and full-time classification. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Java cloud-platform, Kubernetes and distributed-systems resume",
+          "tailoring": "Emphasize AKS/Kubernetes/Helm/Rancher, Java backend services, cloud APIs, observability, debugging and reliable automation. Clearly separate cluster use from any genuine Operator/CRD work.",
+          "fit_and_preparation": "Ambitious platform stretch. Java, Kubernetes and cloud experience transfer, but production Operators, controller-runtime and Go are material screening points.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead cloud-platform, Kubernetes and DevSecOps resume",
+          "tailoring": "Emphasize EKS/ECS, Kubernetes/Helm/Istio, ArgoCD, Terraform, Java 21 services, observability and platform reliability. State Operator/CRD experience only if demonstrable.",
+          "fit_and_preparation": "Strong cloud-native platform foundation with a credible control-plane stretch. Prepare Operators, CRDs, reconciliation loops, Kubernetes APIs and Go transition.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct Onehouse Cloud Infrastructure role focused on Kubernetes control-plane software, not the consolidated Hudi Data Infrastructure track."
+    },
+    {
+      "employer": "Jumio",
+      "title": "Software Development Engineer IV, QA",
+      "status_at_last_check": "Active official Greenhouse page and application form",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "India (remote)",
+      "arrangement": "Remote India; no office attendance requirement stated",
+      "eligibility": "India-remote role. Application explicitly asks whether the candidate is eligible to work in the location without sponsorship. Singapore is not advertised.",
+      "engagement_type": "Not stated on official page; confirm employee classification",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable India base, bonus and benefits unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Hard screen: must indicate eligibility to work in India without sponsorship; personal eligibility is not inferred",
+      "posted": "Not published on official page; verified active 21 Oct 2026",
+      "terms": "Remote India. Core hours, on-call, employment entity, benefits, leave, notice and remote expenses are not published.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/jumio/jobs/4708282005"
+      ],
+      "import_source": "Official Jumio Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "jumio-sde-iv-qa-4708282005",
+      "url": "https://job-boards.greenhouse.io/jumio/jobs/4708282005",
+      "canonical_url": "https://job-boards.greenhouse.io/jumio/jobs/4708282005",
+      "url_aliases": [],
+      "requisition": "4708282005",
+      "hours_on_call": "Performance, resilience and production quality ownership are explicit; no on-call or timezone requirement is published.",
+      "fit": "Senior hands-on quality architecture for Java Spring Boot microservices, TypeScript portals, AWS ECS/EKS/Lambda, event-driven messaging, API/UI automation, performance testing, CI/CD and responsible Copilot/Claude Code/Cursor use.",
+      "preparation": "Deep Playwright or Selenium, test-framework architecture, REST-assured, performance/load testing and quality metrics are central requirements. Prepare evidence or treat this as an intentional quality-engineering pivot.",
+      "questions": "Is deep QA/test-architecture tenure mandatory, and what evidence is expected for AI-augmented quality workflows? What are the India base, benefits, employee entity, work-right validation, core hours, production support and on-call?",
+      "upside": "Applied-AI and engineering-quality career-growth candidate, conditional on appetite for a QA/platform-quality specialization.",
+      "verification": "Official Greenhouse page active 21 October 2026 with complete application form, India remote location, detailed requirements and no-sponsorship work-eligibility question. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Java backend, delivery quality and AI-assisted engineering resume",
+          "tailoring": "Highlight Java/Spring, TypeScript, API testing, CI/CD, Kubernetes, incident diagnosis and rigorous coding-agent verification. Do not imply ownership of Playwright/Selenium frameworks or AI productivity metrics unless established.",
+          "fit_and_preparation": "Strong stack overlap but a material career-track pivot. Apply only with credible automation-framework and quality-strategy evidence; prepare Playwright/Selenium, REST-assured, performance testing and quality metrics.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead Java, DevSecOps, quality architecture and AI-integration resume",
+          "tailoring": "Emphasize Java 21/Spring Boot, TypeScript/Angular, AWS EKS/ECS, GitHub Actions/Jenkins, event-driven testing, mentoring and careful AI-assisted workflows. Keep AI feature work labelled as prototypes.",
+          "fit_and_preparation": "Strong cloud-native, CI/CD, mentoring and technical-quality fit, but deep UI/API automation ownership is a central screen. Apply if she wants a quality-platform leadership path.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Jumio employer, requisition or substantially identical senior QA architecture role existed in the shared ledger."
+    },
+    {
+      "employer": "Together AI",
+      "title": "Senior Software Engineer, Infra Agent Systems",
+      "status_at_last_check": "Active official Greenhouse page and application form",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "Remote based in India",
+      "eligibility": "India-remote role. Singapore is not advertised. Work-right and sponsorship requirements are not stated.",
+      "engagement_type": "Not stated on official page; confirm employee classification",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable India base, bonus/equity and benefits unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; confirm India employment eligibility and sponsorship",
+      "posted": "Not published on official page; verified active 21 Oct 2026",
+      "terms": "Remote India. Core hours, timezone overlap, on-call, equity, benefits, leave, notice and remote expenses are not stated.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/togetherai/jobs/5217063007"
+      ],
+      "import_source": "Official Together AI Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "together-ai-infra-agent-systems-5217063007",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5217063007",
+      "canonical_url": "https://job-boards.greenhouse.io/togetherai/jobs/5217063007",
+      "url_aliases": [],
+      "requisition": "5217063007",
+      "hours_on_call": "End-to-end production operation and support are explicit, but formal on-call and working hours are not published.",
+      "fit": "Production AI-agent and distributed-infrastructure platform engineering: agents for GPU-fleet incidents, orchestration, knowledge graphs, retrieval, evaluations, APIs, Kubernetes, ArgoCD, IaC, Kafka/NATS and observability.",
+      "preparation": "This is not an AI-assisted coding role. It requires production depth in at least one of agent systems, knowledge graphs, search/retrieval/RAG or semantic search. Prototypes are relevant evidence but must not be presented as production experience.",
+      "questions": "Will substantial backend/platform experience plus strong agent/RAG prototypes pass the production-depth screen? What are the India base/equity, entity, sponsorship, core hours, on-call, GPU-infrastructure expectations and interview focus?",
+      "upside": "Ambitious applied-AI career-growth stretch and compensation to establish: real production agent infrastructure, distributed systems and developer tooling.",
+      "verification": "Official Greenhouse page active 21 October 2026 with application form, remote India statement and detailed responsibilities. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Java backend, distributed-platform and AI-assisted engineering resume",
+          "tailoring": "Emphasize secure APIs, Kafka, Kubernetes, observability, incident diagnosis and verified agent-tool use. Clearly label lack of confirmed production agent/RAG ownership and present any genuine prototypes only.",
+          "fit_and_preparation": "High-risk stretch: backend, integration and infrastructure skills transfer, but production agent/search/graph depth and Go/Python/Rust/TypeScript are material screens.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Cloud-native platform and AI-application integration resume",
+          "tailoring": "Lead with Kubernetes, ArgoCD, Terraform, observability, Kafka Streams and Spring AI/RAG/MCP/Claude API prototypes. Label all prototypes accurately and explain evaluation/guardrail learning without claiming production fleet agents.",
+          "fit_and_preparation": "Credible ambitious stretch through cloud-platform delivery and agent/RAG prototypes, but production depth in agents, graphs or retrieval is an explicit requirement.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Together AI employer, requisition or substantially identical Infra Agent Systems role existed in the shared ledger."
     }
   ]
 }
