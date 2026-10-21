@@ -13658,6 +13658,122 @@
         }
       },
       "deduplication_note": "No Percept Solutions MCF-2026-1736199, exact URL or substantially identical Technical Lead - Java Full Stack record existed in the shared ledger. Recruiter and aggregator copies are aliases of this canonical opening."
+    },
+    {
+      "job_id": "camunda-senior-backend-data-streaming-ffd8bcc4",
+      "employer": "Camunda",
+      "title": "Senior Software Engineer, Backend - Data Streaming",
+      "requisition": "Ashby ffd8bcc4-f714-48cc-91a0-ad14e57bde98",
+      "url": "https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98",
+      "canonical_url": "https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98?locationId=d8bc05b6-b707-4664-865e-3be03d6f0a5d"
+      ],
+      "status_at_last_check": "Active official Camunda Ashby application page",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Remote; official header lists Canada and EMEA, while the same requisition publishes a Singapore pay band and global Remote.com hiring",
+      "arrangement": "Fully remote, async-first and globally distributed. Specific team overlap hours are not published.",
+      "eligibility": "Singapore is supported by an explicit SGD compensation band on the live requisition. The page says people based elsewhere can be hired through Remote.com, but India eligibility should be confirmed because the location header also names Canada and EMEA.",
+      "engagement_type": "Full-time employment",
+      "published_compensation": "Singapore annual total target cash SGD 178,600-267,900, defined as base salary plus 100% variable target where applicable. Camunda says it typically hires in the first half of the range. VSOP equity may be offered separately.",
+      "compensation_geography": "Singapore band is explicitly published. Separate US, UK and Canada bands also appear but are not applicable to a Singapore or India engagement. India-specific pay is not published.",
+      "sgd_comparison": "The published Singapore total-target-cash band is already denominated in SGD. Even the low end exceeds Meena's SGD 144,000 annual target reference, but this is not confirmed guaranteed base because variable cash may be included.",
+      "authorization_sponsorship": "Singapore local employment is supported by the published band, but work-pass sponsorship is not stated. India hiring appears possible through Remote.com but must be confirmed for this requisition.",
+      "posted": "Third-party indexing dates the opening to 9 September 2026. The official application page remained active on 22 October 2026.",
+      "terms": "Full-time. Benefits include flexible time off, remote-work support and retirement or pension provisions where relevant. Base-versus-variable split, benefits by country, probation, notice, termination and equity value are not published.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98",
+        "https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98?locationId=d8bc05b6-b707-4664-865e-3be03d6f0a5d"
+      ],
+      "import_source": "Official Camunda Ashby page and current Camunda jobs index checked 22 October 2026.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+      },
+      "hours_on_call": "Camunda describes remote-first, async work and flexible location. Required overlap, travel, incident response and on-call are not stated; confirm with recruiting.",
+      "fit": "Direct senior Java backend role on a new data-streaming architecture. It asks for 7+ years in Java and distributed or data-intensive systems, end-to-end initiative leadership, and values Kafka, stateful stream processing, RocksDB, Flink and object-storage-native streaming.",
+      "preparation": "Prepare verifiable examples of Kafka or event-log design, delivery leadership, schema and compatibility decisions, reliability and observability. RocksDB, Flink, reliable multipart uploads and object-storage-native streaming are interview preparation points, not assumed blockers.",
+      "questions": "Does this exact requisition accept applicants resident in Singapore and India despite the Canada/EMEA header? Is Singapore work-pass sponsorship available, and can India be engaged through Remote.com? What portion of total target cash is guaranteed base, what variable conditions apply, and what are the country-specific benefits, overlap hours, travel and on-call expectations?",
+      "upside": "Income-growth and career-growth candidate: published Singapore target cash is above Meena's target reference, with meaningful ownership of foundational streaming architecture at an orchestration product company.",
+      "verification": "The official Camunda Ashby page was active on 22 October 2026 and identified this as an existing vacancy. It publishes the role scope, remote model, country bands and Remote.com hiring language. No application or employer contact was made.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, distributed systems, secure integration and modernization",
+          "tailoring": "Lead with Java 21 and Spring Boot, Kafka, PostgreSQL and Oracle, Kubernetes, observability, secure APIs and end-to-end technical ownership. Use verified examples of event-driven delivery and coding-agent workflows. Do not imply Flink or RocksDB production use unless true.",
+          "fit_and_preparation": "Strong direct fit on Java, Kafka, distributed systems and senior ownership. Prepare object-storage streaming, Flink and RocksDB concepts and clarify Singapore or India eligibility plus the guaranteed-base split.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java event-streaming platform and cloud-native modernization",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka and Kafka Streams, Kubernetes, KEDA, observability, delivery leadership and mentoring. Keep Spring AI and RAG work labeled as prototypes and focus this application on streaming architecture and execution.",
+          "fit_and_preparation": "Excellent match on Java, Kafka Streams, cloud-native operations and initiative leadership. Prepare Flink, RocksDB and object-storage design discussions; clarify base-versus-variable cash and country engagement.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Camunda employer record, this Ashby requisition, or substantially identical Data Streaming opening existed in the shared ledger."
+    },
+    {
+      "job_id": "lancedb-senior-software-engineer-apac-3a984b21",
+      "employer": "LanceDB",
+      "title": "Senior Software Engineer",
+      "requisition": "Ashby 3a984b21-7b04-44c8-b8be-471526dc66e0",
+      "url": "https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0",
+      "canonical_url": "https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/lancedb/9454302d-3d40-4ed4-832e-c1590ff497fc"
+      ],
+      "status_at_last_check": "Active official LanceDB Ashby application page",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Americas or APAC",
+      "arrangement": "Remote-first, full-time role with flexible hours. The posting allows Americas or APAC time zones.",
+      "eligibility": "Headline geography includes APAC, so Singapore and India are geographically within scope, but the exact local employment or contractor mechanism is not stated. Confirm that LanceDB can hire in the candidate's country before investing heavily.",
+      "engagement_type": "Full-time employment; contractor alternative is not advertised",
+      "published_compensation": "USD 180,000-250,000 per year base compensation, plus equity. The employer says actual compensation depends on skills, experience and location.",
+      "compensation_geography": "The current APAC/Americas page displays the USD band, but it does not state whether the full band applies to Singapore or India. US-centric benefits are shown, so local cash and benefits must be established.",
+      "sgd_comparison": "Not converted or compared with SGD because applicability of the published USD band to a Singapore or India engagement is not established. Equity is separate upside, not guaranteed cash.",
+      "authorization_sponsorship": "Not stated. Confirm country of employment, employer-of-record or contractor option, right-to-work requirements and any sponsorship support.",
+      "posted": "Current indexing places the APAC version around 15-16 October 2026. The official page does not publish a posting date and remained active on 22 October 2026.",
+      "terms": "Full-time with remote-first flexible hours, equity and benefits. Singapore/India payroll, local benefits, probation, notice, termination, travel and equity terms are not published.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0",
+        "https://jobs.ashbyhq.com/lancedb/9454302d-3d40-4ed4-832e-c1590ff497fc"
+      ],
+      "import_source": "Official LanceDB Ashby page and current indexed copies checked 22 October 2026.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+      },
+      "hours_on_call": "Flexible hours are advertised. Required Americas overlap, conference or community travel, production operations and on-call are not stated.",
+      "fit": "Ambitious open-source data-infrastructure role spanning distributed dataset operations, query acceleration, Spark/Ray/Trino integrations, table formats, data encodings, Rust and high-performance computing in C++, Java or Scala. The company is building an AI-native multimodal lakehouse.",
+      "preparation": "This is a stretch, not a routine Java application. The role asks for 10+ years in high-performance databases, big-data systems or large-scale data services and deep internals knowledge across systems such as Spark, Flink, Iceberg, Trino or PyTorch. Prepare only truthful distributed-systems evidence and a credible Rust learning plan; do not imply open-source maintainer status.",
+      "questions": "Can LanceDB employ or contract someone resident in Singapore or India, and which entity is used? Does the USD 180,000-250,000 base band apply locally or is it location-adjusted? What benefits, equity terms, working-hour overlap, travel, production operations and on-call apply? How much direct database-internals or open-source contribution depth is mandatory at screening?",
+      "upside": "High-upside income and AI-infrastructure career stretch if the APAC pay and engagement are viable; otherwise keep as a selective application due to the database-internals and Rust bar.",
+      "verification": "The official LanceDB Ashby page was active on 22 October 2026 and explicitly listed remote Americas or APAC, full-time employment and compensation. The alias is a substantially identical requisition variant. No application or employer contact was made.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Senior Java distributed systems, integration platform and cloud-native backend",
+          "tailoring": "Emphasize Java, Kafka, SQL and data-platform integration, Kubernetes, observability, performance diagnosis and architecture judgment. Mention Apache Camel for integration breadth only where relevant. State Rust as a learning target, not experience.",
+          "fit_and_preparation": "Credible ambitious application through Java and distributed integration experience, but the stated 10+ year database or big-data internals bar is a major preparation point. Apply selectively after confirming APAC engagement and pay.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on technical lead, event-streaming platform and applied AI data infrastructure",
+          "tailoring": "Emphasize Java 21, Kafka Streams, cloud-native platform delivery, PostgreSQL and Redis, Kubernetes, observability, performance and technical leadership. Connect RAG prototypes to data-platform interest without claiming production ML research or database-engine work.",
+          "fit_and_preparation": "A worthwhile high-upside stretch because Java and event-streaming are accepted foundations, but the 10+ year big-data internals, Rust and open-source-community expectations are substantial. Apply selectively after engagement clarification.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No LanceDB employer record, either Ashby identifier, or substantially identical open-source data-infrastructure opening existed in the shared ledger. The second Ashby URL is retained as an alias, not a separate job."
     }
   ]
 }
