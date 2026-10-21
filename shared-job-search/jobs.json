@@ -11922,10 +11922,10 @@
       ],
       "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "alpaca-team-lead-new-markets-sg-5979495004",
       "title": "Engineer Team Lead, New Markets Singapore",
@@ -11975,10 +11975,10 @@
       ],
       "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "alpaca-staff-new-markets-sg-6188585004",
       "title": "Staff Engineer - New Markets Singapore",

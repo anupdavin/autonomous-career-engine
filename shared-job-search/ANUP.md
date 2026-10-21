@@ -2436,6 +2436,7 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 ## New active Singapore remote roles checked 21Oct2026
 
 ### Priority 1: Alpaca: Staff Engineer - New Markets Singapore
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alpaca/jobs/6188585004)
 
@@ -2456,6 +2457,7 @@ Recruiter questions: Singapore base, bonus and equity; EP sponsorship availabili
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
 
 ### Priority 2: Alpaca: Engineer Team Lead, New Markets Singapore
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alpaca/jobs/5979495004)
 
