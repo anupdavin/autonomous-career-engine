@@ -2569,7 +2569,7 @@ Status: Official Greenhouse page and live application form verified 21Oct2026. N
 ## New active matches checked 21Oct2026
 
 ### Priority 1: Citi: Lead Software Engineer (Java) - Vice President
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jobs.citi.com/job/singapore/lead-software-engineer-java-vice-president/287/102210702800)
 
@@ -2584,7 +2584,7 @@ Resume: Use the hands-on Java architecture, payments and distributed-systems res
 Prepare/questions: JVM tuning, low latency, C++ or Rust and lock-free structures. Ask about base/bonus/equity, Employment Pass support, office cadence, global overlap and on-call.
 
 ### Priority 2: Citi: Applications Development Technology Lead Analyst, Vice President
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jobs.citi.com/job/singapore/applications-development-technology-lead-analyst-vice-president/287/102161079232)
 
@@ -2599,7 +2599,7 @@ Resume: Use the senior Java backend, integration and modernization resume. Highl
 Prepare/questions: Kotlin, Couchbase and equity derivatives. Ask about package, Employment Pass support, hands-on percentage, office cadence and on-call.
 
 ### Priority 1: ST Engineering: Senior Software Engineer, Full Stack Web Application Development
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://careers.stengg.com/job/Singapore-Software-Engineer%2C-Full-stack-web-application-development/22537-en_GB/)
 
@@ -2614,7 +2614,7 @@ Resume: Use the Java/Angular full-stack, secure API, cloud modernization and AI-
 Prepare/questions: Analytics product context, release planning and exact AI-tool evidence. Ask about base/bonus, grade, Employment Pass support, office cadence and on-call.
 
 ### Priority 1 remote: Domus Global / IUGO: Senior Java Engineer
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://himalayas.app/companies/domus-global/jobs/senior-java-engineer-1282823031)
 
@@ -2629,7 +2629,7 @@ Resume: Use the senior Java backend, secure integration, cloud and AI-assisted e
 Prepare/questions: Spanish working language, Latin America overlap, legal employer, currency, location-adjusted pay, leave, notice and on-call.
 
 ### Priority 2 remote lead: BarkleyOKRP: Senior Software Engineer (Java Backend)
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/barkleyokrp/jobs/6227076004)
 
