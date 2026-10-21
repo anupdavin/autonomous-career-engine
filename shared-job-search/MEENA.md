@@ -2723,3 +2723,41 @@ Full-time Singapore role, requisition 26998646, posted 19Oct2026. Hands-on Java/
 [Application](https://job-boards.greenhouse.io/smartsheet/jobs/8258836)
 
 Bangalore, India role marked #LI-Remote. Java, large-scale distributed systems, Kafka or Kinesis, event processing, CI/CD, mentoring, product ownership and AI-tool familiarity are requested. Ongoing legal eligibility to work in India is mandatory. Compensation, employment type, India-wide remote eligibility, core hours and on-call are unknown.
+
+
+## New remote APAC and India opportunities checked 21Oct2026
+
+### Priority 1: Sardine: Solutions Architect, Integrations (APAC)
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.ashbyhq.com/sardine/26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2/)
+
+Full-time remote APAC, ideally Singapore or India. Published compensation is SGD 175K to 200K plus equity and bonus. It is numerically above the SGD 144K reference, but base-versus-total-cash and India applicability are not established. Use the hands-on lead, fintech-integration and cloud-platform resume. Confirm local band, entity, work rights, APAC hours, travel and escalation coverage.
+
+### Priority 2: Onehouse: Senior / Staff Software Engineer, Distributed Data Systems
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Senior application](https://jobs.lever.co/Onehouse/3531e786-ad84-4d0d-a0bd-113415bd328f) | [Staff application](https://jobs.lever.co/Onehouse/86d44a41-13e8-4ec7-8604-f3756aa1b5d7)
+
+Full-time India-Remote. Strong Java 21, Kafka Streams, PostgreSQL/Oracle, Kubernetes, observability and technical-influence transfer into Hudi transactional data infrastructure. No base salary published. Use the event-driven distributed-platform resume; prepare concurrency control, indexing, database internals and query engines.
+
+### Priority 2: Onehouse: Backend Engineer, Kubernetes Infrastructure
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.lever.co/Onehouse/02defd5a-e1d8-46b4-8e3b-7bac65b0f59a)
+
+Full-time India-Remote. Strong cloud-native platform foundation through EKS/ECS, Kubernetes/Helm/Istio, ArgoCD, Terraform and Java 21. The role builds Operators, controllers, CRDs and reconciliation loops rather than operating clusters. Use the platform/DevSecOps resume and state production Operator experience only if demonstrable.
+
+### Priority 2 conditional: Jumio: Software Development Engineer IV, QA
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/jumio/jobs/4708282005)
+
+India remote with a hard no-sponsorship work-eligibility question. Java/Spring, TypeScript, AWS EKS/ECS, event-driven testing, CI/CD, mentoring and responsible AI-tool adoption align well. Deep Playwright/Selenium, REST-assured and test-framework ownership are central; apply if a quality-platform leadership path is attractive. Salary and hours are unpublished.
+
+### Priority 3 ambitious AI stretch: Together AI: Senior Software Engineer, Infra Agent Systems
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/togetherai/jobs/5217063007)
+
+Remote India. Strong overlap with Kubernetes, ArgoCD, Terraform, observability, Kafka Streams and Spring AI/RAG/MCP/Claude API prototypes. Production depth in agents, knowledge graphs or retrieval is explicit, so label prototypes accurately. Compensation, sponsorship and on-call are unknown.
