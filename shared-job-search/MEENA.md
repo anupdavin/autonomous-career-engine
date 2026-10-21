@@ -2667,21 +2667,21 @@ Status: Official Daxko Gem ATS page active 21Oct2026; final submission not teste
 ## New active Singapore matches checked 21Oct2026
 
 ### Priority 1: JPMorganChase: Lead Software Engineer - Java, Python, AWS
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210796984/?mode=zipcode)
 
 Singapore full-time day-shift CIB Payments Technology lead role. Strong fit for Java, secure payments, reconciliation, operational stability and AI-assisted engineering. Prepare Databricks, Spark, Python data engineering and regulatory lineage. Salary, sponsorship, office cadence and on-call are unknown.
 
 ### Priority 1: GECO Asia: Sr. Java Spring Boot Engineer
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jobs.geco.asia/jobs/sr-java-spring-boot-engineer-cjGO)
 
 Singapore role covering Java 21, Spring Boot, Kafka, secure distributed payments, Alibaba Cloud, JVM performance, production diagnosis, mentoring and AI-assisted development. Mandarin and Alibaba Cloud are explicit screening points. Employer-published pay, type, sponsorship and cadence are unknown.
 
 ### Priority 2: GECO Asia: Fullstack Java Engineer
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jobs.geco.asia/jobs/fullstack-java-engineer-clIb)
 

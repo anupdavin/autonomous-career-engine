@@ -12567,10 +12567,10 @@
       ],
       "import_source": "Fresh official JPMorganChase Oracle ATS and indexed official description checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "jpmorgan-lead-java-python-aws-210796984",
       "title": "Lead Software Engineer - Java, Python, AWS",
@@ -12620,10 +12620,10 @@
       ],
       "import_source": "Fresh official GECO Asia ATS page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "geco-senior-java-spring-boot-cjgo",
       "title": "Sr. Java Spring Boot Engineer",
@@ -12673,10 +12673,10 @@
       ],
       "import_source": "Fresh official GECO Asia ATS page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "geco-fullstack-java-engineer-clib",
       "title": "Fullstack Java Engineer",
