@@ -2705,3 +2705,12 @@ Full-time hybrid Singapore role, reference REF2926E, building high-availability 
 [Application](https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/)
 
 Singapore role using Java, Apache Camel, Spring Boot, Docker, Kubernetes, PostgreSQL, Linux, EFK and Prometheus/Grafana for scalable network services. Requisitions 1362561466 and substantially identical 1362895166 are consolidated. Compensation, sponsorship, employment type, office cadence and on-call are unknown.
+
+## New active Singapore trading-technology role checked 21Oct2026
+
+### Priority 1: Citi: Equity Derivatives Java Developer, Assistant Vice President
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Equity-Derivatives-Java-Developer--Assistant-Vice-President-_26998646/apply)
+
+Full-time Singapore role, requisition 26998646, posted 19Oct2026. Hands-on Java/Spring, REST, messaging, SQL, concurrency, TDD/BDD, CI/CD, agentic-AI tooling and L3 escalation work for equity-derivatives trade lifecycle applications. Citi labels it On-Site/Resident and also #LI-Hybrid. Compensation, sponsorship, office cadence and on-call terms are unknown.
