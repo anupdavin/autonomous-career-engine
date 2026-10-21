@@ -12007,6 +12007,112 @@
         }
       },
       "deduplication_note": "Distinct Staff IC requisition 6188585004. Team Lead requisition 5979495004 is a separate role with people-management duties on the same New Markets Singapore scope."
+    },
+    {
+      "employer": "Alpaca",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "location": "Global Anywhere",
+      "arrangement": "Remote worldwide; the official page labels the role Global Anywhere and asks the applicant's location and timezone",
+      "eligibility": "Worldwide remote is explicit, with no country exclusion shown. Singapore and India applications appear in scope, but local employing entity, EOR or contractor mechanism remains unconfirmed",
+      "engagement_type": "Employment type not explicitly stated; employee benefits and stock options are advertised",
+      "published_compensation": "No base salary or numeric pay band published. Competitive salary and stock options are advertised, plus a one-time USD 500 home-office setup and USD 150 monthly stipend via Brex Card",
+      "compensation_geography": "The page does not state whether base pay is global or location-adjusted, or whether Singapore and India use different engagement terms",
+      "sgd_comparison": "Unavailable: no applicable numeric base salary was published",
+      "authorization_sponsorship": "No sponsorship or work-authorization policy is stated. Confirm the local employing entity, EOR or contractor route for Singapore or India",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
+      "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "title": "Senior Software Engineer - Ledger",
+      "url": "https://job-boards.greenhouse.io/alpaca/jobs/5389088004",
+      "canonical_url": "https://job-boards.greenhouse.io/alpaca/jobs/5389088004",
+      "url_aliases": [],
+      "requisition": "5389088004",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/alpaca/jobs/5389088004"
+      ],
+      "job_id": "alpaca-senior-software-engineer-ledger-5389088004",
+      "hours_on_call": "The application asks the candidate's timezone, but no mandatory overlap, on-call rota or response expectations are published",
+      "fit": "Senior ownership of a high-integrity brokerage ledger, financial transaction data, scalable backend components, PostgreSQL, distributed and event-driven systems. Go is preferred rather than stated as mandatory, making regulated payments and strong Java backend depth credibly transferable",
+      "preparation": "Prepare concrete evidence of financial transaction integrity, reconciliation or payment-state design, distributed-system tradeoffs, PostgreSQL, event-driven messaging, debugging and delivery ownership. Establish protobuf, gRPC, GCP and any Go exposure honestly; do not claim production Go",
+      "questions": "Can Alpaca employ or contract directly in Singapore and India, and through which entity or EOR? Is compensation location-adjusted? What are the base, bonus and equity by location? What timezone overlap and on-call are required? Is strong production Java accepted while ramping in Go? How much protobuf, gRPC and GCP depth is expected on entry?",
+      "upside": "Career-growth candidate with strong fintech and distributed-systems alignment; compensation to establish",
+      "verification": "Official Alpaca Greenhouse page checked 21 October 2026. It labels the role Global Anywhere, exposes a live application form and asks the candidate's location and timezone. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior backend, regulated payments and secure integration resume",
+          "tailoring": "Foreground Great Eastern payments, secure APIs, Kafka, PostgreSQL, production reliability, distributed-system design and end-to-end delivery. Explain Java-to-Go transferability without claiming production Go; add only genuine ledger, reconciliation or transaction-state examples.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior backend, fintech and event-driven cloud platform resume",
+          "tailoring": "Foreground fintech delivery, Java 21/Spring Boot 3, Kafka Streams, PostgreSQL, Kubernetes, observability and technical ownership. Show integrity and reliability decisions with verifiable outcomes, and make the Java-to-Go transfer case without claiming production Go.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct worldwide Ledger requisition 5389088004. It is not a title variant of Alpaca's New Markets Singapore requisitions 5979495004 or 6188585004."
+    },
+    {
+      "employer": "Alpaca",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "location": "Global Anywhere",
+      "arrangement": "Remote worldwide; the official page labels the role Global Anywhere and asks the applicant's location and timezone",
+      "eligibility": "Worldwide remote is explicit, with no country exclusion shown. Singapore and India applications appear in scope, but local employing entity, EOR or contractor mechanism remains unconfirmed",
+      "engagement_type": "Employment type not explicitly stated; employee benefits and stock options are advertised",
+      "published_compensation": "No base salary or numeric pay band published. Competitive salary and stock options are advertised, plus a one-time USD 500 home-office setup and USD 150 monthly stipend via Brex Card",
+      "compensation_geography": "The page does not state whether base pay is global or location-adjusted, or whether Singapore and India use different engagement terms",
+      "sgd_comparison": "Unavailable: no applicable numeric base salary was published",
+      "authorization_sponsorship": "No sponsorship or work-authorization policy is stated. Confirm the local employing entity, EOR or contractor route for Singapore or India",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
+      "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "title": "Senior Software Engineer, Quality Engineering",
+      "url": "https://job-boards.greenhouse.io/alpaca/jobs/6114845004",
+      "canonical_url": "https://job-boards.greenhouse.io/alpaca/jobs/6114845004",
+      "url_aliases": [],
+      "requisition": "6114845004",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/alpaca/jobs/6114845004"
+      ],
+      "job_id": "alpaca-senior-software-engineer-quality-6114845004",
+      "hours_on_call": "The application asks the candidate's timezone, but no mandatory overlap or on-call requirement is published. Chaos, load and incident-derived testing may involve production coordination; expectations need confirmation",
+      "fit": "Applied AI and platform-quality role building test frameworks, CI/CD, Kubernetes tooling, REST/gRPC testing, resilience and incident-to-regression automation. Kafka, TypeScript, Helm, GitHub Actions, ArgoCD or Terraform are relevant. It is a stretch because the page requires at least one year of Go plus prior automated test-framework and startup experience",
+      "preparation": "Establish any genuine Go, test-framework, load-testing, chaos-engineering and startup-environment experience. Prepare examples of AI-assisted verification, CI/CD, Kubernetes security, incident learning and event-driven testing. Do not present coding-agent use or prototypes as production AI quality automation",
+      "questions": "Can Alpaca employ or contract directly in Singapore and India, and through which entity or EOR? Is compensation location-adjusted? What are the base, bonus and equity by location? How strictly is the one-year Go requirement screened? What evidence qualifies as building an automated test framework and startup experience? What timezone overlap or production incident support is required?",
+      "upside": "Ambitious applied-AI and developer-platform career-growth lead; compensation to establish, with meaningful screening risk from unconfirmed Go and test-framework requirements",
+      "verification": "Official Alpaca Greenhouse page checked 21 October 2026. It labels the role Global Anywhere, exposes a live application form and asks the candidate's location and timezone. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "AI-assisted backend engineering, Kubernetes and delivery-quality resume",
+          "tailoring": "Foreground AI-assisted verification practices, CI/CD, Kubernetes/Helm, TypeScript, REST APIs, Kafka and incident diagnosis. Add only verifiable automated-testing ownership, and explicitly avoid claiming one year of Go or production LLM quality automation unless true.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Cloud-native platform, DevSecOps and AI-integration resume",
+          "tailoring": "Foreground GitHub Actions, ArgoCD, Terraform, Kubernetes/Helm, Kafka, TypeScript, observability, mentoring and Spring AI/RAG/MCP prototypes. Distinguish prototypes from production AI and establish any genuine Go or test-framework depth.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct worldwide Quality Engineering requisition 6114845004 focused on Go, test frameworks, CI/CD and AI-assisted quality. It is separate from Alpaca's New Markets Singapore roles."
     }
   ]
 }
