@@ -13501,10 +13501,10 @@
       ],
       "import_source": "Official Anaqua Workable role and application form checked 22 October 2026; detailed duties corroborated by a freshly indexed copy.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "anaqua-senior-java-developer-9df282ace3",
       "url": "https://apply.workable.com/anaqua/j/9DF282ACE3/",
@@ -13536,6 +13536,64 @@
         }
       },
       "deduplication_note": "No Anaqua employer, Workable requisition or substantially identical RightHub Senior Java Developer record existed in the shared ledger."
+    },
+    {
+      "employer": "Mitchell Martin Inc. (via Jobgether)",
+      "title": "Full Stack Platform Engineer",
+      "status_at_last_check": "Active Jobgether Lever page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "Fully remote from India.",
+      "eligibility": "India-remote contract opening. The source explicitly says the work can be performed remotely from India. Singapore engagement is not advertised.",
+      "engagement_type": "Contract position with a full-time workload",
+      "published_compensation": "Not published",
+      "compensation_geography": "India contract rate and currency unknown",
+      "sgd_comparison": "Unavailable: no published compensation",
+      "authorization_sponsorship": "Not stated; confirm India contracting entity, right-to-work requirements and whether independent-contractor registration is required.",
+      "posted": "Freshly indexed around 16-17 October 2026; the official Lever page does not publish a posting date. Verified active 22 October 2026.",
+      "terms": "Contract with full-time workload. Duration, renewal, notice, payment currency and schedule, billable-hour guarantee, paid leave, benefits, equipment, expenses and termination terms are not published.",
+      "source_urls": [
+        "https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274",
+        "https://jobgether.com/offer/6ad12a3649c73d7b9984514c-full-stack-platform-engineer"
+      ],
+      "import_source": "Active Jobgether Lever page checked 22 October 2026; the substantially identical public copy identifies Mitchell Martin Inc. as the recruiting firm.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "mitchell-martin-full-stack-platform-engineer-c53f3af4",
+      "url": "https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274",
+      "canonical_url": "https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274",
+      "url_aliases": [
+        "https://jobgether.com/offer/6ad12a3649c73d7b9984514c-full-stack-platform-engineer"
+      ],
+      "requisition": "Jobgether Lever c53f3af4-0b27-47d8-bc50-ad5babf8c274",
+      "hours_on_call": "Not published; confirm India working hours, client time-zone overlap, production support and on-call expectations.",
+      "fit": "Hands-on lead role spanning Java, Spring Boot, Angular or React, Kafka, REST and GraphQL, Azure and AWS, Docker, Kubernetes, Terraform, CI/CD, secure APIs, event-driven systems, end-to-end delivery and AI-enabled engineering workflows.",
+      "preparation": "The end client is not named on the application page, and production AI-workflow depth is not specified. Prepare verifiable examples of tactical team leadership, architecture decisions, secure API delivery, cloud deployment, infrastructure as code and AI-assisted engineering with review and verification. Treat cloud certifications as preferred, not mandatory.",
+      "questions": "Who is the end client, what project is this, and who signs the contract? What are the rate, currency, payment schedule, duration, renewal and termination terms, guaranteed workload, leave/benefits, equipment and expenses? Is India residence required, and what client time-zone overlap or on-call applies?",
+      "upside": "Career-growth candidate and compensation to establish: a hands-on lead remit combining full-stack Java, event-driven cloud delivery, DevOps ownership and AI-enabled engineering.",
+      "verification": "The Jobgether Lever application page was active with an Apply control on 22 October 2026. It explicitly states India remote and contract. The recruiting firm's public copy identifies Mitchell Martin Inc.; end client remains undisclosed. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java full-stack, secure integrations and cloud-modernization resume",
+          "tailoring": "Lead with Java 21 and Spring Boot, Angular and TypeScript, Kafka, REST and GraphQL, Azure and AWS, Kubernetes and Helm, CI/CD, OAuth2 and mTLS, observability, and coding-agent workflows with human verification. Add only verifiable leadership outcomes.",
+          "fit_and_preparation": "Excellent stack match with credible hands-on lead scope. Establish contract economics, client identity, India eligibility and the expected production AI-workflow depth before treating it as an income-growth move.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java full-stack, event-driven cloud and AI-integration resume",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Angular 18 and NgRx, Kafka and Kafka Streams, AWS EKS/ECS, Kubernetes, Terraform, ArgoCD, DevSecOps, observability, mentoring and Spring AI/RAG/MCP prototypes. Keep prototypes labeled as such.",
+          "fit_and_preparation": "Near-direct fit for tactical leadership, full-stack Java, event-driven cloud platforms and AI-enabled engineering. Establish contract economics against the SGD 144,000 annual target reference and clarify client, duration, hours and India engagement terms.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Mitchell Martin Inc., Jobgether requisition c53f3af4, or substantially identical India-remote Full Stack Platform Engineer record existed in the shared ledger. Recruiter copies are aliases of this one canonical project."
     }
   ]
 }
