@@ -12546,6 +12546,165 @@
         }
       },
       "deduplication_note": "Distinct Daxko official Gem posting. No matching Daxko employer, URL, requisition or substantially identical description existed in the shared ledger."
+    },
+    {
+      "employer": "JPMorganChase",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Oracle Cloud ATS listing and indexed Apply route",
+      "freshly_verified_during_import": true,
+      "location": "One@Changi, Singapore",
+      "arrangement": "Singapore office location is explicit. Remote or hybrid cadence is not stated on the official listing; a credible employer profile copy labels it hybrid, so confirm actual office attendance.",
+      "eligibility": "Singapore role. Singapore work authorization and employer sponsorship policy are not stated. India remote is not offered.",
+      "engagement_type": "Full-time employee role, day shift",
+      "published_compensation": "No numeric salary, bonus or equity amount published",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Singapore work authorization and sponsorship are unknown",
+      "posted": "Official posting date 7 October 2026 Singapore time",
+      "terms": "Full-time, day shift. Exact office cadence, leave, notice, bonus, on-call and global-team overlap are not stated.",
+      "source_urls": [
+        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210796984/?mode=zipcode"
+      ],
+      "import_source": "Fresh official JPMorganChase Oracle ATS and indexed official description checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "jpmorgan-lead-java-python-aws-210796984",
+      "title": "Lead Software Engineer - Java, Python, AWS",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210796984/?mode=zipcode",
+      "canonical_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210796984",
+      "url_aliases": [],
+      "requisition": "210796984",
+      "hours_on_call": "Official listing says day shift. Global overlap and on-call are not published.",
+      "fit": "CIB Payments Technology lead role with end-to-end regulatory reporting delivery, secure Java and Python engineering, Databricks/Spark data pipelines, reconciliation and lineage controls, operational stability, vendor collaboration and AI-assisted engineering adoption.",
+      "preparation": "Prepare genuine examples of payments or regulated delivery, reconciliation, secure Java services, technical leadership and operational improvement. Databricks, Spark, deeper Python data engineering, regulatory reporting lineage and production AI or ML techniques are interview preparation areas, not assumed experience.",
+      "questions": "What are the Singapore base, bonus and equity? Is Employment Pass support available? What office cadence applies? How hands-on is Java versus Python and Databricks/Spark? What global overlap or on-call applies? How much production AI or ML delivery is mandatory?",
+      "upside": "Career-growth candidate with direct payments, regulatory and hands-on lead scope; compensation to establish",
+      "verification": "Official Oracle Cloud ATS search result and indexed description checked 21 October 2026. Official listing identified Singapore, full time, day shift, requisition 210796984 and posting date 7 October 2026. Final submission was not tested. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java lead, payments, secure integration and regulatory modernization resume",
+          "tailoring": "Foreground Great Eastern payments, Java/Spring, secure APIs, Kafka, SQL, cloud, reconciliation, production diagnosis and verified AI-assisted engineering. Present Databricks, Spark and Python depth accurately.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, fintech, event-driven cloud platform and AI-integration resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, fintech, Kafka Streams, AWS/Kubernetes, observability, mentoring, technical delivery and accurately labelled AI prototypes. Present Databricks, Spark and Python depth accurately.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct JPMorganChase requisition 210796984. Existing shared record is requisition 210786862 with a different title and scope."
+    },
+    {
+      "employer": "GECO Asia",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official GECO Asia application page with live form",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore location is explicit. Remote, hybrid and office cadence are not stated on the role page.",
+      "eligibility": "Singapore role. Application asks whether visa sponsorship is needed but does not promise sponsorship. India remote is not offered.",
+      "engagement_type": "Employment type not stated on the official role page",
+      "published_compensation": "No numeric compensation published by GECO Asia",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no employer-published numeric guaranteed cash amount",
+      "authorization_sponsorship": "Application asks whether visa sponsorship is required; availability is unknown",
+      "posted": "Official posting date unavailable; search indexed the page within the prior week on 21 October 2026",
+      "terms": "GECO Asia is a specialist IT resource provider and the end client or project is not identified. Contract duration, employment classification, leave, notice, bonus and client hours are unknown.",
+      "source_urls": [
+        "https://jobs.geco.asia/jobs/sr-java-spring-boot-engineer-cjGO"
+      ],
+      "import_source": "Fresh official GECO Asia ATS page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "geco-senior-java-spring-boot-cjgo",
+      "title": "Sr. Java Spring Boot Engineer",
+      "url": "https://jobs.geco.asia/jobs/sr-java-spring-boot-engineer-cjGO",
+      "canonical_url": "https://jobs.geco.asia/jobs/sr-java-spring-boot-engineer-cjGO",
+      "url_aliases": [],
+      "requisition": "GECO ATS cjGO",
+      "hours_on_call": "Client timezone, operational support and on-call are not published.",
+      "fit": "Leads Java 17 or 21, Spring Boot, Kafka and distributed payment or infrastructure platforms with secure high-availability architecture, Alibaba Cloud, CI/CD, SonarQube, production diagnosis, mentoring and AI-assisted development.",
+      "preparation": "Prepare payments and distributed-system architecture, JVM internals, Kafka reliability, production root-cause analysis, security and mentoring examples. Alibaba Cloud, Hibernate depth and Mandarin are details to establish; Mandarin proficiency is explicitly requested.",
+      "questions": "Who is the end client and what is the project duration? Is this permanent employment or client contract? What base, bonus and benefits apply? Is Employment Pass support available? What office cadence, client hours and on-call apply? How strict are Alibaba Cloud and Mandarin requirements?",
+      "upside": "Strong direct-stack and payments match with lead ownership; compensation and client terms to establish",
+      "verification": "Official GECO Asia page checked 21 October 2026. It showed Singapore, an active Apply form and visa-sponsorship question. No employer-published pay, type or work arrangement was visible. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, payments, distributed systems and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot, Great Eastern payments, Kafka, secure APIs, cloud/Kubernetes, JVM and production troubleshooting, mentoring and verified coding-agent practices. State Alibaba Cloud and Mandarin accurately.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java, event-driven cloud platform and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kafka Streams, AWS EKS/ECS, Kubernetes, observability, DevSecOps, technical leadership and accountable AI-assisted delivery. State Alibaba Cloud and Mandarin accurately.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "No GECO Asia employer, URL, requisition or substantially identical description existed in the shared ledger."
+    },
+    {
+      "employer": "GECO Asia",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official GECO Asia application page with live form",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore location is explicit. Remote, hybrid and office cadence are not stated on the role page.",
+      "eligibility": "Singapore role. Application asks whether visa sponsorship is needed but does not promise sponsorship. India remote is not offered.",
+      "engagement_type": "Employment type not stated on the official role page",
+      "published_compensation": "No numeric compensation published by GECO Asia",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no employer-published numeric guaranteed cash amount",
+      "authorization_sponsorship": "Application asks whether visa sponsorship is required; availability is unknown",
+      "posted": "Official posting date unavailable; official page was indexed on 21 October 2026",
+      "terms": "GECO Asia is a specialist IT resource provider and the end client or project is not identified. Contract duration, employment classification, leave, notice, bonus and client hours are unknown.",
+      "source_urls": [
+        "https://jobs.geco.asia/jobs/fullstack-java-engineer-clIb"
+      ],
+      "import_source": "Fresh official GECO Asia ATS page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "geco-fullstack-java-engineer-clib",
+      "title": "Fullstack Java Engineer",
+      "url": "https://jobs.geco.asia/jobs/fullstack-java-engineer-clIb",
+      "canonical_url": "https://jobs.geco.asia/jobs/fullstack-java-engineer-clIb",
+      "url_aliases": [],
+      "requisition": "GECO ATS clIb",
+      "hours_on_call": "Client timezone, operational support and on-call are not published.",
+      "fit": "Enterprise full-stack role using Java, Spring Boot, REST microservices, SQL, Oracle or MySQL, frontend frameworks, testing, production troubleshooting and solution design. Cloud, CI/CD, Docker and Kubernetes are valued.",
+      "preparation": "React or Vue and Python are requested; Angular experience is transferable but should not be presented as production React or Vue. Prepare full-stack API integration, Oracle or SQL, testing, security and production support examples.",
+      "questions": "Who is the end client and what is the project duration? Is this permanent employment or client contract? What base, bonus and benefits apply? Is Employment Pass support available? What office cadence, client hours and on-call apply? Is Angular accepted instead of React or Vue, and how much Python is required?",
+      "upside": "Direct Java full-stack match with compensation and client terms to establish",
+      "verification": "Official GECO Asia page checked 21 October 2026. It showed Singapore, an active Apply form and visa-sponsorship question. No employer-published pay, type or work arrangement was visible. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java and Angular full-stack, secure integration and cloud modernization resume",
+          "tailoring": "Foreground Java/Spring Boot, Angular/TypeScript, REST APIs, Oracle/SQL Server/PostgreSQL, integration, cloud/Kubernetes, testing and production troubleshooting. Present React, Vue and Python as preparation unless demonstrable.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead Java and Angular full-stack, cloud-native delivery resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Angular 18, NgRx/RxJS, Oracle/PostgreSQL, Kubernetes, CI/CD, testing, mentoring and delivery ownership. Present React, Vue and Python as preparation unless demonstrable.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct GECO Asia requisition and full-stack scope. No matching employer or project existed in the shared ledger."
     }
   ]
 }
