@@ -13207,6 +13207,276 @@
         }
       },
       "deduplication_note": "No Together AI employer, requisition or substantially identical Infra Agent Systems role existed in the shared ledger."
+    },
+    {
+      "employer": "Illumina",
+      "status_at_last_check": "Active official Workday page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore - Woodlands - NorthCoast",
+      "arrangement": "Singapore site-based role; no remote or hybrid arrangement is stated. Confirm office cadence.",
+      "eligibility": "Singapore opening. Viable for a candidate who can work at the stated Singapore site; right-to-work and sponsorship must be established unless explicitly stated otherwise.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore compensation package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; confirm Singapore work-right and visa-sponsorship requirements",
+      "posted": "Official views conflict between Posted 5 Days Ago and Posted 30+ Days Ago for the same requisition, indicating a refresh; original posting date is unclear.",
+      "terms": "Full-time. Office cadence, working hours, on-call, bonus/equity, leave, notice and relocation terms are not published.",
+      "source_urls": [
+        "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/Singapore---Woodlands---NorthCoast/Senior-Software-Engineer_43381-JOB"
+      ],
+      "import_source": "Official Illumina Workday page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "illumina-senior-software-fullstack-43381-job",
+      "url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/Singapore---Woodlands---NorthCoast/Senior-Software-Engineer_43381-JOB",
+      "canonical_url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/Singapore---Woodlands---NorthCoast/Senior-Software-Engineer_43381-JOB",
+      "url_aliases": [],
+      "requisition": "43381-JOB",
+      "hours_on_call": "Not published; confirm cross-region meeting and production-support expectations.",
+      "fit": "Bioinformatics full-stack product engineering using TypeScript, Angular or React, Java or Kotlin, Spring Boot, REST, asynchronous processing, PostgreSQL, cloud, containers, CI/CD, responsible AI-assisted development, AWS, messaging, Redis, Kubernetes, Helm and OAuth2/OIDC.",
+      "preparation": "Prepare examples of data-intensive user interfaces, safe modernization, performance and release traceability. WebGL, canvas or spatial visualization and genomics are interview-preparation areas, not assumed deficits.",
+      "questions": "What is the Singapore base, bonus/equity, sponsorship policy, office cadence and on-call expectation? Was the requisition recently refreshed? How heavily are WebGL and genomics screened?",
+      "upside": "Career-growth candidate and compensation to establish: unusually direct Java/Spring plus Angular/TypeScript alignment with scientific data products.",
+      "verification": "Official Illumina Workday page was active with an Apply control on 22 October 2026. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java and Angular full-stack modernization resume",
+          "tailoring": "Lead with Java 21/Spring Boot, Angular/TypeScript, REST/GraphQL, PostgreSQL, Kafka, Kubernetes/Helm, OAuth2/mTLS, observability and verified AI-assisted engineering. Add concrete delivery outcomes without inventing metrics.",
+          "fit_and_preparation": "Very strong stack match. Prepare interactive visualization, scientific-data workflows and controlled-release evidence.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead full-stack and cloud-native modernization resume",
+          "tailoring": "Lead with Java 21/Spring Boot 3, Angular 18/NgRx/RxJS, Kafka Streams, PostgreSQL, AWS/Kubernetes/Helm/Istio, DevSecOps and responsible AI integration. Keep mentoring visible while emphasizing hands-on delivery.",
+          "fit_and_preparation": "Very strong full-stack and platform match. Prepare WebGL/visualization and genomics-domain learning examples.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct from Illumina 42506-JOB: this requisition requires Java/Kotlin and Spring Boot for bioinformatics products, while 42506-JOB centers on visualization tooling with Python/C# backends."
+    },
+    {
+      "employer": "Illumina",
+      "status_at_last_check": "Active official Workday page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore - Woodlands - NorthCoast",
+      "arrangement": "Singapore site-based role; no remote or hybrid arrangement is stated. Confirm office cadence.",
+      "eligibility": "Singapore opening. Viable for a candidate who can work at the stated Singapore site; right-to-work and sponsorship must be established unless explicitly stated otherwise.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore compensation package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Hard blocker for anyone needing sponsorship: the official page says the role is not eligible for visa sponsorship. Apply only if existing Singapore work authorization is sufficient.",
+      "posted": "Posted 30+ Days Ago on the active official page.",
+      "terms": "Full-time. Cross-team work across the US and Singapore is explicit; meeting windows, office cadence, on-call, compensation and benefits are not published.",
+      "source_urls": [
+        "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Senior-Software-Engineer--Backend-_42821-JOB"
+      ],
+      "import_source": "Official Illumina Workday page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "illumina-senior-software-backend-42821-job",
+      "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Senior-Software-Engineer--Backend-_42821-JOB",
+      "canonical_url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Senior-Software-Engineer--Backend-_42821-JOB",
+      "url_aliases": [],
+      "requisition": "42821-JOB",
+      "hours_on_call": "US-Singapore collaboration is explicit. Core overlap and production-support or on-call requirements are not published.",
+      "fit": "Backend subsystems for DNA sequencing instruments with API/service ownership, reliability, observability, performance, CI/CD, mentoring, Kubernetes, Docker, PostgreSQL, RabbitMQ and explicit AI-assisted development.",
+      "preparation": "Primary languages are C# or Python rather than Java. Prepare evidence of transferable service architecture and language learning. Embedded, edge, on-premise, genomics and instrumentation are preferred rather than universal requirements.",
+      "questions": "If already Singapore-authorized, what is the base, bonus/equity, office cadence, US-overlap schedule and on-call model? Will strong Java backend depth be accepted with a C#/Python ramp plan?",
+      "upside": "Career-growth candidate and compensation to establish: complex instrument backend ownership with explicit mentoring and engineering standards.",
+      "verification": "Official Illumina Workday page was active with an Apply control on 22 October 2026. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend and distributed-systems resume",
+          "tailoring": "Emphasize reliable APIs, Kafka/messaging, PostgreSQL, Kubernetes, observability, CI/CD, mentoring and AI-assisted engineering. Include a truthful C#/Python learning plan.",
+          "fit_and_preparation": "Strong backend transfer, but C#/Python is a real preparation point and no sponsorship is a hard blocker if required.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead backend and cloud-platform resume",
+          "tailoring": "Emphasize Java 21 services, event-driven architecture, PostgreSQL, Kubernetes, observability, technical leadership and AI-assisted delivery. Address C#/Python learning directly.",
+          "fit_and_preparation": "Strong ownership and mentoring transfer. C#/Python and instrument software require preparation; no sponsorship is a hard blocker if required.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Separate requisition and backend instrument-software scope; not a duplicate of the two Illumina full-stack roles."
+    },
+    {
+      "employer": "Illumina",
+      "status_at_last_check": "Active official Workday page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore - Woodlands - NorthCoast",
+      "arrangement": "Singapore site-based role; no remote or hybrid arrangement is stated. Confirm office cadence.",
+      "eligibility": "Singapore opening. Viable for a candidate who can work at the stated Singapore site; right-to-work and sponsorship must be established unless explicitly stated otherwise.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore compensation package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; confirm Singapore work-right and visa-sponsorship requirements",
+      "posted": "Posted 10 Days Ago on the active official page.",
+      "terms": "Full-time. Office cadence, working hours, on-call, bonus/equity, leave, notice and relocation terms are not published.",
+      "source_urls": [
+        "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Singapore---Woodlands---NorthCoast/Staff-Software-Engineer---Full-Stack_42506-JOB-1"
+      ],
+      "import_source": "Official Illumina Workday page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "illumina-senior-software-fullstack-42506-job",
+      "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Singapore---Woodlands---NorthCoast/Staff-Software-Engineer---Full-Stack_42506-JOB-1",
+      "canonical_url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Singapore---Woodlands---NorthCoast/Staff-Software-Engineer---Full-Stack_42506-JOB-1",
+      "url_aliases": [],
+      "requisition": "42506-JOB",
+      "hours_on_call": "Not published; confirm cross-region meeting and production-support expectations.",
+      "fit": "Advanced visualization tools for large high-dimensional data using Angular or React, TypeScript, WebGL, WebAssembly and CSS, with Python or C# microservices, automated tests and AI-assisted development. The role also values AI-driven interfaces.",
+      "preparation": "This is frontend and visualization heavy. Prepare UI performance, streaming or large-data interaction, testing and usability examples. WebGL/WebAssembly, Electron, Python/C# and AI-driven visualization are details to establish.",
+      "questions": "What is the Singapore base, bonus/equity, sponsorship policy, office cadence and support model? How much of the role is Angular/TypeScript versus WebGL and Python/C#? Is production AI-interface experience mandatory?",
+      "upside": "Career-growth candidate and compensation to establish: senior visualization ownership plus applied AI-interface work.",
+      "verification": "Official Illumina Workday page was active with an Apply control on 22 October 2026. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Angular and Java full-stack resume",
+          "tailoring": "Lead with Angular/TypeScript full-stack delivery, performance, REST integrations, automated testing and safe modernization. Present Java backend transfer while preparing Python/C# and WebGL.",
+          "fit_and_preparation": "Strong frontend/full-stack transfer, with material WebGL and non-Java backend preparation.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Angular 18 full-stack and applied-AI integration resume",
+          "tailoring": "Lead with Angular 18, NgRx/RxJS, complex UI state, Java services, testing and AI integration prototypes. Prepare WebGL/WebAssembly and Python/C# without overstating production exposure.",
+          "fit_and_preparation": "Strong Angular and AI-interface adjacency. Visualization depth and Python/C# are preparation points.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct from 43381-JOB despite a similar title: this role focuses on high-throughput visualization and Python/C# microservices, while 43381-JOB is Java/Spring bioinformatics product engineering."
+    },
+    {
+      "employer": "Illumina",
+      "status_at_last_check": "Active official Workday page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore - Woodlands - NorthTech",
+      "arrangement": "Singapore site-based role; no remote or hybrid arrangement is stated. Confirm office cadence.",
+      "eligibility": "Singapore opening. Viable for a candidate who can work at the stated Singapore site; right-to-work and sponsorship must be established unless explicitly stated otherwise.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore compensation package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; confirm Singapore work-right and visa-sponsorship requirements",
+      "posted": "Official localized views conflict between Posted 2 Days Ago and Posted 30+ Days Ago for the same requisition, indicating a refresh; original date is unclear.",
+      "terms": "Full-time. Office cadence, working hours, on-call, bonus/equity, leave, notice and relocation terms are not published.",
+      "source_urls": [
+        "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Sr-Software-Engineer_42851-JOB"
+      ],
+      "import_source": "Official Illumina Workday page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "illumina-sr-software-mes-42851-job",
+      "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Sr-Software-Engineer_42851-JOB",
+      "canonical_url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Sr-Software-Engineer_42851-JOB",
+      "url_aliases": [],
+      "requisition": "42851-JOB",
+      "hours_on_call": "Not published; confirm cross-region meeting and production-support expectations.",
+      "fit": "Java or .NET software for manufacturing-equipment integration with MES, process automation, data integrity, operational reporting, cross-functional requirements, troubleshooting and regulated quality systems.",
+      "preparation": "Prepare integration architecture, operational support, data integrity and regulated-change examples. Camstar, ZNT PAC, SECS/GEM, OPC, Modbus TCP and medical validation are domain-specific preparation points.",
+      "questions": "What is the Singapore base, bonus/equity, sponsorship policy, office and factory cadence, shift or on-call coverage, and primary language split? Are Camstar and industrial protocols trainable?",
+      "upside": "Career-growth candidate and compensation to establish: commercially valuable Java integration ownership in regulated manufacturing automation.",
+      "verification": "Official Illumina Workday page was active with an Apply control on 22 October 2026. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java integration and secure enterprise modernization resume",
+          "tailoring": "Emphasize Java/Spring, Apache Camel/EIP, secure integrations, SQL, production troubleshooting, observability and cross-functional modernization. Map protocols and data-integrity responsibilities truthfully.",
+          "fit_and_preparation": "Strong integration transfer. Manufacturing MES and industrial protocols require deliberate preparation.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead integration and cloud-native modernization resume",
+          "tailoring": "Emphasize Java 21, Apache Camel, Kafka, platform reliability, stakeholder leadership, DevSecOps and regulated government-system delivery. Prepare MES and validation concepts.",
+          "fit_and_preparation": "Strong integration, troubleshooting and leadership transfer. Industrial protocols and medical validation are preparation points.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Separate MES and manufacturing-automation requisition; no Illumina employer or 42851-JOB record existed in the ledger."
+    },
+    {
+      "employer": "Illumina",
+      "status_at_last_check": "Active official Workday page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore - Woodlands - NorthCoast",
+      "arrangement": "Singapore site-based role; no remote or hybrid arrangement is stated. Confirm office cadence.",
+      "eligibility": "Singapore opening. Viable for a candidate who can work at the stated Singapore site; right-to-work and sponsorship must be established unless explicitly stated otherwise.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore compensation package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; confirm Singapore work-right and visa-sponsorship requirements",
+      "posted": "Official localized views show Posted 2 Days Ago and Posted 17 Days Ago for the same requisition, indicating a refresh; original date is unclear.",
+      "terms": "Full-time. Office cadence, working hours, on-call, bonus/equity, leave, notice and relocation terms are not published.",
+      "source_urls": [
+        "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Principal-Software-Engineer-1_43342-JOB-1"
+      ],
+      "import_source": "Official Illumina Workday page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "illumina-principal-software-43342-job",
+      "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Principal-Software-Engineer-1_43342-JOB-1",
+      "canonical_url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Principal-Software-Engineer-1_43342-JOB-1",
+      "url_aliases": [],
+      "requisition": "43342-JOB",
+      "hours_on_call": "Not published; confirm cross-region meeting and production-support expectations.",
+      "fit": "Technical architecture and leadership for the next-generation Illumina Data Platform, including global platform integration, cloud hyperscalers, AI-assisted development, data pipelines and workflow orchestration.",
+      "preparation": "This is a genuine stretch: the page requests 12+ years of hands-on architecture, senior-level leadership and preferably three years as an architect, with 15 years typical at bachelor's level. Prepare architectural vision, commercialization and leadership evidence; do not imply unconfirmed years or regulated-life-sciences experience.",
+      "questions": "Will Illumina consider a hands-on lead with about nine years and strong platform modernization evidence? What are the Singapore base, bonus/equity, sponsorship, office cadence, leadership scope and on-call expectations?",
+      "upside": "Ambitious career-growth candidate and compensation to establish: principal architecture ownership, global influence and AI-native engineering leadership.",
+      "verification": "Official Illumina Workday page was active with an Apply control on 22 October 2026. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Senior backend, modernization and architecture-growth resume",
+          "tailoring": "Emphasize secure platform integrations, cloud/Kubernetes, MDM/data governance and architecture decisions. Do not overstate formal architect tenure or people leadership.",
+          "fit_and_preparation": "High-risk stretch because the formal architecture and seniority expectations exceed confirmed evidence, but the modernization and data-governance trajectory is relevant.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 3,
+          "resume_emphasis": "Hands-on technical lead, platform modernization and AI-integration resume",
+          "tailoring": "Lead with technical Scrum leadership, cloud-native modernization, event-driven architecture, DevSecOps and AI-application prototypes. Describe architectural ownership precisely and do not inflate tenure.",
+          "fit_and_preparation": "Credible ambitious stretch through hands-on leadership and platform scope, with material gaps against the requested architecture tenure and senior-leadership level.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Separate principal data-platform architecture requisition; no Illumina employer or 43342-JOB record existed in the shared ledger."
     }
   ]
 }
