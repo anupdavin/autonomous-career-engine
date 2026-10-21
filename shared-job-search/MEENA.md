@@ -2828,3 +2828,20 @@ India-remote contract with a full-time workload, leading a small team while rema
 [Application](https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144)
 
 Singapore office-based, full-time contract with genuine cross-squad architecture, modernization, secure shared services, event-driven integration, DevSecOps and mentoring scope. Use the hands-on technical-lead, Java/Angular cloud-platform and public-sector modernization resume. Lead with Java 21, Angular 18, Kafka Streams, Kubernetes, Terraform/ArgoCD, observability and mentoring; keep AI work labeled as prototypes. Published pay is SGD 10,000-11,000 monthly, below the SGD 12,000 target reference. Duration, benefits, sponsorship, office site, hours and on-call are unknown.
+
+
+## New active global-remote Java streaming and APAC AI-infrastructure roles checked 22Oct2026
+
+### Priority 1: Camunda: Senior Software Engineer, Backend - Data Streaming
+- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+
+[Application](https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98)
+
+Full-time, remote senior Java role building a foundational data-streaming architecture. Use the hands-on technical-lead, Java event-streaming and cloud-native modernization resume. Lead with Java 21, Spring Boot 3, Kafka and Kafka Streams, Kubernetes, KEDA, observability and initiative leadership. Published Singapore annual total target cash is SGD 178,600-267,900, which may include variable cash; equity is separate. This exceeds the SGD 144,000 target reference on a total-target-cash basis, not confirmed guaranteed base. Prepare Flink, RocksDB and object-storage design discussions. Confirm the Canada/EMEA location-header conflict, India Remote.com eligibility, Singapore sponsorship, base-versus-variable split, overlap and on-call.
+
+### Priority 3 ambitious stretch: LanceDB: Senior Software Engineer
+- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+
+[Application](https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0)
+
+Full-time remote opening for Americas or APAC, integrating an AI-native multimodal lakehouse with Spark, Ray, Trino and open-source data systems. Java and event-streaming experience are relevant, but the role asks for 10+ years in databases or big-data services, deep internals knowledge and Rust or willingness to learn it. Use the technical-lead, event-streaming platform and applied-AI data-infrastructure resume without claiming production ML research. The page lists USD 180,000-250,000 base plus equity, but local Singapore or India applicability is unconfirmed, so no SGD conversion is recorded. Confirm the employing entity, local band and benefits, required Americas overlap, on-call and the minimum database-internals bar.
