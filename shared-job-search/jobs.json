@@ -12219,6 +12219,277 @@
         }
       },
       "deduplication_note": "Distinct OKX Growth team requisition 7594323003. It is separate from the previously reported OKX payment, wallet, architect and AI-agent roles."
+    },
+    {
+      "employer": "Citi",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Citi page with Apply control",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Singapore",
+      "arrangement": "Official page labels the job On-Site/Resident, while the description includes #LI-Hybrid. Treat office cadence as unresolved until Citi confirms it",
+      "eligibility": "Singapore work location is explicit. India remote is not offered. Personal Singapore work authorization and sponsorship support are not stated",
+      "engagement_type": "Full time employee role",
+      "published_compensation": "No numeric base salary, bonus or equity amount published",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Unknown. The page does not state Employment Pass sponsorship or transfer support",
+      "posted": "20 October 2026",
+      "terms": "Benefits are referenced but numeric cash, bonus, equity, leave, notice, probation and relocation terms are not stated",
+      "source_urls": [
+        "https://jobs.citi.com/job/singapore/lead-software-engineer-java-vice-president/287/102210702800"
+      ],
+      "import_source": "Fresh official Citi Careers page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "citi-lead-java-vp-26998988",
+      "title": "Lead Software Engineer (Java) - Vice President",
+      "url": "https://jobs.citi.com/job/singapore/lead-software-engineer-java-vice-president/287/102210702800",
+      "canonical_url": "https://jobs.citi.com/job/singapore/lead-software-engineer-java-vice-president/287/102210702800",
+      "url_aliases": [],
+      "requisition": "26998988",
+      "hours_on_call": "The role supports global trading sessions and collaborates across Singapore, London and New York. Required overlap, weekend work and production on-call rota are not published",
+      "fit": "Hands-on architecture and Java 17/21 engineering for low-latency distributed risk systems, Kafka and middleware, AI-augmented development, mentoring and global stakeholder ownership. C++ or Rust and microsecond latency depth are desirable preparation areas",
+      "preparation": "Prepare evidence of modern Java concurrency, event-driven design, high-throughput reliability, profiling, incident ownership and architecture influence. Establish low-latency trading, C++ or Rust, lock-free structures and JVM tuning depth honestly",
+      "questions": "What is the Singapore base, bonus and equity? Is Employment Pass sponsorship or transfer available? Is the cadence onsite or hybrid? What global overlap and on-call are required? How strict are the C++ or Rust, lock-free and microsecond-latency expectations? What distinguishes Lead from VP management scope?",
+      "upside": "Career-growth candidate with potential income upside to establish; ambitious hands-on architecture and AI-augmented engineering scope",
+      "verification": "Official Citi Careers page checked 21 October 2026. The page was active, showed Apply, requisition 26998988, full-time status and a 20 October 2026 posting date. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java architecture, payments, secure integration and distributed systems resume",
+          "tailoring": "Foreground Java 21, Spring, Kafka, secure APIs, payments, concurrency, observability, production diagnosis and architecture decisions. Present AI coding-agent use with verification practices and establish C++ or Rust and low-latency depth honestly.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java 21, event-driven cloud platform and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kafka Streams, AWS/Kubernetes, observability, mentoring, architecture reviews and accountable AI-assisted delivery. Separate proven leadership from unconfirmed low-latency trading, C++ or Rust experience.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Citi requisition 26998988, posted 20 October 2026. It is not the earlier FX Risk Java Technology Lead vacancy in the ledger."
+    },
+    {
+      "employer": "Citi",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Citi page with Apply control",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Singapore",
+      "arrangement": "Official page labels the job On-Site/Resident, while the description includes #LI-Hybrid. Treat office cadence as unresolved",
+      "eligibility": "Singapore work location is explicit. India remote is not offered. Personal work authorization and sponsorship support are not stated",
+      "engagement_type": "Full time employee role",
+      "published_compensation": "No numeric base salary, bonus or equity amount published",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Unknown. The page does not state Employment Pass sponsorship or transfer support",
+      "posted": "19 October 2026",
+      "terms": "Numeric cash, bonus, equity, leave, notice, probation and relocation terms are not stated",
+      "source_urls": [
+        "https://jobs.citi.com/job/singapore/applications-development-technology-lead-analyst-vice-president/287/102161079232"
+      ],
+      "import_source": "Fresh official Citi Careers page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "citi-apps-dev-tech-lead-vp-26994781",
+      "title": "Applications Development Technology Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/singapore/applications-development-technology-lead-analyst-vice-president/287/102161079232",
+      "canonical_url": "https://jobs.citi.com/job/singapore/applications-development-technology-lead-analyst-vice-president/287/102161079232",
+      "url_aliases": [],
+      "requisition": "26994781",
+      "hours_on_call": "Global stakeholder work is implied by Citi's platform context, but required overlap and on-call are not published",
+      "fit": "Hands-on modernization of an equity derivatives pre-trade platform, Java or Kotlin microservices, containers, DevOps, architecture standards, mentoring and legacy-to-next-generation migration. Couchbase and equity-derivatives depth are specific preparation areas",
+      "preparation": "Prepare modernization design choices, microservice boundaries, container delivery, TDD/BDD, DevOps quality, mentoring and stakeholder examples. Establish Kotlin, Couchbase and equity derivatives knowledge without overstating production experience",
+      "questions": "What is the Singapore base and bonus? Is Employment Pass sponsorship or transfer available? Is the role onsite or hybrid? What percentage remains hands-on? What Kotlin and Couchbase depth is required at entry? What support rota and global overlap apply?",
+      "upside": "Career-growth candidate for hands-on technical leadership and enterprise modernization; compensation to establish",
+      "verification": "Official Citi Careers page checked 21 October 2026. The page was active, showed Apply, requisition 26994781, full-time status and a 19 October 2026 posting date. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, secure integration and modernization resume",
+          "tailoring": "Foreground Java, Spring, microservices, containers, CI/CD, payments and legacy modernization. Add only genuine mentoring and architecture influence; frame Kotlin and Couchbase as preparation.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, cloud-native modernization and event-driven platform resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kubernetes/Helm, CI/CD, DevSecOps, technical Scrum leadership, mentoring and modernization ownership. Establish Kotlin, Couchbase and equity derivatives depth honestly.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Citi requisition 26994781, posted 19 October 2026. Different platform and requisition from other Citi roles in the ledger."
+    },
+    {
+      "employer": "ST Engineering IHQ Pte. Ltd.",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official ST Engineering careers page",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, North region",
+      "arrangement": "Singapore work location is explicit. The page does not state remote or hybrid, so plan for onsite unless confirmed otherwise",
+      "eligibility": "Singapore onsite is in scope. India remote is not offered. Personal work authorization and sponsorship support are not stated",
+      "engagement_type": "Employment type not explicitly stated; employee benefits are advertised",
+      "published_compensation": "No numeric base salary or bonus amount published. Competitive remuneration and comprehensive benefits are advertised",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Unknown. The page does not state Employment Pass sponsorship or transfer support",
+      "posted": "Official posting date not shown; active page checked 21 October 2026",
+      "terms": "Benefits are described generally. Bonus, leave, notice, probation, office cadence and sponsorship are not stated",
+      "source_urls": [
+        "https://careers.stengg.com/job/Singapore-Software-Engineer%2C-Full-stack-web-application-development/22537-en_GB/"
+      ],
+      "import_source": "Fresh official ST Engineering careers page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "st-engineering-fullstack-22537",
+      "title": "Senior Software Engineer, Full Stack Web Application Development",
+      "url": "https://careers.stengg.com/job/Singapore-Software-Engineer%2C-Full-stack-web-application-development/22537-en_GB/",
+      "canonical_url": "https://careers.stengg.com/job/Singapore-Software-Engineer%2C-Full-stack-web-application-development/22537-en_GB/",
+      "url_aliases": [
+        "https://careers.stengg.com/job/Senior-Software-Engineer,-Full-stack-web-application-development/22537-en_GB/"
+      ],
+      "requisition": "22537",
+      "hours_on_call": "No timezone, support rota or on-call terms published",
+      "fit": "Very close Java, Spring MVC/Spring Boot microservices, Angular or React, Docker, REST API security, access management, cloud, Kubernetes, ArgoCD, Jenkins, mentoring and release planning match. The role explicitly asks for at least six months using AI coding tools",
+      "preparation": "Prepare full-stack architecture, REST security, access control, container delivery, release planning, code review and mentoring examples. Establish analytics-product experience and whether AI-tool usage satisfies the stated duration without inventing dates",
+      "questions": "What is the base, bonus and grade? Is Employment Pass sponsorship or transfer available? What is the office cadence? Which frontend framework and cloud are primary? What evidence is expected for six months of AI-tool use? Is there production support or on-call?",
+      "upside": "Strong career-fit candidate with unusually direct stack alignment; compensation to establish",
+      "verification": "Official ST Engineering careers page checked 21 October 2026. It showed requisition 22537 and a live job description. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java and Angular full-stack, secure API, cloud modernization and AI-assisted engineering resume",
+          "tailoring": "Foreground Spring Boot, Angular/TypeScript, REST security, AWS/Azure, Kubernetes, Jenkins, release quality, mentoring and verified coding-agent practices. Do not invent the start date or production AI use.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java/Angular, cloud-native delivery and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Angular 18, AWS EKS/ECS, Kubernetes/Helm, ArgoCD/Jenkins, DevSecOps, mentoring and accountable AI-assisted delivery. Label Spring AI/RAG/MCP/Claude work as prototypes.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct ST Engineering requisition 22537. No ST Engineering listing existed in the shared ledger at the check."
+    },
+    {
+      "employer": "Domus Global / IUGO",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active Himalayas listing with application link",
+      "freshly_verified_during_import": true,
+      "location": "Remote, listed worldwide",
+      "arrangement": "Full-time remote worldwide on the listing. Employer entity, contractor versus employee mechanism, working language and timezone overlap are not stated",
+      "eligibility": "Worldwide remote is explicitly listed, so Singapore and India appear in scope. Local employing entity, EOR or contractor route remains unconfirmed",
+      "engagement_type": "Full time; employee versus contractor classification is not stated",
+      "published_compensation": "No numeric salary, rate, bonus or equity amount published",
+      "compensation_geography": "Worldwide listing; global versus location-adjusted pay is not stated",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "No sponsorship policy stated. Confirm direct employment, EOR or contractor engagement for Singapore and India",
+      "posted": "16 October 2026",
+      "terms": "Leave, benefits, notice, probation, payment currency, payment schedule and equipment are not stated",
+      "source_urls": [
+        "https://himalayas.app/companies/domus-global/jobs/senior-java-engineer-1282823031"
+      ],
+      "import_source": "Fresh Himalayas listing checked 21 October 2026; no separate employer ATS page was found",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "domus-global-iugo-senior-java-1282823031",
+      "title": "Senior Java Engineer",
+      "url": "https://himalayas.app/companies/domus-global/jobs/senior-java-engineer-1282823031",
+      "canonical_url": "https://himalayas.app/companies/domus-global/jobs/senior-java-engineer-1282823031",
+      "url_aliases": [
+        "https://kerjaanremote.com/jobs/himalayas-senior-java-engineer-1ewhub5/"
+      ],
+      "requisition": "1282823031",
+      "hours_on_call": "No timezone overlap or on-call terms published. The Spanish-language description makes working language and Latin America overlap important to confirm",
+      "fit": "Java APIs, integrations, AWS, Docker/Kubernetes, distributed-system consistency, observability, autonomy and AI-assisted coding, testing and automation align strongly. The end client or product named IUGO and the exact employment mechanism need clarification",
+      "preparation": "Prepare API and integration design, idempotency, retry, distributed consistency, observability, AWS/container delivery and accountable AI-assisted development examples. Confirm Spanish working fluency if relevant",
+      "questions": "Is this an employee, EOR or B2B engagement in Singapore and India? Who is the legal employer and what is IUGO's relationship to Domus Global? What currency and location-adjusted pay apply? What language and Latin America overlap are required? What leave, notice, equipment and on-call terms apply?",
+      "upside": "Career-fit remote candidate with strong AI-assisted and integration alignment; compensation and engagement economics to establish",
+      "verification": "Himalayas listing checked 21 October 2026. It was active, listed Remote Worldwide and Full Time, and showed a posted date of 16 October 2026. A separate employer ATS page was not located. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, secure integration, cloud and AI-assisted engineering resume",
+          "tailoring": "Foreground Java/Spring Boot APIs, external integrations, AWS/Azure, Kubernetes, Kafka, observability, idempotency and verified coding-agent workflows. Do not imply Spanish fluency or production AI delivery unless established.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java backend, event-driven cloud platform and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, AWS/Kubernetes, Kafka, observability, integration design, mentoring and accountable AI-assisted delivery. Keep AI application work labeled as prototypes and confirm working language.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct active Domus Global / IUGO listing. The ledger contained no matching employer, requisition, URL or substantially identical description."
+    },
+    {
+      "employer": "BarkleyOKRP",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with application form",
+      "freshly_verified_during_import": true,
+      "location": "Remote; country not stated on official page",
+      "arrangement": "Full-time remote. Official Greenhouse page does not state countries; third-party copies conflict between worldwide and United States-only. Singapore and India eligibility is unconfirmed",
+      "eligibility": "Promising remote lead only. Do not treat as eligible until BarkleyOKRP confirms it can employ or contract in Singapore or India. A United States-only restriction is possible based on third-party copies",
+      "engagement_type": "Full-time employee listing; international contractor or EOR route not stated",
+      "published_compensation": "No numeric salary, bonus or equity amount published",
+      "compensation_geography": "Country and pay geography not stated",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Unknown. Confirm country eligibility, legal entity and any EOR or contractor route before investing heavily",
+      "posted": "Official page marks the role New but gives no date; active page checked 21 October 2026",
+      "terms": "Benefits, leave, notice, probation, payment currency, equipment and timezone terms are not stated on the job page",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/barkleyokrp/jobs/6227076004"
+      ],
+      "import_source": "Fresh official BarkleyOKRP Greenhouse page checked 21 October 2026, with conflicting third-party geography noted",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "barkleyokrp-senior-java-backend-6227076004",
+      "title": "Senior Software Engineer (Java Backend)",
+      "url": "https://job-boards.greenhouse.io/barkleyokrp/jobs/6227076004",
+      "canonical_url": "https://job-boards.greenhouse.io/barkleyokrp/jobs/6227076004",
+      "url_aliases": [
+        "https://www.makely.tech/jobs/barkleyokrp-senior-software-engineer-java-backend"
+      ],
+      "requisition": "6227076004",
+      "hours_on_call": "No timezone overlap or on-call terms published",
+      "fit": "Enterprise Java, SQL/MySQL, REST APIs, Git/GitHub and legacy Tomcat/MySQL to cloud-native modernization are direct strengths. GCP, BigQuery and dbt are helpful rather than core; Claude and Gemini coding-tool familiarity is explicitly valued",
+      "preparation": "Prepare enterprise Java modernization, relational design, REST integration, Git workflows and responsible AI coding-tool examples. Establish GCP, BigQuery, dbt and advertising-data experience honestly",
+      "questions": "Can BarkleyOKRP hire an employee or contractor in Singapore or India? Is the role actually United States-only? What legal entity, currency and location-adjusted pay apply? What timezone overlap and on-call apply? How important are GCP, BigQuery, dbt and advertising technology?",
+      "upside": "Career-fit modernization lead with AI-assisted engineering relevance; eligibility and compensation to establish before a full application",
+      "verification": "Official BarkleyOKRP Greenhouse page checked 21 October 2026. It was active, marked New and exposed an application form. The official page only says Remote; third-party geography conflicts, so Singapore and India eligibility remains unconfirmed. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, SQL, REST modernization and AI-assisted engineering resume",
+          "tailoring": "Foreground enterprise Java, Spring, REST APIs, SQL, secure integrations, modernization, CI/CD and verified Claude/Codex workflows. Establish GCP, BigQuery and dbt depth honestly.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, cloud modernization and AI-assisted delivery resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, REST, PostgreSQL/Oracle, CI/CD, Kubernetes, observability, mentoring and accountable AI-tool use. Do not imply production GCP, BigQuery or dbt unless established.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Greenhouse requisition 6227076004. The ledger contained no BarkleyOKRP listing or substantially identical description."
     }
   ]
 }

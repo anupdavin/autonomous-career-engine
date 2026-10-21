@@ -2565,3 +2565,80 @@ Hours/on-call: Platform operations and automated change are central, but no supp
 Recruiter questions: Singapore level and guaranteed base, bonus and equity; Employment Pass support; work cadence; hours and on-call; mandatory CMDB/Terraform/cloud API/production AI depth; Senior versus Staff scope.
 
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+## New active matches checked 21Oct2026
+
+### Priority 1: Citi: Lead Software Engineer (Java) - Vice President
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.citi.com/job/singapore/lead-software-engineer-java-vice-president/287/102210702800)
+
+Location/type: Singapore, full time. Citi labels the role On-Site/Resident but also includes #LI-Hybrid, so confirm cadence. Singapore work authorization and sponsorship are unknown.
+
+Pay: No numeric salary, bonus or equity amount published.
+
+Fit: Hands-on Java 17/21 architecture for low-latency distributed risk systems, Kafka, AI-augmented engineering and mentoring. This is an ambitious but credible step from payments and secure integration work.
+
+Resume: Use the hands-on technical lead, Java 21, event-driven cloud platform and AI-assisted engineering resume. Emphasize Kafka Streams, Kubernetes, mentoring, architecture reviews and accountable AI delivery.
+
+Prepare/questions: JVM tuning, low latency, C++ or Rust and lock-free structures. Ask about base/bonus/equity, Employment Pass support, office cadence, global overlap and on-call.
+
+### Priority 1: Citi: Applications Development Technology Lead Analyst, Vice President
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.citi.com/job/singapore/applications-development-technology-lead-analyst-vice-president/287/102161079232)
+
+Location/type: Singapore, full time. On-Site/Resident conflicts with #LI-Hybrid. Sponsorship is unknown.
+
+Pay: No numeric compensation published.
+
+Fit: Java or Kotlin microservices, containers, DevOps, legacy modernization, architecture standards and mentoring in an equity-derivatives platform.
+
+Resume: Use the hands-on technical lead, cloud-native modernization and event-driven platform resume. Highlight Java 21, Kubernetes, DevSecOps, mentoring and modernization ownership.
+
+Prepare/questions: Kotlin, Couchbase and equity derivatives. Ask about package, Employment Pass support, hands-on percentage, office cadence and on-call.
+
+### Priority 1: ST Engineering: Senior Software Engineer, Full Stack Web Application Development
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://careers.stengg.com/job/Singapore-Software-Engineer%2C-Full-stack-web-application-development/22537-en_GB/)
+
+Location/type: Singapore North region; remote or hybrid not stated. Employment type and sponsorship are unknown.
+
+Pay: No numeric compensation published.
+
+Fit: Java, Spring Boot, Angular or React, Docker, REST security, cloud, Kubernetes, ArgoCD/Jenkins, mentoring and at least six months using AI coding tools.
+
+Resume: Use the hands-on lead Java/Angular, cloud-native delivery and AI-assisted engineering resume. Keep Spring AI/RAG/MCP/Claude work labeled as prototypes.
+
+Prepare/questions: Analytics product context, release planning and exact AI-tool evidence. Ask about base/bonus, grade, Employment Pass support, office cadence and on-call.
+
+### Priority 1 remote: Domus Global / IUGO: Senior Java Engineer
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://himalayas.app/companies/domus-global/jobs/senior-java-engineer-1282823031)
+
+Location/type: Full-time Remote Worldwide. Employer/EOR/contractor mechanism, language and timezone are unconfirmed.
+
+Pay: No numeric compensation published.
+
+Fit: Java APIs, integrations, AWS, Docker/Kubernetes, distributed consistency, observability and AI-assisted coding/testing.
+
+Resume: Use the hands-on lead Java backend, event-driven cloud platform and AI-assisted engineering resume. Keep AI application work labeled as prototypes.
+
+Prepare/questions: Spanish working language, Latin America overlap, legal employer, currency, location-adjusted pay, leave, notice and on-call.
+
+### Priority 2 remote lead: BarkleyOKRP: Senior Software Engineer (Java Backend)
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/barkleyokrp/jobs/6227076004)
+
+Location/type: Full-time Remote, but country eligibility is unconfirmed and third-party copies conflict between worldwide and United States-only.
+
+Pay: No numeric compensation published.
+
+Fit: Enterprise Java, SQL/MySQL, REST, Git and legacy-to-cloud modernization; Claude/Gemini coding tools are valued.
+
+Resume: Use the senior Java backend, cloud modernization and AI-assisted delivery resume. Do not imply production GCP, BigQuery or dbt unless established.
+
+Prepare/questions: Confirm Singapore/India eligibility before a full application. Ask about legal entity, currency, location-adjusted pay, timezone overlap, GCP/BigQuery/dbt and on-call.
