@@ -13564,10 +13564,10 @@
       ],
       "import_source": "Active Jobgether Lever page checked 22 October 2026; the substantially identical public copy identifies Mitchell Martin Inc. as the recruiting firm.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "job_id": "mitchell-martin-full-stack-platform-engineer-c53f3af4",
       "url": "https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274",
