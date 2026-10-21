@@ -2696,3 +2696,12 @@ Singapore Java/Spring Boot, REST, SQL and frontend role. Angular transfers well,
 [Application](https://jobs.sap.com/en/jobs/744000156711889/senior-platform-engineer-platform-engineer/)
 
 Full-time hybrid Singapore role, reference REF2926E, building high-availability AI product infrastructure and large-scale cloud/data platforms. Java, Go, Python, Spring REST, Docker, Kubernetes, Istio, Helm, etcd, Argo and Envoy are requested. LLM/LangChain and AIOps are optional. Compensation, sponsorship, office frequency and on-call are unknown.
+
+## New active Singapore integration role checked 21Oct2026
+
+### Priority 1: Singtel Group: Senior Software Engineer (Networks), Java / Apache Camel
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/)
+
+Singapore role using Java, Apache Camel, Spring Boot, Docker, Kubernetes, PostgreSQL, Linux, EFK and Prometheus/Grafana for scalable network services. Requisitions 1362561466 and substantially identical 1362895166 are consolidated. Compensation, sponsorship, employment type, office cadence and on-call are unknown.
