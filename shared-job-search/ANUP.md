@@ -2804,8 +2804,17 @@ Singapore data-platform architecture role covering global integrations, hypersca
 ## New active India-remote Java role checked 22Oct2026
 
 ### Priority 1: Anaqua: Senior Java Developer
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://apply.workable.com/anaqua/j/9DF282ACE3/)
 
 Full-time, fully remote India role owning RightHub services on Java, Spring Boot 3, domain events, asynchronous messaging, OpenAPI, PostgreSQL, Kubernetes/GKE and GCP. Use the senior Java backend and distributed-systems resume. Emphasize Kafka, PostgreSQL, Kubernetes, production diagnosis, API security and mentoring; prepare GCP, DDD and event-sourcing scenarios. The official form requires permanent unrestricted India work authorization. Salary, benefits, hours and on-call are unpublished; confirm that no Hyderabad attendance is required.
+
+## New active India-remote contract lead checked 22Oct2026
+
+### Priority 1: Mitchell Martin Inc. via Jobgether: Full Stack Platform Engineer
+- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+
+[Application](https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274)
+
+India-remote contract with a full-time workload, leading a small team while remaining hands-on across Java, Spring Boot, Angular or React, Kafka, REST and GraphQL, Azure and AWS, Docker, Kubernetes, Terraform, CI/CD and AI-enabled engineering workflows. Use the senior Java full-stack, secure-integration and modernization resume. Lead with Java/Spring, Angular/TypeScript, Kafka, cloud/Kubernetes, API security, observability and verified coding-agent practices. Salary and all material contract economics are unpublished. Confirm the end client, rate and currency, duration, payment schedule, guaranteed workload, leave/benefits, equipment, India engagement requirements, client hours and on-call before treating it as an income-growth move.
