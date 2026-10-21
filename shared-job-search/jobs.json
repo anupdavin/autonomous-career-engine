@@ -13688,10 +13688,10 @@
       ],
       "import_source": "Official Camunda Ashby page and current Camunda jobs index checked 22 October 2026.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "hours_on_call": "Camunda describes remote-first, async work and flexible location. Required overlap, travel, incident response and on-call are not stated; confirm with recruiting.",
       "fit": "Direct senior Java backend role on a new data-streaming architecture. It asks for 7+ years in Java and distributed or data-intensive systems, end-to-end initiative leadership, and values Kafka, stateful stream processing, RocksDB, Flink and object-storage-native streaming.",
@@ -13746,10 +13746,10 @@
       ],
       "import_source": "Official LanceDB Ashby page and current indexed copies checked 22 October 2026.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "hours_on_call": "Flexible hours are advertised. Required Americas overlap, conference or community travel, production operations and on-call are not stated.",
       "fit": "Ambitious open-source data-infrastructure role spanning distributed dataset operations, query acceleration, Spark/Ray/Trino integrations, table formats, data encodings, Rust and high-performance computing in C++, Java or Scala. The company is building an AI-native multimodal lakehouse.",
