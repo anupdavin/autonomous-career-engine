@@ -13805,10 +13805,10 @@
       ],
       "import_source": "Official CSC Generation Lever page and company careers index checked 22 October 2026.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "hours_on_call": "The role includes deployment, production support, incident response, reliability monitoring and alerting. Working hours, US overlap and an on-call rota are not published.",
       "fit": "Hands-on architecture and development for ecommerce order-management and warehouse-management systems using Java, Spring Boot, relational SQL, distributed and event-driven patterns, Docker, Kubernetes, CI/CD, AWS or GCP, observability and AI-assisted engineering workflows.",
