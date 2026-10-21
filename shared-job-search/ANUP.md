@@ -2766,36 +2766,46 @@ Remote India. Production AI agents, knowledge graphs, retrieval, orchestration, 
 ## New active Illumina Singapore roles checked 22Oct2026
 
 ### Priority 1: Illumina: Senior Software Engineer - Full Stack (43381-JOB)
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/Singapore---Woodlands---NorthCoast/Senior-Software-Engineer_43381-JOB)
 
 Full-time Singapore role combining Java or Kotlin, Spring Boot, Angular or React, TypeScript, PostgreSQL, asynchronous processing, cloud, Kubernetes/Helm, OAuth2/OIDC and responsible AI-assisted development. Use the Java and Angular full-stack modernization resume. Prepare interactive scientific-data visualization and controlled-release examples. Salary and sponsorship are not published; the posting-age labels conflict for the same requisition.
 
 ### Priority 2: Illumina: Senior Software Engineer (Backend) (42821-JOB)
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Senior-Software-Engineer--Backend-_42821-JOB)
 
 Full-time Singapore backend role for sequencing-instrument services, reliability, observability, CI/CD, mentoring, Kubernetes, Docker, PostgreSQL and RabbitMQ. C# or Python replaces Java, so apply on transferable backend depth with an explicit ramp plan. The role is not eligible for visa sponsorship and requires US-Singapore collaboration. Salary, cadence and on-call are unpublished.
 
 ### Priority 2: Illumina: Senior Software Engineer - Full Stack (42506-JOB)
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Singapore---Woodlands---NorthCoast/Staff-Software-Engineer---Full-Stack_42506-JOB-1)
 
 Full-time Singapore visualization role using Angular or React, TypeScript, WebGL/WebAssembly, CSS, Python or C# microservices, automated tests and AI-driven interfaces. Use the Angular full-stack resume. Prepare visualization performance, large-data interaction and non-Java backend learning. Salary, sponsorship and cadence are unpublished.
 
 ### Priority 2: Illumina: Sr Software Engineer, MES integration (42851-JOB)
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Sr-Software-Engineer_42851-JOB)
 
 Full-time Singapore role integrating manufacturing equipment with MES using Java or .NET, automation, data integrity, reporting and production troubleshooting. Use the Java integration and enterprise-modernization resume, emphasizing Apache Camel/EIP. Prepare Camstar, SECS/GEM, OPC, Modbus TCP and regulated validation. Salary, sponsorship, shifts and on-call are unpublished.
 
 ### Priority 3 ambitious stretch: Illumina: Principal Software Engineer 1 (43342-JOB)
-- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Principal-Software-Engineer-1_43342-JOB-1)
 
 Singapore data-platform architecture role covering global integrations, hyperscalers, AI-assisted development, pipelines and workflow orchestration. The role requests 12+ years of hands-on architecture and senior leadership, so this is a high-risk architecture-growth application. Use the modernization and data-governance resume without overstating formal architect tenure. Salary, sponsorship and cadence are unpublished.
+
+
+## New active India-remote Java role checked 22Oct2026
+
+### Priority 1: Anaqua: Senior Java Developer
+- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+
+[Application](https://apply.workable.com/anaqua/j/9DF282ACE3/)
+
+Full-time, fully remote India role owning RightHub services on Java, Spring Boot 3, domain events, asynchronous messaging, OpenAPI, PostgreSQL, Kubernetes/GKE and GCP. Use the senior Java backend and distributed-systems resume. Emphasize Kafka, PostgreSQL, Kubernetes, production diagnosis, API security and mentoring; prepare GCP, DDD and event-sourcing scenarios. The official form requires permanent unrestricted India work authorization. Salary, benefits, hours and on-call are unpublished; confirm that no Hyderabad attendance is required.
