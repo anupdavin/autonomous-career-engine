@@ -2378,6 +2378,8 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 
 ## New active Singapore matches checked 21Oct2026
 
+- Alert history: All four roles below were delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
+
 ### 1. GovTech Singapore / SLA: Senior Software Engineer
 - Link: https://jobs.careers.gov.sg/jobs/greenhouse/4006308201?gh_jid=4006308201
 - Priority: Apply first. Career-growth candidate; compensation to establish.
