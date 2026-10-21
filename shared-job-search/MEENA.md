@@ -2845,3 +2845,13 @@ Full-time, remote senior Java role building a foundational data-streaming archit
 [Application](https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0)
 
 Full-time remote opening for Americas or APAC, integrating an AI-native multimodal lakehouse with Spark, Ray, Trino and open-source data systems. Java and event-streaming experience are relevant, but the role asks for 10+ years in databases or big-data services, deep internals knowledge and Rust or willingness to learn it. Use the technical-lead, event-streaming platform and applied-AI data-infrastructure resume without claiming production ML research. The page lists USD 180,000-250,000 base plus equity, but local Singapore or India applicability is unconfirmed, so no SGD conversion is recorded. Confirm the employing entity, local band and benefits, required Americas overlap, on-call and the minimum database-internals bar.
+
+
+## New active India-remote ecommerce backend role checked 22Oct2026
+
+### Priority 2: Backcountry via CSC Generation: Senior Backend Engineer - Fulfillment Systems
+- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+
+[Application](https://jobs.lever.co/cscgeneration-2/9b766051-6816-40fa-8d01-4353520d89c2)
+
+Full-time remote role explicitly open in India, owning architecture, development and production reliability for ecommerce order and warehouse fulfillment systems. Use the hands-on technical-lead, event-driven Java and cloud-native modernization resume. Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS/ECS, Kubernetes, observability, CI/CD, incident ownership and mentoring. Ecommerce and OMS/WMS are preparation areas; do not imply unconfirmed domain experience. Salary and India benefits are unpublished, so compare the actual package with the SGD 144,000 target reference only after terms are known. Confirm India work authorization and employing entity, no recurring office attendance, the location of the stated in-person interview, US overlap and on-call.
