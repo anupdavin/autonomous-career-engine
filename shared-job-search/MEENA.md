@@ -2833,14 +2833,14 @@ Singapore office-based, full-time contract with genuine cross-squad architecture
 ## New active global-remote Java streaming and APAC AI-infrastructure roles checked 22Oct2026
 
 ### Priority 1: Camunda: Senior Software Engineer, Backend - Data Streaming
-- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98)
 
 Full-time, remote senior Java role building a foundational data-streaming architecture. Use the hands-on technical-lead, Java event-streaming and cloud-native modernization resume. Lead with Java 21, Spring Boot 3, Kafka and Kafka Streams, Kubernetes, KEDA, observability and initiative leadership. Published Singapore annual total target cash is SGD 178,600-267,900, which may include variable cash; equity is separate. This exceeds the SGD 144,000 target reference on a total-target-cash basis, not confirmed guaranteed base. Prepare Flink, RocksDB and object-storage design discussions. Confirm the Canada/EMEA location-header conflict, India Remote.com eligibility, Singapore sponsorship, base-versus-variable split, overlap and on-call.
 
 ### Priority 3 ambitious stretch: LanceDB: Senior Software Engineer
-- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0)
 
