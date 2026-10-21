@@ -13774,6 +13774,65 @@
         }
       },
       "deduplication_note": "No LanceDB employer record, either Ashby identifier, or substantially identical open-source data-infrastructure opening existed in the shared ledger. The second Ashby URL is retained as an alias, not a separate job."
+    },
+    {
+      "job_id": "backcountry-csc-senior-backend-fulfillment-9b766051",
+      "employer": "Backcountry (CSC Generation)",
+      "title": "Senior Backend Engineer - Fulfillment Systems",
+      "requisition": "Lever 9b766051-6816-40fa-8d01-4353520d89c2",
+      "url": "https://jobs.lever.co/cscgeneration-2/9b766051-6816-40fa-8d01-4353520d89c2",
+      "canonical_url": "https://jobs.lever.co/cscgeneration-2/9b766051-6816-40fa-8d01-4353520d89c2",
+      "url_aliases": [
+        "https://jobs.lever.co/cscgeneration-2/9b766051-6816-40fa-8d01-4353520d89c2/apply",
+        "https://www.cscgeneration.com/careers"
+      ],
+      "status_at_last_check": "Active official CSC Generation Lever page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Remote in India, Costa Rica or the United States",
+      "arrangement": "Full-time remote. The official header defaults to Costa Rica, but the description explicitly includes Remote (India). An in-person interview step is listed with an unresolved office-location placeholder.",
+      "eligibility": "India-remote work is explicitly listed. Singapore engagement is not advertised. India work authorization, sponsorship and employing entity are not stated.",
+      "engagement_type": "Full-time employment",
+      "published_compensation": "Not published. The application requires candidates to enter salary expectations.",
+      "compensation_geography": "India compensation, currency, bonus, equity and benefits are not published. The page lists benefits only for the United States and Costa Rica.",
+      "sgd_comparison": "Unavailable because no India compensation is published. Do not infer an income upgrade from the employer or remote arrangement.",
+      "authorization_sponsorship": "Unknown. Confirm India work-right requirements, payroll entity or employer-of-record, and whether sponsorship is available.",
+      "posted": "A public index reports 12 May 2026. The official CSC Generation careers page and Lever application remained active on 22 October 2026.",
+      "terms": "Full-time. India-specific leave, medical coverage, retirement benefits, probation, notice, termination, equipment and expense support are not published.",
+      "source_urls": [
+        "https://jobs.lever.co/cscgeneration-2/9b766051-6816-40fa-8d01-4353520d89c2",
+        "https://www.cscgeneration.com/careers"
+      ],
+      "import_source": "Official CSC Generation Lever page and company careers index checked 22 October 2026.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Append an alert_delivered event only after actual delivery."
+      },
+      "hours_on_call": "The role includes deployment, production support, incident response, reliability monitoring and alerting. Working hours, US overlap and an on-call rota are not published.",
+      "fit": "Hands-on architecture and development for ecommerce order-management and warehouse-management systems using Java, Spring Boot, relational SQL, distributed and event-driven patterns, Docker, Kubernetes, CI/CD, AWS or GCP, observability and AI-assisted engineering workflows.",
+      "preparation": "The posting asks for 10+ years and strong ecommerce, order-management or warehouse-management experience. These are interview-preparation and evidence-establishment points, not automatic exclusions. Prepare truthful examples of event-driven fulfillment flows, reliability tradeoffs, technical debt reduction, production incidents and responsible AI-assisted engineering.",
+      "questions": "Is the role fully remote anywhere in India with no recurring office attendance? Must India candidates attend the stated in-person interview, and where? Which entity employs India staff? What are base salary, currency, bonus/equity, benefits, leave, equipment and notice terms? Confirm working hours, North America overlap, on-call frequency and how strictly ecommerce/OMS/WMS experience is screened.",
+      "upside": "Career-growth candidate and compensation to establish: meaningful architecture ownership, production reliability, ecommerce fulfillment and AI-assisted engineering leadership, subject to India package and work-arrangement confirmation.",
+      "verification": "The official Lever page had an active Apply control on 22 October 2026 and explicitly listed Remote (India). The CSC Generation careers page also listed the opening. No application or employer contact was made.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, ecommerce logistics, distributed systems and AI-assisted engineering",
+          "tailoring": "Lead with ClickShip ecommerce and logistics delivery, Java and Spring Boot, Kafka or pub/sub, SQL, Kubernetes, cloud operations, observability and verifiable coding-agent workflows. Add only substantiated architecture and reliability outcomes.",
+          "fit_and_preparation": "Strong match through Java, cloud-native distributed systems and prior ecommerce/logistics context. Establish depth in order and warehouse management, production support and the India engagement package.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, event-driven Java platform and cloud-native modernization",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS/ECS, Kubernetes, observability, CI/CD, incident ownership and mentoring. Present AI integration and coding-agent work truthfully, and prepare ecommerce fulfillment scenarios.",
+          "fit_and_preparation": "Strong technical transfer but a less direct domain match than Anup. The 10+ year and ecommerce/OMS/WMS expectations should be addressed with adjacent large-system ownership rather than overstated experience.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Backcountry, CSC Generation, Lever 9b766051, fulfillment-systems project or substantially identical description existed in the shared ledger."
     }
   ]
 }
