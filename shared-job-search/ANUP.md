@@ -2718,7 +2718,7 @@ Full-time Singapore role, requisition 26998646, posted 19Oct2026. Hands-on Java/
 ## New active India-remote event-platform role checked 21Oct2026
 
 ### Priority 1: Smartsheet: Sr. Software Engineer II
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/smartsheet/jobs/8258836)
 
