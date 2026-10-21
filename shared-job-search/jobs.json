@@ -12490,6 +12490,62 @@
         }
       },
       "deduplication_note": "Distinct Greenhouse requisition 6227076004. The ledger contained no BarkleyOKRP listing or substantially identical description."
+    },
+    {
+      "employer": "Daxko",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Daxko Gem ATS page",
+      "freshly_verified_during_import": true,
+      "location": "Remote - Noida, Uttar Pradesh, India",
+      "arrangement": "Official Gem ATS labels the role Remote - Noida. A recent employer LinkedIn copy lists Noida and advertises a hybrid work model, so residence and office attendance must be confirmed before applying",
+      "eligibility": "India remote may be in scope, but this is not confirmed as work-from-anywhere within India. India onsite or hybrid remains excluded. Singapore employment is not offered. Confirm Noida residence and office requirements first",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "No numeric salary, bonus or equity amount published",
+      "compensation_geography": "India compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "India work authorization and sponsorship policy are not stated. Singapore sponsorship is not relevant because Singapore is not offered",
+      "posted": "Official posting date unavailable; employer LinkedIn copy was indexed as one day old on 21 October 2026",
+      "terms": "Full-time benefits advertised include leave, parental and caregiving leave, health and accident insurance, provident fund, reimbursements, awards and learning support. Exact leave, bonus, notice, probation and office cadence are not stated",
+      "source_urls": [
+        "https://jobs.gem.com/daxko/am9icG9zdDpHxm-GhFvVhT8zLHSE5tqT",
+        "https://in.linkedin.com/jobs/view/senior-software-engineer-ii-java-at-daxko-4481526817"
+      ],
+      "import_source": "Fresh official Daxko Gem ATS and employer LinkedIn copy checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "daxko-senior-software-engineer-ii-java-gem",
+      "title": "Senior Software Engineer II (Java)",
+      "url": "https://jobs.gem.com/daxko/am9icG9zdDpHxm-GhFvVhT8zLHSE5tqT",
+      "canonical_url": "https://jobs.gem.com/daxko/am9icG9zdDpHxm-GhFvVhT8zLHSE5tqT",
+      "url_aliases": [
+        "https://in.linkedin.com/jobs/view/senior-software-engineer-ii-java-at-daxko-4481526817"
+      ],
+      "requisition": "Gem job post Hxm-GhFvVhT8zLHSE5tqT",
+      "hours_on_call": "No timezone overlap, support rota or on-call terms published",
+      "fit": "Owns technical direction and roadmap for a service or product area, architecture and design reviews, automated testing, production root-cause fixes and mentoring. Strong Java, REST, SQL, cloud and agentic AI usage are required; Spring Security, Spring Integration, Angular or React, SQL Server, Redis, JVM tuning and concurrency are valued",
+      "preparation": "Prepare concrete architecture and technical-roadmap decisions, automated test strategy, permanent production fixes, mentoring and responsible daily AI-agent workflows. Establish Spring Integration, JVM tuning and concurrency depth through genuine examples",
+      "questions": "Is the role fully remote from any India location, or does it require Noida residence or office attendance? What is the India base, bonus and benefits package? What working hours and on-call apply? How is Senior Software Engineer II calibrated against lead or staff scope? What evidence is expected for advanced daily agentic-AI proficiency?",
+      "upside": "Career-growth candidate with direct Java and AI-assisted engineering ownership; compensation and viable remote arrangement to establish",
+      "verification": "Official Daxko Gem ATS page checked 21 October 2026 and remained active. It labels the role Remote - Noida and Full-time. An employer LinkedIn copy contained the detailed description and hybrid-benefit language. Final submission was not tested. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, secure integration, technical ownership and AI-assisted engineering resume",
+          "tailoring": "Foreground Java/Spring, REST APIs, SQL Server, secure integrations, cloud, automated testing, production diagnosis, architecture influence and verified coding-agent practices. Use only genuine mentoring and roadmap examples.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, Java cloud platform and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Spring Security, Angular 18, SQL/Redis, AWS/Kubernetes, testing, observability, mentoring and accountable AI-agent use. Separate technical leadership from unconfirmed formal people management.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Daxko official Gem posting. No matching Daxko employer, URL, requisition or substantially identical description existed in the shared ledger."
     }
   ]
 }
