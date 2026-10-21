@@ -6,6 +6,8 @@ Historical import on 2026-10-18. Recheck availability before applying. Order is 
 |---|---|---|---|
 | Adyen | [Team Lead, Software Engineer](https://careers.adyen.com/vacancies/8069237-team-lead-software-engineer) | Singapore supported | Not published |
 | Alpaca | [Engineer Team Lead, New Markets Singapore](https://job-boards.greenhouse.io/alpaca/jobs/5979495004) | Remote - APAC; explicitly hiring in Singapore; EP sponsorship availability unknown | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
+| Alpaca | [Senior Software Engineer - Ledger](https://job-boards.greenhouse.io/alpaca/jobs/5389088004) | Worldwide remote; SG/India engagement mechanism unconfirmed | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
+| Alpaca | [Senior Software Engineer, Quality Engineering](https://job-boards.greenhouse.io/alpaca/jobs/6114845004) | Worldwide remote; SG/India engagement mechanism unconfirmed | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
 | Alpaca | [Staff Engineer - New Markets Singapore](https://job-boards.greenhouse.io/alpaca/jobs/6188585004) | Remote - APAC; explicitly hiring in Singapore; EP sponsorship availability unknown | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
 | Airwallex | [Senior Backend Engineer, Stablecoin Platform](https://careers.airwallex.com/job/7fda4857-060d-41c6-900e-c72f451f8ce3/senior-backend-engineer-stablecoin-platform/) | Singapore supported | Not published |
 | Airwallex | [Senior Software Engineer Backend, Billing](https://careers.airwallex.com/job/9e064013-6286-4984-9541-7bd702286d64/senior-software-engineer-backend-billing/) | Singapore; five office days | Not published |
@@ -2474,5 +2476,48 @@ Resume: Use the hands-on technical lead, event-driven cloud platform and fintech
 Hours/on-call: Cross-time-zone work with US and regional teams plus on-call as appropriate. Ask for required overlap, rota frequency, response expectations and compensation or time off.
 
 Recruiter questions: Singapore base, bonus and equity; EP sponsorship availability; remote-only versus office/travel expectations; team size and performance-management authority; US overlap and on-call; whether production Java satisfies the Go-or-equivalent requirement.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+
+### Priority 1: Alpaca: Senior Software Engineer - Ledger
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/alpaca/jobs/5389088004)
+
+Location/type: Global Anywhere on the official page. Employment type is not stated; employee benefits and stock options are advertised. Worldwide remote is explicit, but the Singapore/India employing entity, EOR or contractor mechanism is unconfirmed.
+
+Pay: No base salary or numeric band published. Competitive salary and stock options are advertised, plus USD 500 one-time home-office setup and USD 150/month stipend. No guaranteed cash SGD comparison is possible.
+
+Fit: High-integrity brokerage ledger ownership, financial transaction data, scalable backend systems, PostgreSQL and distributed/event-driven design. Go is preferred rather than mandatory. Meena's fintech, event-driven cloud platform and hands-on technical leadership transfers credibly.
+
+Prepare: Prove transaction integrity, payment-state or reconciliation decisions, distributed-system tradeoffs, PostgreSQL, event-driven messaging, debugging and delivery ownership. Establish protobuf, gRPC, GCP and any Go exposure honestly; do not claim production Go.
+
+Resume: Use the senior backend, fintech and event-driven cloud platform resume. Foreground fintech delivery, Java 21/Spring Boot 3, Kafka Streams, PostgreSQL, Kubernetes, observability and technical ownership.
+
+Hours/on-call: The form asks work location and timezone, but no overlap or on-call terms are published.
+
+Recruiter questions: Local employing or contracting route for Singapore and India; location-adjusted pay; base, bonus and equity; timezone overlap and on-call; whether strong production Java is accepted while ramping in Go; required protobuf, gRPC and GCP depth.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+### Priority 2 stretch: Alpaca: Senior Software Engineer, Quality Engineering
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/alpaca/jobs/6114845004)
+
+Location/type: Global Anywhere on the official page. Employment type is not stated; employee benefits and stock options are advertised. Worldwide remote is explicit, but the Singapore/India employing entity, EOR or contractor mechanism is unconfirmed.
+
+Pay: No base salary or numeric band published. Competitive salary and stock options are advertised, plus USD 500 one-time home-office setup and USD 150/month stipend. No guaranteed cash SGD comparison is possible.
+
+Fit: Software engineering for automated test frameworks, CI/CD, Kubernetes, REST/gRPC quality, resilience and AI-assisted incident-to-regression coverage. Kafka, TypeScript, Helm , GitHub Actions, ArgoCD, Terraform and AI-integration prototypes are relevant. The explicit one-year Go, test-framework and startup requirements create real screening risk because those details are not confirmed.
+
+Prepare: Establish any genuine Go, automated test-framework, load-testing, chaos-engineering and startup-environment evidence. Prepare examples of AI-assisted verification, CI/CD, Kubernetes security, incident learning and event-driven testing. Do not present coding-agent use or prototypes as production AI quality automation.
+
+Resume: Use the cloud-native platform, DevSecOps and AI-integration resume. Foreground GitHub Actions, ArgoCD, Terraform, Kubernetes/Helm, Kafka, TypeScript, observability and mentoring.
+
+Hours/on-call: The form asks work location and timezone, but no overlap or on-call terms are published. Clarify whether production incidents or chaos testing create after-hours obligations.
+
+Recruiter questions: Local employing or contracting route for Singapore and India; location-adjusted pay; base, bonus and equity; strictness of the one-year Go screen; qualifying test-framework and startup evidence; timezone overlap and production support.
 
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
