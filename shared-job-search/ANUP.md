@@ -2525,7 +2525,7 @@ Recruiter questions: Local employing or contracting route for Singapore and Indi
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
 
 ### Priority 1: OKX: Senior/Staff Engineer, Growth
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/okx/jobs/7594323003)
 
@@ -2546,7 +2546,7 @@ Recruiter questions: Singapore level and guaranteed base, bonus and equity; Empl
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
 
 ### Priority 2 stretch: OKX: Senior/Staff Engineer, Operations Automation & Cloud Management Platform
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/okx/jobs/7795778003)
 
