@@ -13599,6 +13599,65 @@
         }
       },
       "deduplication_note": "No Mitchell Martin Inc., Jobgether requisition c53f3af4, or substantially identical India-remote Full Stack Platform Engineer record existed in the shared ledger. Recruiter copies are aliases of this one canonical project."
+    },
+    {
+      "job_id": "percept-solutions-technical-lead-java-fullstack-1736199",
+      "employer": "Percept Solutions Pte. Ltd.",
+      "title": "Technical Lead - Java Full Stack",
+      "requisition": "MCF-2026-1736199",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144",
+      "url_aliases": [
+        "https://alion.io/job/percept-solutions-technical-lead-java-full-stack"
+      ],
+      "status_at_last_check": "Active MyCareersFuture listing returned in current search; matching public copy has an Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Islandwide, Singapore",
+      "arrangement": "Office-based Singapore role. A matching current copy labels it in-office; no remote or hybrid arrangement is published.",
+      "eligibility": "Singapore work location. India remote is not offered. Personal Singapore work authorization and Employment Pass sponsorship are unknown.",
+      "engagement_type": "Contract, full-time",
+      "published_compensation": "SGD 10,000-11,000 per month. Base-versus-total-cash treatment, bonus, equity and benefits are not stated.",
+      "compensation_geography": "Singapore contract",
+      "sgd_comparison": "Published in SGD. The monthly band has a 12-month run-rate of SGD 120,000-132,000, but annual guaranteed cash is not established because contract duration and paid-month commitment are unstated. The entire band is below Meena's SGD 144,000 annual target reference.",
+      "authorization_sponsorship": "Unknown; no citizenship restriction or Employment Pass commitment was retrieved.",
+      "posted": "The exact official listing was active on 22 October 2026. Matching indexed copies place the posting in early October, but a reliable original posting date and closing date were not recovered.",
+      "terms": "Contract and full-time. Duration, renewal, probation, notice, termination, paid leave, benefits, bonus, payment schedule and overtime treatment are not published.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144",
+        "https://alion.io/job/percept-solutions-technical-lead-java-full-stack",
+        "https://sg.jooble.org/jdp/-2432424975821931383"
+      ],
+      "import_source": "Exact MyCareersFuture listing MCF-2026-1736199 plus matching public copies checked 22 October 2026.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert; append alert_delivered only after delivery."
+      },
+      "hours_on_call": "Office attendance is indicated. Core hours, client location, overtime, production support and on-call rota are not published.",
+      "fit": "Hands-on Java technical lead for enterprise platform architecture, modernization, secure shared services, REST APIs, microservices, event-driven integration, Azure, Kubernetes, Docker, GitLab CI/CD, DevSecOps, observability and engineering mentorship. Public-sector and AI-enabled application experience are advantages.",
+      "preparation": "Node.js backend delivery, Azure Service Bus or RabbitMQ and Azure Key Vault are explicit areas to establish. Prepare verifiable examples of architecture tradeoffs, SSO/RBAC, TLS and certificate management, migration/cutover planning, data integrity, multiple-workstream leadership and production troubleshooting. Missing exact tools are preparation points, not assumed incapability.",
+      "questions": "Is the contract direct with Percept Solutions or for an end client, and what project is it? What are the duration, renewal, notice and termination terms? Is SGD 10,000-11,000 guaranteed base, and are bonus, benefits and paid leave separate? Is Employment Pass sponsorship available? Confirm office site and cadence, core hours, on-call, technical decision authority, team size and required Node.js production depth.",
+      "upside": "Career-growth candidate and compensation to establish. The remit offers genuine architecture and cross-squad technical authority; the published range is below Meena's target reference and must be weighed against contract duration and benefits.",
+      "verification": "The exact MyCareersFuture result, requisition MCF-2026-1736199, was returned as active on 22 October 2026. A matching current copy reproduces the description and Apply control. No form was completed and no application or employer contact was made.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java full-stack, secure integration, Azure modernization and hands-on technical leadership",
+          "tailoring": "Lead with Java/Spring Boot, Angular/TypeScript, REST APIs, Kafka, Azure AKS/Kubernetes, CI/CD, OAuth2/mTLS, observability, MDM modernization and verified AI-assisted engineering. Add only verifiable architecture decisions and leadership outcomes.",
+          "fit_and_preparation": "Very strong direct stack and modernization fit. Establish Node.js backend depth, contract economics, office expectations, sponsorship and actual decision authority.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java/Angular cloud-native modernization, DevSecOps and event-driven delivery",
+          "tailoring": "Lead with Java 21/Spring Boot 3, Angular 18/NgRx, Kafka Streams, AWS and Kubernetes, Helm/Istio, Terraform/ArgoCD, DevSecOps, observability, public-sector delivery and mentoring. Keep Spring AI/RAG/MCP work labeled as prototypes.",
+          "fit_and_preparation": "Near-direct leadership and platform-modernization fit. The SGD 10,000-11,000 monthly band is below the SGD 12,000 target reference, so prioritize only if scope, benefits or contract terms justify it. Establish Node.js, Azure-specific services and formal authority.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Percept Solutions MCF-2026-1736199, exact URL or substantially identical Technical Lead - Java Full Stack record existed in the shared ledger. Recruiter and aggregator copies are aliases of this canonical opening."
     }
   ]
 }
