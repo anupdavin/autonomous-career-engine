@@ -2714,3 +2714,12 @@ Singapore role using Java, Apache Camel, Spring Boot, Docker, Kubernetes, Postgr
 [Application](https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Equity-Derivatives-Java-Developer--Assistant-Vice-President-_26998646/apply)
 
 Full-time Singapore role, requisition 26998646, posted 19Oct2026. Hands-on Java/Spring, REST, messaging, SQL, concurrency, TDD/BDD, CI/CD, agentic-AI tooling and L3 escalation work for equity-derivatives trade lifecycle applications. Citi labels it On-Site/Resident and also #LI-Hybrid. Compensation, sponsorship, office cadence and on-call terms are unknown.
+
+## New active India-remote event-platform role checked 21Oct2026
+
+### Priority 1: Smartsheet: Sr. Software Engineer II
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/smartsheet/jobs/8258836)
+
+Bangalore, India role marked #LI-Remote. Java, large-scale distributed systems, Kafka or Kinesis, event processing, CI/CD, mentoring, product ownership and AI-tool familiarity are requested. Ongoing legal eligibility to work in India is mandatory. Compensation, employment type, India-wide remote eligibility, core hours and on-call are unknown.
