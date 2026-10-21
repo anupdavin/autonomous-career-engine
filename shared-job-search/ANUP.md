@@ -2828,3 +2828,20 @@ India-remote contract with a full-time workload, leading a small team while rema
 [Application](https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144)
 
 Singapore office-based, full-time contract leading enterprise platform architecture and hands-on delivery across Java, Spring Boot, Angular or React, TypeScript, REST APIs, microservices, Kafka or equivalent messaging, Azure, Kubernetes, Docker, GitLab CI/CD, DevSecOps, SSO/RBAC and observability. Use the senior Java full-stack, secure-integration and Azure-modernization resume. Prepare Node.js backend, Azure Service Bus/Key Vault and architecture-tradeoff examples. Published pay is SGD 10,000-11,000 monthly; duration, benefits, sponsorship, office site, hours and on-call are unknown.
+
+
+## New active global-remote Java streaming and APAC AI-infrastructure roles checked 22Oct2026
+
+### Priority 1: Camunda: Senior Software Engineer, Backend - Data Streaming
+- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+
+[Application](https://jobs.ashbyhq.com/camunda/ffd8bcc4-f714-48cc-91a0-ad14e57bde98)
+
+Full-time, remote senior Java role building a foundational data-streaming architecture. The requisition asks for 7+ years in Java and distributed or data-intensive systems, end-to-end initiative leadership, and values Kafka, Flink, RocksDB and object-storage-native streaming. Use the senior Java backend, distributed-systems and secure-integration resume. Published Singapore annual total target cash is SGD 178,600-267,900, which may include variable cash; equity is separate. Prepare Flink, RocksDB and object-storage design discussions. Confirm the Canada/EMEA location-header conflict, India Remote.com eligibility, Singapore sponsorship, guaranteed-base split, overlap and on-call.
+
+### Priority 3 ambitious stretch: LanceDB: Senior Software Engineer
+- Alert history: Pending actual ChatGPT delivery; reconcile on the next run.
+
+[Application](https://jobs.ashbyhq.com/lancedb/3a984b21-7b04-44c8-b8be-471526dc66e0)
+
+Full-time remote opening for Americas or APAC, integrating an AI-native multimodal lakehouse with Spark, Ray, Trino and open-source data systems. Java is accepted for high-performance computing, but the role asks for 10+ years in databases or big-data services, deep internals knowledge and Rust or willingness to learn it. Use the Java distributed-systems and cloud-native backend resume. The page lists USD 180,000-250,000 base plus equity, but local Singapore or India applicability is unconfirmed, so no SGD conversion is recorded. Confirm the employing entity, local band and benefits, required Americas overlap, on-call and the minimum database-internals bar.
