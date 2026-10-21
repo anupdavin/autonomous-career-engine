@@ -12128,10 +12128,10 @@
       "terms": "Guaranteed base, bonus, equity, leave, notice, probation and other employment terms are not stated",
       "import_source": "Fresh official OKX Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "okx-operations-automation-cloud-platform-7795778003",
       "title": "Senior/Staff Engineer, Operations Automation & Cloud Management Platform",
@@ -12181,10 +12181,10 @@
       "terms": "Guaranteed base, bonus, equity, leave, notice, probation and other employment terms are not stated",
       "import_source": "Fresh official OKX Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "okx-senior-staff-engineer-growth-7594323003",
       "title": "Senior/Staff Engineer, Growth",
