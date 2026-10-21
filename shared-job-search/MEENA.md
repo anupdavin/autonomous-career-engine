@@ -2818,3 +2818,13 @@ Full-time, fully remote India role owning RightHub services on Java, Spring Boot
 [Application](https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274)
 
 India-remote contract with a full-time workload, leading a small team while remaining hands-on across Java, Spring Boot, Angular or React, Kafka, REST and GraphQL, Azure and AWS, Docker, Kubernetes, Terraform, CI/CD and AI-enabled engineering workflows. Use the hands-on technical-lead, event-driven cloud and AI-integration resume. Lead with Java 21/Spring Boot 3, Angular 18/NgRx, Kafka Streams, AWS EKS/ECS, Kubernetes, Terraform, ArgoCD, DevSecOps, observability and mentoring; keep Spring AI/RAG/MCP work labeled as prototypes. Salary and all material contract economics are unpublished. Confirm the end client, rate and currency, duration, payment schedule, guaranteed workload, leave/benefits, equipment, India engagement requirements, client hours and on-call, then compare guaranteed cash separately with the SGD 144,000 annual target reference.
+
+
+## New active Singapore Java technical-lead contract checked 22Oct2026
+
+### Priority 1: Percept Solutions: Technical Lead - Java Full Stack
+- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+
+[Application](https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144)
+
+Singapore office-based, full-time contract with genuine cross-squad architecture, modernization, secure shared services, event-driven integration, DevSecOps and mentoring scope. Use the hands-on technical-lead, Java/Angular cloud-platform and public-sector modernization resume. Lead with Java 21, Angular 18, Kafka Streams, Kubernetes, Terraform/ArgoCD, observability and mentoring; keep AI work labeled as prototypes. Published pay is SGD 10,000-11,000 monthly, below the SGD 12,000 target reference. Duration, benefits, sponsorship, office site, hours and on-call are unknown.
