@@ -2642,3 +2642,23 @@ Fit: Enterprise Java, SQL/MySQL, REST, Git and legacy-to-cloud modernization; Cl
 Resume: Use the senior Java backend, SQL, REST modernization and AI-assisted engineering resume.
 
 Prepare/questions: Confirm Singapore/India eligibility before a full application. Ask about legal entity, currency, location-adjusted pay, timezone overlap, GCP/BigQuery/dbt and on-call.
+
+
+## New conditional India remote lead checked 21Oct2026
+
+### Daxko: Senior Software Engineer II (Java)
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.gem.com/daxko/am9icG9zdDpHxm-GhFvVhT8zLHSE5tqT)
+
+Location/type: Full-time, officially labelled Remote - Noida. An employer copy also advertises a hybrid model, so confirm that there is no Noida residence or office requirement. India hybrid or onsite remains excluded; Singapore is not offered.
+
+Pay: No numeric compensation published.
+
+Fit: Java, REST, SQL, cloud, architecture ownership, technical roadmap, automated testing, production root-cause fixes, mentoring and advanced daily agentic-AI use. Spring Security/Integration, Angular/React, SQL Server, Redis, JVM tuning and concurrency are valued.
+
+Resume: Use the senior Java backend, secure integration, technical ownership and AI-assisted engineering resume. Highlight architecture influence, automated quality, production diagnosis and verified coding-agent practices.
+
+Prepare/questions: Establish Spring Integration, JVM tuning and concurrency with genuine examples. Ask whether the role is remote from any India location, plus base/bonus, working hours, on-call, level calibration and expected AI-agent evidence.
+
+Status: Official Daxko Gem ATS page active 21Oct2026; final submission not tested. No application or contact.
