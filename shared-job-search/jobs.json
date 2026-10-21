@@ -12951,10 +12951,10 @@
       ],
       "import_source": "Official Sardine Ashby job page and current indexed content checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "sardine-solutions-architect-integrations-apac-26bf8965",
       "url": "https://jobs.ashbyhq.com/sardine/26bf8965-c5d2-4df5-bbdc-c7bb9bfaffa2/",
@@ -13007,10 +13007,10 @@
       ],
       "import_source": "Official Onehouse Lever pages checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "onehouse-distributed-data-systems-india-3531e786",
       "url": "https://jobs.lever.co/Onehouse/3531e786-ad84-4d0d-a0bd-113415bd328f",
@@ -13064,10 +13064,10 @@
       ],
       "import_source": "Official Onehouse Lever page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "onehouse-kubernetes-infrastructure-india-02defd5a",
       "url": "https://jobs.lever.co/Onehouse/02defd5a-e1d8-46b4-8e3b-7bac65b0f59a",
@@ -13119,10 +13119,10 @@
       ],
       "import_source": "Official Jumio Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "jumio-sde-iv-qa-4708282005",
       "url": "https://job-boards.greenhouse.io/jumio/jobs/4708282005",
@@ -13174,10 +13174,10 @@
       ],
       "import_source": "Official Together AI Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "together-ai-infra-agent-systems-5217063007",
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5217063007",
