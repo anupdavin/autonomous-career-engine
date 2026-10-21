@@ -2686,3 +2686,13 @@ Singapore role covering Java 21, Spring Boot, Kafka, secure distributed payments
 [Application](https://jobs.geco.asia/jobs/fullstack-java-engineer-clIb)
 
 Singapore Java/Spring Boot, REST, SQL and frontend role. Angular transfers well, while React or Vue and Python require preparation or clarification. Employer-published pay, type, sponsorship and cadence are unknown.
+
+
+## New active Singapore platform role checked 21Oct2026
+
+### Priority 1: SAP: Senior Platform Engineer / Platform Engineer
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://jobs.sap.com/en/jobs/744000156711889/senior-platform-engineer-platform-engineer/)
+
+Full-time hybrid Singapore role, reference REF2926E, building high-availability AI product infrastructure and large-scale cloud/data platforms. Java, Go, Python, Spring REST, Docker, Kubernetes, Istio, Helm, etcd, Argo and Envoy are requested. LLM/LangChain and AIOps are optional. Compensation, sponsorship, office frequency and on-call are unknown.
