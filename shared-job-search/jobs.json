@@ -12758,6 +12758,64 @@
         }
       },
       "deduplication_note": "Distinct SAP reference REF2926E and platform infrastructure scope. Existing SAP ledger record is Joule Platform Services requisition 447220."
+    },
+    {
+      "employer": "Singtel Group",
+      "title": "Senior Software Engineer (Networks), Java / Apache Camel",
+      "status_at_last_check": "Active official job pages with Apply now label",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore location; office, hybrid or remote cadence not stated",
+      "eligibility": "Singapore-based role is in scope. India remote is not advertised. Personal work authorization and sponsorship unknown.",
+      "engagement_type": "Not stated; likely employee role but must be confirmed",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore base, bonus and benefits unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; no sponsorship or citizenship rule stated",
+      "posted": "4 Oct 2026 for Networks requisition; substantially identical title variant posted 10 Oct 2026",
+      "terms": "Core hours, office cadence, on-call, benefits, leave, notice and employment entity unknown",
+      "source_urls": [
+        "https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/",
+        "https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362895166/"
+      ],
+      "import_source": "Official Singtel Group careers pages checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "singtel-networks-java-camel-1362561466",
+      "url": "https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/",
+      "canonical_url": "https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/",
+      "url_aliases": [
+        "https://groupcareers.singtel.com/job/Senior-Software-Engineer-Sing/1362895166/"
+      ],
+      "requisition": "1362561466; substantially identical 1362895166 consolidated",
+      "hours_on_call": "Unknown; production root-cause work is stated but no rota or timezone requirements are published",
+      "fit": "Enterprise Java microservices and APIs, Apache Camel, Spring Boot, Docker, Kubernetes, PostgreSQL, Linux, DevOps automation, EFK and Prometheus/Grafana align strongly with both candidates.",
+      "preparation": "Establish expected Python depth, MariaDB/MongoDB exposure, telecom/network domain expectations and whether the senior title has scope beyond the stated 5 to 7 years.",
+      "questions": "Is this one hiring project across requisitions 1362561466 and 1362895166? What are the Singapore employment entity, sponsorship, office cadence, base/bonus, leveling, team scope, core hours and production support rota?",
+      "upside": "Career-growth candidate and compensation to establish: direct telecom product engineering with secure scalable network services and observability ownership.",
+      "verification": "Official Singtel pages live on 21 October 2026 with Apply now labels, Singapore location, posted dates and detailed requirements. The apply links redirected to the careers homepage in web verification, so use the role page and confirm the requisition is selectable before completing an application.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend and integration resume",
+          "tailoring": "Lead with Java/Spring Boot, Apache Camel/EIP, secure REST integrations, Docker/Kubernetes, PostgreSQL and observability. Use truthful examples of production diagnosis, CI/CD and scalable service design; mention Python only at the actual level.",
+          "fit_and_preparation": "Very strong technical match across Java microservices, Camel, Spring Boot, containers, APIs, DevOps and observability. Prepare Python, MongoDB/MariaDB and telecom-domain discussion; confirm leveling for 8+ years.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java cloud-native resume",
+          "tailoring": "Emphasize Java 21/Spring Boot, Apache Camel/EIP, Kafka and event-driven delivery, Kubernetes, PostgreSQL/Redis, observability, DevSecOps and mentoring. Frame leadership as hands-on delivery and review, without inventing network-domain experience.",
+          "fit_and_preparation": "Strong technical and leadership fit across Java microservices, Camel, containers, DevOps and observability. Prepare Python, MongoDB/MariaDB and telecom-network context; establish whether scope supports lead-level growth.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Requisitions 1362561466 and 1362895166 have substantially identical Singtel Networks descriptions and are consolidated as one canonical opportunity, not two alerts."
     }
   ]
 }
