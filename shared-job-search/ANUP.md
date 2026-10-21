@@ -2818,3 +2818,13 @@ Full-time, fully remote India role owning RightHub services on Java, Spring Boot
 [Application](https://jobs.lever.co/jobgether/c53f3af4-0b27-47d8-bc50-ad5babf8c274)
 
 India-remote contract with a full-time workload, leading a small team while remaining hands-on across Java, Spring Boot, Angular or React, Kafka, REST and GraphQL, Azure and AWS, Docker, Kubernetes, Terraform, CI/CD and AI-enabled engineering workflows. Use the senior Java full-stack, secure-integration and modernization resume. Lead with Java/Spring, Angular/TypeScript, Kafka, cloud/Kubernetes, API security, observability and verified coding-agent practices. Salary and all material contract economics are unpublished. Confirm the end client, rate and currency, duration, payment schedule, guaranteed workload, leave/benefits, equipment, India engagement requirements, client hours and on-call before treating it as an income-growth move.
+
+
+## New active Singapore Java technical-lead contract checked 22Oct2026
+
+### Priority 1: Percept Solutions: Technical Lead - Java Full Stack
+- Alert history: Pending delivery in ChatGPT; reconcile on the next run.
+
+[Application](https://www.mycareersfuture.gov.sg/job/information-technology/technical-lead-%E2%80%93-java-full-stack-percept-solutions-d643ae4fdb42dd09a29f65624785d144)
+
+Singapore office-based, full-time contract leading enterprise platform architecture and hands-on delivery across Java, Spring Boot, Angular or React, TypeScript, REST APIs, microservices, Kafka or equivalent messaging, Azure, Kubernetes, Docker, GitLab CI/CD, DevSecOps, SSO/RBAC and observability. Use the senior Java full-stack, secure-integration and Azure-modernization resume. Prepare Node.js backend, Azure Service Bus/Key Vault and architecture-tradeoff examples. Published pay is SGD 10,000-11,000 monthly; duration, benefits, sponsorship, office site, hours and on-call are unknown.
