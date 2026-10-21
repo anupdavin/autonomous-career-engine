@@ -2647,7 +2647,7 @@ Prepare/questions: Confirm Singapore/India eligibility before a full application
 ## New conditional India remote lead checked 21Oct2026
 
 ### Daxko: Senior Software Engineer II (Java)
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://jobs.gem.com/daxko/am9icG9zdDpHxm-GhFvVhT8zLHSE5tqT)
 
