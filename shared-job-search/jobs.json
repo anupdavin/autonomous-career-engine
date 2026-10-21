@@ -12839,10 +12839,10 @@
       ],
       "import_source": "Official Citi Careers and Workday application route checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "citi-equity-derivatives-java-avp-26998646",
       "url": "https://jobs.citi.com/job/singapore/equity-derivatives-java-developer-assistant-vice-president/287/102161063248",
