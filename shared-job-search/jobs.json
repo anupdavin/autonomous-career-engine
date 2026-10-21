@@ -11846,6 +11846,61 @@
         }
       },
       "deduplication_note": "Distinct GovTech/MOE AI products and platform requisition; no matching employer assignment, requisition or description found in the shared ledger."
+    },
+    {
+      "job_id": "tilt-nira-staff-backend-b45f4a2d",
+      "employer": "Tilt Finance, NIRA product",
+      "title": "Staff Backend Engineer - NIRA",
+      "url": "https://jobs.ashbyhq.com/tilthq/b45f4a2d-78eb-482a-bd5b-119c80599350",
+      "canonical_url": "https://jobs.ashbyhq.com/tilthq/b45f4a2d-78eb-482a-bd5b-119c80599350",
+      "url_aliases": [],
+      "requisition": "b45f4a2d-78eb-482a-bd5b-119c80599350",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Official Tilt careers page lists the role as open; official Ashby metadata is current",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "Official Tilt careers and Ashby metadata say Remote - India; a recent employer LinkedIn copy says Bangalore hybrid, so office expectations require confirmation",
+      "eligibility": "India remote scope is advertised. Singapore-based work is not advertised. Personal India work authorization, residence expectations, employment entity and sponsorship are unknown",
+      "engagement_type": "Full-time",
+      "published_compensation": "No numeric amount published; competitive pay, equity, health coverage, home-office support and paid global onsites are advertised",
+      "compensation_geography": "India pay band and location-adjustment policy are unknown",
+      "sgd_comparison": "Unavailable: no numeric applicable compensation was published",
+      "authorization_sponsorship": "Not stated",
+      "hours_on_call": "Collaboration spans 14 countries and 12 time zones. The role leads SEV1 incident response; core hours, rota frequency and compensation are not published",
+      "terms": "Benefits are described at a high level; employment entity, leave, notice, probation, payment schedule and remote-office terms are not stated",
+      "posted": "Official posting date unavailable; employer LinkedIn indexed the role as six days old on 21 October 2026",
+      "fit": "Staff-level ownership of a Java and Spring Boot consumer-credit platform, distributed systems, queues, financial state machines, high-volume services, incident leadership, mentoring and AI-native engineering with Claude, Cursor and Augment",
+      "preparation": "Prepare truthful examples of owning a complex domain from strategy through delivery, state-machine and lifecycle design, queue failure handling, production scaling, SEV1 leadership, mentoring and AI-tool verification. Establish consumer-credit depth without equating payments experience to lending expertise",
+      "questions": "Is the current arrangement fully remote within India or hybrid Bengaluru? Must the employee reside in India? Which employing entity and work authorization are required? What is the guaranteed India base, equity structure and bonus? What hours overlap with US/global teams? What is the incident rota and compensation or time off? How much staff-level cross-team authority is expected?",
+      "upside": "Career-growth candidate: genuine staff ownership, fintech domain depth and AI-assisted engineering leadership; compensation to establish",
+      "verification": "Official Tilt careers page checked 21 October 2026 and lists Staff Backend Engineer - NIRA as Remote - India with an Apply link. Official Ashby search metadata also shows full-time Remote - India. The Ashby page rendered a JavaScript shell, and the final submission workflow was not inspected. A recent employer LinkedIn copy says Bangalore hybrid, so arrangement remains a material conflict. No application or contact.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/tilthq/b45f4a2d-78eb-482a-bd5b-119c80599350",
+        "https://tilt.com/careers",
+        "https://in.linkedin.com/jobs/view/staff-backend-engineer-nira-at-tilt-4439028277"
+      ],
+      "import_source": "Fresh official Tilt careers, official ATS metadata and employer LinkedIn evidence checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Staff-track Java backend, payments and AI-assisted engineering resume",
+          "tailoring": "Foreground Great Eastern payment and reconciliation work, Java/Spring Boot, secure APIs, Kafka, Kubernetes, production diagnosis and verified coding-agent practices. Use only genuine architecture, mentoring and incident ownership examples.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead, event-driven cloud platform and AI-assisted engineering resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kafka Streams, AWS EKS/ECS, Kubernetes, observability, incident decisions, mentoring and technical Scrum leadership. Keep Spring AI/RAG/MCP/Claude work labeled as prototypes and distinguish it from daily coding-agent use.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct NIRA staff requisition and product scope. Existing Tilt Cashalo record is a separate senior backend role with a different requisition and project."
     }
   ]
 }

@@ -2416,3 +2416,16 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Questions: Seniority, production AI bar, sponsorship, guaranteed package, office cadence, implementation stack and incident rota.
 - Verification: Official result indexed 21Oct2026; exact page returned HTTP 403 to the research fetch and final application workflow was not tested. No application/contact.
 
+
+
+## New active India remote lead checked 21Oct2026
+
+### Tilt Finance / NIRA: Staff Backend Engineer
+- Link: https://jobs.ashbyhq.com/tilthq/b45f4a2d-78eb-482a-bd5b-119c80599350
+- Priority: Apply as a staff-track career-growth candidate after arrangement and package screening.
+- Fit: Java/Spring Boot, financial systems, state machines, distributed queues, high-volume services, incident leadership, mentoring and AI-assisted engineering.
+- Resume: Use the staff-track Java backend, payments and AI-assisted engineering resume. Highlight verified payment/reconciliation delivery, secure APIs, Kafka, cloud/Kubernetes, production diagnosis and genuine design or mentoring ownership.
+- Prepare: Consumer-credit lifecycle, domain state machines, queue failure recovery, SEV1 leadership, high-scale decisions and staff-level influence. Do not imply lending experience that has not been established.
+- Questions: Fully remote within India or hybrid Bengaluru? India residence and work-right requirements? Employing entity and sponsorship? Guaranteed base, bonus and equity? Global overlap, incident rota and staff authority?
+- Compensation: No numeric amount published. Competitive pay, equity and benefits are advertised; applicable India terms remain unknown.
+- Verification: Official Tilt careers and Ashby metadata checked 21Oct2026 list full-time Remote - India. A recent employer LinkedIn copy says Bangalore hybrid, so the arrangement is unresolved. Final application submission was not tested. No application/contact.
