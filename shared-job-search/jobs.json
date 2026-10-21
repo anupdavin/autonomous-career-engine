@@ -12816,6 +12816,64 @@
         }
       },
       "deduplication_note": "Requisitions 1362561466 and 1362895166 have substantially identical Singtel Networks descriptions and are consolidated as one canonical opportunity, not two alerts."
+    },
+    {
+      "employer": "Citi",
+      "title": "Equity Derivatives Java Developer, Assistant Vice President",
+      "status_at_last_check": "Active official Citi page and direct Workday apply route",
+      "last_checked": "2026-10-21",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Citi labels the role On-Site/Resident while the description also carries #LI-Hybrid; actual office cadence must be clarified",
+      "eligibility": "Singapore-based full-time role. India remote is not advertised. Personal work authorization and sponsorship unknown.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published",
+      "compensation_geography": "Applicable Singapore base, bonus and benefits unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Unknown; no citizenship or sponsorship statement published",
+      "posted": "19 Oct 2026",
+      "terms": "Global cross-timezone collaboration is explicit. L3 escalations are included; core hours, on-call rota, benefits, leave and notice are unknown.",
+      "source_urls": [
+        "https://jobs.citi.com/job/singapore/equity-derivatives-java-developer-assistant-vice-president/287/102161063248",
+        "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Equity-Derivatives-Java-Developer--Assistant-Vice-President-_26998646/apply"
+      ],
+      "import_source": "Official Citi Careers and Workday application route checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "citi-equity-derivatives-java-avp-26998646",
+      "url": "https://jobs.citi.com/job/singapore/equity-derivatives-java-developer-assistant-vice-president/287/102161063248",
+      "canonical_url": "https://jobs.citi.com/job/singapore/equity-derivatives-java-developer-assistant-vice-president/287/102161063248",
+      "url_aliases": [
+        "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Equity-Derivatives-Java-Developer--Assistant-Vice-President-_26998646/apply"
+      ],
+      "requisition": "26998646",
+      "hours_on_call": "L3 escalations are stated. Formal on-call, after-hours support and compensation are not published; global timezone collaboration is required.",
+      "fit": "Hands-on enterprise Java/Spring full-stack engineering for equity-derivatives trade capture and lifecycle applications, REST APIs, messaging, SQL, concurrency, algorithms, design patterns, TDD/BDD, CI/CD, profiling, debugging, release coordination, code review and agentic-AI tooling.",
+      "preparation": "Prepare equity-derivatives trade lifecycle, Sybase or MS SQL, concurrency, data structures, TDD/BDD and L3 incident examples. Agentic-AI experience should be described truthfully without implying production ML research.",
+      "questions": "What is the Singapore base/bonus band, Employment Pass support, actual hybrid cadence, global overlap and L3/on-call rota? How much frontend work is expected, which messaging platform is used, and how deeply is equity-derivatives domain knowledge screened?",
+      "upside": "Career-growth candidate and compensation to establish: AVP-level ownership in regulated trading technology with hands-on Java engineering and AI-assisted development.",
+      "verification": "Official Citi role page active 21 October 2026 with requisition 26998646, Singapore location, full-time status, posted date, On-Site/Resident label, #LI-Hybrid tag and direct Workday Apply link. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java payments, secure integration and distributed-systems resume",
+          "tailoring": "Lead with Great Eastern payments, Java/Spring, secure REST APIs, SQL Server/Oracle/PostgreSQL, Kafka or messaging, concurrency, CI/CD, production debugging and responsible coding-agent practices. Add only genuine code-review, release and incident examples.",
+          "fit_and_preparation": "Strong Java, payments, SQL, secure APIs, messaging and production-reliability fit. Prepare equity-derivatives lifecycle, Sybase/MS SQL, TDD/BDD, concurrency and L3 escalation scenarios.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead Java, fintech and cloud-native delivery resume",
+          "tailoring": "Emphasize Java 21/Spring Boot 3, Kafka Streams, PostgreSQL/Oracle, CI/CD, observability, technical reviews, mentoring and regulated-platform delivery. Keep Spring AI/RAG/MCP and Claude work labelled as prototypes or integration experiments.",
+          "fit_and_preparation": "Strong hands-on Java, messaging, SQL, testing, technical review and fintech fit. Prepare equity-derivatives lifecycle, Sybase/MS SQL, concurrency, profiling and L3 operational ownership; confirm the role preserves lead-level scope.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct from previously reported Citi Java VP requisition 26998988 and Technology Lead Analyst requisition. This AVP requisition 26998646 targets equity-derivatives trade capture and lifecycle applications with a separate official application route."
     }
   ]
 }
