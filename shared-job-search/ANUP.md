@@ -2481,7 +2481,7 @@ Status: Official Greenhouse page and live application form verified 21Oct2026. N
 
 
 ### Priority 1: Alpaca: Senior Software Engineer - Ledger
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alpaca/jobs/5389088004)
 
@@ -2502,7 +2502,7 @@ Recruiter questions: Local employing or contracting route for Singapore and Indi
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
 
 ### Priority 3 stretch: Alpaca: Senior Software Engineer, Quality Engineering
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alpaca/jobs/6114845004)
 

@@ -12025,10 +12025,10 @@
       "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
       "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "title": "Senior Software Engineer - Ledger",
       "url": "https://job-boards.greenhouse.io/alpaca/jobs/5389088004",
@@ -12078,10 +12078,10 @@
       "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
       "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "title": "Senior Software Engineer, Quality Engineering",
       "url": "https://job-boards.greenhouse.io/alpaca/jobs/6114845004",
