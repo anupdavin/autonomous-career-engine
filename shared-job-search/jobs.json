@@ -13228,10 +13228,10 @@
       ],
       "import_source": "Official Illumina Workday page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "illumina-senior-software-fullstack-43381-job",
       "url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/Singapore---Woodlands---NorthCoast/Senior-Software-Engineer_43381-JOB",
@@ -13282,10 +13282,10 @@
       ],
       "import_source": "Official Illumina Workday page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "illumina-senior-software-backend-42821-job",
       "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Senior-Software-Engineer--Backend-_42821-JOB",
@@ -13336,10 +13336,10 @@
       ],
       "import_source": "Official Illumina Workday page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "illumina-senior-software-fullstack-42506-job",
       "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Singapore---Woodlands---NorthCoast/Staff-Software-Engineer---Full-Stack_42506-JOB-1",
@@ -13390,10 +13390,10 @@
       ],
       "import_source": "Official Illumina Workday page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "illumina-sr-software-mes-42851-job",
       "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Sr-Software-Engineer_42851-JOB",
@@ -13444,10 +13444,10 @@
       ],
       "import_source": "Official Illumina Workday page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "job_id": "illumina-principal-software-43342-job",
       "url": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/Principal-Software-Engineer-1_43342-JOB-1",
@@ -13477,6 +13477,65 @@
         }
       },
       "deduplication_note": "Separate principal data-platform architecture requisition; no Illumina employer or 43342-JOB record existed in the shared ledger."
+    },
+    {
+      "employer": "Anaqua",
+      "title": "Senior Java Developer",
+      "status_at_last_check": "Active official Workable application form with submit workflow",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Hyderabad, Telangana, India",
+      "arrangement": "Fully remote India; official application form explicitly asks the candidate to confirm comfort with a fully remote role.",
+      "eligibility": "India-remote opening. The official form requires permanent, unrestricted legal authorization to work in India. Singapore-based engagement is not advertised.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "Not published",
+      "compensation_geography": "India package unknown",
+      "sgd_comparison": "Unavailable: no employer-published compensation",
+      "authorization_sponsorship": "Hard blocker for anyone without permanent, unrestricted India work authorization; sponsorship is not offered through the stated eligibility question.",
+      "posted": "Third-party source reports 20 October 2026; the official Workable application does not publish a date. Verified active 22 October 2026.",
+      "terms": "Full-time and fully remote. Base, bonus/equity, benefits, working hours, on-call, leave, notice and equipment support are not published.",
+      "source_urls": [
+        "https://apply.workable.com/anaqua/j/9DF282ACE3/",
+        "https://apply.workable.com/anaqua/j/9DF282ACE3/apply/",
+        "https://haystackapp.io/jobs/edb7534d-25ba-43ad-8b5c-c32fe32d4810"
+      ],
+      "import_source": "Official Anaqua Workable role and application form checked 22 October 2026; detailed duties corroborated by a freshly indexed copy.",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match queued for ChatGPT alert; delivery must be reconciled on the next run."
+      },
+      "job_id": "anaqua-senior-java-developer-9df282ace3",
+      "url": "https://apply.workable.com/anaqua/j/9DF282ACE3/",
+      "canonical_url": "https://apply.workable.com/anaqua/j/9DF282ACE3/",
+      "url_aliases": [
+        "https://apply.workable.com/anaqua/j/9DF282ACE3/apply/"
+      ],
+      "requisition": "Workable 9DF282ACE3 / application reference 1448",
+      "hours_on_call": "Not published; confirm India working hours, global-team overlap and production-support expectations.",
+      "fit": "Hands-on ownership of RightHub backend services using modern Java, Spring Boot 3, domain-driven design, domain events, asynchronous messaging, OpenAPI, PostgreSQL, Kubernetes/GKE, GCP, testing, performance, reliability, technical design and mentoring.",
+      "preparation": "Prepare specific examples of idempotency, retries, ordering, eventual consistency, bounded contexts, event sourcing, transactional boundaries, JVM behavior, PostgreSQL migrations under load and capacity planning. GCP, Pub/Sub, Cloud Run and Next.js are preparation areas where experience is unconfirmed.",
+      "questions": "Does fully remote allow residence anywhere in India with no Hyderabad attendance? What are the base, bonus/equity, benefits, equipment support, hours and on-call? How strict are GCP, event-sourcing and five years of senior-level production ownership?",
+      "upside": "Career-growth candidate and compensation to establish: direct modern Java/Spring distributed-platform ownership with architectural influence and mentoring.",
+      "verification": "Official Workable application form was active 22 October 2026, labels the role Remote and Full time, and explicitly requires permanent unrestricted India work authorization. No application submitted.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, distributed systems and secure integration resume",
+          "tailoring": "Lead with Java 21/Spring Boot, Kafka and asynchronous processing, PostgreSQL, Kubernetes/Helm, cloud delivery, API security, observability, production diagnosis and mentoring. Add only verifiable examples of DDD and event sourcing.",
+          "fit_and_preparation": "Excellent Java/Spring distributed-systems match. Prepare GCP, domain-event and event-sourcing depth; permanent unrestricted India authorization is mandatory.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, event-driven Java and cloud-platform resume",
+          "tailoring": "Lead with Java 21/Spring Boot 3, Kafka Streams, PostgreSQL, AWS EKS/ECS, Kubernetes/Helm, observability, testing, mentoring and legal-tech or regulated-enterprise delivery. Present GCP and Next.js as preparation unless demonstrable.",
+          "fit_and_preparation": "Excellent event-driven backend and mentoring fit, with relevant legal-tech background. Prepare GCP, DDD and event-sourcing scenarios; permanent unrestricted India authorization is mandatory.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Anaqua employer, Workable requisition or substantially identical RightHub Senior Java Developer record existed in the shared ledger."
     }
   ]
 }
