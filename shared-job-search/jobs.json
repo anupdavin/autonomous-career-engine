@@ -12705,6 +12705,59 @@
         }
       },
       "deduplication_note": "Distinct GECO Asia requisition and full-stack scope. No matching employer or project existed in the shared ledger."
+    },
+    {
+      "employer": "SAP",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official SAP Careers page with Apply Now route",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Hybrid Singapore",
+      "eligibility": "Singapore role. India remote is not offered. Singapore work authorization and sponsorship are not stated.",
+      "engagement_type": "Full-time employee role",
+      "published_compensation": "No numeric salary, bonus or equity amount published",
+      "compensation_geography": "Singapore compensation basis; amount unknown",
+      "sgd_comparison": "Unavailable: no numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "Singapore work authorization and Employment Pass sponsorship are not stated",
+      "posted": "Published or indexed on 21 October 2026; official page does not display a separate posting date",
+      "terms": "Full-time hybrid role, reference REF2926E. Office frequency, bonus, equity, leave, notice and operational support terms are not stated.",
+      "source_urls": [
+        "https://jobs.sap.com/en/jobs/744000156711889/senior-platform-engineer-platform-engineer/"
+      ],
+      "import_source": "Fresh official SAP Careers page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "sap-senior-platform-engineer-ref2926e",
+      "title": "Senior Platform Engineer / Platform Engineer",
+      "url": "https://jobs.sap.com/en/jobs/744000156711889/senior-platform-engineer-platform-engineer/",
+      "canonical_url": "https://jobs.sap.com/en/jobs/744000156711889/senior-platform-engineer-platform-engineer/",
+      "url_aliases": [],
+      "requisition": "REF2926E",
+      "hours_on_call": "Global teams across time zones are explicit. Required overlap and on-call are not published.",
+      "fit": "SAP Labs Singapore AI product platform role leading high-availability cloud infrastructure, large-scale request processing, multi-terabyte data pipelines, automation, cloud operations, integration quality and mentoring. Requires Java, Go and Python plus Spring or other REST frameworks, Docker, Kubernetes, Istio, Helm, etcd, Argo, Envoy and cloud platforms. LLM, LangChain and AIOps are optional.",
+      "preparation": "Prepare scalable platform architecture, multithreading, data-pipeline, Kubernetes, Helm, Istio, Argo, high availability, security, integration and mentoring examples. Establish genuine Go, Python, etcd, Envoy, SAP BTP and multi-terabyte pipeline depth without overstating. LLM and AIOps are optional preparation points.",
+      "questions": "What is the Singapore base, bonus and equity? Is Employment Pass support available? What hybrid office frequency applies? Is the Senior level available for candidates strongest in Java with developing Go and Python depth? What global-team overlap and on-call apply? How much production AI platform experience is mandatory?",
+      "upside": "Career-growth candidate toward senior platform and applied-AI infrastructure ownership; compensation to establish",
+      "verification": "Official SAP Careers page checked 21 October 2026. It showed Singapore, hybrid, full-time, reference REF2926E and a live Apply Now route. Final submission was not tested. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java cloud platform, Kubernetes, secure integration and AI-assisted engineering resume",
+          "tailoring": "Foreground Java, Spring REST APIs, AWS/Azure AKS, Kubernetes/Helm, observability, CI/CD, integration quality, multithreading and technical mentoring. Describe Go and Python only to the confirmed depth and keep AI-assisted engineering distinct from production ML research.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, cloud-native platform, DevSecOps and AI-integration resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, AWS EKS/ECS, Kubernetes, Helm, Istio, ArgoCD, Terraform, observability, technical leadership and accurately labelled Spring AI/RAG/MCP prototypes. Describe Go, Python and production AI depth accurately.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct SAP reference REF2926E and platform infrastructure scope. Existing SAP ledger record is Joule Platform Services requisition 447220."
     }
   ]
 }
