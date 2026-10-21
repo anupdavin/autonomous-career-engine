@@ -13260,7 +13260,8 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Distinct from Illumina 42506-JOB: this requisition requires Java/Kotlin and Spring Boot for bioinformatics products, while 42506-JOB centers on visualization tooling with Python/C# backends."
+      "deduplication_note": "Distinct from Illumina 42506-JOB: this requisition requires Java/Kotlin and Spring Boot for bioinformatics products, while 42506-JOB centers on visualization tooling with Python/C# backends.",
+      "title": "Senior Software Engineer"
     },
     {
       "employer": "Illumina",
@@ -13314,7 +13315,8 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Separate requisition and backend instrument-software scope; not a duplicate of the two Illumina full-stack roles."
+      "deduplication_note": "Separate requisition and backend instrument-software scope; not a duplicate of the two Illumina full-stack roles.",
+      "title": "Senior Software Engineer (Backend)"
     },
     {
       "employer": "Illumina",
@@ -13368,7 +13370,8 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Distinct from 43381-JOB despite a similar title: this role focuses on high-throughput visualization and Python/C# microservices, while 43381-JOB is Java/Spring bioinformatics product engineering."
+      "deduplication_note": "Distinct from 43381-JOB despite a similar title: this role focuses on high-throughput visualization and Python/C# microservices, while 43381-JOB is Java/Spring bioinformatics product engineering.",
+      "title": "Staff Software Engineer - Full Stack"
     },
     {
       "employer": "Illumina",
@@ -13422,7 +13425,8 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Separate MES and manufacturing-automation requisition; no Illumina employer or 42851-JOB record existed in the ledger."
+      "deduplication_note": "Separate MES and manufacturing-automation requisition; no Illumina employer or 42851-JOB record existed in the ledger.",
+      "title": "Sr Software Engineer"
     },
     {
       "employer": "Illumina",
@@ -13476,7 +13480,8 @@
           "application_status": "Not applied or approved"
         }
       },
-      "deduplication_note": "Separate principal data-platform architecture requisition; no Illumina employer or 43342-JOB record existed in the shared ledger."
+      "deduplication_note": "Separate principal data-platform architecture requisition; no Illumina employer or 43342-JOB record existed in the shared ledger.",
+      "title": "Principal Software Engineer 1"
     },
     {
       "employer": "Anaqua",
