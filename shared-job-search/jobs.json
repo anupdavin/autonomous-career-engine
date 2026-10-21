@@ -13630,10 +13630,10 @@
       ],
       "import_source": "Exact MyCareersFuture listing MCF-2026-1736199 plus matching public copies checked 22 October 2026.",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert; append alert_delivered only after delivery."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "hours_on_call": "Office attendance is indicated. Core hours, client location, overtime, production support and on-call rota are not published.",
       "fit": "Hands-on Java technical lead for enterprise platform architecture, modernization, secure shared services, REST APIs, microservices, event-driven integration, Azure, Kubernetes, Docker, GitLab CI/CD, DevSecOps, observability and engineering mentorship. Public-sector and AI-enabled application experience are advantages.",
