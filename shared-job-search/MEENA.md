@@ -79,6 +79,8 @@ Historical import on 2026-10-18. Recheck availability before applying. Order is 
 | OCBC | [Senior Engineer, API & Middleware Development (Java & WSO2)](https://ocbc.wd102.myworkdayjobs.com/en-US/External/job/Senior-Engineer--API---Middleware-Development--Java---WSO2-_JR00010017) | Singapore supported | Not published |
 | OKX | [Application Architect, Java](https://job-boards.greenhouse.io/okx/jobs/7766838003) | Singapore or Hong Kong; office pattern unknown | Not published |
 | OKX | [Senior Java Engineer, Pay Smart Account](https://job-boards.greenhouse.io/okx/jobs/7596531003) | Heading Singapore; application asks Hong Kong authorization/HKD; location conflict | Not published |
+| OKX | [Senior/Staff Engineer, Growth](https://job-boards.greenhouse.io/okx/jobs/7594323003) | Onsite Singapore; current work rights without sponsorship prioritized | No numeric pay published; competitive total compensation and benefits advertised |
+| OKX | [Senior/Staff Engineer, Operations Automation & Cloud Management Platform](https://job-boards.greenhouse.io/okx/jobs/7795778003) | Singapore or Hong Kong; cadence unknown; current work rights without sponsorship prioritized | No numeric pay published; competitive total compensation and benefits advertised |
 | OKX | [Staff/Senior Java Engineer, Web3 Wallet](https://job-boards.greenhouse.io/okx/jobs/7821268003) | Singapore or Hong Kong; office pattern unknown | Not published |
 | Oscilar | [Sr./Staff Backend Engineer, Java (India)](https://jobs.ashbyhq.com/oscilar/391606dc-7a8d-49c1-8bef-37b8531c35fa) | India remote | Earlier alert: INR 6,621,800-9,656,800/year; not corroborated in current dynamic ATS. Base/total split unconfirmed. |
 | Peratera | [DevOps/SRE Engineer](https://peratera.jobs.personio.com/job/2840005) | Remote Global; SG/India employment mechanism unconfirmed | Not published |
@@ -2519,5 +2521,47 @@ Resume: Use the cloud-native platform, DevSecOps and AI-integration resume. Fore
 Hours/on-call: The form asks work location and timezone, but no overlap or on-call terms are published. Clarify whether production incidents or chaos testing create after-hours obligations.
 
 Recruiter questions: Local employing or contracting route for Singapore and India; location-adjusted pay; base, bonus and equity; strictness of the one-year Go screen; qualifying test-framework and startup evidence; timezone overlap and production support.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+### Priority 1: OKX: Senior/Staff Engineer, Growth
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/okx/jobs/7594323003)
+
+Location/type: Onsite Singapore. Employment type is not stated; employee benefits are advertised. India remote is not offered. OKX prioritizes candidates with current Singapore work rights who do not require visa sponsorship; support for an existing Employment Pass holder needing a new employer-sponsored pass is unknown.
+
+Pay: No numeric base or pay band published. Competitive total compensation, education subsidy, wellness and meal allowances, and healthcare for employees and dependants are advertised. No guaranteed cash SGD comparison is possible.
+
+Fit: High-performance Java/Spring Boot/Spring Cloud microservices, concurrency, distributed systems, Kafka, Redis, SQL/NoSQL, automated testing and CI. Meena's Java 21, Kafka Streams, Redis, cloud-native delivery and technical leadership transfers directly. Crypto and DeFi delivery remains a domain to learn.
+
+Prepare: Prove high-availability design, concurrency, event failure recovery, data consistency, API performance and production diagnosis. Establish Senior versus Staff decision authority without overstating title or crypto experience.
+
+Resume: Use the hands-on lead, event-driven cloud backend and distributed-systems resume. Foreground Java 21/Spring Boot 3, Kafka Streams, Redis, PostgreSQL/Oracle, AWS/Kubernetes, observability and mentoring.
+
+Hours/on-call: No working hours, overtime or on-call terms are published.
+
+Recruiter questions: Singapore level and guaranteed base, bonus and equity; Employment Pass support; office cadence; working hours and on-call; Senior versus Staff calibration; required crypto or DeFi depth.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+### Priority 1 stretch: OKX: Senior/Staff Engineer, Operations Automation & Cloud Management Platform
+- Alert history: Pending delivery in the current ChatGPT alert.
+
+[Application](https://job-boards.greenhouse.io/okx/jobs/7795778003)
+
+Location/type: Singapore or Hong Kong; onsite, hybrid or remote cadence is not stated. Employment type is unstated; employee benefits are advertised. India is not offered. Current Singapore work rights without sponsorship are prioritized.
+
+Pay: No numeric base or pay band published. Competitive total compensation and employee benefits are advertised. No guaranteed cash SGD comparison is possible.
+
+Fit: Java/Spring cloud-platform ownership across AWS, Azure and Aliyun APIs, Terraform, CMDB, event and orchestration engines, REST/gRPC, security and applied AI for operations. Java 21, AWS EKS/ECS, Kubernetes, Terraform, ArgoCD, observability and AI-integration prototypes align strongly.
+
+Prepare: Prove platform architecture, cloud automation, secure integration, approval workflows and operational stability. Establish CMDB, cloud-provider API, Aliyun, gRPC and production AI/LLM operations depth honestly. Do not present prototypes or coding-agent use as production ChatOps delivery.
+
+Resume: Use the hands-on technical lead, cloud platform, DevSecOps and AI-integration resume.
+
+Hours/on-call: Platform operations and automated change are central, but no support rota or working hours are published.
+
+Recruiter questions: Singapore level and guaranteed base, bonus and equity; Employment Pass support; work cadence; hours and on-call; mandatory CMDB/Terraform/cloud API/production AI depth; Senior versus Staff scope.
 
 Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.

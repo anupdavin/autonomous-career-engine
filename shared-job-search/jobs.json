@@ -12113,6 +12113,112 @@
         }
       },
       "deduplication_note": "Distinct worldwide Quality Engineering requisition 6114845004 focused on Go, test frameworks, CI/CD and AI-assisted quality. It is separate from Alpaca's New Markets Singapore roles."
+    },
+    {
+      "employer": "OKX",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "engagement_type": "Employment type not explicitly stated; employee benefits are advertised",
+      "published_compensation": "No numeric base salary or pay band published. The page advertises competitive total compensation, education subsidy, wellness and meal allowances, healthcare for employees and dependants, and other benefits to be discussed",
+      "compensation_geography": "Singapore compensation basis, bonus and equity breakdown are not stated",
+      "sgd_comparison": "Unavailable: no applicable numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "OKX says it will prioritize applicants who already have the right to work in Singapore and do not require visa sponsorship. The form asks citizenship, PR or current work-pass status. Support for a new or renewed Employment Pass is not stated",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Guaranteed base, bonus, equity, leave, notice, probation and other employment terms are not stated",
+      "import_source": "Fresh official OKX Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "okx-operations-automation-cloud-platform-7795778003",
+      "title": "Senior/Staff Engineer, Operations Automation & Cloud Management Platform",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7795778003",
+      "canonical_url": "https://job-boards.greenhouse.io/okx/jobs/7795778003",
+      "url_aliases": [],
+      "requisition": "7795778003",
+      "location": "Singapore or Hong Kong",
+      "arrangement": "Singapore or Hong Kong location is explicit; remote, hybrid or onsite cadence is not stated",
+      "eligibility": "Singapore is an advertised location. India is not offered. OKX prioritizes candidates with current Singapore work rights who do not require sponsorship; eligibility for an existing Employment Pass holder needing employer support must be clarified",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/okx/jobs/7795778003"
+      ],
+      "hours_on_call": "The role includes platform operations, events, automated change and stability, but no on-call rota, after-hours support or working-time expectations are published",
+      "fit": "Senior or staff ownership of a Java/Spring cloud-management platform integrating AWS, Azure and Aliyun APIs, Terraform, CMDB, event and orchestration engines, REST/gRPC, OIDC/RBAC and applied AI for operations. It is a credible cloud-modernization and AI-integration stretch",
+      "preparation": "Prepare concrete Java platform architecture, cloud/Kubernetes automation, secure integration, Terraform, approval workflow and operational stability examples. Establish CMDB, cloud-provider API, gRPC, Aliyun and production AI/LLM operations depth honestly. Prototypes and coding-agent use are not production ChatOps delivery",
+      "questions": "What is the Singapore level and guaranteed base, bonus and equity? Can OKX support an existing Employment Pass holder who needs a new employer-sponsored pass? Is the role onsite, hybrid or remote? What are working hours and on-call expectations? How much direct CMDB, Terraform, cloud-provider API and production AI/LLM operations experience is mandatory? What distinguishes Senior from Staff scope?",
+      "upside": "Career-growth candidate for cloud-platform ownership and applied AI; compensation to establish",
+      "verification": "Official OKX Greenhouse page checked 21 October 2026. It lists Singapore or Hong Kong, displays a live application form and states its Singapore work-right preference. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, secure integration, cloud modernization and AI-assisted engineering resume",
+          "tailoring": "Foreground Java/Spring, AWS and Azure, AKS/Kubernetes/Helm, secure APIs, CI/CD, observability and verified AI-assisted engineering. Add only genuine orchestration or infrastructure-automation outcomes; do not claim Terraform, CMDB, Aliyun or production LLM operations without evidence.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, cloud platform, DevSecOps and AI-integration resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, AWS EKS/ECS, Kubernetes/Helm, Terraform, ArgoCD, GitHub Actions, observability, technical leadership and accurately labelled Spring AI/RAG/MCP prototypes. Establish CMDB and cloud-provider API depth honestly.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct OKX Operations Automation and Cloud Management Platform requisition 7795778003. It is not a title variant of the previously reported OKX payment, wallet, architect or AI-agent roles."
+    },
+    {
+      "employer": "OKX",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "engagement_type": "Employment type not explicitly stated; employee benefits are advertised",
+      "published_compensation": "No numeric base salary or pay band published. The page advertises competitive total compensation, education subsidy, wellness and meal allowances, healthcare for employees and dependants, and other benefits to be discussed",
+      "compensation_geography": "Singapore compensation basis, bonus and equity breakdown are not stated",
+      "sgd_comparison": "Unavailable: no applicable numeric guaranteed cash amount was published",
+      "authorization_sponsorship": "OKX says it will prioritize applicants who already have the right to work in Singapore and do not require visa sponsorship. The form asks citizenship, PR or current work-pass status. Support for a new or renewed Employment Pass is not stated",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Guaranteed base, bonus, equity, leave, notice, probation and other employment terms are not stated",
+      "import_source": "Fresh official OKX Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the current ChatGPT alert; append alert_delivered only after the alert is actually delivered."
+      },
+      "job_id": "okx-senior-staff-engineer-growth-7594323003",
+      "title": "Senior/Staff Engineer, Growth",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7594323003",
+      "canonical_url": "https://job-boards.greenhouse.io/okx/jobs/7594323003",
+      "url_aliases": [],
+      "requisition": "7594323003",
+      "location": "Singapore",
+      "arrangement": "Onsite Singapore; the official page carries the LI-ONSITE label",
+      "eligibility": "Singapore is the required work location. India remote is not offered. OKX prioritizes candidates with current Singapore work rights who do not require sponsorship; eligibility for an existing Employment Pass holder needing employer support must be clarified",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/okx/jobs/7594323003"
+      ],
+      "hours_on_call": "No on-call rota, after-hours support or working-time expectations are published",
+      "fit": "Hands-on senior or staff work on high-performance, highly available Java/Spring Boot/Spring Cloud microservices, multithreading, distributed architecture, Kafka, Redis, relational and NoSQL data, automated testing and CI. Crypto and DeFi growth-domain depth is not stated as a formal prerequisite",
+      "preparation": "Prepare system-design evidence for concurrency, high availability, Kafka, Redis, data consistency, API performance and production diagnosis. Learn the OKX growth and DeFi context, but do not claim crypto-domain delivery. Establish the decision authority and leadership scope expected at Senior versus Staff",
+      "questions": "What is the Singapore level and guaranteed base, bonus and equity? Can OKX support an existing Employment Pass holder who needs a new employer-sponsored pass? How many office days are required? What are working hours and on-call expectations? How is Senior versus Staff level determined? How much crypto or DeFi experience is required on entry?",
+      "upside": "Career-growth candidate through senior or staff ownership of large-scale distributed services; compensation to establish",
+      "verification": "Official OKX Greenhouse page checked 21 October 2026. It lists Singapore, labels the role onsite, displays a live application form and states its Singapore work-right preference. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, payments and distributed-systems resume",
+          "tailoring": "Foreground Java/Spring Boot, Kafka, SQL, concurrency, secure APIs, production reliability and payments experience. Add measurable outcomes only when verifiable and frame crypto or DeFi as a domain to learn, not prior experience.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on lead, event-driven cloud backend and distributed-systems resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kafka Streams, Redis, PostgreSQL/Oracle, AWS/Kubernetes, observability, technical decisions and mentoring. Establish Staff-level cross-team authority without overstating formal architecture title or crypto experience.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct OKX Growth team requisition 7594323003. It is separate from the previously reported OKX payment, wallet, architect and AI-agent roles."
     }
   ]
 }
