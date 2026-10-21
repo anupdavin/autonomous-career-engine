@@ -2700,7 +2700,7 @@ Full-time hybrid Singapore role, reference REF2926E, building high-availability 
 ## New active Singapore integration role checked 21Oct2026
 
 ### Priority 1: Singtel Group: Senior Software Engineer (Networks), Java / Apache Camel
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://groupcareers.singtel.com/job/Senior-Software-Engineer-%28Networks%29-Sing/1362561466/)
 
