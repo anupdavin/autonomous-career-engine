@@ -2709,7 +2709,7 @@ Singapore role using Java, Apache Camel, Spring Boot, Docker, Kubernetes, Postgr
 ## New active Singapore trading-technology role checked 21Oct2026
 
 ### Priority 1: Citi: Equity Derivatives Java Developer, Assistant Vice President
-- Alert history: Pending delivery in the current ChatGPT alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 21Oct2026.
 
 [Application](https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Equity-Derivatives-Java-Developer--Assistant-Vice-President-_26998646/apply)
 
