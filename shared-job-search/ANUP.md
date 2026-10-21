@@ -5,6 +5,8 @@ Historical import on 2026-10-18. Recheck availability before applying. Order is 
 | Employer | Role | Arrangement / eligibility | Pay as reported |
 |---|---|---|---|
 | Adyen | [Team Lead, Software Engineer](https://careers.adyen.com/vacancies/8069237-team-lead-software-engineer) | Singapore supported | Not published |
+| Alpaca | [Engineer Team Lead, New Markets Singapore](https://job-boards.greenhouse.io/alpaca/jobs/5979495004) | Remote - APAC; explicitly hiring in Singapore; EP sponsorship availability unknown | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
+| Alpaca | [Staff Engineer - New Markets Singapore](https://job-boards.greenhouse.io/alpaca/jobs/6188585004) | Remote - APAC; explicitly hiring in Singapore; EP sponsorship availability unknown | No base published; stock options, USD 500 setup and USD 150/month stipend advertised |
 | Airwallex | [Senior Backend Engineer, Stablecoin Platform](https://careers.airwallex.com/job/7fda4857-060d-41c6-900e-c72f451f8ce3/senior-backend-engineer-stablecoin-platform/) | Singapore supported | Not published |
 | Airwallex | [Senior Software Engineer Backend, Billing](https://careers.airwallex.com/job/9e064013-6286-4984-9541-7bd702286d64/senior-software-engineer-backend-billing/) | Singapore; five office days | Not published |
 | Airwallex | [Senior Software Engineer, Data Platform AI Enablement](https://careers.airwallex.com/job/d02347a4-9193-45f6-b267-fc52fbc3b6b3/senior-software-engineer-data-platform-ai-enablement/) | Singapore; office expectations to confirm | Not published |
@@ -2429,3 +2431,46 @@ Verification: 20Oct2026: exact employer LinkedIn4460226308 description live with
 - Questions: Fully remote within India or hybrid Bengaluru? India residence and work-right requirements? Employing entity and sponsorship? Guaranteed base, bonus and equity? Global overlap, incident rota and staff authority?
 - Compensation: No numeric amount published. Competitive pay, equity and benefits are advertised; applicable India terms remain unknown.
 - Verification: Official Tilt careers and Ashby metadata checked 21Oct2026 list full-time Remote - India. A recent employer LinkedIn copy says Bangalore hybrid, so the arrangement is unresolved. Final application submission was not tested. No application/contact.
+
+
+## New active Singapore remote roles checked 21Oct2026
+
+### Priority 1: Alpaca: Staff Engineer - New Markets Singapore
+
+[Application](https://job-boards.greenhouse.io/alpaca/jobs/6188585004)
+
+Location/type: Official page says Remote - APAC and explicitly hires the Staff Engineer in Singapore. Employment type is not stated; employee benefits and stock options are advertised. Singapore is confirmed; India eligibility is not established. The application asks whether EP sponsorship is required, but does not promise it.
+
+Pay: No base salary or numeric band published. Competitive salary and stock options are advertised, plus USD 500 one-time home-office setup and USD 150/month stipend. No guaranteed cash SGD comparison is possible.
+
+Fit: Staff IC ownership of brokerage APIs, gRPC microservices, vendor integrations, multi-region and multi-currency services, reliability, incident escalation and mentoring. Go or equivalent backend depth is accepted, so Java is a credible transfer point. Fintech experience is directly relevant.
+
+Prepare: Prove cross-team architecture ownership, distributed systems, API and operational quality, incident leadership and mentoring. Establish trading lifecycle, settlements and Singapore regulatory depth honestly. Do not claim production Go.
+
+Resume: Use the staff-track Java backend, payments and secure integration resume. Emphasize Great Eastern payments, secure APIs, Kafka, Kubernetes, reliability, incident diagnosis, mentoring and cross-team architecture influence.
+
+Hours/on-call: Cross-time-zone work with US and regional teams plus on-call as appropriate. Ask for required overlap, rota frequency, response expectations and compensation or time off.
+
+Recruiter questions: Singapore base, bonus and equity; EP sponsorship availability; remote-only versus office/travel expectations; US overlap and on-call; whether production Java satisfies the Go-or-equivalent requirement; Staff decision authority and cross-team scope.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.
+
+### Priority 2: Alpaca: Engineer Team Lead, New Markets Singapore
+
+[Application](https://job-boards.greenhouse.io/alpaca/jobs/5979495004)
+
+Location/type: Official page says Remote - APAC and explicitly hires the Team Lead in Singapore. Employment type is not stated; employee benefits and stock options are advertised. Singapore is confirmed; India eligibility is not established. The application asks whether EP sponsorship is required, but does not promise it.
+
+Pay: No base salary or numeric band published. Competitive salary and stock options are advertised, plus USD 500 one-time home-office setup and USD 150/month stipend. No guaranteed cash SGD comparison is possible.
+
+Fit: Staff-level technical depth plus people leadership for brokerage services, REST/gRPC APIs, regional regulatory delivery, operational readiness, incidents, mentoring and hiring. Go or equivalent backend depth is accepted; Kubernetes, cloud and event-driven design are valued.
+
+Prepare: Prove architecture ownership, direct or matrix people leadership, mentoring, incident escalation and regulated financial delivery. Establish brokerage lifecycle and settlement depth honestly. Do not claim formal performance-management scope or production Go unless established.
+
+Resume: Use the hands-on Java backend lead, payments and secure integration resume. Emphasize Great Eastern payments, secure APIs, Kafka, Kubernetes, reliability, mentoring and verified architecture decisions. Make the Java-to-Go transfer case without claiming production Go.
+
+Hours/on-call: Cross-time-zone work with US and regional teams plus on-call as appropriate. Ask for required overlap, rota frequency, response expectations and compensation or time off.
+
+Recruiter questions: Singapore base, bonus and equity; EP sponsorship availability; remote-only versus office/travel expectations; team size and performance-management authority; US overlap and on-call; whether production Java satisfies the Go-or-equivalent requirement.
+
+Status: Official Greenhouse page and live application form verified 21Oct2026. No application or contact.

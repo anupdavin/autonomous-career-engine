@@ -11881,10 +11881,10 @@
       ],
       "import_source": "Fresh official Tilt careers, official ATS metadata and employer LinkedIn evidence checked 21 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+        "already_reported": true,
+        "first_reported_date": "2026-10-21",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled on the next run."
       },
       "assessments": {
         "anup": {
@@ -11901,6 +11901,112 @@
         }
       },
       "deduplication_note": "Distinct NIRA staff requisition and product scope. Existing Tilt Cashalo record is a separate senior backend role with a different requisition and project."
+    },
+    {
+      "employer": "Alpaca",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "location": "Singapore; official page label Remote - APAC",
+      "arrangement": "Remote - APAC, with the description explicitly hiring in Singapore and asking the applicant's work location and timezone",
+      "eligibility": "Singapore is explicitly supported. The broader Remote - APAC label does not establish India eligibility because the description says the role is in Singapore. The application asks whether EP sponsorship is required, but this does not promise sponsorship",
+      "engagement_type": "Employment type not explicitly stated; employee benefits and stock options are advertised",
+      "published_compensation": "No base salary or numeric pay band published. Competitive salary and stock options are advertised, plus a one-time USD 500 home-office setup and USD 150 monthly stipend via Brex Card",
+      "compensation_geography": "Singapore/APAC compensation basis and location-adjustment policy are not stated",
+      "sgd_comparison": "Unavailable: no applicable numeric base salary was published",
+      "authorization_sponsorship": "The application asks whether the candidate requires Singapore Employment Pass sponsorship; availability and criteria are not stated",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/alpaca/jobs/5979495004"
+      ],
+      "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "job_id": "alpaca-team-lead-new-markets-sg-5979495004",
+      "title": "Engineer Team Lead, New Markets Singapore",
+      "url": "https://job-boards.greenhouse.io/alpaca/jobs/5979495004",
+      "canonical_url": "https://job-boards.greenhouse.io/alpaca/jobs/5979495004",
+      "url_aliases": [],
+      "requisition": "5979495004",
+      "hours_on_call": "Collaborates across US and regional time zones and participates in on-call as appropriate. Core overlap, rota frequency, response expectations and compensation are not published",
+      "fit": "Hands-on team leadership for mission-critical brokerage services, REST and gRPC APIs, vendor integrations, multi-region and multi-currency systems, operational readiness, incidents, mentoring and Singapore stakeholder work. Go or equivalent backend depth is accepted; Kubernetes, cloud and event-driven design are valued",
+      "preparation": "Prepare evidence of architecture ownership, direct or matrix people leadership, mentoring, incident escalation, distributed-system design and regulated financial delivery. Establish brokerage lifecycle and settlement depth honestly. Prepare the Java-to-Go transfer story without claiming production Go",
+      "questions": "What is the Singapore base, bonus and equity? Is EP sponsorship available? Is the role remote only within Singapore? What are office or travel expectations? How many direct reports and what performance-management authority are expected? What are the US overlap hours and on-call rota? Is Java accepted as the equivalent backend language or is production Go required?",
+      "upside": "Career-growth candidate: genuine team leadership, staff-level architecture and regulated brokerage ownership; compensation to establish",
+      "verification": "Official Alpaca Greenhouse page checked 21 October 2026. It labels the role Remote - APAC, explicitly says Alpaca is hiring a Team Lead in Singapore, exposes a live application form and asks whether EP sponsorship is required. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on Java backend lead, payments and secure integration resume",
+          "tailoring": "Foreground Great Eastern payments, secure APIs, Kafka, Kubernetes, production reliability, mentoring and architecture decisions. Use only verified examples of people leadership and make the Java-to-Go transfer case without claiming production Go.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, event-driven cloud platform and fintech resume",
+          "tailoring": "Foreground technical Scrum leadership, mentoring, Java 21/Spring Boot 3, Kafka Streams, EKS/ECS, Kubernetes, observability, incident decisions and regulated delivery. Quantify only outcomes she can substantiate and distinguish matrix leadership from formal management.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Team Lead requisition 5979495004 with people-leadership duties. Staff Engineer requisition 6188585004 is a separate individual-contributor role on the same New Markets Singapore scope."
+    },
+    {
+      "employer": "Alpaca",
+      "last_checked": "2026-10-21",
+      "status_at_last_check": "Active official Greenhouse page with a working application form",
+      "freshly_verified_during_import": true,
+      "location": "Singapore; official page label Remote - APAC",
+      "arrangement": "Remote - APAC, with the description explicitly hiring in Singapore and asking the applicant's work location and timezone",
+      "eligibility": "Singapore is explicitly supported. The broader Remote - APAC label does not establish India eligibility because the description says the role is in Singapore. The application asks whether EP sponsorship is required, but this does not promise sponsorship",
+      "engagement_type": "Employment type not explicitly stated; employee benefits and stock options are advertised",
+      "published_compensation": "No base salary or numeric pay band published. Competitive salary and stock options are advertised, plus a one-time USD 500 home-office setup and USD 150 monthly stipend via Brex Card",
+      "compensation_geography": "Singapore/APAC compensation basis and location-adjustment policy are not stated",
+      "sgd_comparison": "Unavailable: no applicable numeric base salary was published",
+      "authorization_sponsorship": "The application asks whether the candidate requires Singapore Employment Pass sponsorship; availability and criteria are not stated",
+      "posted": "Official posting date unavailable; page was active and crawled on 21 October 2026",
+      "terms": "Health benefits, stock options, USD 500 home-office setup and USD 150 monthly stipend are advertised. Employing entity, leave, notice, probation, bonus, equity amount and vesting are not stated",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/alpaca/jobs/6188585004"
+      ],
+      "import_source": "Fresh official Alpaca Greenhouse page checked 21 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for current ChatGPT alert; append alert_delivered only after delivery is reconciled"
+      },
+      "job_id": "alpaca-staff-new-markets-sg-6188585004",
+      "title": "Staff Engineer - New Markets Singapore",
+      "url": "https://job-boards.greenhouse.io/alpaca/jobs/6188585004",
+      "canonical_url": "https://job-boards.greenhouse.io/alpaca/jobs/6188585004",
+      "url_aliases": [],
+      "requisition": "6188585004",
+      "hours_on_call": "Collaborates across US and regional time zones and participates in on-call as appropriate. Core overlap, rota frequency, response expectations and compensation are not published",
+      "fit": "Staff IC ownership of mission-critical brokerage services, REST and gRPC APIs, vendor integrations, multi-region and multi-currency systems, reliability, incident escalation, mentoring and Singapore stakeholder work. Go or equivalent backend depth is accepted",
+      "preparation": "Prepare evidence of cross-team architecture ownership, distributed-system design, API and operational quality, incident escalation and mentoring. Establish trading lifecycle, settlements and Singapore regulatory depth honestly. Prepare the Java-to-Go transfer story without claiming production Go",
+      "questions": "What is the Singapore base, bonus and equity? Is EP sponsorship available? Is the role remote only within Singapore? What are office or travel expectations? What are the US overlap hours and on-call rota? Is Java accepted as the equivalent backend language or is production Go required? What decision authority and cross-team scope define Staff at Alpaca?",
+      "upside": "Career-growth candidate: staff IC architecture and regulated brokerage ownership; compensation to establish",
+      "verification": "Official Alpaca Greenhouse page checked 21 October 2026. It labels the role Remote - APAC, explicitly says Alpaca is hiring a Staff Software Engineer in Singapore, exposes a live application form and asks whether EP sponsorship is required. No application or contact.",
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Staff-track Java backend, payments and secure integration resume",
+          "tailoring": "Foreground Great Eastern payments, secure APIs, Kafka, Kubernetes, reliability, incident diagnosis and architecture influence. Use only genuine mentoring and cross-team ownership examples, and frame production Java depth as transferable to Go.",
+          "application_status": "Not recorded"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Staff-track hands-on lead, event-driven cloud platform and fintech resume",
+          "tailoring": "Foreground Java 21/Spring Boot 3, Kafka Streams, AWS EKS/ECS, Kubernetes, observability, technical decisions, incident leadership and mentoring. Show IC architecture impact separately from Scrum facilitation and avoid claiming production Go.",
+          "application_status": "Not recorded"
+        }
+      },
+      "deduplication_note": "Distinct Staff IC requisition 6188585004. Team Lead requisition 5979495004 is a separate role with people-management duties on the same New Markets Singapore scope."
     }
   ]
 }
