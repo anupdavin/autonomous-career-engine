@@ -13833,6 +13833,227 @@
         }
       },
       "deduplication_note": "No Backcountry, CSC Generation, Lever 9b766051, fulfillment-systems project or substantially identical description existed in the shared ledger."
+    },
+    {
+      "job_id": "temus-java-aem-5419090008",
+      "employer": "Temus",
+      "title": "Software Developer (Java/AEM)",
+      "requisition": "Greenhouse 5419090008",
+      "url": "https://job-boards.greenhouse.io/temus/jobs/5419090008",
+      "canonical_url": "https://job-boards.greenhouse.io/temus/jobs/5419090008",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Temus Greenhouse page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore role; onsite, hybrid and office-day expectations are not stated on the posting",
+      "eligibility": "Singapore work location is confirmed. Work authorization, sponsorship and whether candidates already in Singapore are required are unknown.",
+      "engagement_type": "Employment type not stated on the official posting",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore salary, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published",
+      "terms": "Employment type, office attendance, leave, benefits, probation, notice, hours and on-call are not stated",
+      "hours_on_call": "Not stated",
+      "fit": "Java and Spring Boot full-stack delivery with Angular or React, SQL, microservices, Redis, Docker, Kubernetes, infrastructure as code, AWS or Azure, CI/CD and public-sector or enterprise modernization. Experienced candidates may be considered for Team Lead or Technical Architect scope.",
+      "preparation": "Adobe Experience Manager is advantageous rather than mandatory. Prepare JVM troubleshooting, infrastructure-as-code, full lifecycle delivery and stakeholder consultation examples. Establish the actual seniority and architecture scope before accepting a lower-level title.",
+      "questions": "What grade will be offered for 8 to 9 plus years of experience? Is Team Lead or Technical Architect leveling available? What is the Singapore base, bonus and benefits? Is sponsorship available? What are office days, client-site expectations, working hours and on-call? How heavily is hands-on AEM experience screened?",
+      "upside": "Career-growth candidate and compensation to establish, especially if assessed at Team Lead or Technical Architect level",
+      "verification": "Official Temus Greenhouse page checked 22 October 2026. It displayed Singapore, an active Apply control and the complete description. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/temus/jobs/5419090008"
+      ],
+      "import_source": "Official Temus Greenhouse page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java full-stack, Singapore modernization and cloud-native delivery",
+          "tailoring": "Lead with Java and Spring Boot, Angular, SQL, AWS or Azure, Kubernetes, CI/CD, secure integrations and full-lifecycle delivery. Present AEM as a preparation area if not used directly, and ask to be assessed for Team Lead or Technical Architect level.",
+          "fit_and_preparation": "Strong stack and Singapore-location match. The main risks are unknown pay, work arrangement and whether AEM or a lower level dominates screening.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, Java full-stack and public-sector modernization",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Angular 18, AWS, Kubernetes, Terraform, CI/CD, observability, stakeholder delivery and mentoring. Treat AEM as a learnable platform unless directly verified, and request senior or architect leveling.",
+          "fit_and_preparation": "Strong transfer from government systems, cloud-native modernization and technical leadership. Establish grade, pay and client-site expectations.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct Temus Java and AEM requisition 5419090008. The existing Temus Full Stack AI Engineer record has a different requisition and AI application scope."
+    },
+    {
+      "job_id": "savvymoney-senior-backend-india-126f643c",
+      "employer": "SavvyMoney",
+      "title": "Senior Software Development Engineer, Backend (India)",
+      "requisition": "Ashby 126f643c-2e75-4d55-b662-8c1beaccf62e",
+      "url": "https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e",
+      "canonical_url": "https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e",
+      "url_aliases": [],
+      "status_at_last_check": "Official SavvyMoney Ashby page indexed as open today; page renders a JavaScript shell in text retrieval",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "100 percent remote from a home office in India as part of a distributed US, Canada, Europe and India team",
+      "eligibility": "India-remote engagement is explicit. Singapore-based work is not advertised. India residence, work authorization, sponsorship and employing entity are unknown.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published on the official ATS page",
+      "compensation_geography": "India pay band, bonus, equity, benefits and location-adjustment policy are not published",
+      "sgd_comparison": "Unavailable because no official applicable compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Official posting date unavailable; third-party indexes show the role has circulated since at least May 2026",
+      "terms": "Full-time; India entity, leave, benefits, probation, notice, equipment and payment schedule are not stated",
+      "hours_on_call": "Distributed-team hours, US overlap and on-call are not stated",
+      "fit": "Direct fintech product role building secure Java and AWS backend services, distributed systems, microservices, APIs and integrations for credit-score and personal-finance products serving banks and credit unions.",
+      "preparation": "Prepare Java on AWS system-design, API security, distributed reliability and financial-data examples. Consumer-credit and digital-banking platform depth should be established without overstating payments experience.",
+      "questions": "Must the employee reside in India and which entity employs the role? What is the India base, bonus, equity and benefits? What are required US overlap, on-call and travel? How current is the requisition and what product area owns it?",
+      "upside": "Career-growth candidate for direct-product fintech backend ownership; compensation to establish",
+      "verification": "Official Ashby search metadata checked 22 October 2026 and showed the role as full-time and Remote - India. The page rendered a JavaScript shell in text retrieval. Current secondary indexes corroborate the Java, AWS and distributed-systems scope. No application or employer contact was made.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e",
+        "https://www.remoterocketship.com/company/savvymoney-2/jobs/senior-software-development-engineer-backend-india-remote/"
+      ],
+      "import_source": "Official SavvyMoney Ashby metadata plus current public role index checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, fintech integrations and AWS distributed systems",
+          "tailoring": "Lead with Great Eastern payments, Java and Spring Boot, secure REST APIs, Kafka, SQL, AWS, Kubernetes, observability and production reliability. Frame consumer-credit specifics as preparation, not claimed experience.",
+          "fit_and_preparation": "Strong Java fintech and distributed-backend fit. Establish compensation and India engagement terms before judging income upside.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on lead, event-driven Java backend and cloud-native fintech",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, PostgreSQL, DevSecOps, observability and mentoring. Prepare consumer-credit and bank-integration scenarios truthfully.",
+          "fit_and_preparation": "Strong technical and fintech transfer. The title may offer less leadership scope than current role, so confirm ownership and level.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No SavvyMoney record, requisition 126f643c or substantially identical description existed in the shared ledger."
+    },
+    {
+      "job_id": "jobgether-java-tech-architect-telecom-64c90dc4",
+      "employer": "Undisclosed telecom partner via Jobgether",
+      "title": "Java Tech Lead / Solution Architect (React, Telecom)",
+      "requisition": "Lever 64c90dc4-5207-4d7e-bda1-4808f0d499c3",
+      "url": "https://jobs.lever.co/jobgether/64c90dc4-5207-4d7e-bda1-4808f0d499c3",
+      "canonical_url": "https://jobs.lever.co/jobgether/64c90dc4-5207-4d7e-bda1-4808f0d499c3",
+      "url_aliases": [],
+      "status_at_last_check": "Active Jobgether Lever page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "Remote in India",
+      "eligibility": "India-based remote role. Singapore engagement is not advertised. India residence, work authorization, sponsorship and contracting entity are unknown.",
+      "engagement_type": "Contract",
+      "published_compensation": "No rate or currency published",
+      "compensation_geography": "India contract rate and currency are unknown",
+      "sgd_comparison": "Unavailable because no rate, guaranteed hours or duration is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published; page was crawled three days before verification",
+      "terms": "Contract duration, start date, guaranteed hours, paid or unpaid leave, invoicing entity, payment schedule, currency and FX costs, termination, notice, renewal and expenses are not stated",
+      "hours_on_call": "UK stakeholders are explicit. Required UK overlap, daylight-saving impact and on-call are not stated.",
+      "fit": "Hands-on Java and Spring Boot architecture for a telecom portal and integration platform, with React and TypeScript, REST, microservices, event-driven patterns, OAuth2, OIDC, Spring Security, AWS, CI/CD, mentoring, ADRs, C4 diagrams and AI-assisted engineering. The role is approximately half architecture and leadership and half coding.",
+      "preparation": "The description asks for 8 plus years of Java, 2 plus years in technical leadership and practical telecom BSS or OSS depth. Prepare transferable integration and modernization evidence, Transactional Outbox, idempotency, DDD and architecture communication. Do not claim telecom depth if not verified.",
+      "questions": "Who is the end client and contracting entity? Is India residence mandatory? What is the rate, currency, guaranteed weekly hours and expected term? What are renewal, termination, notice, payment and expense terms? Which UK hours and daylight-saving overlap are required? How strictly is telecom BSS or OSS experience screened?",
+      "upside": "Career-growth candidate for hands-on architecture and leadership; income potential cannot be assessed until the contract economics are published",
+      "verification": "Jobgether official Lever page checked 22 October 2026. It displayed Contract, Remote, India and an active Apply control. Jobgether states that an undisclosed partner manages applications and next steps. No application or recruiter contact was made.",
+      "source_urls": [
+        "https://jobs.lever.co/jobgether/64c90dc4-5207-4d7e-bda1-4808f0d499c3"
+      ],
+      "import_source": "Official Jobgether Lever page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java integration, secure APIs and hands-on architecture",
+          "tailoring": "Lead with Java and Spring Boot, Angular or TypeScript transfer to React, REST or GraphQL, Apache Camel and integration patterns, OAuth2 and mTLS, cloud-native delivery and AI-assisted verification. Prepare authentic leadership examples and telecom-adjacent integration reasoning.",
+          "fit_and_preparation": "Strong technical transfer and plausible architect stretch. The two-year leadership and telecom BSS or OSS requirements need evidence or candid preparation.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java integration architecture and cloud-native modernization",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Angular and TypeScript transfer to React, Kafka, Apache Camel, AWS and Kubernetes, OAuth2 security, CI/CD, architecture decisions, mentoring and stakeholder leadership. Keep AI work separated between prototypes and coding-agent practice.",
+          "fit_and_preparation": "Very strong hands-on lead and modernization fit. Telecom BSS or OSS and React are preparation areas, not automatic exclusions.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct Jobgether telecom project and Lever requisition. It is not the previously reported Mitchell Martin platform role or the Payforge payments role."
+    },
+    {
+      "job_id": "jobgether-java-tech-lead-erp-4cdcb5e4",
+      "employer": "Undisclosed ERP partner via Jobgether",
+      "title": "Java Tech Lead",
+      "requisition": "Lever 4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b",
+      "url": "https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b",
+      "canonical_url": "https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b",
+      "url_aliases": [],
+      "status_at_last_check": "Active Jobgether Lever page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "India",
+      "arrangement": "Fully remote in India",
+      "eligibility": "India-based remote role. Singapore engagement is not advertised. India residence, work authorization, sponsorship and employing entity are unknown.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published",
+      "compensation_geography": "India salary, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no applicable compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published; page was crawled two days before verification",
+      "terms": "Full-time; employing entity, benefits, leave, probation, notice, equipment and payment schedule are not stated",
+      "hours_on_call": "Working hours, international overlap and on-call are not stated",
+      "fit": "Hands-on Java Tech Lead role for cloud ERP using Java, Quarkus or Spring Boot, Java EE, microservices, event-driven systems, PostgreSQL or MySQL, AWS, CI/CD, observability, production troubleshooting and mentoring.",
+      "preparation": "Prepare architecture and team-guidance examples, database optimization, asynchronous processing, AWS deployment and observability. Quarkus, Python analytics and ERP domain depth are interview preparation points where not already demonstrated.",
+      "questions": "Who is the end client and employing entity? Must the employee reside in India? What are the base, currency, bonus, benefits and leave? What is the team size and hands-on coding ratio? Which hours, travel and on-call apply? How heavily are Quarkus, Python and ERP experience screened?",
+      "upside": "Career-growth candidate for formal technical leadership and backend architecture; compensation to establish",
+      "verification": "Jobgether official Lever page checked 22 October 2026. It displayed Full-time, Remote, India and an active Apply control. Jobgether states that an undisclosed partner manages applications and next steps. No application or recruiter contact was made.",
+      "source_urls": [
+        "https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b"
+      ],
+      "import_source": "Official Jobgether Lever page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, integration and hands-on technical leadership",
+          "tailoring": "Lead with Java and Spring Boot, Apache Camel and integrations, SQL, AWS or Azure, Kubernetes, CI/CD, observability and production troubleshooting. Use only genuine mentoring and architecture decisions, and prepare Quarkus or ERP comparisons.",
+          "fit_and_preparation": "Strong senior backend fit with credible lead stretch. Establish actual decision authority, compensation and India employment terms.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical lead, event-driven cloud platform and modernization",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Kafka, AWS EKS or ECS, Kubernetes, PostgreSQL, Terraform, CI/CD, observability, mentoring and technical Scrum leadership. Prepare Quarkus, ERP and Python analytics without overstating experience.",
+          "fit_and_preparation": "Strong fit for formal lead scope across architecture, delivery and mentoring. Confirm pay, team scope and hands-on ratio.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct Jobgether ERP partner requisition and description. No employer, requisition or substantially identical project existed in the shared ledger."
     }
   ]
 }
