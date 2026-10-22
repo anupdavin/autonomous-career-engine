@@ -2972,7 +2972,7 @@ Permanent full-time Singapore role covering distributed microservices, applicati
 
 [Application](https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132)
 
-Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the senior Java secure-integration, platform-architecture and hands-on lead resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, secure APIs, Kubernetes, DevSecOps, observability and truthful architecture or mentoring outcomes. Prepare React or Golang, ISO 27001 or MAS TRM, capacity planning and formal vendor ownership where not already demonstrated. Matching current indexes report SGD 8,000-10,000 monthly, or SGD 96,000-120,000 annually if guaranteed base for 12 months. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
+Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the senior Java secure-integration, platform-architecture and hands-on lead resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, secure APIs, Kubernetes, DevSecOps, observability and truthful architecture or mentoring outcomes. Prepare React or Golang, ISO 27001 or MAS TRM, capacity planning and formal vendor ownership where not already demonstrated. The direct MyCareersFuture listing shows SGD 10,000-15,000 monthly, or SGD 120,000-180,000 annually if guaranteed base for 12 months. This corrects the earlier third-party band. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
 
 ## New India-remote and Singapore lead roles checked 23Oct2026
 
@@ -3010,3 +3010,22 @@ Full-time Singapore role with five office days, real-time risk systems, Java and
 [Application](https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da)
 
 Permanent on-site Singapore role integrating LLM, RAG and agentic capabilities into full-stack applications using React or Angular, Python or Node, cloud and CI/CD. Matching current listing reports SGD 8,000-12,000 monthly. Use the full-stack cloud and AI-assisted-engineering resume, keeping production AI depth unclaimed. Confirm whether Java backends are accepted, required production AI depth, security clearance, sponsorship, pay structure and office cadence.
+
+
+## New active global-remote and Singapore banking roles checked 23Oct2026
+
+### Priority 1: Camunda: Senior Software Engineer, Backend - Distributed Systems
+
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://jobs.ashbyhq.com/camunda/af27a3de-d3ba-40dd-976f-9767bdc1e7e8)
+
+Fully remote, global full-time role with a role-specific Singapore Annual Total Target Cash band of SGD 178,600-267,900. That figure includes base plus 100 percent variable target where applicable, so it is not guaranteed base. Use the senior Java distributed-systems, JVM reliability and production-ownership resume. Lead with Java 21, Kafka, Kubernetes, observability, incident handling, secure distributed services and architecture decisions. Prepare JVM memory-model and concurrency, Raft or Paxos, SWIM or CRDTs, storage and network I/O, disaster recovery and L3 support. Confirm Singapore entity and Employment Pass support, India eligibility, base-variable split, equity, overlap and on-call.
+
+### Priority 2: HCL Singapore: Technical Delivery Manager (Java Applications and Banking) (MCF-2026-1762684)
+
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/technical-delivery-manager-hcl-singapore-0053e6659d170dc387c37c2c7a52de63)
+
+Full-time Singapore banking role at SGD 10,000-13,000 monthly, or SGD 120,000-156,000 annually if guaranteed base for 12 months. Use the Java banking-platform, secure-integration and delivery-ownership resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, Oracle or other SQL platforms, security, observability and release governance. The formal five-year delivery-management and Mandarin requirements need early clarification. Confirm sponsorship, client, base versus total cash, office cadence, coding depth and on-call.
