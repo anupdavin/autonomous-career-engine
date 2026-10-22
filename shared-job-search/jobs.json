@@ -14997,10 +14997,10 @@
       ],
       "import_source": "Official Camunda Ashby listing and current indexed official description checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15052,10 +15052,10 @@
       ],
       "import_source": "Direct MyCareersFuture listing and matching current role description checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15074,6 +15074,394 @@
         }
       },
       "deduplication_note": "The existing HCLTech Technical Lead requisition 155941 is a different role. No MCF-2026-1762684 or substantially identical Technical Delivery Manager record existed."
+    },
+    {
+      "job_id": "ntt-data-senior-principal-fde-1821918",
+      "employer": "NTT Data Asia Pacific Pte. Ltd.",
+      "title": "Senior Principal Forward Deployed Engineer",
+      "requisition": "MCF listing d8ac34674c3c26ae2d13c2b03db06bda",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-principal-forward-deployed-engineer-ntt-data-asia-pacific-d8ac34674c3c26ae2d13c2b03db06bda",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-principal-forward-deployed-engineer-ntt-data-asia-pacific-d8ac34674c3c26ae2d13c2b03db06bda",
+      "url_aliases": [],
+      "status_at_last_check": "Active direct MyCareersFuture application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Toa Payoh / customer environments",
+      "arrangement": "Permanent Singapore role. The direct listing does not state a remote or hybrid cadence; work occurs directly in customer environments.",
+      "eligibility": "Singapore is advertised. Existing work rights and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Permanent",
+      "published_compensation": "SGD 16,000-20,000 monthly",
+      "compensation_geography": "Singapore monthly band. Base, variable pay and benefits split are not stated.",
+      "sgd_comparison": "SGD 192,000-240,000 annually if the monthly band is guaranteed cash paid for 12 months. This is a calculation, not employer-published annual pay. The band is above Meena's SGD 144,000 annual target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and customer access requirements.",
+      "posted": "Posted 29 September 2026 according to a current indexed copy; active on 23 October 2026.",
+      "terms": "Permanent. Bonus, equity, benefits, leave and notice are not stated.",
+      "hours_on_call": "Customer travel, office cadence, APAC hours and on-call are not stated.",
+      "fit": "Leads customer-facing solution delivery across software engineering, integration, cloud, automation, data and AI, owns architecture and implementation, mentors regional FDEs and turns field learning into reusable patterns.",
+      "preparation": "Ambitious principal-level move. Prepare enterprise discovery, architecture, integration delivery, executive communication, team leadership and applied AI delivery. A current MCF archive reports 12 years minimum; treat this as a screening point to establish, not assumed incapability.",
+      "questions": "Confirm whether 12 years is a hard gate, coding percentage, AI production depth, customer travel, office cadence, guaranteed base versus total cash, bonus, Employment Pass support and on-call.",
+      "upside": "High income and career-growth stretch.",
+      "verification": "Direct MyCareersFuture route and current indexed description checked 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/information-technology/senior-principal-forward-deployed-engineer-ntt-data-asia-pacific-d8ac34674c3c26ae2d13c2b03db06bda"
+      ],
+      "import_source": "Direct MyCareersFuture listing and current indexed role copy checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java integration, secure platforms, enterprise modernization and customer-facing technical leadership",
+          "tailoring": "Lead with payments, Java 21, Spring Boot 3, Apache Camel, Kafka, secure APIs, cloud and Kubernetes, observability, architecture decisions and stakeholder delivery. Keep AI use framed as engineering automation unless directly evidenced otherwise.",
+          "fit_and_preparation": "Strong enterprise engineering transfer but a principal AI/FDE stretch. Establish the 12-year screen and expected production AI depth early.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical leadership, cloud modernization, event platforms and applied AI integration",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, ArgoCD, Terraform, DevSecOps, observability, mentoring and customer delivery. Label Spring AI, RAG, MCP and Claude API work as prototypes.",
+          "fit_and_preparation": "High-value ambitious fit for enterprise solution leadership. Establish the 12-year screen, executive customer scope and production AI expectations.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "The ledger contained an NTT Data Java post-trade role but no forward-deployed engineering role or this listing."
+    },
+    {
+      "job_id": "airwallex-staff-cards-1711508a",
+      "employer": "Airwallex",
+      "title": "Staff Software Engineer, Cards",
+      "requisition": "Airwallex 1711508a-927f-48c2-b3ef-0a79ccd0299d",
+      "url": "https://careers.airwallex.com/job/1711508a-927f-48c2-b3ef-0a79ccd0299d/staff-software-engineer-cards/",
+      "canonical_url": "https://careers.airwallex.com/job/1711508a-927f-48c2-b3ef-0a79ccd0299d/staff-software-engineer-cards/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/1711508a-927f-48c2-b3ef-0a79ccd0299d"
+      ],
+      "status_at_last_check": "Active official Airwallex application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore-based full-time role. This specific page does not state office cadence; confirm whether Airwallex's office policy applies.",
+      "eligibility": "Singapore is advertised. Existing work rights and Employment Pass sponsorship are not stated on the accessible role text.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "Singapore package unknown.",
+      "sgd_comparison": "Unavailable because no role-specific pay is published.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass support.",
+      "posted": "Official application active 23 October 2026. A public index was updated 22 August 2026; exact official posting date is unavailable.",
+      "terms": "Base, bonus, equity, benefits, leave and notice are not stated.",
+      "hours_on_call": "Global collaboration and production support are implicit in lifecycle ownership, but overlap and on-call are not stated.",
+      "fit": "Staff ownership of distributed card and expense systems, cross-team architecture, Java or Kotlin, Spring Boot, REST APIs, cloud, Kubernetes, observability, security and technical mentoring.",
+      "preparation": "Prepare card issuing and payments flows, high-scale distributed-system design, system-wide influence and cross-team leadership. Do not overstate formal Staff scope.",
+      "questions": "Confirm compensation, Employment Pass support, office cadence, bonus or equity, Staff calibration, card-domain screening, global overlap and on-call.",
+      "upside": "Career-growth and possible income-growth candidate; compensation to establish.",
+      "verification": "Official Airwallex careers page indexed and active on 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://careers.airwallex.com/job/1711508a-927f-48c2-b3ef-0a79ccd0299d/staff-software-engineer-cards/",
+        "https://jobs.ashbyhq.com/airwallex/1711508a-927f-48c2-b3ef-0a79ccd0299d"
+      ],
+      "import_source": "Official Airwallex careers listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java payments, secure APIs, distributed systems and hands-on architecture",
+          "tailoring": "Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, REST or GraphQL, OAuth2 or mTLS, AWS or Azure, Kubernetes, databases, observability and architecture decisions.",
+          "fit_and_preparation": "Excellent domain and stack match. Prepare Staff-level influence and card issuing or expense-management concepts.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical leadership, fintech platforms and cloud-native reliability",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, PostgreSQL or Oracle, DevSecOps, observability, design reviews and mentoring.",
+          "fit_and_preparation": "Strong technical-lead-to-Staff progression. Establish compensation against the SGD 144,000 target and prepare card-domain specifics.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Other Airwallex platform roles exist, but the Cards requisition and description were absent from the ledger."
+    },
+    {
+      "job_id": "stacklok-senior-fde-kubernetes-5170939007",
+      "employer": "Stacklok",
+      "title": "Senior Forward Deployed Engineer - Kubernetes",
+      "requisition": "Greenhouse 5170939007",
+      "url": "https://job-boards.greenhouse.io/stacklok/jobs/5170939007",
+      "canonical_url": "https://job-boards.greenhouse.io/stacklok/jobs/5170939007",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Greenhouse application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Remote, Singapore",
+      "arrangement": "Remote role based in Singapore.",
+      "eligibility": "Candidates must live and work in Singapore and be legally authorized to work in Singapore. The page asks about sponsorship but does not promise it.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published; competitive compensation and equity are stated without amounts.",
+      "compensation_geography": "Singapore package unknown.",
+      "sgd_comparison": "Unavailable because no amount is published.",
+      "authorization_sponsorship": "Existing Singapore authorization is explicitly required. The application asks about future sponsorship, but availability is unknown.",
+      "posted": "Official application active 23 October 2026; exact posting date unavailable.",
+      "terms": "Equity, healthcare, flexible PTO and paid holidays are stated without values.",
+      "hours_on_call": "Customer engagements across APAC are central. Travel, overlap and on-call are not stated.",
+      "fit": "Customer-facing delivery of enterprise AI-agent infrastructure on Kubernetes, Helm and GitOps, with observability, MCP, AI-assisted workflows, production debugging, mentoring and reusable platform changes.",
+      "preparation": "Deep operator and CRD knowledge, Go controllers, Kubebuilder or Operator SDK, Kubernetes networking and storage, and direct customer debugging are the main preparation areas.",
+      "questions": "Confirm guaranteed base, equity, Singapore entity and sponsorship, travel, customer hours, on-call, Go coding depth, operator or CRD screening and whether prototype MCP work is sufficient.",
+      "upside": "Career-growth candidate at the intersection of cloud platforms and applied AI; compensation to establish.",
+      "verification": "Official Stacklok Greenhouse page checked 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/stacklok/jobs/5170939007"
+      ],
+      "import_source": "Official Stacklok Greenhouse listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Kubernetes platform delivery, secure integrations, observability and AI-assisted engineering",
+          "tailoring": "Lead with AKS, Kubernetes, Helm, Rancher, CI/CD, observability, secure integrations and customer-facing delivery. Describe MCP or agent tooling only to the extent verified and prepare Go operator fundamentals.",
+          "fit_and_preparation": "Credible platform and integration stretch. Go controllers, CRDs and deep cluster internals are the key gaps to prepare.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Cloud-native technical leadership, Kubernetes, GitOps, observability and applied AI integration",
+          "tailoring": "Lead with AWS EKS, Kubernetes, Helm, Istio, ArgoCD, Terraform, observability, mentoring, Spring AI, RAG, MCP and Claude API prototypes. Keep prototypes clearly labelled.",
+          "fit_and_preparation": "Strong career-growth stretch with unusually direct MCP and Kubernetes overlap. Prepare Go operators and production customer debugging.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "A Staff variant exists on the same Stacklok FDE track. This Senior requisition is retained as the better calibrated canonical application; the title variant is not added separately."
+    },
+    {
+      "job_id": "genesys-senior-principal-fde-jr111608",
+      "employer": "Genesys",
+      "title": "Senior Principal Forward Deployed Engineer",
+      "requisition": "JR111608",
+      "url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Singapore-Flexible/Senior-Principal-Forward-Deployed-Engineer_JR111608",
+      "canonical_url": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Singapore-Flexible/Senior-Principal-Forward-Deployed-Engineer_JR111608",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Workday application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore (Flexible)",
+      "arrangement": "Full-time Singapore role labelled Flexible; exact remote, hybrid and customer-site cadence are not stated.",
+      "eligibility": "Singapore is the advertised location. Work authorization and sponsorship are not stated.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "Singapore package unknown.",
+      "sgd_comparison": "Unavailable because no role-specific pay is published.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass support.",
+      "posted": "Official page showed Posted 3 Days Ago when checked 23 October 2026, implying about 20 October 2026.",
+      "terms": "Benefits, bonus, equity, leave and notice are not stated in the accessible listing.",
+      "hours_on_call": "APAC customer work is stated. Travel, regional overlap and on-call are not stated.",
+      "fit": "Strategic customer delivery of AI-powered experience solutions, discovery, architecture, integrations, prototypes, production rollout, responsible AI, mentoring and executive stakeholder leadership.",
+      "preparation": "This is an ambitious applied-AI and consulting role. Prepare concrete architecture, secure integration, prototyping and customer-delivery examples. Production AI/CX depth, model evaluation and responsible AI are details to establish.",
+      "questions": "Confirm coding percentage, required Genesys Cloud or CX background, production AI threshold, travel, office cadence, base, bonus, equity, sponsorship and support hours.",
+      "upside": "Career-growth stretch in applied AI; compensation to establish.",
+      "verification": "Official Genesys Workday listing checked 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Singapore-Flexible/Senior-Principal-Forward-Deployed-Engineer_JR111608"
+      ],
+      "import_source": "Official Genesys Workday listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Secure Java integrations, enterprise modernization and AI-assisted engineering",
+          "tailoring": "Lead with secure APIs, OAuth2 or mTLS, integration platforms, cloud and Kubernetes delivery, customer collaboration and coding-agent verification. Do not claim production ML research.",
+          "fit_and_preparation": "Ambitious adjacent role. Establish whether strong software and integration delivery can substitute for deep production AI/CX experience.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Technical leadership, cloud modernization and applied AI integration",
+          "tailoring": "Lead with architecture and mentoring, Java and Angular delivery, cloud-native platforms, secure integration, Spring AI, RAG, MCP and Claude API prototypes, clearly labelled as prototypes.",
+          "fit_and_preparation": "Credible applied-AI integration stretch. Prepare enterprise discovery, responsible AI and productionization discussions.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Genesys or substantially identical forward-deployed AI role existed in the ledger."
+    },
+    {
+      "job_id": "zscaler-sr-staff-sde-5242467007",
+      "employer": "Zscaler",
+      "title": "Sr. Staff Software Development Engineer",
+      "requisition": "Greenhouse 5242467007",
+      "url": "https://job-boards.greenhouse.io/zscaler/jobs/5242467007",
+      "canonical_url": "https://job-boards.greenhouse.io/zscaler/jobs/5242467007",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Greenhouse application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Remote, India",
+      "arrangement": "Remote role based in India.",
+      "eligibility": "India-based remote only. This is a hard location blocker for a Singapore-based application unless the candidate will legally work from India.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "India-local package unknown.",
+      "sgd_comparison": "Unavailable because no India pay band is published.",
+      "authorization_sponsorship": "India work authorization and sponsorship are not stated.",
+      "posted": "Official application active 23 October 2026; exact posting date unavailable.",
+      "terms": "Health, leave, parental leave, retirement and education reimbursement are mentioned without values.",
+      "hours_on_call": "Remote India; working hours and on-call are not stated.",
+      "fit": "Architecture and delivery of security operations infrastructure, Java, Spring Boot or Cloud or Security, distributed systems, REST or gRPC, messaging, cloud storage, AWS or GCP, Kubernetes, observability and mentoring.",
+      "preparation": "Prepare security operations and exposure-management concepts, gRPC, high-availability and disaster recovery, AI security controls and Staff-level technical direction. AI or ML integration is preferred, not the core minimum.",
+      "questions": "Confirm India employing entity, salary, equity or bonus, work authorization, overlap and on-call, Sr. Staff calibration, security-domain depth and whether Java is the main implementation language.",
+      "upside": "Career-growth and potential income-growth candidate for India-based engagement; compensation to establish.",
+      "verification": "Official Zscaler Greenhouse page checked 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/zscaler/jobs/5242467007"
+      ],
+      "import_source": "Official Zscaler Greenhouse listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java security, Spring Boot, distributed systems, cloud and observability",
+          "tailoring": "Lead with Java 21, Spring Security, OAuth2 or mTLS, distributed services, Kafka, AWS or Azure, Kubernetes, observability and technical ownership. Prepare gRPC and security-operations context.",
+          "fit_and_preparation": "Excellent stack fit and credible Staff stretch if India-based. Do not imply eligibility from Singapore.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical leadership, Java cloud platforms, DevSecOps and observability",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, DevSecOps, observability, incident leadership and mentoring. Keep AI prototypes separate unless relevant.",
+          "fit_and_preparation": "Strong architecture and leadership fit if India-based. Prepare security operations and Staff-level scope.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "The ledger has Zscaler Staff requisition 5219187007 in Singapore. This is a distinct Sr. Staff India-remote requisition, location and security-operations scope."
+    },
+    {
+      "job_id": "evolve-tech-sr-backend-java-cb62f755",
+      "employer": "Evolve Tech LLC",
+      "title": "Sr. Backend Developer (Java Spring Boot)",
+      "requisition": "Ashby cb62f755-9881-4075-a792-99fa317502a1",
+      "url": "https://jobs.ashbyhq.com/evolve-tech-llc/cb62f755-9881-4075-a792-99fa317502a1",
+      "canonical_url": "https://jobs.ashbyhq.com/evolve-tech-llc/cb62f755-9881-4075-a792-99fa317502a1",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Ashby application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Remote from India, Brazil, Poland, Portugal, Romania or Spain",
+      "arrangement": "Full-time remote. India is explicitly included.",
+      "eligibility": "India remote is supported. Singapore is not listed. Work authorization, employment entity and sponsorship are not stated.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "India-local or location-adjusted package unknown.",
+      "sgd_comparison": "Unavailable because no amount is published.",
+      "authorization_sponsorship": "Unknown. Confirm India hiring entity and required work rights.",
+      "posted": "A current public copy reports 2 July 2026; official application remained active 23 October 2026.",
+      "terms": "Benefits, leave, notice, bonus and equity are not stated.",
+      "hours_on_call": "Timezone overlap, on-call and customer hours are not stated.",
+      "fit": "Direct senior Java and Spring Boot backend role covering reusable services, APIs, microservices, SQL, performance optimization, architecture and cross-functional delivery.",
+      "preparation": "Clarify client assignment, cloud and event-streaming stack, seniority expectations and how much team leadership is included.",
+      "questions": "Confirm India employing entity, salary and currency, employment versus contractor terms, paid leave, benefits, payment schedule, work authorization, overlap hours and on-call.",
+      "upside": "Straightforward fit and remote-work candidate; compensation to establish.",
+      "verification": "Official Ashby application and current indexed official content checked 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/evolve-tech-llc/cb62f755-9881-4075-a792-99fa317502a1"
+      ],
+      "import_source": "Official Evolve Tech Ashby listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, Spring Boot, APIs, SQL and cloud delivery",
+          "tailoring": "Lead with Java 21, Spring Boot 3, REST or GraphQL, Kafka, SQL platforms, cloud, Kubernetes, CI/CD, performance troubleshooting and secure services.",
+          "fit_and_preparation": "Very direct technical fit if India-based. Establish pay and engagement quality before prioritizing above Singapore roles.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java backend, event-driven cloud systems and technical leadership",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, PostgreSQL or Oracle, AWS, Kubernetes, CI/CD, observability and mentoring.",
+          "fit_and_preparation": "Strong stack fit but possibly narrower than current lead scope. Compensation and ownership should be established.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Evolve Tech or substantially identical requisition existed in the ledger."
+    },
+    {
+      "job_id": "certifyos-staff-application-9482275b",
+      "employer": "CertifyOS",
+      "title": "Staff Application Engineer",
+      "requisition": "Ashby 9482275b-ac03-450d-90dc-be8440bf48f5",
+      "url": "https://jobs.ashbyhq.com/certifyos/9482275b-ac03-450d-90dc-be8440bf48f5",
+      "canonical_url": "https://jobs.ashbyhq.com/certifyos/9482275b-ac03-450d-90dc-be8440bf48f5",
+      "url_aliases": [],
+      "status_at_last_check": "Official Ashby application indexed as active; a third-party copy reports closed, so final status should be confirmed immediately",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Bengaluru, India",
+      "arrangement": "Full-time remote role based in India.",
+      "eligibility": "India-based remote. Singapore is not listed. Work authorization and sponsorship are not stated.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "India-local package unknown.",
+      "sgd_comparison": "Unavailable because no amount is published.",
+      "authorization_sponsorship": "Unknown. Confirm India work-right requirements and hiring entity.",
+      "posted": "Indexed around September 2026; exact official date unavailable. Official Ashby route was active in search on 23 October 2026.",
+      "terms": "India health insurance and statutory leave are mentioned; salary, bonus, equity and notice are not stated.",
+      "hours_on_call": "Remote India. Timezone overlap and on-call are not stated.",
+      "fit": "Staff ownership of the application layer across backend and frontend, API contracts, product architecture, engineering standards and AI-driven workflows for an API-first healthcare platform. Java or a comparable strongly typed backend language is accepted.",
+      "preparation": "Prepare full-stack application architecture, API contract design, frontend-backend evolution, healthcare data and compliance, Staff-level influence and practical AI workflow integration.",
+      "questions": "Confirm whether the role is still accepting applications, India entity, salary and equity, primary backend language, frontend stack, AI production expectations, timezone overlap and on-call.",
+      "upside": "Career-growth and applied-AI integration candidate; compensation and current status to establish.",
+      "verification": "Official Ashby listing was indexed and reachable on 23 October 2026, but its rendered details required JavaScript and one third-party copy marked it closed. No application or employer contact.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/certifyos/9482275b-ac03-450d-90dc-be8440bf48f5"
+      ],
+      "import_source": "Official CertifyOS Ashby search result plus current public copies checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java application architecture, APIs, full-stack delivery and AI-assisted engineering",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Angular and TypeScript, secure APIs, databases, cloud delivery, testing and engineering standards. Keep AI experience framed as assisted engineering and prototypes where applicable.",
+          "fit_and_preparation": "Good Staff application-platform stretch if India-based, with status confirmation needed first.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on full-stack technical leadership, API platforms, cloud modernization and applied AI integration",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Angular 18, NgRx, RxJS, APIs, AWS, Kubernetes, DevSecOps, mentoring, Spring AI, RAG and MCP prototypes.",
+          "fit_and_preparation": "Strong application-layer and leadership fit if India-based. Confirm status, pay and primary language before investing heavily.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No CertifyOS or substantially identical role existed in the ledger."
     }
   ]
 }

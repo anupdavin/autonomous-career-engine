@@ -2977,35 +2977,35 @@ Full-time Singapore player-manager role spanning application architecture, hands
 ## New India-remote and Singapore lead roles checked 23Oct2026
 
 ### Priority 1: FourKites: Technical Lead (8236193)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://job-boards.greenhouse.io/fourkites/jobs/8236193)
 
 Chennai or remote within India. This is a hands-on technical-lead role with 40-60 percent coding, ownership of architecture and delivery, Java or Go, Spring Boot, Kafka, PostgreSQL, Redis, AWS, containers, observability and logistics integrations. Use the senior Java distributed-systems, ClickShip logistics and hands-on lead resume. Salary is unpublished. Confirm the India employing entity, work-right rules, fixed package, stock options, US overlap, on-call and travel. The application unexpectedly asks for an AI project and total AI or ML experience; answer factually and ask whether that field is intended for this role.
 
 ### Priority 1: Airwallex: Senior Software Engineer, Lending Platform
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://careers.airwallex.com/job/0887ecca-15c1-479b-b4be-b0cb705d168a/senior-software-engineer-lending-platform/)
 
 Full-time Singapore role requiring five office days. Strong fit for Great Eastern payments, Java 21, Spring Boot 3, secure APIs, Kafka, AWS or GCP, Docker, Kubernetes, DDD, event-driven systems, observability, design reviews and mentoring. Use the Java fintech-backend and secure API-platform resume. Salary is unpublished. Confirm Employment Pass support, base, bonus, equity, office expectations, lending-domain screening, global overlap and on-call.
 
 ### Priority 1: Codex Solutions: Software Lead (ATS-2026-1774293)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://www.mycareersfuture.gov.sg/job/engineering/software-lead-codex-solutions-60e7622179cdf21f1e89138d417f5fc7)
 
 Permanent Singapore role covering hands-on full-stack development, technical design, Java or TypeScript, REST APIs, microservices, DevSecOps, CI/CD, testing, Docker, Kubernetes and mentoring. Matching current employer indexes report SGD 8,000-12,000 monthly, or SGD 96,000-144,000 annually if guaranteed base for 12 months. Use the senior Java full-stack, secure modernization and hands-on lead resume. Confirm sponsorship, security-clearance eligibility, office cadence, actual stack, coding percentage and pay structure.
 
 ### Priority 2 stretch: Airwallex: Staff Software Engineer, Risk
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://careers.airwallex.com/job/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/staff-software-engineer-risk/)
 
 Full-time Singapore role with five office days, real-time risk systems, Java and Spring Boot, high-concurrency distributed systems, Kafka or Flink, Kubernetes, resilience, observability, incident leadership and staff-level technical direction. Use the Java payments and distributed-systems resume. Treat 10+ years, fraud decisioning, feature stores and production model serving as assessment areas. Salary is unpublished. Confirm Staff calibration, sponsorship, global hours and on-call.
 
 ### Priority 2 applied-AI stretch: Codex Solutions: Lead Software Engineering, AI Products
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da)
 
@@ -3016,7 +3016,7 @@ Permanent on-site Singapore role integrating LLM, RAG and agentic capabilities i
 
 ### Priority 1: Camunda: Senior Software Engineer, Backend - Distributed Systems
 
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://jobs.ashbyhq.com/camunda/af27a3de-d3ba-40dd-976f-9767bdc1e7e8)
 
@@ -3024,8 +3024,54 @@ Fully remote, global full-time role with a role-specific Singapore Annual Total 
 
 ### Priority 2: HCL Singapore: Technical Delivery Manager (Java Applications and Banking) (MCF-2026-1762684)
 
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://www.mycareersfuture.gov.sg/job/technical-delivery-manager-hcl-singapore-0053e6659d170dc387c37c2c7a52de63)
 
 Full-time Singapore banking role at SGD 10,000-13,000 monthly, or SGD 120,000-156,000 annually if guaranteed base for 12 months. Use the Java banking-platform, secure-integration and delivery-ownership resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, Oracle or other SQL platforms, security, observability and release governance. The formal five-year delivery-management and Mandarin requirements need early clarification. Confirm sponsorship, client, base versus total cash, office cadence, coding depth and on-call.
+
+
+## New Singapore and India opportunities checked 23Oct2026
+
+### Priority 1: Airwallex: Staff Software Engineer, Cards
+- Alert history: Pending delivery in ChatGPT.
+
+[Application](https://careers.airwallex.com/job/1711508a-927f-48c2-b3ef-0a79ccd0299d/staff-software-engineer-cards/)
+
+Singapore full-time role. Excellent Java payments, secure API and distributed-systems match. Use the senior Java payments and architecture resume; lead with Great Eastern, Java 21, Spring Boot 3, Kafka, security, cloud, Kubernetes and observability. Compensation and office cadence are unpublished.
+
+### Priority 1 if India-based: Zscaler: Sr. Staff Software Development Engineer
+
+[Application](https://job-boards.greenhouse.io/zscaler/jobs/5242467007)
+
+India-remote full-time role. Strong Java, Spring Security, distributed systems, Kubernetes, AWS or GCP, observability and mentoring fit. Singapore-based work is a hard blocker. Prepare gRPC, security operations, disaster recovery and Staff-level influence. Compensation is unpublished.
+
+### Priority 1 if India-based: Evolve Tech: Sr. Backend Developer (Java Spring Boot)
+
+[Application](https://jobs.ashbyhq.com/evolve-tech-llc/cb62f755-9881-4075-a792-99fa317502a1)
+
+Full-time remote role explicitly including India. Direct Java and Spring Boot fit with APIs, SQL, microservices and performance work. Confirm employer or contractor entity, pay, benefits, overlap and on-call.
+
+### Priority 2 income stretch: NTT Data Asia Pacific: Senior Principal Forward Deployed Engineer
+
+[Application](https://www.mycareersfuture.gov.sg/job/information-technology/senior-principal-forward-deployed-engineer-ntt-data-asia-pacific-d8ac34674c3c26ae2d13c2b03db06bda)
+
+Permanent Singapore customer-engineering role at SGD 16,000-20,000 monthly, or SGD 192,000-240,000 annually if guaranteed cash for 12 months. Use the secure integration, enterprise modernization and customer-facing technical leadership resume. The current archive reports 12 years minimum; establish whether this is a hard gate and how much production AI depth is required.
+
+### Priority 2 platform and AI stretch: Stacklok: Senior Forward Deployed Engineer - Kubernetes
+
+[Application](https://job-boards.greenhouse.io/stacklok/jobs/5170939007)
+
+Remote Singapore role requiring current Singapore residence and legal work authorization. Strong AKS, Kubernetes, Helm, Rancher, observability, secure integration and AI-assisted engineering transfer. Prepare Go controllers, CRDs, cluster internals and customer debugging. Compensation and sponsorship are unknown.
+
+### Priority 2 if India-based: CertifyOS: Staff Application Engineer
+
+[Application](https://jobs.ashbyhq.com/certifyos/9482275b-ac03-450d-90dc-be8440bf48f5)
+
+India-remote full-time application-platform role covering Java or a comparable typed language, API architecture, full-stack ownership and AI workflows. The official route is indexed as active, but a third-party copy says closed, so confirm status first. Compensation is unpublished.
+
+### Priority 3 applied-AI stretch: Genesys: Senior Principal Forward Deployed Engineer
+
+[Application](https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Singapore-Flexible/Senior-Principal-Forward-Deployed-Engineer_JR111608)
+
+Singapore Flexible full-time role posted about 20 October 2026. Use the secure Java integration and enterprise-modernization resume. Prepare AI/CX architecture, customer discovery and productionization, and establish whether integration engineering can substitute for deep production AI experience. Compensation is unpublished.
