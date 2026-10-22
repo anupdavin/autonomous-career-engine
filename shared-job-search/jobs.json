@@ -14603,10 +14603,10 @@
       ],
       "import_source": "MyCareersFuture and matching employer listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Alert actually delivered in ChatGPT and reconciled on 23Oct2026; no application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -14625,6 +14625,61 @@
         }
       },
       "deduplication_note": "No Avatar Modern Techno Services employer record, MyCareersFuture URL eaa992343daefdeec38e444126a3cdb4 or substantially identical Senior Java Lead description existed in the shared ledger."
+    },
+    {
+      "job_id": "bond-applications-lead-fa783fdd",
+      "employer": "Bond Financial Group Pte. Ltd.",
+      "title": "Applications Lead",
+      "requisition": "MyCareersFuture fa783fddc0d359245531059656fff132",
+      "url": "https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132",
+      "url_aliases": [],
+      "status_at_last_check": "Active MyCareersFuture direct-employer listing",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Shenton Way / Central region",
+      "arrangement": "Singapore-based role. The accessible listing did not state a hybrid arrangement or precise office cadence.",
+      "eligibility": "Singapore is the advertised location. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Matching current public indexes report SGD 8,000-10,000 monthly; the accessible MyCareersFuture output did not expose the salary fields.",
+      "compensation_geography": "Singapore monthly band from matching current role indexes. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 96,000-120,000 annually if the monthly band is guaranteed base paid for 12 months. This is a calculation, not employer-published annual pay. The full band is below Meena's SGD 144,000 annual target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and any existing Singapore work-right requirement.",
+      "posted": "A current index showed the role as eight days old on 23 October 2026. The exact MyCareersFuture posting and closing dates were not exposed.",
+      "terms": "Full-time. Bonus, benefits, probation, notice and leave are not stated.",
+      "hours_on_call": "The matching description requires participation in a 24x7 incident-response on-call rotation. Rota frequency, allowance and response expectations are not stated.",
+      "fit": "Hands-on player-manager role owning application architecture, engineering standards, full-stack delivery, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database schemas, containers, cloud-native deployment, AI coding-tool guardrails, sprint delivery, vendors and mentoring. Java and Spring Boot are explicitly accepted alongside other backend stacks.",
+      "preparation": "Prepare architecture tradeoffs, secure delivery governance, event-driven integration, database and cloud deployment decisions, incident leadership, team capacity and vendor management. React, Golang, ISO 27001, MAS TRM and any formal vendor or budget ownership are interview preparation areas where direct experience is not established.",
+      "questions": "Is SGD 8,000-10,000 the current guaranteed monthly base, and what bonus and benefits apply? Is Employment Pass sponsorship available? What office or hybrid cadence, on-call rota and allowance, team size, coding percentage, vendor scope, product domain and exact backend and frontend stack apply?",
+      "upside": "Career-growth candidate for broader architecture and player-manager ownership. The reported band is below Meena's target reference and may not justify a move unless scope, benefits or final compensation improve.",
+      "verification": "Active MyCareersFuture application route checked 23 October 2026. Responsibilities were corroborated against a matching employer role description. An older LinkedIn copy is closed, so only the current MyCareersFuture route should be used. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132"
+      ],
+      "import_source": "MyCareersFuture and matching employer description checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java secure-integration, platform architecture and hands-on technical leadership",
+          "tailoring": "Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, REST or GraphQL, OAuth2 or mTLS, Kubernetes, CI/CD security controls, observability and truthful architecture or mentoring examples. Describe coding-agent workflows and verification without implying production ML research.",
+          "fit_and_preparation": "Strong adjacent lead progression across secure integrations, distributed systems and cloud delivery. Prepare React or Golang, ISO 27001 or MAS TRM, capacity planning and formal vendor ownership where not already demonstrated. Screen compensation and coding depth early.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on Java technical leadership, event-driven cloud platforms, DevSecOps and AI-augmented engineering",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, Terraform, ArgoCD, secure SDLC, observability, mentoring and verifiable design ownership. Keep Spring AI, RAG, MCP and Claude API work accurately labelled as prototypes.",
+          "fit_and_preparation": "Strong scope match for hands-on technical leadership, modernization and delivery governance. Prepare React or Golang, ISO 27001, MAS TRM and formal vendor ownership where not directly evidenced. The full reported band is below the SGD 144,000 target reference, so screen compensation before a long process.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Bond Financial Group Applications Lead record, MyCareersFuture requisition fa783fddc0d359245531059656fff132 or substantially identical description existed in the shared ledger."
     }
   ]
 }
