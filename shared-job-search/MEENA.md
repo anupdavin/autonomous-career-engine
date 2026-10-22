@@ -2933,11 +2933,21 @@ Singapore-based hands-on Java technical-lead opening. Strong fit for Java 21, Sp
 ## New India-remote product and Singapore applied-AI roles checked 23Oct2026
 
 ### Atlassian | [Senior Backend Software Engineer](https://www.atlassian.com/company/careers/details/25569) | Priority 1
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 Remote within India or Bengaluru role with autonomous project ownership, architecture, mentoring, public cloud, Oracle or PostgreSQL and scalable microservices or distributed systems. Use the hands-on Java technical-lead, event-driven platform and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, CI/CD, observability and concrete leadership examples. India compensation, sponsorship, hours and on-call are unpublished, so no comparison to the SGD 144,000 target reference is possible yet.
 
 ### Johnson & Johnson | [Senior Full Stack Engineer](https://www.careers.jnj.com/en/jobs/r-103252/senior-full-stack-engineer/) | Priority 2 stretch
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 Singapore hybrid role building AI-powered applications and AI-native engineering workflows with TypeScript, React or Python, AWS, REST or GraphQL, LLM APIs, LangChain or LangGraph, CI/CD and human validation. Use the hands-on technical-lead, full-stack cloud and applied-AI resume. Lead with Angular 18, TypeScript, AWS, APIs, microservices, Spring AI, RAG, MCP and Claude API prototypes while clearly separating prototypes from production use. Production LLM integration and the Node.js, React or Python stack are preparation areas. Salary and sponsorship are unpublished; ask whether the guaranteed base can meet the SGD 144,000 target reference.
+
+
+## New active Singapore banking platform-lead role checked 23Oct2026
+
+### Priority 1: Citi: Applications Support Technical Lead Analyst (26999959)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296)
+
+Full-time on-site Singapore role leading support for online banking, critical payment flows and distributed transaction platforms. Use the hands-on technical-lead, event-driven cloud-platform and production-reliability resume. Lead with Kafka Streams, AWS EKS or ECS, Kubernetes, PostgreSQL or Oracle, Grafana or Prometheus or OpenTelemetry, DevSecOps, incident leadership and mentoring. Published pay is SGD 12,000-17,500 monthly, or SGD 144,000-210,000 annually if it is guaranteed base for 12 months. The low end equals the SGD 144,000 annual target reference, not a confirmed uplift. Confirm the pay structure, sponsorship, office cadence, 24/7 rota and allowances. Prepare banking support, Unix or shell or Python, GCP, TIBCO EMS and GoldenGate.
