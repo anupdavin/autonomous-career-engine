@@ -2860,28 +2860,28 @@ Full-time remote role explicitly open in India, owning architecture, development
 ## New active Singapore and India-remote Java roles checked 22Oct2026
 
 ### Priority 2: Temus: Software Developer (Java/AEM)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/temus/jobs/5419090008)
 
 Singapore role covering Java, Spring Boot, Angular or React, SQL, microservices, Redis, Kubernetes, infrastructure as code and AWS or Azure. Experienced candidates may be considered for Team Lead or Technical Architect level. Use the senior Java full-stack, Singapore modernization and cloud-native resume. Lead with Java/Spring, Angular, secure integrations, cloud, Kubernetes, CI/CD and full-lifecycle delivery. AEM is advantageous, not mandatory. Salary, employment type, office days and sponsorship are unpublished. Confirm seniority, pay, work arrangement, client-site expectations and how heavily AEM is screened.
 
 ### Priority 2: Undisclosed telecom partner via Jobgether: Java Tech Lead / Solution Architect (React, Telecom)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.lever.co/jobgether/64c90dc4-5207-4d7e-bda1-4808f0d499c3)
 
 India-remote contract with an approximately 50/50 architecture-leadership and hands-on coding split. Use the senior Java integration, secure-API and hands-on architecture resume. Lead with Java/Spring Boot, Apache Camel and integration patterns, OAuth2/mTLS, cloud-native delivery and verified AI-assisted engineering. React, telecom BSS/OSS and formal lead tenure are preparation areas. Rate, currency, duration, guaranteed hours, UK overlap and all contract terms are unpublished. Identify the end client and contracting entity before sharing sensitive documents.
 
 ### Priority 2: SavvyMoney: Senior Software Development Engineer, Backend (India)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e)
 
 Full-time remote role within India for a direct fintech product company, building Java and AWS backend services, distributed systems, microservices, secure APIs and bank integrations. Use the senior Java backend, fintech-integration and AWS distributed-systems resume. Lead with Great Eastern payments, Java/Spring Boot, Kafka, SQL, cloud, Kubernetes and production reliability. Salary and India benefits are unpublished. Confirm India residence and entity rules, US overlap, on-call, package and current product ownership.
 
 ### Priority 2: Undisclosed ERP partner via Jobgether: Java Tech Lead
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b)
 
