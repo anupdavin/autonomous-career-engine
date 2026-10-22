@@ -2973,8 +2973,45 @@ Permanent full-time Singapore role covering distributed microservices, security,
 ## New active Singapore applications-lead role checked 23Oct2026
 
 ### Priority 2: Bond Financial Group: Applications Lead
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132)
 
 Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the hands-on Java technical-lead, event-driven cloud-platform, DevSecOps and AI-augmented engineering resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, Terraform, ArgoCD, observability, secure delivery, mentoring and truthful design outcomes. Keep Spring AI, RAG, MCP and Claude API work accurately labelled as prototypes. Prepare React or Golang, ISO 27001, MAS TRM and formal vendor ownership where not directly evidenced. Matching current indexes report SGD 8,000-10,000 monthly, or SGD 96,000-120,000 annually if guaranteed base for 12 months, below the SGD 144,000 target reference. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
+
+## New India-remote and Singapore lead roles checked 23Oct2026
+
+### Priority 1: FourKites: Technical Lead (8236193)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://job-boards.greenhouse.io/fourkites/jobs/8236193)
+
+Chennai or remote within India. Strong match for hands-on technical leadership, Java 21, Spring Boot 3, Kafka Streams, PostgreSQL, Redis, AWS EKS or ECS, Kubernetes, DevSecOps, observability and mentoring. The role retains 40-60 percent coding and owns architecture and delivery without direct people management. Use the technical-lead, event-platform and cloud-modernization resume. Salary is unpublished. Confirm India work-right rules, fixed package, stock options, US overlap and on-call. Answer the application's unexpected AI-project question using only verified prototype experience.
+
+### Priority 1: Codex Solutions: Software Lead (ATS-2026-1774293)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/engineering/software-lead-codex-solutions-60e7622179cdf21f1e89138d417f5fc7)
+
+Permanent Singapore role and an excellent transfer from LTA government systems, Java 21, Spring Boot 3, Angular 18, Kafka Streams, AWS, Kubernetes, Terraform, secure delivery and mentoring. Matching current employer indexes report SGD 8,000-12,000 monthly, or SGD 96,000-144,000 annually if guaranteed base for 12 months. Only the top equals the SGD 144,000 target reference. Confirm sponsorship, security clearance, office cadence, actual architecture authority and pay structure.
+
+### Priority 1: Airwallex: Senior Software Engineer, Lending Platform
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://careers.airwallex.com/job/0887ecca-15c1-479b-b4be-b0cb705d168a/senior-software-engineer-lending-platform/)
+
+Full-time Singapore role requiring five office days. Strong technical-lead transfer through Java 21, Spring Boot 3, Kafka Streams, AWS, Kubernetes, PostgreSQL, secure APIs, observability, design reviews and mentoring. Use the event-driven fintech-platform and cloud-modernization resume. Lending is an adjacent domain, not an assumed capability. Salary is unpublished, so compare it with the SGD 144,000 target only after the employer provides base, bonus and equity.
+
+### Priority 2 stretch: Airwallex: Staff Software Engineer, Risk
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://careers.airwallex.com/job/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/staff-software-engineer-risk/)
+
+Singapore Staff role covering Java and Spring Boot, high-concurrency event systems, Kafka or Flink, Kubernetes, resilience, observability, incident leadership and cross-team technical direction. Use the hands-on technical-lead and high-reliability platform resume. Treat the 10+ years preference, fraud decisioning, feature stores and production model serving as interview preparation. Compensation is unpublished and five office days are required.
+
+### Priority 2 applied-AI stretch: Codex Solutions: Lead Software Engineering, AI Products
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da)
+
+Permanent on-site Singapore role integrating LLM, RAG and agentic capabilities into full-stack applications using React or Angular, Python or Node, cloud and CI/CD. Use the full-stack cloud and applied-AI resume. Lead with Angular 18, TypeScript, AWS, secure delivery, Spring AI, RAG, MCP and Claude API prototypes, explicitly labelled as prototypes. Matching current listing reports SGD 8,000-12,000 monthly, reaching the SGD 144,000 annual target only at the top if guaranteed base.
