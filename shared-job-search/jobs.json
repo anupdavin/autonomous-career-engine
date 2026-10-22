@@ -14372,10 +14372,10 @@
       ],
       "import_source": "Official Atlassian careers page and iCIMS application route checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14430,10 +14430,10 @@
       ],
       "import_source": "Official Johnson & Johnson careers page and Workday application route checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert for Meena. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14452,6 +14452,64 @@
         }
       },
       "deduplication_note": "No Johnson & Johnson requisition R-103252 or substantially identical Singapore AI-first full-stack role existed in the shared ledger."
+    },
+    {
+      "job_id": "citi-app-support-tech-lead-26999959",
+      "employer": "Citi",
+      "title": "Applications Support Technical Lead Analyst",
+      "requisition": "Citi 26999959",
+      "url": "https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296",
+      "canonical_url": "https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296",
+      "url_aliases": [
+        "https://www.mycareersfuture.gov.sg/job/information-technology/26999959-applications-support-technical-lead-analyst-citibank-na-16c8e46fd59c09f28547d1af1233d1cb"
+      ],
+      "status_at_last_check": "Active official Citi careers page with Apply control and matching active MyCareersFuture listing",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Changi Business Park",
+      "arrangement": "On-site/resident in Singapore according to Citi; the MyCareersFuture listing gives 3 Changi Business Park Crescent",
+      "eligibility": "Singapore is the advertised work location. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Full-time",
+      "published_compensation": "SGD 12,000-17,500 monthly on the MyCareersFuture listing",
+      "compensation_geography": "Singapore monthly salary band. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 144,000-210,000 annually if the published monthly band is guaranteed base paid for 12 months. This is a calculation, not employer-published annual pay. The low end equals Meena's SGD 144,000 annual target reference; it does not establish an uplift over either person's current package.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and whether existing Singapore work rights are required.",
+      "posted": "19 October 2026; closes 9 November 2026 on MyCareersFuture",
+      "terms": "Full-time. Bonus, benefits, probation, notice, leave and pay structure are not stated.",
+      "hours_on_call": "The role supports mission-critical services with 24/7 availability. Exact rota, night or weekend coverage, call frequency, allowance, compensatory leave and regional overlap are not stated.",
+      "fit": "Technical authority and L2 production-support leadership for online banking, critical payment flows and distributed transaction platforms. The scope includes incident leadership, root-cause analysis, observability, Kafka, Oracle or MongoDB, TIBCO EMS, Kubernetes or OpenShift or ECS, service-level indicators, mentoring and AI-assisted operations automation.",
+      "preparation": "This is operations and platform leadership rather than a coding-first Java role. Prepare major-incident, root-cause, reliability, observability, Kafka-lag, database-diagnosis and mentoring examples. Unix or Linux, shell or Python, GCP, OpenShift, TIBCO EMS and GoldenGate are preparation points where not directly evidenced.",
+      "questions": "Is the published band guaranteed base or total fixed cash, and what bonus and benefits apply? Is Employment Pass sponsorship available? What office cadence applies? What is the 24/7 rota, night and weekend frequency, on-call allowance and compensatory leave? What percentage is hands-on troubleshooting, coding or automation versus coordination? What team size and Citi grade apply?",
+      "upside": "Income-growth candidate based on the published Singapore band, plus career-growth potential in banking platform reliability; the operational support focus is a material tradeoff",
+      "verification": "Official Citi careers page and matching MyCareersFuture listing checked 23 October 2026. The Citi page displayed requisition 26999959, Singapore, On-Site/Resident, posting date 19 October 2026 and an active Apply control. MyCareersFuture displayed full-time employment, SGD 12,000-17,500 monthly and a 9 November 2026 closing date. No application or employer contact was made.",
+      "source_urls": [
+        "https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296",
+        "https://www.mycareersfuture.gov.sg/job/information-technology/26999959-applications-support-technical-lead-analyst-citibank-na-16c8e46fd59c09f28547d1af1233d1cb"
+      ],
+      "import_source": "Official Citi careers page and MyCareersFuture listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Payments platform reliability, secure integrations, Java systems, Kafka, Kubernetes and production incident ownership",
+          "tailoring": "Lead with Great Eastern payments, Java and Spring platform knowledge, Kafka, Oracle or PostgreSQL, secure APIs, Kubernetes, observability, production diagnosis, root-cause analysis and mentoring. Include TIBCO integration experience truthfully and distinguish coding delivery from support leadership.",
+          "fit_and_preparation": "Strong payments, distributed-platform and reliability transfer with income potential. The main tradeoff is a shift from feature engineering toward L2 support leadership. Prepare Unix or shell or Python, GCP or OpenShift, GoldenGate and formal on-call scenarios.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical leadership, event-driven cloud platforms, observability, DevSecOps and production reliability",
+          "tailoring": "Lead with Java 21, Kafka Streams, AWS EKS or ECS, Kubernetes, PostgreSQL or Oracle, Grafana or Prometheus or OpenTelemetry, incident leadership, DevSecOps, mentoring and regulated public-sector delivery. Keep AI operations examples limited to verified prototypes or automation work.",
+          "fit_and_preparation": "Strong lead, platform and observability fit. The low end of the published band equals the SGD 144,000 annual target reference if it is 12-month guaranteed base. Prepare banking-support scope, TIBCO EMS, GoldenGate, Python or shell and GCP without overstating direct use.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Citi requisition 26999959, MyCareersFuture role 1851448 or substantially identical Applications Support Technical Lead Analyst record existed in the shared ledger."
     }
   ]
 }
