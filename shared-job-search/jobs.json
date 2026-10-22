@@ -14488,10 +14488,10 @@
       ],
       "import_source": "Official Citi careers page and MyCareersFuture listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14545,10 +14545,10 @@
       ],
       "import_source": "Direct-employer MyCareersFuture listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14567,6 +14567,64 @@
         }
       },
       "deduplication_note": "No Bank Julius Baer requisition MCF-2026-1803101 or substantially identical Tech Lead Application Responsible record existed in the shared ledger."
+    },
+    {
+      "job_id": "avatar-senior-java-lead-eaa992343",
+      "employer": "Avatar Modern Techno Services Pte. Ltd.",
+      "title": "Senior Java Lead",
+      "requisition": "MyCareersFuture eaa992343daefdeec38e444126a3cdb4",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4",
+      "url_aliases": [
+        "https://sg.indeed.com/viewjob?jk=d1264eb2c9559944"
+      ],
+      "status_at_last_check": "Active MyCareersFuture direct-employer listing and matching active employer listing on Indeed",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, Outram",
+      "arrangement": "Singapore on-site according to matching public indexes; exact office or client-site cadence is not stated on the accessible MyCareersFuture page.",
+      "eligibility": "Singapore is the advertised location. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Permanent, full-time according to the matching employer listing on Indeed",
+      "published_compensation": "SGD 10,500-11,000 monthly",
+      "compensation_geography": "Singapore monthly salary band. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 126,000-132,000 annually if the monthly band is guaranteed base paid for 12 months. This is a calculation, not employer-published annual pay. The full band is below Meena's SGD 144,000 annual target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and whether the client requires existing Singapore work rights.",
+      "posted": "A matching employer index showed the role as eight days old on 23 October 2026, implying about 15 October 2026. The exact MyCareersFuture posting and closing dates were not exposed in the accessible page.",
+      "terms": "Permanent, full-time according to the matching employer listing. Bonus, benefits, probation, notice and leave are not stated.",
+      "hours_on_call": "Working hours, client timezone, production support and on-call are not stated.",
+      "fit": "Hands-on Java architecture and lead scope across large distributed microservice systems, application and infrastructure security, performance, scalability, reliability, REST and SOAP integrations, Kafka messaging, Kubernetes, Spring Boot and Spring Cloud, OpenAPI, OAuth and PCI-oriented security.",
+      "preparation": "Prepare architecture tradeoffs, resilient microservices, OAuth and API security, Kafka integration, Kubernetes deployment, JVM or database performance and technical standards. Spring Cloud, PCI and any client-specific platform are preparation areas where not directly evidenced.",
+      "questions": "Who is the end client and what product or program is involved? Is the monthly range guaranteed base and what bonus and benefits apply? Is Employment Pass sponsorship available? What office or client-site cadence, team size, coding percentage, architecture authority, working hours and on-call apply?",
+      "upside": "Career-growth candidate for hands-on architecture and lead scope. The published band may be worthwhile for Anup but is below Meena's target reference.",
+      "verification": "MyCareersFuture listing and matching employer listing checked 23 October 2026. The pages showed an active Senior Java Lead vacancy in Singapore and matching role details. The application route was available through MyCareersFuture. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4",
+        "https://sg.indeed.com/viewjob?jk=d1264eb2c9559944"
+      ],
+      "import_source": "MyCareersFuture and matching employer listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, secure integration, distributed microservices and hands-on architecture",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka, Apache Camel, REST and SOAP integration, OAuth2 or mTLS, Kubernetes, observability, performance diagnosis and verifiable design or mentoring examples. Connect Great Eastern payments to security and reliability without inventing PCI ownership.",
+          "fit_and_preparation": "Strong technical match and credible lead progression. Establish the end client, true architecture authority and compensation structure. Prepare Spring Cloud and PCI discussions where direct depth is unconfirmed.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on Java technical leadership, event-driven cloud platforms, security and modernization",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, DevSecOps, observability, technical design and mentoring. Keep AI integration work labelled as prototypes and do not imply unverified PCI ownership.",
+          "fit_and_preparation": "Strong Java lead and architecture fit, but the full published range is below the SGD 144,000 annual target reference. Screen compensation and authority early.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Avatar Modern Techno Services employer record, MyCareersFuture URL eaa992343daefdeec38e444126a3cdb4 or substantially identical Senior Java Lead description existed in the shared ledger."
     }
   ]
 }
