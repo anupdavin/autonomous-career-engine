@@ -2933,6 +2933,16 @@ Singapore-based official opening, with office or client-site cadence unstated. S
 ## New remote India product-engineering role checked 23Oct2026
 
 ### Atlassian | [Senior Backend Software Engineer](https://www.atlassian.com/company/careers/details/25569) | Priority 1
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 Remote within India or Bengaluru role for a direct product company. The scope covers autonomous ownership of large backend projects, architecture, code review, mentoring, public cloud, Oracle or PostgreSQL and highly scalable microservices or distributed systems; Java is explicitly accepted. Use the senior Java backend, distributed-systems and cloud-modernization resume. Lead with Java and Spring Boot, Kafka, SQL, AWS or Azure, Kubernetes, secure APIs, production reliability and concrete architecture decisions. India compensation, sponsorship, global overlap and on-call are unpublished. Confirm the employing location, work-right rules, package and team before comparing it with an SGD-paid role.
+
+
+## New active Singapore banking platform-lead role checked 23Oct2026
+
+### Priority 2: Citi: Applications Support Technical Lead Analyst (26999959)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296)
+
+Full-time on-site Singapore role leading support for online banking, critical payment flows and distributed transaction platforms. Use the payments platform reliability, secure integration and senior Java systems resume. Lead with Great Eastern payments, Kafka, Oracle or PostgreSQL, Kubernetes, observability, incident diagnosis, root-cause analysis and mentoring. Published pay is SGD 12,000-17,500 monthly, or SGD 144,000-210,000 annually if it is guaranteed base for 12 months. Confirm the pay structure, sponsorship, office cadence, 24/7 rota and allowances. This is operations and platform leadership rather than a coding-first role; prepare Unix or shell or Python, GCP or OpenShift, TIBCO EMS and GoldenGate.
