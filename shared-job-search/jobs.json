@@ -14658,10 +14658,10 @@
       ],
       "import_source": "MyCareersFuture and matching employer description checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Alert actually delivered in ChatGPT and reconciled on 23Oct2026; no application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -14680,6 +14680,290 @@
         }
       },
       "deduplication_note": "No Bond Financial Group Applications Lead record, MyCareersFuture requisition fa783fddc0d359245531059656fff132 or substantially identical description existed in the shared ledger."
+    },
+    {
+      "job_id": "fourkites-technical-lead-8236193",
+      "employer": "FourKites",
+      "title": "Technical Lead",
+      "requisition": "Greenhouse 8236193",
+      "url": "https://job-boards.greenhouse.io/fourkites/jobs/8236193",
+      "canonical_url": "https://job-boards.greenhouse.io/fourkites/jobs/8236193",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Greenhouse application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Chennai or remote within India",
+      "arrangement": "Remote India is explicitly offered. Chennai is also listed, but no relocation or onsite willingness is assumed.",
+      "eligibility": "India location required. The application accepts Chennai, another Indian city, or outside India as current location, but the employing location and India work-right or sponsorship rules are not stated.",
+      "engagement_type": "Employment type not explicitly stated on the accessible page.",
+      "published_compensation": "Not published. The application asks for expected compensation in lakhs per annum.",
+      "compensation_geography": "India compensation package unknown.",
+      "sgd_comparison": "No SGD comparison is possible because compensation is unpublished.",
+      "authorization_sponsorship": "Unknown. Confirm the India employing entity, residence and work-right rules, and sponsorship.",
+      "posted": "Marked New on the official Greenhouse page when checked 23 October 2026; exact posting date unavailable.",
+      "terms": "Benefits list includes medical cover from day one, 36 PTO days, five recharge days, two volunteer days, home-office and technology reimbursement, stock options and other benefits. Guaranteed cash and equity quantities are unstated.",
+      "hours_on_call": "Distributed US-India team and customer collaboration are stated. Production health and on-call quality are owned by the role, but overlap hours, rotation and allowances are not stated.",
+      "fit": "Hands-on technical lead owning delivery and architecture while coding 40-60 percent of the week. Java or Go, Spring Boot, distributed and event-driven systems, Kafka, PostgreSQL, Redis, AWS, containers, CI/CD, observability, logistics integrations, technical standards and mentoring align strongly.",
+      "preparation": "Prepare examples for idempotency, ordering, replay, failure handling, high-volume data reconciliation, SLOs, on-call quality, architecture tradeoffs and delivery risk. Ocean logistics, EDI, DCSA, OMS, WMS and TMS are preparation areas unless directly evidenced.",
+      "questions": "Confirm India residence and sponsorship rules, full-time status, fixed compensation, bonus and stock options, US overlap, on-call rota, remote travel, team domain and why the application asks for an AI project and total AI or ML experience for this non-AI lead role.",
+      "upside": "Career-growth candidate with genuine hands-on technical leadership and logistics-platform relevance.",
+      "verification": "Official Greenhouse page and live application checked 23 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/fourkites/jobs/8236193"
+      ],
+      "import_source": "Official FourKites Greenhouse page checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java distributed systems, logistics integrations and hands-on technical leadership",
+          "tailoring": "Lead with ClickShip logistics, Java 21, Spring Boot 3, Kafka, Apache Camel, PostgreSQL, AWS, Kubernetes, observability, secure integrations and truthful architecture or mentoring outcomes. Describe AI coding-tool use as an engineering workflow, not production ML.",
+          "fit_and_preparation": "Excellent domain and stack match. Establish formal lead evidence and prepare supply-chain event modelling, EDI and production on-call examples without inventing experience.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical leadership, event-driven cloud platforms and delivery ownership",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, PostgreSQL, Kubernetes, DevSecOps, observability, mentoring and sprint delivery. Keep AI prototypes accurately labelled.",
+          "fit_and_preparation": "Strong technical-lead match. Prepare supply-chain domain, EDI or ERP integration and US-India collaboration examples where not directly evidenced.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Existing FourKites Senior AI Engineer is a different role and requisition. No Greenhouse 8236193 Technical Lead or substantially identical description existed."
+    },
+    {
+      "job_id": "airwallex-senior-lending-platform-0887ecca",
+      "employer": "Airwallex",
+      "title": "Senior Software Engineer, Lending Platform",
+      "requisition": "Airwallex 0887ecca-15c1-479b-b4be-b0cb705d168a",
+      "url": "https://careers.airwallex.com/job/0887ecca-15c1-479b-b4be-b0cb705d168a/senior-software-engineer-lending-platform/",
+      "canonical_url": "https://careers.airwallex.com/job/0887ecca-15c1-479b-b4be-b0cb705d168a/senior-software-engineer-lending-platform/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/0887ecca-15c1-479b-b4be-b0cb705d168a/"
+      ],
+      "status_at_last_check": "Active official Airwallex application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "On-site in the Singapore office five days per week.",
+      "eligibility": "Singapore is the advertised location. The application accepts candidates needing Singapore work-visa sponsorship, but sponsorship is not promised.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "Singapore package unknown.",
+      "sgd_comparison": "No comparison to current SGD packages or Meena's target is possible.",
+      "authorization_sponsorship": "Application asks whether Singapore work-visa sponsorship is needed. Confirm eligibility and policy with recruiting.",
+      "posted": "A public index dates the listing to 22 June 2026; the official application remained active on 23 October 2026.",
+      "terms": "Base, bonus, equity and benefits are not stated on the role page.",
+      "hours_on_call": "APAC and EMEA collaboration is stated. On-call and incident expectations are not specified.",
+      "fit": "Architecture and delivery of large-scale secure lending systems, embedded-credit APIs, design reviews, technical leadership, Java or Kotlin with Spring Boot, DDD, event-driven systems, AWS or GCP, Docker, Kubernetes and observability.",
+      "preparation": "Prepare lending and credit-domain concepts, API platform design, high-throughput distributed systems, DDD, security and technical-lead examples. Do not infer lending expertise from payments alone.",
+      "questions": "Confirm compensation, Employment Pass sponsorship, five-day office expectations, lending-domain screening, team level, equity or bonus, global overlap and on-call.",
+      "upside": "Career-growth and possible income-growth candidate, with compensation still to establish.",
+      "verification": "Official Airwallex application checked 23 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://careers.airwallex.com/job/0887ecca-15c1-479b-b4be-b0cb705d168a/senior-software-engineer-lending-platform/",
+        "https://jobs.ashbyhq.com/airwallex/0887ecca-15c1-479b-b4be-b0cb705d168a/"
+      ],
+      "import_source": "Official Airwallex careers page checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java fintech backend, secure API platforms and distributed systems",
+          "tailoring": "Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, REST or GraphQL, OAuth2 or mTLS, PostgreSQL or Oracle, AWS or Azure, Kubernetes and production reliability. Frame lending as an adjacent domain to learn.",
+          "fit_and_preparation": "Very strong Java fintech and API-platform match. Establish technical-lead scope and prepare embedded-credit and DDD discussions.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical leadership, event-driven fintech platforms and cloud modernization",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, PostgreSQL, DevSecOps, observability, design reviews and mentoring. Present lending as adjacent to fintech, not established expertise.",
+          "fit_and_preparation": "Strong technical-lead and platform match. Compensation must be established against the SGD 144,000 target reference.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Other Airwallex lending roles exist, but this specific Lending Platform requisition and description were not in the ledger."
+    },
+    {
+      "job_id": "airwallex-staff-risk-9ff4c0f1",
+      "employer": "Airwallex",
+      "title": "Staff Software Engineer, Risk",
+      "requisition": "Airwallex 9ff4c0f1-d279-40c4-8dfd-beba4ba69815",
+      "url": "https://careers.airwallex.com/job/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/staff-software-engineer-risk/",
+      "canonical_url": "https://careers.airwallex.com/job/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/staff-software-engineer-risk/",
+      "url_aliases": [
+        "https://jobs.ashbyhq.com/airwallex/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/"
+      ],
+      "status_at_last_check": "Active official Airwallex application",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "On-site in the Singapore office five days per week.",
+      "eligibility": "Singapore is the advertised location. The application includes a work-visa sponsorship question; sponsorship is not guaranteed.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published.",
+      "compensation_geography": "Singapore package unknown.",
+      "sgd_comparison": "No comparison to current SGD packages or Meena's target is possible.",
+      "authorization_sponsorship": "Application asks whether Singapore work-visa sponsorship is needed. Confirm policy with recruiting.",
+      "posted": "A current index reports 17 October 2026. Official page active 23 October 2026.",
+      "terms": "Base, bonus, equity and benefits are not stated on the role page.",
+      "hours_on_call": "Five office days, global APAC and EMEA collaboration, and on-call readiness are stated. Rotation, after-hours load and allowance are not stated.",
+      "fit": "Staff-level ownership of real-time risk detection and fraud systems using Java, Spring Boot, distributed event-driven services, streaming, feature stores, model-serving layers, Kafka or Flink, Kubernetes, resilience engineering, observability and incident leadership.",
+      "preparation": "Prepare high-concurrency Java, partitioning and sharding, consistency, caching, backpressure, capacity planning, SLIs and SLOs, fraud decisioning and staff-level cross-team influence. Production ML, feature-store or model-serving depth is not assumed.",
+      "questions": "Confirm compensation, Employment Pass sponsorship, five-day office expectations, Staff calibration, on-call rotation and allowance, risk or fraud screening, and how much production ML integration is mandatory.",
+      "upside": "Ambitious Staff career-growth candidate with strong fintech and distributed-systems scope; compensation to establish.",
+      "verification": "Official Airwallex application checked 23 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://careers.airwallex.com/job/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/staff-software-engineer-risk/",
+        "https://jobs.ashbyhq.com/airwallex/9ff4c0f1-d279-40c4-8dfd-beba4ba69815/"
+      ],
+      "import_source": "Official Airwallex careers page checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java payments, high-concurrency distributed systems and credible Staff-level technical ownership",
+          "tailoring": "Lead with Great Eastern payments, Java 21, Kafka, secure integrations, Kubernetes, observability, incident diagnosis and architecture decisions. Treat fraud, feature stores, Flink and production model serving as preparation.",
+          "fit_and_preparation": "Credible ambitious application despite the 10+ years preference. Staff-level influence and risk-platform depth need strong evidence.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical leadership, high-reliability event platforms and DevSecOps",
+          "tailoring": "Lead with Java 21, Kafka Streams, Redis, PostgreSQL, AWS EKS or ECS, Kubernetes, observability, incident leadership and mentoring. Keep AI and model-related work accurately scoped.",
+          "fit_and_preparation": "Credible Staff stretch. Prepare cross-team influence, concurrency, resilience and risk-platform design; do not imply production ML expertise.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Singapore Airwallex Staff Software Engineer, Risk requisition 9ff4c0f1 existed; other Airwallex roles are distinct."
+    },
+    {
+      "job_id": "codex-solutions-software-lead-60e76221",
+      "employer": "Codex Solutions Pte. Ltd.",
+      "title": "Software Lead",
+      "requisition": "ATS-2026-1774293 / MyCareersFuture 60e7622179cdf21f1e89138d417f5fc7",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/software-lead-codex-solutions-60e7622179cdf21f1e89138d417f5fc7",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/engineering/software-lead-codex-solutions-60e7622179cdf21f1e89138d417f5fc7",
+      "url_aliases": [],
+      "status_at_last_check": "Active MyCareersFuture direct-employer listing",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, 1 Fusionopolis View",
+      "arrangement": "Singapore role. Current employer indexes place it in Clementi or One-North; hybrid or office cadence is not stated.",
+      "eligibility": "Singapore is advertised. The role may involve classified or sensitive projects and a security-clearance process. Citizenship, clearance and Employment Pass requirements are not stated.",
+      "engagement_type": "Permanent, full-time; Manager level on MyCareersFuture.",
+      "published_compensation": "SGD 8,000-12,000 monthly according to matching current employer job indexes.",
+      "compensation_geography": "Singapore monthly band. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 96,000-144,000 annually if guaranteed base paid for 12 months. This is a calculation. Only the top equals Meena's SGD 144,000 target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and security-clearance eligibility.",
+      "posted": "MyCareersFuture showed eight days old on 23 October 2026, implying about 15 October 2026.",
+      "terms": "Permanent, full-time. Bonus, benefits, probation and notice are not stated.",
+      "hours_on_call": "Working hours and on-call are not stated.",
+      "fit": "Hands-on full-stack and technical-lead work across scalable systems, Java or TypeScript, REST APIs, microservices, secure coding, DevSecOps, CI/CD, automated testing, Docker, Kubernetes, databases, cloud and public-sector delivery.",
+      "preparation": "Prepare public-sector security, Singpass or Corppass, classified-project clearance, IaC, technical benchmarking and people or workstream leadership. Do not claim government authentication experience unless verified.",
+      "questions": "Confirm current salary band, guaranteed base, bonus, sponsorship, security-clearance eligibility, office cadence, client or product, Java versus TypeScript stack, coding percentage, team size and on-call.",
+      "upside": "Career-growth candidate for public-sector architecture and lead ownership. Compensation reaches Meena's target only at the top if fully guaranteed base.",
+      "verification": "Active MyCareersFuture listing and matching current employer job indexes checked 23 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/engineering/software-lead-codex-solutions-60e7622179cdf21f1e89138d417f5fc7"
+      ],
+      "import_source": "MyCareersFuture and matching current employer indexes checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java full-stack, secure public-sector modernization and hands-on technical leadership",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Angular, Kafka, Apache Camel, secure APIs, AWS or Azure, Kubernetes, CI/CD, observability and truthful design or mentoring examples. Prepare security-clearance and government-authentication questions.",
+          "fit_and_preparation": "Strong hands-on lead and full-stack fit. Establish whether the role gives real architecture authority and whether clearance is viable.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, government systems, Java full-stack and DevSecOps",
+          "tailoring": "Lead with LTA government vehicle systems, Java 21, Spring Boot 3, Angular 18, Kafka Streams, AWS, Kubernetes, Terraform, secure delivery, observability and mentoring. Do not imply Singpass or classified-project experience.",
+          "fit_and_preparation": "Excellent government-modernization and lead match. Screen compensation because only the top of the band reaches the target reference.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Codex Solutions Software Lead requisition ATS-2026-1774293 or substantially identical description existed."
+    },
+    {
+      "job_id": "codex-solutions-lead-ai-products-dba3c573",
+      "employer": "Codex Solutions Pte. Ltd.",
+      "title": "Lead Software Engineering, AI Products",
+      "requisition": "ATS-2026-1695676 / MyCareersFuture dba3c573f0c9eb2c122b305a042d83da",
+      "url": "https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da",
+      "url_aliases": [
+        "https://sg.linkedin.com/jobs/view/lead-software-engineering-ai-products-at-codex-solutions-4470120952"
+      ],
+      "status_at_last_check": "Active MyCareersFuture direct-employer listing and active matching employer listing",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, 1 Fusionopolis View / Clementi",
+      "arrangement": "On-site according to matching current role indexes.",
+      "eligibility": "Singapore is advertised. Security-clearance, citizenship and Employment Pass requirements are not stated.",
+      "engagement_type": "Permanent, full-time; Manager level on MyCareersFuture.",
+      "published_compensation": "SGD 8,000-12,000 monthly according to a matching current employer listing.",
+      "compensation_geography": "Singapore monthly band. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 96,000-144,000 annually if guaranteed base paid for 12 months. This is a calculation. Only the top equals Meena's SGD 144,000 target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and security-clearance eligibility.",
+      "posted": "MyCareersFuture showed eight days old on 23 October 2026. A matching refreshed employer listing was active in October 2026.",
+      "terms": "Permanent, full-time. Bonus, benefits, probation and notice are not stated.",
+      "hours_on_call": "Working hours and on-call are not stated.",
+      "fit": "Full-stack lead role using React or Angular, Python or Node, AWS or Azure or GCP, CI/CD, secure coding and AI-assisted engineering. It integrates LLM, RAG and agentic AI capabilities through APIs and application architecture, with prototypes and demos for users.",
+      "preparation": "Prepare production AI application architecture, evaluation, guardrails, monitoring, multi-site delivery and Python or Node. Candidate prototypes must remain accurately labelled; do not imply model training or production ML research.",
+      "questions": "Confirm current pay, guaranteed base, sponsorship, security clearance, office cadence, required production AI depth, whether Java backends are accepted, dominant stack, team size and on-call.",
+      "upside": "Applied-AI career-growth stretch. Compensation reaches Meena's target only at the top if guaranteed base.",
+      "verification": "Active MyCareersFuture route and matching current employer listing checked 23 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da",
+        "https://sg.linkedin.com/jobs/view/lead-software-engineering-ai-products-at-codex-solutions-4470120952"
+      ],
+      "import_source": "MyCareersFuture and matching current employer listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Java full-stack, cloud application integration and AI-assisted engineering",
+          "tailoring": "Lead with Angular, TypeScript, REST or GraphQL, cloud/Kubernetes, secure integration and coding-agent workflows. Frame LLM or agent integration as application engineering and preparation, not production ML research.",
+          "fit_and_preparation": "Credible applied-AI stretch. Python or Node and production AI evaluation depth need clarification.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, full-stack cloud delivery and applied AI integration",
+          "tailoring": "Lead with Angular 18, TypeScript, Java 21, Spring Boot 3, AWS, Kubernetes, CI/CD, Spring AI, RAG, MCP and Claude API prototypes, clearly labelled as prototypes. Emphasize mentoring and secure delivery.",
+          "fit_and_preparation": "Strongest candidate of the two for this applied-AI application role, but production AI requirements and compensation must be screened.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Codex Solutions Lead Software Engineering, AI Products requisition ATS-2026-1695676 existed. Older same-title copies are aliases; the current MCF route is canonical."
     }
   ]
 }
