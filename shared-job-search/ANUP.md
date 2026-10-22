@@ -2920,3 +2920,9 @@ Remote-first role limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and N
 [Application](https://job-boards.greenhouse.io/alphasense/jobs/8881638002)
 
 Remote India or Europe role scaling search across billions of documents, zero-downtime modernization, performance profiling, data pipelines and observable distributed systems. Use the senior Java distributed-systems, JVM-performance and platform-modernization resume. Lead with Kafka, database and API performance, Kubernetes, observability and production diagnosis. Search internals, sharding and replication, Elasticsearch or Solr, CRDs and hybrid vector search are preparation areas unless already demonstrated. Salary, sponsorship, hours and on-call are unpublished.
+
+## New active Singapore Java technical-lead role checked 22Oct2026
+
+### HCLTech | [Technical Lead (Senior Java Developer)](https://careers.hcltech.com/job/Technical-Lead/155941-en_US/) | Priority 1
+
+Singapore-based official opening, with office or client-site cadence unstated. Strong Java, Spring Boot, Spring Security, JPA or Hibernate, microservices, REST, Kafka or messaging, API gateway, CI/CD, performance, production troubleshooting and mentoring fit. Use the senior Java backend, secure-integration and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka, OAuth2 or mTLS, SQL, Kubernetes, observability and concrete design-review or mentoring examples. Prepare SOAP, API gateway and client-delivery discussions. Salary, employment type, sponsorship, working hours and on-call are not published. Confirm the client or product, grade, permanent versus contract terms, Singapore compensation, Employment Pass support and office cadence.
