@@ -2959,8 +2959,17 @@ Permanent Singapore Java technical-lead role covering Java, EJB, Spring Boot, My
 ## New active Singapore Java architecture role checked 23Oct2026
 
 ### Priority 1: Avatar Modern Techno Services: Senior Java Lead
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4)
 
 Permanent full-time Singapore role covering distributed microservices, application and infrastructure security, reliability, REST and SOAP, Kafka, Kubernetes, Spring Boot or Spring Cloud, OpenAPI, OAuth and PCI-oriented security. Use the senior Java backend, secure integration and hands-on architecture resume. Lead with Java 21, Spring Boot 3, Kafka, Apache Camel, OAuth2 or mTLS, Kubernetes, observability, performance diagnosis and verifiable design or mentoring examples. Published pay is SGD 10,500-11,000 monthly, or SGD 126,000-132,000 annually if guaranteed base for 12 months. Confirm the end client, sponsorship, pay structure, office or client-site cadence, coding depth, authority and on-call.
+
+## New active Singapore applications-lead role checked 23Oct2026
+
+### Priority 2: Bond Financial Group: Applications Lead
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132)
+
+Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the senior Java secure-integration, platform-architecture and hands-on lead resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, secure APIs, Kubernetes, DevSecOps, observability and truthful architecture or mentoring outcomes. Prepare React or Golang, ISO 27001 or MAS TRM, capacity planning and formal vendor ownership where not already demonstrated. Matching current indexes report SGD 8,000-10,000 monthly, or SGD 96,000-120,000 annually if guaranteed base for 12 months. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
