@@ -14510,6 +14510,63 @@
         }
       },
       "deduplication_note": "No Citi requisition 26999959, MyCareersFuture role 1851448 or substantially identical Applications Support Technical Lead Analyst record existed in the shared ledger."
+    },
+    {
+      "job_id": "julius-baer-tech-lead-application-responsible-1803101",
+      "employer": "Bank Julius Baer & Co. Ltd.",
+      "title": "Tech Lead (Application Responsible)",
+      "requisition": "MCF-2026-1803101",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/tech-lead-bank-julius-baer-cbaaba5515e7c68784b674d7a73e59b8",
+      "canonical_url": "https://www.mycareersfuture.gov.sg/job/banking-finance/tech-lead-bank-julius-baer-cbaaba5515e7c68784b674d7a73e59b8",
+      "url_aliases": [
+        "https://sg.jobstreet.com/bank-julius-baer-jobs/full-time"
+      ],
+      "status_at_last_check": "Active direct-employer MyCareersFuture listing with application route",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore, islandwide",
+      "arrangement": "Singapore islandwide. The listing does not state remote or hybrid work, so office or bank-site attendance should be assumed until clarified.",
+      "eligibility": "Singapore is the advertised location. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Permanent, full-time",
+      "published_compensation": "SGD 9,500-14,500 monthly",
+      "compensation_geography": "Singapore monthly salary band. Base versus total fixed cash, bonus and benefits are not specified.",
+      "sgd_comparison": "SGD 114,000-174,000 annually if the monthly band is guaranteed base paid for 12 months. This is a calculation, not employer-published annual pay. The lower part is below Meena's SGD 144,000 annual target reference; SGD 12,000 monthly equals the target reference.",
+      "authorization_sponsorship": "Unknown. Confirm Employment Pass sponsorship and whether existing Singapore work rights are required.",
+      "posted": "12 October 2026; closes 26 October 2026 on MyCareersFuture",
+      "terms": "Permanent, full-time. Bonus, benefits, probation, notice and leave are not stated.",
+      "hours_on_call": "Working hours, regional overlap, production support and on-call are not stated.",
+      "fit": "Hands-on software-engineering lead role translating requirements into scalable solutions and owning a team. The stack includes Java, EJB, Spring Boot, MySQL, Oracle, IBM MQ and streaming, with architecture, delivery, engineering productivity and stakeholder responsibilities.",
+      "preparation": "Prepare team-lead examples, architecture tradeoffs, Java and Spring modernization, messaging or streaming design, Oracle or MySQL performance and banking production ownership. EJB and IBM MQ depth are preparation points where not directly evidenced.",
+      "questions": "Is the monthly range guaranteed base, and what bonus and benefits apply? Is Employment Pass sponsorship available? What office or hybrid cadence applies? What team size, coding percentage and architecture authority are expected? Which streaming technology is used? What production-support and on-call rota applies?",
+      "upside": "Strong direct Java technical-lead fit and career-growth candidate. Income growth is possible only in the upper band and depends on the confirmed pay structure.",
+      "verification": "Direct-employer MyCareersFuture listing checked 23 October 2026. It displayed permanent employment, Singapore islandwide, eight years of experience, SGD 9,500-14,500 monthly, posting date 12 October 2026 and closing date 26 October 2026. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.mycareersfuture.gov.sg/job/banking-finance/tech-lead-bank-julius-baer-cbaaba5515e7c68784b674d7a73e59b8"
+      ],
+      "import_source": "Direct-employer MyCareersFuture listing checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, Spring modernization, banking integrations and hands-on technical leadership",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Great Eastern payments, Kafka and Apache Camel, Oracle or SQL Server or PostgreSQL, secure APIs, cloud-native delivery, production reliability, design reviews and mentoring. Present EJB and IBM MQ as preparation unless directly demonstrated.",
+          "fit_and_preparation": "Near-direct Java and banking-platform match with credible lead scope. Establish whether the grade and pay represent growth, and prepare team ownership plus IBM MQ or EJB discussions.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical lead, event-driven banking platforms, cloud modernization and mentoring",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams and Apache Camel, Oracle or PostgreSQL, AWS and Kubernetes, DevSecOps, observability, technical Scrum leadership and mentoring. Present EJB and IBM MQ as preparation unless directly evidenced.",
+          "fit_and_preparation": "Strong Java lead and event-driven platform fit. The lower band is below the SGD 144,000 annual target reference, so confirm level and guaranteed base early.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Bank Julius Baer requisition MCF-2026-1803101 or substantially identical Tech Lead Application Responsible record existed in the shared ledger."
     }
   ]
 }
