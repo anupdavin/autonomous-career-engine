@@ -2903,3 +2903,20 @@ Singapore role with Java, Spring Boot, Apache Camel, Kafka or other messaging, A
 [Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
 
 Singapore or Hong Kong Senior or Staff role building 24x7 low-latency liquidity systems with Java 17+, Spring, Kafka, Redis, SQL, concurrency, JVM performance, Kubernetes, cloud infrastructure, reconciliation and AI coding tools. Use the hands-on technical-lead, event-driven Java and high-reliability platform resume. Lead with Java 21, Kafka Streams, Redis, AWS EKS/ECS, Kubernetes, observability, incident decisions and mentoring. Trading microstructure, FIX and sub-millisecond JVM design are preparation areas. Numeric pay is unpublished, so compare the actual guaranteed package with the SGD 144,000 target reference after level and compensation are known.
+
+
+## New India-remote Staff and search-platform roles checked 22Oct2026
+
+### Priority 1: Twilio: Staff Software Engineer (L4), Flex Backend
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://job-boards.greenhouse.io/twilio/jobs/8236865)
+
+Remote-first role limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and New Delhi, with occasional travel or ad-hoc in-person meetings. Staff backend scope covers Twilio Flex TaskRouter, AWS, fault-tolerant distributed systems, event-driven architecture, low-latency APIs, SQL or DynamoDB, CI/CD, observability, incident response and mentoring. Use the hands-on technical-lead, Java event-platform and high-reliability cloud resume. Lead with Java 21, Kafka Streams, AWS EKS or ECS, PostgreSQL, Kubernetes, CI/CD, observability and cross-team leadership. Compensation and sponsorship are unpublished, so no comparison to the SGD 144,000 target reference is possible.
+
+### Priority 2: AlphaSense: Senior Engineer, Software (Senior Platform Engineer, Search)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://job-boards.greenhouse.io/alphasense/jobs/8881638002)
+
+Remote India or Europe role for distributed search, zero-downtime platform modernization, performance tuning, real-time processing and observability. Use the hands-on technical-lead, cloud-platform and modernization resume. Lead with Java 21, Kafka Streams, AWS, Kubernetes, Terraform, database performance, incident ownership and mentoring. Search ranking, Elasticsearch or Solr, CRDs, sharding and vector search are preparation areas. Keep RAG and vector-search prototypes accurately labelled. Salary, sponsorship, hours and on-call are unpublished.

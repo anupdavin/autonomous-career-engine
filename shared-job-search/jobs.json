@@ -14164,6 +14164,119 @@
         }
       },
       "deduplication_note": "Distinct OKX Liquidity Platform requisition 7774178003. Existing OKX records cover Asset and Earn, AI agents, growth and operations automation, not this 24x7 liquidity and market-making platform."
+    },
+    {
+      "job_id": "twilio-staff-backend-flex-8236865",
+      "employer": "Twilio",
+      "title": "Staff Software Engineer (L4), Flex Backend",
+      "requisition": "Greenhouse 8236865",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8236865",
+      "canonical_url": "https://job-boards.greenhouse.io/twilio/jobs/8236865",
+      "url_aliases": [
+        "https://job-boards.greenhouse.io/twilio/jobs/8236865?gh_src=Sway+Ventures+job+board"
+      ],
+      "status_at_last_check": "Active official Twilio Greenhouse page with complete application form and Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Remote India: Karnataka, Tamil Nadu, Telangana, Maharashtra or New Delhi",
+      "arrangement": "Remote-first within the listed Indian states or New Delhi; occasional in-person team, project or customer meetings and travel may be required",
+      "eligibility": "Remote employment is limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and New Delhi. Singapore engagement is not advertised. The application requires legal authorization to work in the role country and asks for the source of that right.",
+      "engagement_type": "Full-time according to current public indexes; the official page discusses full-time benefits but does not separately label the classification",
+      "published_compensation": "Not published",
+      "compensation_geography": "India base, bonus, equity and benefits are not published; benefits vary by location",
+      "sgd_comparison": "Unavailable because no applicable compensation is published",
+      "authorization_sponsorship": "India work authorization is required by the application. Sponsorship availability is not stated.",
+      "posted": "A public index dates the posting to 6 October 2026; another index marked it posted four to five days before the 22 October check. The official page does not publish a date.",
+      "terms": "Benefits mention paid time off, parental and wellness leave, healthcare and retirement savings, varying by location. Employment entity, equipment, probation, notice and detailed benefits are not stated.",
+      "hours_on_call": "Global-team overlap and TaskRouter production support or on-call are not stated. Occasional travel and ad-hoc in-person meetings are explicit.",
+      "fit": "Staff backend ownership for Twilio Flex TaskRouter across high-scale, low-latency, fault-tolerant distributed systems on AWS, event-driven architecture, PostgreSQL or MySQL or DynamoDB, CI/CD, observability, incident response and mentoring. Java, Kafka, Docker and Kubernetes are directly relevant technologies.",
+      "preparation": "Prepare architecture-review examples, multi-quarter migrations, fault isolation, cost versus reliability tradeoffs, game days, low-latency API design and Tier 0 incident ownership. Staff-level cross-service influence is a material screen; use only demonstrated leadership evidence.",
+      "questions": "Can the role employ a candidate residing in the applicable Indian location and is sponsorship available? What are base, bonus, equity and benefits? Which India entity employs the role? What global overlap, travel and on-call are expected? How much current coding versus architecture review and organizational influence is required?",
+      "upside": "Career-growth candidate for Staff-level distributed-systems scope; compensation to establish",
+      "verification": "Official Twilio Greenhouse page checked 22 October 2026. It displayed Remote India, an active application form and the complete Staff Backend description. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/twilio/jobs/8236865",
+        "https://yourjobpilot.com/jobs/147bbd4e78dee1eb3e3a71828e5659ff"
+      ],
+      "import_source": "Official Twilio Greenhouse page and public posting index checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, distributed systems, AWS and hands-on Staff-level technical ownership",
+          "tailoring": "Lead with Java and Spring Boot, Kafka, PostgreSQL or SQL Server, AWS or Azure transfer, Kubernetes, secure low-latency APIs, observability, incident diagnosis, mentoring and verified coding-agent practices. Use concrete cross-service design and migration decisions without inflating formal Staff scope.",
+          "fit_and_preparation": "Strong backend and distributed-systems fit with credible Staff stretch. Demonstrate architecture-review influence, reliability tradeoffs and operational ownership.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, event-driven Java platform and high-reliability cloud systems",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, PostgreSQL, Kubernetes, CI/CD, observability, incident leadership, mentoring and cross-team delivery. Keep AI prototypes separate from production platform claims.",
+          "fit_and_preparation": "Strong technical-lead transfer and credible Staff-level application. Prepare multi-quarter architecture direction, Tier 0 reliability and organizational influence examples.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct Twilio Flex TaskRouter Staff backend requisition. The existing Twilio ledger item is a Presales Solutions Engineer and has different function, description and requisition."
+    },
+    {
+      "job_id": "alphasense-senior-platform-search-8881638002",
+      "employer": "AlphaSense",
+      "title": "Senior Engineer, Software (Senior Platform Engineer, Search)",
+      "requisition": "Greenhouse 8881638002",
+      "url": "https://job-boards.greenhouse.io/alphasense/jobs/8881638002",
+      "canonical_url": "https://job-boards.greenhouse.io/alphasense/jobs/8881638002",
+      "url_aliases": [],
+      "status_at_last_check": "Active official AlphaSense Greenhouse page with complete application form and Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Remote India or Europe",
+      "arrangement": "Remote in India or Europe; office attendance and travel are not stated",
+      "eligibility": "India is an advertised remote location. Singapore engagement is not advertised. India residence, employing entity, work authorization and sponsorship requirements are not stated.",
+      "engagement_type": "Not stated",
+      "published_compensation": "Not published",
+      "compensation_geography": "India salary, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no applicable compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published; the official page was newly indexed and crawled on 22 October 2026",
+      "terms": "Employment classification, benefits, leave, equipment, probation, notice and payment schedule are not stated",
+      "hours_on_call": "Working hours, Europe overlap, production support and on-call are not stated",
+      "fit": "Search-platform engineering across billions of documents, distributed systems, zero-downtime modernization, performance profiling, data pipelines, real-time processing, observability and large-scale platform reliability. JVM tuning, Kubernetes, CRDs, infrastructure as code, Elasticsearch or Solr and hybrid vector search are preferred rather than universal hard requirements.",
+      "preparation": "Prepare sharding, replication, consistency, partition tolerance, zero-downtime migration, JVM profiling, search indexing and query latency scenarios. Vespa, Elasticsearch or Solr, CRDs and vector search are interview preparation unless supported by verifiable work.",
+      "questions": "Can the role employ a candidate residing anywhere in India and is sponsorship available? What are India base, bonus, equity and benefits? What language and JVM stack does the team use? Which India or Europe hours and on-call apply? How heavily are search-platform, CRD and database-internals experience screened?",
+      "upside": "Career-growth candidate for distributed search and platform modernization; compensation to establish",
+      "verification": "Official AlphaSense Greenhouse page checked 22 October 2026. It displayed Remote India, an active application form and the complete Senior Platform Engineer Search description. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/alphasense/jobs/8881638002"
+      ],
+      "import_source": "Official AlphaSense Greenhouse page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 2,
+          "resume_emphasis": "Senior Java distributed systems, JVM performance, platform modernization and observability",
+          "tailoring": "Lead with Java and Spring Boot, Kafka, database and API performance, Kubernetes, observability, production diagnosis, zero-downtime modernization and EBX or MDM data-platform experience where directly relevant. Present search internals and CRDs as preparation unless demonstrated.",
+          "fit_and_preparation": "Strong distributed-platform transfer and credible search-platform stretch. The principal preparation areas are search internals, sharding and replication depth, and hybrid vector search.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, event-driven cloud platform, observability and modernization",
+          "tailoring": "Lead with Java 21, Kafka Streams, AWS EKS or ECS, Kubernetes, Terraform, PostgreSQL or Oracle, observability, incident ownership, performance tuning and technical leadership. Keep RAG and vector-search prototypes accurately labelled.",
+          "fit_and_preparation": "Strong platform and modernization transfer. Search ranking, Vespa or Elasticsearch or Solr, CRDs and database internals require interview preparation and truthful scoping.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No AlphaSense employer record, Greenhouse 8881638002 or substantially identical search-platform description existed in the shared ledger."
     }
   ]
 }
