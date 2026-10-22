@@ -2903,3 +2903,20 @@ Singapore role with a near-direct stack match: Java 8, Spring Boot, Spring Batch
 [Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
 
 Singapore or Hong Kong role building 24x7 low-latency trading and liquidity systems with Java 17+, Spring, Kafka, Redis, SQL, concurrency, JVM tuning, FIX, WebSocket, Kubernetes, cloud infrastructure, reconciliation and AI coding tools. Use the senior Java payments, distributed-systems and AI-assisted-engineering resume. Lead with Great Eastern payments, concurrency, secure integrations, Kafka, reconciliation and observability. Prepare market microstructure, FIX, lock-free algorithms, GC and sub-millisecond design without claiming unverified trading depth. Numeric pay, sponsorship, office cadence and on-call terms are unpublished.
+
+
+## New India-remote Staff and search-platform roles checked 22Oct2026
+
+### Priority 1: Twilio: Staff Software Engineer (L4), Flex Backend
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://job-boards.greenhouse.io/twilio/jobs/8236865)
+
+Remote-first role limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and New Delhi, with occasional travel or ad-hoc in-person meetings. Staff backend ownership spans Twilio Flex TaskRouter, AWS, fault-tolerant distributed systems, event-driven architecture, low-latency APIs, SQL or DynamoDB, CI/CD, observability, incident response and mentoring. Use the senior Java backend, distributed-systems and technical-ownership resume. Lead with Java/Spring Boot, Kafka, cloud/Kubernetes, database design, reliability and concrete cross-service decisions. Compensation and sponsorship are unpublished. Confirm India residence and work-right rules, employing entity, package, global overlap, travel and on-call.
+
+### Priority 2: AlphaSense: Senior Engineer, Software (Senior Platform Engineer, Search)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://job-boards.greenhouse.io/alphasense/jobs/8881638002)
+
+Remote India or Europe role scaling search across billions of documents, zero-downtime modernization, performance profiling, data pipelines and observable distributed systems. Use the senior Java distributed-systems, JVM-performance and platform-modernization resume. Lead with Kafka, database and API performance, Kubernetes, observability and production diagnosis. Search internals, sharding and replication, Elasticsearch or Solr, CRDs and hybrid vector search are preparation areas unless already demonstrated. Salary, sponsorship, hours and on-call are unpublished.
