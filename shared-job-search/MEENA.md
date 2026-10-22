@@ -2908,14 +2908,14 @@ Singapore or Hong Kong Senior or Staff role building 24x7 low-latency liquidity 
 ## New India-remote Staff and search-platform roles checked 22Oct2026
 
 ### Priority 1: Twilio: Staff Software Engineer (L4), Flex Backend
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://job-boards.greenhouse.io/twilio/jobs/8236865)
 
 Remote-first role limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and New Delhi, with occasional travel or ad-hoc in-person meetings. Staff backend scope covers Twilio Flex TaskRouter, AWS, fault-tolerant distributed systems, event-driven architecture, low-latency APIs, SQL or DynamoDB, CI/CD, observability, incident response and mentoring. Use the hands-on technical-lead, Java event-platform and high-reliability cloud resume. Lead with Java 21, Kafka Streams, AWS EKS or ECS, PostgreSQL, Kubernetes, CI/CD, observability and cross-team leadership. Compensation and sponsorship are unpublished, so no comparison to the SGD 144,000 target reference is possible.
 
 ### Priority 2: AlphaSense: Senior Engineer, Software (Senior Platform Engineer, Search)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alphasense/jobs/8881638002)
 
@@ -2924,5 +2924,20 @@ Remote India or Europe role for distributed search, zero-downtime platform moder
 ## New active Singapore Java technical-lead role checked 22Oct2026
 
 ### HCLTech | [Technical Lead (Senior Java Developer)](https://careers.hcltech.com/job/Technical-Lead/155941-en_US/) | Priority 1
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
+
 
 Singapore-based hands-on Java technical-lead opening. Strong fit for Java 21, Spring Boot 3, Spring Security, Kafka Streams, SQL, cloud-native delivery, CI/CD, observability, production ownership and mentoring. Use the hands-on technical-lead, event-driven cloud-platform and modernization resume. Emphasize technical design, secure APIs, public-sector delivery and team guidance, while keeping AI prototypes accurately labelled. Salary, employment type, sponsorship, working hours and on-call are not published. Establish the client or product, actual architecture authority, coding depth, Singapore package, Employment Pass support and office or client-site cadence before a long interview process.
+
+
+## New India-remote product and Singapore applied-AI roles checked 23Oct2026
+
+### Atlassian | [Senior Backend Software Engineer](https://www.atlassian.com/company/careers/details/25569) | Priority 1
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+Remote within India or Bengaluru role with autonomous project ownership, architecture, mentoring, public cloud, Oracle or PostgreSQL and scalable microservices or distributed systems. Use the hands-on Java technical-lead, event-driven platform and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, Kubernetes, CI/CD, observability and concrete leadership examples. India compensation, sponsorship, hours and on-call are unpublished, so no comparison to the SGD 144,000 target reference is possible yet.
+
+### Johnson & Johnson | [Senior Full Stack Engineer](https://www.careers.jnj.com/en/jobs/r-103252/senior-full-stack-engineer/) | Priority 2 stretch
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+Singapore hybrid role building AI-powered applications and AI-native engineering workflows with TypeScript, React or Python, AWS, REST or GraphQL, LLM APIs, LangChain or LangGraph, CI/CD and human validation. Use the hands-on technical-lead, full-stack cloud and applied-AI resume. Lead with Angular 18, TypeScript, AWS, APIs, microservices, Spring AI, RAG, MCP and Claude API prototypes while clearly separating prototypes from production use. Production LLM integration and the Node.js, React or Python stack are preparation areas. Salary and sponsorship are unpublished; ask whether the guaranteed base can meet the SGD 144,000 target reference.

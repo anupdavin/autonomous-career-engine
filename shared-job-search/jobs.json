@@ -14313,10 +14313,10 @@
       ],
       "import_source": "Official HCLTech careers page and matching public Singapore index checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14335,6 +14335,123 @@
         }
       },
       "deduplication_note": "No HCLTech requisition 155941 or substantially identical official HCLTech Singapore Java technical-lead record existed in the shared ledger. A Jobstreet copy appears to reference the same role and is retained as an alias."
+    },
+    {
+      "job_id": "atlassian-senior-backend-india-25569",
+      "employer": "Atlassian",
+      "title": "Senior Backend Software Engineer",
+      "requisition": "Atlassian 25569",
+      "url": "https://www.atlassian.com/company/careers/details/25569",
+      "canonical_url": "https://www.atlassian.com/company/careers/details/25569",
+      "url_aliases": [
+        "https://www.atlassian.com/it/company/careers/details/25569",
+        "https://globalcareers-atlassian.icims.com/jobs/25569/senior-backend-software-engineer/login"
+      ],
+      "status_at_last_check": "Active official Atlassian careers page with Apply control; the application route opens the iCIMS candidate login",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Bengaluru, India or remote within India",
+      "arrangement": "Atlassian Team Anywhere role advertised as Bengaluru or Remote. Candidates may work from home, an office or a combination, but hiring is limited to countries where Atlassian has a legal entity.",
+      "eligibility": "India is an advertised hiring location and remote arrangement. Singapore is not listed for this requisition. India residence, work authorization and sponsorship rules are not stated.",
+      "engagement_type": "Not stated on the official page",
+      "published_compensation": "Not published for India; the page says the role may also be eligible for benefits, bonus and equity",
+      "compensation_geography": "India base, guaranteed cash, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no applicable numeric compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published on the official page; the active page was checked 23 October 2026",
+      "terms": "Employment classification, employing entity, leave, notice, probation, equipment and travel are not stated",
+      "hours_on_call": "Working hours, timezone overlap, production support and on-call are not stated",
+      "fit": "Senior backend ownership across large projects, architecture, code review, mentoring, public cloud, Oracle or PostgreSQL, highly scalable microservices and distributed systems. Java is explicitly accepted, and the engineering organization prioritizes AI and cloud initiatives.",
+      "preparation": "Prepare examples of autonomous project leadership, architecture tradeoffs, high-risk production fixes, distributed-system scalability, cloud design and mentoring. Product-scale SaaS influence is an interview preparation point, not an assumed gap.",
+      "questions": "Must the candidate reside in India, and which states or cities are employable? Is sponsorship available? What are India base, bonus, equity and benefits? Which product or platform team is hiring? What are timezone overlap, travel and on-call expectations?",
+      "upside": "Career-growth candidate for direct product ownership and senior distributed-systems scope; compensation to establish",
+      "verification": "Official Atlassian careers page checked 23 October 2026. It displayed Bengaluru or Remote, an active Apply route and the complete Senior Backend Software Engineer description. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.atlassian.com/company/careers/details/25569",
+        "https://globalcareers-atlassian.icims.com/jobs/25569/senior-backend-software-engineer/login"
+      ],
+      "import_source": "Official Atlassian careers page and iCIMS application route checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, distributed systems, cloud modernization and hands-on technical ownership",
+          "tailoring": "Lead with Java and Spring Boot, Kafka, Oracle or PostgreSQL, AWS or Azure, Kubernetes, secure APIs, production reliability, architecture decisions, code review and mentoring. Include verified AI-assisted engineering practices without presenting them as production ML research.",
+          "fit_and_preparation": "Strong senior backend and distributed-systems fit with direct-product career upside. Prepare examples of autonomous cross-team delivery and product-scale architecture influence.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical lead, Java event-driven platforms, cloud modernization and mentoring",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, AWS EKS or ECS, PostgreSQL or Oracle, Kubernetes, CI/CD, observability, technical leadership and mentoring. Keep AI integration prototypes accurately labelled.",
+          "fit_and_preparation": "Strong technical-lead transfer to a senior product-engineering role. Prepare concrete examples of architecture influence, large-project ownership and mentoring.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Atlassian requisition 25569 or substantially identical Bengaluru or remote Senior Backend Software Engineer record existed in the shared ledger."
+    },
+    {
+      "job_id": "jnj-senior-full-stack-ai-singapore-r103252",
+      "employer": "Johnson & Johnson",
+      "title": "Senior Full Stack Engineer",
+      "requisition": "R-103252",
+      "url": "https://www.careers.jnj.com/en/jobs/r-103252/senior-full-stack-engineer/",
+      "canonical_url": "https://www.careers.jnj.com/en/jobs/r-103252/senior-full-stack-engineer/",
+      "url_aliases": [
+        "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Singapore-Singapore/Senior-Full-Stack-Engineer_R-103252/apply"
+      ],
+      "status_at_last_check": "Active official Johnson & Johnson careers page with Apply now control and Workday application route",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Hybrid work in Singapore; the required office cadence is not stated",
+      "eligibility": "Singapore is the advertised location. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Not stated on the official page",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore base, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no numeric applicable compensation is published. Compare any guaranteed Singapore base with Meena's SGD 144,000 annual target reference only after the package is known.",
+      "authorization_sponsorship": "Unknown",
+      "posted": "8 October 2026",
+      "terms": "Employment classification, office days, probation, notice, benefits, bonus and equity are not stated",
+      "hours_on_call": "Working hours, regional overlap, production support and on-call are not stated",
+      "fit": "AI-first full-stack engineering in Singapore across Node.js, TypeScript, React or Python, REST or GraphQL, AWS, SQL or NoSQL, microservices, containers, LLM APIs, LangChain or LangGraph, AI-assisted development, test generation and human validation. The role values engineering judgment and AI-augmented delivery rather than ML research.",
+      "preparation": "This is a stretch because the advertised stack centers on Node.js, React and Python and asks for hands-on LLM integration. Prepare truthful Spring AI, RAG, MCP and Claude API prototype examples, transferable Angular and TypeScript depth, AWS delivery, evaluation and guardrail thinking, and a clear path from prototype to production. Do not claim production AI use that has not occurred.",
+      "questions": "Is Employment Pass sponsorship available? What are the Singapore base, bonus and benefits, and can the guaranteed base meet the SGD 144,000 target reference? How many office days are required? How much production LLM experience is mandatory versus strong prototypes? Which backend language dominates, and what are regional overlap and on-call expectations?",
+      "upside": "Career-growth candidate for applied AI delivery and AI-native engineering practices; compensation to establish",
+      "verification": "Official Johnson & Johnson careers page checked 23 October 2026. It displayed Singapore, Hybrid Work, posting date 8 October 2026, requisition R-103252 and an active Apply now route. No application or employer contact was made.",
+      "source_urls": [
+        "https://www.careers.jnj.com/en/jobs/r-103252/senior-full-stack-engineer/",
+        "https://jj.wd5.myworkdayjobs.com/en-US/JJ/job/Singapore-Singapore/Senior-Full-Stack-Engineer_R-103252/apply"
+      ],
+      "import_source": "Official Johnson & Johnson careers page and Workday application route checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert for Meena. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 3,
+          "resume_emphasis": "Senior full-stack engineering, AWS and verified AI-assisted delivery",
+          "tailoring": "If applying, lead with Angular and TypeScript, REST or GraphQL, AWS, microservices, CI/CD, coding-agent workflows and code verification. Treat production LLM integration, React, Node.js and Python as preparation areas.",
+          "fit_and_preparation": "Credible but lower-priority stretch because the role asks for hands-on LLM integration and a non-Java primary stack.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, full-stack cloud delivery and applied AI integration",
+          "tailoring": "Lead with Angular 18, TypeScript, RxJS or NgRx, AWS, REST or GraphQL, microservices, CI/CD, observability, Spring AI, RAG, MCP and Claude API prototypes, plus human verification and security judgment. Keep prototypes clearly distinguished from production deployment.",
+          "fit_and_preparation": "Worthwhile applied-AI stretch with strong full-stack, cloud and leadership transfer. Production LLM integration, LangChain or LangGraph and the Node.js, React or Python stack require focused preparation.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Johnson & Johnson requisition R-103252 or substantially identical Singapore AI-first full-stack role existed in the shared ledger."
     }
   ]
 }

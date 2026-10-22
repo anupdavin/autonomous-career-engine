@@ -2908,14 +2908,14 @@ Singapore or Hong Kong role building 24x7 low-latency trading and liquidity syst
 ## New India-remote Staff and search-platform roles checked 22Oct2026
 
 ### Priority 1: Twilio: Staff Software Engineer (L4), Flex Backend
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://job-boards.greenhouse.io/twilio/jobs/8236865)
 
 Remote-first role limited to Karnataka, Tamil Nadu, Telangana, Maharashtra and New Delhi, with occasional travel or ad-hoc in-person meetings. Staff backend ownership spans Twilio Flex TaskRouter, AWS, fault-tolerant distributed systems, event-driven architecture, low-latency APIs, SQL or DynamoDB, CI/CD, observability, incident response and mentoring. Use the senior Java backend, distributed-systems and technical-ownership resume. Lead with Java/Spring Boot, Kafka, cloud/Kubernetes, database design, reliability and concrete cross-service decisions. Compensation and sponsorship are unpublished. Confirm India residence and work-right rules, employing entity, package, global overlap, travel and on-call.
 
 ### Priority 2: AlphaSense: Senior Engineer, Software (Senior Platform Engineer, Search)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://job-boards.greenhouse.io/alphasense/jobs/8881638002)
 
@@ -2924,5 +2924,15 @@ Remote India or Europe role scaling search across billions of documents, zero-do
 ## New active Singapore Java technical-lead role checked 22Oct2026
 
 ### HCLTech | [Technical Lead (Senior Java Developer)](https://careers.hcltech.com/job/Technical-Lead/155941-en_US/) | Priority 1
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
+
 
 Singapore-based official opening, with office or client-site cadence unstated. Strong Java, Spring Boot, Spring Security, JPA or Hibernate, microservices, REST, Kafka or messaging, API gateway, CI/CD, performance, production troubleshooting and mentoring fit. Use the senior Java backend, secure-integration and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka, OAuth2 or mTLS, SQL, Kubernetes, observability and concrete design-review or mentoring examples. Prepare SOAP, API gateway and client-delivery discussions. Salary, employment type, sponsorship, working hours and on-call are not published. Confirm the client or product, grade, permanent versus contract terms, Singapore compensation, Employment Pass support and office cadence.
+
+
+## New remote India product-engineering role checked 23Oct2026
+
+### Atlassian | [Senior Backend Software Engineer](https://www.atlassian.com/company/careers/details/25569) | Priority 1
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+Remote within India or Bengaluru role for a direct product company. The scope covers autonomous ownership of large backend projects, architecture, code review, mentoring, public cloud, Oracle or PostgreSQL and highly scalable microservices or distributed systems; Java is explicitly accepted. Use the senior Java backend, distributed-systems and cloud-modernization resume. Lead with Java and Spring Boot, Kafka, SQL, AWS or Azure, Kubernetes, secure APIs, production reliability and concrete architecture decisions. India compensation, sponsorship, global overlap and on-call are unpublished. Confirm the employing location, work-right rules, package and team before comparing it with an SGD-paid role.
