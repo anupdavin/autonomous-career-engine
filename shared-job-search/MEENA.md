@@ -2946,7 +2946,7 @@ Singapore hybrid role building AI-powered applications and AI-native engineering
 ## New active Singapore banking platform-lead role checked 23Oct2026
 
 ### Priority 1: Citi: Applications Support Technical Lead Analyst (26999959)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296)
 
@@ -2954,8 +2954,18 @@ Full-time on-site Singapore role leading support for online banking, critical pa
 
 
 ### Priority 1: Bank Julius Baer: Tech Lead (Application Responsible) (MCF-2026-1803101)
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://www.mycareersfuture.gov.sg/job/banking-finance/tech-lead-bank-julius-baer-cbaaba5515e7c68784b674d7a73e59b8)
 
 Permanent Singapore Java technical-lead role covering Java, EJB, Spring Boot, MySQL, Oracle, IBM MQ, streaming, solution design and team ownership. Use the hands-on Java technical-lead, event-driven banking-platform and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, Oracle or PostgreSQL, AWS, Kubernetes, DevSecOps, observability and mentoring. Published pay is SGD 9,500-14,500 monthly, or SGD 114,000-174,000 annually if guaranteed base for 12 months. The lower band is below the SGD 144,000 annual target reference, so establish grade and guaranteed base early. Confirm sponsorship, office cadence, team size, coding depth and on-call. Apply promptly because the listing closes 26Oct2026.
+
+
+## New active Singapore Java architecture role checked 23Oct2026
+
+### Priority 2: Avatar Modern Techno Services: Senior Java Lead
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4)
+
+Permanent full-time Singapore role covering distributed microservices, security, reliability, REST and SOAP, Kafka, Kubernetes, Spring Boot or Spring Cloud, OpenAPI and OAuth. Use the hands-on Java technical-lead, event-driven cloud-platform and modernization resume. Lead with Java 21, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, DevSecOps, observability, design and mentoring. Published pay is SGD 10,500-11,000 monthly, or SGD 126,000-132,000 annually if guaranteed base for 12 months, below the SGD 144,000 annual target reference. Screen compensation and architecture authority early.
