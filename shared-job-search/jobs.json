@@ -14200,10 +14200,10 @@
       ],
       "import_source": "Official Twilio Greenhouse page and public posting index checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14255,10 +14255,10 @@
       ],
       "import_source": "Official AlphaSense Greenhouse page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14277,6 +14277,64 @@
         }
       },
       "deduplication_note": "No AlphaSense employer record, Greenhouse 8881638002 or substantially identical search-platform description existed in the shared ledger."
+    },
+    {
+      "job_id": "hcltech-technical-lead-singapore-155941",
+      "employer": "HCLTech",
+      "title": "Technical Lead (Senior Java Developer)",
+      "requisition": "HCLTech 155941",
+      "url": "https://careers.hcltech.com/job/Technical-Lead/155941-en_US/",
+      "canonical_url": "https://careers.hcltech.com/job/Technical-Lead/155941-en_US/",
+      "url_aliases": [
+        "https://sg.jobstreet.com/job/94318272"
+      ],
+      "status_at_last_check": "Active official HCLTech careers page with Apply now control and full job description",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore-based; office, hybrid and client-site cadence are not stated",
+      "eligibility": "Singapore work location is confirmed. Existing work-right requirements and Employment Pass sponsorship are not stated.",
+      "engagement_type": "Employment type is not published on the official page",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore package, bonus, equity and benefits are not published",
+      "sgd_comparison": "Unavailable because no compensation is published",
+      "authorization_sponsorship": "Unknown. Confirm whether Employment Pass sponsorship is available and whether the client requires existing Singapore work rights.",
+      "posted": "Official posting date is not published. The page was newly indexed and verified active on 22 October 2026.",
+      "terms": "Employer or client project, grade, probation, notice, benefits, equipment and travel are not stated.",
+      "hours_on_call": "Working hours, regional overlap, production support and on-call are not stated.",
+      "fit": "Hands-on technical lead scope covering Java, Spring Boot, Spring Security, Spring Data JPA or Hibernate, microservices, secure REST APIs, Kafka or message queues, API gateways, architecture discussions, performance, reliability, code reviews, mentoring, CI/CD and production troubleshooting.",
+      "preparation": "Prepare concise examples of leading implementation, design reviews, secure API architecture, performance diagnosis, production incident fixes and mentoring. SOAP, API gateway product depth and the exact cloud platform are details to establish, not automatic exclusions.",
+      "questions": "What client or product is this for? Is the role permanent or contract? What are the Singapore base, bonus and benefits? Is Employment Pass sponsorship available? What office or client-site cadence, travel, working-hour overlap and on-call apply? How much hands-on coding versus coordination is expected?",
+      "upside": "Career-growth candidate for hands-on technical leadership; compensation to establish",
+      "verification": "Official HCLTech careers page checked 22 October 2026. It displayed Singapore, an Apply now control and the complete Java technical-lead description. No application or employer contact was made.",
+      "source_urls": [
+        "https://careers.hcltech.com/job/Technical-Lead/155941-en_US/",
+        "https://sg.jobstreet.com/job/94318272"
+      ],
+      "import_source": "Official HCLTech careers page and matching public Singapore index checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 22Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java backend, secure integration, cloud-native modernization and hands-on technical leadership",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Spring Security, Kafka, secure REST APIs, OAuth2 or mTLS, SQL, Kubernetes, CI/CD, observability, production diagnosis and concrete design-review or mentoring examples. Include Apache Camel where relevant to integration ownership.",
+          "fit_and_preparation": "Near-direct technical fit. Establish the project, grade and actual authority. Prepare API gateway, SOAP and client-delivery examples without inventing product depth.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on Java technical lead, event-driven cloud platforms, modernization and mentoring",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Spring Security, Kafka Streams, AWS or Kubernetes, PostgreSQL or Oracle, CI/CD, DevSecOps, observability, technical design, mentoring and public-sector delivery ownership. Keep Spring AI, RAG and MCP work labelled as prototypes.",
+          "fit_and_preparation": "Strong hands-on lead match. Confirm coding depth, team scope and compensation before prioritizing it above higher-paying Singapore roles.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No HCLTech requisition 155941 or substantially identical official HCLTech Singapore Java technical-lead record existed in the shared ledger. A Jobstreet copy appears to reference the same role and is retained as an alias."
     }
   ]
 }
