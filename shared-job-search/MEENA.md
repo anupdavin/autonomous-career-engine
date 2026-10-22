@@ -2977,7 +2977,7 @@ Permanent full-time Singapore role covering distributed microservices, security,
 
 [Application](https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132)
 
-Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the hands-on Java technical-lead, event-driven cloud-platform, DevSecOps and AI-augmented engineering resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, Terraform, ArgoCD, observability, secure delivery, mentoring and truthful design outcomes. Keep Spring AI, RAG, MCP and Claude API work accurately labelled as prototypes. Prepare React or Golang, ISO 27001, MAS TRM and formal vendor ownership where not directly evidenced. Matching current indexes report SGD 8,000-10,000 monthly, or SGD 96,000-120,000 annually if guaranteed base for 12 months, below the SGD 144,000 target reference. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
+Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the hands-on Java technical-lead, event-driven cloud-platform, DevSecOps and AI-augmented engineering resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, Terraform, ArgoCD, observability, secure delivery, mentoring and truthful design outcomes. Keep Spring AI, RAG, MCP and Claude API work accurately labelled as prototypes. Prepare React or Golang, ISO 27001, MAS TRM and formal vendor ownership where not directly evidenced. The direct MyCareersFuture listing shows SGD 10,000-15,000 monthly, or SGD 120,000-180,000 annually if guaranteed base for 12 months. This corrects the earlier third-party band. It reaches Meena's SGD 144,000 annual target reference from SGD 12,000 monthly. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
 
 ## New India-remote and Singapore lead roles checked 23Oct2026
 
@@ -3015,3 +3015,22 @@ Singapore Staff role covering Java and Spring Boot, high-concurrency event syste
 [Application](https://www.mycareersfuture.gov.sg/job/lead-software-engineering-ai-products-codex-solutions-dba3c573f0c9eb2c122b305a042d83da)
 
 Permanent on-site Singapore role integrating LLM, RAG and agentic capabilities into full-stack applications using React or Angular, Python or Node, cloud and CI/CD. Use the full-stack cloud and applied-AI resume. Lead with Angular 18, TypeScript, AWS, secure delivery, Spring AI, RAG, MCP and Claude API prototypes, explicitly labelled as prototypes. Matching current listing reports SGD 8,000-12,000 monthly, reaching the SGD 144,000 annual target only at the top if guaranteed base.
+
+
+## New active global-remote and Singapore banking roles checked 23Oct2026
+
+### Priority 1: Camunda: Senior Software Engineer, Backend - Distributed Systems
+
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://jobs.ashbyhq.com/camunda/af27a3de-d3ba-40dd-976f-9767bdc1e7e8)
+
+Fully remote, global full-time role with a role-specific Singapore Annual Total Target Cash band of SGD 178,600-267,900. The figure includes base plus 100 percent variable target where applicable, so guaranteed base is unknown. Use the hands-on technical-lead, Java event-platform and high-reliability cloud resume. Lead with Java 21, Kafka Streams, AWS EKS or ECS, Kubernetes, databases, observability, incident leadership and mentoring. Prepare JVM internals, consensus and membership protocols, storage and network I/O, disaster recovery and L3 support. This is a credible high-value systems stretch, not an ML role.
+
+### Priority 1: HCL Singapore: Technical Delivery Manager (Java Applications and Banking) (MCF-2026-1762684)
+
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/technical-delivery-manager-hcl-singapore-0053e6659d170dc387c37c2c7a52de63)
+
+Full-time Singapore banking role at SGD 10,000-13,000 monthly, or SGD 120,000-156,000 annually if guaranteed base for 12 months. The band reaches the SGD 144,000 target reference from SGD 12,000 monthly. Use the hands-on Java technical-lead, regulated delivery and cloud-modernization resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, Oracle or PostgreSQL, AWS, Kubernetes, DevSecOps, observability, Scrum leadership and mentoring. Establish the five-year formal delivery-management and Mandarin requirements before a lengthy process.
