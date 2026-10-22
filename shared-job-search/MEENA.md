@@ -2891,14 +2891,14 @@ Full-time remote role within India for a direct fintech product company, buildin
 ## New active Singapore Java integration and liquidity-platform roles checked 22Oct2026
 
 ### Priority 2: Encora: Fullstack Developer
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/encora10/jobs/5205355007)
 
 Singapore role with Java, Spring Boot, Apache Camel, Kafka or other messaging, AngularJS or React, SQL and NoSQL, Docker, AWS, Kubernetes or OpenShift, CI and ELK. Use the hands-on Java technical-lead, integration-platform and cloud-modernization resume. Lead with Java 21, Apache Camel, Kafka Streams, Angular 18, AWS, Kubernetes, CI/CD, observability and mentoring. The generic title may understate current seniority, so confirm grade and architecture authority. Salary is unpublished, so no comparison to the SGD 144,000 target reference is possible.
 
 ### Priority 2: OKX: Senior/Staff Software Engineer, Liquidity Platform
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
 
