@@ -2964,8 +2964,17 @@ Permanent Singapore Java technical-lead role covering Java, EJB, Spring Boot, My
 ## New active Singapore Java architecture role checked 23Oct2026
 
 ### Priority 2: Avatar Modern Techno Services: Senior Java Lead
-- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 23Oct2026.
 
 [Application](https://www.mycareersfuture.gov.sg/job/information-technology/senior-java-lead-avatar-modern-techno-services-eaa992343daefdeec38e444126a3cdb4)
 
 Permanent full-time Singapore role covering distributed microservices, security, reliability, REST and SOAP, Kafka, Kubernetes, Spring Boot or Spring Cloud, OpenAPI and OAuth. Use the hands-on Java technical-lead, event-driven cloud-platform and modernization resume. Lead with Java 21, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, DevSecOps, observability, design and mentoring. Published pay is SGD 10,500-11,000 monthly, or SGD 126,000-132,000 annually if guaranteed base for 12 months, below the SGD 144,000 annual target reference. Screen compensation and architecture authority early.
+
+## New active Singapore applications-lead role checked 23Oct2026
+
+### Priority 2: Bond Financial Group: Applications Lead
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/applications-lead-bond-financial-group-fa783fddc0d359245531059656fff132)
+
+Full-time Singapore player-manager role spanning application architecture, hands-on coding, secure SDLC, CI/CD governance, SAST and SCA, REST APIs, message queues, event-driven data, database design, containers, cloud-native deployment, AI coding-tool guardrails, mentoring, vendors and on-call incident response. Use the hands-on Java technical-lead, event-driven cloud-platform, DevSecOps and AI-augmented engineering resume. Lead with Java 21, Spring Boot 3, Kafka Streams, Apache Camel, AWS EKS or ECS, Kubernetes, Terraform, ArgoCD, observability, secure delivery, mentoring and truthful design outcomes. Keep Spring AI, RAG, MCP and Claude API work accurately labelled as prototypes. Prepare React or Golang, ISO 27001, MAS TRM and formal vendor ownership where not directly evidenced. Matching current indexes report SGD 8,000-10,000 monthly, or SGD 96,000-120,000 annually if guaranteed base for 12 months, below the SGD 144,000 target reference. Confirm the exact MCF salary, base versus total cash, sponsorship, office cadence, on-call rota and allowance, team size, coding percentage and vendor scope before investing in a long process.
