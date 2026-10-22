@@ -14087,10 +14087,10 @@
       ],
       "import_source": "Official Encora Greenhouse page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "assessments": {
         "anup": {
@@ -14142,10 +14142,10 @@
       ],
       "import_source": "Official OKX Greenhouse page checked 22 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+        "already_reported": true,
+        "first_reported_date": "2026-10-22",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 22Oct2026."
       },
       "assessments": {
         "anup": {

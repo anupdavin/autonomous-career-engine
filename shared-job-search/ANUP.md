@@ -2891,14 +2891,14 @@ Full-time remote India lead role for cloud ERP using Java, Spring Boot or Quarku
 ## New active Singapore Java integration and liquidity-platform roles checked 22Oct2026
 
 ### Priority 1: Encora: Fullstack Developer
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/encora10/jobs/5205355007)
 
 Singapore role with a near-direct stack match: Java 8, Spring Boot, Spring Batch and Cloud, Apache Camel, ActiveMQ or Kafka or RabbitMQ, AngularJS or React, SQL and NoSQL, Docker, AWS, Kubernetes or OpenShift, ELK, JVM profiling and SQL tuning. Use the senior Java full-stack, Apache Camel integration and production-reliability resume. Salary, employment type, sponsorship, client, office cadence and on-call are unpublished. Confirm level, package and client-site expectations before a lengthy process.
 
 ### Priority 1: OKX: Senior/Staff Software Engineer, Liquidity Platform
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
 
