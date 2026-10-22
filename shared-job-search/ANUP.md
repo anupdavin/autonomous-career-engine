@@ -2946,3 +2946,11 @@ Remote within India or Bengaluru role for a direct product company. The scope co
 [Application](https://jobs.citi.com/job/singapore/applications-support-technical-lead-analyst/287/102161063296)
 
 Full-time on-site Singapore role leading support for online banking, critical payment flows and distributed transaction platforms. Use the payments platform reliability, secure integration and senior Java systems resume. Lead with Great Eastern payments, Kafka, Oracle or PostgreSQL, Kubernetes, observability, incident diagnosis, root-cause analysis and mentoring. Published pay is SGD 12,000-17,500 monthly, or SGD 144,000-210,000 annually if it is guaranteed base for 12 months. Confirm the pay structure, sponsorship, office cadence, 24/7 rota and allowances. This is operations and platform leadership rather than a coding-first role; prepare Unix or shell or Python, GCP or OpenShift, TIBCO EMS and GoldenGate.
+
+
+### Priority 1: Bank Julius Baer: Tech Lead (Application Responsible) (MCF-2026-1803101)
+- Alert history: Pending delivery in ChatGPT. Do not treat as delivered until reconciled after the alert.
+
+[Application](https://www.mycareersfuture.gov.sg/job/banking-finance/tech-lead-bank-julius-baer-cbaaba5515e7c68784b674d7a73e59b8)
+
+Permanent Singapore Java technical-lead role covering Java, EJB, Spring Boot, MySQL, Oracle, IBM MQ, streaming, solution design and team ownership. Use the senior Java banking-platform, integration and hands-on lead resume. Lead with Great Eastern payments, Java 21, Spring Boot 3, Kafka, Apache Camel, Oracle, secure APIs, production reliability, design reviews and mentoring. Published pay is SGD 9,500-14,500 monthly, or SGD 114,000-174,000 annually if guaranteed base for 12 months. Confirm pay structure, sponsorship, office cadence, team size, coding depth and on-call before investing in a long process. Apply promptly because the listing closes 26Oct2026.
