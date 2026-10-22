@@ -2886,3 +2886,20 @@ Singapore role covering Java, Spring Boot, Angular or React, SQL, microservices,
 [Application](https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e)
 
 Full-time remote role within India for a direct fintech product company, building Java and AWS backend services, distributed systems, microservices, secure APIs and bank integrations. Use the hands-on lead, event-driven Java backend and cloud-native fintech resume. Lead with Java 21, Spring Boot 3, Kafka Streams, AWS, Kubernetes, PostgreSQL, DevSecOps, observability and mentoring. Confirm whether the title and ownership improve career scope. Salary is unpublished, so no comparison to the SGD 144,000 target reference is possible.
+
+
+## New active Singapore Java integration and liquidity-platform roles checked 22Oct2026
+
+### Priority 2: Encora: Fullstack Developer
+- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+
+[Application](https://job-boards.greenhouse.io/encora10/jobs/5205355007)
+
+Singapore role with Java, Spring Boot, Apache Camel, Kafka or other messaging, AngularJS or React, SQL and NoSQL, Docker, AWS, Kubernetes or OpenShift, CI and ELK. Use the hands-on Java technical-lead, integration-platform and cloud-modernization resume. Lead with Java 21, Apache Camel, Kafka Streams, Angular 18, AWS, Kubernetes, CI/CD, observability and mentoring. The generic title may understate current seniority, so confirm grade and architecture authority. Salary is unpublished, so no comparison to the SGD 144,000 target reference is possible.
+
+### Priority 2: OKX: Senior/Staff Software Engineer, Liquidity Platform
+- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+
+[Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
+
+Singapore or Hong Kong Senior or Staff role building 24x7 low-latency liquidity systems with Java 17+, Spring, Kafka, Redis, SQL, concurrency, JVM performance, Kubernetes, cloud infrastructure, reconciliation and AI coding tools. Use the hands-on technical-lead, event-driven Java and high-reliability platform resume. Lead with Java 21, Kafka Streams, Redis, AWS EKS/ECS, Kubernetes, observability, incident decisions and mentoring. Trading microstructure, FIX and sub-millisecond JVM design are preparation areas. Numeric pay is unpublished, so compare the actual guaranteed package with the SGD 144,000 target reference after level and compensation are known.

@@ -14054,6 +14054,116 @@
         }
       },
       "deduplication_note": "Distinct Jobgether ERP partner requisition and description. No employer, requisition or substantially identical project existed in the shared ledger."
+    },
+    {
+      "job_id": "encora-fullstack-java-camel-5205355007",
+      "employer": "Encora",
+      "title": "Fullstack Developer",
+      "requisition": "Greenhouse 5205355007",
+      "url": "https://job-boards.greenhouse.io/encora10/jobs/5205355007",
+      "canonical_url": "https://job-boards.greenhouse.io/encora10/jobs/5205355007",
+      "url_aliases": [],
+      "status_at_last_check": "Active official Encora Greenhouse page with complete application form and Apply controls",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore",
+      "arrangement": "Singapore location; onsite, hybrid, client-site and office-day expectations are not stated",
+      "eligibility": "Singapore work location is confirmed. The application asks whether the candidate is authorized to work where they reside, but sponsorship and Employment Pass support are not stated.",
+      "engagement_type": "Not stated",
+      "published_compensation": "Not published",
+      "compensation_geography": "Singapore base, bonus, benefits and any client-specific package are not published",
+      "sgd_comparison": "Unavailable because no compensation is published",
+      "authorization_sponsorship": "Unknown; application asks current work authorization but does not state a no-sponsorship rule",
+      "posted": "Not published",
+      "terms": "Employment type, client or project, office attendance, leave, benefits, probation, notice and payment schedule are not stated",
+      "hours_on_call": "Working hours, client timezone, production support and on-call are not stated",
+      "fit": "Java 8, Spring Boot, Spring Batch and Spring Cloud full-stack role with microservices, Apache Camel, ActiveMQ, Kafka or RabbitMQ, AngularJS or React, SQL and NoSQL, Docker, AWS, Kubernetes or OpenShift, CI, ELK, JVM profiling and SQL tuning.",
+      "preparation": "Prepare concrete Apache Camel integration patterns, messaging tradeoffs, JVM heap and thread-dump diagnosis, SQL execution-plan tuning and container deployment examples. AngularJS or React is a version and framework preparation point, not a reason to discount transferable Angular experience.",
+      "questions": "Who is the end client and project? What is the offered seniority for 8 to 9 plus years? Is Employment Pass sponsorship available? What are base salary, bonus and benefits? What are office or client-site days, hours, production support and on-call? Is the role permanent or contract?",
+      "upside": "Career-growth candidate for secure integration and production engineering; compensation to establish",
+      "verification": "Official Encora Greenhouse page checked 22 October 2026. It displayed Singapore, an active application form and the complete description. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/encora10/jobs/5205355007"
+      ],
+      "import_source": "Official Encora Greenhouse page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java full-stack, Apache Camel integration and production reliability",
+          "tailoring": "Lead with Java and Spring Boot, Apache Camel, Kafka and messaging, Angular, SQL, AWS or Azure, Kubernetes, CI/CD, observability, JVM diagnosis and secure integrations. Use only verified production and incident outcomes.",
+          "fit_and_preparation": "Near-direct technical fit and viable Singapore location. Establish level, pay, employment type, sponsor support and client-site expectations.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on Java technical lead, integration platform and cloud-native modernization",
+          "tailoring": "Lead with Java 21 and Spring Boot 3, Apache Camel, Kafka Streams, Angular 18, AWS, Kubernetes, CI/CD, observability, SQL tuning, mentoring and stakeholder delivery. Treat AngularJS or React as transferable preparation.",
+          "fit_and_preparation": "Strong technical fit, though the generic title may understate current lead seniority. Confirm architecture authority, grade and package.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No Encora record, Greenhouse 5205355007 or substantially identical Java and Apache Camel Singapore description existed in the shared ledger."
+    },
+    {
+      "job_id": "okx-liquidity-platform-7774178003",
+      "employer": "OKX",
+      "title": "Senior/Staff Software Engineer, Liquidity Platform",
+      "requisition": "Greenhouse 7774178003",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7774178003",
+      "canonical_url": "https://job-boards.greenhouse.io/okx/jobs/7774178003",
+      "url_aliases": [],
+      "status_at_last_check": "Active official OKX Greenhouse page with Apply control",
+      "last_checked": "2026-10-22",
+      "freshly_verified_during_import": true,
+      "location": "Singapore or Hong Kong",
+      "arrangement": "Singapore and Hong Kong locations are listed; onsite, hybrid and office-day expectations are not stated",
+      "eligibility": "Singapore is an advertised location. Work authorization, sponsorship and whether candidates may choose Singapore rather than Hong Kong are unknown.",
+      "engagement_type": "Not stated",
+      "published_compensation": "No numeric amount published; OKX advertises competitive total compensation plus healthcare, wellness and meal allowances",
+      "compensation_geography": "Singapore base, bonus, equity and total-cash composition are not published",
+      "sgd_comparison": "Unavailable because no numeric applicable compensation is published",
+      "authorization_sponsorship": "Unknown",
+      "posted": "Not published",
+      "terms": "Employment type, office cadence, leave, probation, notice, bonus and equity terms are not stated",
+      "hours_on_call": "The platform operates 24x7 and engineers build monitoring, auto-recovery and production safeguards. The on-call rota, shift or weekend coverage and compensation are not stated.",
+      "fit": "Senior or Staff engineering across Java 17 plus, Spring, Kafka, Redis, MySQL or PostgreSQL, concurrency, JVM performance, low-latency distributed systems, FIX, WebSocket, HTTP/2, Kubernetes, cloud infrastructure, reconciliation, monitoring and AI coding tools such as Claude Code and Codex.",
+      "preparation": "Prepare market microstructure, order lifecycle, PnL and risk, FIX 5.0, TCP or UDP performance, lock-free concurrency, garbage-free coding, JVM GC and sub-millisecond design. Payments and distributed-systems experience is transferable but must not be presented as direct market-making experience.",
+      "questions": "Can the role be based in Singapore and is Employment Pass sponsorship available? What level would be offered, Senior or Staff? What are base, bonus, equity and guaranteed cash? What are office days, Mandarin expectations, 24x7 on-call, weekend coverage and incident compensation? Which team specialization is hiring?",
+      "upside": "Career-growth and possible income-growth candidate, subject to Singapore package, level and 24x7 support terms",
+      "verification": "Official OKX Greenhouse page checked 22 October 2026. It displayed Singapore and Hong Kong, an active Apply control and full Senior or Staff description. No application or employer contact was made.",
+      "source_urls": [
+        "https://job-boards.greenhouse.io/okx/jobs/7774178003"
+      ],
+      "import_source": "Official OKX Greenhouse page checked 22 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "New worthwhile match prepared for ChatGPT alert; delivery will be reconciled on the next run."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java payments, low-latency distributed systems and AI-assisted engineering",
+          "tailoring": "Lead with Great Eastern payments, Java and Spring Boot, concurrency, Kafka, Redis or SQL, secure integrations, Kubernetes, observability, reconciliation and verified Claude Code or Codex practices. Prepare trading and FIX depth without overstating it.",
+          "fit_and_preparation": "Strong Java financial-systems and distributed-backend transfer with Staff-level upside. Market making, FIX and sub-millisecond trading are material preparation areas.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 2,
+          "resume_emphasis": "Hands-on technical lead, event-driven Java platform and high-reliability cloud systems",
+          "tailoring": "Lead with Java 21, Spring Boot 3, Kafka Streams, Redis, PostgreSQL or Oracle, AWS EKS or ECS, Kubernetes, observability, incident decisions and mentoring. Keep AI integration prototypes separate from production trading systems.",
+          "fit_and_preparation": "Strong technical leadership and reliability transfer. Trading microstructure, FIX and low-latency JVM optimization are significant but learnable preparation areas; confirm whether the scope preserves lead authority.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct OKX Liquidity Platform requisition 7774178003. Existing OKX records cover Asset and Earn, AI agents, growth and operations automation, not this 24x7 liquidity and market-making platform."
     }
   ]
 }

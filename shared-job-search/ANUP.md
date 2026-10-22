@@ -2886,3 +2886,20 @@ Full-time remote role within India for a direct fintech product company, buildin
 [Application](https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b)
 
 Full-time remote India lead role for cloud ERP using Java, Spring Boot or Quarkus, microservices, event-driven systems, PostgreSQL or MySQL, AWS, CI/CD, observability and mentoring. Use the senior Java backend, integration and hands-on leadership resume. Quarkus, Python analytics and ERP are preparation points. Pay and benefits are unpublished. Confirm the end client, employing entity, team size, coding ratio, hours, on-call and India package.
+
+
+## New active Singapore Java integration and liquidity-platform roles checked 22Oct2026
+
+### Priority 1: Encora: Fullstack Developer
+- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+
+[Application](https://job-boards.greenhouse.io/encora10/jobs/5205355007)
+
+Singapore role with a near-direct stack match: Java 8, Spring Boot, Spring Batch and Cloud, Apache Camel, ActiveMQ or Kafka or RabbitMQ, AngularJS or React, SQL and NoSQL, Docker, AWS, Kubernetes or OpenShift, ELK, JVM profiling and SQL tuning. Use the senior Java full-stack, Apache Camel integration and production-reliability resume. Salary, employment type, sponsorship, client, office cadence and on-call are unpublished. Confirm level, package and client-site expectations before a lengthy process.
+
+### Priority 1: OKX: Senior/Staff Software Engineer, Liquidity Platform
+- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+
+[Application](https://job-boards.greenhouse.io/okx/jobs/7774178003)
+
+Singapore or Hong Kong role building 24x7 low-latency trading and liquidity systems with Java 17+, Spring, Kafka, Redis, SQL, concurrency, JVM tuning, FIX, WebSocket, Kubernetes, cloud infrastructure, reconciliation and AI coding tools. Use the senior Java payments, distributed-systems and AI-assisted-engineering resume. Lead with Great Eastern payments, concurrency, secure integrations, Kafka, reconciliation and observability. Prepare market microstructure, FIX, lock-free algorithms, GC and sub-millisecond design without claiming unverified trading depth. Numeric pay, sponsorship, office cadence and on-call terms are unpublished.
