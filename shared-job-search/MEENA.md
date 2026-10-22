@@ -2860,28 +2860,28 @@ Full-time remote role explicitly open in India, owning architecture, development
 ## New active Singapore and India-remote Java roles checked 22Oct2026
 
 ### Priority 1: Undisclosed telecom partner via Jobgether: Java Tech Lead / Solution Architect (React, Telecom)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.lever.co/jobgether/64c90dc4-5207-4d7e-bda1-4808f0d499c3)
 
 India-remote contract with an approximately 50/50 architecture-leadership and hands-on coding split. Use the hands-on technical-lead, Java integration-architecture and cloud-modernization resume. Lead with Java 21/Spring Boot 3, Angular/TypeScript transfer to React, Kafka, Apache Camel, AWS/Kubernetes, security, architecture decisions and mentoring. Telecom BSS/OSS and React are preparation areas. Rate, duration, guaranteed hours, UK overlap and all contract economics are unpublished, so no comparison to the SGD 144,000 target reference is possible. Identify the client and contracting entity first.
 
 ### Priority 1: Undisclosed ERP partner via Jobgether: Java Tech Lead
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.lever.co/jobgether/4cdcb5e4-b784-4aad-a05b-e3ad96bcaa6b)
 
 Full-time remote India lead role for cloud ERP using Java, Spring Boot or Quarkus, microservices, event-driven systems, PostgreSQL or MySQL, AWS, CI/CD, observability and mentoring. Use the hands-on Java technical-lead, event-driven platform and modernization resume. Lead with Java 21, Spring Boot 3, Kafka, AWS EKS/ECS, Kubernetes, Terraform, CI/CD, observability and mentoring. Quarkus, ERP and Python analytics are preparation points. Pay is unpublished, so compare the actual package with the SGD 144,000 target only after terms are known.
 
 ### Priority 2: Temus: Software Developer (Java/AEM)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://job-boards.greenhouse.io/temus/jobs/5419090008)
 
 Singapore role covering Java, Spring Boot, Angular or React, SQL, microservices, Redis, Kubernetes, infrastructure as code and AWS or Azure. Experienced candidates may be considered for Team Lead or Technical Architect level. Use the hands-on technical-lead, Java full-stack and public-sector modernization resume. Lead with Java 21/Spring Boot 3, Angular 18, AWS, Kubernetes, Terraform, CI/CD, stakeholder delivery and mentoring. AEM is advantageous, not mandatory. Salary and sponsorship are unpublished. Confirm architect leveling, office or client-site expectations and whether pay can meet the SGD 144,000 target reference.
 
 ### Priority 2: SavvyMoney: Senior Software Development Engineer, Backend (India)
-- Alert history: Pending ChatGPT delivery. Reconcile after the alert is delivered.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger on 22Oct2026.
 
 [Application](https://jobs.ashbyhq.com/savvymoney/126f643c-2e75-4d55-b662-8c1beaccf62e)
 
