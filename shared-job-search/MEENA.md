@@ -3079,3 +3079,20 @@ Singapore Flexible full-time role posted about 20 October 2026. Use the hands-on
 [Application](https://jobs.ashbyhq.com/evolve-tech-llc/cb62f755-9881-4075-a792-99fa317502a1)
 
 Full-time remote role explicitly including India. Strong Java, Spring Boot, Kafka Streams, databases, cloud, Kubernetes and observability fit, but confirm whether the scope advances beyond the current lead role. Compensation and engagement terms are unpublished.
+
+
+## New ClickHouse Singapore remote opportunities checked 23Oct2026
+
+### Priority 1: ClickHouse: Senior Software Engineer - Cloud Infrastructure (APJ-Remote)
+- Alert history: Pending delivery in ChatGPT.
+
+[Application](https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2)
+
+Full-time remote role explicitly open in Singapore. Use the hands-on cloud-platform technical-lead resume. Lead with Java 21, AWS ECS or EKS, Kubernetes, Helm, Istio, Terraform, Kafka, observability, DevSecOps and cross-team delivery. Prepare Envoy, network topology, PKI and zero-trust design. Compensation is unpublished; confirm Singapore entity, sponsorship, equity, overlap and on-call.
+
+### Priority 1: ClickHouse: Senior Cloud Data Infrastructure Engineer (APJ Remote)
+- Alert history: Pending delivery in ChatGPT.
+
+[Application](https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c)
+
+Full-time remote role explicitly open in Singapore. Use the event-driven cloud-platform and technical-lead resume. Lead with Java 21, Kafka Streams, AWS EKS or ECS, Kubernetes, Helm, Istio, Terraform, observability and production ownership. Prepare Kubernetes operators, serverless database infrastructure, ClickHouse concepts, PagerDuty and Go or C++ collaboration. Compensation is unpublished; confirm Singapore entity, sponsorship, on-call load, equity and primary language.

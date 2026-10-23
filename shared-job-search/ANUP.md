@@ -3034,7 +3034,7 @@ Full-time Singapore banking role at SGD 10,000-13,000 monthly, or SGD 120,000-15
 ## New Singapore and India opportunities checked 23Oct2026
 
 ### Priority 1: Airwallex: Staff Software Engineer, Cards
-- Alert history: Pending delivery in ChatGPT.
+- Alert history: Delivered in ChatGPT and reconciled in the shared ledger.
 
 [Application](https://careers.airwallex.com/job/1711508a-927f-48c2-b3ef-0a79ccd0299d/staff-software-engineer-cards/)
 
@@ -3075,3 +3075,20 @@ India-remote full-time application-platform role covering Java or a comparable t
 [Application](https://genesys.wd1.myworkdayjobs.com/en-US/Genesys/job/Singapore-Flexible/Senior-Principal-Forward-Deployed-Engineer_JR111608)
 
 Singapore Flexible full-time role posted about 20 October 2026. Use the secure Java integration and enterprise-modernization resume. Prepare AI/CX architecture, customer discovery and productionization, and establish whether integration engineering can substitute for deep production AI experience. Compensation is unpublished.
+
+
+## New ClickHouse Singapore remote opportunities checked 23Oct2026
+
+### Priority 1: ClickHouse: Senior Software Engineer - Cloud Infrastructure (APJ-Remote)
+- Alert history: Pending delivery in ChatGPT.
+
+[Application](https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2)
+
+Full-time remote role explicitly open in Singapore. Use the senior Java cloud-platform and secure-infrastructure resume. Lead with Java 21, AKS, Kubernetes, Helm, Rancher, AWS or Azure, mTLS, observability and production debugging. Prepare Terraform or CloudFormation, Envoy or Istio, network topology, PKI and zero-trust design. Compensation is unpublished; confirm Singapore entity, sponsorship, equity, overlap and on-call.
+
+### Priority 1: ClickHouse: Senior Cloud Data Infrastructure Engineer (APJ Remote)
+- Alert history: Pending delivery in ChatGPT.
+
+[Application](https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c)
+
+Full-time remote role explicitly open in Singapore. Use the Java distributed-systems and cloud-native data-platform resume. Lead with Java 21, Kafka, AKS or Kubernetes, Helm, AWS or Azure, SQL, observability and production reliability. Prepare Kubernetes operators, serverless database infrastructure, ClickHouse concepts, PagerDuty and Go or C++ collaboration. Compensation is unpublished; confirm Singapore entity, sponsorship, on-call load, equity and primary language.

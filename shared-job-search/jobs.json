@@ -15107,10 +15107,10 @@
       ],
       "import_source": "Direct MyCareersFuture listing and current indexed role copy checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15165,10 +15165,10 @@
       ],
       "import_source": "Official Airwallex careers listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15220,10 +15220,10 @@
       ],
       "import_source": "Official Stacklok Greenhouse listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15275,10 +15275,10 @@
       ],
       "import_source": "Official Genesys Workday listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15330,10 +15330,10 @@
       ],
       "import_source": "Official Zscaler Greenhouse listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15385,10 +15385,10 @@
       ],
       "import_source": "Official Evolve Tech Ashby listing checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15440,10 +15440,10 @@
       ],
       "import_source": "Official CertifyOS Ashby search result plus current public copies checked 23 October 2026",
       "report_history": {
-        "already_reported": false,
-        "first_reported_date": null,
-        "state": "pending_delivery",
-        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+        "already_reported": true,
+        "first_reported_date": "2026-10-23",
+        "state": "delivered",
+        "note": "Actual ChatGPT final delivered; reconciled in the shared ledger on 23Oct2026. No application or employer contact."
       },
       "assessments": {
         "anup": {
@@ -15462,6 +15462,118 @@
         }
       },
       "deduplication_note": "No CertifyOS or substantially identical role existed in the ledger."
+    },
+    {
+      "job_id": "clickhouse-cloud-infrastructure-apj-7fa613e3",
+      "employer": "ClickHouse",
+      "title": "Senior Software Engineer - Cloud Infrastructure (APJ-Remote)",
+      "requisition": "Ashby 7fa613e3-ed23-47b3-b6d3-6a73c9607be2",
+      "url": "https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2",
+      "canonical_url": "https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2",
+      "url_aliases": [],
+      "status_at_last_check": "Active on official ClickHouse Ashby board",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore or Australia",
+      "arrangement": "Full-time remote. Singapore is explicitly listed.",
+      "eligibility": "Confirmed location eligibility for Singapore. Australia is also listed. India is not listed.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published for this Singapore/APJ opening.",
+      "compensation_geography": "Singapore package unknown. Do not apply compensation from US or other geographic variants.",
+      "sgd_comparison": "Unavailable because the Singapore opening publishes no cash amount.",
+      "authorization_sponsorship": "Work authorization and sponsorship are not stated. Confirm Singapore employment entity and Employment Pass support.",
+      "posted": "Employer ATS does not display a posted date. A public index first recorded the role on 5 March 2026; official listing remained active 23 October 2026.",
+      "terms": "Equity is stated for every new team member; healthcare contribution, location-specific time off and USD 500 remote home-office setup are listed. Cash, bonus and notice are not stated.",
+      "hours_on_call": "Global team and production ownership are stated; timezone overlap and formal on-call are not specified.",
+      "fit": "Java is explicitly accepted alongside Go or C++. The role builds multi-cloud distributed infrastructure, Kubernetes services, routing, traffic, service-mesh and security tooling across AWS, Azure or GCP.",
+      "preparation": "Prepare production distributed-systems design, Terraform or CloudFormation, Kubernetes control-plane patterns, Envoy or Istio, network topology, PKI, zero-trust networking, SOC 2 and GDPR. Establish whether Java remains a primary implementation language on this team.",
+      "questions": "Confirm Singapore employing entity and sponsorship, salary and currency, equity terms, primary language mix, APJ collaboration hours, on-call rotation, and whether hands-on service-mesh experience is a hard gate.",
+      "upside": "Career-growth and possible income-growth candidate through cloud-platform ownership; compensation to establish.",
+      "verification": "Official ClickHouse Ashby listing and ClickHouse careers board checked active 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/clickhouse/7fa613e3-ed23-47b3-b6d3-6a73c9607be2",
+        "https://clickhouse.com/company/careers"
+      ],
+      "import_source": "Official ClickHouse Ashby and careers pages checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Senior Java cloud-platform engineering, secure infrastructure and distributed systems",
+          "tailoring": "Lead with Java 21, Azure AKS, Kubernetes, Helm, Rancher, AWS, OAuth2 and mTLS, observability, production debugging and ownership of secure distributed services. Describe AI coding tools only as engineering acceleration and verification.",
+          "fit_and_preparation": "Strong adjacent platform stretch. Azure, Kubernetes and security align; establish Terraform or CloudFormation, Envoy or Istio and low-level networking depth.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Hands-on technical leadership for cloud-native distributed platforms",
+          "tailoring": "Lead with Java 21, AWS ECS and EKS, Kubernetes, Helm, Istio, Terraform, Kafka, observability, DevSecOps, production operations and cross-team technical leadership.",
+          "fit_and_preparation": "Very strong transferable platform fit. Prepare Envoy, network topology, PKI, zero trust and large-scope infrastructure delivery examples.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "No ClickHouse or substantially identical APJ cloud-infrastructure requisition existed in the ledger."
+    },
+    {
+      "job_id": "clickhouse-cloud-data-infrastructure-apj-b6e7fb97",
+      "employer": "ClickHouse",
+      "title": "Senior Cloud Data Infrastructure Engineer (APJ Remote)",
+      "requisition": "Ashby b6e7fb97-e7e2-4e29-9476-b777d787a94c",
+      "url": "https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c",
+      "canonical_url": "https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c",
+      "url_aliases": [],
+      "status_at_last_check": "Active on official ClickHouse Ashby board",
+      "last_checked": "2026-10-23",
+      "freshly_verified_during_import": true,
+      "location": "Singapore or Australia",
+      "arrangement": "Full-time remote. Singapore is explicitly listed.",
+      "eligibility": "Confirmed location eligibility for Singapore. Australia is also listed. India is not listed.",
+      "engagement_type": "Full-time",
+      "published_compensation": "Not published for this Singapore/APJ opening.",
+      "compensation_geography": "Singapore package unknown. A third-party USD range was not used because its geography and employer provenance were not established.",
+      "sgd_comparison": "Unavailable because the official Singapore opening publishes no cash amount.",
+      "authorization_sponsorship": "Work authorization and sponsorship are not stated. Confirm Singapore employment entity and Employment Pass support.",
+      "posted": "Employer ATS does not display a posted date. A public index reports 22 July 2026; official listing remained active 23 October 2026.",
+      "terms": "Equity is stated for every new team member; healthcare contribution, location-specific time off and USD 500 remote home-office setup are listed. Cash, bonus and notice are not stated.",
+      "hours_on_call": "PagerDuty on-call familiarity and production debugging are requested. Rotation, frequency and APJ overlap hours are not stated.",
+      "fit": "Java is explicitly accepted alongside Go or C++. The team builds a serverless, cloud-native database platform, an in-house Kubernetes operator, metrics pipelines and scalable distributed infrastructure; Kafka or similar ingestion technology is relevant.",
+      "preparation": "Prepare distributed systems, production on-call, Kubernetes operators and controllers, cloud infrastructure, large-scale data ingestion and transformation, ClickHouse concepts and Go or C++ collaboration.",
+      "questions": "Confirm Singapore employing entity and sponsorship, salary and currency, equity, primary implementation language, PagerDuty rotation, after-hours load, APJ overlap, and how much ClickHouse or operator experience is required on day one.",
+      "upside": "Career-growth candidate with direct Java, Kafka, cloud, Kubernetes and high-scale data-platform transfer; compensation to establish.",
+      "verification": "Official ClickHouse Ashby listing and ClickHouse careers board checked active 23 October 2026. No application or employer contact.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/clickhouse/b6e7fb97-e7e2-4e29-9476-b777d787a94c",
+        "https://clickhouse.com/company/careers"
+      ],
+      "import_source": "Official ClickHouse Ashby and careers pages checked 23 October 2026",
+      "report_history": {
+        "already_reported": false,
+        "first_reported_date": null,
+        "state": "pending_delivery",
+        "note": "Prepared for the 23Oct2026 ChatGPT alert. Do not mark delivered until the alert is actually shown."
+      },
+      "assessments": {
+        "anup": {
+          "priority_tier": 1,
+          "resume_emphasis": "Java distributed systems, cloud-native data platforms and production reliability",
+          "tailoring": "Lead with Java 21, Kafka, AKS and Kubernetes, Helm, AWS or Azure, observability, production debugging, SQL and secure service delivery. Add Apache Camel only where it supports ingestion or integration examples.",
+          "fit_and_preparation": "Strong adjacent fit. Prepare Kubernetes operator concepts, PagerDuty examples and serverless database architecture; Go or C++ is a preparation point, not an automatic blocker.",
+          "application_status": "Not applied or approved"
+        },
+        "meena": {
+          "priority_tier": 1,
+          "resume_emphasis": "Lead-level event-driven cloud platforms, Kubernetes and data infrastructure",
+          "tailoring": "Lead with Java 21, Kafka and Kafka Streams, AWS EKS and ECS, Kubernetes, Helm, Istio, Terraform, observability, production reliability and technical leadership.",
+          "fit_and_preparation": "Excellent transferable stack and ownership fit. Prepare Kubernetes operators, ClickHouse architecture, data-at-scale tradeoffs and on-call evidence.",
+          "application_status": "Not applied or approved"
+        }
+      },
+      "deduplication_note": "Distinct from ClickHouse Cloud Infrastructure APJ: this requisition belongs to the Cloud Scaling team and focuses on serverless database infrastructure, Kubernetes operators and data pipelines."
     }
   ]
 }
